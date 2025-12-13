@@ -67,13 +67,16 @@ export default function SearchPage() {
 
     return videos
       .filter((v) => {
-        // Text Match
+        // Text Match - search in title, description, category, channelName, AND tags
+        const tagsMatch = v.tags?.some(tag => tag.toLowerCase().includes(query)) || false;
         const matchesText =
           !query ||
           v.title?.toLowerCase().includes(query) ||
           v.description?.toLowerCase().includes(query) ||
           v.category?.toLowerCase().includes(query) ||
-          v.channelName?.toLowerCase().includes(query);
+          v.channelName?.toLowerCase().includes(query) ||
+          v.seriesName?.toLowerCase().includes(query) ||
+          tagsMatch;
 
         // Category Match
         const matchesCategory = selectedCategory === 'all' || v.category === selectedCategory;
@@ -94,22 +97,32 @@ export default function SearchPage() {
   }, [videos, localSearch, selectedCategory, selectedDecade]);
 
   // Search suggestions
+  // Search suggestions - also search in tags
   const suggestions = useMemo(() => {
-    if (!localSearch.trim() || localSearch.length < 2) return [];
+    if (!localSearch.trim() || localSearch.length < 1) return [];
 
     const query = localSearch.toLowerCase();
+    
+    // Title matches
     const titleMatches = videos
       .filter((v) => v.title?.toLowerCase().includes(query))
       .map((v) => v.title)
       .slice(0, 5);
 
+    // Tag matches - find videos with matching tags and show their titles
+    const tagMatches = videos
+      .filter((v) => v.tags?.some(tag => tag.toLowerCase().includes(query)))
+      .map((v) => v.title)
+      .slice(0, 3);
+
+    // Category matches
     const categoryMatches = [
       ...new Set(
         videos.filter((v) => v.category?.toLowerCase().includes(query)).map((v) => v.category)
       ),
     ].slice(0, 3);
 
-    return [...new Set([...titleMatches, ...categoryMatches])].slice(0, 6);
+    return [...new Set([...titleMatches, ...tagMatches, ...categoryMatches])].slice(0, 8);
   }, [videos, localSearch]);
 
   // Add to history
