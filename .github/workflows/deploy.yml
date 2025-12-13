@@ -1,0 +1,60 @@
+name: Deploy to Strato VPS
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      # --- Frontend Build ---
+      - name: Install Frontend Dependencies
+        working-directory: ./code/frontend
+        run: npm ci
+
+      - name: Build Frontend
+        working-directory: ./code/frontend
+        run: npm run build
+
+      # --- Backend Setup ---
+      - name: Install Backend Dependencies
+        working-directory: ./code/backend
+        run: npm ci --production
+
+      # --- Deployment ---
+      - name: Setup SSH Key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.VPS_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Deploy to Server via Rsync
+        run: |
+          # Sync Frontend Build
+          rsync -avz --delete ./code/frontend/dist/ ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:/var/www/remaike/code/frontend/dist/
+
+          # Sync Backend Code (excluding node_modules to save time, we install on server or sync if needed)
+          # Better to sync package.json and install on server, or sync everything if node_modules are compatible (linux-to-linux)
+          # Here we sync source and install on server to be safe
+          rsync -avz --exclude 'node_modules' --exclude '.env' ./code/backend/ ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:/var/www/remaike/code/backend/
+
+      - name: Restart Application
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            cd /var/www/remaike/code/backend
+            npm ci --production
+            pm2 restart ecosystem.config.cjs || pm2 start ecosystem.config.cjs

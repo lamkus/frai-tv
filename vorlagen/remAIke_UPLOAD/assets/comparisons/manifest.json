@@ -1,0 +1,66 @@
+[
+  {
+    "id": "superman-scene1",
+    "name": "Superman (1941) - The Mad Scientist",
+    "before": "assets/comparisons/superman-scene1_before.jpg",
+    "after": "assets/comparisons/superman-scene1_after.jpg",
+    "youtubeId": "SSwRqwXDCXY",
+    "views": 2021297
+  },
+  {
+    "id": "superman-scene2",
+    "name": "Superman (1941) - Action Scene",
+    "before": "assets/comparisons/superman-scene2_before.jpg",
+    "after": "assets/comparisons/superman-scene2_after.jpg",
+    "youtubeId": "SSwRqwXDCXY",
+    "views": 2021297
+  },
+  {
+    "id": "superman-scene3",
+    "name": "Superman (1941) - Finale",
+    "before": "assets/comparisons/superman-scene3_before.jpg",
+    "after": "assets/comparisons/superman-scene3_after.jpg",
+    "youtubeId": "SSwRqwXDCXY",
+    "views": 2021297
+  },
+  {
+    "id": "felix-feline-follies",
+    "name": "Felix the Cat - Feline Follies (1919)",
+    "before": "assets/comparisons/felix-feline-follies_before.jpg",
+    "after": "assets/comparisons/felix-feline-follies_after.jpg",
+    "youtubeId": "3Un9zOQzP5I",
+    "views": 1839375
+  },
+  {
+    "id": "betty-boop-minnie",
+    "name": "Betty Boop - Minnie The Moocher (1932)",
+    "before": "assets/comparisons/betty-boop-minnie_before.jpg",
+    "after": "assets/comparisons/betty-boop-minnie_after.jpg",
+    "youtubeId": "1jYhI6x1j2E",
+    "views": 1245332
+  },
+  {
+    "id": "frankenstein-1910",
+    "name": "Frankenstein (1910)",
+    "before": "assets/comparisons/frankenstein-1910_before.jpg",
+    "after": "assets/comparisons/frankenstein-1910_after.jpg",
+    "youtubeId": "wN5a0LI8Y8M",
+    "views": 407760
+  },
+  {
+    "id": "duck-and-cover",
+    "name": "Duck and Cover (1951)",
+    "before": "assets/comparisons/duck-and-cover_before.jpg",
+    "after": "assets/comparisons/duck-and-cover_after.jpg",
+    "youtubeId": "IKqXu-5jw60",
+    "views": 1385510
+  },
+  {
+    "id": "superman-animated",
+    "name": "Superman Animated Series (1941)",
+    "before": "assets/comparisons/superman-animated_before.jpg",
+    "after": "assets/comparisons/superman-animated_after.jpg",
+    "youtubeId": "SSwRqwXDCXY",
+    "views": 2021297
+  }
+]

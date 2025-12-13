@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube API Test</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 20px;
+        background: #1a1a2e;
+        color: white;
+      }
+      .video {
+        display: inline-block;
+        margin: 10px;
+        cursor: pointer;
+      }
+      .video img {
+        width: 200px;
+        border-radius: 8px;
+      }
+      .video:hover {
+        transform: scale(1.05);
+      }
+      button {
+        padding: 10px 20px;
+        margin: 5px;
+        cursor: pointer;
+      }
+      #player {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: black;
+        padding: 20px;
+        border-radius: 10px;
+        display: none;
+      }
+      #player.open {
+        display: block;
+      }
+      #close {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        color: white;
+        cursor: pointer;
+        font-size: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>FRai.TV API Test</h1>
+    <div id="status">Loading...</div>
+    <div id="videos"></div>
+
+    <div id="player">
+      <span id="close" onclick="closePlayer()">&times;</span>
+      <iframe id="iframe" width="800" height="450" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <script>
+      const API_KEY = 'AIzaSyBbM2BQflcIsduF9cioo79TDd7SZ5F83m8';
+      const CHANNEL_ID = 'UCVFv6Egpl0LDvigpFbQXNeQ';
+
+      async function loadVideos() {
+        try {
+          // 1. Get uploads playlist
+          const channelUrl = `https://www.googleapis.com/youtube/v3/channels?part=contentDetails&id=${CHANNEL_ID}&key=${API_KEY}`;
+          const channelResp = await fetch(channelUrl);
+          const channelData = await channelResp.json();
+
+          if (!channelData.items) {
+            document.getElementById('status').textContent = 'Error: ' + JSON.stringify(channelData);
+            return;
+          }
+
+          const playlistId = channelData.items[0].contentDetails.relatedPlaylists.uploads;
+
+          // 2. Get videos
+          const videosUrl = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=${playlistId}&maxResults=20&key=${API_KEY}`;
+          const videosResp = await fetch(videosUrl);
+          const videosData = await videosResp.json();
+
+          document.getElementById(
+            'status'
+          ).textContent = `Loaded ${videosData.items.length} videos!`;
+
+          const container = document.getElementById('videos');
+          videosData.items.forEach((item) => {
+            const ytId = item.snippet.resourceId.videoId;
+            const thumb = item.snippet.thumbnails.medium.url;
+            const title = item.snippet.title;
+
+            const div = document.createElement('div');
+            div.className = 'video';
+            div.innerHTML = `<img src="${thumb}"><br><small>${title.substring(0, 30)}...</small>`;
+            div.onclick = () => openPlayer(ytId);
+            container.appendChild(div);
+          });
+        } catch (err) {
+          document.getElementById('status').textContent = 'Error: ' + err.message;
+        }
+      }
+
+      function openPlayer(ytId) {
+        document.getElementById(
+          'iframe'
+        ).src = `https://www.youtube-nocookie.com/embed/${ytId}?autoplay=1`;
+        document.getElementById('player').classList.add('open');
+      }
+
+      function closePlayer() {
+        document.getElementById('iframe').src = '';
+        document.getElementById('player').classList.remove('open');
+      }
+
+      loadVideos();
+    </script>
+  </body>
+</html>

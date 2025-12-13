@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>remAIke.IT | Neural Optical Engine</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #00ff00;
+            --dark: #000000;
+            --light: #ffffff;
+            --glass: rgba(255, 255, 255, 0.05);
+            --glass-border: rgba(255, 255, 255, 0.1);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background: var(--dark);
+            color: var(--light);
+            font-family: 'Inter', sans-serif;
+            height: 100vh;
+            overflow: hidden; /* No scrollbars */
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* --- BACKGROUND CANVAS --- */
+        #matrix-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.6; /* Dim slightly for text readability */
+        }
+
+        /* --- UI OVERLAY --- */
+        .ui-layer {
+            position: relative;
+            z-index: 10;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 40px;
+            background: radial-gradient(circle at center, transparent 0%, #000000 120%);
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+            letter-spacing: -1px;
+            text-transform: uppercase;
+        }
+        .logo span { color: var(--primary); }
+
+        nav a {
+            color: var(--light);
+            text-decoration: none;
+            margin-left: 30px;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            opacity: 0.7;
+            transition: opacity 0.3s;
+        }
+        nav a:hover { opacity: 1; color: var(--primary); }
+
+        /* Hero Content */
+        .hero-content {
+            max-width: 600px;
+        }
+
+        h1 {
+            font-size: 80px;
+            line-height: 0.9;
+            font-weight: 800;
+            margin-bottom: 20px;
+            background: linear-gradient(to right, #fff, #aaa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p.subtitle {
+            font-size: 18px;
+            opacity: 0.8;
+            margin-bottom: 40px;
+            font-weight: 300;
+            max-width: 400px;
+            line-height: 1.5;
+        }
+
+        .btn-primary {
+            background: transparent;
+            border: 1px solid var(--primary);
+            color: var(--primary);
+            padding: 15px 40px;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary);
+            color: #000;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.4);
+        }
+
+        /* Footer Controls */
+        .controls {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            opacity: 0.5;
+            font-size: 12px;
+            font-family: monospace;
+        }
+
+        /* --- MODAL (YouTube) --- */
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.4s ease;
+        }
+
+        .modal.active {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        .modal-content {
+            width: 90%;
+            max-width: 1200px;
+            height: 80vh;
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            gap: 20px;
+            background: #0a0a0a;
+            border: 1px solid #222;
+            padding: 20px;
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 30px;
+            cursor: pointer;
+            opacity: 0.7;
+            transition: opacity 0.3s;
+        }
+        .close-modal:hover { opacity: 1; color: var(--primary); }
+
+        /* Video Player */
+        .video-wrapper {
+            width: 100%;
+            height: 100%;
+            background: #000;
+            position: relative;
+        }
+        #yt-player {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Carousel */
+        .carousel-wrapper {
+            overflow-y: auto;
+            padding-right: 10px;
+        }
+
+        .carousel-wrapper::-webkit-scrollbar {
+            width: 5px;
+        }
+        .carousel-wrapper::-webkit-scrollbar-thumb {
+            background: #333;
+        }
+
+        .yt-item {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            opacity: 0.6;
+            transition: opacity 0.2s;
+        }
+        .yt-item:hover, .yt-item.active {
+            opacity: 1;
+        }
+        .yt-item.active .yt-title {
+            color: var(--primary);
+        }
+
+        .yt-thumbnail-wrapper {
+            position: relative;
+            aspect-ratio: 16/9;
+            overflow: hidden;
+            border-radius: 4px;
+        }
+        .yt-thumb {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .yt-title {
+            font-size: 12px;
+            line-height: 1.4;
+            color: #fff;
+        }
+
+        /* Loading State */
+        #yt-loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: var(--primary);
+        }
+
+        @media (max-width: 900px) {
+            .modal-content {
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr;
+            }
+            h1 { font-size: 48px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- BACKGROUND CANVAS -->
+    <canvas id="matrix-canvas"></canvas>
+
+    <!-- UI LAYER -->
+    <div class="ui-layer">
+        <header>
+            <div class="logo">rem<span>AI</span>ke.IT</div>
+            <nav>
+                <a href="#">Studio</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+
+        <section class="hero-content">
+            <h1>NEURAL<br>OPTICAL<br>ENGINE</h1>
+            <p class="subtitle">
+                Erlebe die nächste Generation der Video-Restaurierung.
+                Echtzeit-Upscaling und Artefakt-Entfernung mit KI.
+            </p>
+            <button id="open-showreel" class="btn-primary">
+                <i class="fas fa-play"></i> Showreel ansehen
+            </button>
+        </section>
+
+        <div class="controls">
+            <span>ORIGINAL ▲ | ▼ ENHANCED 8K</span>
+            <span>SCROLL TO INTERACT</span>
+        </div>
+    </div>
+
+    <!-- YOUTUBE MODAL -->
+    <div id="video-modal" class="modal">
+        <button class="close-modal">&times;</button>
+        <div class="modal-content">
+            <!-- Left: Player -->
+            <div class="video-wrapper">
+                <div id="yt-loading">
+                    <i class="fas fa-circle-notch fa-spin fa-2x"></i>
+                    <br><br>Lade Showreel...
+                </div>
+                <div id="yt-player"></div>
+            </div>
+
+            <!-- Right: Playlist -->
+            <div class="carousel-wrapper" id="yt-carousel">
+                <!-- Items injected via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- YouTube API -->
+    <script src="https://www.youtube.com/iframe_api" async></script>
+
+    <script>
+        /* ----------------------------------------------------------------
+           MATRIX SLIDER LOGIC
+           ---------------------------------------------------------------- */
+        // Archived matrix canvas removed from active layout
+        const ctx = canvas.getContext('2d');
+
+        // Images
+        const imgOrig = new Image();
+        const imgEnh = new Image();
+        let imagesReady = 0;
+
+        // Matrix config
+        const matrixChars = "0123456789ABCDEF";
+        const fontSize = 14; // Slightly larger for background
+        let drops = [];
+        let columns = 0;
+
+        // Slider position
+        let sliderPos = 0;
+        const sliderSpeed = 0.002; // Slower for background
+        const bandHeight = 40; // Thicker band
+
+        let imgWidth = 0;
+        let imgHeight = 0;
+
+        function resizeCanvas() {
+            // Fullscreen canvas
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+
+            ctx.imageSmoothingEnabled = false;
+
+            // Reset matrix drops
+            columns = Math.floor(canvas.width / fontSize);
+            drops = [];
+            for (let i = 0; i < columns; i++) {
+                drops[i] = Math.random() * (bandHeight / fontSize);
+            }
+        }
+
+        function onImageLoad() {
+            imagesReady++;
+            if (imagesReady === 2) {
+                imgWidth = imgOrig.naturalWidth;
+                imgHeight = imgOrig.naturalHeight;
+                resizeCanvas();
+                loop();
+            }
+        }
+
+        imgOrig.onload = onImageLoad;
+        imgEnh.onload = onImageLoad;
+        // Using the paths from the backup file
+        imgOrig.src = 'assets/comparisons/betty-boop-minnie_before.jpg';
+        imgEnh.src = 'assets/comparisons/betty-boop-minnie_after.jpg';
+
+        function drawMatrixBand(y) {
+            ctx.save();
+            ctx.beginPath();
+            ctx.rect(0, y, canvas.width, bandHeight);
+            ctx.clip();
+
+            ctx.fillStyle = 'rgba(0, 20, 0, 0.8)';
+            ctx.fillRect(0, y, canvas.width, bandHeight);
+
+            ctx.fillStyle = '#0F0';
+            ctx.font = fontSize + 'px monospace';
+
+            for (let i = 0; i < drops.length; i++) {
+                const text = matrixChars.charAt(Math.floor(Math.random() * matrixChars.length));
+                const charY = y + (drops[i] * fontSize);
+
+                if (charY >= y && charY <= y + bandHeight) {
+                    ctx.fillText(text, i * fontSize, charY);
+                }
+
+                if (drops[i] * fontSize > bandHeight) {
+                    if (Math.random() > 0.95) drops[i] = 0;
+                }
+                drops[i] += 0.15;
+            }
+            ctx.restore();
+
+            // Glow lines
+            ctx.strokeStyle = '#0F0';
+            ctx.lineWidth = 2;
+            ctx.shadowBlur = 10;
+            ctx.shadowColor = '#0F0';
+
+            ctx.beginPath();
+            ctx.moveTo(0, y);
+            ctx.lineTo(canvas.width, y);
+            ctx.stroke();
+
+            ctx.beginPath();
+            ctx.moveTo(0, y + bandHeight);
+            ctx.lineTo(canvas.width, y + bandHeight);
+            ctx.stroke();
+            ctx.shadowBlur = 0;
+        }
+
+        function drawImageCover(img, x, y, w, h) {
+            // Simulate object-fit: cover
+            const imgRatio = img.width / img.height;
+            const canvasRatio = w / h;
+            let renderW, renderH, renderX, renderY;
+
+            if (canvasRatio > imgRatio) {
+                renderW = w;
+                renderH = w / imgRatio;
+                renderX = 0;
+                renderY = (h - renderH) / 2;
+            } else {
+                renderH = h;
+                renderW = h * imgRatio;
+                renderY = 0;
+                renderX = (w - renderW) / 2;
+            }
+            ctx.drawImage(img, renderX, renderY, renderW, renderH);
+        }
+
+        function loop() {
+            requestAnimationFrame(loop);
+            if (imagesReady < 2) return;
+
+            const w = canvas.width;
+            const h = canvas.height;
+
+            sliderPos += sliderSpeed;
+            if (sliderPos > 1) sliderPos = 0;
+
+            const bandY = sliderPos * (h - bandHeight);
+
+            ctx.fillStyle = '#000';
+            ctx.fillRect(0, 0, w, h);
+
+            // Draw ORIGINAL (Top)
+            ctx.save();
+            ctx.beginPath();
+            ctx.rect(0, 0, w, bandY);
+            ctx.clip();
+            drawImageCover(imgOrig, 0, 0, w, h);
+            ctx.restore();
+
+            // Draw ENHANCED (Bottom)
+            ctx.save();
+            ctx.beginPath();
+            ctx.rect(0, bandY + bandHeight, w, h - bandY - bandHeight);
+            ctx.clip();
+            drawImageCover(imgEnh, 0, 0, w, h);
+            ctx.restore();
+
+            drawMatrixBand(bandY);
+        }
+
+        window.addEventListener('resize', resizeCanvas);
+
+
+        /* ----------------------------------------------------------------
+           YOUTUBE LOGIC
+           ---------------------------------------------------------------- */
+        let player = null;
+        let channelData = null;
+        let currentVideoIndex = 0;
+        const modal = document.getElementById('video-modal');
+        const openBtn = document.getElementById('open-showreel');
+        const closeBtn = document.querySelector('.close-modal');
+
+        // Modal Controls
+        openBtn.addEventListener('click', () => {
+            modal.classList.add('active');
+            if (!player && window.YT && window.YT.Player) {
+                initYouTubePlayer();
+            } else if (player && player.playVideo) {
+                player.playVideo();
+            }
+        });
+
+        closeBtn.addEventListener('click', () => {
+            modal.classList.remove('active');
+            if (player && player.pauseVideo) {
+                player.pauseVideo();
+            }
+        });
+
+        // Close on click outside
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.classList.remove('active');
+                if (player && player.pauseVideo) {
+                    player.pauseVideo();
+                }
+            }
+        });
+
+        // API Logic
+        async function fetchChannelData() {
+            try {
+                const response = await fetch('/api/youtube/channel');
+                if (!response.ok) throw new Error('Failed to fetch');
+                return await response.json();
+            } catch (error) {
+                console.error('YouTube API Error:', error);
+                document.getElementById('yt-loading').innerHTML = 'Fehler beim Laden';
+                return null;
+            }
+        }
+
+        window.onYouTubeIframeAPIReady = function() {
+            // Wait for user to open modal to init player, or init if modal is already open
+            if (modal.classList.contains('active')) {
+                initYouTubePlayer();
+            }
+        };
+
+        async function initYouTubePlayer() {
+            if (player) return; // Already initialized
+
+            channelData = await fetchChannelData();
+            if (!channelData || !channelData.videos || channelData.videos.length === 0) {
+                document.getElementById('yt-loading').innerHTML = 'Keine Videos gefunden';
+                return;
+            }
+
+            document.getElementById('yt-loading').style.display = 'none';
+
+            const firstVideo = channelData.videos[0];
+            player = new YT.Player('yt-player', {
+                videoId: firstVideo.id,
+                playerVars: {
+                    autoplay: 1,
+                    modestbranding: 1,
+                    rel: 0
+                },
+                events: {
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+
+            renderVideoCarousel();
+        }
+
+        function onPlayerStateChange(event) {
+            if (event.data === YT.PlayerState.ENDED) {
+                playNextVideo();
+            }
+        }
+
+        function renderVideoCarousel() {
+            const carousel = document.getElementById('yt-carousel');
+            carousel.innerHTML = '';
+
+            channelData.videos.forEach((video, index) => {
+                const item = document.createElement('div');
+                item.className = 'yt-item';
+                if (index === currentVideoIndex) item.classList.add('active');
+
+                item.innerHTML = `
+                    <div class="yt-thumbnail-wrapper">
+                        <img src="${video.thumbnail}" class="yt-thumb">
+                    </div>
+                    <p class="yt-title">${video.title}</p>
+                `;
+
+                item.addEventListener('click', () => playVideo(index));
+                carousel.appendChild(item);
+            });
+        }
+
+        function playVideo(index) {
+            if (!player || !channelData) return;
+            currentVideoIndex = index;
+            player.loadVideoById(channelData.videos[index].id);
+
+            // Update UI
+            document.querySelectorAll('.yt-item').forEach((el, i) => {
+                el.classList.toggle('active', i === index);
+            });
+        }
+
+        function playNextVideo() {
+            const nextIndex = (currentVideoIndex + 1) % channelData.videos.length;
+            playVideo(nextIndex);
+        }
+
+    </script>
+</body>
+</html>

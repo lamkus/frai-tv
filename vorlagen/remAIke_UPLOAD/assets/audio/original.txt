@@ -1,0 +1,3 @@
+[ORIGINAL AUDIO PLACEHOLDER]
+Dies ist ein Platzhalter für die Original-VHS-Audio-Datei.
+In einer echten Implementierung würde hier eine MP3-Datei mit dem ursprünglichen VHS-Audio liegen.

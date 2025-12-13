@@ -1,0 +1,96 @@
+{
+  "generated_at": "2025-10-22T16:40:01.806282",
+  "total_comparisons": 3,
+  "comparisons": [
+    {
+      "id": 1,
+      "title": "19.11.09 Feline Follies",
+      "status": "VALID",
+      "original": {
+        "filename": "01_original.mp4",
+        "duration_seconds": 10.01,
+        "frames": 0,
+        "bitrate_kbps": 109260,
+        "file_size_mb": 130.4
+      },
+      "enhanced": {
+        "filename": "01_enhanced.mp4",
+        "duration_seconds": 9.94,
+        "frames": 0,
+        "bitrate_kbps": 140245,
+        "file_size_mb": 166.2
+      },
+      "verification": {
+        "duration_match": 1,
+        "duration_difference_seconds": 0.07,
+        "frame_count_match": null,
+        "timestamp": "2025-10-22 14:39:37"
+      },
+      "specs": {
+        "resolution": "7680x4320",
+        "codec": "hevc",
+        "frame_rate": "29.97 fps"
+      }
+    },
+    {
+      "id": 2,
+      "title": "1943_Tokyo_Jokio_Merry_Melodies_sls",
+      "status": "VALID",
+      "original": {
+        "filename": "02_original.mp4",
+        "duration_seconds": 10.01,
+        "frames": 0,
+        "bitrate_kbps": 217115,
+        "file_size_mb": 259.1
+      },
+      "enhanced": {
+        "filename": "02_enhanced.mp4",
+        "duration_seconds": 9.94,
+        "frames": 0,
+        "bitrate_kbps": 251579,
+        "file_size_mb": 298.2
+      },
+      "verification": {
+        "duration_match": 1,
+        "duration_difference_seconds": 0.07,
+        "frame_count_match": null,
+        "timestamp": "2025-10-22 14:39:37"
+      },
+      "specs": {
+        "resolution": "7680x4320",
+        "codec": "hevc",
+        "frame_rate": "29.97 fps"
+      }
+    },
+    {
+      "id": 3,
+      "title": "20.02.22 Felix The Big Game Hunter",
+      "status": "VALID",
+      "original": {
+        "filename": "03_original.mp4",
+        "duration_seconds": 9.87,
+        "frames": 0,
+        "bitrate_kbps": 334778,
+        "file_size_mb": 393.8
+      },
+      "enhanced": {
+        "filename": "03_enhanced.mp4",
+        "duration_seconds": 9.19,
+        "frames": 0,
+        "bitrate_kbps": 395764,
+        "file_size_mb": 433.6
+      },
+      "verification": {
+        "duration_match": 1,
+        "duration_difference_seconds": 0.68,
+        "frame_count_match": null,
+        "timestamp": "2025-10-22 14:39:37"
+      },
+      "specs": {
+        "resolution": "7680x4320",
+        "codec": "hevc",
+        "frame_rate": "29.97 fps"
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "channel": {
+    "id": "UCremAIkeIT",
+    "title": "remAIke.IT",
+    "description": "Neural Optical Engine - Professional AI Video Restoration. 8K Upscaling, SMPTE Sync, Server Farm Processing.",
+    "thumbnail": "https://yt3.googleusercontent.com/ytc/AIdro_kRemAIkeIT",
+    "customUrl": "@remAIke_IT"
+  },
+  "videos": [
+    { 
+      "id": "G5xZ9MSka5g", 
+      "title": "Neural Superman Rebuild - 8K REMASTER", 
+      "thumbnail": "https://img.youtube.com/vi/G5xZ9MSka5g/maxresdefault.jpg", 
+      "published": "8K REMASTER · 02:18"
+    },
+    { 
+      "id": "Tr92gyfLRqk", 
+      "title": "Optical FillLoading Demo", 
+      "thumbnail": "https://img.youtube.com/vi/Tr92gyfLRqk/maxresdefault.jpg", 
+      "published": "Server Farm Ingest · 01:04"
+    },
+    { 
+      "id": "YE7VzlLtp-4", 
+      "title": "Archive Intake Raw", 
+      "thumbnail": "https://img.youtube.com/vi/YE7VzlLtp-4/maxresdefault.jpg", 
+      "published": "Source Capture · 00:42"
+    },
+    { 
+      "id": "lGiC-dQMiik", 
+      "title": "Superman - Destruction Inc. (1943) 8K", 
+      "thumbnail": "https://img.youtube.com/vi/lGiC-dQMiik/maxresdefault.jpg", 
+      "published": "Fleischer Restoration · 07:42"
+    },
+    { 
+      "id": "OqBa6KH5iMU", 
+      "title": "Superman - Eleventh Hour (1942) 8K", 
+      "thumbnail": "https://img.youtube.com/vi/OqBa6KH5iMU/maxresdefault.jpg", 
+      "published": "Fleischer Restoration · 08:15"
+    }
+  ]
+}

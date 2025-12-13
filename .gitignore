@@ -1,0 +1,49 @@
+# Local deploy configuration (never commit)
+.deploy.local.ps1
+
+# Local secrets / env
+**/.env
+**/.env.local
+!**/.env.example
+!**/.env.production
+
+# Local OAuth tokens / runtime state
+tmp/
+**/tmp/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+
+# Credentials
+*.xml
+*.pem
+*.key
+
+# Logs
+*.log
+npm-debug.log*
+
+# Large media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Archives
+*.zip
+*.rar
+*.7z
+
+# Vite cache
+.vite/
+
+# Task artifacts
+task_*

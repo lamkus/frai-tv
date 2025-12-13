@@ -1,0 +1,36 @@
+/* Gallery styles extracted from main.html for modular development */
+.youtube-panel { display:flex; flex-direction:column; gap:8px; }
+.yt-channel-header { display:flex; align-items:center; gap:8px; margin-bottom:8px; }
+.yt-channel-header img { width:24px; height:24px; border-radius:50%; background:#111; }
+.yt-channel-info h3 { font-size:11px; font-weight:600; color:var(--accent); }
+.yt-channel-info p { font-size:9px; opacity:0.6; }
+.yt-controls { margin-left:auto; display:flex; gap:8px; align-items:center; }
+.yt-search { padding:6px 8px; border-radius:6px; border:1px solid rgba(255,255,255,0.06); background:#0b0d0f; color:#eef2f6; font-size:12px; width:160px; }
+.yt-filter { padding:6px 8px; border-radius:6px; border:1px solid rgba(255,255,255,0.06); background:#0b0d0f; color:#eef2f6; font-size:12px; }
+.yt-gallery { display:grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap:8px; overflow-y:auto; flex:1; padding-bottom:8px; }
+.yt-thumb { position:relative; aspect-ratio:16/9; cursor:pointer; border:1px solid transparent; border-radius:4px; overflow:hidden; background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.15)); box-shadow:0 2px 8px rgba(0,0,0,0.45); transition:border-color 0.2s, transform 0.2s; }
+.yt-thumb:hover { border-color:var(--accent); transform:scale(1.02); }
+.yt-thumb img { width:100%; height:100%; object-fit:cover; display:block; }
+.yt-thumb.active { border-color:var(--accent); box-shadow:0 0 8px var(--accent); }
+.yt-play-badge { position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:36px; height:36px; background:rgba(10,102,194,0.9); border-radius:6px; display:flex; align-items:center; justify-content:center; font-size:14px; color:#fff; opacity:0; transition:opacity 0.15s, transform 0.15s; }
+.yt-thumb:hover .yt-play-badge { opacity:1; }
+.yt-card-info { position:absolute; left:0; right:0; bottom:0; padding:8px 10px; color:#eef2f6; background:linear-gradient(180deg, rgba(0,0,0,0), rgba(0,0,0,0.6)); font-size:12px; display:flex; flex-direction:column; gap:4px; transform:translateY(8px); opacity:0; transition:transform 0.18s ease, opacity 0.18s ease; }
+.yt-card-title { font-weight:600; font-size:12px; }
+.yt-card-meta { font-size:11px; color:rgba(255,255,255,0.7); }
+.yt-thumb:hover .yt-card-info { transform:translateY(0); opacity:1; }
+.yt-load-more-wrapper { display:flex; justify-content:center; padding:8px 0; }
+.yt-load-more { padding:8px 12px; border-radius:6px; border:1px solid rgba(255,255,255,0.06); background:transparent; color:var(--accent); cursor:pointer; display:none; }
+/* Compare CTA */
+.yt-compare-btn { position:absolute; bottom:10px; right:10px; padding:6px 8px; border-radius:4px; background:var(--accent); color:#000; cursor:pointer; border: none; font-size:12px; }
+.yt-compare-btn:hover { filter:brightness(0.96); }
+.yt-mapped-badge { font-size:10px; padding:4px 6px; border-radius:4px; background: rgba(0,0,0,0.6); color:var(--accent); }
+.yt-load-more.show { display:inline-block; }
+
+/* Small responsive tweaks */
+@media (max-width: 860px) {
+    .container { grid-template-columns: 1fr; padding:8px; }
+    .yt-gallery { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+}
+@media (min-width: 861px) and (max-width: 1100px) {
+    .container { grid-template-columns: 1fr 1.6fr 1fr; }
+}

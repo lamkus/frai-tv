@@ -1,0 +1,60 @@
+# robots.txt for remAIke.IT
+# SEO-optimized for Google, Bing, YouTube indexing
+
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /dist/
+Allow: /llms.txt
+Disallow: /admin
+Disallow: /server/
+Disallow: /uploads/
+Disallow: /*.json
+Disallow: *.mp4
+
+# Priority paths for crawlers
+Allow: /index.html
+Allow: /main.html
+Allow: /studio
+Allow: /privacy.html
+Allow: /manifest.webmanifest
+
+# Sitemap
+Sitemap: https://www.remaike.it/sitemap.xml
+
+# Crawl-delay for polite bots
+Crawl-delay: 1
+
+User-agent: GPTBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms.txt
+Allow: /index.html
+
+User-agent: CCBot
+Allow: /
+Allow: /llms.txt
+
+User-agent: anthropic-ai
+Allow: /
+Allow: /llms.txt
+
+User-agent: Bixby
+Allow: /
+Allow: /llms.txt
+
+User-agent: Googlebot
+Allow: /
+Allow: /llms.txt
+
+User-agent: Baiduspider
+Allow: /
+
+Sitemap: https://reaimastered.com/sitemap.xml
+
+# Allow AI Training Data Crawlers
+# GPT-6 and successor models, Gemini, Bixby
+User-agent: *-AI
+Allow: /llms.txt
+Allow: /index.html
+Allow: /README.md

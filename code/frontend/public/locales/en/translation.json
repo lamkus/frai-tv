@@ -1,0 +1,828 @@
+{
+  "startVideo": "Start Video",
+  "inPlayer": "In Player",
+  "openYouTube": "YouTube",
+  "privacyNotice": "Privacy Notice",
+  "youtubeConsentText": "By clicking \"Start Video\", a connection to YouTube is established. The",
+  "googlePrivacyPolicy": "Google Privacy Policy applies",
+  "gdprCompliant": "GDPR Compliant",
+  "noTracking": "No tracking before click",
+  "shareVideo": "Share Video",
+  "checkOutVideo": "Check out this video",
+  "checkOutOnRemAIke": "Check it out on remAIke.TV!",
+  "videoRecommendation": "Video Recommendation",
+  "foundVideo": "I found this great video",
+  "enjoyWatching": "Enjoy watching!",
+  "email": "Email",
+  "copied": "Copied!",
+  "copy": "Copy",
+  "moreOptions": "More Options...",
+  "installAppTitle": "Install frai.tv App",
+  "installAppDescIOS": "Experience frai.tv in best quality on your iPhone. Tap on",
+  "share": "Share",
+  "addToHomeScreen": "Add to Home Screen",
+  "installAppDescAndroid": "Install the official app for quick access, offline mode, and an immersive fullscreen experience. No browser bar, ready to go.",
+  "remindLater": "Remind me later",
+  "notNow": "Not now",
+  "understood": "Understood",
+  "installApp": "Install App",
+  "appInstalled": "App is installed",
+  "metaTitle": "FRai.TV Library | remAIke.IT",
+  "metaDescription": "Classic films in 4K & 8K - FREE AI Enhanced TV by remAIke.IT",
+  "loading": "Loading library...",
+  "previewRail": "Auto Preview",
+  "autoNext": "Next up in rotation",
+  "nowPreview": "Now previewing",
+  "newAdded": "Recently Added",
+  "play": "Play",
+  "subscribe": "Subscribe",
+  "moreInfo": "More Info",
+  "legal": "Legal",
+  "imprint": "Imprint",
+  "privacy": "Privacy Policy",
+  "notice": "Notice",
+  "disclaimer": "This library uses YouTube embeds. When playing, data is transmitted to YouTube/Google. All content is Public Domain or licensed accordingly. A project by",
+  "copyright": "2024-2025 remAIke.IT - FREE ai Enhanced TV",
+  "home": "Home",
+  "library": "Library",
+  "browse": "Videos",
+  "explore": "Explore",
+  "timeline": "Timeline",
+  "watchlist": "Watchlist",
+  "admin": "Admin",
+  "searchPlaceholder": "Search for movies, series, and more...",
+  "notifications": "New Uploads",
+  "viewAll": "View all videos →",
+  "noNewVideos": "No new videos available",
+  "settings": "Settings",
+  "language": "Change Language",
+  "searchTitle": "Search",
+  "searchDescription": "Search for videos, categories, and content in your remAIke.TV library.",
+  "trendingSearches": "Trending Searches",
+  "recentSearches": "Recent Searches",
+  "clearHistory": "Clear History",
+  "filters": "Filters",
+  "category": "Category",
+  "decade": "Decade",
+  "allCategories": "All Categories",
+  "allDecades": "All Decades",
+  "resultsFound": "{{count}} results found",
+  "noResults": "No results found",
+  "tryDifferent": "Try different keywords or filters.",
+  "history": "History",
+  "emptyWatchlist": "Your watchlist is empty",
+  "emptyWatchlistDesc": "Save videos for later by clicking the bookmark icon.",
+  "emptyHistory": "No videos watched yet",
+  "emptyHistoryDesc": "Your recently watched videos will appear here.",
+  "discoverVideos": "Discover Videos",
+  "copyLink": "Copy Link",
+  "linkCopied": "Link copied!",
+  "upNext": "Up Next",
+  "playingIn": "Playing in {{seconds}}s",
+  "cancel": "Cancel",
+  "resume": "Resume",
+  "pause": "Pause",
+  "hideQueue": "Hide Queue",
+  "moreVideos": "more videos",
+  "seconds": "Seconds",
+  "playNow": "Play Now",
+  "stillWatching": "Are you still there?",
+  "stillWatchingDesc": "You've been watching for a while. Want to continue?",
+  "continueWatching": "Yes, continue",
+  "takePause": "Take a break",
+  "addToWatchlist": "Add to Watchlist",
+  "removeFromWatchlist": "Remove from Watchlist",
+  "onWatchlist": "On Watchlist",
+  "minutes": "min",
+  "hours": "hr",
+  "viewCount": "{{count}} views",
+  "publishedOn": "Published on",
+  "description": "Description",
+  "related": "Related Videos",
+  "networkError": "Connection Error",
+  "networkErrorDesc": "Could not connect to the server.",
+  "retry": "Retry",
+  "backHome": "Back to Home",
+  "notFound": "Page Not Found",
+  "notFoundDesc": "The requested page does not exist.",
+  "videoNotFound": "Video Not Found",
+  "videoNotFoundDesc": "The requested video does not exist or has been removed.",
+  "close": "Close",
+  "mute": "Mute",
+  "unmute": "Unmute",
+  "fullscreen": "Fullscreen",
+  "exitFullscreen": "Exit Fullscreen",
+  "skipIntro": "Skip Intro",
+  "episodes": "Episodes",
+  "seasons": "Seasons",
+  "castAndCrew": "Cast & Crew",
+  "more": "More",
+  "less": "Less",
+  "back": "Back",
+  "playAll": "Play all",
+  "removeAll": "Remove all",
+  "confirmRemoveAll": "Do you really want to remove all videos from your watchlist?",
+  "saved": "saved",
+  "sortBy": "Sort by",
+  "sortRecentlyAdded": "Recently added",
+  "sortTitle": "Title (A-Z)",
+  "sortLongest": "Longest first",
+  "sortNewest": "Newest videos",
+  "gridView": "Grid view",
+  "listView": "List view",
+  "searchInHistory": "Search history...",
+  "tapToStart": "Tap to start",
+  "playWithSound": "Play with sound",
+  "noShortsAvailable": "No curated short films available at the moment.",
+  "curatedShorts": "Curated short films and historical clips",
+
+  "gdpr": {
+    "title": "Cookies & Privacy",
+    "description": "We use cookies and analytics features to understand website usage and improve the user experience. By clicking \"Accept\", you agree to this.",
+    "moreInfo": "More information in our",
+    "privacyPolicy": "Privacy Policy",
+    "andIn": "and",
+    "accept": "Accept",
+    "decline": "Decline"
+  },
+
+  "historyGroups": {
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "thisWeek": "This Week",
+    "thisMonth": "This Month",
+    "older": "Older",
+    "watched": "watched",
+    "seen": "Watched",
+    "percentWatched": "{{percent}}% watched",
+    "continueWatching": "Continue watching",
+    "clearConfirm": "Clear history?",
+    "clearWarning": "Your entire watch history will be permanently deleted.",
+    "delete": "Delete",
+    "removeFromHistory": "Remove from history"
+  },
+
+  "sidebar": {
+    "navigation": "Navigation",
+    "start": "Home",
+    "allVideos": "All Videos",
+    "series": "Series",
+    "shorts": "Shorts",
+    "timeline": "Timeline",
+    "sender": "Channel",
+    "live": "Live",
+    "highlights": "Highlights",
+    "worldFirsts": "World Firsts",
+    "iconicMoments": "Iconic Moments",
+    "newlyAdded": "Recently Added",
+    "byDecade": "By Decade",
+    "byCategory": "By Category",
+    "milestones": "Milestones",
+    "myCollection": "My Collection",
+    "myList": "My List",
+    "watchHistory": "Watch History",
+    "settings": "Settings"
+  },
+
+  "senderPage": {
+    "metaTitle": "FRai.TV Channel | remAIke.IT",
+    "metaDescription": "The FRai.TV channel page: live streams, upcoming shows, and quick access to the library.",
+    "title": "FRai.TV Channel",
+    "subtitle": "Watch live or jump straight into the library.",
+    "subscribeYoutube": "Subscribe on YouTube",
+    "onAir": "On Air",
+    "offAir": "Off Air",
+    "watchLive": "Watch Live",
+    "openMediathek": "Open Library",
+    "openChannel": "YouTube Channel",
+    "viewersNow": "{{count}} viewers now",
+    "noLiveTitle": "No live stream right now",
+    "noLiveDesc": "Browse the library or subscribe for upcoming live events.",
+    "nextUp": "Next Up",
+    "noUpcoming": "No scheduled streams found.",
+    "openLiveCenter": "Open Live Center",
+    "privacyNote": "Notice: Playback loads YouTube embeds. Google/YouTube privacy policies apply."
+  },
+
+  "settingsPage": {
+    "title": "Settings",
+    "subtitle": "Personalize your streaming experience",
+    "sections": {
+      "install": "Install App",
+      "appearance": "Appearance",
+      "playback": "Playback",
+      "notifications": "Notifications",
+      "privacy": "Privacy",
+      "about": "About"
+    },
+    "install": {
+      "title": "Install App",
+      "appName": "frai.tv as App",
+      "appDesc": "Install frai.tv on your device for faster access – directly from your home screen, without a browser!",
+      "benefits": "App Benefits:",
+      "benefit1": "Launches like a real app",
+      "benefit2": "No browser frame",
+      "benefit3": "Offline support",
+      "benefit4": "Quick access from home screen"
+    },
+    "appearance": {
+      "title": "Appearance",
+      "darkMode": "Dark Mode",
+      "darkModeDesc": "Dark design for less eye strain",
+      "accentColor": "Accent Color",
+      "accentColorDesc": "Choose your preferred accent color",
+      "colorAriaLabel": "Select {{color}} color",
+      "compactMode": "Compact View",
+      "compactModeDesc": "Show more videos per row",
+      "premiumUI": "Premium UI",
+      "premiumUIDesc": "Enable remAIke.IT premium design"
+    },
+    "playback": {
+      "title": "Playback",
+      "autoplay": "Autoplay",
+      "autoplayDesc": "Automatically play next video",
+      "defaultQuality": "Default Quality",
+      "defaultQualityDesc": "Preferred video quality",
+      "mutedStart": "Muted Start",
+      "mutedStartDesc": "Start videos muted",
+      "subtitles": "Subtitles",
+      "subtitlesDesc": "Automatically show subtitles"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "push": "Push Notifications",
+      "pushDesc": "Notifications for new videos",
+      "email": "Email Notifications",
+      "emailDesc": "Weekly summary via email"
+    },
+    "privacy": {
+      "title": "Privacy & Data",
+      "saveHistory": "Save Watch History",
+      "saveHistoryDesc": "Keep your watch history",
+      "clearHistory": "Clear History",
+      "clearHistoryDesc": "Delete entire watch history",
+      "clearAllData": "Clear All Data",
+      "clearAllDataDesc": "Delete all local data and reset the app",
+      "exportData": "Export Data",
+      "exportDataDesc": "Download your watchlist and settings",
+      "delete": "Delete",
+      "reset": "Reset",
+      "export": "Export",
+      "historyCleared": "History cleared"
+    },
+    "about": {
+      "title": "About remAIke.TV",
+      "subtitle": "RetroTV Manager",
+      "version": "Version",
+      "docs": "Documentation",
+      "github": "GitHub Repository",
+      "changelog": "Changelog",
+      "license": "License",
+      "privacyPolicy": "Privacy Policy",
+      "imprint": "Imprint",
+      "madeWith": "Made with ❤️ by the remAIke.TV Team",
+      "copyright": "remAIke.TV. All rights reserved."
+    },
+    "resetConfirm": {
+      "title": "Reset App?",
+      "message": "All local data will be deleted, including watchlist, history, and settings. This action cannot be undone."
+    }
+  },
+
+  "playShort": "Play",
+  "moreInfoShort": "Info",
+  "showAll": "Show All",
+  "all": "All",
+
+  "homePage": {
+    "title": "Home",
+    "description": "RemAIke.TV – Your personal retro library, based on your YouTube channel.",
+    "loading": "LOADING LIBRARY...",
+    "noConnection": "No Connection",
+    "loadError": "Could not load library. Please check your internet connection.",
+    "retryConnection": "Retry Connection",
+    "welcome": "Welcome to remAIke.TV",
+    "loadVideos": "Load videos to get started..."
+  },
+
+  "explorePage": {
+    "experimentalFeatures": "Experimental Features",
+    "featuresDisabled": "These experimental features are currently disabled.",
+    "toLibrary": "To Library",
+    "title": "Explore",
+    "subtitle": "Discover the tech history archive in new experimental ways",
+    "tvGuide": "TV Guide",
+    "tvGuideDesc": "Browse like a TV guide - Categories as channels, decades as slots",
+    "mindmap": "Mindmap",
+    "mindmapDesc": "Visual exploration through an interactive node graph",
+    "gridView": "Grid View",
+    "gridViewDesc": "Classic grid layout with filtering"
+  },
+
+  "browsePage": {
+    "title": "Browse",
+    "description": "Browse the remAIke.TV collection – Videos from your YouTube channel by category and popularity.",
+    "allVideos": "All Videos",
+    "videosFound": "{{count}} videos found",
+    "videoFound": "{{count}} video found",
+    "searchPlaceholder": "Search...",
+    "filter": "Filter",
+    "allCategories": "All Categories",
+    "sortNewest": "Newest first",
+    "sortOldest": "Oldest first",
+    "sortPopular": "Most Popular",
+    "sortAZ": "A-Z",
+    "sortDuration": "Longest",
+    "clearFilters": "Clear filters",
+    "gridView": "Grid View",
+    "listView": "List View",
+    "noVideosFound": "No videos found",
+    "tryDifferent": "Try different search terms or filters.",
+    "resetFilters": "Reset filters"
+  },
+
+  "privacyPage": {
+    "backToHome": "Back to Home",
+    "title": "Privacy Policy",
+    "subtitle": "Information on data processing according to GDPR",
+    "lastUpdated": "Last updated: December 2025",
+    "gdprCompliant": "GDPR Compliant",
+    "necessaryCookies": "Necessary Cookies Only",
+    "localStorage": "Local Storage",
+    "noSharing": "No Data Sharing"
+  },
+  "impressumPage": {
+    "backToHome": "Back to Home",
+    "title": "Legal Notice",
+    "subtitle": "Information according to § 5 TMG",
+    "serviceProvider": "Service Provider",
+    "projectBy": "A project by remAIke.IT",
+    "contact": "Contact",
+    "contactNote": "Please use email exclusively for legal inquiries.",
+    "responsibleContent": "Responsible for content according to § 55 Abs. 2 RStV",
+    "disclaimer": "Disclaimer",
+    "liabilityContent": "Liability for Content",
+    "liabilityContentText": "The contents of our pages have been created with the utmost care. However, we cannot guarantee the contents' accuracy, completeness or topicality. According to statutory provisions, we are furthermore responsible for our own content on these web pages. In this context, please note that we are accordingly not obliged to monitor merely the transmitted or saved information of third parties, or investigate circumstances pointing to illegal activity."
+  },
+  "livestreamPage": {
+    "metaTitle": "Live - FRai.TV",
+    "metaDescription": "Live streams and scheduled broadcasts on FRai.TV",
+    "errorLoading": "Could not load livestream data",
+    "noActiveStream": "No active livestream",
+    "noActiveStreamDesc": "There is currently no live broadcast. Check back later or discover our video library.",
+    "discoverVideos": "Discover Videos",
+    "subscribeYoutube": "Subscribe on YouTube",
+    "upcomingStreams": "Upcoming Streams",
+    "subscribeDesc": "Subscribe to our YouTube channel to be notified about upcoming livestreams.",
+    "live": "LIVE",
+    "streamsActive": "- {{count}} stream active",
+    "streamsActive_plural": "- {{count}} streams active",
+    "startStream": "Start Livestream",
+    "playWithSound": "Play with sound",
+    "selectStream": "Select a stream",
+    "viewers": "Viewers",
+    "hideChat": "Hide Chat",
+    "showChat": "Show Chat",
+    "liveChat": "Live Chat",
+    "moreLiveStreams": "More Live Streams"
+  },
+  "notFoundPage": {
+    "metaTitle": "404 - Page Not Found | FRai.TV",
+    "metaDescription": "This page does not exist.",
+    "title": "Scene Not Found",
+    "description": "This page does not exist or has been moved.",
+    "subDescription": "Maybe it was left on the cutting room floor?",
+    "backToHome": "Back to Library",
+    "search": "Search",
+    "goBack": "Go back to previous page",
+    "funFact": "Fun Fact",
+    "funFactText": "The HTTP status code 404 was introduced in 1992 and is named after Room 404 at CERN, where the first web servers were located."
+  },
+  "searchPage": {
+    "voiceSearchComingSoon": "Voice search coming soon!",
+    "voiceSearch": "Voice Search",
+    "browseCategories": "Or discover videos by category",
+    "suggestions": "Suggestions:"
+  },
+  "timelinePage": {
+    "title": "Tech Timeline",
+    "subtitle": "A chronological journey through the history of technology",
+    "filter": "Filter",
+    "allDecades": "All Decades",
+    "allCategories": "All Categories",
+    "allMilestones": "All Milestones",
+    "clearFilters": "Reset Filters",
+    "noVideos": "No videos found for this period.",
+    "unknownDecade": "Unknown Decade",
+    "allTimes": "All Times",
+    "category": "Category",
+    "milestoneType": "Milestone Type",
+    "resetAllFilters": "Reset all filters",
+    "noVideosFound": "No videos found",
+    "tryOtherFilters": "Try other filters or load videos from channel.",
+    "resetFilters": "Reset filters",
+    "showAll": "Show all",
+    "more": "more"
+  },
+
+  "decades": {
+    "1900s": { "label": "1900s", "description": "The Birth of Cinema" },
+    "1910s": { "label": "1910s", "description": "Silent Film Era Begins" },
+    "1920s": { "label": "1920s", "description": "Golden Silent Era" },
+    "1930s": { "label": "1930s", "description": "Sound Film Revolution" },
+    "1940s": { "label": "1940s", "description": "Wartime & Film Noir" },
+    "1950s": { "label": "1950s", "description": "TV Era & Technicolor" },
+    "1960s": { "label": "1960s", "description": "Pop Culture & TV Shows" },
+    "1980s": { "label": "1980s", "description": "VHS & TV Movies" },
+    "1990s": { "label": "1990s", "description": "Iconic Commercials" }
+  },
+
+  "milestoneTypes": {
+    "world-first": "World Firsts",
+    "iconic-moment": "Iconic Moments",
+    "documentary": "Documentaries"
+  },
+
+  "categories": {
+    "classic-films": "Classic Films",
+    "cartoons": "Cartoons & Animation",
+    "documentaries": "Documentaries",
+    "propaganda": "Propaganda & Archives",
+    "comedy": "Comedy & Sketches",
+    "christmas": "Christmas Specials",
+    "commercials": "Commercials"
+  },
+
+  "milestones": {
+    "worldFirsts": "World Firsts",
+    "iconicMoments": "Iconic Moments",
+    "documentaries": "Documentaries"
+  },
+
+  "videos": {
+    "rudolph-1948": {
+      "title": "Rudolph the Red-Nosed Reindeer (1948) | 8K",
+      "description": "The classic Max Fleischer Christmas cartoon restored in 8K. Rudolph's timeless story of saving Christmas."
+    },
+    "suzy-snowflake-1953": {
+      "title": "Suzy Snowflake (1953) | 8K",
+      "description": "Charming stop-motion Christmas short from the 50s. A classic of early TV Christmas specials."
+    },
+    "coca-cola-trucks-1995": {
+      "title": "Coca-Cola Christmas Trucks – Holidays Are Coming (1995) | 4K",
+      "description": "The iconic Coca-Cola Christmas commercial. These glowing trucks are the symbol for the start of the holiday season."
+    },
+    "coca-cola-trucks-8k": {
+      "title": "Coca-Cola Christmas Trucks (1995) | 8K",
+      "description": "Coca-Cola Christmas Trucks in epic 8K quality. Holidays Are Coming – the definitive Christmas commercial."
+    },
+    "batman-santa-1966": {
+      "title": "Batman & Robin Meet Santa Claus (1966) | 8K",
+      "description": "Cult 60s Batman TV Christmas episode. Adam West and Burt Ward in one of the most bizarre Christmas scenes in TV history."
+    },
+    "christmas-carol-1984": {
+      "title": "A Christmas Carol (1984) George C. Scott | 8K",
+      "description": "The celebrated adaptation of Dickens' Christmas story with George C. Scott as unforgettable Ebenezer Scrooge."
+    },
+    "casper-christmas": {
+      "title": "Casper the Friendly Ghost – Christmas Special | 8K",
+      "description": "Casper Christmas cartoon special in 8K. The friendliest ghost celebrates the holiday season."
+    },
+    "great-expectations-1946": {
+      "title": "Great Expectations (1946) – David Lean | 8K",
+      "description": "David Lean's celebrated Dickens adaptation restored in 8K. Top-tier British cinema with John Mills."
+    },
+    "scarlet-street-1945": {
+      "title": "Scarlet Street (1945) – Fritz Lang | 8K",
+      "description": "Fritz Lang's dark film noir classic. Edward G. Robinson in a nightmarish web of passion and crime."
+    },
+    "metropolis-1927": {
+      "title": "Metropolis (1927) – Fritz Lang | 8K",
+      "description": "Fritz Lang's groundbreaking sci-fi masterpiece. The expressionist classic that shaped science fiction forever."
+    },
+    "phantom-opera-1925": {
+      "title": "The Phantom of the Opera (1925) – Lon Chaney | 8K",
+      "description": "The iconic silent horror film with Lon Chaney. The legendary unmasking scene still terrifies today."
+    },
+    "nosferatu-1922": {
+      "title": "Nosferatu – A Symphony of Horror (1922) | 8K",
+      "description": "F.W. Murnau's legendary vampire film. Max Schreck as Count Orlok – the archetype of all film vampires."
+    },
+    "tarzan-revenge-1938": {
+      "title": "Tarzan's Revenge (1938) | 8K",
+      "description": "Vintage jungle adventure from the 30s with Glenn Morris. Pulp action from Hollywood's golden era."
+    },
+    "20000-leagues-1916": {
+      "title": "20,000 Leagues Under the Sea (1916) | 8K",
+      "description": "The groundbreaking silent adventure film based on Jules Verne. Real underwater footage that amazed audiences in 1916."
+    },
+    "haxan-1922": {
+      "title": "Häxan – Witchcraft Through the Ages (1922) | 8K",
+      "description": "Benjamin Christensen's revolutionary documentary on witchcraft and superstition. A visually stunning work."
+    },
+    "frankenstein-1910": {
+      "title": "Frankenstein (1910) – Edison | 8K",
+      "description": "The very first Frankenstein film ever made. Thomas Edison's silent film pioneer work from 1910."
+    },
+    "voyage-prehistoric-1968": {
+      "title": "Journey to Prehistoric Times (1968) | 8K",
+      "description": "Czech stop-motion dinosaur film. Karel Zeman's unique visual fantasy brings prehistory to life."
+    },
+    "bill-divorcement-1932": {
+      "title": "A Bill of Divorcement (1932) | 8K",
+      "description": "Katharine Hepburn's film debut! A moving drama about family, duty, and sacrifice."
+    },
+    "dinner-for-one-1963": {
+      "title": "Dinner for One (1963) | 8K",
+      "description": "The New Year's Eve classic! Miss Sophie and Butler James – same procedure as every year."
+    },
+    "chaplin-film-fest": {
+      "title": "Charlie Chaplin Film Festival | 8K",
+      "description": "A collection of Chaplin's best short films. The master of silent comedy in restored glory."
+    },
+    "chaplin-cure-1917": {
+      "title": "The Cure (1917) – Charlie Chaplin | 8K",
+      "description": "Chaplin as a drunk at a health spa. One of his cleverest and most chaotic short films."
+    },
+    "keaton-convict13-1920": {
+      "title": "Convict 13 (1920) – Buster Keaton | 8K",
+      "description": "Buster Keaton accidentally ends up in prison. Physical comedy at its finest with death-defying stunts."
+    },
+    "keaton-wifes-relations-1922": {
+      "title": "My Wife's Relations (1922) – Buster Keaton | 8K",
+      "description": "Keaton accidentally marries into a family of thugs. Dark humor and brilliant timing."
+    },
+    "lucy-john-wayne-1966": {
+      "title": "Lucy Meets John Wayne (1966) | 8K",
+      "description": "Lucille Ball meets the Duke! One of the funniest TV episodes of the 60s."
+    },
+    "skeleton-dance-1929": {
+      "title": "The Skeleton Dance (1929) – Silly Symphony | 8K",
+      "description": "Disney's first Silly Symphony film. Skeletons dancing in a graveyard – pure Halloween nostalgia."
+    },
+    "peter-wolf-1960": {
+      "title": "Peter and the Wolf (1960) | 8K",
+      "description": "Prokofiev's musical masterpiece as animation. A timeless classic for the whole family."
+    },
+    "superman-japoteurs-1942": {
+      "title": "Superman: Japoteurs (1942) | 8K",
+      "description": "Max Fleischer's Superman fights saboteurs. Breathtaking animation from the golden era."
+    },
+    "superman-electric-earthquake-1942": {
+      "title": "Superman: Electric Earthquake (1942) | 8K",
+      "description": "Superman saves Metropolis from an energy weapon. Fleischer animation in brilliant 8K quality."
+    },
+    "superman-destruction-inc-1943": {
+      "title": "Superman: Destruction Inc. (1943) | 8K",
+      "description": "The Man of Steel against Nazi saboteurs. Thrilling wartime action from Famous Studios."
+    },
+    "popeye-ancient-fistory-1953": {
+      "title": "Popeye: Ancient Fistory (1953) | 8K",
+      "description": "Popeye and Bluto in the Stone Age! Spinach power meets prehistoric humor."
+    },
+    "popeye-patriotic-1957": {
+      "title": "Popeye the Patriot (1957) | 8K",
+      "description": "The sailor with spinach muscles shows American pride. Classic Famous Studios animation."
+    },
+    "betty-boop-more-pep-1936": {
+      "title": "Betty Boop: More Pep (1936) | 8K",
+      "description": "Betty Boop brings energy to the party. Jazzy Fleischer animation with Pre-Code charm."
+    },
+    "little-nemo-1911": {
+      "title": "Little Nemo (1911) – Winsor McCay | 8K",
+      "description": "Winsor McCay's groundbreaking animated film. A milestone in film history – over 110 years old!"
+    },
+    "kirby-abridged": {
+      "title": "Jack Kirby – Short Portrait | 8K",
+      "description": "The King of Comics in a short tribute. Jack Kirby created the Marvel Universe."
+    },
+    "cigar-box-1905": {
+      "title": "The Cigar Box (1905) | 8K",
+      "description": "Early silent trick film. Cinematographic magic from the early days of cinema."
+    },
+    "golden-beetle-1907": {
+      "title": "The Golden Beetle (1907) | 8K",
+      "description": "Ferdinand Zecca's early masterpiece. Hand-colored scenes and stage magic combined."
+    },
+    "frog-1908": {
+      "title": "The Frog (1908) | 8K",
+      "description": "Segundo de Chomón's surreal trick film. Stop-motion magic from pre-war cinema."
+    },
+    "bee-rose-1908": {
+      "title": "The Bee and the Rose (1908) | 8K",
+      "description": "Poetic short film by Segundo de Chomón. Visual poetry from the early days of cinema."
+    },
+    "berlin-symphony-1927": {
+      "title": "Berlin: Symphony of a Great City (1927) | 8K",
+      "description": "Walter Ruttmann's revolutionary city documentary. A day in the life of Weimar Republic Berlin."
+    },
+    "pearl-harbor-1942": {
+      "title": "Pearl Harbor (1942) – Documentary | 8K",
+      "description": "Contemporary documentation of the Pearl Harbor attack. Historical film footage from December 7, 1941."
+    },
+    "biological-warfare-1952": {
+      "title": "Biological Warfare (1952) | 8K",
+      "description": "US military training film from the Cold War. A fascinating time document from the paranoia era."
+    },
+    "duck-cover-1951": {
+      "title": "Duck and Cover (1951) | 8K",
+      "description": "The famous atomic protection film with Bert the Turtle. Cold War explained for children."
+    },
+    "nazi-camps-1945": {
+      "title": "Nazi Concentration Camps (1945) | 8K",
+      "description": "US military documentation of the liberation of concentration camps. Warning: Disturbing historical content."
+    },
+    "my-japan-1945": {
+      "title": "My Japan (1945) | 8K",
+      "description": "US war propaganda about the Pacific War. A time document of the American perspective."
+    },
+    "atomic-bomb-1946": {
+      "title": "The Atomic Bomb (1946) | 8K",
+      "description": "Documentary about the development and use of the first atomic bombs. Historical footage."
+    },
+    "hindenburg-1937": {
+      "title": "The Hindenburg Disaster (1937) | 8K",
+      "description": "Original footage of the Hindenburg disaster at Lakehurst. The end of the Zeppelin era."
+    },
+    "revival-organisms-1940": {
+      "title": "Revival of Organisms (1940) | 8K",
+      "description": "Soviet science film about reanimation experiments. Bizarre and fascinating medical history."
+    },
+    "wonderful-world-1959": {
+      "title": "Wonderful World (1959) | 8K",
+      "description": "Vintage travel film from the late 50s. The world before mass tourism."
+    },
+    "golden-gate": {
+      "title": "Golden Gate – Retro San Francisco | 8K",
+      "description": "Vintage San Francisco travel film. The city by the bay in its golden era."
+    },
+    "popeye-marathon-8k": {
+      "title": "Popeye – All Classics in One Video | 8K",
+      "description": "Over 4 hours of Popeye cartoon marathon! All classic episodes from the Famous Studios era restored in 8K."
+    },
+    "santas-surprise-1947": {
+      "title": "Santa's Surprise (1947) – Little Audrey | 8K",
+      "description": "Little Audrey's delightful Christmas cartoon from 1947. A heartwarming story about the magic of giving."
+    },
+    "commodore-64-ia": {
+      "title": "Commodore 64 – Vintage Computer Documentary | 8K",
+      "description": "Internet Archive find: Historical footage of the legendary Commodore 64. A piece of computer history from the 80s."
+    },
+    "superman-eleventh-hour-1942": {
+      "title": "Superman: The Eleventh Hour (1942) | 8K",
+      "description": "Max Fleischer's Superman saves the day again! Thrilling WWII propaganda cartoon with stunning animation."
+    },
+    "children-make-movies": {
+      "title": "Children Make Movies (Prelinger Archive) | 8K",
+      "description": "Fascinating Prelinger Archive find about children making their own movies. A time document of educational films."
+    },
+    "grim-game-1919": {
+      "title": "The Grim Game (1919) – Houdini | 8K",
+      "description": "Harry Houdini in his legendary silent thriller. The master of escape shows spectacular stunts."
+    },
+    "candid-candidate-1937": {
+      "title": "The Candid Candidate (1937) | 8K",
+      "description": "Political cartoon satire from the 30s. A witty time capsule about campaigns and politics."
+    },
+    "charade-1953": {
+      "title": "Charade (1953) – Mystery Classic | 8K",
+      "description": "Thrilling vintage mystery film from the 50s. Atmospheric entertainment with classic Hollywood charm."
+    },
+    "cabinet-caligari-1920": {
+      "title": "The Cabinet of Dr. Caligari (1920) | 8K",
+      "description": "THE German Expressionism classic. Robert Wiene's nightmarish vision influences cinema to this day."
+    },
+    "white-zombie-1932": {
+      "title": "White Zombie (1932) – Bela Lugosi | 8K",
+      "description": "The first zombie feature film in history! Bela Lugosi as the eerie voodoo master in this atmospheric horror classic."
+    },
+    "felix-makes-good-1922": {
+      "title": "Felix Makes Good (1922) | 8K",
+      "description": "Felix the Cat in one of his early adventures. Classic silent animation full of charm and wit."
+    },
+    "felix-in-love-1922": {
+      "title": "Felix in Love (1922) | 8K",
+      "description": "The world-famous cat on romantic adventures. Heartwarming silent animation from the golden era."
+    },
+    "felix-at-fair-1922": {
+      "title": "Felix at the Fair (1922) | 8K",
+      "description": "Felix explores the fairground! Cheerful silent entertainment with the clever cat."
+    },
+    "big-game-hunter": {
+      "title": "The Big Game Hunter – Cartoon Classic | 8K",
+      "description": "Vintage cartoon adventure on safari. Humorous animation from the golden era."
+    },
+    "felix-circus-1921": {
+      "title": "Felix at the Circus (1921) | 8K",
+      "description": "Felix the Cat has circus adventures! One of the earliest Felix cartoons restored in 8K."
+    },
+    "felix-circus-deluxe": {
+      "title": "Felix at the Circus – Deluxe 8K Edition",
+      "description": "Premium restoration of Felix the Cat's circus adventure. Highest image quality for animation fans."
+    },
+    "felix-revenge-1922": {
+      "title": "Felix Gets Revenge (1922) | 8K",
+      "description": "Felix the Cat shows his adversaries! Clever silent comedy with the world-famous cat."
+    },
+    "felix-saves-day-1922": {
+      "title": "Felix Saves the Day (1922) | 8K",
+      "description": "The heroic cat in action! Felix once again proves his courage and resourcefulness."
+    },
+    "felix-turns-tide-1922": {
+      "title": "Felix Turns the Tide (1922) | 8K",
+      "description": "Felix the Cat masters another seemingly hopeless situation with wit and wisdom."
+    },
+    "felix-finds-way-1924": {
+      "title": "Felix Finds a Way (1924) | 8K",
+      "description": "The resourceful cat solves every problem! Charming silent animation from the roaring twenties."
+    },
+    "felix-minds-kid-1922": {
+      "title": "Felix Minds the Kid (1922) | 8K",
+      "description": "Felix the Cat as babysitter! Chaotic and heartwarming silent comedy."
+    },
+    "felix-pedigreedy-1927": {
+      "title": "Felix Pedigreedy (1927) | 8K",
+      "description": "Felix the Cat in a late silent adventure. Witty satire on pedigree obsession."
+    },
+    "feline-follies-1919": {
+      "title": "Feline Follies (1919) – Felix's Debut | 8K",
+      "description": "The very first Felix the Cat cartoon! Here began the legend of the most famous cat in film history."
+    },
+    "betty-boop-kerchoo-1932": {
+      "title": "Betty Boop: Ker-Choo! (1932) | 8K",
+      "description": "Betty Boop fights a cold! Fleischer Studios cartoon with typical Pre-Code charm."
+    },
+    "betty-boop-minnie-moocher-1932": {
+      "title": "Betty Boop: Minnie the Moocher (1932) | 8K",
+      "description": "THE legendary Betty Boop cartoon with Cab Calloway's jazz masterpiece. Surreal Fleischer madness at its finest!"
+    },
+    "tokyo-jokio-1943": {
+      "title": "Tokio Jokio (1943) – Merrie Melodies | 8K",
+      "description": "Controversial WWII propaganda from Merrie Melodies. A time document for understanding the war era."
+    },
+    "aesops-skating-hounds-1929": {
+      "title": "Aesop's Fables: Skating Hounds (1929) | 8K",
+      "description": "Charming cartoon from the Aesop's Fables series. Winter entertainment from the early sound era."
+    },
+    "krazy-kat-keeping-up-1916": {
+      "title": "Krazy Kat: Keeping Up (1916) | 8K",
+      "description": "Early Krazy Kat cartoon based on the legendary comic strip. A piece of animation history."
+    },
+    "airship-destroyed-1909": {
+      "title": "The Airship Destroyer (1909) – First Sci-Fi Film | 8K",
+      "description": "One of the very first science fiction films in history! Groundbreaking special effects from cinema's pioneer era."
+    },
+    "little-nemo-alt-1911": {
+      "title": "Little Nemo in Slumberland (1911) – Alternative Version | 8K",
+      "description": "Alternative restoration of Winsor McCay's groundbreaking animated film. A milestone in film history."
+    },
+    "peter-wolf-alt-1960": {
+      "title": "Peter and the Wolf (1960) – Alternative Version | 8K",
+      "description": "Mel-O-Toons version of Prokofiev's musical masterpiece. Classic animation meets classical music."
+    },
+    "suzy-snowflake-short-2025": {
+      "title": "Suzy Snowflake – Christmas Short | 8K",
+      "description": "Suzy Snowflake (1953) – one of the first Christmas shorts of American television. Stop-motion nostalgia."
+    },
+    "suzy-snowflake-full-1953": {
+      "title": "Suzy Snowflake – Full Version (1953) | 8K",
+      "description": "The complete version of the stop-motion Christmas classic. A piece of TV history."
+    },
+    "coca-cola-trucks-4k": {
+      "title": "Coca-Cola Christmas Trucks – Holidays Are Coming | 4K",
+      "description": "The iconic \"Holidays Are Coming\" commercial. The glowing Christmas trucks became a symbol of the holiday season."
+    },
+    "coca-cola-trucks-8k-epic": {
+      "title": "Coca-Cola Christmas Trucks – 8K Remaster",
+      "description": "The epic 8K restoration of the legendary Coca-Cola Christmas spot. Holidays Are Coming defined Christmas advertising."
+    },
+    "batman-robin-santa-short": {
+      "title": "Batman & Robin Meet Santa – Short Version | 8K",
+      "description": "From the cult 60s Batman TV series: Batman and Robin encounter Santa Claus. TV cult!"
+    },
+    "batman-robin-santa-full": {
+      "title": "Batman & Robin Meet Santa Claus (1966) | 8K",
+      "description": "The complete Christmas scene from the Batman TV series. Adam West and Burt Ward in iconic form."
+    },
+    "pearl-harbor-1942-short": {
+      "title": "Pearl Harbor – Historical Short Version (1942) | 8K",
+      "description": "Contemporary documentation of the Pearl Harbor attack from December 7, 1941. Historical time document."
+    },
+    "the-frog-1908": {
+      "title": "The Frog (1908) | 8K",
+      "description": "Segundo de Chomón's surreal trick film. Stop-motion and studio magic from cinema's pioneer era."
+    },
+    "bee-and-rose-1908": {
+      "title": "The Bee and the Rose (1908) | 8K",
+      "description": "Poetic short film by Segundo de Chomón. Visual storytelling from the early days of cinema."
+    },
+    "astronomers-dream-1898": {
+      "title": "The Astronomer's Dream (1898) | 8K",
+      "description": "Georges Méliès' visionary short film – one of the very first sci-fi films ever. Cinema magic from the 19th century."
+    },
+    "felix-swim-1922": {
+      "title": "Felix the Cat – In the Swim (1922) | 8K",
+      "description": "One of the earliest Felix the Cat shorts. Underwater adventure in classic silent animation."
+    }
+  }
+}

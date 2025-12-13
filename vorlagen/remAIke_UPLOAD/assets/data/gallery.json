@@ -1,0 +1,64 @@
+{
+  "channel": {
+    "title": "remAIke.IT Neural Studio",
+    "description": "Server-farm grade Neural Optical Engine for archival 8K restorations.",
+    "thumbnail": "remaike_IT_logo2_test_thumbnail.png",
+    "customUrl": "@remAIke_IT"
+  },
+  "items": [
+    {
+      "id": "clip01",
+      "title": "Minnie the Moocher – Neural Rebuild",
+      "meta": "8K SMPTE Sync · 00:10",
+      "thumb": "assets/screenshots/frame1_after_frame1_10s.jpg",
+      "preview": "assets/video/clips/01_sls_comparison_10s.mp4",
+      "srcOriginal": "/assets/video/clips/01_original.mp4",
+      "srcEnhanced": "/assets/video/clips/01_enhanced.mp4",
+      "fps": 24,
+      "durationSeconds": 10,
+      "smpteStart": "00:00:00:00",
+      "slowmo": [
+        { "start": 0.0, "end": 3.5, "rate": 0.70 }
+      ],
+      "metrics": { "psnr": 42.3, "ssim": 0.987 },
+      "tags": ["restored", "archive"],
+      "youtubeLink": "https://youtu.be/G5xZ9MSka5g"
+    },
+    {
+      "id": "clip02",
+      "title": "Felix Restoration – Optical Engine",
+      "meta": "Neural Optical · 00:08",
+      "thumb": "assets/screenshots/frame2_after_frame2_30s.jpg",
+      "preview": "assets/video/clips/02_enhanced.mp4",
+      "srcOriginal": "/assets/video/clips/02_original.mp4",
+      "srcEnhanced": "/assets/video/clips/02_enhanced.mp4",
+      "fps": 24,
+      "durationSeconds": 8,
+      "smpteStart": "00:00:00:00",
+      "slowmo": [
+        { "start": 1.0, "end": 4.0, "rate": 0.85 }
+      ],
+      "metrics": { "psnr": 40.1, "ssim": 0.978 },
+      "tags": ["restored", "studio"],
+      "youtubeLink": "https://youtu.be/Tr92gyfLRqk"
+    },
+    {
+      "id": "clip03",
+      "title": "Archive Intake – Neural Clean",
+      "meta": "Server Farm Ingest · 00:12",
+      "thumb": "assets/screenshots/frame3-after.svg",
+      "preview": "assets/video/clips/03_enhanced.mp4",
+      "srcOriginal": "/assets/video/clips/03_original.mp4",
+      "srcEnhanced": "/assets/video/clips/03_enhanced.mp4",
+      "fps": 24,
+      "durationSeconds": 12,
+      "smpteStart": "00:00:00:00",
+      "slowmo": [
+        { "start": 2.0, "end": 6.5, "rate": 0.90 }
+      ],
+      "metrics": { "psnr": 39.4, "ssim": 0.971 },
+      "tags": ["archive", "restored"],
+      "youtubeLink": "https://youtu.be/YE7VzlLtp-4"
+    }
+  ]
+}

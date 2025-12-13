@@ -1,0 +1,28 @@
+{
+  "comparisons": [
+    {
+      "id": 1,
+      "title": "19.11.09 Feline Follies",
+      "original": "01_original.mp4",
+      "enhanced": "01_enhanced.mp4",
+      "original_thumb": "01_original.jpg",
+      "enhanced_thumb": "01_enhanced.jpg"
+    },
+    {
+      "id": 2,
+      "title": "1943_Tokyo_Jokio_Merry_Melodies_sls",
+      "original": "02_original.mp4",
+      "enhanced": "02_enhanced.mp4",
+      "original_thumb": "02_original.jpg",
+      "enhanced_thumb": "02_enhanced.jpg"
+    },
+    {
+      "id": 3,
+      "title": "20.02.22 Felix The Big Game Hunter",
+      "original": "03_original.mp4",
+      "enhanced": "03_enhanced.mp4",
+      "original_thumb": "03_original.jpg",
+      "enhanced_thumb": "03_enhanced.jpg"
+    }
+  ]
+}

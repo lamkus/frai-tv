@@ -1,0 +1,12 @@
+{
+  "name": "remaike-tv",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "npm --prefix code/frontend run dev",
+    "dev:frontend": "npm --prefix code/frontend run dev",
+    "dev:backend": "npm --prefix code/backend run dev",
+    "build": "npm --prefix code/frontend run build",
+    "lint": "npm --prefix code/frontend run lint"
+  }
+}

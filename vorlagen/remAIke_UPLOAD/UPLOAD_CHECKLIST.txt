@@ -1,0 +1,76 @@
+
+╔══════════════════════════════════════════════════════════════╗
+║           remAIke.IT - Strato Upload Checklist               ║
+╚══════════════════════════════════════════════════════════════╝
+
+📅 Generated: 2025-12-07T05:02:00.573Z
+
+═══════════════════════════════════════════════════════════════
+STEP 1: Upload entire 'dist' folder to Strato webspace root
+═══════════════════════════════════════════════════════════════
+
+Use FileZilla or Strato WebFTP:
+- Host: ftp.strato.de  
+- User: Your Strato FTP username
+- Pass: Your Strato FTP password
+
+Upload these files/folders:
+├── index.html (main showcase)
+├── main.html (landing page)
+├── comparison-mosaic.html 
+├── gpu-studio.html
+├── one-pager.html
+├── comparisons.json
+├── comparisons_all.json
+├── robots.txt
+├── sitemap.xml
+├── manifest.webmanifest
+├── sw.js
+└── assets/
+    ├── css/
+    ├── js/
+    ├── icons/
+    ├── screenshots/
+    └── video/
+        └── clips/
+            ├── combat_america_enhanced.mp4
+            ├── dinner_for_one_enhanced.mp4
+            ├── duck_and_cover_enhanced.mp4
+            ├── hindenburg_enhanced.mp4
+            ├── japoteurs_enhanced.mp4
+            ├── superman_1941_enhanced.mp4
+            ├── combat_america_original.mp4
+            ├── dinner_for_one_original.mp4
+            ├── duck_and_cover_original.mp4
+            ├── hindenburg_original.mp4
+            ├── japoteurs_original.mp4
+            ├── superman_1941_original.mp4
+
+═══════════════════════════════════════════════════════════════
+STEP 2: Verify deployment
+═══════════════════════════════════════════════════════════════
+
+After upload, test these URLs:
+- https://your-domain.de/ (should show mosaic showcase)
+- https://your-domain.de/main.html (landing page)
+- https://your-domain.de/gpu-studio.html (interactive studio)
+
+═══════════════════════════════════════════════════════════════
+OPTIONAL: Large video files
+═══════════════════════════════════════════════════════════════
+
+If you have 8K/4K videos that are too large for FTP:
+1. Re-encode to 1080p for web preview
+2. Or use YouTube embeds for full quality
+3. Or set up a CDN for video streaming
+
+═══════════════════════════════════════════════════════════════
+NOTES
+═══════════════════════════════════════════════════════════════
+
+- The site works fully offline/static - no server required
+- All API calls are replaced with static JSON
+- Thumbnails use pre-generated screenshots
+- Service Worker enables offline caching
+
+Happy deploying! 🚀

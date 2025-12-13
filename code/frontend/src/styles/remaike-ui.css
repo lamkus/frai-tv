@@ -1,0 +1,116 @@
+/* Scoped remAIke UI styles under .remaike-ui to avoid global conflicts */
+.remaike-ui .youtube-subscribe-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-weight: 700;
+  background: linear-gradient(135deg, #c9a962 0%, #b08a3c 50%, #8c6a27 100%);
+  color: #0b0b0c;
+  border: 1px solid rgba(201, 169, 98, 0.45);
+  box-shadow: 0 8px 24px rgba(201, 169, 98, 0.3);
+}
+.remaike-ui .youtube-subscribe-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(201, 169, 98, 0.45);
+}
+
+.remaike-ui .social-edge-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #0c0c0e;
+  border: 1px solid rgba(201, 169, 98, 0.35);
+  color: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+.remaike-ui .social-edge-btn:hover {
+  transform: translateY(-2px);
+}
+.remaike-ui .social-edge-btn.youtube:hover {
+  border-color: #ff0000;
+  color: #ff0000;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+}
+.remaike-ui .social-edge-btn.inst:hover {
+  border-color: #e4405f;
+  color: #e4405f;
+  box-shadow: 0 0 20px rgba(228, 64, 95, 0.4);
+}
+.remaike-ui .social-edge-btn.twit:hover {
+  border-color: #1da1f2;
+  color: #1da1f2;
+  box-shadow: 0 0 20px rgba(29, 161, 242, 0.4);
+}
+.remaike-ui .social-edge-btn.fb:hover {
+  border-color: #1877f2;
+  color: #1877f2;
+  box-shadow: 0 0 20px rgba(24, 119, 242, 0.4);
+}
+
+.remaike-ui .open-beta-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #ff0033 0%, #cc0028 50%, #990020 100%);
+  color: #fff;
+  font-weight: 800;
+  font-size: 11px;
+  border: 1px solid rgba(255, 0, 51, 0.6);
+  box-shadow: 0 0 20px rgba(255, 0, 51, 0.4), 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+.remaike-ui .open-beta-badge .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #fff;
+  animation: pulse 1.5s infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* InfoPopup specifics (fortified) */
+.remaike-ui .info-popup {
+  background: linear-gradient(145deg, #070707 0%, #0d0a07 40%, #050505 100%);
+  border: 1.2px solid rgba(201, 169, 98, 0.8);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.55), 0 0 28px rgba(201, 169, 98, 0.15);
+}
+.remaike-ui .info-popup .gold-bar {
+  height: 3px;
+  background: linear-gradient(90deg, #c9a962 0%, #e7cf87 50%, #c9a962 100%);
+}
+
+/* small utility to ensure gold accent is stronger */
+.remaike-ui .accent-gold {
+  color: #c9a962;
+}
+
+/* Ensure small buttons follow remake style */
+.remaike-ui .btn-remaike {
+  padding: 8px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(201, 169, 98, 0.25);
+  background: transparent;
+  color: #fff;
+}
+.remaike-ui .btn-remaike:hover {
+  background: rgba(201, 169, 98, 0.08);
+}

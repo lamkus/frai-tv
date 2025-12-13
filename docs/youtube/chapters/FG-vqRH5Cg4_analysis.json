@@ -1,0 +1,91 @@
+{
+  "ytId": "FG-vqRH5Cg4",
+  "analyzedAt": "2025-12-13T05:39:08.564Z",
+  "aiEnabled": false,
+  "detection": {
+    "blackFrames": 4,
+    "silencePeriods": 0,
+    "sceneChanges": 0,
+    "totalCandidates": 4,
+    "extractedFrames": 3
+  },
+  "chapters": [
+    {
+      "time": 0,
+      "title": "Intro & Start",
+      "confidence": 1,
+      "type": "intro"
+    },
+    {
+      "time": 3456,
+      "title": "Chapter at 57:36",
+      "confidence": 0.6,
+      "reason": "Score 3 from: black",
+      "type": "black_frame"
+    },
+    {
+      "time": 4579,
+      "title": "Chapter at 1:16:19",
+      "confidence": 0.6,
+      "reason": "Score 3 from: black",
+      "type": "black_frame"
+    },
+    {
+      "time": 4646,
+      "title": "Chapter at 1:17:26",
+      "confidence": 0.6,
+      "reason": "Score 3 from: black",
+      "type": "black_frame"
+    }
+  ],
+  "allAnalyzedFrames": [
+    {
+      "time": 3456,
+      "timestamp": "57:36",
+      "sources": [
+        "black"
+      ],
+      "score": 3,
+      "ai": {
+        "isChapterBoundary": true,
+        "confidence": 0.6,
+        "title": "Chapter at 57:36",
+        "reason": "Score 3 from: black",
+        "contentType": "black_frame"
+      },
+      "imagePath": "frame_000_3456s.jpg"
+    },
+    {
+      "time": 4579,
+      "timestamp": "1:16:19",
+      "sources": [
+        "black"
+      ],
+      "score": 3,
+      "ai": {
+        "isChapterBoundary": true,
+        "confidence": 0.6,
+        "title": "Chapter at 1:16:19",
+        "reason": "Score 3 from: black",
+        "contentType": "black_frame"
+      },
+      "imagePath": "frame_001_4579s.jpg"
+    },
+    {
+      "time": 4646,
+      "timestamp": "1:17:26",
+      "sources": [
+        "black"
+      ],
+      "score": 3,
+      "ai": {
+        "isChapterBoundary": true,
+        "confidence": 0.6,
+        "title": "Chapter at 1:17:26",
+        "reason": "Score 3 from: black",
+        "contentType": "black_frame"
+      },
+      "imagePath": "frame_002_4646s.jpg"
+    }
+  ]
+}

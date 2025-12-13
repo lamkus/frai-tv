@@ -1,0 +1,94 @@
+{
+  "comparisons": [
+    {
+      "id": "clip-betty_boop",
+      "name": "betty boop",
+      "title": "Comparison 1",
+      "category": "Demo Clips",
+      "enhanced": "/assets/video/clips/betty_boop_enhanced.mp4",
+      "original": "/assets/video/clips/betty_boop_original.mp4",
+      "enhancedExists": true,
+      "originalExists": false
+    },
+    {
+      "id": "clip-combat_america",
+      "name": "combat america",
+      "title": "Comparison 2",
+      "category": "Demo Clips",
+      "enhanced": "/assets/video/clips/combat_america_enhanced.mp4",
+      "original": "/assets/video/clips/combat_america_original.mp4",
+      "enhancedExists": true,
+      "originalExists": true
+    },
+    {
+      "id": "clip-dinner_for_one",
+      "name": "dinner for one",
+      "title": "Comparison 3",
+      "category": "Demo Clips",
+      "enhanced": "/assets/video/clips/dinner_for_one_enhanced.mp4",
+      "original": "/assets/video/clips/dinner_for_one_original.mp4",
+      "enhancedExists": true,
+      "originalExists": true
+    },
+    {
+      "id": "clip-duck_and_cover",
+      "name": "duck and cover",
+      "title": "Comparison 4",
+      "category": "Demo Clips",
+      "enhanced": "/assets/video/clips/duck_and_cover_enhanced.mp4",
+      "original": "/assets/video/clips/duck_and_cover_original.mp4",
+      "enhancedExists": true,
+      "originalExists": true
+    },
+    {
+      "id": "clip-hindenburg",
+      "name": "hindenburg",
+      "title": "Comparison 5",
+      "category": "Demo Clips",
+      "enhanced": "/assets/video/clips/hindenburg_enhanced.mp4",
+      "original": "/assets/video/clips/hindenburg_original.mp4",
+      "enhancedExists": true,
+      "originalExists": true
+    },
+    {
+      "id": "clip-japoteurs",
+      "name": "japoteurs",
+      "title": "Comparison 6",
+      "category": "Demo Clips",
+      "enhanced": "/assets/video/clips/japoteurs_enhanced.mp4",
+      "original": "/assets/video/clips/japoteurs_original.mp4",
+      "enhancedExists": true,
+      "originalExists": true
+    },
+    {
+      "id": "clip-krazy_kat",
+      "name": "krazy kat",
+      "title": "Comparison 7",
+      "category": "Demo Clips",
+      "enhanced": "/assets/video/clips/krazy_kat_enhanced.mp4",
+      "original": "/assets/video/clips/krazy_kat_original.mp4",
+      "enhancedExists": true,
+      "originalExists": false
+    },
+    {
+      "id": "clip-skating_hounds",
+      "name": "skating hounds",
+      "title": "Comparison 8",
+      "category": "Demo Clips",
+      "enhanced": "/assets/video/clips/skating_hounds_enhanced.mp4",
+      "original": "/assets/video/clips/skating_hounds_original.mp4",
+      "enhancedExists": true,
+      "originalExists": false
+    },
+    {
+      "id": "clip-superman_1941",
+      "name": "superman 1941",
+      "title": "Comparison 9",
+      "category": "Demo Clips",
+      "enhanced": "/assets/video/clips/superman_1941_enhanced.mp4",
+      "original": "/assets/video/clips/superman_1941_original.mp4",
+      "enhancedExists": true,
+      "originalExists": true
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  // URL is configured in prisma.config.ts
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// remAIke.TV Database Schema
+// ═══════════════════════════════════════════════════════════════════════════
+
+/// Video - Core entity representing a YouTube video
+model Video {
+  id           Int       @id @default(autoincrement())
+  ytId         String    @unique @db.VarChar(20) // YouTube video ID (e.g., "dQw4w9WgXcQ")
+  title        String    @db.VarChar(500)
+  description  String?   @db.Text
+  thumbnailUrl String?   @db.VarChar(500)
+  duration     Int?      // Duration in seconds
+  publishDate  DateTime?
+  
+  // YouTube metadata
+  viewCount    Int       @default(0)
+  likeCount    Int       @default(0)
+  channelId    String?   @db.VarChar(50)
+  channelName  String?   @db.VarChar(200)
+  
+  // Custom metadata (admin-managed)
+  customTitle       String?   @db.VarChar(500) // Override YouTube title
+  customDescription String?   @db.Text         // Override description
+  customThumbnail   String?   @db.VarChar(500) // Override thumbnail
+  featured          Boolean   @default(false)  // Show in hero section
+  hidden            Boolean   @default(false)  // Hide from catalog
+  sortOrder         Int       @default(0)      // Manual sorting
+  
+  // Relations
+  categoryId   Int?
+  category     Category? @relation(fields: [categoryId], references: [id])
+  tags         Tag[]     @relation("VideoTags")
+  
+  // Timestamps
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+  importedAt   DateTime  @default(now()) // When imported from YouTube
+  
+  @@index([categoryId])
+  @@index([publishDate])
+  @@index([featured])
+  @@index([hidden])
+}
+
+/// Category - Grouping videos by topic/series
+model Category {
+  id          Int      @id @default(autoincrement())
+  name        String   @unique @db.VarChar(100)
+  slug        String   @unique @db.VarChar(100) // URL-friendly name
+  description String?  @db.Text
+  imageUrl    String?  @db.VarChar(500) // Category thumbnail
+  color       String?  @db.VarChar(20)  // Accent color (hex)
+  sortOrder   Int      @default(0)      // Display order
+  isVisible   Boolean  @default(true)   // Show in navigation
+  
+  // Relations
+  videos      Video[]
+  
+  // Timestamps
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  @@index([sortOrder])
+  @@index([isVisible])
+}
+
+/// Tag - Flexible tagging system for videos
+model Tag {
+  id        Int      @id @default(autoincrement())
+  name      String   @unique @db.VarChar(50)
+  slug      String   @unique @db.VarChar(50)
+  
+  // Relations
+  videos    Video[]  @relation("VideoTags")
+  
+  // Timestamps
+  createdAt DateTime @default(now())
+}
+
+/// ImportLog - Track YouTube API imports
+model ImportLog {
+  id           Int       @id @default(autoincrement())
+  channelId    String    @db.VarChar(50)
+  status       String    @db.VarChar(20) // 'success', 'failed', 'partial'
+  videosFound  Int       @default(0)
+  videosAdded  Int       @default(0)
+  videosUpdated Int      @default(0)
+  errorMessage String?   @db.Text
+  
+  // Timestamps
+  startedAt    DateTime  @default(now())
+  completedAt  DateTime?
+  
+  @@index([channelId])
+  @@index([startedAt])
+}
+
+/// WatchProgress - persist user watch progress for continue-watching and analytics
+model WatchProgress {
+  id         Int      @id @default(autoincrement())
+  userId     String?  @db.VarChar(100) // optional anonymous token or user id
+  ytId       String   @db.VarChar(20)
+  progress   Int      // seconds watched
+  duration   Int      // total duration in seconds
+  percentage Float    @default(0)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([userId])
+  @@index([ytId])
+  @@unique([userId, ytId])
+}
+
+/// Settings - Key-value store for app configuration
+model Settings {
+  id        Int      @id @default(autoincrement())
+  key       String   @unique @db.VarChar(100)
+  value     String   @db.Text
+  
+  // Timestamps
+  updatedAt DateTime @updatedAt
+}
+
+/// AdminUser - Simple admin authentication (optional)
+model AdminUser {
+  id           Int      @id @default(autoincrement())
+  email        String   @unique @db.VarChar(200)
+  passwordHash String   @db.VarChar(200)
+  name         String?  @db.VarChar(100)
+  isActive     Boolean  @default(true)
+  
+  // Timestamps
+  createdAt    DateTime @default(now())
+  lastLoginAt  DateTime?
+  
+  @@index([email])
+}

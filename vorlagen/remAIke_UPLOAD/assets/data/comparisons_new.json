@@ -1,0 +1,193 @@
+{
+  "comparisons": [
+    {
+      "id": "combat_america",
+      "title": "Combat America (1943)",
+      "source": "USAAF Documentary",
+      "enhanced": "/assets/video/clips/combat_america_enhanced.mp4",
+      "original": "/assets/video/clips/combat_america_original.mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "thumbnail": "/assets/screenshots/combat_america_enhanced.jpg",
+      "frameEnhanced": "/assets/screenshots/combat_america_enhanced.jpg",
+      "frameOriginal": "/assets/screenshots/combat_america_original.jpg",
+      "youtube": "https://youtu.be/9AgSJyMnxi8",
+      "meta": {
+        "enhanced": {
+          "width": 7680,
+          "height": 4320,
+          "fps": 29.97,
+          "duration": 812.08
+        },
+        "original": {
+          "width": 640,
+          "height": 480,
+          "fps": 29.97,
+          "duration": 812.08
+        }
+      }
+    },
+    {
+      "id": "duck_and_cover",
+      "title": "Duck and Cover (1951)",
+      "source": "Civil Defense Film",
+      "enhanced": "/assets/video/clips/duck_and_cover_enhanced.mp4",
+      "original": "/assets/video/clips/duck_and_cover_original.mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "thumbnail": "/assets/screenshots/duck_and_cover_enhanced.jpg",
+      "frameEnhanced": "/assets/screenshots/duck_and_cover_enhanced.jpg",
+      "frameOriginal": "/assets/screenshots/duck_and_cover_original.jpg",
+      "youtube": "https://youtu.be/Ge-mC5q6lXw",
+      "meta": {
+        "enhanced": {
+          "width": 7680,
+          "height": 4320,
+          "fps": 29.97,
+          "duration": 554.09
+        },
+        "original": {
+          "width": 1280,
+          "height": 720,
+          "fps": 29.97,
+          "duration": 554.02
+        }
+      }
+    },
+    {
+      "id": "superman_1941",
+      "title": "Superman (1941)",
+      "source": "Fleischer Studios",
+      "enhanced": "/assets/video/clips/superman_1941_enhanced.mp4",
+      "original": "/assets/video/clips/superman_1941_original.mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "thumbnail": "/assets/screenshots/superman_1941_enhanced.jpg",
+      "frameEnhanced": "/assets/screenshots/superman_1941_enhanced.jpg",
+      "frameOriginal": "/assets/screenshots/superman_1941_original.jpg",
+      "youtube": "https://www.youtube.com/@remAIke_IT/videos",
+      "meta": {
+        "enhanced": {
+          "width": 7680,
+          "height": 4320,
+          "fps": 29.97,
+          "duration": 620.79
+        },
+        "original": {
+          "width": 400,
+          "height": 300,
+          "fps": 29.97,
+          "duration": 620.79
+        }
+      }
+    },
+    {
+      "id": "hindenburg",
+      "title": "Hindenburg Disaster (1937)",
+      "source": "Newsreel Footage",
+      "enhanced": "/assets/video/clips/hindenburg_enhanced.mp4",
+      "original": "/assets/video/clips/hindenburg_original.mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "thumbnail": "/assets/screenshots/hindenburg_enhanced.jpg",
+      "frameEnhanced": "/assets/screenshots/hindenburg_enhanced.jpg",
+      "frameOriginal": "/assets/screenshots/hindenburg_original.jpg",
+      "youtube": "https://www.youtube.com/@remAIke_IT/videos",
+      "meta": {
+        "enhanced": {
+          "width": 2880,
+          "height": 2160,
+          "fps": 29.97,
+          "duration": 326.59
+        },
+        "original": {
+          "width": 640,
+          "height": 480,
+          "fps": 29.97,
+          "duration": 326.59
+        }
+      }
+    },
+    {
+      "id": "dinner_for_one",
+      "title": "Dinner for One (1963)",
+      "source": "NDR Television",
+      "enhanced": "/assets/video/clips/dinner_for_one_enhanced.mp4",
+      "original": "/assets/video/clips/dinner_for_one_original.mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "thumbnail": "/assets/screenshots/dinner_for_one_enhanced.jpg",
+      "frameEnhanced": "/assets/screenshots/dinner_for_one_enhanced.jpg",
+      "frameOriginal": "/assets/screenshots/dinner_for_one_original.jpg",
+      "youtube": "https://www.youtube.com/@remAIke_IT/videos",
+      "meta": {
+        "enhanced": {
+          "width": 7680,
+          "height": 4320,
+          "fps": 25,
+          "duration": 667.68
+        },
+        "original": {
+          "width": 640,
+          "height": 480,
+          "fps": 25,
+          "duration": 667.68
+        }
+      }
+    },
+    {
+      "id": "vhs_home",
+      "title": "VHS Home Video (1980s)",
+      "source": "Private VHS Collection",
+      "enhanced": "/assets/video/clips/vhs_home_enhanced.mp4",
+      "original": "/assets/video/clips/vhs_home_original.mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "thumbnail": "/assets/screenshots/vhs_home_enhanced.jpg",
+      "frameEnhanced": "/assets/screenshots/vhs_home_enhanced.jpg",
+      "frameOriginal": "/assets/screenshots/vhs_home_original.jpg",
+      "youtube": "https://www.youtube.com/@remAIke_IT/videos",
+      "meta": {
+        "enhanced": {
+          "width": 1920,
+          "height": 1080,
+          "fps": 30,
+          "duration": 22.0
+        },
+        "original": {
+          "width": 1920,
+          "height": 1080,
+          "fps": 30,
+          "duration": 22.0
+        }
+      }
+    },
+    {
+      "id": "korn_freak",
+      "title": "Korn - Freak On A Leash (1998)",
+      "source": "Official Music Video",
+      "enhanced": "/assets/video/clips/korn_freak_enhanced.mp4",
+      "original": "/assets/video/clips/korn_freak_original.mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "thumbnail": "/assets/screenshots/korn_freak_enhanced.jpg",
+      "frameEnhanced": "/assets/screenshots/korn_freak_enhanced.jpg",
+      "frameOriginal": "/assets/screenshots/korn_freak_original.jpg",
+      "youtube": "https://www.youtube.com/watch?v=jRGrNDV2mKc",
+      "meta": {
+        "enhanced": {
+          "width": 3840,
+          "height": 2160,
+          "fps": 23.98,
+          "duration": 20.0
+        },
+        "original": {
+          "width": 1920,
+          "height": 1080,
+          "fps": 23.98,
+          "duration": 20.0
+        }
+      }
+    }
+  ]
+}

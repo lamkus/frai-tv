@@ -1,0 +1,24 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="eightKGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00ff88;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#4a9eff;stop-opacity:0.1" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#eightKGradient)"/>
+  <rect x="50" y="50" width="700" height="350" fill="url(#glow)" opacity="0.3"/>
+  <rect x="50" y="50" width="700" height="350" fill="none" stroke="#00ff88" stroke-width="2"/>
+  <text x="400" y="200" text-anchor="middle" fill="#00ff88" font-family="Arial, sans-serif" font-size="28" font-weight="bold">8K ENHANCED</text>
+  <text x="400" y="240" text-anchor="middle" fill="#4a9eff" font-family="Arial, sans-serif" font-size="18">KI-restauiert &amp; aufbereitet</text>
+  <text x="400" y="280" text-anchor="middle" fill="#00ff88" font-family="Arial, sans-serif" font-size="16">Kristallklare Details</text>
+  <text x="400" y="320" text-anchor="middle" fill="#4a9eff" font-family="Arial, sans-serif" font-size="16">Professionelle Qualität</text>
+  <circle cx="150" cy="100" r="3" fill="#00ff88" opacity="0.8"/>
+  <circle cx="650" cy="150" r="2" fill="#4a9eff" opacity="0.6"/>
+  <circle cx="200" cy="350" r="4" fill="#00ff88" opacity="0.7"/>
+  <circle cx="700" cy="300" r="3" fill="#4a9eff" opacity="0.5"/>
+</svg>

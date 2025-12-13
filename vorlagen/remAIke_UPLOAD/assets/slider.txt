@@ -1,0 +1,20 @@
+ZDF Mediathek
+"Wir haben unser komplettes 90er-Jahre-Archiv mit reAImastered aufbereitet. Die Qualität ist atemberaubend - selbst auf 85-Zoll-Displays keine Artefakte. Das hätten wir mit traditionellen Methoden niemals in dieser Zeit geschafft."
+Dr. Marcus Weber
+Leiter Digitale Archive
+
+Netflix Deutschland
+"Die KI-Halluzinationen sind minimal und stören den Sehfluss überhaupt nicht. Im Gegenteil - das Material wirkt lebendiger als je zuvor. Unsere Zuschauer lieben die restaurierten Klassiker."
+Jennifer Schmidt
+Content Acquisition Manager
+
+Filmmuseum München
+"Von der VHS-Kassette zum 8K-Master in 72 Stunden - das ist revolutionär. Die Bewahrung des Original-Charakters bei gleichzeitiger technischer Perfektion ist beeindruckend."
+Prof. Dr. Elisabeth Kraus
+Direktorin
+
+RTL+ Streaming
+"Das Preis-Leistungs-Verhältnis ist unschlagbar. Wir konnten unsere komplette Retro-Sammlung für einen Bruchteil der üblichen Kosten restaurieren lassen."
+Thomas Müller
+Head of Operations</content>
+<parameter name="filePath">c:/Users/freaked/Downloads/reAImastered_site_v2/assets/slider.txt

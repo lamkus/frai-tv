@@ -1,0 +1,50 @@
+[
+  {
+    "id": "comparison_1_1",
+    "title": "Demo Comparison 1 - 10s",
+    "original": "assets/screenshots/frame1_before_frame1_10s.jpg",
+    "enhanced": "assets/screenshots/frame1_after_frame1_10s.jpg"
+  },
+  {
+    "id": "comparison_1_2",
+    "title": "Demo Comparison 1 - 30s",
+    "original": "assets/screenshots/frame1_before_frame2_30s.jpg",
+    "enhanced": "assets/screenshots/frame1_after_frame2_30s.jpg"
+  },
+  {
+    "id": "comparison_1_3",
+    "title": "Demo Comparison 1 - 60s",
+    "original": "assets/screenshots/frame1_before_frame3_60s.jpg",
+    "enhanced": "assets/screenshots/frame1_after_frame3_60s.jpg"
+  },
+  {
+    "id": "comparison_1_4",
+    "title": "Demo Comparison 1 - 90s",
+    "original": "assets/screenshots/frame1_before_frame4_90s.jpg",
+    "enhanced": "assets/screenshots/frame1_after_frame4_90s.jpg"
+  },
+  {
+    "id": "comparison_2_1",
+    "title": "Demo Comparison 2 - 10s",
+    "original": "assets/screenshots/frame2_before_frame1_10s.jpg",
+    "enhanced": "assets/screenshots/frame2_after_frame1_10s.jpg"
+  },
+  {
+    "id": "comparison_2_2",
+    "title": "Demo Comparison 2 - 30s",
+    "original": "assets/screenshots/frame2_before_frame2_30s.jpg",
+    "enhanced": "assets/screenshots/frame2_after_frame2_30s.jpg"
+  },
+  {
+    "id": "comparison_2_3",
+    "title": "Demo Comparison 2 - 60s",
+    "original": "assets/screenshots/frame2_before_frame3_60s.jpg",
+    "enhanced": "assets/screenshots/frame2_after_frame3_60s.jpg"
+  },
+  {
+    "id": "comparison_2_4",
+    "title": "Demo Comparison 2 - 90s",
+    "original": "assets/screenshots/frame2_before_frame4_90s.jpg",
+    "enhanced": "assets/screenshots/frame2_after_frame4_90s.jpg"
+  }
+]

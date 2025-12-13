@@ -1,0 +1,821 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   frai.tv - FREE AI Enhanced TV - Global Styles
+   Responsive: Mobile First → Tablet → Desktop → 4K → Smart TV
+   Touch-friendly: Min 44px touch targets for all interactive elements
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+@layer base {
+  /* Root sizing for fluid typography */
+  :root {
+    --min-tap-target: 44px;
+    --safe-area-inset-top: env(safe-area-inset-top, 0px);
+    --safe-area-inset-bottom: env(safe-area-inset-bottom, 0px);
+    --safe-area-inset-left: env(safe-area-inset-left, 0px);
+    --safe-area-inset-right: env(safe-area-inset-right, 0px);
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* Prevent iOS text size adjust after orientation change */
+    -webkit-text-size-adjust: 100%;
+    /* Better touch scrolling on iOS */
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Prevent pull-to-refresh on mobile when not needed */
+  body {
+    overscroll-behavior-y: contain;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: theme('colors.retro.darker');
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: theme('colors.retro.gray');
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: theme('colors.retro.light');
+  }
+
+  /* Gold Scrollbar for Premium Popups */
+  .scrollbar-gold::-webkit-scrollbar {
+    width: 6px;
+  }
+  .scrollbar-gold::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+  }
+  .scrollbar-gold::-webkit-scrollbar-thumb {
+    background: #c9a962;
+    border-radius: 3px;
+  }
+  .scrollbar-gold::-webkit-scrollbar-thumb:hover {
+    background: #d4af37;
+  }
+
+  /* Premium UI - remAIke.IT font */
+  .premium-ui .font-display {
+    font-family: 'Bebas Neue', 'Impact', sans-serif;
+  }
+
+  /* Focus styles - Accessibility */
+  *:focus-visible {
+    outline: 2px solid theme('colors.accent.gold');
+    outline-offset: 2px;
+  }
+
+  /* Better focus for interactive elements */
+  button:focus-visible,
+  a:focus-visible,
+  [role='button']:focus-visible {
+    outline: 2px solid theme('colors.accent.gold');
+    outline-offset: 2px;
+    box-shadow: 0 0 0 4px rgba(212, 175, 55, 0.3);
+  }
+
+  /* Reduce motion for users who prefer it */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  /* High contrast mode support */
+  @media (prefers-contrast: high) {
+    .video-card {
+      border: 2px solid currentColor;
+    }
+
+    button,
+    a {
+      border: 1px solid currentColor;
+    }
+  }
+
+  /* Selection */
+  ::selection {
+    background: theme('colors.accent.gold');
+    color: black;
+  }
+}
+
+@layer components {
+  /* ─────────────────────────────────────────────────────────────────────────
+     Video Card Styles
+     ───────────────────────────────────────────────────────────────────────── */
+  .video-card {
+    @apply relative rounded-lg overflow-hidden bg-retro-dark 
+           transition-all duration-300 ease-out cursor-pointer
+           hover:scale-105 hover:z-10 hover:shadow-card-hover;
+  }
+
+  .video-card-thumbnail {
+    @apply w-full aspect-video object-cover;
+  }
+
+  .video-card-overlay {
+    @apply absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent
+           opacity-0 transition-opacity duration-300;
+  }
+
+  .video-card:hover .video-card-overlay {
+    @apply opacity-100;
+  }
+
+  .video-card-info {
+    @apply absolute bottom-0 left-0 right-0 p-3 
+           transform translate-y-2 opacity-0 transition-all duration-300;
+  }
+
+  .video-card:hover .video-card-info {
+    @apply translate-y-0 opacity-100;
+  }
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     Hero Section - Optimiert für alle Bildschirmgrößen
+     ───────────────────────────────────────────────────────────────────────── */
+  .hero-section {
+    @apply relative w-full min-h-[40vh] xs:min-h-[45vh] sm:min-h-[50vh] md:min-h-[60vh] lg:min-h-[70vh] xl:min-h-[80vh] 3xl:min-h-[85vh];
+  }
+
+  .hero-background {
+    @apply absolute inset-0 w-full h-full object-cover;
+  }
+
+  .hero-gradient {
+    @apply absolute inset-0 bg-hero-gradient;
+  }
+
+  .hero-content {
+    @apply absolute bottom-0 left-0 w-full sm:w-3/4 md:w-2/3 lg:w-1/2 
+           p-3 xs:p-4 sm:p-6 md:p-8 lg:p-12 3xl:p-16 4k:p-20;
+  }
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     Category Row / Slider - Touch-optimiert
+     ───────────────────────────────────────────────────────────────────────── */
+  .category-row {
+    @apply relative py-3 xs:py-4 md:py-6 lg:py-8;
+  }
+
+  .category-title {
+    @apply text-base xs:text-lg sm:text-xl lg:text-fluid-xl font-semibold mb-2 xs:mb-3 md:mb-4 
+           px-3 xs:px-4 sm:px-6 md:px-8 lg:px-12 3xl:px-16 4k:px-24;
+  }
+
+  .category-slider {
+    @apply flex gap-2 xs:gap-3 sm:gap-3 md:gap-4 overflow-x-auto 
+           px-3 xs:px-4 sm:px-6 md:px-8 lg:px-12 3xl:px-16 4k:px-24
+           pb-4 snap-x snap-mandatory scroll-smooth
+           touch-pan-x;
+  }
+
+  .category-slider::-webkit-scrollbar {
+    height: 4px;
+  }
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     Glass / Blur Effects - frai.tv Dashboard Style
+     ───────────────────────────────────────────────────────────────────────── */
+  .glass {
+    @apply bg-glass-card backdrop-blur-xl border border-white/5 shadow-xl;
+  }
+
+  .glass-dark {
+    @apply bg-glass-heavy backdrop-blur-2xl;
+  }
+
+  .glass-card {
+    @apply bg-retro-dark/60 backdrop-blur-xl border border-white/5 
+           rounded-2xl shadow-xl hover:border-accent-gold/20 
+           transition-all duration-300;
+  }
+
+  .glass-card-hover {
+    @apply hover:bg-retro-dark/80 hover:shadow-2xl 
+           hover:shadow-accent-gold/5 hover:scale-[1.02];
+  }
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     Dashboard Grid Cards - frai.tv Style
+     ───────────────────────────────────────────────────────────────────────── */
+  .dashboard-card {
+    @apply relative p-5 rounded-2xl
+           bg-gradient-to-br from-retro-dark/80 to-retro-darker/60
+           backdrop-blur-xl border border-white/5
+           hover:border-accent-gold/30 hover:shadow-lg hover:shadow-accent-gold/10
+           transition-all duration-300 cursor-pointer;
+  }
+
+  .dashboard-card::before {
+    content: '';
+    @apply absolute inset-0 rounded-2xl opacity-0 
+           bg-gradient-to-br from-accent-gold/10 via-transparent to-accent-purple/10
+           transition-opacity duration-300 pointer-events-none;
+  }
+
+  .dashboard-card:hover::before {
+    @apply opacity-100;
+  }
+
+  .dashboard-card-title {
+    @apply text-lg font-semibold text-white mb-2 
+           transition-colors;
+  }
+
+  .dashboard-card:hover .dashboard-card-title {
+    @apply text-accent-gold;
+  }
+
+  .dashboard-card-description {
+    @apply text-sm text-retro-muted line-clamp-2;
+  }
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     Button Variants - Gold Theme
+     ───────────────────────────────────────────────────────────────────────── */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 
+           px-4 py-2.5 sm:px-5 sm:py-2.5 md:px-6 md:py-3
+           rounded-md font-medium text-fluid-sm
+           transition-all duration-200 ease-out
+           min-h-[44px] min-w-[44px]
+           focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-retro-black
+           active:scale-95 touch-manipulation;
+  }
+
+  .btn-primary {
+    @apply bg-accent-gold text-black hover:bg-accent-honey active:bg-yellow-700
+           focus-visible:ring-accent-gold font-bold shadow-lg shadow-accent-gold/20;
+  }
+
+  .btn-secondary {
+    @apply bg-retro-gray/80 text-white hover:bg-retro-light active:bg-retro-gray
+           focus-visible:ring-retro-light border border-white/10 hover:border-white/30;
+  }
+
+  .btn-ghost {
+    @apply bg-transparent text-white hover:bg-white/10 active:bg-white/20
+           focus-visible:ring-white/50;
+  }
+
+  .btn-icon {
+    @apply p-2.5 sm:p-2.5 md:p-3 rounded-full min-h-[44px] min-w-[44px];
+  }
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     Navigation - Touch-friendly
+     ───────────────────────────────────────────────────────────────────────── */
+  .nav-link {
+    @apply text-retro-muted hover:text-white transition-colors duration-200
+           relative py-2 px-3
+           min-h-[44px] flex items-center
+           after:absolute after:bottom-0 after:left-0 after:w-0 
+           after:h-0.5 after:bg-accent-gold after:transition-all after:duration-300
+           hover:after:w-full
+           touch-manipulation;
+  }
+
+  .nav-link-active {
+    @apply text-white after:w-full;
+  }
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     Loading / Skeleton
+     ───────────────────────────────────────────────────────────────────────── */
+  .skeleton {
+    @apply bg-retro-gray animate-pulse rounded;
+  }
+
+  .skeleton-shimmer {
+    @apply relative overflow-hidden bg-retro-gray;
+  }
+
+  .skeleton-shimmer::after {
+    @apply absolute inset-0 bg-shimmer animate-shimmer;
+    content: '';
+    background-size: 200% 100%;
+  }
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     Modal / Overlay - FRai.TV Style
+     z-index hierarchy: nav=50, modal=60, cookies=100
+     ───────────────────────────────────────────────────────────────────────── */
+  .modal-backdrop {
+    @apply fixed inset-0 z-[60] 
+           flex items-center justify-center 
+           p-3 xs:p-4 sm:p-6
+           pb-[max(12px,env(safe-area-inset-bottom))];
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.95) 0%, rgba(5, 5, 10, 0.98) 100%);
+    backdrop-filter: blur(12px);
+  }
+
+  .modal-content {
+    @apply relative w-full 
+           max-w-[calc(100vw-24px)] sm:max-w-lg md:max-w-2xl lg:max-w-4xl 3xl:max-w-6xl 4k:max-w-7xl
+           max-h-[calc(100vh-48px)] sm:max-h-[calc(100vh-80px)]
+           rounded-lg sm:rounded-xl overflow-hidden shadow-2xl
+           animate-scale-in overflow-y-auto;
+    background: linear-gradient(180deg, rgba(26, 26, 36, 0.98) 0%, rgba(18, 18, 26, 0.99) 100%);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05), 0 25px 50px -12px rgba(0, 0, 0, 0.8),
+      0 0 80px -20px rgba(212, 175, 55, 0.15);
+  }
+
+  .modal-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(
+      90deg,
+      theme('colors.accent.red') 0%,
+      theme('colors.accent.gold') 50%,
+      theme('colors.accent.red') 100%
+    );
+    opacity: 0.8;
+  }
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     Video Player - Touch-friendly controls
+     ───────────────────────────────────────────────────────────────────────── */
+  .video-player-container {
+    @apply relative w-full aspect-video bg-black rounded-lg overflow-hidden;
+  }
+
+  .video-player-controls {
+    @apply absolute bottom-0 left-0 right-0 
+           bg-gradient-to-t from-black/90 via-black/50 to-transparent
+           p-3 xs:p-4 sm:p-5 md:p-6 
+           opacity-0 transition-opacity duration-300
+           touch-manipulation;
+  }
+
+  .video-player-container:hover .video-player-controls,
+  .video-player-container:focus-within .video-player-controls {
+    @apply opacity-100;
+  }
+
+  /* Show controls on touch devices */
+  @media (hover: none) {
+    .video-player-controls {
+      @apply opacity-100;
+    }
+  }
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     Progress Bar - Touch-friendly scrubber
+     ───────────────────────────────────────────────────────────────────────── */
+  .progress-bar {
+    @apply h-1 sm:h-1.5 bg-retro-gray rounded-full overflow-hidden cursor-pointer
+           touch-manipulation;
+  }
+
+  /* Larger hit area for touch */
+  .progress-bar-wrapper {
+    @apply py-3 -my-2.5 cursor-pointer;
+  }
+
+  .progress-bar-fill {
+    @apply h-full bg-accent-red transition-all duration-100;
+  }
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     Badge / Tag - Responsive sizes
+     ───────────────────────────────────────────────────────────────────────── */
+  .badge {
+    @apply inline-flex items-center px-1.5 xs:px-2 py-0.5 
+           text-[10px] xs:text-xs font-medium rounded-full
+           whitespace-nowrap;
+  }
+
+  .badge-new {
+    @apply bg-accent-red text-white;
+  }
+
+  .badge-live {
+    @apply bg-red-600 text-white animate-pulse-slow;
+  }
+
+  .badge-year {
+    @apply bg-retro-gray text-retro-white;
+  }
+
+  .badge-duration {
+    @apply bg-black/70 text-white;
+  }
+}
+
+@layer utilities {
+  /* Hide scrollbar but keep functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Line clamp utilities */
+  .line-clamp-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* Safe area padding for notched devices */
+  .safe-top {
+    padding-top: env(safe-area-inset-top);
+  }
+
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .safe-left {
+    padding-left: env(safe-area-inset-left);
+  }
+
+  .safe-right {
+    padding-right: env(safe-area-inset-right);
+  }
+
+  /* ─────────────────────────────────────────────────────────────────────────
+     Live Preview Animations
+     ───────────────────────────────────────────────────────────────────────── */
+  .preview-fade-in {
+    animation: previewFadeIn 0.3s ease-out forwards;
+  }
+
+  @keyframes previewFadeIn {
+    from {
+      opacity: 0;
+      transform: scale(1.05);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  /* Glow effect for hover cards */
+  .card-glow {
+    @apply relative;
+  }
+
+  .card-glow::after {
+    content: '';
+    @apply absolute -inset-1 rounded-xl bg-gradient-to-r from-accent-red/50 to-accent-cyan/50
+           opacity-0 blur-xl transition-opacity duration-500 -z-10;
+  }
+
+  .card-glow:hover::after {
+    @apply opacity-60;
+  }
+
+  /* Thumbnail cycling animation */
+  .thumbnail-cycle {
+    animation: thumbnailCycle 0.4s ease-in-out;
+  }
+
+  @keyframes thumbnailCycle {
+    0% {
+      opacity: 0.7;
+      transform: scale(1.02);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  /* Netflix-style card hover expansion - Touch-aware */
+  .card-expand {
+    @apply transition-all duration-300 ease-out touch-manipulation;
+  }
+
+  /* Only expand on hover devices (not touch) */
+  @media (hover: hover) {
+    .card-expand:hover {
+      @apply scale-105 md:scale-110 z-30;
+      box-shadow: 0 8px 40px rgba(0, 0, 0, 0.7), 0 0 30px rgba(229, 9, 20, 0.3);
+    }
+  }
+
+  /* Touch devices: subtle tap feedback */
+  @media (hover: none) {
+    .card-expand:active {
+      @apply scale-98;
+    }
+  }
+
+  /* Shimmer loading effect */
+  .shimmer {
+    @apply relative overflow-hidden bg-retro-gray;
+  }
+
+  .shimmer::before {
+    content: '';
+    @apply absolute inset-0;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+    animation: shimmer 1.5s infinite;
+  }
+
+  @keyframes shimmer {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+  /* Pulse glow for live indicators */
+  .pulse-glow {
+    animation: pulseGlow 2s ease-in-out infinite;
+  }
+
+  @keyframes pulseGlow {
+    0%,
+    100% {
+      box-shadow: 0 0 5px rgba(229, 9, 20, 0.5);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(229, 9, 20, 0.8), 0 0 30px rgba(229, 9, 20, 0.4);
+    }
+  }
+
+  /* Video preview border animation */
+  .preview-border {
+    @apply relative;
+  }
+
+  .preview-border::before {
+    content: '';
+    @apply absolute -inset-0.5 rounded-lg bg-gradient-to-r from-accent-red via-accent-cyan to-accent-red
+           opacity-0 transition-opacity duration-300;
+    background-size: 200% 100%;
+    animation: borderGradient 3s linear infinite;
+  }
+
+  .preview-border:hover::before {
+    @apply opacity-100;
+  }
+
+  @keyframes borderGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 200% 50%;
+    }
+  }
+
+  /* Smooth thumbnail transitions */
+  .thumbnail-smooth {
+    @apply transition-all duration-300;
+    will-change: transform, opacity;
+  }
+
+  /* ═══════════════════════════════════════════════════════════════════════════
+     TV MEDIATHEK DELUXE - High-End Effects
+     ═══════════════════════════════════════════════════════════════════════════ */
+
+  /* Click Ripple Effect */
+  @keyframes ripple {
+    0% {
+      transform: scale(0);
+      opacity: 0.6;
+    }
+    100% {
+      transform: scale(4);
+      opacity: 0;
+    }
+  }
+
+  .animate-ripple {
+    animation: ripple 0.6s ease-out forwards;
+  }
+
+  /* Gold Shimmer Text Effect */
+  @keyframes shimmer-gold {
+    0% {
+      background-position: -200% center;
+    }
+    100% {
+      background-position: 200% center;
+    }
+  }
+
+  .animate-shimmer {
+    background-size: 200% auto;
+    animation: shimmer-gold 3s linear infinite;
+  }
+
+  /* Neon Glow Effect */
+  .neon-glow-gold {
+    box-shadow: 0 0 5px theme('colors.accent.gold'), 0 0 10px theme('colors.accent.gold'),
+      0 0 20px rgba(212, 175, 55, 0.4);
+  }
+
+  .neon-glow-gold-hover:hover {
+    box-shadow: 0 0 10px theme('colors.accent.gold'), 0 0 20px theme('colors.accent.gold'),
+      0 0 40px rgba(212, 175, 55, 0.6);
+  }
+
+  /* Card Lift Effect */
+  .card-lift {
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+
+  .card-lift:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 20px rgba(212, 175, 55, 0.1);
+  }
+
+  /* Animated Border Gradient */
+  @keyframes border-flow {
+    0%,
+    100% {
+      border-color: rgba(212, 175, 55, 0.3);
+    }
+    50% {
+      border-color: rgba(212, 175, 55, 0.8);
+    }
+  }
+
+  .border-animate {
+    animation: border-flow 2s ease-in-out infinite;
+  }
+
+  /* Glass Card Premium */
+  .glass-premium {
+    background: linear-gradient(135deg, rgba(26, 26, 36, 0.9) 0%, rgba(20, 20, 30, 0.7) 100%);
+    backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .glass-premium:hover {
+    background: linear-gradient(135deg, rgba(30, 30, 42, 0.95) 0%, rgba(24, 24, 34, 0.8) 100%);
+    border-color: rgba(212, 175, 55, 0.3);
+  }
+
+  /* TV Scanline Effect (subtle) */
+  .tv-scanlines::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: repeating-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.05) 0px,
+      rgba(0, 0, 0, 0.05) 1px,
+      transparent 1px,
+      transparent 2px
+    );
+    opacity: 0.3;
+  }
+
+  /* Category Corner Effect */
+  .category-corner {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .category-corner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 28px 28px 0;
+    border-color: transparent var(--category-color, theme('colors.accent.gold')) transparent
+      transparent;
+    transition: all 0.3s ease;
+    opacity: 0.7;
+  }
+
+  .category-corner:hover::before {
+    border-width: 0 36px 36px 0;
+    opacity: 1;
+  }
+
+  /* Play Button Pulse */
+  @keyframes play-pulse {
+    0%,
+    100% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(212, 175, 55, 0.7);
+    }
+    50% {
+      transform: scale(1.05);
+      box-shadow: 0 0 0 10px rgba(212, 175, 55, 0);
+    }
+  }
+
+  .play-pulse:hover {
+    animation: play-pulse 1.5s ease-in-out infinite;
+  }
+
+  /* Thumbnail Zoom Container */
+  .thumbnail-zoom {
+    overflow: hidden;
+  }
+
+  .thumbnail-zoom img {
+    transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+
+  .thumbnail-zoom:hover img {
+    transform: scale(1.1);
+  }
+
+  /* Gold Accent Underline */
+  .gold-underline {
+    position: relative;
+  }
+
+  .gold-underline::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, theme('colors.accent.gold'), theme('colors.accent.amber'));
+    transition: width 0.3s ease;
+  }
+
+  .gold-underline:hover::after {
+    width: 100%;
+  }
+
+  /* Video Card Shine Effect */
+  .card-shine {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card-shine::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+      45deg,
+      transparent 40%,
+      rgba(255, 255, 255, 0.03) 50%,
+      transparent 60%
+    );
+    transform: rotate(45deg) translateY(-100%);
+    transition: transform 0.6s ease;
+  }
+
+  .card-shine:hover::before {
+    transform: rotate(45deg) translateY(100%);
+  }
+}

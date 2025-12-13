@@ -1,0 +1,38 @@
+# Apache .htaccess für FRai.TV
+# Cache-Control für SPA (Single Page Application)
+
+# Keine Caching für index.html
+<FilesMatch "index\.html$">
+    FileETag None
+    Header unset ETag
+    Header set Cache-Control "no-cache, no-store, must-revalidate, max-age=0"
+    Header set Pragma "no-cache"
+    Header set Expires "0"
+</FilesMatch>
+
+# Lange Cache-Zeit für Vite Assets mit Hash (index-[hash].js, index-[hash].css)
+<FilesMatch "\.(js|css|woff2?|ttf|eot|svg|png|jpg|jpeg|gif|webp|ico)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+</FilesMatch>
+
+# Gzip Kompression aktivieren
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
+</IfModule>
+
+# Fallback für React Router (alle Requests auf index.html umleiten)
+# ABER: Nicht für .js, .css, .map Dateien - die sollen 404 geben wenn nicht gefunden!
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    
+    # KEINE Umleitung für Asset-Dateien - müssen 404 geben wenn nicht da
+    RewriteCond %{REQUEST_URI} !\.(js|css|map|json|woff2?|ttf|eot|svg|png|jpg|jpeg|gif|webp|ico)$
+    
+    # Wenn Datei oder Verzeichnis existiert, direkt ausliefern
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    
+    # Sonst auf index.html umleiten (SPA Routing)
+    RewriteRule . /index.html [L]
+</IfModule>

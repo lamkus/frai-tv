@@ -1,0 +1,149 @@
+# =====================================================================
+# 📝 VIDEO-KAPITEL TEMPLATES FÜR KOMPILATIONEN
+# =====================================================================
+#
+# Kopiere diese Kapitelmarker in die YouTube-Beschreibung der Videos.
+# Die erste Zeitmarke MUSS 00:00 sein!
+#
+# =====================================================================
+
+
+# =====================================================================
+# CHARLIE CHAPLIN FILM FEST (FG-vqRH5Cg4)
+# =====================================================================
+# 
+# Füge folgendes in die Video-Beschreibung ein:
+#
+
+CHAPTERS / KAPITEL:
+
+00:00 - 🎬 Welcome to Charlie Chaplin Film Fest
+00:10 - 1. "The Adventurer" (1917) - Mutual Film
+18:30 - 2. "The Cure" (1917) - Mutual Film
+36:45 - 3. "Easy Street" (1917) - Mutual Film
+55:00 - 4. "The Immigrant" (1917) - Mutual Film
+73:15 - 5. "The Rink" (1916) - Mutual Film
+90:00 - 🔔 Subscribe for more Classic Cinema!
+
+---
+🎬 Restauriert von remAIke.TV | Restored by remAIke.TV
+📺 Alle Inhalte sind gemeinfrei / All content is public domain
+🔔 Abonniere für mehr Klassiker: @remAIke_IT
+
+
+# =====================================================================
+# KIRBY ABRIDGED COLLECTION (Qm3K0-XL46Q)
+# =====================================================================
+#
+# Füge folgendes in die Video-Beschreibung ein:
+#
+
+CHAPTERS / KAPITEL:
+
+00:00 - 🌟 Kirby Abridged Collection Intro
+00:30 - Episode 1: [Episoden-Titel]
+05:00 - Episode 2: [Episoden-Titel]
+10:00 - Episode 3: [Episoden-Titel]
+15:00 - Episode 4: [Episoden-Titel]
+20:00 - Episode 5: [Episoden-Titel]
+25:00 - 🔔 Outro & Credits
+
+---
+🎬 Restauriert von remAIke.TV
+📺 Alle Inhalte sind gemeinfrei
+
+
+# =====================================================================
+# ALLGEMEINES TEMPLATE FÜR CARTOON-KOMPILATIONEN
+# =====================================================================
+
+CHAPTERS / KAPITEL:
+
+00:00 - 🎬 Intro / Einführung
+00:XX - 1. "[Cartoon-Titel]" (Jahr) - [Studio]
+XX:XX - 2. "[Cartoon-Titel]" (Jahr) - [Studio]
+XX:XX - 3. "[Cartoon-Titel]" (Jahr) - [Studio]
+XX:XX - 4. "[Cartoon-Titel]" (Jahr) - [Studio]
+XX:XX - 5. "[Cartoon-Titel]" (Jahr) - [Studio]
+XX:XX - 🔔 Outro / Mehr auf @remAIke_IT
+
+---
+🎬 Restauriert von remAIke.TV | Restored by remAIke.TV
+📺 Alle Inhalte sind gemeinfrei / All content is public domain
+🔔 Abonniere für mehr: @remAIke_IT
+
+
+# =====================================================================
+# TEMPLATE FÜR FILM-NOIR / SPIELFILM-KOMPILATIONEN
+# =====================================================================
+
+TIMESTAMPS:
+
+00:00 - 🎬 Introduction & Restoration Notes
+02:00 - "Film Title 1" (Jahr) - Director Name
+45:00 - "Film Title 2" (Jahr) - Director Name
+90:00 - "Film Title 3" (Jahr) - Director Name
+XX:XX - 🔔 Credits & More Classics
+
+---
+🎬 Restored in 8K by remAIke.TV
+📽️ Public Domain Classic Cinema
+🔔 Subscribe: @remAIke_IT
+
+
+# =====================================================================
+# TEMPLATE FÜR DOKUMENTATIONEN
+# =====================================================================
+
+CHAPTERS:
+
+00:00 - 📽️ Introduction
+00:30 - Part 1: [Thema]
+XX:XX - Part 2: [Thema]
+XX:XX - Part 3: [Thema]
+XX:XX - Part 4: [Thema]
+XX:XX - 📚 Historical Context & Sources
+
+---
+📽️ Historical Document - Restored by remAIke.TV
+⚠️ This video contains historical content for educational purposes.
+🔔 Subscribe: @remAIke_IT
+
+
+# =====================================================================
+# BILINGUALES TEMPLATE (DE/EN)
+# =====================================================================
+
+KAPITEL / CHAPTERS:
+
+00:00 - Willkommen / Welcome
+00:20 - 1. "[Deutscher Titel]" / "[English Title]" (Jahr)
+XX:XX - 2. "[Deutscher Titel]" / "[English Title]" (Jahr)
+XX:XX - 3. "[Deutscher Titel]" / "[English Title]" (Jahr)
+XX:XX - Abspann / Credits
+
+---
+🎬 Restauriert von remAIke.TV | Restored by remAIke.TV
+📺 Gemeinfrei / Public Domain
+🇩🇪 Deutsch | 🇬🇧 English
+
+
+# =====================================================================
+# TIPPS FÜR KAPITELMARKER
+# =====================================================================
+#
+# ✅ DO's:
+# - Erste Zeitmarke MUSS 00:00 sein
+# - Mindestens 3 Kapitel
+# - Mindestens 10 Sekunden pro Kapitel
+# - Zeitmarken in aufsteigender Reihenfolge
+# - Jahr in Klammern für historischen Kontext
+# - Emojis für visuelle Struktur
+#
+# ❌ DON'Ts:
+# - Keine Zeitmarke unter 10 Sekunden
+# - Nicht mit 00:01 starten (muss 00:00 sein)
+# - Nicht mehr als 20 Kapitel (unübersichtlich)
+# - Keine irreführenden Titel
+#
+# =====================================================================

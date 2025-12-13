@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>remAIke.IT – Neural Studio</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%2300d4ff' width='100' height='100' rx='16'/><text x='50' y='60' font-size='44' fill='%23000' text-anchor='middle' font-weight='bold'>8K</text></svg>">
+    <style>
+        :root {
+            --bg: #08080c;
+            --panel: #0f1118;
+            --card: #141724;
+            --accent: #00d4ff;
+            --accent2: #ff00aa;
+            --text: #f5f7fb;
+            --muted: #9aa3b5;
+            --border: #1f2230;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: var(--bg); color: var(--text); font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif; }
+        a { color: var(--accent); text-decoration: none; }
+        .nav { position: sticky; top: 0; z-index: 100; backdrop-filter: blur(10px); background: rgba(8,8,12,0.82); border-bottom: 1px solid var(--border); padding: 12px 18px; display: flex; gap: 12px; align-items: center; }
+        .nav .logo { font-weight: 800; letter-spacing: 0.5px; background: linear-gradient(135deg, var(--accent), var(--accent2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .nav .pill { padding: 8px 14px; border: 1px solid var(--border); border-radius: 999px; color: var(--text); background: rgba(255,255,255,0.03); cursor: pointer; }
+        .nav .pill:hover { border-color: var(--accent); color: var(--accent); }
+        .hero { padding: 48px 18px 28px; text-align: center; background: radial-gradient(circle at 20% 20%, rgba(0,212,255,0.12), transparent 35%), radial-gradient(circle at 80% 10%, rgba(255,0,170,0.16), transparent 32%); }
+        .hero h1 { font-size: 36px; letter-spacing: -0.4px; margin-bottom: 12px; }
+        .hero p { color: var(--muted); max-width: 760px; margin: 0 auto 18px; line-height: 1.5; }
+        .cta-row { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+        .btn { padding: 12px 18px; border-radius: 12px; border: 1px solid var(--border); color: var(--text); background: var(--card); cursor: pointer; font-weight: 600; }
+        .btn.primary { background: linear-gradient(135deg, var(--accent), var(--accent2)); color: #020202; border: none; }
+        .btn:hover { border-color: var(--accent); box-shadow: 0 10px 32px rgba(0,212,255,0.18); }
+        .section { padding: 32px 18px 12px; max-width: 1400px; margin: 0 auto; }
+        .section h2 { font-size: 22px; margin-bottom: 6px; }
+        .section p.lead { color: var(--muted); margin-bottom: 18px; }
+
+        /* Mosaic styles (from comparison-mosaic) */
+        .mosaic { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 6px; padding: 10px 0 24px; }
+        .mosaic-item { position: relative; aspect-ratio: 16/9; overflow: hidden; background: var(--card); cursor: pointer; transition: transform 0.2s, box-shadow 0.2s; border: 1px solid var(--border); }
+        .mosaic-item.featured { border-color: var(--accent); }
+        .mosaic-item.active { box-shadow: 0 20px 40px rgba(0,212,255,0.12); transform: scale(1.02); }
+        .mosaic-item:hover { transform: scale(1.02); box-shadow: 0 10px 36px rgba(0,212,255,0.16); }
+        .overlay { position: absolute; inset: 0; background: linear-gradient(0deg, rgba(0,0,0,0.9) 0%, transparent 50%, rgba(0,0,0,0.5) 100%); opacity: 0; transition: opacity 0.3s; display: flex; flex-direction: column; justify-content: flex-end; padding: 14px; }
+        .mosaic-item:hover .overlay { opacity: 1; }
+        .overlay-title { font-size: 16px; font-weight: 700; margin-bottom: 4px; }
+        .overlay-meta { font-size: 12px; color: var(--accent); display: flex; gap: 12px; flex-wrap: wrap; }
+        .overlay-type { position: absolute; top: 12px; right: 12px; padding: 6px 12px; background: var(--accent2); border-radius: 6px; font-weight: 700; font-size: 11px; }
+        .mosaic-item video, .mosaic-item img { width: 100%; height: 100%; object-fit: cover; display: block; }
+        .loading { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding: 40px 0; color: var(--muted); }
+        .loading-spinner { width: 44px; height: 44px; border: 4px solid rgba(0,212,255,0.2); border-top-color: var(--accent); border-radius: 50%; animation: spin 1s linear infinite; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* Modal for slider preview */
+        .modal-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.8); display: none; align-items: center; justify-content: center; z-index: 2000; }
+        .modal { background: #0d0f16; border: 1px solid var(--border); border-radius: 12px; width: min(1200px, 95vw); box-shadow: 0 24px 60px rgba(0,0,0,0.6); }
+        .modal-header { display: flex; justify-content: space-between; align-items: center; padding: 14px 18px; border-bottom: 1px solid var(--border); }
+        .modal-body { padding: 16px; }
+        .close-btn { background: none; border: 1px solid var(--border); color: var(--text); border-radius: 999px; width: 32px; height: 32px; cursor: pointer; }
+        .slider-container { position: relative; width: 100%; aspect-ratio: 16/9; background: #000; overflow: hidden; border-radius: 10px; border: 1px solid var(--border); }
+        .slider-container video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+        .slider-handle { position: absolute; top: 0; bottom: 0; width: 3px; background: linear-gradient(180deg, var(--accent), var(--accent2), var(--accent)); left: 50%; transform: translateX(-50%); cursor: ew-resize; }
+        .slider-labels { position: absolute; bottom: 10px; left: 10px; right: 10px; display: flex; justify-content: space-between; font-weight: 700; font-size: 12px; }
+        .modal-controls { margin-top: 12px; display: flex; gap: 10px; }
+        .btn-primary { background: linear-gradient(135deg, var(--accent), var(--accent2)); color: #010101; border: none; padding: 10px 16px; border-radius: 10px; cursor: pointer; font-weight: 700; }
+        .btn-secondary { background: var(--card); color: var(--text); border: 1px solid var(--border); padding: 10px 14px; border-radius: 10px; cursor: pointer; }
+
+        /* Studio styles (condensed from gpu-studio) */
+        .studio-section { margin-top: 28px; border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+        .studio { display: grid; grid-template-columns: 260px 1fr 280px; min-height: 70vh; background: #0a0a0f; }
+        .panel { background: #0d0d15; padding: 14px; overflow: hidden; display: flex; flex-direction: column; border-right: 1px solid #11131f; }
+        .panel-title { color: var(--accent); font-size: 13px; font-weight: 700; margin-bottom: 10px; }
+        .gallery { flex: 1; overflow-y: auto; display: flex; flex-direction: column; gap: 10px; }
+        .gallery-item { background: #151520; border-radius: 8px; overflow: hidden; cursor: pointer; border: 2px solid transparent; transition: all 0.2s; }
+        .gallery-item:hover, .gallery-item.active { border-color: var(--accent); box-shadow: 0 0 15px #00d4ff44; }
+        .gallery-item img { width: 100%; height: 100px; object-fit: cover; }
+        .gallery-item-info { padding: 8px; }
+        .gallery-item-title { font-size: 12px; font-weight: 600; }
+        .gallery-item-meta { font-size: 10px; color: var(--accent); margin-top: 2px; }
+        .canvas-panel { position: relative; display: flex; flex-direction: column; background: #000; }
+        .canvas-wrapper { flex: 1; position: relative; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+        #comparison-canvas { max-width: 100%; max-height: 100%; cursor: ew-resize; }
+        .slider-line { position: absolute; top: 0; bottom: 0; width: 3px; background: linear-gradient(180deg, var(--accent), var(--accent2), var(--accent)); pointer-events: none; z-index: 10; }
+        .slider-handle-studio { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 46px; height: 46px; background: rgba(0,0,0,0.85); border: 2px solid var(--accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--accent); font-size: 18px; pointer-events: none; z-index: 11; }
+        .video-labels { position: absolute; bottom: 15px; left: 0; right: 0; display: flex; justify-content: space-between; padding: 0 20px; pointer-events: none; z-index: 5; }
+        .video-label { padding: 6px 14px; border-radius: 4px; font-size: 12px; font-weight: 700; }
+        .label-enhanced { background: #00d4ff22; color: #00d4ff; border: 1px solid #00d4ff; }
+        .label-original { background: #ff6b6b22; color: #ff6b6b; border: 1px solid #ff6b6b; }
+        .status-bar { position: absolute; top: 10px; left: 10px; right: 10px; display: flex; justify-content: space-between; z-index: 20; }
+        .status-badge { background: rgba(0,0,0,0.85); color: var(--accent); padding: 6px 10px; border-radius: 8px; border: 1px solid var(--border); font-size: 11px; }
+        .controls { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 10px; }
+        .ctrl-btn { padding: 10px; border-radius: 8px; border: 1px solid #1d2233; background: #131824; color: #fff; cursor: pointer; }
+        .ctrl-btn.primary { background: linear-gradient(135deg, var(--accent), var(--accent2)); color: #010101; border: none; }
+        .tech-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+        .tech-row { display: flex; justify-content: space-between; font-size: 12px; padding: 6px 8px; background: #111522; border-radius: 6px; }
+        .tech-label { color: var(--muted); }
+        .tech-value { color: var(--accent); }
+
+        @media (max-width: 900px) {
+            .nav { flex-wrap: wrap; }
+            .studio { grid-template-columns: 1fr; }
+            .panel { border-right: none; border-bottom: 1px solid #11131f; }
+            .canvas-panel { min-height: 360px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">remAIke.IT • Neural Optical Engine</div>
+        <button class="pill" onclick="document.getElementById('mosaic-section').scrollIntoView({behavior:'smooth'})">Showcase</button>
+        <button class="pill" onclick="document.getElementById('studio-section').scrollIntoView({behavior:'smooth'})">Studio</button>
+        <button class="pill" onclick="window.open('https://youtube.com/@remAIke','_blank')">YouTube</button>
+    </div>
+
+    <div class="hero">
+        <h1>8K Neural Restoration • Paired Originals vs Enhancements</h1>
+        <p>Single-page experience: public-domain sources, pixel-accurate SMPTE sync, and live studio controls. Powered by our Neural Optical Engine™.</p>
+        <div class="cta-row">
+            <a class="btn primary" href="https://youtube.com/@remAIke" target="_blank">Visit YouTube Channel</a>
+            <button class="btn" onclick="document.getElementById('studio-section').scrollIntoView({behavior:'smooth'})">Open Studio</button>
+        </div>
+    </div>
+
+    <section id="mosaic-section" class="section">
+        <h2>Showcase Mosaic (Paired Only)</h2>
+        <p class="lead">Every tile is a true pair: original vs enhanced. Click to preview, then send to Studio.</p>
+        <div id="mosaic" class="mosaic">
+            <div class="loading">
+                <div class="loading-spinner"></div>
+                <div>Loading comparisons from Neural Optical Engine…</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="studio-section" class="section">
+        <h2>Studio • Pixel-Accurate Compare</h2>
+        <p class="lead">SMPTE-locked, slider and auto-play. Select any clip from the left gallery.</p>
+        <div class="studio-section">
+            <div class="studio">
+                <div class="panel">
+                    <div class="panel-title">Comparisons</div>
+                    <div id="gallery" class="gallery"></div>
+                </div>
+                <div class="canvas-panel">
+                    <div class="status-bar">
+                        <div class="status-badge" id="status">Ready</div>
+                        <div class="status-badge">SMPTE: <span id="smpte">--:--:--:--</span></div>
+                    </div>
+                    <div class="canvas-wrapper" id="canvas-wrapper">
+                        <canvas id="comparison-canvas" width="1280" height="720"></canvas>
+                        <div class="slider-line" id="slider-line"></div>
+                        <div class="slider-handle-studio" id="slider-handle">⇆</div>
+                        <div class="video-labels">
+                            <div class="video-label label-original">Original</div>
+                            <div class="video-label label-enhanced">Enhanced</div>
+                        </div>
+                        <video id="vid-original" muted loop playsinline preload="auto" crossorigin="anonymous" class="hidden"></video>
+                        <video id="vid-enhanced" muted loop playsinline preload="auto" crossorigin="anonymous" class="hidden"></video>
+                    </div>
+                    <div class="status-bar" style="top:auto; bottom:10px; justify-content:flex-start; gap:10px;">
+                        <div class="status-badge">FPS: <span id="fps">--</span></div>
+                        <div class="status-badge">Res: <span id="res-display">--</span></div>
+                    </div>
+                </div>
+                <div class="panel">
+                    <div class="panel-title">Controls</div>
+                    <div class="controls">
+                        <button class="ctrl-btn primary" id="btn-play">Play/Pause</button>
+                        <button class="ctrl-btn" id="btn-autoslide">Auto-Slide</button>
+                        <button class="ctrl-btn" id="btn-reset">Reset</button>
+                        <button class="ctrl-btn" id="btn-reload">Reload Clips</button>
+                    </div>
+                    <div class="panel-title" style="margin-top:14px;">Tech Stack</div>
+                    <div class="tech-grid">
+                        <div class="tech-row"><span class="tech-label">Engine</span><span class="tech-value">Neural Optical</span></div>
+                        <div class="tech-row"><span class="tech-label">Render</span><span class="tech-value">Canvas 2D</span></div>
+                        <div class="tech-row"><span class="tech-label">Sync</span><span class="tech-value">SMPTE</span></div>
+                        <div class="tech-row"><span class="tech-label">Mode</span><span class="tech-value">8K Ready</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for mosaic preview -->
+    <div class="modal-backdrop" id="modal-backdrop">
+        <div class="modal" id="stream-modal">
+            <div class="modal-header">
+                <div>
+                    <div id="modal-title" style="font-weight:700;">Preview</div>
+                    <div id="modal-meta" style="color: var(--muted); font-size: 12px;"></div>
+                </div>
+                <button class="close-btn" id="modal-close">✕</button>
+            </div>
+            <div class="modal-body">
+                <div class="slider-container" id="slider-container">
+                    <video class="video-enhanced" id="video-enhanced" loop muted playsinline></video>
+                    <video class="video-original" id="video-original" loop muted playsinline></video>
+                    <div class="slider-handle" id="slider-handle-modal"></div>
+                    <div class="slider-labels">
+                        <span class="slider-label original">ORIGINAL</span>
+                        <span class="slider-label enhanced">ENHANCED 8K</span>
+                    </div>
+                </div>
+                <div class="modal-controls">
+                    <button class="btn-primary" id="btn-play-pause">▶ Play</button>
+                    <button class="btn-secondary" id="btn-open-studio">Open in Studio</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    // ========== Mosaic Loader (paired-only) ==========
+    (function() {
+        'use strict';
+        let comparisons = [];
+        let currentItem = null;
+        let isDragging = false;
+        let sliderPosition = 50;
+        let isPlaying = false;
+        const mosaic = document.getElementById('mosaic');
+        const modal = document.getElementById('stream-modal');
+        const modalBackdrop = document.getElementById('modal-backdrop');
+        const modalTitle = document.getElementById('modal-title');
+        const modalMeta = document.getElementById('modal-meta');
+        const sliderContainer = document.getElementById('slider-container');
+        const sliderHandle = document.getElementById('slider-handle-modal');
+        const videoOriginal = document.getElementById('video-original');
+        const videoEnhanced = document.getElementById('video-enhanced');
+        const btnPlayPause = document.getElementById('btn-play-pause');
+        const btnOpenStudio = document.getElementById('btn-open-studio');
+        const modalClose = document.getElementById('modal-close');
+
+        async function loadComparisons() {
+            const normalize = (items) => {
+                if (!Array.isArray(items)) return [];
+                return items.filter(item => {
+                    const enhanced = item.enhanced || item.enhancedPath;
+                    const original = item.original || item.originalPath;
+                    const hasBoth = Boolean(enhanced && original);
+                    const enhancedOk = item.enhancedExists === undefined ? true : item.enhancedExists;
+                    const originalOk = item.originalExists === undefined ? true : item.originalExists;
+                    return hasBoth && enhancedOk && originalOk;
+                });
+            };
+            const sources = [
+                async () => {
+                    const response = await fetch('/api/comparisons?pairedOnly=true', { cache: 'no-store' });
+                    if (!response.ok) throw new Error('API unavailable');
+                    return await response.json();
+                },
+                async () => {
+                    const response = await fetch('/comparisons.json', { cache: 'no-store' });
+                    if (!response.ok) throw new Error('Static JSON missing');
+                    return await response.json();
+                }
+            ];
+            for (const fetcher of sources) {
+                try {
+                    const data = await fetcher();
+                    const items = normalize(data.comparisons || data);
+                    if (!items.length) continue;
+                    const indices = items.map((_, i) => i);
+                    for (let i = indices.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [indices[i], indices[j]] = [indices[j], indices[i]]; }
+                    const activeIndices = indices.slice(0, Math.min(2, indices.length));
+                    const mechanisms = ['slider', 'sidebyside', 'fade', 'split', 'zoom'];
+                    comparisons = items.map((item, idx) => {
+                        const fallbackThumb = `/assets/screenshots/frame${(idx % 2) + 1}_before_frame1_10s.jpg`;
+                        const thumb = item.thumb || item.preview || item.thumbnail || (item.id ? `/api/thumbnail/${item.id}?type=original&t=00:00:03` : fallbackThumb);
+                        return {
+                            id: item.id,
+                            title: item.title || item.name || `Comparison ${idx + 1}`,
+                            meta: item.source || item.category || 'Neural Enhancement',
+                            type: activeIndices.includes(idx) ? mechanisms[Math.floor(Math.random() * mechanisms.length)] : 'static',
+                            isActive: activeIndices.includes(idx),
+                            featured: idx < 2,
+                            originalPath: item.original || item.originalPath || item.originalUrl,
+                            enhancedPath: item.enhanced || item.enhancedPath || item.enhancedUrl,
+                            thumb
+                        };
+                    });
+                    renderMosaic();
+                    return;
+                } catch (err) {
+                    console.warn('Comparison source failed, trying next source:', err.message || err);
+                }
+            }
+            mosaic.innerHTML = '<div class="loading">No paired data available.</div>';
+        }
+
+        function renderMosaic() {
+            mosaic.innerHTML = '';
+            comparisons.forEach((item, idx) => {
+                const div = document.createElement('div');
+                div.className = `mosaic-item ${item.featured ? 'featured' : ''} ${item.isActive ? 'active' : ''}`;
+                div.dataset.index = idx;
+                const content = document.createElement(item.type === 'static' ? 'img' : 'video');
+                if (item.type !== 'static') { content.muted = true; content.loop = true; content.autoplay = true; content.playsinline = true; }
+                content.src = item.enhancedPath;
+                content.setAttribute('loading','lazy');
+                div.appendChild(content);
+                const overlay = document.createElement('div');
+                overlay.className = 'overlay';
+                overlay.innerHTML = `<div class="overlay-title">${item.title}</div><div class="overlay-meta">${item.meta}</div><div class="overlay-type">${item.type.toUpperCase()}</div>`;
+                div.appendChild(overlay);
+                div.addEventListener('click', () => openModal(idx));
+                mosaic.appendChild(div);
+            });
+        }
+
+        function openModal(idx) {
+            currentItem = comparisons[idx];
+            if (!currentItem) return;
+            modalTitle.textContent = currentItem.title;
+            modalMeta.textContent = currentItem.meta || '';
+            videoOriginal.src = currentItem.originalPath;
+            videoEnhanced.src = currentItem.enhancedPath;
+            videoOriginal.currentTime = 0; videoEnhanced.currentTime = 0;
+            videoOriginal.pause(); videoEnhanced.pause();
+            sliderPosition = 50; updateSlider();
+            modalBackdrop.style.display = 'flex';
+        }
+
+        function closeModal() {
+            modalBackdrop.style.display = 'none';
+            videoOriginal.pause(); videoEnhanced.pause();
+        }
+
+        function updateSlider() {
+            const pct = `${sliderPosition}%`;
+            sliderHandle.style.left = pct;
+            videoEnhanced.style.clipPath = `inset(0 ${100 - sliderPosition}% 0 0)`;
+        }
+
+        function startDrag(e) { isDragging = true; moveHandle(e); }
+        function endDrag() { isDragging = false; }
+        function moveHandle(e) {
+            if (!isDragging) return;
+            const rect = sliderContainer.getBoundingClientRect();
+            const x = (e.touches ? e.touches[0].clientX : e.clientX) - rect.left;
+            sliderPosition = Math.max(0, Math.min(100, (x / rect.width) * 100));
+            updateSlider();
+        }
+
+        sliderContainer.addEventListener('mousedown', startDrag);
+        sliderContainer.addEventListener('touchstart', startDrag);
+        window.addEventListener('mouseup', endDrag);
+        window.addEventListener('touchend', endDrag);
+        window.addEventListener('mousemove', moveHandle);
+        window.addEventListener('touchmove', moveHandle);
+        modalClose.addEventListener('click', closeModal);
+        modalBackdrop.addEventListener('click', (e) => { if (e.target === modalBackdrop) closeModal(); });
+        btnPlayPause.addEventListener('click', () => {
+            isPlaying = !isPlaying;
+            if (isPlaying) { videoOriginal.play(); videoEnhanced.play(); btnPlayPause.textContent = '❚❚ Pause'; }
+            else { videoOriginal.pause(); videoEnhanced.pause(); btnPlayPause.textContent = '▶ Play'; }
+        });
+        btnOpenStudio.addEventListener('click', () => {
+            if (!currentItem) return;
+            const url = new URL(window.location.href);
+            url.searchParams.set('clip', currentItem.id);
+            window.location.href = url.toString() + '#studio-section';
+        });
+
+        loadComparisons();
+    })();
+    </script>
+
+    <script>
+    // ========== Studio (paired-only) ==========
+    (function() {
+        'use strict';
+        let CLIPS = [];
+        const canvas = document.getElementById('comparison-canvas');
+        const ctx = canvas.getContext('2d', { alpha: false, desynchronized: true });
+        const sliderLine = document.getElementById('slider-line');
+        const sliderHandle = document.getElementById('slider-handle');
+        const vidOriginal = document.getElementById('vid-original');
+        const vidEnhanced = document.getElementById('vid-enhanced');
+        const statusEl = document.getElementById('status');
+        const fpsEl = document.getElementById('fps');
+        const gallery = document.getElementById('gallery');
+        const resDisplay = document.getElementById('res-display');
+        const smpteEl = document.getElementById('smpte');
+        const btnPlay = document.getElementById('btn-play');
+        const btnAuto = document.getElementById('btn-autoslide');
+        const btnReset = document.getElementById('btn-reset');
+        const btnReload = document.getElementById('btn-reload');
+        let sliderPos = 0.5;
+        let isDragging = false;
+        let autoSlide = false;
+        let autoDir = 1;
+        let isPlaying = false;
+        let animationId = null;
+        let lastFrameTime = 0;
+        let frameCount = 0;
+        let selectedId = null;
+
+        function getQueryParam(name) { const url = new URL(window.location.href); return url.searchParams.get(name); }
+        function setStatus(msg) { statusEl.textContent = msg; }
+
+        function formatSMPTE(seconds) {
+            if (!Number.isFinite(seconds)) return '--:--:--:--';
+            const totalFrames = Math.floor(seconds * 24);
+            const frames = totalFrames % 24;
+            const totalSeconds = Math.floor(totalFrames / 24);
+            const s = totalSeconds % 60;
+            const m = Math.floor(totalSeconds / 60) % 60;
+            const h = Math.floor(totalSeconds / 3600);
+            const pad = (n, w=2) => String(n).padStart(w, '0');
+            return `${pad(h)}:${pad(m)}:${pad(s)}:${pad(frames)}`;
+        }
+
+        async function loadClips() {
+            const normalize = (items) => {
+                if (!Array.isArray(items)) return [];
+                return items.filter(c => {
+                    const enhanced = c.enhanced || c.enhancedPath;
+                    const original = c.original || c.originalPath;
+                    const hasBoth = Boolean(enhanced && original);
+                    const enhancedOk = c.enhancedExists === undefined ? true : c.enhancedExists;
+                    const originalOk = c.originalExists === undefined ? true : c.originalExists;
+                    return hasBoth && enhancedOk && originalOk;
+                });
+            };
+            const sources = [
+                async () => { const res = await fetch('/api/comparisons?pairedOnly=true', { cache: 'no-store' }); if (!res.ok) throw new Error('API unavailable'); return await res.json(); },
+                async () => { const res = await fetch('/comparisons.json', { cache: 'no-store' }); if (!res.ok) throw new Error('Static missing'); return await res.json(); }
+            ];
+            for (const f of sources) {
+                try {
+                    const json = await f();
+                    const items = normalize(json.comparisons || json);
+                    if (!items.length) continue;
+                    CLIPS = items.map((c, i) => ({
+                        id: c.id || `clip-${i}`,
+                        title: c.title || c.name || `Comparison ${i+1}`,
+                        meta: c.source || c.category || '',
+                        thumb: c.preview || c.thumb || `/assets/screenshots/frame${(i%2)+1}_before_frame1_10s.jpg`,
+                        original: c.original || c.originalPath || c.originalUrl,
+                        enhanced: c.enhanced || c.enhancedPath || c.enhancedUrl
+                    }));
+                    return;
+                } catch (e) { console.warn('Comparison source failed, trying next:', e.message); }
+            }
+            CLIPS = [];
+        }
+
+        function renderGallery() {
+            gallery.innerHTML = '';
+            CLIPS.forEach((clip) => {
+                const item = document.createElement('div');
+                item.className = 'gallery-item';
+                item.dataset.id = clip.id;
+                item.innerHTML = `<img src="${clip.thumb}" alt="${clip.title}"><div class="gallery-item-info"><div class="gallery-item-title">${clip.title}</div><div class="gallery-item-meta">${clip.meta}</div></div>`;
+                item.addEventListener('click', () => selectClip(clip.id));
+                gallery.appendChild(item);
+            });
+        }
+
+        function markActive() {
+            [...gallery.children].forEach(child => {
+                child.classList.toggle('active', child.dataset.id === selectedId);
+            });
+        }
+
+        async function selectClip(id) {
+            const clip = CLIPS.find(c => c.id === id) || CLIPS[0];
+            if (!clip) return;
+            selectedId = clip.id;
+            vidOriginal.src = clip.original;
+            vidEnhanced.src = clip.enhanced;
+            await Promise.all([vidOriginal.play().catch(()=>{}), vidEnhanced.play().catch(()=>{})]);
+            vidOriginal.pause(); vidEnhanced.pause();
+            vidOriginal.currentTime = 0; vidEnhanced.currentTime = 0;
+            isPlaying = false;
+            setStatus(clip.title);
+            markActive();
+        }
+
+        function drawFrame(timestamp) {
+            if (!isPlaying) return;
+            const now = timestamp || performance.now();
+            const dt = now - lastFrameTime;
+            if (dt >= 1000/60) {
+                ctx.clearRect(0,0,canvas.width,canvas.height);
+                const w = canvas.width, h = canvas.height;
+                ctx.drawImage(vidOriginal, 0, 0, w, h);
+                ctx.save();
+                ctx.beginPath(); ctx.rect(0, 0, w * sliderPos, h); ctx.clip();
+                ctx.drawImage(vidEnhanced, 0, 0, w, h);
+                ctx.restore();
+                sliderLine.style.left = `${sliderPos*100}%`;
+                sliderHandle.style.left = `${sliderPos*100}%`;
+                smpteEl.textContent = formatSMPTE(vidOriginal.currentTime);
+                frameCount++;
+                lastFrameTime = now;
+            }
+            animationId = requestAnimationFrame(drawFrame);
+        }
+
+        function togglePlay() {
+            isPlaying = !isPlaying;
+            if (isPlaying) {
+                vidOriginal.play(); vidEnhanced.play();
+                setStatus('Playing');
+                animationId = requestAnimationFrame(drawFrame);
+                btnPlay.textContent = 'Pause';
+            } else {
+                vidOriginal.pause(); vidEnhanced.pause();
+                cancelAnimationFrame(animationId);
+                setStatus('Paused');
+                btnPlay.textContent = 'Play';
+            }
+        }
+
+        function toggleAuto() { autoSlide = !autoSlide; btnAuto.textContent = autoSlide ? 'Auto-Slide: On' : 'Auto-Slide'; }
+        function reset() { sliderPos = 0.5; updateHandles(); }
+        function reload() { loadClips().then(() => { renderGallery(); selectClip(getQueryParam('clip') || (CLIPS[0] && CLIPS[0].id)); }); }
+
+        function updateHandles() { sliderLine.style.left = `${sliderPos*100}%`; sliderHandle.style.left = `${sliderPos*100}%`; }
+
+        function onDragStart(e) { isDragging = true; move(e); }
+        function onDragEnd() { isDragging = false; }
+        function move(e) {
+            if (!isDragging) return;
+            const rect = canvas.getBoundingClientRect();
+            const x = (e.touches ? e.touches[0].clientX : e.clientX) - rect.left;
+            sliderPos = Math.max(0, Math.min(1, x / rect.width));
+            updateHandles();
+        }
+
+        canvas.addEventListener('mousedown', onDragStart);
+        canvas.addEventListener('touchstart', onDragStart);
+        window.addEventListener('mouseup', onDragEnd);
+        window.addEventListener('touchend', onDragEnd);
+        window.addEventListener('mousemove', move);
+        window.addEventListener('touchmove', move);
+        btnPlay.addEventListener('click', togglePlay);
+        btnAuto.addEventListener('click', toggleAuto);
+        btnReset.addEventListener('click', reset);
+        btnReload.addEventListener('click', reload);
+
+        function tickFps() {
+            fpsEl.textContent = `${Math.round((frameCount / 1).toFixed(0))}`;
+            frameCount = 0;
+            setTimeout(tickFps, 1000);
+        }
+
+        function init() {
+            loadClips().then(() => {
+                renderGallery();
+                selectClip(getQueryParam('clip') || (CLIPS[0] && CLIPS[0].id));
+                resDisplay.textContent = 'Canvas 1280x720';
+                tickFps();
+                setStatus('Ready');
+            });
+        }
+        init();
+    })();
+    </script>
+</body>
+</html>

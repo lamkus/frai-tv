@@ -1,0 +1,73 @@
+{
+  "name": "frai.tv - FREE AI Enhanced TV",
+  "short_name": "frai.tv",
+  "description": "Kostenloses Streaming mit KI-Empfehlungen. Bildung, Unterhaltung, Dokus für jeden Browser & Smart TV.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "orientation": "any",
+  "lang": "de",
+  "dir": "ltr",
+  "categories": ["entertainment", "video", "education"],
+  "iarc_rating_id": "",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Videos durchstöbern",
+      "short_name": "Browse",
+      "description": "Alle Videos entdecken",
+      "url": "/browse"
+    },
+    {
+      "name": "Meine Watchlist",
+      "short_name": "Watchlist",
+      "description": "Gespeicherte Videos ansehen",
+      "url": "/watchlist"
+    },
+    {
+      "name": "Suche",
+      "short_name": "Suche",
+      "description": "Videos suchen",
+      "url": "/search"
+    },
+    {
+      "name": "Live",
+      "short_name": "Live",
+      "description": "Livestreams ansehen",
+      "url": "/live"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "display_override": ["standalone", "browser"]
+}

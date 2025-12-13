@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>remAIke.IT - 8K Neural Enhancement Showcase</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%2300d4ff' width='100' height='100' rx='20'/><text x='50' y='65' font-size='50' fill='%23000' text-anchor='middle' font-weight='bold'>8K</text></svg>">
+    <style>
+        :root {
+            --cyan: #00d4ff;
+            --magenta: #ff00aa;
+            --dark: #0a0a0f;
+            --card: #12121a;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: var(--dark);
+            color: #fff;
+            min-height: 100vh;
+        }
+        
+        /* HEADER */
+        .header {
+            background: linear-gradient(180deg, #000 0%, var(--dark) 100%);
+            padding: 30px 20px;
+            text-align: center;
+            border-bottom: 1px solid var(--cyan);
+        }
+        
+        .logo {
+            font-size: 42px;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--cyan), var(--magenta));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+        }
+        
+        .tagline {
+            color: #888;
+            font-size: 16px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+        
+        .tech-badges {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .badge {
+            padding: 8px 16px;
+            background: rgba(0,212,255,0.1);
+            border: 1px solid var(--cyan);
+            border-radius: 20px;
+            font-size: 12px;
+            color: var(--cyan);
+            font-weight: 600;
+        }
+        
+        /* Loading State */
+        .loading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 80px 20px;
+            gap: 20px;
+        }
+        
+        .loading-spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid rgba(0,212,255,0.2);
+            border-top-color: var(--cyan);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        /* MOSAIC GRID */
+        .mosaic {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 4px;
+            padding: 20px;
+            max-width: 1800px;
+            margin: 0 auto;
+            background: var(--dark);
+        }
+        
+        .mosaic-item.featured {
+            border: 2px solid var(--cyan);
+            border-radius: 12px;
+        }
+        .mosaic-item.active {
+            box-shadow: 0 20px 40px rgba(0,212,255,0.12);
+            transform: scale(1.03);
+            z-index: 12;
+        }
+        
+        .mosaic-item {
+            position: relative;
+            aspect-ratio: 16/9;
+            overflow: hidden;
+            background: var(--card);
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .mosaic-item:hover {
+            z-index: 10;
+            transform: scale(1.02);
+            box-shadow: 0 10px 40px rgba(0,212,255,0.3);
+        }
+        
+        .mosaic-item:hover .overlay {
+            opacity: 1;
+        }
+        
+        .mosaic-item img,
+        .mosaic-item video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Static preview with loading placeholder */
+        .static-preview {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #1a1a2e, #0f0f1a);
+        }
+
+        .static-preview img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .static-preview .static-label {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background: rgba(0,0,0,0.8);
+            color: #ff6b6b;
+            padding: 6px 12px;
+            font-weight: 700;
+            border-radius: 6px;
+            font-size: 11px;
+            pointer-events: none;
+            text-transform: uppercase;
+        }
+        
+        /* Overlay */
+        .overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(0deg, rgba(0,0,0,0.9) 0%, transparent 50%, rgba(0,0,0,0.5) 100%);
+            opacity: 0;
+            transition: opacity 0.3s;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 20px;
+        }
+        
+        .overlay-title {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        
+        .overlay-meta {
+            font-size: 12px;
+            color: var(--cyan);
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .overlay-type {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            padding: 5px 12px;
+            background: var(--magenta);
+            border-radius: 4px;
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        
+        /* Type Badges */
+        .type-slider { background: var(--cyan); color: #000; }
+        .type-static { background: rgba(255,255,255,0.06); color: #ff6b6b; border: 1px solid #ff6b6b; }
+        
+        /* SLIDER PREVIEW ANIMATION */
+        .slider-sim {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .slider-sim video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .slider-sim .slider-line {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: linear-gradient(180deg, var(--cyan), var(--magenta), var(--cyan));
+            animation: slideMove 4s ease-in-out infinite;
+            z-index: 5;
+            box-shadow: 0 0 15px var(--cyan);
+        }
+        
+        .slider-sim .slider-line::before {
+            content: '⟷';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 36px;
+            height: 36px;
+            background: #000;
+            border: 2px solid var(--cyan);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            color: var(--cyan);
+        }
+        
+        @keyframes slideMove {
+            0%, 100% { left: 20%; }
+            50% { left: 80%; }
+        }
+        
+        /* ═══════════════════════════════════════════════════════════════
+           MODAL WITH INTERACTIVE SLIDER
+           ═══════════════════════════════════════════════════════════════ */
+        #stream-modal {
+            display: none;
+            position: fixed;
+            inset: 0;
+            z-index: 9999;
+        }
+        
+        #stream-modal .modal-backdrop {
+            position: absolute;
+            inset: 0;
+            background: rgba(0,0,0,0.95);
+        }
+        
+        #stream-modal .modal-content {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 95%;
+            max-width: 1600px;
+            background: #080808;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 20px 80px rgba(0,212,255,0.3);
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #222;
+        }
+        
+        .modal-title {
+            font-size: 24px;
+            font-weight: 700;
+        }
+        
+        .modal-close {
+            font-size: 28px;
+            cursor: pointer;
+            color: #666;
+            transition: color 0.2s;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+        
+        .modal-close:hover {
+            color: #fff;
+            background: rgba(255,255,255,0.1);
+        }
+        
+        /* Interactive Slider Container */
+        .slider-container {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 16/9;
+            background: #000;
+            border-radius: 8px;
+            overflow: hidden;
+            cursor: ew-resize;
+        }
+        
+        .slider-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            background: #000;
+        }
+        
+        .slider-container .video-original {
+            clip-path: inset(0 50% 0 0);
+        }
+        
+        .slider-container .video-enhanced {
+            z-index: 1;
+        }
+        
+        .slider-container .video-original {
+            z-index: 2;
+        }
+        
+        .slider-handle {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            width: 4px;
+            background: linear-gradient(180deg, var(--cyan), var(--magenta), var(--cyan));
+            transform: translateX(-50%);
+            z-index: 10;
+            box-shadow: 0 0 20px rgba(0,212,255,0.8);
+        }
+        
+        .slider-handle::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 50px;
+            height: 50px;
+            background: rgba(0,0,0,0.8);
+            border: 3px solid var(--cyan);
+            border-radius: 50%;
+        }
+        
+        .slider-handle::after {
+            content: '⟷';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            color: var(--cyan);
+            z-index: 1;
+        }
+        
+        .slider-labels {
+            position: absolute;
+            bottom: 15px;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+            z-index: 5;
+            pointer-events: none;
+        }
+        
+        .slider-label {
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-weight: 700;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+        
+        .slider-label.original {
+            background: rgba(255,107,107,0.9);
+            color: #fff;
+        }
+        
+        .slider-label.enhanced {
+            background: rgba(0,212,255,0.9);
+            color: #000;
+        }
+        
+        .modal-controls {
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .modal-controls button {
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s;
+            border: none;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, var(--cyan), #0099cc);
+            color: #000;
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            border: 2px solid var(--magenta) !important;
+            color: var(--magenta);
+        }
+        
+        .btn-primary:hover, .btn-secondary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(0,212,255,0.3);
+        }
+        
+        /* Stats Bar */
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            padding: 40px 20px;
+            background: var(--card);
+            flex-wrap: wrap;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 48px;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--cyan), var(--magenta));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .stat-label {
+            color: #666;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, rgba(0,212,255,0.1) 0%, rgba(255,0,170,0.1) 100%);
+            padding: 60px 20px;
+            text-align: center;
+        }
+        
+        .cta-title {
+            font-size: 32px;
+            font-weight: 800;
+            margin-bottom: 15px;
+        }
+        
+        .cta-text {
+            color: #888;
+            max-width: 600px;
+            margin: 0 auto 30px;
+            line-height: 1.6;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .cta-btn {
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        
+        .cta-btn.primary {
+            background: linear-gradient(135deg, var(--cyan), #0099cc);
+            color: #000;
+        }
+        
+        .cta-btn.secondary {
+            background: transparent;
+            border: 2px solid var(--magenta);
+            color: var(--magenta);
+        }
+        
+        .cta-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0,212,255,0.3);
+        }
+        
+        /* Footer */
+        .footer {
+            background: #000;
+            padding: 40px 20px;
+            text-align: center;
+            border-top: 1px solid #222;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .footer-links a {
+            color: var(--cyan);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.2s;
+        }
+        
+        .footer-links a:hover {
+            color: var(--magenta);
+        }
+        
+        .copyright {
+            color: #444;
+            font-size: 12px;
+        }
+        
+        /* Responsive */
+        @media (max-width: 900px) {
+            .mosaic {
+                grid-template-columns: 1fr;
+            }
+            .stat-value {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="logo">remAIke.IT</div>
+        <div class="tagline">Neural 8K Video Enhancement</div>
+        <div class="tech-badges">
+            <span class="badge">8K UHD</span>
+            <span class="badge">Neural Optical Engine™</span>
+            <span class="badge">ProRes / HEVC</span>
+            <span class="badge">Frame-Perfect Sync</span>
+        </div>
+    </header>
+    
+    <!-- STATS - dynamisch aus API -->
+    <section class="stats" id="stats-section">
+        <div class="stat">
+            <div class="stat-value" id="stat-count">--</div>
+            <div class="stat-label">Comparisons</div>
+        </div>
+        <div class="stat">
+            <div class="stat-value">8K</div>
+            <div class="stat-label">Max Resolution</div>
+        </div>
+        <div class="stat">
+            <div class="stat-value">60fps</div>
+            <div class="stat-label">Frame Rate</div>
+        </div>
+        <div class="stat">
+            <div class="stat-value">AI</div>
+            <div class="stat-label">Neural Processing</div>
+        </div>
+    </section>
+    
+    <!-- MODAL WITH INTERACTIVE SLIDER -->
+    <div id="stream-modal">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title" id="modal-title">Comparison</div>
+                <div class="modal-close" id="modal-close">✕</div>
+            </div>
+            
+            <div class="slider-container" id="slider-container">
+                <video class="video-enhanced" id="video-enhanced" loop muted playsinline></video>
+                <video class="video-original" id="video-original" loop muted playsinline></video>
+                <div class="slider-handle" id="slider-handle"></div>
+                <div class="slider-labels">
+                    <span class="slider-label original">ORIGINAL</span>
+                    <span class="slider-label enhanced">ENHANCED 8K</span>
+                </div>
+            </div>
+            
+            <div class="modal-controls">
+                <button class="btn-primary" id="btn-play-pause">▶ Play</button>
+                <button class="btn-secondary" id="btn-open-studio">Open in Full Studio</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- MOSAIC GRID - dynamisch aus API -->
+    <section class="mosaic" id="mosaic">
+        <div class="loading">
+            <div class="loading-spinner"></div>
+            <div>Loading comparisons from Neural Optical Engine™...</div>
+        </div>
+    </section>
+    
+    <!-- CTA -->
+    <section class="cta-section">
+        <h2 class="cta-title">Bereit für 8K?</h2>
+        <p class="cta-text">
+            Erlebe deine Klassiker in nie dagewesener Qualität. Unser Neural Optical Engine™ 
+            restauriert jedes Frame mit KI-gestützter Präzision.
+        </p>
+        <div class="cta-buttons">
+            <a href="https://youtube.com/@remAIke" target="_blank" rel="noopener" class="cta-btn primary">🎬 YouTube Channel</a>
+            <a href="mailto:contact@remAIke.IT" class="cta-btn secondary">📧 Kontakt</a>
+        </div>
+    </section>
+    
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="/gpu-studio.html">🎬 Live Studio</a>
+            <a href="/main.html">🏠 Homepage</a>
+            <a href="https://youtube.com/@remAIke" target="_blank" rel="noopener">📺 YouTube</a>
+        </div>
+        <div class="copyright">
+            © 2025 remAIke.IT - Neural Video Enhancement. Alle Rechte vorbehalten.
+        </div>
+    </footer>
+
+    <script>
+    (function() {
+        'use strict';
+        
+        // ═══════════════════════════════════════════════════════════════
+        // STATE
+        // ═══════════════════════════════════════════════════════════════
+        let comparisons = [];
+        let currentItem = null;
+        let sliderPosition = 50;
+        let isDragging = false;
+        let isPlaying = false;
+        
+        // DOM Elements
+        const mosaic = document.getElementById('mosaic');
+        const modal = document.getElementById('stream-modal');
+        const modalTitle = document.getElementById('modal-title');
+        const sliderContainer = document.getElementById('slider-container');
+        const sliderHandle = document.getElementById('slider-handle');
+        const videoOriginal = document.getElementById('video-original');
+        const videoEnhanced = document.getElementById('video-enhanced');
+        const btnPlayPause = document.getElementById('btn-play-pause');
+        const btnOpenStudio = document.getElementById('btn-open-studio');
+        const modalClose = document.getElementById('modal-close');
+        const modalBackdrop = document.querySelector('.modal-backdrop');
+        
+        // ═══════════════════════════════════════════════════════════════
+        // API INTEGRATION - Auto-populate with paired-only comparisons
+        // ═══════════════════════════════════════════════════════════════
+        async function loadComparisons() {
+            const normalize = (items) => {
+                if (!Array.isArray(items)) return [];
+                const filtered = items.filter(item => {
+                    const enhanced = item.enhanced || item.enhancedPath;
+                    const original = item.original || item.originalPath;
+                    const hasBoth = Boolean(enhanced && original);
+                    const enhancedOk = item.enhancedExists === undefined ? true : item.enhancedExists;
+                    const originalOk = item.originalExists === undefined ? true : item.originalExists;
+                    return hasBoth && enhancedOk && originalOk;
+                });
+                return filtered;
+            };
+
+            const sources = [
+                async () => {
+                    const response = await fetch('/api/comparisons?pairedOnly=true', { cache: 'no-store' });
+                    if (!response.ok) throw new Error('API unavailable');
+                    return await response.json();
+                },
+                async () => {
+                    const response = await fetch('/comparisons.json', { cache: 'no-store' });
+                    if (!response.ok) throw new Error('Static comparisons.json missing');
+                    return await response.json();
+                }
+            ];
+
+            for (const fetcher of sources) {
+                try {
+                    const data = await fetcher();
+                    const items = normalize(data.comparisons || data);
+                    if (!items.length) continue;
+
+                    // Choose two random active items from the list each load
+                    const indices = items.map((_, i) => i);
+                    for (let i = indices.length - 1; i > 0; i--) {
+                        const j = Math.floor(Math.random() * (i + 1));
+                        [indices[i], indices[j]] = [indices[j], indices[i]];
+                    }
+                    const activeIndices = indices.slice(0, Math.min(2, indices.length));
+
+                    // Mark two as interactive and pick random mechanism for them
+                    const mechanisms = ['slider', 'sidebyside', 'fade', 'split', 'zoom'];
+                    comparisons = items.map((item, idx) => {
+                        const fallbackThumb = `/assets/screenshots/frame${(idx % 2) + 1}_before_frame1_10s.jpg`;
+                        const thumb = item.thumb || item.preview || item.thumbnail || (item.id ? `/api/thumbnail/${item.id}?type=original&t=00:00:03` : fallbackThumb);
+                        return {
+                            id: item.id,
+                            title: item.title || item.name || `Comparison ${idx + 1}`,
+                            meta: item.source || item.category || 'Neural Enhancement',
+                            type: activeIndices.includes(idx) ? mechanisms[Math.floor(Math.random() * mechanisms.length)] : 'static',
+                            isActive: activeIndices.includes(idx),
+                            featured: idx < 2,
+                            // API provides full paths or relative paths
+                            originalPath: item.original || item.originalPath || item.originalUrl,
+                            enhancedPath: item.enhanced || item.enhancedPath || item.enhancedUrl,
+                            thumb
+                        };
+                    });
+
+                    document.getElementById('stat-count').textContent = comparisons.length;
+                    renderMosaic();
+                    return;
+                } catch (err) {
+                    console.warn('Comparison source failed, trying next source:', err.message || err);
+                }
+            }
+
+            // Fallback to local clips if no paired data available
+            loadFallbackData();
+        }
+        
+        // Fallback data for local development
+        function loadFallbackData() {
+            const clips = [
+                { id: '01', title: 'Minnie the Moocher', meta: 'Betty Boop · 1932' },
+                { id: '02', title: 'Felix the Cat', meta: 'Silent Era · 1920s' },
+                { id: '03', title: 'Superman', meta: 'Fleischer · 1941' }
+            ];
+            
+            // Create 24 items from 3 clips
+            comparisons = [];
+            for (let i = 0; i < 24; i++) {
+                const clip = clips[i % clips.length];
+                comparisons.push({
+                    id: `fallback-${i}`,
+                    title: i < 3 ? clip.title : `${clip.title} #${i + 1}`,
+                    meta: clip.meta,
+                    type: i < 2 ? 'slider' : 'static',
+                    featured: i < 2,
+                    originalPath: `/assets/video/clips/${clip.id}_original.mp4`,
+                    enhancedPath: `/assets/video/clips/${clip.id}_enhanced.mp4`,
+                    thumb: `/assets/screenshots/frame${((i % 2) + 1)}_before_frame1_10s.jpg`
+                });
+            }
+            
+            document.getElementById('stat-count').textContent = comparisons.length;
+            renderMosaic();
+        }
+        
+        // ═══════════════════════════════════════════════════════════════
+        // RENDER MOSAIC
+        // ═══════════════════════════════════════════════════════════════
+        function renderMosaic() {
+            mosaic.innerHTML = '';
+            
+            comparisons.forEach((item, idx) => {
+                const div = document.createElement('div');
+                const activeClass = item.isActive ? ' active' : '';
+                div.className = `mosaic-item ${item.featured ? 'featured' : ''}${activeClass}`;
+                div.dataset.index = idx;
+                
+                const typeClass = {
+                    'slider': 'type-slider',
+                    'sidebyside': 'type-sidebyside',
+                    'fade': 'type-fade',
+                    'split': 'type-split',
+                    'zoom': 'type-zoom',
+                    'static': 'type-static'
+                }[item.type] || 'type-static';
+                const typeLabel = item.type === 'slider' ? 'Interactive Slider' : (item.type === 'static' ? 'Click to Compare' : 'Interactive');
+
+                // Render active interactive previews if isActive
+                if (item.isActive) {
+                    switch (item.type) {
+                        case 'slider':
+                            div.innerHTML = `
+                                <div class="slider-sim">
+                                    <video src="${item.enhancedPath}" muted loop autoplay playsinline></video>
+                                    <div class="slider-line"></div>
+                                </div>
+                                <div class="overlay">
+                                    <span class="overlay-type ${typeClass}">${typeLabel}</span>
+                                    <div class="overlay-title">${item.title}</div>
+                                    <div class="overlay-meta"><span>${item.meta}</span></div>
+                                </div>
+                            `;
+                            break;
+                        case 'sidebyside':
+                            div.innerHTML = `
+                                <div class="sidebyside">
+                                    <video src="${item.originalPath}" muted loop autoplay playsinline></video>
+                                    <video src="${item.enhancedPath}" muted loop autoplay playsinline></video>
+                                    <span class="label left">ORIGINAL</span>
+                                    <span class="label right">ENHANCED</span>
+                                </div>
+                                <div class="overlay">
+                                    <span class="overlay-type ${typeClass}">${typeLabel}</span>
+                                    <div class="overlay-title">${item.title}</div>
+                                    <div class="overlay-meta"><span>${item.meta}</span></div>
+                                </div>
+                            `;
+                            break;
+                        case 'fade':
+                            div.innerHTML = `
+                                <div class="fade-toggle">
+                                    <video src="${item.originalPath}" muted loop autoplay playsinline></video>
+                                    <video src="${item.enhancedPath}" muted loop autoplay playsinline></video>
+                                </div>
+                                <div class="overlay">
+                                    <span class="overlay-type ${typeClass}">${typeLabel}</span>
+                                    <div class="overlay-title">${item.title}</div>
+                                    <div class="overlay-meta"><span>${item.meta}</span></div>
+                                </div>
+                            `;
+                            break;
+                        case 'split':
+                            div.innerHTML = `
+                                <div class="diagonal-split">
+                                    <video src="${item.originalPath}" muted loop autoplay playsinline></video>
+                                    <video src="${item.enhancedPath}" muted loop autoplay playsinline></video>
+                                    <div class="split-line"></div>
+                                </div>
+                                <div class="overlay">
+                                    <span class="overlay-type ${typeClass}">${typeLabel}</span>
+                                    <div class="overlay-title">${item.title}</div>
+                                    <div class="overlay-meta"><span>${item.meta}</span></div>
+                                </div>
+                            `;
+                            break;
+                        case 'zoom':
+                            div.innerHTML = `
+                                <div class="zoom-detail">
+                                    <video src="${item.originalPath}" muted loop autoplay playsinline></video>
+                                    <div class="zoom-circle">
+                                        <video src="${item.enhancedPath}" muted loop autoplay playsinline></video>
+                                    </div>
+                                </div>
+                                <div class="overlay">
+                                    <span class="overlay-type ${typeClass}">${typeLabel}</span>
+                                    <div class="overlay-title">${item.title}</div>
+                                    <div class="overlay-meta"><span>${item.meta}</span></div>
+                                </div>
+                            `;
+                            break;
+                        default:
+                            div.innerHTML = `
+                                <div class="static-preview">
+                                    <img src="${item.thumb}" alt="${item.title}" loading="lazy" onerror="this.src='/assets/screenshots/frame1_before_frame1_10s.jpg'" />
+                                    <div class="static-label">Original</div>
+                                </div>
+                                <div class="overlay">
+                                    <span class="overlay-type ${typeClass}">${typeLabel}</span>
+                                    <div class="overlay-title">${item.title}</div>
+                                    <div class="overlay-meta"><span>${item.meta}</span></div>
+                                </div>
+                            `;
+                    }
+                } else {
+                    // Show static thumbnail for other items
+                    div.innerHTML = `
+                        <div class="static-preview">
+                            <img src="${item.thumb}" alt="${item.title}" loading="lazy" 
+                                 onerror="this.src='/assets/screenshots/frame1_before_frame1_10s.jpg'" />
+                            <div class="static-label">Original</div>
+                        </div>
+                        <div class="overlay">
+                            <span class="overlay-type ${typeClass}">${typeLabel}</span>
+                            <div class="overlay-title">${item.title}</div>
+                            <div class="overlay-meta"><span>${item.meta}</span></div>
+                        </div>
+                    `;
+                }
+                
+                div.addEventListener('click', () => {
+                    const wasActive = item.isActive;
+                    // Deactivate any active items (stop their autoplay and change to static preview)
+                    deactivateActiveItems();
+                    // If the clicked item was interactive, open studio to verify pixel-perfect
+                    const interactiveTypes = ['slider', 'sidebyside', 'fade', 'split', 'zoom'];
+                    if (wasActive && interactiveTypes.includes(item.type)) {
+                        window.open(`/gpu-studio.html?clip=${encodeURIComponent(item.id)}`, '_blank');
+                    } else {
+                        // Static -> open modal with streaming
+                        openModal(item);
+                    }
+                });
+                mosaic.appendChild(div);
+            });
+            
+            // Lazy-load videos: play only when visible
+            setupVideoObserver();
+        }
+        
+        function setupVideoObserver() {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                        const videos = entry.target.querySelectorAll('video');
+                        videos.forEach(video => {
+                            if (entry.isIntersecting) {
+                                video.play().catch(() => {});
+                            } else {
+                                video.pause();
+                            }
+                        });
+                });
+            }, { threshold: 0.3 });
+            
+            document.querySelectorAll('.mosaic-item').forEach(item => {
+                observer.observe(item);
+            });
+        }
+
+        // Deactivate active items: Stop videos and convert to static previews
+        function deactivateActiveItems() {
+            document.querySelectorAll('.mosaic-item.active').forEach((el) => {
+                const idx = parseInt(el.dataset.index, 10);
+                const item = COMPARISONS[idx];
+                if (!item) return;
+                item.isActive = false;
+                item.type = 'static';
+                // Stop any videos
+                const videos = el.querySelectorAll('video');
+                videos.forEach(v => { try { v.pause(); v.src = ''; } catch (e) {} });
+                // Replace element with static preview
+                el.classList.remove('active');
+                el.innerHTML = `
+                    <div class="static-preview">
+                        <img src="${item.thumb}" alt="${item.title}" loading="lazy" onerror="this.src='/assets/screenshots/frame1_before_frame1_10s.jpg'" />
+                        <div class="static-label">Original</div>
+                    </div>
+                    <div class="overlay">
+                        <span class="overlay-type type-static">Click to Compare</span>
+                        <div class="overlay-title">${item.title}</div>
+                        <div class="overlay-meta"><span>${item.meta}</span></div>
+                    </div>
+                `;
+            });
+        }
+        
+        // ═══════════════════════════════════════════════════════════════
+        // MODAL WITH INTERACTIVE SLIDER
+        // ═══════════════════════════════════════════════════════════════
+        function openModal(item) {
+            currentItem = item;
+            sliderPosition = 50;
+            isPlaying = false;
+            
+            modalTitle.textContent = item.title;
+            
+            // Set video sources - use streaming endpoints if available
+            const originalSrc = item.originalPath.startsWith('/video/') 
+                ? item.originalPath 
+                : `/video/original/${item.id}`;
+            const enhancedSrc = item.enhancedPath.startsWith('/video/') 
+                ? item.enhancedPath 
+                : `/video/enhanced/${item.id}`;
+            
+            // Try direct path first, fall back to local clips
+            videoOriginal.src = item.originalPath;
+            videoEnhanced.src = item.enhancedPath;
+            
+            // Reset slider
+            updateSliderPosition(50);
+            
+            // Show modal
+            modal.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+            
+            // Preload and sync videos
+            Promise.all([
+                new Promise(r => videoOriginal.addEventListener('canplay', r, { once: true })),
+                new Promise(r => videoEnhanced.addEventListener('canplay', r, { once: true }))
+            ]).then(() => {
+                videoOriginal.currentTime = 0;
+                videoEnhanced.currentTime = 0;
+            });
+            
+            btnPlayPause.textContent = '▶ Play';
+        }
+        
+        function closeModal() {
+            videoOriginal.pause();
+            videoEnhanced.pause();
+            videoOriginal.src = '';
+            videoEnhanced.src = '';
+            modal.style.display = 'none';
+            document.body.style.overflow = '';
+            currentItem = null;
+            isPlaying = false;
+        }
+        
+        function updateSliderPosition(percent) {
+            sliderPosition = Math.max(0, Math.min(100, percent));
+            sliderHandle.style.left = `${sliderPosition}%`;
+            videoOriginal.style.clipPath = `inset(0 ${100 - sliderPosition}% 0 0)`;
+        }
+        
+        function togglePlayPause() {
+            if (isPlaying) {
+                videoOriginal.pause();
+                videoEnhanced.pause();
+                btnPlayPause.textContent = '▶ Play';
+            } else {
+                // Sync and play both
+                videoEnhanced.currentTime = videoOriginal.currentTime;
+                videoOriginal.play().catch(() => {});
+                videoEnhanced.play().catch(() => {});
+                btnPlayPause.textContent = '⏸ Pause';
+            }
+            isPlaying = !isPlaying;
+        }
+        
+        // Keep videos in sync
+        videoEnhanced.addEventListener('timeupdate', () => {
+            if (isPlaying && Math.abs(videoOriginal.currentTime - videoEnhanced.currentTime) > 0.1) {
+                videoOriginal.currentTime = videoEnhanced.currentTime;
+            }
+        });
+        
+        // ═══════════════════════════════════════════════════════════════
+        // SLIDER INTERACTION
+        // ═══════════════════════════════════════════════════════════════
+        function handleSliderMove(e) {
+            if (!isDragging) return;
+            
+            const rect = sliderContainer.getBoundingClientRect();
+            const x = (e.touches ? e.touches[0].clientX : e.clientX) - rect.left;
+            const percent = (x / rect.width) * 100;
+            updateSliderPosition(percent);
+        }
+        
+        sliderContainer.addEventListener('mousedown', (e) => {
+            isDragging = true;
+            handleSliderMove(e);
+        });
+        
+        sliderContainer.addEventListener('touchstart', (e) => {
+            isDragging = true;
+            handleSliderMove(e);
+        }, { passive: true });
+        
+        document.addEventListener('mousemove', handleSliderMove);
+        document.addEventListener('touchmove', handleSliderMove, { passive: true });
+        
+        document.addEventListener('mouseup', () => isDragging = false);
+        document.addEventListener('touchend', () => isDragging = false);
+        
+        // ═══════════════════════════════════════════════════════════════
+        // EVENT LISTENERS
+        // ═══════════════════════════════════════════════════════════════
+        btnPlayPause.addEventListener('click', togglePlayPause);
+        
+        btnOpenStudio.addEventListener('click', () => {
+            if (currentItem) {
+                window.open(`/gpu-studio.html?clip=${currentItem.id}`, '_blank');
+            }
+        });
+        
+        modalClose.addEventListener('click', closeModal);
+        modalBackdrop.addEventListener('click', closeModal);
+        
+        document.addEventListener('keydown', (e) => {
+            if (modal.style.display === 'block') {
+                if (e.key === 'Escape') closeModal();
+                if (e.key === ' ') { e.preventDefault(); togglePlayPause(); }
+                if (e.key === 'ArrowLeft') updateSliderPosition(sliderPosition - 5);
+                if (e.key === 'ArrowRight') updateSliderPosition(sliderPosition + 5);
+            }
+        });
+        
+        // ═══════════════════════════════════════════════════════════════
+        // INIT
+        // ═══════════════════════════════════════════════════════════════
+        loadComparisons();
+        
+    })();
+    </script>
+</body>
+</html>

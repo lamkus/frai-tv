@@ -1,0 +1,388 @@
+{
+  "verifiedAt": "2025-12-04T17:46:56.663Z",
+  "results": [
+    {
+      "id": "19-11-09-feline-follies-starlight-mini-a",
+      "name": "19 11 09 Feline Follies",
+      "enhanced": "Y:/All-Silent-Felix-The-Cat-Cartoons/19.11.09 Feline Follies_starlight_mini_apo8_prob4.mp4",
+      "original": "Y:/All-Silent-Felix-The-Cat-Cartoons/19.11.09 Feline Follies.mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "ok": true,
+      "overlap": [
+        "19",
+        "11",
+        "09",
+        "feline",
+        "follies"
+      ]
+    },
+    {
+      "id": "19-11-09-feline-follies-starlight-mini-n",
+      "name": "19 11 09 Feline Follies",
+      "enhanced": "Y:/All-Silent-Felix-The-Cat-Cartoons/19.11.09 Feline Follies_starlight_mini_nyx3_8k.mp4",
+      "original": "Y:/All-Silent-Felix-The-Cat-Cartoons/19.11.09 Feline Follies.mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "ok": true,
+      "overlap": [
+        "19",
+        "11",
+        "09",
+        "feline",
+        "follies"
+      ]
+    },
+    {
+      "id": "19-11-09-feline-follies-starlight-mini-s",
+      "name": "19 11 09 Feline Follies",
+      "enhanced": "Y:/All-Silent-Felix-The-Cat-Cartoons/19.11.09 Feline Follies_starlight_mini_stab.mp4",
+      "original": "Y:/All-Silent-Felix-The-Cat-Cartoons/19.11.09 Feline Follies.mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "ok": true,
+      "overlap": [
+        "19",
+        "11",
+        "09",
+        "feline",
+        "follies"
+      ]
+    },
+    {
+      "id": "22-03-01-felix-at-the-fair-starlight-min",
+      "name": "22 03 01 Felix at the Fair",
+      "enhanced": "Y:/All-Silent-Felix-The-Cat-Cartoons/22.03.01 Felix at the Fair_starlight_mini_1_starlight_mini.mp4",
+      "original": "Y:/All-Silent-Felix-The-Cat-Cartoons/22.03.01 Felix at the Fair.mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "ok": true,
+      "overlap": [
+        "22",
+        "03",
+        "01",
+        "felix",
+        "at",
+        "the",
+        "fair"
+      ]
+    },
+    {
+      "id": "22-03-01-felix-at-the-fair-starlight-min",
+      "name": "22 03 01 Felix at the Fair",
+      "enhanced": "Y:/All-Silent-Felix-The-Cat-Cartoons/22.03.01 Felix at the Fair_starlight_mini_1_starlight_mini_1_stab_alq13_prob4.mp4",
+      "original": "Y:/All-Silent-Felix-The-Cat-Cartoons/22.03.01 Felix at the Fair.mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "ok": true,
+      "overlap": [
+        "22",
+        "03",
+        "01",
+        "felix",
+        "at",
+        "the",
+        "fair"
+      ]
+    },
+    {
+      "id": "22-03-01-felix-at-the-fair-starlight-min",
+      "name": "22 03 01 Felix at the Fair",
+      "enhanced": "Y:/All-Silent-Felix-The-Cat-Cartoons/22.03.01 Felix at the Fair_starlight_mini_1_starlight_mini_1_stab_alq13_prob4_1_starlight_mini.mp4",
+      "original": "Y:/All-Silent-Felix-The-Cat-Cartoons/22.03.01 Felix at the Fair.mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "ok": true,
+      "overlap": [
+        "22",
+        "03",
+        "01",
+        "felix",
+        "at",
+        "the",
+        "fair"
+      ]
+    },
+    {
+      "id": "22-03-01-felix-at-the-fair-starlight-min",
+      "name": "22 03 01 Felix at the Fair",
+      "enhanced": "Y:/All-Silent-Felix-The-Cat-Cartoons/22.03.01 Felix at the Fair_starlight_mini_1_starlight_mini_1_stab_alq13_prob4_starlight_mini.mp4",
+      "original": "Y:/All-Silent-Felix-The-Cat-Cartoons/22.03.01 Felix at the Fair.mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "ok": true,
+      "overlap": [
+        "22",
+        "03",
+        "01",
+        "felix",
+        "at",
+        "the",
+        "fair"
+      ]
+    },
+    {
+      "id": "max-fleischer-s-superman-destruction-inc",
+      "name": "Max Fleischer's Superman： Destruction Inc (1943; HD)",
+      "enhanced": "Y:/fleischer-superman/Max Fleischer's Superman： Destruction Inc. (1943; HD)_starlight_mini.mp4",
+      "original": "Y:/fleischer-superman/Max Fleischer's Superman： Destruction Inc. (1943; HD).mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "ok": true,
+      "overlap": [
+        "max",
+        "fleischer's",
+        "superman：",
+        "destruction",
+        "inc",
+        "(1943;",
+        "hd)"
+      ]
+    },
+    {
+      "id": "max-fleischer-s-superman-eleventh-hour-1",
+      "name": "Max Fleischer's Superman： Eleventh Hour (1942; HD)",
+      "enhanced": "Y:/fleischer-superman/Max Fleischer's Superman： Eleventh Hour (1942; HD)_starlight_mini.mp4",
+      "original": "Y:/fleischer-superman/Max Fleischer's Superman： Eleventh Hour (1942; HD).mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "ok": true,
+      "overlap": [
+        "max",
+        "fleischer's",
+        "superman：",
+        "eleventh",
+        "hour",
+        "(1942;",
+        "hd)"
+      ]
+    },
+    {
+      "id": "felix-feline-follies",
+      "name": "🐱 Felix the Cat - Feline Follies (1919)",
+      "enhanced": "Y:/All-Silent-Felix-The-Cat-Cartoons/19.11.09 Feline Follies_starlight_mini_nyx3_8k.mp4",
+      "original": "Y:/All-Silent-Felix-The-Cat-Cartoons/19.11.09 Feline Follies.mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "ok": true,
+      "overlap": [
+        "19",
+        "11",
+        "09",
+        "feline",
+        "follies"
+      ]
+    },
+    {
+      "id": "felix-fair",
+      "name": "🐱 Felix at the Fair (1922)",
+      "enhanced": "Y:/All-Silent-Felix-The-Cat-Cartoons/22.03.01 Felix at the Fair_starlight_mini_1_starlight_mini_1_stab_alq13_prob4_starlight_mini.mp4",
+      "original": "Y:/All-Silent-Felix-The-Cat-Cartoons/22.03.01 Felix at the Fair.mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "ok": true,
+      "overlap": [
+        "22",
+        "03",
+        "01",
+        "felix",
+        "at",
+        "the",
+        "fair"
+      ]
+    },
+    {
+      "id": "felix-swim",
+      "name": "🐱 Felix in the Swim (1922)",
+      "enhanced": "Y:/All-Silent-Felix-The-Cat-Cartoons/FelixInTheSwim1922PatSullivan-hokviwguckq_1_sls_1_starlight_mini_thf4.mp4",
+      "original": "Y:/All-Silent-Felix-The-Cat-Cartoons/22.07.01 Felix in the Swim.mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "ok": false,
+      "overlap": []
+    },
+    {
+      "id": "superman-destruction",
+      "name": "🦸 Superman - Destruction Inc. (1943)",
+      "enhanced": "Y:/fleischer-superman/Max Fleischer's Superman： Destruction Inc. (1943; HD)_starlight_mini.mp4",
+      "original": "Y:/fleischer-superman/Max Fleischer's Superman： Destruction Inc. (1943; HD).mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "ok": true,
+      "overlap": [
+        "max",
+        "fleischer's",
+        "superman：",
+        "destruction",
+        "inc",
+        "(1943;",
+        "hd)"
+      ]
+    },
+    {
+      "id": "superman-eleventh-hour",
+      "name": "🦸 Superman - Eleventh Hour (1942)",
+      "enhanced": "Y:/fleischer-superman/Max Fleischer's Superman： Eleventh Hour (1942; HD)_starlight_mini.mp4",
+      "original": "Y:/fleischer-superman/Max Fleischer's Superman： Eleventh Hour (1942; HD).mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "ok": true,
+      "overlap": [
+        "max",
+        "fleischer's",
+        "superman：",
+        "eleventh",
+        "hour",
+        "(1942;",
+        "hd)"
+      ]
+    },
+    {
+      "id": "superman-japoteurs",
+      "name": "🦸 Superman - Japoteurs (1942)",
+      "enhanced": "Y:/fleischer-superman/Max Fleischer's Superman： Japoteurs (1942; HD)_2_starlight_mini.mp4",
+      "original": "Y:/fleischer-superman/Max Fleischer's Superman： Japoteurs (1942; HD).mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "ok": true,
+      "overlap": [
+        "max",
+        "fleischer's",
+        "superman：",
+        "japoteurs",
+        "(1942;",
+        "hd)"
+      ]
+    },
+    {
+      "id": "dinner-for-one-1963",
+      "name": "🍽️ Dinner for One (1963) - German Classic",
+      "enhanced": "Y:/Final/nyx8kexportupscale/Dinner_for_One_(1963)_sls_nyx3.mp4",
+      "original": "Y:/Final/nyx8kexportupscale/Dinner_for_One_(1963)_sls.mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "ok": true,
+      "overlap": [
+        "dinner",
+        "for",
+        "one",
+        "(1963)",
+        "sls"
+      ]
+    },
+    {
+      "id": "betty-boop-hunting",
+      "name": "🎬 Betty Boop in a Huntin' We Will Go",
+      "enhanced": "Y:/Final/nyx8kexportupscale/BettyBoopInAHuntingWeWillGo_sls_nyx3.mp4",
+      "original": "Y:/Final/sls/4k/BettyBoopInAHuntingWeWillGo_sls.mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "ok": true,
+      "overlap": [
+        "bettyboopinahuntingwewillgo",
+        "sls"
+      ]
+    },
+    {
+      "id": "superman-japoteurs-nyx3",
+      "name": "🦸 Superman - Japoteurs (1942) - nyx3 Restoration",
+      "enhanced": "Y:/Final/nyx8kexportupscale/Max Fleischer's Superman： Japoteurs (1942; HD)_sls_2_starlight_mini_nyx3.mp4",
+      "original": "Y:/fleischer-superman/Max Fleischer's Superman： Japoteurs (1942; HD).mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "ok": true,
+      "overlap": [
+        "max",
+        "fleischer's",
+        "superman：",
+        "japoteurs",
+        "(1942;",
+        "hd)"
+      ]
+    },
+    {
+      "id": "keaton-convict-13",
+      "name": "🎞️ Buster Keaton - Convict 13 (1920)",
+      "enhanced": "Y:/Final/nyx8kexportupscale/1920_Convict_13_Buster_Keaton_58_sls_1_starlight_mini_nyx3.mp4",
+      "original": "Y:/Final/sls/1920_Convict_13_Buster_Keaton_58_sls.mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "ok": true,
+      "overlap": [
+        "1920",
+        "convict",
+        "13",
+        "buster",
+        "keaton",
+        "58",
+        "sls"
+      ]
+    },
+    {
+      "id": "keaton-wifes-relations",
+      "name": "🎞️ Buster Keaton - My Wife's Relations (1922)",
+      "enhanced": "Y:/Final/nyx8kexportupscale/Buster Keatons My Wifes Relations 1922_sls_nyx3.mp4",
+      "original": "Y:/Final/sls/Buster Keatons My Wifes Relations 1922_sls.mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "ok": true,
+      "overlap": [
+        "buster",
+        "keatons",
+        "my",
+        "wifes",
+        "relations",
+        "1922",
+        "sls"
+      ]
+    },
+    {
+      "id": "frankenstein-1910",
+      "name": "👹 Frankenstein (1910) - Early Horror Classic",
+      "enhanced": "Y:/Final/nyx8kexportupscale/FrankensteinfullMovie_Frankenstein1910_512kb_sls_nyx3.mp4",
+      "original": "Y:/Final/sls/FrankensteinfullMovie_Frankenstein1910_512kb_sls.mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "ok": true,
+      "overlap": [
+        "frankensteinfullmovie",
+        "frankenstein1910",
+        "512kb",
+        "sls"
+      ]
+    },
+    {
+      "id": "gertie-dinosaur",
+      "name": "🦕 Gertie the Dinosaur (1914) - First Keyframe Animation",
+      "enhanced": "Y:/Final/nyx8kexportupscale/Gertie the Dinosaur (1914) - World's 1st Keyframe Animation Cartoon - Winsor McCay-_sls_nyx3.mp4",
+      "original": "Y:/Final/sls/4k/Gertie the Dinosaur (1914) - World's 1st Keyframe Animation Cartoon - Winsor McCay-TGXC8gXOPoU_sls.mp4",
+      "enhancedExists": true,
+      "originalExists": true,
+      "ok": true,
+      "overlap": [
+        "gertie",
+        "the",
+        "dinosaur",
+        "(1914)",
+        "world's",
+        "1st",
+        "keyframe",
+        "animation",
+        "cartoon",
+        "winsor",
+        "mccay",
+        "sls"
+      ]
+    },
+    {
+      "id": "atom-blast-yucca-flat",
+      "name": "☢️ Atom Blast - Yucca Flat Nevada (1953)",
+      "enhanced": "Y:/Final/nyx8kexportupscale/Atom Blast Yucca Flat Nevada 03171953_1_starlight_mini_nyx3.mp4",
+      "original": "Y:/Final/sls/4k/wochenschau_AtomBomb1946_sls.mov",
+      "enhancedExists": true,
+      "originalExists": true,
+      "ok": false,
+      "overlap": []
+    }
+  ]
+}

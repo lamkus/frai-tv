@@ -1,0 +1,659 @@
+import { useMemo, useRef, useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import {
+  Play,
+  ChevronLeft,
+  ChevronRight,
+  Youtube,
+  Instagram,
+  Mail,
+  ExternalLink,
+  TrendingUp,
+  Clock,
+  Search,
+  Grid3x3,
+  List,
+  Star,
+  Zap,
+  Calendar,
+} from 'lucide-react';
+import { cn, getYouTubeThumbnail, formatDuration } from '../lib/utils';
+import useMeta from '../lib/useMeta';
+import { useApp } from '../context/AppContext';
+import { CATEGORIES } from '../data/remaikeData';
+import {
+  getHybridRecommendations,
+  explainRecommendation,
+  RECOMMENDATION_CONFIG,
+} from '../lib/recommendationEngine';
+
+const translations = {
+  de: {
+    metaTitle: 'FRai.TV Mediathek | remAIke.IT',
+    metaDescription: 'Klassische Filme in 4K & 8K - FREE ai Enhanced TV by remAIke.IT',
+    loading: 'Lade Mediathek...',
+    previewRail: 'Auto-Preview',
+    autoNext: 'Naechster Film in Rotation',
+    nowPreview: 'Jetzt in Vorschau',
+    newAdded: 'Neu hinzugefuegt',
+    play: 'Abspielen',
+  },
+  en: {
+    metaTitle: 'FRai.TV Library | remAIke.IT',
+    metaDescription: 'Classic films in 4K & 8K - FREE AI Enhanced TV by remAIke.IT',
+    loading: 'Loading library...',
+    previewRail: 'Auto Preview',
+    autoNext: 'Next up in rotation',
+    nowPreview: 'Now previewing',
+    newAdded: 'Recently added',
+    play: 'Play',
+  },
+  fr: {
+    metaTitle: 'Bibliotheque FRai.TV | remAIke.IT',
+    metaDescription: 'Classiques en 4K et 8K - TV enrichie par IA',
+    loading: 'Chargement de la mediatheque...',
+    previewRail: 'Apercu auto',
+    autoNext: 'Film suivant en rotation',
+    nowPreview: 'En aperçu',
+    newAdded: 'Ajoute recemment',
+    play: 'Lire',
+  },
+};
+
+/**
+ * MediathekPage - DIE MEDIATHEK (Merged Home + Library)
+ *
+ * Sections:
+ * 1. Preview Strip (Auto-rotating 5 cards)
+ * 2. Continue Watching (Personalized)
+ * 3. Personalized Recommendations (Hybrid AI)
+ * 4. Recent Uploads
+ * 5. Categories (Carousels)
+ * 6. Footer (remAIke.IT Style)
+ *
+ * Design System:
+ * - Gold (#d4af37) accent borders & highlights
+ * - Dark theme (#0a0a0c / retro-black)
+ * - Horizontal carousels
+ * - remAIke.IT signature style
+ */
+export default function MediathekPage() {
+  const { videos, loading, openPlayer, language, continueWatching } = useApp();
+  const t = (key) => translations[language]?.[key] ?? translations.en[key] ?? key;
+
+  useMeta({
+    title: t('metaTitle'),
+    description: t('metaDescription'),
+  });
+
+  // Hybrid AI Recommendations (Cold-Start + Long-Tail Boost)
+  const personalizedVideos = useMemo(() => {
+    if (!videos || videos.length === 0) return [];
+    return getHybridRecommendations(videos, {
+      count: 20,
+      exploreMode: false, // 20% exploration, 80% exploitation
+      excludeWatched: true,
+    });
+  }, [videos]);
+
+  // Continue Watching
+  const continueWatchingVideos = useMemo(() => {
+    return continueWatching
+      .map((cw) => {
+        const video = videos.find((v) => v.id === cw.videoId || v.ytId === cw.videoId);
+        return video ? { ...video, progress: cw.percentage } : null;
+      })
+      .filter(Boolean)
+      .slice(0, 12);
+  }, [videos, continueWatching]);
+
+  // Group by category
+  const videosByCategory = useMemo(() => {
+    const grouped = {};
+    CATEGORIES.forEach((cat) => {
+      grouped[cat.id] = videos.filter((v) => v.category === cat.id);
+    });
+    return grouped;
+  }, [videos]);
+
+  // Recent videos
+  const recentVideos = useMemo(() => {
+    return [...videos]
+      .sort((a, b) => new Date(b.publishDate) - new Date(a.publishDate))
+      .slice(0, 15);
+  }, [videos]);
+
+  const previewVideos = useMemo(() => [...videos].slice(0, 10), [videos]);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-retro-black flex items-center justify-center">
+        <div className="text-center">
+          <div className="w-12 h-12 border-2 border-accent-gold/30 border-t-accent-gold rounded-full animate-spin mx-auto mb-4" />
+          <p className="text-retro-muted text-sm">{t('loading')}</p>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="min-h-screen bg-retro-black text-white overflow-x-hidden">
+      {/* Algorithm Info Banner */}
+      <div className="bg-gradient-to-r from-accent-gold/10 via-accent-amber/5 to-transparent border-b border-accent-gold/20 px-4 py-2">
+        <div className="container mx-auto flex items-center gap-3 text-xs">
+          <span className="text-accent-gold font-semibold">🧠 HYBRID AI</span>
+          <span className="text-retro-muted">
+            {RECOMMENDATION_CONFIG.EPSILON * 100}% Exploration •
+            {(1 - RECOMMENDATION_CONFIG.EPSILON) * 100}% Personalization • Cold-Start Boost •
+            Long-Tail Discovery
+          </span>
+        </div>
+      </div>
+
+      {/* Preview Strip - 20% height auto-rotate with overlapping cards */}
+      <PreviewStrip videos={previewVideos} onPlay={openPlayer} t={t} />
+
+      {/* Content Rows */}
+      <div className="relative z-10 -mt-16 pb-8 space-y-8">
+        {/* Continue Watching */}
+        {continueWatchingVideos.length > 0 && (
+          <ContentRow
+            title="Weiterschauen"
+            icon={<Clock size={20} />}
+            videos={continueWatchingVideos}
+            onPlay={openPlayer}
+            showProgress={true}
+          />
+        )}
+
+        {/* Personalized Recommendations */}
+        {personalizedVideos.length > 0 && (
+          <ContentRow
+            title="Für Dich empfohlen"
+            icon={<TrendingUp size={20} />}
+            videos={personalizedVideos}
+            onPlay={openPlayer}
+            showExplanation={true}
+            explainer={explainRecommendation}
+          />
+        )}
+
+        {/* Recent Uploads */}
+        <ContentRow title={t('newAdded')} videos={recentVideos} onPlay={openPlayer} />
+
+        {/* Category Rows */}
+        {CATEGORIES.filter((cat) => videosByCategory[cat.id]?.length > 0).map((category) => (
+          <ContentRow
+            key={category.id}
+            title={category.label}
+            icon={category.icon}
+            videos={videosByCategory[category.id]}
+            onPlay={openPlayer}
+          />
+        ))}
+      </div>
+
+      {/* Footer Section - remAIke.IT Style */}
+      <footer className="border-t border-accent-gold/20 bg-retro-darker/50 mt-8">
+        <div className="max-w-screen-xl mx-auto px-6 md:px-12 py-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Brand */}
+            <div>
+              <div className="flex items-center gap-2 mb-4">
+                <span className="text-3xl font-display font-bold tracking-tight">
+                  <span className="text-accent-gold">rem</span>
+                  <span className="text-white">AI</span>
+                  <span className="text-accent-gold">ke</span>
+                  <span className="text-retro-muted/60">.IT</span>
+                </span>
+              </div>
+              <div className="h-px w-24 bg-gradient-to-r from-accent-gold/60 to-transparent mb-5"></div>
+              <p className="text-sm text-retro-muted/70 mb-6 leading-relaxed font-light">
+                FREE ai Enhanced TV - Klassische Filme in 4K & 8K, restauriert mit modernster
+                AI-Technologie.
+              </p>
+
+              {/* Social Media - remAIke.IT Style */}
+              <div className="flex gap-2.5">
+                <a
+                  href="https://www.youtube.com/@remAIke_IT"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 rounded-xl bg-white/5 border border-white/10 hover:border-accent-gold/50 hover:bg-accent-gold/10 transition-all duration-300 group shadow-sm hover:shadow-accent-gold/20"
+                  aria-label="YouTube"
+                >
+                  <Youtube
+                    size={20}
+                    className="text-white/70 group-hover:text-accent-gold transition-colors"
+                  />
+                </a>
+                <a
+                  href="https://www.instagram.com/remaike.it"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2.5 rounded-lg bg-white/5 border border-white/10 hover:border-accent-gold/50 hover:bg-accent-gold/10 transition-all group"
+                  aria-label="Instagram"
+                >
+                  <Instagram
+                    size={18}
+                    className="text-white/70 group-hover:text-accent-gold transition-colors"
+                  />
+                </a>
+                <a
+                  href="https://x.com/remAIke_IT"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2.5 rounded-lg bg-white/5 border border-white/10 hover:border-accent-gold/50 hover:bg-accent-gold/10 transition-all group"
+                  aria-label="X/Twitter"
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    className="w-[18px] h-[18px] fill-white/70 group-hover:fill-accent-gold transition-colors"
+                  >
+                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                  </svg>
+                </a>
+                <a
+                  href="mailto:contact@remaike.it"
+                  className="p-2.5 rounded-lg bg-white/5 border border-white/10 hover:border-accent-gold/50 hover:bg-accent-gold/10 transition-all group"
+                  aria-label="E-Mail"
+                >
+                  <Mail
+                    size={18}
+                    className="text-white/70 group-hover:text-accent-gold transition-colors"
+                  />
+                </a>
+              </div>
+            </div>
+
+            {/* Links */}
+            <div>
+              <h4 className="font-display font-bold text-base mb-4 text-accent-gold tracking-wide">
+                Rechtliches
+              </h4>
+              <div className="h-px w-16 bg-gradient-to-r from-accent-gold/60 to-transparent mb-4"></div>
+              <ul className="space-y-3 text-sm font-light">
+                <li>
+                  <Link
+                    to="/impressum"
+                    className="text-retro-muted hover:text-accent-gold transition-colors"
+                  >
+                    Impressum
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/datenschutz"
+                    className="text-retro-muted hover:text-accent-gold transition-colors"
+                  >
+                    Datenschutz
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            {/* Disclaimer */}
+            <div>
+              <h4 className="font-display font-bold text-base mb-4 text-accent-gold tracking-wide">
+                Hinweis
+              </h4>
+              <div className="h-px w-16 bg-gradient-to-r from-accent-gold/60 to-transparent mb-4"></div>
+              <p className="text-xs text-retro-muted/70 leading-relaxed font-light">
+                Diese Mediathek nutzt YouTube-Embeds. Bei Wiedergabe werden Daten an YouTube/Google
+                übertragen. Alle Inhalte sind Public Domain oder mit entsprechenden Lizenzen
+                versehen. Ein Projekt von{' '}
+                <a
+                  href="https://remaike.it"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-accent-gold hover:text-accent-amber transition-colors font-medium underline decoration-accent-gold/30 hover:decoration-accent-amber"
+                >
+                  remAIke.IT
+                </a>
+                .
+              </p>
+            </div>
+          </div>
+
+          {/* Copyright */}
+          <div className="mt-10 pt-6 border-t border-accent-gold/20 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-retro-muted/60 font-light">
+            <p className="font-medium">© 2024-2025 remAIke.IT - FREE ai Enhanced TV</p>
+            <div className="flex items-center gap-6">
+              <a
+                href="https://remaike.it"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-accent-gold transition-colors flex items-center gap-1"
+              >
+                remaike.it <ExternalLink size={10} />
+              </a>
+              <a
+                href="https://frai.tv"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-accent-gold transition-colors flex items-center gap-1"
+              >
+                frai.tv <ExternalLink size={10} />
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}
+
+/* ========== Preview Strip (20% height, auto-rotate) ========== */
+function PreviewStrip({ videos, onPlay, t }) {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [progress, setProgress] = useState(0);
+  const slideTimerRef = useRef(null);
+  const progressRef = useRef(null);
+
+  useEffect(() => {
+    if (!videos?.length) return undefined;
+
+    // Reset any running timers when video set changes
+    setProgress(0);
+    if (slideTimerRef.current) clearInterval(slideTimerRef.current);
+    if (progressRef.current) clearInterval(progressRef.current);
+
+    slideTimerRef.current = setInterval(() => {
+      setActiveIndex((prev) => (prev + 1) % videos.length);
+      setProgress(0);
+    }, 5200);
+
+    progressRef.current = setInterval(() => {
+      setProgress((prev) => (prev >= 100 ? 0 : prev + 4));
+    }, 200);
+
+    return () => {
+      if (slideTimerRef.current) clearInterval(slideTimerRef.current);
+      if (progressRef.current) clearInterval(progressRef.current);
+    };
+  }, [videos]);
+
+  const windowVideos = useMemo(() => {
+    if (!videos?.length) return [];
+    const maxCards = Math.min(5, videos.length);
+    const list = [];
+    for (let i = 0; i < maxCards; i += 1) {
+      const nextIndex = (activeIndex + i) % videos.length;
+      list.push(videos[nextIndex]);
+    }
+    return list;
+  }, [activeIndex, videos]);
+
+  if (!windowVideos.length) return null;
+
+  const handlePrev = () => {
+    if (!videos?.length) return;
+    setActiveIndex((prev) => (prev - 1 + videos.length) % videos.length);
+    setProgress(0);
+  };
+
+  const handleNext = () => {
+    if (!videos?.length) return;
+    setActiveIndex((prev) => (prev + 1) % videos.length);
+    setProgress(0);
+  };
+
+  return (
+    <section className="relative h-[22vh] min-h-[180px] max-h-[260px] bg-gradient-to-r from-retro-dark via-retro-black to-retro-dark px-6 md:px-12 pt-4 pb-6 overflow-hidden border-b border-accent-gold/10">
+      <div className="flex items-center justify-between mb-3">
+        <div>
+          <p className="text-[11px] uppercase tracking-[0.18em] text-accent-gold/70 font-semibold">
+            {t('previewRail')}
+          </p>
+          <h2 className="text-lg md:text-xl font-semibold text-white">{t('autoNext')}</h2>
+        </div>
+        <div className="flex items-center gap-2">
+          <button
+            onClick={handlePrev}
+            className="w-9 h-9 rounded-full border border-white/10 bg-white/5 text-white hover:border-accent-gold hover:text-accent-gold transition-colors"
+            aria-label="Vorherige Vorschau"
+          >
+            <ChevronLeft size={16} />
+          </button>
+          <button
+            onClick={handleNext}
+            className="w-9 h-9 rounded-full border border-white/10 bg-white/5 text-white hover:border-accent-gold hover:text-accent-gold transition-colors"
+            aria-label="Naechste Vorschau"
+          >
+            <ChevronRight size={16} />
+          </button>
+        </div>
+      </div>
+
+      <div className="relative h-[70%] flex items-center">
+        {windowVideos.map((video, idx) => {
+          const isActive = idx === 0;
+          const overlapClass = idx > 0 ? '-ml-10 sm:-ml-14' : '';
+          return (
+            <div
+              key={video.id || video.ytId || idx}
+              onClick={() => onPlay(video)}
+              className={cn(
+                'relative rounded-xl overflow-hidden cursor-pointer transition-all duration-500 border border-accent-gold/25 bg-retro-dark/60 shadow-lg shadow-black/40',
+                overlapClass,
+                isActive
+                  ? 'h-full w-[42%] md:w-[36%] z-30'
+                  : 'h-[70%] w-[26%] md:w-[22%] z-20 opacity-80',
+                idx >= 3 && 'hidden md:block',
+                idx >= 4 && 'hidden lg:block'
+              )}
+            >
+              <img
+                src={video.thumbnailUrl || getYouTubeThumbnail(video.ytId, 'hq')}
+                alt={video.title}
+                className="w-full h-full object-cover"
+                loading="lazy"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
+              {isActive && (
+                <span className="absolute top-3 left-3 px-3 py-1 rounded-full bg-accent-gold text-black text-[11px] font-semibold shadow-lg shadow-accent-gold/30">
+                  {t('nowPreview')}
+                </span>
+              )}
+              <div className="absolute bottom-3 left-3 right-3 flex items-end justify-between gap-3">
+                <div className="max-w-[70%]">
+                  <p className="text-sm md:text-base font-semibold leading-snug line-clamp-2">
+                    {video.title}
+                  </p>
+                  {video.duration && (
+                    <span className="text-[11px] text-accent-gold/80 font-medium">
+                      {formatDuration(video.duration)}
+                    </span>
+                  )}
+                </div>
+                <button
+                  className="w-10 h-10 rounded-full bg-accent-gold text-black flex items-center justify-center shadow-lg shadow-accent-gold/30 hover:bg-accent-amber transition-colors"
+                  aria-label={t('play')}
+                >
+                  <Play size={18} fill="currentColor" />
+                </button>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      <div className="mt-3 h-1.5 w-full rounded-full bg-white/10 overflow-hidden">
+        <div
+          className="h-full bg-accent-gold transition-all duration-200"
+          style={{ width: `${progress}%` }}
+        />
+      </div>
+    </section>
+  );
+}
+
+/* ========== Content Row (Carousel with Gold Accents) ========== */
+function ContentRow({
+  title,
+  icon,
+  videos,
+  onPlay,
+  showProgress = false,
+  showExplanation = false,
+  explainer,
+}) {
+  const rowRef = useRef(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(true);
+
+  const scroll = (dir) => {
+    if (!rowRef.current) return;
+    const amount = rowRef.current.clientWidth * 0.75;
+    rowRef.current.scrollBy({ left: dir === 'left' ? -amount : amount, behavior: 'smooth' });
+  };
+
+  const checkScroll = () => {
+    if (!rowRef.current) return;
+    const { scrollLeft, scrollWidth, clientWidth } = rowRef.current;
+    setCanScrollLeft(scrollLeft > 10);
+    setCanScrollRight(scrollLeft < scrollWidth - clientWidth - 10);
+  };
+
+  if (!videos?.length) return null;
+
+  return (
+    <div className="group/row">
+      {/* Title */}
+      <h2 className="text-base md:text-lg font-semibold mb-3 px-6 md:px-12 flex items-center gap-2">
+        {typeof icon === 'string' ? <span className="text-lg">{icon}</span> : icon}
+        <span>{title}</span>
+        <span className="text-accent-gold/50 text-sm font-normal">({videos.length})</span>
+      </h2>
+
+      {/* Carousel */}
+      <div className="relative">
+        {/* Left Arrow */}
+        <button
+          onClick={() => scroll('left')}
+          className={cn(
+            'absolute left-0 top-0 bottom-0 z-20 w-12 md:w-16 flex items-center justify-center',
+            'bg-gradient-to-r from-retro-black to-transparent',
+            'opacity-0 group-hover/row:opacity-100 transition-opacity',
+            'hover:text-accent-gold',
+            !canScrollLeft && 'hidden'
+          )}
+        >
+          <ChevronLeft className="w-8 h-8" />
+        </button>
+
+        {/* Right Arrow */}
+        <button
+          onClick={() => scroll('right')}
+          className={cn(
+            'absolute right-0 top-0 bottom-0 z-20 w-12 md:w-16 flex items-center justify-center',
+            'bg-gradient-to-l from-retro-black to-transparent',
+            'opacity-0 group-hover/row:opacity-100 transition-opacity',
+            'hover:text-accent-gold',
+            !canScrollRight && 'hidden'
+          )}
+        >
+          <ChevronRight className="w-8 h-8" />
+        </button>
+
+        {/* Scrollable Row */}
+        <div
+          ref={rowRef}
+          onScroll={checkScroll}
+          className="flex gap-3 md:gap-4 overflow-x-auto px-6 md:px-12 pb-4 scroll-smooth scrollbar-hide"
+          style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+        >
+          {videos.slice(0, 20).map((video) => (
+            <VideoCard
+              key={video.id}
+              video={video}
+              onPlay={onPlay}
+              showProgress={showProgress}
+              showExplanation={showExplanation}
+              explainer={explainer}
+            />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ========== Video Card (remAIke.IT Gold Border Style) ========== */
+function VideoCard({ video, onPlay, showProgress = false, showExplanation = false, explainer }) {
+  const [hovered, setHovered] = useState(false);
+  const explanation = showExplanation && explainer ? explainer(video) : null;
+
+  return (
+    <button
+      onClick={() => onPlay(video)}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+      className={cn(
+        'flex-shrink-0 w-[160px] md:w-[200px] lg:w-[240px] aspect-video',
+        'rounded-lg overflow-hidden bg-retro-dark relative',
+        'transition-all duration-300 ease-out',
+        // GOLD BORDER on hover - remAIke.IT signature style
+        'border-2 border-transparent',
+        hovered && 'border-accent-gold shadow-lg shadow-accent-gold/20 scale-105 z-10',
+        'focus:outline-none focus:border-accent-gold focus:ring-2 focus:ring-accent-gold/50'
+      )}
+    >
+      {/* Thumbnail */}
+      <img
+        src={video.thumbnailUrl || getYouTubeThumbnail(video.ytId, 'medium')}
+        alt=""
+        className="w-full h-full object-cover"
+        loading="lazy"
+      />
+
+      {/* Progress Bar (for Continue Watching) */}
+      {showProgress && video.progress > 0 && (
+        <div className="absolute bottom-0 left-0 right-0 h-1 bg-black/50">
+          <div
+            className="h-full bg-accent-gold transition-all"
+            style={{ width: `${video.progress}%` }}
+          />
+        </div>
+      )}
+
+      {/* Hover Overlay */}
+      <div
+        className={cn(
+          'absolute inset-0 flex flex-col justify-end p-3',
+          'bg-gradient-to-t from-black/95 via-black/50 to-transparent',
+          'transition-opacity duration-200',
+          hovered ? 'opacity-100' : 'opacity-0'
+        )}
+      >
+        {/* Play Icon - Gold accent */}
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-accent-gold flex items-center justify-center shadow-xl shadow-accent-gold/30 transform transition-transform hover:scale-110">
+            <Play className="w-6 h-6 md:w-7 md:h-7 text-black ml-1" fill="black" />
+          </div>
+        </div>
+
+        {/* Title & Year */}
+        <div className="relative z-10">
+          <p className="text-xs md:text-sm font-medium line-clamp-2 text-white">{video.title}</p>
+          {video.year && <span className="text-[10px] text-accent-gold/80">{video.year}</span>}
+          {explanation && (
+            <div className="mt-1 text-[9px] text-accent-amber/90 line-clamp-1">{explanation}</div>
+          )}
+        </div>
+      </div>
+
+      {/* Quality Badge (if 4K/8K) */}
+      {video.title?.includes('8K') && (
+        <span className="absolute top-2 right-2 px-1.5 py-0.5 bg-accent-gold text-black text-[9px] font-bold rounded">
+          8K
+        </span>
+      )}
+      {video.title?.includes('4K') && !video.title?.includes('8K') && (
+        <span className="absolute top-2 right-2 px-1.5 py-0.5 bg-accent-gold/80 text-black text-[9px] font-bold rounded">
+          4K
+        </span>
+      )}
+    </button>
+  );
+}

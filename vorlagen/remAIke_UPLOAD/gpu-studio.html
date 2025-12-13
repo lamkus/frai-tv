@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>remAIke.IT - 8K Neural Studio</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%2300d4ff' width='100' height='100'/><text x='50' y='50' font-size='60' fill='%23000' text-anchor='middle' dominant-baseline='middle'>▶</text></svg>">
+    <script>
+        // SUPPRESS spurious console errors (206 streaming, missing icons, etc)
+        const origError = console.error;
+        const origWarn = console.warn;
+        console.error = function(...args) {
+            const msg = args.join(' ');
+            if (msg.match(/Failed to load|206|Partial response|addAll|CORS/i)) return;
+            origError.apply(console, args);
+        };
+        console.warn = function(...args) {
+            const msg = args.join(' ');
+            if (msg.match(/Failed to load|206|Partial response|addAll/i)) return;
+            origWarn.apply(console, args);
+        };
+        
+        // KILL OLD SERVICE WORKERS IMMEDIATELY
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.getRegistrations().then(regs => {
+                regs.forEach(reg => reg.unregister());
+                console.log('[INIT] Service workers cleared');
+            }).catch(() => {});
+            // Clear all caches
+            if ('caches' in window) {
+                caches.keys().then(names => names.forEach(n => caches.delete(n))).catch(() => {});
+            }
+        }
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background: #0a0a0f;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        .studio {
+            display: grid;
+            grid-template-columns: 260px 1fr 280px;
+            height: 100vh;
+            gap: 1px;
+            background: #00d4ff22;
+        }
+
+        .panel {
+            background: #0d0d15;
+            padding: 15px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .panel-title {
+            color: #00d4ff;
+            font-size: 14px;
+            font-weight: 600;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #00d4ff33;
+            margin-bottom: 10px;
+        }
+
+        /* Gallery */
+        .gallery {
+            flex: 1;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .gallery-item {
+            background: #151520;
+            border-radius: 8px;
+            overflow: hidden;
+            cursor: pointer;
+            border: 2px solid transparent;
+            transition: all 0.2s;
+        }
+
+        .gallery-item:hover, .gallery-item.active {
+            border-color: #00d4ff;
+            box-shadow: 0 0 15px #00d4ff44;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        .gallery-item-info {
+            padding: 8px;
+        }
+
+        .gallery-item-title {
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .gallery-item-meta {
+            font-size: 10px;
+            color: #00d4ff;
+            margin-top: 2px;
+        }
+
+        /* Canvas Container */
+        .canvas-panel {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            background: #000;
+        }
+
+        .canvas-wrapper {
+            flex: 1;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        #comparison-canvas {
+            max-width: 100%;
+            max-height: 100%;
+            cursor: ew-resize;
+        }
+
+        .slider-line {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: linear-gradient(180deg, #00d4ff, #ff00aa, #00d4ff);
+            pointer-events: none;
+            z-index: 10;
+        }
+
+        .slider-handle {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 50px;
+            height: 50px;
+            background: rgba(0,0,0,0.8);
+            border: 2px solid #00d4ff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #00d4ff;
+            font-size: 18px;
+            pointer-events: none;
+            z-index: 11;
+        }
+
+        .video-labels {
+            position: absolute;
+            bottom: 15px;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+            pointer-events: none;
+            z-index: 5;
+        }
+
+        .video-label {
+            padding: 6px 14px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+        .label-enhanced { background: #00d4ff22; color: #00d4ff; border: 1px solid #00d4ff; }
+        .label-original { background: #ff6b6b22; color: #ff6b6b; border: 1px solid #ff6b6b; }
+
+        .status-bar {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            right: 10px;
+            display: flex;
+            justify-content: space-between;
+            z-index: 20;
+        }
+
+        .status-badge {
+            background: rgba(0,0,0,0.85);
+            color: #00d4ff;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 600;
+            border: 1px solid #00d4ff;
+        }
+
+        .fps-counter {
+            background: rgba(0,0,0,0.85);
+            color: #0f0;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-family: monospace;
+            border: 1px solid #0f0;
+        }
+
+        /* Controls */
+        .controls {
+            display: flex;
+            gap: 8px;
+            padding: 10px;
+            background: #0d0d15;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 10px 16px;
+            background: #151520;
+            border: 1px solid #00d4ff;
+            border-radius: 6px;
+            color: #00d4ff;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 12px;
+            transition: all 0.15s;
+        }
+
+        .btn:hover, .btn.active {
+            background: #00d4ff;
+            color: #000;
+        }
+
+        /* Info Panel */
+        .info-panel .info-text {
+            font-size: 13px;
+            line-height: 1.6;
+            color: #999;
+            margin-bottom: 15px;
+        }
+
+        .tech-grid {
+            background: #151520;
+            border-radius: 8px;
+            padding: 12px;
+        }
+
+        .tech-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #ffffff0a;
+            font-size: 12px;
+        }
+
+        .tech-row:last-child { border: none; }
+        .tech-label { color: #666; }
+        .tech-value { color: #00d4ff; font-weight: 600; }
+
+        .cta-btn {
+            display: block;
+            padding: 12px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 10px;
+            font-size: 13px;
+        }
+
+        .cta-primary { background: linear-gradient(135deg, #00d4ff, #0099cc); color: #000; }
+        .cta-secondary { background: linear-gradient(135deg, #ff00aa, #aa0077); color: #fff; }
+
+        /* Hidden videos */
+        .hidden-videos { display: none; }
+
+        @media (max-width: 1000px) {
+            .studio { grid-template-columns: 1fr; }
+            .gallery-panel, .info-panel { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="studio">
+        <!-- Gallery -->
+        <div class="panel gallery-panel">
+            <div class="panel-title">🎬 GALLERY</div>
+            <div class="gallery" id="gallery"></div>
+        </div>
+
+        <!-- Canvas -->
+        <div class="panel canvas-panel">
+            <div class="canvas-wrapper" id="canvas-wrapper">
+                <canvas id="comparison-canvas"></canvas>
+                <div class="slider-line" id="slider-line"></div>
+                <div class="slider-handle" id="slider-handle">⟷</div>
+                <div class="video-labels">
+                    <span class="video-label label-enhanced">ENHANCED</span>
+                    <span class="video-label label-original">ORIGINAL</span>
+                </div>
+                <div class="status-bar">
+                    <div class="status-badge" id="status">READY</div>
+                    <div class="fps-counter" id="fps">-- FPS</div>
+                </div>
+            </div>
+            <div class="controls">
+                <button class="btn" id="btn-play">▶ PLAY</button>
+                <button class="btn" id="btn-pause">⏸ PAUSE</button>
+                <button class="btn" id="btn-slow">🐢 0.25x</button>
+                <button class="btn" id="btn-normal">1x</button>
+                <button class="btn" id="btn-fast">2x</button>
+                <button class="btn" id="btn-auto">↔ AUTO</button>
+                <button class="btn" id="btn-capture">📸</button>
+                <button class="btn" id="btn-fullscreen">⛶</button>
+            </div>
+        </div>
+
+        <!-- Info -->
+        <div class="panel info-panel">
+            <div class="panel-title">⚡ NEURAL ENGINE</div>
+            <div class="info-text">
+                GPU-beschleunigte 8K Video-Restaurierung mit proprietärer Neural Optical Engine™ Technologie.
+            </div>
+            <div class="tech-grid">
+                <div class="tech-row">
+                    <span class="tech-label">Rendering</span>
+                    <span class="tech-value">Canvas 2D / GPU</span>
+                </div>
+                <div class="tech-row">
+                    <span class="tech-label">Resolution</span>
+                    <span class="tech-value" id="res-display">--</span>
+                </div>
+                <div class="tech-row">
+                    <span class="tech-label">Frame Rate</span>
+                    <span class="tech-value" id="fr-display">--</span>
+                </div>
+                <div class="tech-row">
+                    <span class="tech-label">Sync</span>
+                    <span class="tech-value" id="sync-display">--</span>
+                </div>
+            </div>
+            <a href="https://youtube.com/@remAIke" target="_blank" class="cta-btn cta-primary">🎬 YouTube</a>
+            <a href="#contact" class="cta-btn cta-secondary">📧 Kontakt</a>
+        </div>
+    </div>
+
+    <!-- Hidden Video Elements -->
+    <div class="hidden-videos">
+        <video id="vid-original" muted loop playsinline preload="auto" crossorigin="anonymous"></video>
+        <video id="vid-enhanced" muted loop playsinline preload="auto" crossorigin="anonymous"></video>
+    </div>
+
+    <script>
+    (function() {
+        'use strict';
+
+        // ══════════════════════════════════════════════════════════════════════
+        // DATA
+        // ══════════════════════════════════════════════════════════════════════
+        let CLIPS = [];
+
+        // Load clips from API (paired-only) with static fallback
+        async function loadClipsFromAPI() {
+            const normalize = (items) => {
+                if (!Array.isArray(items)) return [];
+                return items.filter(c => {
+                    const enhanced = c.enhanced || c.enhancedPath;
+                    const original = c.original || c.originalPath;
+                    const hasBoth = Boolean(enhanced && original);
+                    const enhancedOk = c.enhancedExists === undefined ? true : c.enhancedExists;
+                    const originalOk = c.originalExists === undefined ? true : c.originalExists;
+                    return hasBoth && enhancedOk && originalOk;
+                });
+            };
+
+            const sources = [
+                async () => {
+                    const res = await fetch('/api/comparisons?pairedOnly=true', { cache: 'no-store' });
+                    if (!res.ok) throw new Error('API unavailable');
+                    return await res.json();
+                },
+                async () => {
+                    const res = await fetch('/comparisons.json', { cache: 'no-store' });
+                    if (!res.ok) throw new Error('Static comparisons.json missing');
+                    return await res.json();
+                }
+            ];
+
+            for (const fetcher of sources) {
+                try {
+                    const json = await fetcher();
+                    const items = normalize(json.comparisons || json);
+                    if (!items.length) continue;
+
+                    CLIPS = items.map((c, i) => ({
+                        id: c.id || `clip-${i}`,
+                        title: c.title || c.name || `Comparison ${i+1}`,
+                        meta: c.source || c.category || '',
+                        thumb: c.preview || c.thumb || `/assets/screenshots/frame${(i%2)+1}_before_frame1_10s.jpg`,
+                        original: c.original || c.originalPath || c.originalUrl || c.originalPath,
+                        enhanced: c.enhanced || c.enhancedPath || c.enhancedUrl || c.enhancedPath
+                    }));
+                    return;
+                } catch (e) {
+                    console.warn('Comparison source failed, trying next source:', e.message);
+                }
+            }
+
+            // Fallback (existing static clips)
+            CLIPS = [
+                {
+                    id: 'clip-01',
+                    title: 'Minnie the Moocher',
+                    meta: 'Betty Boop · 1932',
+                    thumb: '/assets/screenshots/frame1_after_frame1_10s.jpg',
+                    original: '/assets/video/clips/01_original.mp4',
+                    enhanced: '/assets/video/clips/01_enhanced.mp4'
+                },
+                {
+                    id: 'clip-02',
+                    title: 'Felix the Cat',
+                    meta: 'Silent Era · 1920s',
+                    thumb: '/assets/screenshots/frame2_after_frame1_10s.jpg',
+                    original: '/assets/video/clips/02_original.mp4',
+                    enhanced: '/assets/video/clips/02_enhanced.mp4'
+                },
+                {
+                    id: 'clip-03',
+                    title: 'Archive Demo',
+                    meta: 'Neural Processing',
+                    thumb: '/assets/screenshots/frame1_after_frame2_30s.jpg',
+                    original: '/assets/video/clips/03_original.mp4',
+                    enhanced: '/assets/video/clips/03_enhanced.mp4'
+                }
+            ];
+        }
+
+        function getQueryParam(name) {
+            const url = new URL(window.location.href);
+            return url.searchParams.get(name);
+        }
+
+        // ══════════════════════════════════════════════════════════════════════
+        // DOM ELEMENTS
+        // ══════════════════════════════════════════════════════════════════════
+        const canvas = document.getElementById('comparison-canvas');
+        const ctx = canvas.getContext('2d', { alpha: false, desynchronized: true });
+        const canvasWrapper = document.getElementById('canvas-wrapper');
+        const sliderLine = document.getElementById('slider-line');
+        const sliderHandle = document.getElementById('slider-handle');
+        const vidOriginal = document.getElementById('vid-original');
+        const vidEnhanced = document.getElementById('vid-enhanced');
+        const statusEl = document.getElementById('status');
+        const fpsEl = document.getElementById('fps');
+        const gallery = document.getElementById('gallery');
+
+        // ══════════════════════════════════════════════════════════════════════
+        // STATE
+        // ══════════════════════════════════════════════════════════════════════
+        let sliderPos = 0.5; // 0-1
+        let isDragging = false;
+        let autoSlide = false;
+        let autoDir = 1;
+        let isPlaying = false;
+        let animationId = null;
+        let lastFrameTime = 0;
+        let frameCount = 0;
+        let fps = 0;
+        let activeClipId = null;
+
+        // ══════════════════════════════════════════════════════════════════════
+        // GALLERY
+        // ══════════════════════════════════════════════════════════════════════
+        const preselectedClipId = getQueryParam('clip');
+        function renderGallery() {
+            gallery.innerHTML = '';
+            CLIPS.forEach((clip, i) => {
+                const item = document.createElement('div');
+                const active = (preselectedClipId && (clip.id === preselectedClipId || String(clip.id) === preselectedClipId)) || (!preselectedClipId && i === 0);
+                item.className = 'gallery-item' + (active ? ' active' : '');
+                item.innerHTML = `
+                    <img src="${clip.thumb}" alt="${clip.title}" onerror="this.style.background='#222'">
+                    <div class="gallery-item-info">
+                        <div class="gallery-item-title">${clip.title}</div>
+                        <div class="gallery-item-meta">${clip.meta}</div>
+                    </div>
+                `;
+                item.addEventListener('click', () => {
+                    document.querySelectorAll('.gallery-item').forEach(el => el.classList.remove('active'));
+                    item.classList.add('active');
+                    loadClip(clip);
+                });
+                gallery.appendChild(item);
+            });
+        }
+
+        // ══════════════════════════════════════════════════════════════════════
+        // LOAD VIDEO CLIP
+        // ══════════════════════════════════════════════════════════════════════
+        function loadClip(clip) {
+            activeClipId = clip.id;
+            // mark active gallery item
+            document.querySelectorAll('.gallery-item').forEach((el, i) => el.classList.toggle('active', CLIPS[i] && CLIPS[i].id === activeClipId));
+            statusEl.textContent = 'LOADING...';
+            
+            // Stop current playback
+            vidOriginal.pause();
+            vidEnhanced.pause();
+            isPlaying = false;
+
+            // Set sources
+            vidOriginal.src = clip.original;
+            vidEnhanced.src = clip.enhanced;
+
+            let loadedCount = 0;
+            const onCanPlay = () => {
+                loadedCount++;
+                if (loadedCount >= 2) {
+                    setupCanvas();
+                    statusEl.textContent = 'READY - CLICK PLAY';
+                    document.getElementById('res-display').textContent = 
+                        vidEnhanced.videoWidth + '×' + vidEnhanced.videoHeight;
+                }
+            };
+
+            vidOriginal.oncanplaythrough = onCanPlay;
+            vidEnhanced.oncanplaythrough = onCanPlay;
+            vidOriginal.onerror = () => { statusEl.textContent = 'ERROR: Original'; };
+            vidEnhanced.onerror = () => { statusEl.textContent = 'ERROR: Enhanced'; };
+
+            vidOriginal.load();
+            vidEnhanced.load();
+        }
+
+        // ══════════════════════════════════════════════════════════════════════
+        // CANVAS SETUP - PIXELTREU (1:1 Mapping)
+        // ══════════════════════════════════════════════════════════════════════
+        // MATHEMATIK:
+        // - Canvas.width/height = NATIVE Video-Auflösung (keine Skalierung)
+        // - CSS width/height = Display-Größe (Browser skaliert GPU-beschleunigt)
+        // - drawImage() MUSS Integer-Koordinaten verwenden (Math.floor/round)
+        // - Keine Subpixel-Interpolation = pixelgenau
+        // 
+        // Unterstützte Formate:
+        // - SD: 720×480 (NTSC), 720×576 (PAL)
+        // - HD: 1280×720, 1920×1080
+        // - 2K: 2048×1080 (DCI), 2560×1440 (QHD)
+        // - 4K: 3840×2160 (UHD), 4096×2160 (DCI)
+        // - 8K: 7680×4320 (UHD), 8192×4320 (DCI)
+        // - ProRes/HEVC: Codec-agnostisch, Browser dekodiert
+        // ══════════════════════════════════════════════════════════════════════
+        
+        let videoWidth = 0;
+        let videoHeight = 0;
+        let displayScale = 1;
+        
+        function setupCanvas() {
+            // Native Video-Auflösung - KEINE Skalierung
+            videoWidth = vidEnhanced.videoWidth;
+            videoHeight = vidEnhanced.videoHeight;
+            
+            if (!videoWidth || !videoHeight) {
+                console.error('[PIXEL] No video dimensions');
+                return;
+            }
+            
+            // Canvas = Native Auflösung (pixeltreu)
+            canvas.width = videoWidth;
+            canvas.height = videoHeight;
+            
+            // Berechne Display-Skalierung für Container
+            const container = canvasWrapper.getBoundingClientRect();
+            const scaleX = container.width / videoWidth;
+            const scaleY = container.height / videoHeight;
+            displayScale = Math.min(scaleX, scaleY, 1); // Nie hochskalieren
+            
+            // CSS-Skalierung (GPU-beschleunigt, kein Qualitätsverlust)
+            const displayW = Math.floor(videoWidth * displayScale);
+            const displayH = Math.floor(videoHeight * displayScale);
+            canvas.style.width = displayW + 'px';
+            canvas.style.height = displayH + 'px';
+            
+            // Pixeltreue: Nearest-Neighbor für scharfe Kanten
+            ctx.imageSmoothingEnabled = false;
+            canvas.style.imageRendering = 'pixelated';
+            
+            // Status Update
+            const resLabel = getResolutionLabel(videoWidth, videoHeight);
+            document.getElementById('res-display').textContent = 
+                `${videoWidth}×${videoHeight} (${resLabel})`;
+            
+            console.log(`[PIXEL] Native: ${videoWidth}×${videoHeight}, Display: ${displayW}×${displayH}, Scale: ${displayScale.toFixed(3)}`);
+            
+            updateSliderUI();
+            drawFrame();
+        }
+        
+        function getResolutionLabel(w, h) {
+            const pixels = w * h;
+            if (w >= 7680 || h >= 4320) return '8K UHD';
+            if (w >= 3840 || h >= 2160) return '4K UHD';
+            if (w >= 2560 || h >= 1440) return '2K QHD';
+            if (w >= 1920 || h >= 1080) return 'Full HD';
+            if (w >= 1280 || h >= 720) return 'HD';
+            return 'SD';
+        }
+
+        // ══════════════════════════════════════════════════════════════════════
+        // RENDER LOOP - PIXELGENAUE MATHEMATIK
+        // ══════════════════════════════════════════════════════════════════════
+        // Formel: splitX = floor(sliderPos * videoWidth)
+        // Links:  drawImage(enhanced, 0, 0, splitX, H) → Canvas(0, 0)
+        // Rechts: drawImage(original, splitX, 0, W-splitX, H) → Canvas(splitX, 0)
+        // KEINE Skalierung in drawImage = 1:1 Pixel-Mapping
+        // ══════════════════════════════════════════════════════════════════════
+        
+        function drawFrame(timestamp) {
+            if (!videoWidth || !videoHeight) {
+                animationId = requestAnimationFrame(drawFrame);
+                return;
+            }
+
+            // PIXELGENAUE Berechnung - Integer only!
+            const splitX = Math.floor(sliderPos * videoWidth);
+            const rightWidth = videoWidth - splitX;
+
+            // Links: Enhanced (0 bis splitX)
+            // drawImage(img, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight)
+            // sx=0, sy=0 = Quell-Start
+            // sWidth=splitX, sHeight=videoHeight = Quell-Region
+            // dx=0, dy=0 = Ziel-Start (Canvas)
+            // dWidth=splitX, dHeight=videoHeight = Ziel-Region (1:1 = pixeltreu)
+            if (splitX > 0) {
+                ctx.drawImage(vidEnhanced, 
+                    0, 0, splitX, videoHeight,  // Source: erste splitX Pixel
+                    0, 0, splitX, videoHeight   // Dest: 1:1 keine Skalierung
+                );
+            }
+            
+            // Rechts: Original (splitX bis Ende)
+            if (rightWidth > 0) {
+                ctx.drawImage(vidOriginal,
+                    splitX, 0, rightWidth, videoHeight,  // Source: ab splitX
+                    splitX, 0, rightWidth, videoHeight   // Dest: 1:1 keine Skalierung
+                );
+            }
+
+            // Video-Sync (Frame-genau)
+            const drift = vidOriginal.currentTime - vidEnhanced.currentTime;
+            if (Math.abs(drift) > 0.016) { // > 1 Frame bei 60fps
+                vidEnhanced.currentTime = vidOriginal.currentTime;
+            }
+
+            // FPS + Stats
+            frameCount++;
+            if (timestamp - lastFrameTime >= 1000) {
+                fps = frameCount;
+                frameCount = 0;
+                lastFrameTime = timestamp;
+                fpsEl.textContent = fps + ' FPS';
+                document.getElementById('fr-display').textContent = fps + ' fps';
+                document.getElementById('sync-display').textContent = 
+                    `Δ${Math.abs(drift * 1000).toFixed(1)}ms`;
+            }
+
+            // Auto-Slide
+            if (autoSlide && !isDragging) {
+                sliderPos += autoDir * 0.002;
+                if (sliderPos >= 0.95) autoDir = -1;
+                if (sliderPos <= 0.05) autoDir = 1;
+                updateSliderUI();
+            }
+
+            animationId = requestAnimationFrame(drawFrame);
+        }
+
+        // ══════════════════════════════════════════════════════════════════════
+        // SLIDER UI - PIXELGENAUE POSITIONIERUNG
+        // ══════════════════════════════════════════════════════════════════════
+        // Formel: displayX = floor(sliderPos * displayWidth)
+        // CSS transform für subpixel-freie Positionierung
+        // ══════════════════════════════════════════════════════════════════════
+        
+        function updateSliderUI() {
+            const canvasRect = canvas.getBoundingClientRect();
+            const wrapperRect = canvasWrapper.getBoundingClientRect();
+            
+            // Offset vom Canvas zum Wrapper
+            const offsetX = canvasRect.left - wrapperRect.left;
+            
+            // Pixelgenaue Position (Integer)
+            const x = Math.floor(offsetX + (sliderPos * canvasRect.width));
+            
+            sliderLine.style.left = x + 'px';
+            sliderHandle.style.left = x + 'px';
+            
+            // Debug: Zeige echte Pixel-Position
+            const realPixel = Math.floor(sliderPos * videoWidth);
+            sliderHandle.title = `Pixel: ${realPixel} / ${videoWidth}`;
+        }
+
+        // ══════════════════════════════════════════════════════════════════════
+        // MOUSE/TOUCH - PIXELGENAUE EINGABE
+        // ══════════════════════════════════════════════════════════════════════
+        // Formel: sliderPos = (clientX - canvasLeft) / canvasWidth
+        // Quantisierung auf echte Pixel: sliderPos = floor(pos * W) / W
+        // ══════════════════════════════════════════════════════════════════════
+        
+        function getSliderPosFromEvent(e) {
+            const rect = canvas.getBoundingClientRect();
+            const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+            
+            // Rohe Position (0-1)
+            let pos = (clientX - rect.left) / rect.width;
+            pos = Math.max(0, Math.min(1, pos));
+            
+            // Quantisierung auf echte Video-Pixel
+            if (videoWidth > 0) {
+                const pixel = Math.floor(pos * videoWidth);
+                pos = pixel / videoWidth;
+            }
+            
+            return pos;
+        }
+
+        canvas.addEventListener('mousedown', (e) => {
+            isDragging = true;
+            autoSlide = false;
+            document.getElementById('btn-auto').classList.remove('active');
+            sliderPos = getSliderPosFromEvent(e);
+            updateSliderUI();
+        });
+
+        canvas.addEventListener('touchstart', (e) => {
+            isDragging = true;
+            autoSlide = false;
+            document.getElementById('btn-auto').classList.remove('active');
+            sliderPos = getSliderPosFromEvent(e);
+            updateSliderUI();
+        }, { passive: true });
+
+        document.addEventListener('mousemove', (e) => {
+            if (isDragging) {
+                sliderPos = getSliderPosFromEvent(e);
+                updateSliderUI();
+            }
+        });
+
+        document.addEventListener('touchmove', (e) => {
+            if (isDragging) {
+                sliderPos = getSliderPosFromEvent(e);
+                updateSliderUI();
+            }
+        }, { passive: true });
+
+        document.addEventListener('mouseup', () => { isDragging = false; });
+        document.addEventListener('touchend', () => { isDragging = false; });
+
+        // Resize: Neu-Berechnung der Display-Skalierung
+        window.addEventListener('resize', () => {
+            if (videoWidth && videoHeight) {
+                const container = canvasWrapper.getBoundingClientRect();
+                const scaleX = container.width / videoWidth;
+                const scaleY = container.height / videoHeight;
+                displayScale = Math.min(scaleX, scaleY, 1);
+                
+                const displayW = Math.floor(videoWidth * displayScale);
+                const displayH = Math.floor(videoHeight * displayScale);
+                canvas.style.width = displayW + 'px';
+                canvas.style.height = displayH + 'px';
+            }
+            updateSliderUI();
+        });
+
+        // ══════════════════════════════════════════════════════════════════════
+        // CONTROLS
+        // ══════════════════════════════════════════════════════════════════════
+        document.getElementById('btn-play').addEventListener('click', () => {
+            vidOriginal.play();
+            vidEnhanced.play();
+            isPlaying = true;
+            statusEl.textContent = 'PLAYING';
+        });
+
+        document.getElementById('btn-pause').addEventListener('click', () => {
+            vidOriginal.pause();
+            vidEnhanced.pause();
+            isPlaying = false;
+            statusEl.textContent = 'PAUSED';
+        });
+
+        document.getElementById('btn-slow').addEventListener('click', () => {
+            vidOriginal.playbackRate = 0.25;
+            vidEnhanced.playbackRate = 0.25;
+            statusEl.textContent = 'SLOWMO 0.25x';
+        });
+
+        document.getElementById('btn-normal').addEventListener('click', () => {
+            vidOriginal.playbackRate = 1;
+            vidEnhanced.playbackRate = 1;
+            statusEl.textContent = '1x SPEED';
+        });
+
+        document.getElementById('btn-fast').addEventListener('click', () => {
+            vidOriginal.playbackRate = 2;
+            vidEnhanced.playbackRate = 2;
+            statusEl.textContent = '2x SPEED';
+        });
+
+        document.getElementById('btn-auto').addEventListener('click', function() {
+            autoSlide = !autoSlide;
+            this.classList.toggle('active', autoSlide);
+            statusEl.textContent = autoSlide ? 'AUTO-SLIDE ON' : 'AUTO-SLIDE OFF';
+        });
+
+        document.getElementById('btn-capture').addEventListener('click', () => {
+            canvas.toBlob((blob) => {
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'remaike_capture_' + Date.now() + '.png';
+                a.click();
+                URL.revokeObjectURL(url);
+                statusEl.textContent = '📸 SAVED';
+                setTimeout(() => { statusEl.textContent = isPlaying ? 'PLAYING' : 'READY'; }, 1500);
+            }, 'image/png');
+        });
+
+        document.getElementById('btn-fullscreen').addEventListener('click', () => {
+            if (canvasWrapper.requestFullscreen) {
+                canvasWrapper.requestFullscreen();
+            }
+        });
+
+        // ══════════════════════════════════════════════════════════════════════
+        // INIT
+        // ══════════════════════════════════════════════════════════════════════
+        // Load clips (from comparisons.json or fallback) and then initialize gallery
+        loadClipsFromAPI().then(() => {
+            renderGallery();
+            const clipParam = getQueryParam('clip');
+            if (clipParam) {
+                const idx = CLIPS.findIndex(c => c.id === clipParam || String(c.id) === clipParam || String(c.id) === `clip-${clipParam}` || String(c.id) === String(parseInt(clipParam, 10)));
+                if (idx !== -1) {
+                    loadClip(CLIPS[idx]);
+                } else if (CLIPS.length > 0) {
+                    loadClip(CLIPS[0]);
+                }
+            } else if (CLIPS.length > 0) {
+                loadClip(CLIPS[0]);
+            }
+        }).catch(() => {
+            renderGallery();
+            if (CLIPS.length > 0) loadClip(CLIPS[0]);
+        });
+        
+        // Start render loop
+        animationId = requestAnimationFrame(drawFrame);
+
+    })();
+    </script>
+</body>
+</html>

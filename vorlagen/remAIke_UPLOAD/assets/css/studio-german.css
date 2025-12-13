@@ -1,0 +1,269 @@
+/* Neutrale Deutsche Business-Präsentation */
+:root {
+    --primary: #1a1a2e;
+    --secondary: #16213e;
+    --accent: #0f3460;
+    --text: #333;
+    --text-light: #666;
+    --bg: #f8f9fa;
+    --white: #fff;
+    --border: #e0e0e0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+/* Header - Clean Business Style */
+.main-header {
+    background: var(--white);
+    border-bottom: 1px solid var(--border);
+    padding: 1.5rem 2rem;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+}
+
+.main-subtitle {
+    font-size: 1rem;
+    color: var(--text-light);
+    font-weight: 400;
+}
+
+/* Main Layout */
+.onepager-main {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.onepager-section {
+    background: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 1.5rem;
+}
+
+/* Three Column Grid */
+.onepager-layout {
+    display: grid;
+    grid-template-columns: 280px 1fr 280px;
+    gap: 1.5rem;
+    align-items: start;
+}
+
+/* Panel Cards */
+.panel-card {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+.panel-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--accent);
+}
+
+/* YouTube List */
+.youtube-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.youtube-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+    color: var(--text);
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+.youtube-link:hover {
+    background: var(--white);
+}
+
+.youtube-thumb {
+    width: 80px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+}
+
+.youtube-label {
+    font-size: 0.85rem;
+    color: var(--text);
+}
+
+/* Center Panel - Video Comparison */
+.center-panel {
+    background: var(--white);
+    border: 1px solid var(--border);
+}
+
+.center-panel .video-wrapper {
+    position: relative;
+    min-height: 450px;
+    background: #000;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+/* Matrix Canvas Container */
+.matrix-canvas-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.matrix-canvas-container canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* Matrix Label - Business Style */
+.matrix-label {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 11px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 6px 14px;
+    border-radius: 4px;
+    z-index: 16;
+}
+
+.showcase-title {
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 8px 16px;
+    border-radius: 4px;
+    z-index: 16;
+}
+
+/* Transition Overlay */
+#transition-overlay {
+    position: absolute;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+    background: #000;
+}
+
+#transition-overlay video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Ad Videos */
+.ad-video-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.ad-video {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    background: #000;
+}
+
+/* Footer */
+.main-footer {
+    background: var(--primary);
+    color: var(--white);
+    padding: 1.5rem 2rem;
+    margin-top: 2rem;
+}
+
+.footer-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+.footer-copy {
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.6);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .onepager-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .left-panel, .right-panel {
+        order: 2;
+    }
+
+    .center-panel {
+        order: 1;
+    }
+}
+
+/* Hide unused elements */
+.slider-container, .click-preview-container, .zoom-lens, .click-indicator, .click-compare-overlay,
+.eva-style, .matrix-rain, .crt-lines, .scan-lines, .mode-badge, .processing-badge {
+    display: none !important;
+}

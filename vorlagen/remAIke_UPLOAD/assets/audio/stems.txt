@@ -1,0 +1,3 @@
+[AUDIO STEMS PLACEHOLDER]
+Dies ist ein Platzhalter für die separierten Audio-Stems.
+In einer echten Implementierung würde hier eine MP3-Datei mit den getrennten Audio-Spuren liegen (Musik, Dialoge, Effekte).

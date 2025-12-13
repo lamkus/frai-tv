@@ -1,0 +1,2400 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>remAIke.IT — KI-gestützte 8K Videorestaurierung | VHS zu 8K Cinema</title>
+    <meta name="description" content="Professionelle Videorestaurierung mit Neural Optical Engine™. VHS, Hi8, Super8, 16mm zu 8K Cinema-Qualität. IMAX-ready bis 85 Zoll. Enterprise Server-Farm Processing.">
+    <meta name="keywords" content="Videorestaurierung, 8K Remastering, VHS digitalisieren, Film restaurieren, Neural AI, IMAX, Cinema Quality, Hi8, Super8, 16mm, 35mm, Archive Restoration">
+    <meta name="author" content="remAIke.IT">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://www.remaike.it/">
+    
+    <!-- Google Search Console Verification (REPLACE WITH YOUR CODE) -->
+    <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE_HERE">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.remaike.it/">
+    <meta property="og:title" content="remAIke.IT — KI-gestützte 8K Videorestaurierung">
+    <meta property="og:description" content="VHS, Hi8, Super8, 16mm zu 8K Cinema-Qualität. Neural Optical Engine™ Technologie.">
+    <meta property="og:image" content="https://www.remaike.it/assets/screenshots/hero-preview.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="de_DE">
+    <meta property="og:site_name" content="remAIke.IT">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@remAIke_IT">
+    <meta name="twitter:creator" content="@remAIke_IT">
+    <meta name="twitter:title" content="remAIke.IT — KI-gestützte 8K Videorestaurierung">
+    <meta name="twitter:description" content="VHS, Hi8, Super8, 16mm zu 8K Cinema-Qualität. Neural Optical Engine™ Technologie.">
+    <meta name="twitter:image" content="https://www.remaike.it/assets/screenshots/hero-preview.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+    <link rel="manifest" href="manifest.webmanifest">
+    <meta name="theme-color" content="#0a0a0b">
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    
+    <!-- Google Analytics 4 (REPLACE G-XXXXXXXXXX WITH YOUR MEASUREMENT ID) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX', {
+            'anonymize_ip': true,
+            'cookie_flags': 'SameSite=None;Secure'
+        });
+        
+        // Custom Events für Video-Tracking
+        function trackVideoPlay(videoTitle) {
+            gtag('event', 'video_play', {
+                'event_category': 'Video',
+                'event_label': videoTitle
+            });
+        }
+        function trackVideoCompare(videoTitle) {
+            gtag('event', 'video_compare', {
+                'event_category': 'Video',
+                'event_label': videoTitle
+            });
+        }
+        function trackInquiryOpen() {
+            gtag('event', 'inquiry_open', {
+                'event_category': 'Lead',
+                'event_label': 'Project Inquiry Modal'
+            });
+        }
+        function trackInquirySubmit(projectType) {
+            gtag('event', 'inquiry_submit', {
+                'event_category': 'Lead',
+                'event_label': projectType
+            });
+        }
+    </script>
+
+    <!-- Schema.org JSON-LD für Rich Snippets -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "remAIke.IT",
+        "url": "https://www.remaike.it",
+        "logo": "https://www.remaike.it/assets/icons/logo.png",
+        "description": "Professionelle KI-gestützte Videorestaurierung. VHS, Hi8, Super8, 16mm zu 8K Cinema-Qualität.",
+        "foundingDate": "2024",
+        "sameAs": [
+            "https://youtube.com/@remAIke_IT",
+            "https://facebook.com/remAIke.IT",
+            "https://twitter.com/remAIke_IT"
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer service",
+            "availableLanguage": ["German", "English"]
+        },
+        "offers": {
+            "@type": "Offer",
+            "description": "8K Video Restoration Service",
+            "category": "Video Production Services"
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "remAIke.IT",
+        "url": "https://www.remaike.it",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.remaike.it/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Video Restoration",
+        "provider": {
+            "@type": "Organization",
+            "name": "remAIke.IT"
+        },
+        "name": "8K Neural Video Restoration",
+        "description": "Transform VHS, Hi8, Super8, 16mm, 35mm footage into stunning 8K cinema quality using proprietary Neural Optical Engine technology.",
+        "areaServed": "Worldwide",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Video Restoration Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "VHS to 8K Restoration"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Film Archive Digitization"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Broadcast Quality Remastering"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        :root {
+            /* Premium Cinema Dark Theme */
+            --accent: #c9a962;           /* Gold accent */
+            --accent-light: rgba(201, 169, 98, 0.15);
+            --accent-glow: rgba(201, 169, 98, 0.4);
+            --bg: #0a0a0b;               /* Deep black */
+            --bg-secondary: #111113;     /* Slightly lighter */
+            --bg-card: #161618;          /* Card background */
+            --bg-elevated: #1c1c1e;      /* Elevated surfaces */
+            --text: #f5f5f7;             /* Primary text */
+            --text-muted: #8e8e93;       /* Secondary text */
+            --text-dim: #636366;         /* Tertiary text */
+            --border: #2c2c2e;           /* Primary border */
+            --border-light: #1c1c1e;     /* Subtle border */
+            --gradient-gold: linear-gradient(135deg, #c9a962 0%, #a88b4a 100%);
+            --gradient-dark: linear-gradient(180deg, #161618 0%, #0a0a0b 100%);
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.5;
+            position: relative;
+            overflow-x: hidden;
+        }
+        
+        /* High-end Background Pattern */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(201, 169, 98, 0.03) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(201, 169, 98, 0.03) 0%, transparent 50%),
+                repeating-linear-gradient(
+                    0deg,
+                    rgba(201, 169, 98, 0.02) 0px,
+                    transparent 1px,
+                    transparent 80px,
+                    rgba(201, 169, 98, 0.02) 81px
+                ),
+                repeating-linear-gradient(
+                    90deg,
+                    rgba(201, 169, 98, 0.02) 0px,
+                    transparent 1px,
+                    transparent 80px,
+                    rgba(201, 169, 98, 0.02) 81px
+                ),
+                linear-gradient(180deg, #0a0a0b 0%, #111113 50%, #0a0a0b 100%);
+            background-size: 100% 100%, 100% 100%, 80px 80px, 80px 80px, 100% 100%;
+            opacity: 1;
+        }
+
+        /* ═══════════════════════════════════════════════════════════════
+           HEADER - Compact for max video space
+        ═══════════════════════════════════════════════════════════════ */
+        header {
+            background: rgba(10, 10, 11, 0.9);
+            -webkit-backdrop-filter: saturate(180%) blur(20px);
+            backdrop-filter: saturate(180%) blur(20px);
+            padding: 22px 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+        }
+        
+        .social-buttons {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo img {
+            height: 94px;
+            width: auto;
+            filter: drop-shadow(0 0 20px rgba(201, 169, 98, 0.8)) drop-shadow(0 0 40px rgba(201, 169, 98, 0.4));
+        }
+
+        .logo-text {
+            font-size: 35px;
+            font-weight: 600;
+            color: var(--text);
+            letter-spacing: -0.5px;
+        }
+
+        .logo-text span {
+            background: var(--gradient-gold);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .header-tagline {
+            color: var(--text-muted);
+            font-size: 11px;
+            font-weight: 500;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+        }
+
+        nav {
+            display: none; /* Hidden - Logo centered */
+            gap: 32px;
+            align-items: center;
+        }
+
+        nav a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        nav a:hover {
+            color: var(--accent);
+        }
+
+        /* ═══════════════════════════════════════════════════════════════
+           SOCIAL MEDIA BUTTONS - Premium Style
+        ═══════════════════════════════════════════════════════════════ */
+        .social-buttons {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .social-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            text-decoration: none;
+            transition: all 0.25s ease;
+            font-size: 18px;
+            background: var(--bg-elevated);
+            border: 1px solid rgba(201, 169, 98, 0.3);
+            color: rgba(201, 169, 98, 0.6);
+            box-shadow: 0 2px 10px rgba(201, 169, 98, 0.1);
+        }
+
+        .social-btn svg {
+            width: 22px;
+            height: 22px;
+        }
+
+        .social-btn:hover {
+            transform: translateY(-2px);
+            border-color: var(--accent);
+            color: var(--accent);
+            box-shadow: 0 4px 20px var(--accent-glow);
+        }
+
+        .social-btn.youtube { color: rgba(255, 0, 0, 0.5); border-color: rgba(255, 0, 0, 0.3); }
+        .social-btn.youtube:hover { color: #FF0000; border-color: #FF0000; box-shadow: 0 4px 20px rgba(255,0,0,0.4); }
+        
+        .social-btn.facebook { color: rgba(24, 119, 242, 0.5); border-color: rgba(24, 119, 242, 0.3); }
+        .social-btn.facebook:hover { color: #1877F2; border-color: #1877F2; box-shadow: 0 4px 20px rgba(24,119,242,0.4); }
+        
+        .social-btn.twitter { color: #fff; border-color: rgba(255, 255, 255, 0.4); box-shadow: 0 2px 10px rgba(255, 255, 255, 0.15); }
+        .social-btn.twitter:hover { color: #fff; border-color: #fff; box-shadow: 0 4px 20px rgba(255,255,255,0.4); }
+        
+        .social-btn.instagram { 
+            color: #E4405F; 
+            border-color: rgba(228, 64, 95, 0.4);
+            background: linear-gradient(135deg, rgba(131, 58, 180, 0.1) 0%, rgba(253, 29, 29, 0.1) 50%, rgba(252, 176, 69, 0.1) 100%);
+            box-shadow: 0 2px 12px rgba(228, 64, 95, 0.15);
+        }
+        .social-btn.instagram:hover { 
+            color: #E4405F; 
+            border-color: #E4405F;
+            background: linear-gradient(135deg, rgba(131, 58, 180, 0.2) 0%, rgba(253, 29, 29, 0.2) 50%, rgba(252, 176, 69, 0.2) 100%);
+            box-shadow: 0 4px 20px rgba(228, 64, 95, 0.4), 0 0 30px rgba(253, 29, 29, 0.3);
+        }
+
+        .subscribe-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--gradient-gold);
+            color: #0a0a0b;
+            padding: 10px 18px;
+            border-radius: 24px;
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: 600;
+            transition: all 0.25s ease;
+            margin-left: 12px;
+            letter-spacing: 0.3px;
+        }
+
+        .subscribe-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px var(--accent-glow);
+        }
+
+        .subscribe-btn svg {
+            width: 16px;
+            height: 16px;
+        }
+
+        /* ═══════════════════════════════════════════════════════════════
+           HERO SECTION - MINIMAL (more space for slider)
+        ═══════════════════════════════════════════════════════════════ */
+        .hero {
+            display: none; /* Hidden to maximize slider space */
+        }
+
+        /* ═══════════════════════════════════════════════════════════════
+           MAIN LAYOUT - 3-Column for 3.5K (3440x1440)
+        ═══════════════════════════════════════════════════════════════ */
+        .main-content {
+            display: grid;
+            grid-template-columns: 240px 1fr 280px;
+            gap: 12px;
+            padding: 10px 20px;
+            max-width: 3400px;
+            margin: 0 auto;
+            height: calc(100vh - 100px);
+            align-items: stretch;
+        }
+
+        /* ═══════════════════════════════════════════════════════════════
+           FILM GALLERY - Left Sidebar
+        ═══════════════════════════════════════════════════════════════ */
+        .gallery-section {
+            height: 100%;
+            overflow-y: auto;
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 18px;
+            border: 1px solid var(--border);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+        }
+
+        .gallery-section::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        .gallery-section::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .gallery-section::-webkit-scrollbar-thumb {
+            background: var(--border);
+            border-radius: 2px;
+        }
+
+        .gallery-title {
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--accent);
+            margin-bottom: 16px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .gallery-title::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            background: var(--accent);
+            border-radius: 2px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .gallery-item {
+            cursor: pointer;
+            border-radius: 12px;
+            overflow: hidden;
+            background: var(--bg-elevated);
+            transition: all 0.3s ease;
+            position: relative;
+            border: 1px solid var(--border-light);
+        }
+
+        .gallery-item:hover {
+            border-color: var(--border);
+            transform: translateX(4px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+        }
+
+        .gallery-item.active {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 1px var(--accent), 0 8px 24px var(--accent-glow);
+        }
+
+        .gallery-item.active::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, var(--accent-light) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            aspect-ratio: 16/9;
+            object-fit: cover;
+            display: block;
+            filter: brightness(0.9);
+            transition: filter 0.3s ease;
+        }
+
+        .gallery-item:hover img,
+        .gallery-item.active img {
+            filter: brightness(1);
+        }
+
+        .gallery-item-info {
+            padding: 12px 14px;
+            background: var(--bg-elevated);
+        }
+
+        .gallery-item-title {
+            font-size: 13px;
+            font-weight: 500;
+            margin-bottom: 3px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: var(--text);
+        }
+
+        .gallery-item-year {
+            font-size: 11px;
+            color: var(--text-dim);
+            font-weight: 500;
+        }
+
+        /* ═══════════════════════════════════════════════════════════════
+           VIDEO COMPARISON - Center (Main Focus) - Premium Frame
+        ═══════════════════════════════════════════════════════════════ */
+        .comparison-section {
+            background: var(--bg-card);
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid var(--accent);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.5),
+                        0 0 20px rgba(201, 169, 98, 0.15);
+            position: relative;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .comparison-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--accent), transparent);
+            opacity: 0.5;
+        }
+
+        .video-container {
+            position: relative;
+            flex: 1;
+            background: transparent;  /* KEIN SCHWARZ! */
+            overflow: hidden;
+            margin: 0;
+            width: 100%;
+            min-height: 0;
+            /* KEIN PADDING - Video füllt komplett! */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .comparison-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;  /* COVER - füllt kompletten Container! */
+        }
+
+        #video-enhanced {
+            clip-path: inset(0 50% 0 0);
+            will-change: clip-path;
+            transform: translateZ(0);
+        }
+
+        #video-original {
+            transform: translateZ(0);
+        }
+
+        /* Split Line - Gold Theme Vertical Line */
+        .split-line {
+            position: absolute;
+            z-index: 10;
+            pointer-events: none;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: linear-gradient(to bottom,
+                rgba(201, 169, 98, 0) 0%,
+                rgba(201, 169, 98, 0.9) 5%,
+                rgba(201, 169, 98, 1) 50%,
+                rgba(201, 169, 98, 0.9) 95%,
+                rgba(201, 169, 98, 0) 100%);
+            box-shadow: 0 0 15px rgba(201, 169, 98, 0.6),
+                        0 0 30px rgba(201, 169, 98, 0.3);
+            opacity: 1 !important;
+            display: block !important;
+        }
+
+        /* Slider Handle - FIXED at bottom 5% */
+        .slider-handle {
+            position: absolute;
+            z-index: 20;
+            width: 52px;
+            height: 32px;
+            left: 50%;
+            bottom: 5%;
+            top: auto !important;
+            transform: translateX(-50%);
+            background: linear-gradient(145deg, #1a1a1a 0%, #0a0a0a 100%);
+            border: 2px solid var(--accent);
+            border-radius: 16px;
+            cursor: grab;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6),
+                        0 0 20px rgba(201, 169, 98, 0.3);
+            transition: left 0.05s ease, box-shadow 0.2s ease;
+            pointer-events: auto;
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+            opacity: 1 !important;
+            visibility: visible !important;
+        }
+
+        /* Left/Right arrows inside handle */
+        .slider-handle::before,
+        .slider-handle::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-style: solid;
+        }
+
+        .slider-handle::before {
+            left: 8px;
+            border-width: 5px 6px 5px 0;
+            border-color: transparent var(--accent) transparent transparent;
+        }
+
+        .slider-handle::after {
+            right: 8px;
+            border-width: 5px 0 5px 6px;
+            border-color: transparent transparent transparent var(--accent);
+        }
+
+        .slider-handle:hover {
+            background: linear-gradient(145deg, #252525 0%, #151515 100%);
+            border-color: #d4b570;
+            box-shadow: 0 6px 25px rgba(0, 0, 0, 0.6),
+                        0 0 30px rgba(201, 169, 98, 0.5);
+        }
+
+        .slider-handle:active {
+            cursor: grabbing;
+            background: linear-gradient(145deg, #1a1a1a 0%, #0a0a0a 100%);
+        }
+
+        .slider-handle svg {
+            display: none;
+        }
+
+        /* ═══════════════════════════════════════════════════════════════
+           MAGNIFIER - Circular Zoom Window at Top Center
+        ═══════════════════════════════════════════════════════════════ */
+        /* Toggle Button for Magnifier - Always Active */
+        .magnifier-toggle {
+            display: none !important; /* Completely hidden */
+        }
+        .magnifier-box {
+            display: none !important; /* Completely hidden */
+        }
+        .magnifier-sample-indicator {
+            display: none !important; /* Completely hidden */
+        }        .magnifier-divider {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 2px;
+            height: 100%;
+            background: var(--accent);
+            transform: translateX(-50%);
+        }
+
+        .magnifier-toggle {
+            position: absolute;
+            bottom: 5%;
+            left: 50%;
+            transform: translateX(-50%) translateX(40px);
+            width: 28px;
+            height: 28px;
+            background: var(--bg-elevated);
+            border: 2px solid var(--accent);
+            border-radius: 6px;
+            cursor: pointer;
+            z-index: 21;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            transition: all 0.2s;
+        }
+
+        .magnifier-toggle:hover {
+            background: var(--accent);
+            color: #0a0a0b;
+        }
+
+        .magnifier-toggle.active {
+            background: var(--accent);
+            color: #0a0a0b;
+        }
+
+        /* Pixel Resolution Labels - Bottom of Slider */
+        .pixel-labels {
+            position: absolute;
+            bottom: 12%;
+            left: 20px;
+            right: 20px;
+            display: flex;
+            justify-content: space-between;
+            pointer-events: none;
+            z-index: 15;
+        }
+
+        .pixel-label {
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            padding: 4px 10px;
+            border-radius: 4px;
+        }
+
+        .pixel-label.original {
+            background: rgba(10, 10, 11, 0.85);
+            color: var(--text-muted);
+            border: 1px solid var(--border);
+        }
+
+        .pixel-label.enhanced {
+            background: var(--accent);
+            color: #0a0a0b;
+        }
+
+        /* ═══════════════════════════════════════════════════════════════
+           CONTROLS - Premium Dark Cinema Style
+        ═══════════════════════════════════════════════════════════════ */
+        .controls-bar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: var(--bg-elevated);
+            border-top: 1px solid var(--border);
+        }
+
+        .control-btn {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border: 1px solid var(--border);
+            background: var(--bg-card);
+            color: var(--text);
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .control-btn:hover {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: #0a0a0b;
+            box-shadow: 0 0 20px rgba(201, 169, 98, 0.3);
+        }
+
+        .control-btn.primary {
+            width: 52px;
+            height: 52px;
+            background: linear-gradient(135deg, var(--accent), #a88b44);
+            border-color: var(--accent);
+            color: #0a0a0b;
+            font-size: 20px;
+            box-shadow: 0 4px 16px rgba(201, 169, 98, 0.25);
+        }
+
+        .control-btn.primary:hover {
+            background: linear-gradient(135deg, #d4b875, var(--accent));
+            transform: scale(1.05);
+            box-shadow: 0 6px 24px rgba(201, 169, 98, 0.4);
+        }
+
+        .control-btn.active {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: #0a0a0b;
+        }
+
+        /* Film Info Bar (in video container) */
+        .film-info {
+            display: none;
+        }
+
+        /* ═══════════════════════════════════════════════════════════════
+           RIGHT SIDEBAR - Marketing
+        ═══════════════════════════════════════════════════════════════ */
+        .info-section {
+            height: 100%;
+            overflow-y: auto;
+            padding: 22px;
+            background: var(--bg-card);
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+        }
+
+        .info-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 6px;
+            line-height: 1.3;
+            color: var(--text);
+            letter-spacing: -0.3px;
+        }
+
+        #info-film-source,
+        .info-subtitle {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        .info-specs {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+            margin-bottom: 20px;
+            background: var(--bg-elevated);
+            border-radius: 12px;
+            padding: 4px 0;
+            border: 1px solid var(--border);
+        }
+
+        .info-spec-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .info-spec-row:last-child {
+            border-bottom: none;
+        }
+
+        .info-spec-label {
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        .info-spec-value {
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--accent);
+        }
+
+        /* Marketing Werbetext */
+        .info-marketing {
+            margin-top: 20px;
+            padding: 15px;
+            background: rgba(201, 169, 98, 0.08);
+            border: 1px solid rgba(201, 169, 98, 0.2);
+            border-radius: 12px;
+        }
+        .marketing-headline {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--accent);
+            margin: 0 0 10px 0;
+        }
+        .marketing-text {
+            font-size: 13px;
+            color: #888;
+            line-height: 1.5;
+            margin: 0 0 12px 0;
+        }
+        .marketing-features {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .marketing-features li {
+            font-size: 12px;
+            color: #aaa;
+            padding: 4px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        .marketing-features li:last-child {
+            border-bottom: none;
+        }
+        .marketing-features li::before {
+            color: var(--accent);
+        }
+
+        .info-cta {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .info-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 12px 16px;
+            border-radius: 12px;
+            font-size: 14px;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+
+        .info-btn.primary {
+            background: linear-gradient(135deg, var(--accent), #a88b44);
+            color: #0a0a0b;
+            font-weight: 600;
+            box-shadow: 0 4px 12px rgba(201, 169, 98, 0.25);
+        }
+
+        .info-btn.primary:hover {
+            background: linear-gradient(135deg, #d4b875, var(--accent));
+            box-shadow: 0 6px 20px rgba(201, 169, 98, 0.4);
+        }
+
+        .info-btn.secondary {
+            background: var(--bg-elevated);
+            color: var(--text);
+            border: 1px solid var(--border);
+        }
+
+        .info-btn.secondary:hover {
+            background: var(--bg-card);
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        .film-title {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .film-details {
+            display: flex;
+            gap: 20px;
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+
+        .film-detail {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .film-detail-icon {
+            color: var(--accent);
+        }
+
+        /* ═══════════════════════════════════════════════════════════════
+           CTA SECTION (Premium Dark Cinema)
+        ═══════════════════════════════════════════════════════════════ */
+        .cta-section {
+            text-align: center;
+            padding: 64px 20px;
+            background: var(--bg);
+            position: relative;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60%;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--border), transparent);
+        }
+
+        .cta-section h2 {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: var(--text);
+            letter-spacing: -0.3px;
+        }
+
+        .cta-section p {
+            color: var(--text-muted);
+            margin-bottom: 28px;
+            max-width: 480px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 17px;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .cta-btn {
+            padding: 14px 28px;
+            border-radius: 24px;
+            font-size: 14px;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .cta-btn.primary {
+            background: linear-gradient(135deg, var(--accent), #a88b44);
+            color: #0a0a0b;
+            font-weight: 600;
+            box-shadow: 0 4px 16px rgba(201, 169, 98, 0.3);
+        }
+
+        .cta-btn.primary:hover {
+            background: linear-gradient(135deg, #d4b875, var(--accent));
+            box-shadow: 0 6px 24px rgba(201, 169, 98, 0.5);
+            transform: translateY(-2px);
+        }
+
+        .cta-btn.secondary {
+            background: var(--bg-elevated);
+            color: var(--text);
+            border: 1px solid var(--border);
+        }
+
+        .cta-btn.secondary:hover {
+            background: var(--bg-card);
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        /* ═══════════════════════════════════════════════════════════════
+           INQUIRY POPUP MODAL - Premium Gold Style
+        ═══════════════════════════════════════════════════════════════ */
+        .inquiry-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.85);
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            z-index: 9999;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .inquiry-modal.active {
+            display: flex;
+        }
+
+        .inquiry-modal-content {
+            background: linear-gradient(145deg, #1a1a1c 0%, #0d0d0e 100%);
+            border: 2px solid var(--accent);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 500px;
+            width: 90%;
+            box-shadow: 0 0 60px rgba(201, 169, 98, 0.3),
+                        0 25px 80px rgba(0, 0, 0, 0.8);
+            position: relative;
+            animation: modalSlideIn 0.3s ease;
+        }
+
+        @keyframes modalSlideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-30px) scale(0.95);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+
+        .inquiry-modal-close {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-size: 28px;
+            cursor: pointer;
+            transition: color 0.2s, transform 0.2s;
+            line-height: 1;
+        }
+
+        .inquiry-modal-close:hover {
+            color: var(--accent);
+            transform: rotate(90deg);
+        }
+
+        .inquiry-modal h2 {
+            color: var(--accent);
+            font-size: 24px;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .inquiry-modal-subtitle {
+            color: var(--text-muted);
+            font-size: 13px;
+            margin-bottom: 25px;
+        }
+
+        .inquiry-form-group {
+            margin-bottom: 16px;
+        }
+
+        .inquiry-form-group label {
+            display: block;
+            color: var(--text-muted);
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 6px;
+        }
+
+        .inquiry-form-group input,
+        .inquiry-form-group select,
+        .inquiry-form-group textarea {
+            width: 100%;
+            padding: 14px 16px;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            color: var(--text);
+            font-size: 14px;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .inquiry-form-group input:focus,
+        .inquiry-form-group select:focus,
+        .inquiry-form-group textarea:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(201, 169, 98, 0.15);
+        }
+
+        .inquiry-form-group textarea {
+            resize: none;
+            min-height: 100px;
+        }
+
+        .inquiry-form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        .inquiry-submit-btn {
+            width: 100%;
+            padding: 16px;
+            margin-top: 20px;
+            background: linear-gradient(135deg, var(--accent), #a88b44);
+            color: #0a0a0b;
+            border: none;
+            border-radius: 12px;
+            font-size: 15px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .inquiry-submit-btn:hover {
+            background: linear-gradient(135deg, #d4b875, var(--accent));
+            box-shadow: 0 8px 30px rgba(201, 169, 98, 0.4);
+            transform: translateY(-2px);
+        }
+
+        .inquiry-success {
+            display: none;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        .inquiry-success.active {
+            display: block;
+        }
+
+        .inquiry-success-icon {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+
+        .inquiry-success h3 {
+            color: var(--accent);
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .inquiry-success p {
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+
+        /* ═══════════════════════════════════════════════════════════════
+           FOOTER (Minimal)
+        ═══════════════════════════════════════════════════════════════ */
+        footer {
+            padding: 10px 30px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 11px;
+            background: var(--bg);
+            border-top: 1px solid var(--border);
+        }
+
+        footer a {
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        footer a:hover {
+            color: var(--accent);
+        }
+
+        /* ═══════════════════════════════════════════════════════════════
+           RESPONSIVE
+        ═══════════════════════════════════════════════════════════════ */
+        @media (max-width: 1200px) {
+            .main-content {
+                grid-template-columns: 180px 1fr 240px;
+                gap: 16px;
+                padding: 16px;
+            }
+        }
+
+        @media (max-width: 1000px) {
+            .main-content {
+                grid-template-columns: 1fr;
+                padding: 16px;
+                gap: 16px;
+            }
+
+            .gallery-section {
+                position: static;
+                order: 2;
+                height: auto;
+                max-height: none;
+            }
+
+            .gallery {
+                flex-direction: row;
+                overflow-x: auto;
+                padding-bottom: 10px;
+            }
+
+            .gallery-item {
+                min-width: 160px;
+            }
+
+            .info-section {
+                order: 3;
+                position: static;
+            }
+
+            .hero {
+                padding: 32px 16px 24px;
+            }
+
+            header {
+                padding: 12px 16px;
+            }
+
+            nav { display: none; }
+        }
+
+        @media (max-width: 600px) {
+            .controls-bar {
+                gap: 10px;
+                padding: 20px;
+            }
+
+            .control-btn {
+                width: 44px;
+                height: 44px;
+            }
+
+            .control-btn.primary {
+                width: 54px;
+                height: 54px;
+            }
+
+            .film-info {
+                flex-direction: column;
+                gap: 10px;
+                text-align: center;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        /* ═══════════════════════════════════════════════════════════════
+           PROMO BACKGROUND - Subtle Static Image
+        ═══════════════════════════════════════════════════════════════ */
+        .promo-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            pointer-events: none;
+            background: url('assets/video/promo-frame.jpg') center center / cover no-repeat;
+            opacity: 0.08;
+            filter: grayscale(40%) blur(2px);
+        }
+
+        /* ═══════════════════════════════════════════════════════════════
+           VHS TO 85" - Enterprise Marketing Section
+        ═══════════════════════════════════════════════════════════════ */
+        .vhs-section {
+            padding: 80px 40px;
+            background: linear-gradient(180deg, var(--bg) 0%, var(--bg-card) 50%, var(--bg) 100%);
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .vhs-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .vhs-content h2 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            background: var(--gradient-gold);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .vhs-content .tagline {
+            font-size: 20px;
+            color: var(--text-muted);
+            margin-bottom: 32px;
+        }
+
+        .vhs-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            margin-bottom: 32px;
+        }
+
+        .vhs-stat {
+            text-align: center;
+            padding: 20px;
+            background: var(--bg-elevated);
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+
+        .vhs-stat-value {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--accent);
+            margin-bottom: 4px;
+        }
+
+        .vhs-stat-label {
+            font-size: 12px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .use-cases-title {
+            font-size: 14px;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 16px;
+        }
+
+        .use-cases-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+
+        .use-case {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 16px;
+            background: var(--bg-elevated);
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            font-size: 14px;
+            color: var(--text);
+        }
+
+        .use-case-icon {
+            font-size: 24px;
+        }
+
+        /* Enterprise Form */
+        .inquiry-form-wrapper {
+            background: var(--bg-card);
+            border-radius: 20px;
+            padding: 32px;
+            border: 1px solid var(--border);
+        }
+
+        .inquiry-form-wrapper h3 {
+            font-size: 24px;
+            margin-bottom: 8px;
+            color: var(--text);
+        }
+
+        .inquiry-form-wrapper .form-subtitle {
+            font-size: 14px;
+            color: var(--text-muted);
+            margin-bottom: 24px;
+        }
+
+        .inquiry-form {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .form-group label {
+            font-size: 12px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            padding: 12px 16px;
+            background: var(--bg-elevated);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: var(--text);
+            font-size: 14px;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        .form-group textarea {
+            min-height: 80px;
+            resize: vertical;
+        }
+
+        .submit-btn {
+            padding: 16px 32px;
+            background: var(--gradient-gold);
+            color: #0a0a0b;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(201, 169, 98, 0.4);
+        }
+
+        @media (max-width: 1000px) {
+            .vhs-container {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            .vhs-stats {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            .use-cases-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Promo Background -->
+    <div class="promo-bg"></div>
+
+    <header>
+        <div style="width: 200px;"></div>
+        <div class="logo">
+            <img src="assets/icons/logo.png" alt="remAIke.IT Logo">
+        </div>
+        <div class="social-buttons">
+            <a href="https://youtube.com/@remAIke_IT" target="_blank" rel="noopener" class="social-btn youtube" title="YouTube">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+            <a href="https://facebook.com/remAIke.IT" target="_blank" rel="noopener" class="social-btn facebook" title="Facebook">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="https://twitter.com/remAIke_IT" target="_blank" rel="noopener" class="social-btn twitter" title="X (Twitter)">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="https://instagram.com/remAIke_IT" target="_blank" rel="noopener" class="social-btn instagram" title="Instagram">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>History Deserves <strong>Better Pixels</strong></h1>
+        <p>Cinema-grade restoration powered by proprietary Neural Optical Engine™. Experience historical footage in unprecedented 8K clarity.</p>
+    </section>
+
+    <main class="main-content">
+        <aside class="gallery-section">
+            <div class="gallery-title">Historical Archive</div>
+            <div class="gallery" id="gallery"></div>
+        </aside>
+
+        <section class="comparison-section">
+            <div class="video-container" id="video-wrapper">
+                <video id="video-original" class="comparison-video" muted loop preload="auto" playsinline></video>
+                <video id="video-enhanced" class="comparison-video" muted loop preload="auto" playsinline></video>
+                
+                <div class="split-line" id="video-split-line"></div>
+                
+                <!-- Slider Handle at bottom 5% -->
+                <div class="slider-handle" id="slider-handle"></div>
+                
+                <!-- Pixel Resolution Labels at bottom -->
+                <div class="pixel-labels">
+                    <span class="pixel-label original" id="label-original-res">ORIGINAL 480p</span>
+                    <span class="pixel-label enhanced" id="label-enhanced-res">ENHANCED 8K</span>
+                </div>
+            </div>
+
+            <div class="controls-bar">
+                <button class="control-btn" id="btn-slow" title="Slow Motion">🐢</button>
+                <button class="control-btn" id="btn-step-back" title="Frame Back">⏮</button>
+                <button class="control-btn primary" id="btn-play" title="Play">▶</button>
+                <button class="control-btn" id="btn-step-fwd" title="Frame Forward">⏭</button>
+                <button class="control-btn" id="btn-auto" title="Auto Compare">↔</button>
+            </div>
+
+        </section>
+
+        <aside class="info-section">
+            <h3 style="font-size: 22px; font-weight: 600; color: var(--accent); margin-bottom: 12px; text-align: center;">
+                Neural Optical Restoration
+            </h3>
+            
+            <div class="info-marketing">
+                <p class="marketing-headline">🎬 VHS to 8K Cinema</p>
+                <p class="marketing-text">Transform your analog archives into stunning 8K masterpieces. Our Neural Optical Engine reconstructs every frame with cinema-grade precision.</p>
+                <ul class="marketing-features">
+                    <li>✓ Frame-by-frame neural reconstruction</li>
+                    <li>✓ Up to 85" IMAX-ready output</li>
+                    <li>✓ Broadcast & archival quality</li>
+                    <li>✓ Enterprise server farm processing</li>
+                </ul>
+                <p class="marketing-subtext">From VHS, Hi8, Super8, 16mm to pristine 8K – we restore what time has degraded.</p>
+            </div>
+            
+            <div class="info-cta">
+                <a href="https://youtube.com/@remAIke_IT" target="_blank" rel="noopener" class="info-btn primary" id="info-youtube-btn">
+                    ▶ Watch on YouTube
+                </a>
+                <button class="info-btn secondary" id="btn-open-inquiry">
+                    🎬 Request Project
+                </button>
+            </div>
+
+        </aside>
+    </main>
+
+    <footer>
+        © 2025 remAIke.IT · Neural Optical Restoration · <a href="#">Imprint</a> · <a href="#">Privacy</a>
+    </footer>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         INQUIRY POPUP MODAL
+    ═══════════════════════════════════════════════════════════════ -->
+    <div class="inquiry-modal" id="inquiry-modal">
+        <div class="inquiry-modal-content">
+            <button class="inquiry-modal-close" id="inquiry-close">&times;</button>
+            
+            <div id="inquiry-form-container">
+                <h2>🎬 Project Inquiry</h2>
+                <p class="inquiry-modal-subtitle">Tell us about your restoration project.</p>
+                
+                <div class="inquiry-form-row">
+                    <div class="inquiry-form-group">
+                        <label>Name *</label>
+                        <input type="text" id="modal-name" placeholder="Your name" required>
+                    </div>
+                    <div class="inquiry-form-group">
+                        <label>Email *</label>
+                        <input type="email" id="modal-email" placeholder="your@email.com" required>
+                    </div>
+                </div>
+                
+                <div class="inquiry-form-row">
+                    <div class="inquiry-form-group">
+                        <label>Quellauflösung / Source Resolution</label>
+                        <select id="modal-source">
+                            <option value="">– Auswählen –</option>
+                            <option value="240p">240p (VHS/Hi8)</option>
+                            <option value="360p">360p (Analog TV)</option>
+                            <option value="480p">480p (DVD/SD)</option>
+                            <option value="576p">576p (PAL DVD)</option>
+                            <option value="720p">720p (HD Ready)</option>
+                            <option value="1080p">1080p (Full HD)</option>
+                            <option value="analog">🎞️ ONLY ANALOG (Film/Tape)</option>
+                        </select>
+                    </div>
+                    <div class="inquiry-form-group">
+                        <label>Ausgabeformat / Output Quality</label>
+                        <select id="modal-target">
+                            <option value="1080p">1080p Upgrade Cleaner (1×)</option>
+                            <option value="4k" selected>4K Upgrade Cleaner (4×)</option>
+                            <option value="8k">8K Highend Upscale Deluxe (8×)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="inquiry-form-row">
+                    <div class="inquiry-form-group">
+                        <label>Anzahl Videos</label>
+                        <select id="modal-count">
+                            <option value="1">1 Video</option>
+                            <option value="2-5">2–5 Videos</option>
+                            <option value="5-10">5–10 Videos</option>
+                            <option value="11-20">11–20 Videos</option>
+                            <option value="21-50">21–50 Videos</option>
+                            <option value="50+">50+ Videos</option>
+                        </select>
+                    </div>
+                    <div class="inquiry-form-group">
+                        <label>Gesamtdauer</label>
+                        <select id="modal-duration">
+                            <option value="<10min">Unter 10 min</option>
+                            <option value="10-30min">10–30 min</option>
+                            <option value="30-60min">30–60 min</option>
+                            <option value="1-2h">1–2 Stunden</option>
+                            <option value="2-5h">2–5 Stunden</option>
+                            <option value="5h+">5+ Stunden</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="inquiry-form-group">
+                    <label>Projektart</label>
+                    <select id="modal-type">
+                        <option value="private">Privat / Familie</option>
+                        <option value="archive">Filmarchiv</option>
+                        <option value="broadcast">TV / Broadcast</option>
+                        <option value="corporate">Unternehmen</option>
+                        <option value="museum">Museum / Ausstellung</option>
+                        <option value="other">Sonstiges</option>
+                    </select>
+                </div>
+                
+                <div class="inquiry-form-group">
+                    <label>Anmerkungen</label>
+                    <textarea id="modal-message" placeholder="Special requirements, deadlines, etc."></textarea>
+                </div>
+                
+                <button class="inquiry-submit-btn" id="inquiry-submit">
+                    <span>📧</span> Send Inquiry
+                </button>
+            </div>
+            
+            <div class="inquiry-success" id="inquiry-success">
+                <div class="inquiry-success-icon">✨</div>
+                <h3>Thank You!</h3>
+                <p>We'll contact you within 24 hours.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ═══════════════════════════════════════════════════════════════
+        // VIDEO COMPARISON - Diagonal Reveal + Smooth Slider
+        // ═══════════════════════════════════════════════════════════════
+        
+        let clips = [];
+        let currentClip = null;
+        
+        const vidOriginal = document.getElementById('video-original');
+        const vidEnhanced = document.getElementById('video-enhanced');
+        const splitLine = document.getElementById('video-split-line');
+        const sliderHandle = document.getElementById('slider-handle');
+        const btnPlay = document.getElementById('btn-play');
+        const btnAuto = document.getElementById('btn-auto');
+        
+        // Pixel label elements
+        const labelOriginalRes = document.getElementById('label-original-res');
+        const labelEnhancedRes = document.getElementById('label-enhanced-res');
+        
+        // Slider position (0-100)
+        let sliderPos = 0;
+        let handleDragging = false;
+        
+        // 7-PHASEN INTRO-SEQUENZ
+        let introPhase = 0; // 0=waiting, 1-7=intro phases
+        let introTimer = 0;
+        
+        // Auto-slide state
+        let autoSlide = false;
+        let autoDirection = 1; // -1 = left, 1 = right
+        let autoPauseFrames = 0;
+        let videosReady = false; // Warten bis Videos geladen
+        
+        // Animation speeds - ULTRA SMOOTH & ENTSPANNT
+        const REVEAL_SPEED = 0.3;      // Wipe-Speed (SEHR langsam)
+        const SLIDE_SPEED = 0.2;       // Slide zur Mitte (smooth)
+        const AUTO_SPEED = 0.1;        // AutoSlide Speed (entspannt)
+        const PAUSE_AT_EDGE = 180;     // 3 Sekunden Pause an Ecken!
+
+        // ═══ Load Clips ═══
+        async function loadComparisons() {
+            try {
+                const res = await fetch('/assets/data/comparisons_new.json?v=' + Date.now());
+                const data = await res.json();
+                clips = data.comparisons || [];
+                renderGallery();
+                
+                // Load Superman 1941 as default
+                const supermanIndex = clips.findIndex(c => c.id === 'superman_1941');
+                const defaultIndex = supermanIndex >= 0 ? supermanIndex : 0;
+                console.log('🎬 Loading default clip:', clips[defaultIndex]?.title || 'First clip');
+                if (clips.length > 0) loadClip(clips[defaultIndex]);
+            } catch (e) {
+                console.error('Error loading clips:', e);
+            }
+        }
+
+        function renderGallery() {
+            const gallery = document.getElementById('gallery');
+            const supermanIndex = clips.findIndex(c => c.id === 'superman_1941');
+            const activeIndex = supermanIndex >= 0 ? supermanIndex : 0;
+            
+            gallery.innerHTML = clips.map((clip, i) => `
+                <div class="gallery-item ${i === activeIndex ? 'active' : ''}" data-index="${i}">
+                    <img src="${clip.frameEnhanced || clip.enhanced.replace('.mp4', '.jpg')}" 
+                         alt="${clip.title}" loading="lazy">
+                    <div class="gallery-item-info">
+                        <div class="gallery-item-title">${clip.title}</div>
+                        <div class="gallery-item-year">${clip.year || ''}</div>
+                    </div>
+                </div>
+            `).join('');
+
+            gallery.querySelectorAll('.gallery-item').forEach(item => {
+                item.addEventListener('click', () => {
+                    gallery.querySelectorAll('.gallery-item').forEach(i => i.classList.remove('active'));
+                    item.classList.add('active');
+                    loadClip(clips[parseInt(item.dataset.index)]);
+                });
+            });
+        }
+
+        function loadClip(clip) {
+            currentClip = clip;
+            
+            // Track video comparison view
+            if (typeof trackVideoCompare === 'function') {
+                trackVideoCompare(clip.title || clip.id);
+            }
+            
+            // Videos stoppen
+            vidOriginal.pause();
+            vidEnhanced.pause();
+
+            // Handle clips with/without originals
+            if (clip.original) {
+                vidOriginal.src = clip.original;
+                vidOriginal.style.display = 'block';
+                splitLine.style.display = 'block';
+                sliderHandle.style.display = 'flex';
+            } else {
+                vidOriginal.src = '';
+                vidOriginal.style.display = 'none';
+                splitLine.style.display = 'none';
+                sliderHandle.style.display = 'none';
+            }
+            
+            vidEnhanced.src = clip.enhanced;
+            vidOriginal.load();
+            vidEnhanced.load();
+
+            // Update YouTube button if clip has youtube link
+            const youtubeBtn = document.getElementById('info-youtube-btn');
+            if (youtubeBtn) {
+                if (clip.youtube) {
+                    youtubeBtn.href = clip.youtube;
+                } else {
+                    youtubeBtn.href = 'https://youtube.com/@remAIke_IT';
+                }
+            }
+            
+            // Update pixel resolution labels
+            const origRes = clip.meta?.original?.height || 480;
+            const enhRes = clip.meta?.enhanced?.height || 4320;
+            labelOriginalRes.textContent = `ORIGINAL ${origRes}p`;
+            labelEnhancedRes.textContent = `ENHANCED ${enhRes >= 4320 ? '8K' : enhRes >= 2160 ? '4K' : enhRes + 'p'}`;
+
+            // 7-PHASEN INTRO-SEQUENZ STARTEN
+            console.log('🎬 Phase 1: Wipe-Reveal startet (0% → 100%)');
+            
+            // Reset komplett
+            introPhase = 1;
+            introTimer = 0;
+            sliderPos = 0;  // START BEI 0% = NUR ORIGINAL SICHTBAR!
+            autoSlide = false;
+            handleDragging = false;
+            autoPauseFrames = 0;
+            videosReady = false;  // Warten bis Videos geladen!
+            btnAuto.classList.remove('active');
+            btnPlay.textContent = '▶';
+            
+            // Slider initial verstecken
+            splitLine.style.opacity = '0';
+            sliderHandle.style.opacity = '0';
+            splitLine.style.transition = 'none';
+            sliderHandle.style.transition = 'none';
+            
+            // Start position (0% = Enhanced komplett ausgeblendet)
+            updateSlider();
+            
+            // Warte auf Videos bevor Animation startet
+            let origLoaded = !clip.original;  // Wenn kein Original, ist es "geladen"
+            let enhLoaded = false;
+            
+            const checkReady = () => {
+                if (origLoaded && enhLoaded) {
+                    videosReady = true;
+                    console.log('✅ Beide Videos bereit - Animation kann starten!');
+                }
+            };
+            
+            vidOriginal.addEventListener('canplay', () => {
+                origLoaded = true;
+                checkReady();
+            }, {once: true});
+            
+            vidEnhanced.addEventListener('canplay', () => {
+                enhLoaded = true;
+                checkReady();
+            }, {once: true});
+            
+            // Fallback: Nach 2 Sekunden trotzdem starten
+            setTimeout(() => {
+                if (!videosReady) {
+                    videosReady = true;
+                    console.log('⚠️ Timeout - Videos Ready erzwungen');
+                }
+            }, 2000);
+            
+            console.log('⏳ Warte auf Video-Load...');
+        }
+
+        // ═══ Helper Functions ═══
+        function formatDuration(seconds) {
+            if (seconds < 60) return `${seconds.toFixed(1)}s`;
+            const mins = Math.floor(seconds / 60);
+            const secs = Math.floor(seconds % 60);
+            return `${mins}:${secs.toString().padStart(2, '0')}`;
+        }
+
+        // ═══ Update Slider Position ═══
+        function updateSlider() {
+            sliderPos = Math.max(0, Math.min(100, sliderPos));
+            
+            // Standard horizontal clip-path
+            vidEnhanced.style.clipPath = `inset(0 ${100 - sliderPos}% 0 0)`;
+            
+            // Update line position
+            splitLine.style.left = sliderPos + '%';
+            splitLine.style.transform = 'translateX(-50%)';
+            
+            // Update handle position (stays at bottom 5%)
+            sliderHandle.style.left = sliderPos + '%';
+        }
+
+        // ═══ Horizontal Reveal (Wipe from Left to Right) ═══
+        function updateHorizontalReveal(progress) {
+            // Horizontal wipe using same inset() as slider for seamless transition
+            // At 0%: nothing visible (inset from right = 100%)
+            // At 100%: fully visible (inset from right = 0%)
+            const clipRight = 100 - Math.min(100, progress);
+            vidEnhanced.style.clipPath = `inset(0 ${clipRight}% 0 0)`;
+            
+            // Also update line/handle position to match reveal
+            if (progress > 0) {
+                splitLine.style.left = progress + '%';
+                sliderHandle.style.left = progress + '%';
+            }
+        }
+
+        // ═══ Main Animation Loop ═══
+        function animate() {
+            if (!currentClip) {
+                requestAnimationFrame(animate);
+                return;
+            }
+            
+            if (handleDragging) {
+                requestAnimationFrame(animate);
+                return;
+            }
+            
+            // DEBUG: Log aktuelle Phase
+            if (introPhase > 0 && introTimer % 60 === 0) {
+                console.log(`🎬 Phase ${introPhase}, Timer: ${introTimer}, Pos: ${sliderPos.toFixed(1)}%, Ready: ${videosReady}`);
+            }
+            
+            // 7-PHASEN INTRO-SEQUENZ - nur wenn Videos bereit!
+            if (introPhase > 0 && introPhase < 8 && videosReady) {
+                introTimer++;
+                
+                switch(introPhase) {
+                    case 1: // PHASE 1: Wipe von 0% → 100% (LANGSAM!)
+                        sliderPos += REVEAL_SPEED;  // 0.5 - smooth
+                        
+                        // Slider-UI bei 20% einblenden
+                        if (sliderPos >= 20 && splitLine.style.opacity === '0') {
+                            splitLine.style.transition = 'opacity 0.8s';
+                            sliderHandle.style.transition = 'opacity 0.8s';
+                            splitLine.style.opacity = '1';
+                            sliderHandle.style.opacity = '1';
+                        }
+                        
+                        if (sliderPos >= 100) {
+                            sliderPos = 100;
+                            introPhase = 2;
+                            introTimer = 0;
+                            console.log('🎬 Phase 2: Pause bei 100%');
+                        }
+                        updateSlider();
+                        break;
+                        
+                    case 2: // PHASE 2: LANGE Pause bei 100% (Enhanced komplett sichtbar)
+                        if (introTimer > 90) {  // 1.5 Sekunden Pause!
+                            introPhase = 3;
+                            introTimer = 0;
+                            console.log('🎬 Phase 3: Slide zur Mitte');
+                        }
+                        break;
+                        
+                    case 3: // PHASE 3: Slide zurück zur Mitte (100% → 50%) - LANGSAM
+                        sliderPos -= SLIDE_SPEED;  // 0.25 - smooth
+                        
+                        if (sliderPos <= 50) {
+                            sliderPos = 50;
+                            introPhase = 4;
+                            introTimer = 0;
+                            console.log('🎬 Phase 4: Pause in Mitte');
+                        }
+                        updateSlider();
+                        break;
+                        
+                    case 4: // PHASE 4: LANGE Pause in der Mitte
+                        if (introTimer > 90) {  // 1.5 Sekunden!
+                            introPhase = 5;
+                            introTimer = 0;
+                            console.log('🎬 Phase 5: Videos starten');
+                        }
+                        break;
+                        
+                    case 5: // PHASE 5: Videos starten
+                        if (currentClip?.original) {
+                            vidOriginal.play().catch(e => console.log('Video play:', e.message));
+                        }
+                        vidEnhanced.play().catch(e => console.log('Video play:', e.message));
+                        btnPlay.textContent = '⏸';
+                        introPhase = 6;
+                        introTimer = 0;
+                        console.log('🎬 Phase 6: Videos laufen');
+                        break;
+                        
+                    case 6: // PHASE 6: Videos laufen lassen - LÄNGER warten
+                        if (introTimer > 120) {  // 2 Sekunden!
+                            introPhase = 7;
+                            autoSlide = true;
+                            autoDirection = 1;  // Start nach rechts
+                            autoPauseFrames = 60;  // Kurze Pause vor Start
+                            btnAuto.classList.add('active');
+                            console.log('🎬 Phase 7: AutoSlide aktiviert!');
+                        }
+                        break;
+                        
+                    case 7: // PHASE 7: Intro komplett
+                        introPhase = 0;
+                        console.log('✅ Intro komplett - AutoSlide läuft');
+                        break;
+                }
+            }
+            // AUTO-SLIDE nach Intro - GANZES BILD (0% bis 100%)
+            // ENHANCEMENT langsam zeigen (Qualität), SOURCE VIEL schneller (zurück)
+            else if (autoSlide && !handleDragging && videosReady) {
+                if (autoPauseFrames > 0) {
+                    autoPauseFrames--;
+                } else {
+                    // Direction 1 = nach rechts = MEHR Enhanced = LANGSAM (Qualität zeigen)
+                    // Direction -1 = nach links = MEHR Original = VIEL SCHNELLER (zurück zum Vergleich)
+                    const speed = autoDirection === 1 ? AUTO_SPEED : AUTO_SPEED * 3;  // 3x schneller zurück!
+                    sliderPos += speed * autoDirection;
+                    
+                    // An den Rändern umdrehen (0% ↔ 100%) mit LANGER Pause
+                    if (sliderPos >= 100) {
+                        sliderPos = 100;
+                        autoDirection = -1;  // Jetzt zurück zur Source
+                        autoPauseFrames = PAUSE_AT_EDGE;  // 3 Sekunden Pause bei Enhanced!
+                    } else if (sliderPos <= 0) {
+                        sliderPos = 0;
+                        autoDirection = 1;   // Jetzt wieder zum Enhanced
+                        autoPauseFrames = Math.floor(PAUSE_AT_EDGE * 0.4);  // Kurze Pause bei Source
+                    }
+                    
+                    updateSlider();
+                }
+            }
+            
+            requestAnimationFrame(animate);
+        }
+
+        // ═══ Drag Handling ═══
+        function getSliderPosFromEvent(e) {
+            const rect = document.getElementById('video-wrapper').getBoundingClientRect();
+            const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+            return ((clientX - rect.left) / rect.width) * 100;
+        }
+
+        sliderHandle.addEventListener('mousedown', e => { 
+            handleDragging = true; 
+            autoSlide = false;
+            introPhase = 0; // Skip intro if user interacts
+            btnAuto.classList.remove('active');
+            e.preventDefault(); 
+        });
+        sliderHandle.addEventListener('touchstart', e => { 
+            handleDragging = true; 
+            autoSlide = false;
+            introPhase = 0;
+            btnAuto.classList.remove('active');
+        }, { passive: true });
+        
+        const videoWrapper = document.getElementById('video-wrapper');
+        videoWrapper.addEventListener('mousedown', e => {
+            if (e.target === sliderHandle) return;
+            handleDragging = true;
+            autoSlide = false;
+            introPhase = 3;
+            btnAuto.classList.remove('active');
+            sliderPos = getSliderPosFromEvent(e);
+            updateSlider();
+            // Make sure slider is visible
+            splitLine.style.opacity = '1';
+            sliderHandle.style.opacity = '1';
+        });
+        videoWrapper.addEventListener('touchstart', e => {
+            handleDragging = true;
+            autoSlide = false;
+            introPhase = 3;
+            btnAuto.classList.remove('active');
+            sliderPos = getSliderPosFromEvent(e);
+            updateSlider();
+            splitLine.style.opacity = '1';
+            sliderHandle.style.opacity = '1';
+        }, { passive: true });
+        
+        document.addEventListener('mousemove', e => { 
+            if (handleDragging) {
+                sliderPos = getSliderPosFromEvent(e);
+                updateSlider();
+            }
+        });
+        document.addEventListener('touchmove', e => { 
+            if (handleDragging) {
+                sliderPos = getSliderPosFromEvent(e);
+                updateSlider();
+            }
+        }, { passive: true });
+        document.addEventListener('mouseup', () => { handleDragging = false; });
+        document.addEventListener('touchend', () => { handleDragging = false; });
+
+        // ═══ Controls ═══
+        btnPlay.addEventListener('click', () => {
+            if (vidEnhanced.paused) {
+                vidEnhanced.play();
+                if (currentClip?.original) vidOriginal.play();
+                btnPlay.textContent = '⏸';
+                // Track video play
+                if (typeof trackVideoPlay === 'function' && currentClip) {
+                    trackVideoPlay(currentClip.title || currentClip.id);
+                }
+            } else {
+                vidEnhanced.pause();
+                vidOriginal.pause();
+                btnPlay.textContent = '▶';
+            }
+        });
+
+        document.getElementById('btn-step-back').addEventListener('click', () => {
+            vidOriginal.pause();
+            vidEnhanced.pause();
+            btnPlay.textContent = '▶';
+            const time = Math.max(0, vidEnhanced.currentTime - 1/30);
+            vidEnhanced.currentTime = time;
+            if (currentClip?.original) vidOriginal.currentTime = time;
+        });
+
+        document.getElementById('btn-step-fwd').addEventListener('click', () => {
+            vidOriginal.pause();
+            vidEnhanced.pause();
+            btnPlay.textContent = '▶';
+            const time = vidEnhanced.currentTime + 1/30;
+            vidEnhanced.currentTime = time;
+            if (currentClip?.original) vidOriginal.currentTime = time;
+        });
+
+        document.getElementById('btn-slow').addEventListener('click', function() {
+            this.classList.toggle('active');
+            const rate = this.classList.contains('active') ? 0.25 : 1;
+            vidEnhanced.playbackRate = rate;
+            vidOriginal.playbackRate = rate;
+        });
+
+        btnAuto.addEventListener('click', function() {
+            autoSlide = !autoSlide;
+            this.classList.toggle('active', autoSlide);
+            if (autoSlide) {
+                // Continue from current position
+                autoDirection = sliderPos < 50 ? 1 : -1;
+                autoPauseFrames = 0;
+            }
+        });
+
+        // Video sync
+        vidEnhanced.addEventListener('timeupdate', () => {
+            if (currentClip?.original && Math.abs(vidEnhanced.currentTime - vidOriginal.currentTime) > 0.05) {
+                vidOriginal.currentTime = vidEnhanced.currentTime;
+            }
+        });
+
+        // ═══ INQUIRY POPUP MODAL ═══
+        const inquiryModal = document.getElementById('inquiry-modal');
+        const inquiryClose = document.getElementById('inquiry-close');
+        const inquirySubmit = document.getElementById('inquiry-submit');
+        const inquiryFormContainer = document.getElementById('inquiry-form-container');
+        const inquirySuccess = document.getElementById('inquiry-success');
+
+        // Open modal
+        document.getElementById('btn-open-inquiry').addEventListener('click', () => {
+            inquiryModal.classList.add('active');
+            inquiryFormContainer.style.display = 'block';
+            inquirySuccess.classList.remove('active');
+            document.body.style.overflow = 'hidden';
+        });
+
+        // Close modal
+        inquiryClose.addEventListener('click', () => {
+            inquiryModal.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+
+        // Close on backdrop click
+        inquiryModal.addEventListener('click', (e) => {
+            if (e.target === inquiryModal) {
+                inquiryModal.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        });
+
+        // Close on Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && inquiryModal.classList.contains('active')) {
+                inquiryModal.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        });
+
+        // Submit inquiry (simulated - in production this would be an API call)
+        inquirySubmit.addEventListener('click', () => {
+            const name = document.getElementById('modal-name').value;
+            const company = document.getElementById('modal-company').value;
+            const email = document.getElementById('modal-email').value;
+            const type = document.getElementById('modal-type').value;
+            const volume = document.getElementById('modal-volume').value;
+            const message = document.getElementById('modal-message').value;
+
+            if (!email) {
+                document.getElementById('modal-email').style.borderColor = '#ff4444';
+                document.getElementById('modal-email').focus();
+                return;
+            }
+
+            // Collect form data
+            const inquiryData = {
+                name,
+                company,
+                email,
+                projectType: type,
+                volume,
+                message,
+                currentClip: currentClip?.title || 'None selected',
+                timestamp: new Date().toISOString()
+            };
+
+            // Log to console (in production: send to server/API)
+            console.log('📧 Inquiry submitted:', inquiryData);
+
+            // Show success state
+            inquiryFormContainer.style.display = 'none';
+            inquirySuccess.classList.add('active');
+
+            // Auto-close after 3 seconds
+            setTimeout(() => {
+                inquiryModal.classList.remove('active');
+                document.body.style.overflow = '';
+                // Reset form
+                document.getElementById('modal-name').value = '';
+                document.getElementById('modal-company').value = '';
+                document.getElementById('modal-email').value = '';
+                document.getElementById('modal-message').value = '';
+                
+                // Track successful inquiry
+                if (typeof trackInquirySubmit === 'function') {
+                    trackInquirySubmit(document.getElementById('modal-type').value);
+                }
+            }, 3000);
+        });
+        
+        // Track inquiry modal open
+        document.getElementById('btn-open-inquiry').addEventListener('click', function() {
+            if (typeof trackInquiryOpen === 'function') {
+                trackInquiryOpen();
+            }
+        });
+
+        // Initialize
+        requestAnimationFrame(animate);
+        loadComparisons();
+    </script>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         COOKIE CONSENT BANNER (DSGVO/GDPR)
+    ═══════════════════════════════════════════════════════════════ -->
+    <div id="cookie-banner" style="
+        display: none;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(10, 10, 11, 0.98);
+        border-top: 1px solid rgba(201, 169, 98, 0.3);
+        padding: 16px 30px;
+        z-index: 10000;
+        backdrop-filter: blur(20px);
+    ">
+        <div style="max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 300px;">
+                <p style="color: #fff; font-size: 14px; margin-bottom: 6px;">🍪 Diese Website verwendet Cookies</p>
+                <p style="color: #888; font-size: 12px;">Wir nutzen Cookies für Analyse und Verbesserung. <a href="privacy.html" style="color: #c9a962;">Datenschutz</a></p>
+            </div>
+            <div style="display: flex; gap: 12px;">
+                <button onclick="acceptCookies()" style="
+                    background: linear-gradient(135deg, #c9a962, #a88b44);
+                    color: #0a0a0b;
+                    border: none;
+                    padding: 10px 24px;
+                    border-radius: 8px;
+                    font-weight: 600;
+                    cursor: pointer;
+                    font-size: 13px;
+                ">Akzeptieren</button>
+                <button onclick="declineCookies()" style="
+                    background: transparent;
+                    color: #888;
+                    border: 1px solid #333;
+                    padding: 10px 24px;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    font-size: 13px;
+                ">Nur Notwendige</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Cookie Consent Logic
+        function getCookie(name) {
+            const value = `; ${document.cookie}`;
+            const parts = value.split(`; ${name}=`);
+            if (parts.length === 2) return parts.pop().split(';').shift();
+        }
+        
+        function setCookie(name, value, days) {
+            const expires = new Date(Date.now() + days * 864e5).toUTCString();
+            document.cookie = `${name}=${value}; expires=${expires}; path=/; SameSite=Lax`;
+        }
+        
+        function acceptCookies() {
+            setCookie('cookie_consent', 'accepted', 365);
+            document.getElementById('cookie-banner').style.display = 'none';
+            // Enable analytics
+            if (typeof gtag === 'function') {
+                gtag('consent', 'update', {
+                    'analytics_storage': 'granted'
+                });
+            }
+        }
+        
+        function declineCookies() {
+            setCookie('cookie_consent', 'declined', 365);
+            document.getElementById('cookie-banner').style.display = 'none';
+            // Disable analytics
+            if (typeof gtag === 'function') {
+                gtag('consent', 'update', {
+                    'analytics_storage': 'denied'
+                });
+            }
+        }
+        
+        // Show banner if no consent yet
+        if (!getCookie('cookie_consent')) {
+            document.getElementById('cookie-banner').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
