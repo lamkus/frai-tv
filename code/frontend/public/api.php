@@ -101,8 +101,10 @@ if ($path === 'videos') {
         $raw = substr($raw, 3);
     }
 
-    // If videos.json is a raw JSON array, wrap it without decoding.
-    // This is more robust on shared hosting (memory limits / encoding issues).
+    // If videos.json is a raw JSON array, try to decode and normalize it so
+    // we can ensure required fields exist (protects frontend from transient
+    // malformed or missing thumbnail/title fields).
+    // This keeps memory usage reasonable for the expected dataset size.
     $trimmed = ltrim($raw);
     if ($trimmed !== '' && $trimmed[0] === '[') {
         // If file looks like an empty array, try to use a backup copy before returning.
@@ -114,9 +116,23 @@ if ($path === 'videos') {
                 if ($bakraw !== false) {
                     $bktrim = ltrim($bakraw);
                     if ($bktrim !== '' && $bktrim[0] === '[' && trim($bktrim) !== '[]') {
-                        http_response_code(200);
-                        echo '{"data":' . $bktrim . ',"pageInfo":{"hasMore":false,"nextCursor":null},"source":"data/videos.json.bak"}';
-                        exit;
+                        $decodedBak = json_decode($bktrim, true);
+                        if (is_array($decodedBak)) {
+                            // normalize bak items
+                            foreach ($decodedBak as &$bv) {
+                                $yt = $bv['ytId'] ?? $bv['id'] ?? null;
+                                $bv['ytId'] = $yt;
+                                if (empty($bv['thumbnail'])) {
+                                    $bv['thumbnail'] = $bv['thumbnailUrl'] ?? ($yt ? "https://img.youtube.com/vi/{$yt}/hqdefault.jpg" : '');
+                                }
+                                if (empty($bv['title'])) {
+                                    $bv['title'] = $bv['originalTitle'] ?? '(untitled)';
+                                }
+                            }
+                            http_response_code(200);
+                            echo '{"data":' . json_encode($decodedBak, JSON_UNESCAPED_SLASHES) . ',"pageInfo":{"hasMore":false,"nextCursor":null},"source":"data/videos.json.bak"}';
+                            exit;
+                        }
                     }
                 }
             }
@@ -126,6 +142,25 @@ if ($path === 'videos') {
             logDebug("videos.json appears empty (size={$size} mtime=" . ($mtime ? date('c', $mtime) : 'unknown') . ")");
         }
 
+        // Try decode the raw array so we can normalize entries before returning
+        $arr = @json_decode($trimmed, true);
+        if (is_array($arr)) {
+            foreach ($arr as &$it) {
+                $yt = $it['ytId'] ?? $it['id'] ?? null;
+                $it['ytId'] = $yt;
+                if (empty($it['thumbnail'])) {
+                    $it['thumbnail'] = $it['thumbnailUrl'] ?? ($yt ? "https://img.youtube.com/vi/{$yt}/hqdefault.jpg" : '');
+                }
+                if (empty($it['title'])) {
+                    $it['title'] = $it['originalTitle'] ?? '(untitled)';
+                }
+            }
+            http_response_code(200);
+            echo '{"data":' . json_encode($arr, JSON_UNESCAPED_SLASHES) . ',"pageInfo":{"hasMore":false,"nextCursor":null},"source":"data/videos.json"}';
+            exit;
+        }
+
+        // Fallback to returning raw array string if decode failed
         http_response_code(200);
         echo '{"data":' . $trimmed . ',"pageInfo":{"hasMore":false,"nextCursor":null},"source":"data/videos.json"}';
         exit;
