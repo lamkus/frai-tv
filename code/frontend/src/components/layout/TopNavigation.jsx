@@ -76,6 +76,7 @@ export default function TopNavigation() {
     { href: '/browse', label: 'Videos' },
     // Explore only in experimental mode
     ...(SHOW_EXPERIMENTAL ? [{ href: '/explore', label: 'Explore', experimental: true }] : []),
+    { href: '/wochenschau', label: 'Wochenschau' },
     { href: '/timeline', label: 'Timeline' },
     { href: '/watchlist', label: 'Watchlist' },
     // Admin only when enabled

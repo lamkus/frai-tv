@@ -181,6 +181,7 @@
     "myCollection": "My Collection",
     "myList": "My List",
     "watchHistory": "Watch History",
+    "wochenschau": "Wochenschau",
     "settings": "Settings"
   },
 
@@ -404,6 +405,30 @@
     "browseCategories": "Or discover videos by category",
     "suggestions": "Suggestions:"
   },
+  "wochenschauPage": {
+    "metaTitle": "Deutsche Wochenschau Archive | FRai.TV",
+    "metaDescription": "The world's largest 8K-restored Deutsche Wochenschau archive. All episodes 1939-1945, AI-remastered in 4K/8K UHD. Historical documentation.",
+    "badge": "8K AI-Remastered Archive",
+    "titlePart1": "Deutsche",
+    "titlePart2": "Wochenschau",
+    "titlePart3": "Archive",
+    "subtitle": "The world's largest 8K-restored newsreel archive",
+    "episodes": "Episodes",
+    "totalDuration": "Footage",
+    "quality": "AI-Remastered",
+    "period": "Period",
+    "disclaimerTitle": "Historical Document",
+    "disclaimerText": "These videos show original material from the NS propaganda newsreels and serve exclusively for historical documentation and education. The content shown does NOT reflect the opinion of the channel operator. All content is Public Domain and is provided for educational purposes.",
+    "allYears": "All Years",
+    "noEpisodes": "No episodes found",
+    "selectYear": "Select a different year.",
+    "episodeRange": "No.",
+    "showAll": "Show all",
+    "moreEpisodes": "more episodes",
+    "aboutTitle": "About the Deutsche Wochenschau Archive",
+    "aboutText": "The Deutsche Wochenschau was a newsreel series shown weekly in German cinemas from 1939 to 1945. remAIke.IT has restored these historical documents in 8K quality and makes them available for educational purposes. Each episode has been remastered with cutting-edge AI technology to achieve the best possible image quality."
+  },
+
   "timelinePage": {
     "title": "Tech Timeline",
     "subtitle": "A chronological journey through the history of technology",
