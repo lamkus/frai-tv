@@ -181,6 +181,7 @@
     "myCollection": "Meine Sammlung",
     "myList": "Meine Liste",
     "watchHistory": "Verlauf",
+    "wochenschau": "Wochenschau",
     "settings": "Einstellungen"
   },
 
@@ -404,6 +405,59 @@
     "browseCategories": "Oder entdecke Videos nach Kategorien",
     "suggestions": "Suchvorschläge:"
   },
+  "wochenschauPage": {
+    "metaTitle": "Deutsche Wochenschau Archiv | FRai.TV",
+    "metaDescription": "Das groesste 8K-restaurierte Deutsche Wochenschau-Archiv der Welt. Alle Episoden 1939-1945, AI-remastered in 4K/8K UHD. Historische Dokumentation.",
+    "badge": "8K AI-restauriertes Archiv",
+    "titlePart1": "Deutsche",
+    "titlePart2": "Wochenschau",
+    "titlePart3": "Archiv",
+    "subtitle": "Das groesste 8K-restaurierte Wochenschau-Archiv der Welt",
+    "episodes": "Episoden",
+    "totalDuration": "Filmmaterial",
+    "quality": "AI-Remastered",
+    "period": "Zeitraum",
+    "disclaimerTitle": "Historisches Dokument",
+    "disclaimerText": "Diese Videos zeigen Original-Material der NS-Propaganda-Wochenschau und dienen ausschliesslich der historischen Dokumentation und Bildung. Die dargestellten Inhalte spiegeln NICHT die Meinung des Kanalbetreibers wider. Alle Inhalte sind Public Domain und werden zu Bildungszwecken bereitgestellt.",
+    "allYears": "Alle Jahre",
+    "noEpisodes": "Keine Episoden gefunden",
+    "selectYear": "Waehle ein anderes Jahr.",
+    "episodeRange": "Nr.",
+    "showAll": "Alle anzeigen",
+    "moreEpisodes": "weitere Episoden",
+    "aboutTitle": "Ueber das Deutsche Wochenschau Archiv",
+    "aboutText": "Die Deutsche Wochenschau war eine Nachrichtenfilmreihe, die von 1939 bis 1945 woechentlich in deutschen Kinos gezeigt wurde. remAIke.IT hat diese historischen Dokumente in 8K-Qualitaet restauriert und stellt sie zu Bildungszwecken bereit. Jede Episode wurde mit modernster AI-Technologie remastered, um die bestmoegliche Bildqualitaet zu erzielen.",
+    "watchNow": "Jetzt ansehen",
+    "youtubePlaylist": "Zur YouTube Playlist"
+  },
+
+  "mediathekPage": {
+    "wochenschauSection": "Deutsche Wochenschau",
+    "wochenschauDesc": "Historische Nachrichtenfilme 1939-1945 in 8K restauriert",
+    "wochenschauArchive": "Wochenschau Archiv",
+    "seriesSection": "Serien & Collections",
+    "seriesDesc": "Klassische Cartoon-Serien und Film-Reihen",
+    "allSeries": "Alle Serien",
+    "episodeCount": "{{count}} Episoden"
+  },
+
+  "videoDetailPage": {
+    "watchOnYouTube": "Auf YouTube ansehen",
+    "moreFromSeries": "Mehr aus dieser Serie",
+    "description": "Beschreibung",
+    "channel": "Kanal"
+  },
+
+  "seriesPage": {
+    "title": "Serien & Collections",
+    "subtitle": "Klassische Cartoon-Serien und Film-Collections - chronologisch sortiert",
+    "noSeries": "Keine Serien gefunden.",
+    "toMediathek": "Zur Mediathek",
+    "videos": "Videos",
+    "backToOverview": "Alle Serien",
+    "available": "verfuegbar"
+  },
+
   "timelinePage": {
     "title": "Tech Timeline",
     "subtitle": "Eine chronologische Reise durch die Geschichte der Technologie",

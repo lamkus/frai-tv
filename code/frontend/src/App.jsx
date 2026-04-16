@@ -29,6 +29,7 @@ import {
   SenderPage,
   ShortsPage,
   SeriesPage,
+  WochenschauPage,
 } from './pages';
 
 /**
@@ -195,6 +196,7 @@ const router = createBrowserRouter([
           { path: '/shorts', element: <ShortsPage /> },
           { path: '/series', element: <SeriesPage /> },
           { path: '/series/:seriesId', element: <SeriesPage /> },
+          { path: '/wochenschau', element: <WochenschauPage /> },
           { path: '/impressum', element: <ImpressumPage /> },
           { path: '/datenschutz', element: <DatenschutzPage /> },
           { path: '/category/:categoryName', element: <BrowsePage /> },

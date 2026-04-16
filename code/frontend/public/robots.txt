@@ -1,0 +1,56 @@
+# frai.tv - FREE AI Enhanced TV
+# https://frai.tv
+
+User-agent: *
+Allow: /
+Allow: /watch/
+Allow: /projector
+Allow: /browse
+Allow: /catalog
+Allow: /series
+Allow: /timeline
+Allow: /search
+Allow: /impressum
+Allow: /datenschutz
+Allow: /landing
+
+# Static assets
+Allow: /icons/
+Allow: /manifest.json
+
+# Block internal/admin routes
+Disallow: /admin
+Disallow: /api/
+Disallow: /settings
+Disallow: /widget
+
+# Block AI training crawlers
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+# Sitemap
+Sitemap: https://frai.tv/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 2

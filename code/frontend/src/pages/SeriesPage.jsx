@@ -1,12 +1,22 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Play, ChevronLeft, Film, Grid3x3, List, Sparkles } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import { cn, getYouTubeThumbnail } from '../lib/utils';
 import useMeta from '../lib/useMeta';
 import { useApp } from '../context/AppContext';
 
 // Series metadata with icons and colors
 const SERIES_META = {
+  wochenschau: {
+    name: 'Deutsche Wochenschau',
+    icon: '📰',
+    color: '#8B7535',
+    studio: 'UFA / Deutsche Wochenschau GmbH',
+    years: '1939-1945',
+    description: 'Historische Nachrichtenfilme aus dem Zweiten Weltkrieg - in 8K restauriert.',
+    dedicatedPage: '/wochenschau',
+  },
   superman: {
     name: 'Superman',
     icon: '🦸',
@@ -87,6 +97,30 @@ const SERIES_META = {
     years: '1930s-1940s',
     description: 'Der Herr des Dschungels.',
   },
+  kwak: {
+    name: 'Alfred J. Kwak',
+    icon: '🦆',
+    color: '#FFD700',
+    studio: 'Telecable Benelux / TV Tokyo',
+    years: '1989-1991',
+    description: 'Die beliebte Zeichentrickserie über die Ente Alfred Jodocus Kwak.',
+  },
+  maulwurf: {
+    name: 'Der kleine Maulwurf',
+    icon: '🐿️',
+    color: '#4B3621',
+    studio: 'Kratky Film Praha',
+    years: '1957-2002',
+    description: 'Der tschechische Zeichentrick-Klassiker von Zdenek Miler.',
+  },
+  soundies: {
+    name: 'Soundies',
+    icon: '🎵',
+    color: '#4A0E4E',
+    studio: 'Various',
+    years: '1940s',
+    description: 'Musikalische Kurzfilme der 1940er Jahre - Vorläufer der Musikvideos.',
+  },
 };
 
 // Clean video title
@@ -105,6 +139,7 @@ const cleanTitle = (title) => {
  */
 export default function SeriesPage() {
   const { seriesId } = useParams();
+  const { t } = useTranslation();
   const { openPlayer, videos: allVideos } = useApp();
 
   const [seriesData, setSeriesData] = useState(null);
@@ -128,16 +163,20 @@ export default function SeriesPage() {
     }
 
     const seriesPatterns = [
+      { id: 'wochenschau', pattern: /wochenschau/i },
       { id: 'superman', pattern: /\bsuperman\b/i },
       { id: 'popeye', pattern: /\bpopeye\b/i },
       { id: 'betty-boop', pattern: /\bbetty\s*boop\b/i },
       { id: 'casper', pattern: /\bcasper\b/i },
-      { id: 'felix', pattern: /\bfelix\s*(the)?\s*cat\b/i },
+      { id: 'felix', pattern: /\bfelix\s*(the)?\s*cat\b|\bfelix\b.*\b(1919|192\d|cat)\b/i },
       { id: 'chaplin', pattern: /\b(charlie\s*)?chaplin\b/i },
       { id: 'keaton', pattern: /\bbuster\s*keaton\b/i },
       { id: 'looney-tunes', pattern: /\b(looney\s*tunes|bugs\s*bunny|daffy)\b/i },
       { id: 'sherlock', pattern: /\bsherlock\s*holmes\b/i },
       { id: 'tarzan', pattern: /\btarzan\b/i },
+      { id: 'kwak', pattern: /\balfred\s*j\.?\s*kwak\b|\bkwak\b/i },
+      { id: 'maulwurf', pattern: /\bmaulwurf\b|\bkrtek\b/i },
+      { id: 'soundies', pattern: /\bsoundie/i },
     ];
 
     const grouped = {};
@@ -204,9 +243,11 @@ export default function SeriesPage() {
       series.videos?.[0]?.thumbnailUrl ||
       (series.videos?.[0]?.ytId && getYouTubeThumbnail(series.videos[0].ytId, 'high'));
 
+    const seriesLink = meta.dedicatedPage || `/series/${series.id}`;
+
     return (
       <Link
-        to={`/series/${series.id}`}
+        to={seriesLink}
         className={cn(
           'group relative rounded-xl overflow-hidden',
           'bg-gradient-to-br from-retro-darker to-retro-black',
@@ -477,10 +518,10 @@ export default function SeriesPage() {
         <div className="mb-8">
           <div className="flex items-center gap-3 mb-2">
             <Sparkles className="text-accent-gold" size={28} />
-            <h1 className="text-3xl font-bold text-white">Serien & Collections</h1>
+            <h1 className="text-3xl font-bold text-white">{t('seriesPage.title')}</h1>
           </div>
           <p className="text-white/60">
-            Klassische Cartoon-Serien und Film-Collections - chronologisch sortiert
+            {t('seriesPage.subtitle')}
           </p>
         </div>
 

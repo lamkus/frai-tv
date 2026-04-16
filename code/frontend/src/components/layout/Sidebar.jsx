@@ -16,6 +16,7 @@ import {
   Radio,
   Smartphone,
   Library,
+  Film,
 } from 'lucide-react';
 import { cn } from '../../lib/utils';
 import { useApp } from '../../context/AppContext';
@@ -30,6 +31,7 @@ const mainNavKeys = [
   { href: '/shorts', labelKey: 'sidebar.shorts', icon: Smartphone },
   { href: '/timeline', labelKey: 'sidebar.timeline', icon: History },
   { href: '/sender', labelKey: 'sidebar.sender', icon: Radio },
+  { href: '/wochenschau', labelKey: 'sidebar.wochenschau', icon: Film },
 ];
 
 const collectionsKeys = [

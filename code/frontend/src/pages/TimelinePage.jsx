@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Calendar, Filter } from 'lucide-react';
+import { Calendar, Filter, Film } from 'lucide-react';
 import { cn } from '../lib/utils';
 import { useApp } from '../context/AppContext';
 import { DECADES, CATEGORIES, MILESTONE_TYPES, sortVideos } from '../data/remaikeData';
@@ -206,6 +206,33 @@ export default function TimelinePage() {
           )}
         </div>
       </div>
+
+      {/* Wochenschau Cross-Link Banner for 1930s/1940s */}
+      {(selectedDecade === '1930s' || selectedDecade === '1940s' || !selectedDecade) && (
+        <div className="max-w-7xl mx-auto px-4 pt-6">
+          <Link
+            to="/wochenschau"
+            className="block rounded-lg bg-gradient-to-r from-accent-gold/10 via-amber-900/10 to-accent-gold/5 border border-accent-gold/20 p-4 hover:border-accent-gold/40 transition-colors group"
+          >
+            <div className="flex items-center gap-4">
+              <div className="w-12 h-12 rounded-lg bg-accent-gold/20 flex items-center justify-center flex-shrink-0">
+                <Film size={24} className="text-accent-gold" />
+              </div>
+              <div className="flex-1 min-w-0">
+                <h3 className="text-sm font-semibold text-accent-gold group-hover:text-white transition-colors">
+                  Deutsche Wochenschau Archiv (1939-1945)
+                </h3>
+                <p className="text-xs text-retro-muted mt-0.5">
+                  {t('wochenschauPage.subtitle', { defaultValue: 'Das groesste 8K-restaurierte Wochenschau-Archiv der Welt' })}
+                </p>
+              </div>
+              <span className="text-accent-gold text-sm font-medium whitespace-nowrap hidden sm:inline">
+                {t('wochenschauPage.showAll', { defaultValue: 'Alle anzeigen' })} →
+              </span>
+            </div>
+          </Link>
+        </div>
+      )}
 
       {/* Timeline Content */}
       <div className="max-w-7xl mx-auto px-4 py-8">

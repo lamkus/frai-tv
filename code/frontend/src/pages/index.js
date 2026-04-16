@@ -17,3 +17,4 @@ export { default as LivestreamPage } from './LivestreamPage';
 export { default as SenderPage } from './SenderPage';
 export { default as ShortsPage } from './ShortsPage';
 export { default as SeriesPage } from './SeriesPage';
+export { default as WochenschauPage } from './WochenschauPage';
