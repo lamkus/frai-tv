@@ -69,6 +69,7 @@ export default function LivestreamPage() {
     // Refresh every 60 seconds
     const interval = setInterval(fetchStreams, 60000);
     return () => clearInterval(interval);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // No live streams - show placeholder

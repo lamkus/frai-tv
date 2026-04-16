@@ -106,6 +106,7 @@ export default function HomePage() {
   }
 
   // Get session stats for engagement display
+  // eslint-disable-next-line no-unused-vars
   const sessionStats = getSessionStats();
 
   // --- Dashboard Data Preparation ---

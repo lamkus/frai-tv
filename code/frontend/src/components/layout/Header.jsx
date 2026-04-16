@@ -14,7 +14,6 @@ import {
   Radio,
   Youtube,
   Instagram,
-  ExternalLink,
 } from 'lucide-react';
 import { cn } from '../../lib/utils';
 import { useApp } from '../../context/AppContext';

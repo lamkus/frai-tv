@@ -6,7 +6,6 @@ import { useApp } from '../../context/AppContext';
 import {
   recordVideoStart,
   recordWatchTime,
-  getNextVideo,
   shouldShowStillWatching,
   markStillWatchingShown,
 } from '../../lib/recommendationEngine';
@@ -37,8 +36,6 @@ export default function VideoPlayer() {
     isPlayerOpen,
     closePlayer,
     minimizePlayer,
-    volume,
-    updateVolume,
     videos,
     openPlayer,
     updateWatchProgress,
@@ -50,8 +47,8 @@ export default function VideoPlayer() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
-  const [showControls, setShowControls] = useState(true);
-  const [currentTime, setCurrentTime] = useState(0);
+  const [, /* showControls */ setShowControls] = useState(true);
+  const [, /* currentTime */ setCurrentTime] = useState(0);
   const [isVideoEnded, setIsVideoEnded] = useState(false);
   const [showStillWatching, setShowStillWatching] = useState(false);
   const [showOurRecommendations, setShowOurRecommendations] = useState(false);
@@ -137,6 +134,7 @@ export default function VideoPlayer() {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isPlayerOpen, closePlayer, toggleFullscreen]);
 
   // Reset on video change + track session
@@ -207,6 +205,7 @@ export default function VideoPlayer() {
         }
       }
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [watchStartTime, currentVideo, analytics]);
 
   // Periodically report progress while the video is playing (so Continue Watching updates)
