@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { createBrowserRouter, RouterProvider, Navigate, Outlet } from 'react-router-dom';
 import { AppProvider, useApp } from './context/AppContext';
 import { MainLayout } from './components/layout';
@@ -36,7 +36,7 @@ import {
  * Global Overlays - VideoPlayer & VideoInfoModal
  */
 function GlobalOverlays() {
-  const { infoVideo, isInfoModalOpen, closeInfoModal, videos } = useApp();
+  const { infoVideo, isInfoModalOpen, closeInfoModal } = useApp();
 
   return (
     <>

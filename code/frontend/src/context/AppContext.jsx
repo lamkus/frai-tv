@@ -325,6 +325,7 @@ export function AppProvider({ children }) {
         return updated;
       });
     },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     [videos]
   );
 

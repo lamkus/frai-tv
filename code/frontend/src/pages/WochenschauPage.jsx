@@ -1,10 +1,10 @@
 import { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Film, Calendar, ChevronRight, Play, AlertTriangle, Clock, Eye, ExternalLink, Youtube } from 'lucide-react';
+import { Film, Calendar, ChevronRight, Play, AlertTriangle, Clock, ExternalLink, Youtube } from 'lucide-react';
 import { cn, formatDuration, getYouTubeThumbnail } from '../lib/utils';
 import { useApp } from '../context/AppContext';
-import VideoCard from '../components/video/VideoCard';
+// VideoCard available for future use
 
 /**
  * WochenschauPage - Deutsche Wochenschau Archiv
@@ -40,7 +40,7 @@ const WOCHENSCHAU_YEARS = [1939, 1940, 1941, 1942, 1943, 1944, 1945];
 
 export default function WochenschauPage() {
   const { t } = useTranslation();
-  const { videos, playVideo, openPlayer } = useApp();
+  const { videos, openPlayer } = useApp();
   const [selectedYear, setSelectedYear] = useState(null);
 
   // Set page title and meta tags
@@ -397,6 +397,7 @@ export default function WochenschauPage() {
  * Shows episode number, date, event name prominently
  */
 function WochenschauCard({ video }) {
+  // eslint-disable-next-line no-unused-vars
   const { playVideo, openInfoModal } = useApp();
   const thumbnail = video.thumbnail || getYouTubeThumbnail(video.ytId);
 

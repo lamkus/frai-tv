@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
-import { X, Copy, Check, Share2, Mail, MessageCircle, Send, Link2 } from 'lucide-react';
+import { X, Copy, Check, Share2, Mail, Send, Link2 } from 'lucide-react';
 import { cn, getYouTubeThumbnail } from '../../lib/utils';
 
 // Social platform icons (using Lucide + custom SVGs)
@@ -82,6 +82,7 @@ export default function ShareModal({ isOpen, onClose, video }) {
         console.error('Share failed:', err);
       }
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [video, shareUrl, onClose]);
 
   // Social share handlers

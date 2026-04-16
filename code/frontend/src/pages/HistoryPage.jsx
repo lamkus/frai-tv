@@ -1,5 +1,4 @@
 import { useState, useMemo } from 'react';
-import { Link } from 'react-router-dom';
 import { History, Trash2, Play, Clock, X, Search } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { formatRelativeTime, formatDuration } from '../lib/utils';

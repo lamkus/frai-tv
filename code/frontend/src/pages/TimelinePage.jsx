@@ -321,6 +321,7 @@ export default function TimelinePage() {
 /**
  * Extrahiert Jahr aus ISO-Datum
  */
+// eslint-disable-next-line no-unused-vars
 function extractYearFromDate(dateString) {
   if (!dateString) return null;
   const date = new Date(dateString);

@@ -1,8 +1,8 @@
+import { initExternalAnalytics, trackExternalEvent, trackExternalPageView } from './externalAnalytics';
+
 /**
  * remAIke.TV Analytics System
  *
-
-import { initExternalAnalytics, trackExternalEvent, trackExternalPageView } from './externalAnalytics';
  * Umfassendes Tracking-System für Nutzerverhalten:
  * - Seitenaufrufe & Navigation
  * - Video-Interaktionen (Play, Pause, Seek, Complete)

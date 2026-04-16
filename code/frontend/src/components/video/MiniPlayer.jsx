@@ -1,6 +1,6 @@
-import { useState, useEffect, useRef } from 'react';
-import { X, Maximize2, Play, Pause } from 'lucide-react';
-import { cn, getYouTubeEmbedUrl } from '../../lib/utils';
+import { useState } from 'react';
+import { X, Maximize2 } from 'lucide-react';
+import { getYouTubeEmbedUrl } from '../../lib/utils';
 import { useApp } from '../../context/AppContext';
 
 /**
@@ -11,6 +11,7 @@ import { useApp } from '../../context/AppContext';
 export default function MiniPlayer() {
   const { currentVideo, isMiniPlayerOpen, restorePlayer, closePlayer } = useApp();
 
+  // eslint-disable-next-line no-unused-vars
   const [isPlaying, setIsPlaying] = useState(true);
 
   if (!isMiniPlayerOpen || !currentVideo) return null;
