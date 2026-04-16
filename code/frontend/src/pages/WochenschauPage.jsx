@@ -1,7 +1,7 @@
 import { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Film, Calendar, ChevronRight, Play, AlertTriangle, Clock, Eye } from 'lucide-react';
+import { Film, Calendar, ChevronRight, Play, AlertTriangle, Clock, Eye, ExternalLink, Youtube } from 'lucide-react';
 import { cn, formatDuration, getYouTubeThumbnail } from '../lib/utils';
 import { useApp } from '../context/AppContext';
 import VideoCard from '../components/video/VideoCard';
@@ -40,7 +40,7 @@ const WOCHENSCHAU_YEARS = [1939, 1940, 1941, 1942, 1943, 1944, 1945];
 
 export default function WochenschauPage() {
   const { t } = useTranslation();
-  const { videos, playVideo } = useApp();
+  const { videos, playVideo, openPlayer } = useApp();
   const [selectedYear, setSelectedYear] = useState(null);
 
   // Set page title and meta tags
@@ -194,6 +194,29 @@ export default function WochenschauPage() {
                   {t('wochenschauPage.period', { defaultValue: 'Zeitraum' })}
                 </div>
               </div>
+            </div>
+
+            {/* Action Buttons */}
+            <div className="flex flex-wrap items-center justify-center gap-4">
+              {sortedVideos.length > 0 && (
+                <button
+                  onClick={() => openPlayer && openPlayer(sortedVideos[0])}
+                  className="inline-flex items-center gap-3 px-8 py-3.5 bg-white text-black font-bold rounded-lg hover:bg-white/90 transition-all transform hover:scale-105 shadow-xl"
+                >
+                  <Play size={20} fill="currentColor" />
+                  {t('wochenschauPage.watchNow', { defaultValue: 'Jetzt ansehen' })}
+                </button>
+              )}
+              <a
+                href="https://www.youtube.com/@remAIke_IT/playlists"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3.5 bg-red-600/90 hover:bg-red-600 text-white font-semibold rounded-lg transition-all border border-red-500/50"
+              >
+                <Youtube size={20} />
+                {t('wochenschauPage.youtubePlaylist', { defaultValue: 'Zur YouTube Playlist' })}
+                <ExternalLink size={14} className="opacity-60" />
+              </a>
             </div>
           </div>
         </div>

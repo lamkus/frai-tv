@@ -426,7 +426,36 @@
     "showAll": "Show all",
     "moreEpisodes": "more episodes",
     "aboutTitle": "About the Deutsche Wochenschau Archive",
-    "aboutText": "The Deutsche Wochenschau was a newsreel series shown weekly in German cinemas from 1939 to 1945. remAIke.IT has restored these historical documents in 8K quality and makes them available for educational purposes. Each episode has been remastered with cutting-edge AI technology to achieve the best possible image quality."
+    "aboutText": "The Deutsche Wochenschau was a newsreel series shown weekly in German cinemas from 1939 to 1945. remAIke.IT has restored these historical documents in 8K quality and makes them available for educational purposes. Each episode has been remastered with cutting-edge AI technology to achieve the best possible image quality.",
+    "watchNow": "Watch Now",
+    "youtubePlaylist": "YouTube Playlist"
+  },
+
+  "mediathekPage": {
+    "wochenschauSection": "Deutsche Wochenschau",
+    "wochenschauDesc": "Historical newsreels 1939-1945 restored in 8K",
+    "wochenschauArchive": "Wochenschau Archive",
+    "seriesSection": "Series & Collections",
+    "seriesDesc": "Classic cartoon series and film collections",
+    "allSeries": "All Series",
+    "episodeCount": "{{count}} Episodes"
+  },
+
+  "videoDetailPage": {
+    "watchOnYouTube": "Watch on YouTube",
+    "moreFromSeries": "More from this Series",
+    "description": "Description",
+    "channel": "Channel"
+  },
+
+  "seriesPage": {
+    "title": "Series & Collections",
+    "subtitle": "Classic cartoon series and film collections - chronologically sorted",
+    "noSeries": "No series found.",
+    "toMediathek": "To Library",
+    "videos": "Videos",
+    "backToOverview": "All Series",
+    "available": "available"
   },
 
   "timelinePage": {

@@ -426,7 +426,36 @@
     "showAll": "Alle anzeigen",
     "moreEpisodes": "weitere Episoden",
     "aboutTitle": "Ueber das Deutsche Wochenschau Archiv",
-    "aboutText": "Die Deutsche Wochenschau war eine Nachrichtenfilmreihe, die von 1939 bis 1945 woechentlich in deutschen Kinos gezeigt wurde. remAIke.IT hat diese historischen Dokumente in 8K-Qualitaet restauriert und stellt sie zu Bildungszwecken bereit. Jede Episode wurde mit modernster AI-Technologie remastered, um die bestmoegliche Bildqualitaet zu erzielen."
+    "aboutText": "Die Deutsche Wochenschau war eine Nachrichtenfilmreihe, die von 1939 bis 1945 woechentlich in deutschen Kinos gezeigt wurde. remAIke.IT hat diese historischen Dokumente in 8K-Qualitaet restauriert und stellt sie zu Bildungszwecken bereit. Jede Episode wurde mit modernster AI-Technologie remastered, um die bestmoegliche Bildqualitaet zu erzielen.",
+    "watchNow": "Jetzt ansehen",
+    "youtubePlaylist": "Zur YouTube Playlist"
+  },
+
+  "mediathekPage": {
+    "wochenschauSection": "Deutsche Wochenschau",
+    "wochenschauDesc": "Historische Nachrichtenfilme 1939-1945 in 8K restauriert",
+    "wochenschauArchive": "Wochenschau Archiv",
+    "seriesSection": "Serien & Collections",
+    "seriesDesc": "Klassische Cartoon-Serien und Film-Reihen",
+    "allSeries": "Alle Serien",
+    "episodeCount": "{{count}} Episoden"
+  },
+
+  "videoDetailPage": {
+    "watchOnYouTube": "Auf YouTube ansehen",
+    "moreFromSeries": "Mehr aus dieser Serie",
+    "description": "Beschreibung",
+    "channel": "Kanal"
+  },
+
+  "seriesPage": {
+    "title": "Serien & Collections",
+    "subtitle": "Klassische Cartoon-Serien und Film-Collections - chronologisch sortiert",
+    "noSeries": "Keine Serien gefunden.",
+    "toMediathek": "Zur Mediathek",
+    "videos": "Videos",
+    "backToOverview": "Alle Serien",
+    "available": "verfuegbar"
   },
 
   "timelinePage": {

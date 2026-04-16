@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import {
   Play,
@@ -11,7 +11,10 @@ import {
   Eye,
   Bookmark,
   BookmarkCheck,
+  Youtube,
+  ExternalLink,
 } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import useMeta from '../lib/useMeta';
 import { cn, formatDuration, formatRelativeTime, getYouTubeThumbnail } from '../lib/utils';
 import { useApp } from '../context/AppContext';
@@ -28,9 +31,22 @@ import { ErrorState } from '../components/ui';
  * - Related videos
  * - Share functionality
  */
+// Series patterns for detecting which series a video belongs to
+const SERIES_PATTERNS = [
+  { id: 'wochenschau', name: 'Deutsche Wochenschau', pattern: /wochenschau/i, link: '/wochenschau' },
+  { id: 'superman', name: 'Superman', pattern: /\bsuperman\b/i, link: '/series/superman' },
+  { id: 'popeye', name: 'Popeye', pattern: /\bpopeye\b/i, link: '/series/popeye' },
+  { id: 'betty-boop', name: 'Betty Boop', pattern: /betty\s*boop/i, link: '/series/betty-boop' },
+  { id: 'casper', name: 'Casper', pattern: /\bcasper\b/i, link: '/series/casper' },
+  { id: 'felix', name: 'Felix the Cat', pattern: /\bfelix\b/i, link: '/series/felix' },
+  { id: 'chaplin', name: 'Charlie Chaplin', pattern: /\bchaplin\b/i, link: '/series/chaplin' },
+  { id: 'keaton', name: 'Buster Keaton', pattern: /\bbuster\s*keaton\b/i, link: '/series/keaton' },
+];
+
 export default function VideoDetailPage() {
   const { id } = useParams();
   const navigate = useNavigate();
+  const { t } = useTranslation();
   const { videos, openPlayer, addToWatchlist, removeFromWatchlist, watchlist } = useApp();
   const [isDescriptionExpanded, setIsDescriptionExpanded] = useState(false);
 
@@ -46,6 +62,20 @@ export default function VideoDetailPage() {
   // Check if in watchlist
   const isInWatchlist = watchlist.some((w) => w.id === video?.id || w.id === video?.ytId);
 
+  // Detect which series this video belongs to
+  const detectedSeries = useMemo(() => {
+    if (!video?.title) return null;
+    return SERIES_PATTERNS.find((s) => s.pattern.test(video.title)) || null;
+  }, [video?.title]);
+
+  // Get more from same series
+  const moreFromSeries = useMemo(() => {
+    if (!detectedSeries || !video) return [];
+    return videos
+      .filter((v) => v.id !== video.id && v.ytId !== video.ytId && detectedSeries.pattern.test(v.title || ''))
+      .slice(0, 12);
+  }, [videos, video, detectedSeries]);
+
   // Get related videos (same category or random)
   const relatedVideos = videos
     .filter((v) => v.id !== video?.id && v.ytId !== video?.ytId)
@@ -56,6 +86,38 @@ export default function VideoDetailPage() {
   const moreLikeThis = videos
     .filter((v) => v.category === video?.category && v.id !== video?.id)
     .slice(0, 12);
+
+  // Schema.org VideoObject JSON-LD for SEO
+  useEffect(() => {
+    if (!video) return;
+    const jsonLd = {
+      '@context': 'https://schema.org',
+      '@type': 'VideoObject',
+      name: video.title,
+      description: video.description || '',
+      thumbnailUrl: video.thumbnailUrl || getYouTubeThumbnail(video.ytId, 'maxres'),
+      uploadDate: video.publishDate || undefined,
+      duration: video.duration ? `PT${Math.floor(video.duration / 60)}M${video.duration % 60}S` : undefined,
+      contentUrl: video.ytId ? `https://www.youtube.com/watch?v=${video.ytId}` : undefined,
+      embedUrl: video.ytId ? `https://www.youtube.com/embed/${video.ytId}` : undefined,
+      interactionStatistic: video.viewCount ? {
+        '@type': 'InteractionCounter',
+        interactionType: 'https://schema.org/WatchAction',
+        userInteractionCount: video.viewCount,
+      } : undefined,
+    };
+
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify(jsonLd);
+    script.id = 'video-jsonld';
+    document.head.appendChild(script);
+
+    return () => {
+      const el = document.getElementById('video-jsonld');
+      if (el) el.remove();
+    };
+  }, [video]);
 
   const handlePlay = () => {
     if (video) openPlayer(video);
@@ -219,6 +281,20 @@ export default function VideoDetailPage() {
                 >
                   <Share2 size={18} />
                 </button>
+
+                {/* Watch on YouTube */}
+                {ytId && (
+                  <a
+                    href={`https://www.youtube.com/watch?v=${ytId}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-secondary text-fluid-sm xs:text-fluid-base px-3 xs:px-5 py-2.5 xs:py-3 inline-flex items-center gap-2"
+                  >
+                    <Youtube size={18} className="text-red-500" />
+                    <span className="hidden sm:inline">{t('videoDetailPage.watchOnYouTube')}</span>
+                    <ExternalLink size={14} className="opacity-50" />
+                  </a>
+                )}
               </div>
             </div>
           </div>
@@ -269,6 +345,15 @@ export default function VideoDetailPage() {
         </div>
       </section>
 
+      {/* More from this Series */}
+      {moreFromSeries.length > 0 && detectedSeries && (
+        <CategoryRow
+          title={`${t('videoDetailPage.moreFromSeries')}: ${detectedSeries.name}`}
+          videos={moreFromSeries}
+          showAllLink={detectedSeries.link}
+        />
+      )}
+
       {/* Related Videos */}
       {moreLikeThis.length > 0 && (
         <CategoryRow
@@ -278,7 +363,7 @@ export default function VideoDetailPage() {
         />
       )}
 
-      {relatedVideos.length > 0 && <CategoryRow title="Ähnliche Videos" videos={relatedVideos} />}
+      {relatedVideos.length > 0 && <CategoryRow title={t('related')} videos={relatedVideos} />}
     </div>
   );
 }

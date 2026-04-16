@@ -15,6 +15,8 @@ import {
   Calendar,
   Star,
   Info,
+  Film,
+  Library,
 } from 'lucide-react';
 import { cn, getYouTubeThumbnail, formatDuration } from '../lib/utils';
 import useMeta from '../lib/useMeta';
@@ -122,6 +124,49 @@ export default function MediathekPage() {
     return dedupeVideos(sorted).slice(0, 15);
   }, [videos]);
 
+  // Wochenschau videos - filtered from all videos
+  const wochenschauVideos = useMemo(() => {
+    return videos
+      .filter((v) => {
+        const hasWochenschauTitle = /^(?:\u{1F195}\s*)?(?:4K\s+24\/7\s+)?Wochenschau(?:TV)?\s+\d+/iu.test(v.title);
+        const isDocCategory = v.category === 'documentaries';
+        const titleContainsWochenschau = v.title?.toLowerCase().includes('wochenschau');
+        return hasWochenschauTitle || (isDocCategory && titleContainsWochenschau);
+      })
+      .sort((a, b) => new Date(b.publishDate || 0) - new Date(a.publishDate || 0))
+      .slice(0, 15);
+  }, [videos]);
+
+  // Series grouping for the Serien section
+  const seriesGroups = useMemo(() => {
+    const patterns = [
+      { id: 'wochenschau', name: 'Deutsche Wochenschau', icon: '📰', pattern: /wochenschau/i },
+      { id: 'betty-boop', name: 'Betty Boop', icon: '💋', pattern: /betty\s*boop/i },
+      { id: 'superman', name: 'Superman', icon: '🦸', pattern: /\bsuperman\b/i },
+      { id: 'felix', name: 'Felix the Cat', icon: '🐱', pattern: /\bfelix\b/i },
+      { id: 'popeye', name: 'Popeye', icon: '⚓', pattern: /\bpopeye\b/i },
+      { id: 'casper', name: 'Casper', icon: '👻', pattern: /\bcasper\b/i },
+      { id: 'chaplin', name: 'Charlie Chaplin', icon: '🎩', pattern: /\bchaplin\b/i },
+      { id: 'keaton', name: 'Buster Keaton', icon: '😐', pattern: /\bbuster\s*keaton\b/i },
+    ];
+    const groups = {};
+    videos.forEach((video) => {
+      for (const s of patterns) {
+        if (s.pattern.test(video.title || '')) {
+          if (!groups[s.id]) {
+            groups[s.id] = { ...s, count: 0, thumbnail: null };
+          }
+          groups[s.id].count++;
+          if (!groups[s.id].thumbnail) {
+            groups[s.id].thumbnail = video.thumbnailUrl || getYouTubeThumbnail(video.ytId, 'medium');
+          }
+          break;
+        }
+      }
+    });
+    return Object.values(groups).sort((a, b) => b.count - a.count);
+  }, [videos]);
+
   const [selectedCategory, setSelectedCategory] = useState(null);
 
   // Error State
@@ -138,6 +183,96 @@ export default function MediathekPage() {
       {/* HERO SECTION - Featured Content */}
       {featuredVideos.length > 0 && (
         <HeroCarousel videos={featuredVideos} onPlay={openPlayer} t={t} />
+      )}
+
+      {/* WOCHENSCHAU FEATURED SECTION */}
+      {wochenschauVideos.length > 0 && (
+        <section className="px-4 md:px-8 pt-10 pb-6">
+          <div className="relative overflow-hidden rounded-xl bg-gradient-to-r from-[#1a1205] via-[#0d0d0d] to-[#1a1205] border border-accent-gold/20">
+            <div className="absolute inset-0 opacity-10 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCI+PHJlY3Qgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIiBmaWxsPSJub25lIi8+PGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iMSIgZmlsbD0iI2M5YTk2MiIgZmlsbC1vcGFjaXR5PSIwLjIiLz48L3N2Zz4=')]" />
+            <div className="relative p-6 md:p-8">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-6">
+                <div>
+                  <div className="flex items-center gap-3 mb-2">
+                    <Film size={24} className="text-accent-gold" />
+                    <h2 className="text-2xl font-display font-bold text-white">
+                      {t('mediathekPage.wochenschauSection')}
+                    </h2>
+                    <span className="px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-accent-gold/20 text-accent-gold rounded-full border border-accent-gold/30">
+                      8K
+                    </span>
+                  </div>
+                  <p className="text-sm text-retro-muted">
+                    {t('mediathekPage.wochenschauDesc')}
+                  </p>
+                </div>
+                <Link
+                  to="/wochenschau"
+                  className="inline-flex items-center gap-2 px-5 py-2.5 bg-accent-gold/10 hover:bg-accent-gold/20 text-accent-gold font-semibold text-sm rounded-lg border border-accent-gold/30 transition-colors whitespace-nowrap"
+                >
+                  <Film size={16} />
+                  {t('mediathekPage.wochenschauArchive')}
+                </Link>
+              </div>
+              <ContentRow videos={wochenschauVideos} onPlay={openPlayer} cardSize="medium" />
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* SERIES SECTION */}
+      {seriesGroups.length > 0 && (
+        <section className="px-4 md:px-8 pb-6">
+          <div className="flex items-center justify-between mb-5">
+            <div className="flex items-center gap-3">
+              <Library size={20} className="text-accent-gold" />
+              <h2 className="text-xl font-bold text-white">
+                {t('mediathekPage.seriesSection')}
+              </h2>
+            </div>
+            <Link
+              to="/series"
+              className="text-sm text-accent-gold hover:underline flex items-center gap-1"
+            >
+              {t('mediathekPage.allSeries')}
+              <ChevronRight size={14} />
+            </Link>
+          </div>
+          <div className="flex gap-3 md:gap-4 overflow-x-auto pb-4 scroll-smooth scrollbar-hide">
+            {seriesGroups.map((series) => (
+              <Link
+                key={series.id}
+                to={series.id === 'wochenschau' ? '/wochenschau' : `/series/${series.id}`}
+                className="flex-shrink-0 w-[160px] md:w-[200px] group"
+              >
+                <div className="relative aspect-video rounded-lg overflow-hidden bg-retro-dark border-2 border-transparent group-hover:border-accent-gold transition-all duration-300">
+                  {series.thumbnail ? (
+                    <img
+                      src={series.thumbnail}
+                      alt={series.name}
+                      className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity"
+                      loading="lazy"
+                    />
+                  ) : (
+                    <div className="w-full h-full flex items-center justify-center text-4xl bg-retro-darker">
+                      {series.icon}
+                    </div>
+                  )}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+                  <div className="absolute bottom-0 left-0 right-0 p-3">
+                    <div className="flex items-center gap-2">
+                      <span className="text-lg">{series.icon}</span>
+                      <span className="text-sm font-semibold text-white line-clamp-1">{series.name}</span>
+                    </div>
+                    <span className="text-[11px] text-accent-gold/80">
+                      {t('mediathekPage.episodeCount', { count: series.count })}
+                    </span>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
       )}
 
       {/* MAIN LAYOUT - Content Only */}
