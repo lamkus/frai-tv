@@ -47,3 +47,7 @@ npm-debug.log*
 
 # Task artifacts
 task_*
+
+# IndexNow local helpers
+code/frontend/.indexnow-key
+code/frontend/indexnow-urls.json

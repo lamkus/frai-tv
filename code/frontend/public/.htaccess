@@ -1,38 +1,86 @@
-# Apache .htaccess für FRai.TV
-# Cache-Control für SPA (Single Page Application)
+# frai.tv — SPA + Pre-rendered Static Pages for SEO
+# ═══════════════════════════════════════════════════
+# Strategy:
+#  1. Serve actual files/dirs if they exist (static pages, assets)
+#  2. Fallback to index.html for SPA client-side routing
+#
+# Pre-rendered pages live at:
+#  /watch/{id}/index.html  (431+ video pages)
+#  /timeline/index.html
+#  /live/index.html
+#  /impressum/index.html
+#  /datenschutz/index.html
 
-# Keine Caching für index.html
-<FilesMatch "index\.html$">
-    FileETag None
-    Header unset ETag
-    Header set Cache-Control "no-cache, no-store, must-revalidate, max-age=0"
-    Header set Pragma "no-cache"
-    Header set Expires "0"
-</FilesMatch>
-
-# Lange Cache-Zeit für Vite Assets mit Hash (index-[hash].js, index-[hash].css)
-<FilesMatch "\.(js|css|woff2?|ttf|eot|svg|png|jpg|jpeg|gif|webp|ico)$">
-    Header set Cache-Control "public, max-age=31536000, immutable"
-</FilesMatch>
-
-# Gzip Kompression aktivieren
-<IfModule mod_deflate.c>
-    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
-</IfModule>
-
-# Fallback für React Router (alle Requests auf index.html umleiten)
-# ABER: Nicht für .js, .css, .map Dateien - die sollen 404 geben wenn nicht gefunden!
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteBase /
-    
-    # KEINE Umleitung für Asset-Dateien - müssen 404 geben wenn nicht da
-    RewriteCond %{REQUEST_URI} !\.(js|css|map|json|woff2?|ttf|eot|svg|png|jpg|jpeg|gif|webp|ico)$
-    
-    # Wenn Datei oder Verzeichnis existiert, direkt ausliefern
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-    
-    # Sonst auf index.html umleiten (SPA Routing)
-    RewriteRule . /index.html [L]
+
+    # ── HTTPS redirect ──
+    RewriteCond %{HTTPS} off
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    # ── www to non-www ──
+    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+    RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
+
+    # ── Serve existing files directly (JS, CSS, images, etc.) ──
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteRule ^ - [L]
+
+    # ── Serve pre-rendered directory pages (timeline/, live/, etc.) ──
+    # If request is a directory with an index.html, serve it
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteCond %{REQUEST_FILENAME}/index.html -f
+    RewriteRule ^(.*)/?$ /$1/index.html [L]
+
+    # ── Serve pre-rendered pages for clean URLs ──
+    # /timeline -> /timeline/index.html (if exists)
+    RewriteCond %{REQUEST_FILENAME}/index.html -f
+    RewriteRule ^(.+)$ /$1/index.html [L]
+
+    # ── Serve watch pages: /watch/VIDEO_ID -> /watch/VIDEO_ID/index.html ──
+    RewriteCond %{DOCUMENT_ROOT}/watch/$1/index.html -f
+    RewriteRule ^watch/([A-Za-z0-9_-]+)/?$ /watch/$1/index.html [L]
+
+    # ── SPA fallback: everything else goes to index.html ──
+    RewriteRule ^ /index.html [L]
 </IfModule>
+
+# ── Compression ──
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml application/xml text/xml
+</IfModule>
+
+# ── Charset ──
+AddDefaultCharset UTF-8
+AddCharset UTF-8 .html .css .js .json .xml .txt
+
+# ── Cache Control ──
+<IfModule mod_expires.c>
+    ExpiresActive On
+    # HTML pages: short cache so Google re-crawls frequently
+    ExpiresByType text/html "access plus 1 hour"
+    # Hashed assets (Vite adds hash to filenames): cache forever
+    ExpiresByType application/javascript "access plus 1 year"
+    ExpiresByType text/css "access plus 1 year"
+    # Images: long cache
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    # XML (sitemap): daily
+    ExpiresByType application/xml "access plus 1 day"
+    ExpiresByType text/xml "access plus 1 day"
+</IfModule>
+
+# ── Security Headers ──
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+    # Allow YouTube embeds
+    Header set Content-Security-Policy "frame-src 'self' https://www.youtube-nocookie.com https://www.youtube.com;"
+</IfModule>
+
+# ── Custom Error Pages ──
+ErrorDocument 404 /index.html
