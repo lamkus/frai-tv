@@ -1,0 +1,530 @@
+{
+  "date": "2026-04-01 14:58:51",
+  "task_1_dupe_private": [
+    {
+      "id": "SV7o2XaYZyc",
+      "title": "DUPE - Wochenschau 509: Dunkirk Evacuation (Jun 1940) | 8K (4K UHD)",
+      "success": true
+    },
+    {
+      "id": "LCa6Klpi8ts",
+      "title": "DUPE - Wochenschau 518: Channel Battles (Aug 1940) | 8K (4K UHD)",
+      "success": true
+    },
+    {
+      "id": "ULzsDOb2x3U",
+      "title": "DUPE - Wochenschau 519: Eagle Day (Aug 1940) | 8K (4K UHD)",
+      "success": true
+    },
+    {
+      "id": "iFSHNS7kVgQ",
+      "title": "DUPE - Wochenschau 542: Tobruk Falls (Jan 1941) | 8K (4K UHD)",
+      "success": true
+    },
+    {
+      "id": "sGZg6lIHFh8",
+      "title": "DUPE - Wochenschau 520: Battle Peak (Aug 1940) | 8K (4K UHD)",
+      "success": true
+    },
+    {
+      "id": "LjGFowS8qHI",
+      "title": "DUPE - Wochenschau 512: French Armistice (Jun 1940) | 8K (4K UHD)",
+      "success": true
+    }
+  ],
+  "task_2_vimeo_private": [
+    {
+      "id": "CKLYjy30fIw",
+      "title": "Vimeo Clip Derives Test | 8K HQ (4K UHD)",
+      "success": true
+    }
+  ],
+  "task_3_porky_pig_private": [
+    {
+      "id": "6NKrg94N2kQ",
+      "title": "Porky Pig (15/159): Porky's Railroad (1937) | 8K HQ (4K UHD)",
+      "views": 10,
+      "kept_id": "ZdECCZmCWBw",
+      "kept_title": "Porky Pig (15/159): Porky's Railroad (1937) | 8K HQ (4K UHD)",
+      "kept_views": 58,
+      "success": true
+    }
+  ],
+  "task_4_wochenschau_updated": [
+    {
+      "id": "Yhz7gsTVqNA",
+      "number": "567",
+      "title": "Wochenschau 567: Smolensk Pocket (16.07.1941) | 8K HQ (4K UHD)",
+      "event_de": "Smolensk Kessel",
+      "event_en": "Smolensk Pocket",
+      "date": "16.07.1941",
+      "year": "1941",
+      "recording_date": "1941-07-16T00:00:00Z",
+      "localizations": [
+        "de",
+        "en",
+        "ja",
+        "fr",
+        "es",
+        "pt-BR",
+        "hi",
+        "ko"
+      ],
+      "tags_count": 14
+    },
+    {
+      "id": "suxhPHyaQHU",
+      "number": "569",
+      "title": "Wochenschau 569: Kiev Encirclement (30.07.1941) | 8K HQ (4K UHD)",
+      "event_de": "Kiew Einkreisung",
+      "event_en": "Kiev Encirclement",
+      "date": "30.07.1941",
+      "year": "1941",
+      "recording_date": "1941-07-30T00:00:00Z",
+      "localizations": [
+        "de",
+        "en",
+        "ja",
+        "fr",
+        "es",
+        "pt-BR",
+        "hi",
+        "ko"
+      ],
+      "tags_count": 14
+    },
+    {
+      "id": "tVD8197vAyE",
+      "number": "573",
+      "title": "Wochenschau 573: Kiev Battle (Aug 1941) | 8K HQ (4K UHD)",
+      "event_de": "Kiew Schlacht",
+      "event_en": "Kiev Battle",
+      "date": "27.08.1941",
+      "year": "1941",
+      "recording_date": "1941-08-27T00:00:00Z",
+      "localizations": [
+        "de",
+        "en",
+        "ja",
+        "fr",
+        "es",
+        "pt-BR",
+        "hi",
+        "ko"
+      ],
+      "tags_count": 14
+    },
+    {
+      "id": "pFCidUe6JV4",
+      "number": "605",
+      "title": "Wochenschau 605: Lubeck Bombed (08.04.1942) | 8K HQ (4K UHD)",
+      "event_de": "Lübeck bombardiert",
+      "event_en": "Lubeck Bombed",
+      "date": "08.04.1942",
+      "year": "1942",
+      "recording_date": "1942-04-08T00:00:00Z",
+      "localizations": [
+        "de",
+        "en",
+        "ja",
+        "fr",
+        "es",
+        "pt-BR",
+        "hi",
+        "ko"
+      ],
+      "tags_count": 14
+    },
+    {
+      "id": "Ima7UohPE4Y",
+      "number": "606",
+      "title": "Wochenschau 606: Baedeker Raids (15.04.1942) | 8K HQ (4K UHD)",
+      "event_de": "Baedeker Angriffe",
+      "event_en": "Baedeker Raids",
+      "date": "15.04.1942",
+      "year": "1942",
+      "recording_date": "1942-04-15T00:00:00Z",
+      "localizations": [
+        "de",
+        "en",
+        "ja",
+        "fr",
+        "es",
+        "pt-BR",
+        "hi",
+        "ko"
+      ],
+      "tags_count": 14
+    },
+    {
+      "id": "0sO7jVL43yQ",
+      "number": "652",
+      "title": "Wochenschau 652: Kharkov III (Mar 1943) | 8K HQ (4K UHD)",
+      "event_de": "Charkow III",
+      "event_en": "Kharkov III",
+      "date": "03.03.1943",
+      "year": "1943",
+      "recording_date": "1943-03-03T00:00:00Z",
+      "localizations": [
+        "de",
+        "en",
+        "ja",
+        "fr",
+        "es",
+        "pt-BR",
+        "hi",
+        "ko"
+      ],
+      "tags_count": 14
+    },
+    {
+      "id": "dYBzf5V1TjI",
+      "number": "654",
+      "title": "Wochenschau 654: Tunisia Battles (Mar 1943) | 8K HQ (4K UHD)",
+      "event_de": "Tunis Kämpfe",
+      "event_en": "Tunisia Battles",
+      "date": "17.03.1943",
+      "year": "1943",
+      "recording_date": "1943-03-17T00:00:00Z",
+      "localizations": [
+        "de",
+        "en",
+        "ja",
+        "fr",
+        "es",
+        "pt-BR",
+        "hi",
+        "ko"
+      ],
+      "tags_count": 14
+    },
+    {
+      "id": "RsfUriJTAvE",
+      "number": "690",
+      "title": "Wochenschau 690: Tehran Conference (24.11.1943) | 8K HQ (4K UHD)",
+      "event_de": "Teheran Konferenz",
+      "event_en": "Tehran Conference",
+      "date": "24.11.1943",
+      "year": "1943",
+      "recording_date": "1943-11-24T00:00:00Z",
+      "localizations": [
+        "de",
+        "en",
+        "ja",
+        "fr",
+        "es",
+        "pt-BR",
+        "hi",
+        "ko"
+      ],
+      "tags_count": 14
+    },
+    {
+      "id": "T1pUCPyDrl4",
+      "number": "692",
+      "title": "Wochenschau 692: Eastern Retreats (08.12.1943) | 8K HQ (4K UHD)",
+      "event_de": "Ostfront Rückzüge",
+      "event_en": "Eastern Retreats",
+      "date": "08.12.1943",
+      "year": "1943",
+      "recording_date": "1943-12-08T00:00:00Z",
+      "localizations": [
+        "de",
+        "en",
+        "ja",
+        "fr",
+        "es",
+        "pt-BR",
+        "hi",
+        "ko"
+      ],
+      "tags_count": 14
+    },
+    {
+      "id": "NKjPNR8t_Yk",
+      "number": "705",
+      "title": "Wochenschau 705: Cassino III (08.03.1944) | 8K HQ (4K UHD)",
+      "event_de": "Cassino III",
+      "event_en": "Cassino III",
+      "date": "08.03.1944",
+      "year": "1944",
+      "recording_date": "1944-03-08T00:00:00Z",
+      "localizations": [
+        "de",
+        "en",
+        "ja",
+        "fr",
+        "es",
+        "pt-BR",
+        "hi",
+        "ko"
+      ],
+      "tags_count": 14
+    }
+  ],
+  "task_4_wochenschau_skipped": [
+    {
+      "id": "J3LWOLaxuCc",
+      "number": "542",
+      "title": "Wochenschau 542: Tobruk Falls (Jan 1941) | 8K HQ (4K UHD)",
+      "year": "1941"
+    },
+    {
+      "id": "s5d9cAM6REo",
+      "number": "543",
+      "title": "Wochenschau 543: Africa Corps (Jan 1941) | 8K HQ (4K UHD)",
+      "year": "1941"
+    },
+    {
+      "id": "eBzXzhNYppQ",
+      "number": "544",
+      "title": "Wochenschau 544: Rommel Arrives (Feb 1941) | 8K HQ (4K UHD)",
+      "year": "1941"
+    },
+    {
+      "id": "7bqlAPsgzAQ",
+      "number": "545",
+      "title": "Wochenschau 545: Africa Offensive (Feb 1941) | 8K HQ (4K UHD)",
+      "year": "1941"
+    },
+    {
+      "id": "6wop-BU_XME",
+      "number": "547",
+      "title": "Wochenschau 547: Africa Campaign (Feb 1941) | 8K HQ (4K UHD)",
+      "year": "1941"
+    },
+    {
+      "id": "ZuD1fAyGiUw",
+      "number": "548",
+      "title": "Wochenschau 548: Bulgaria Joins Axis (Mar 1941) | 8K HQ (4K UHD)",
+      "year": "1941"
+    },
+    {
+      "id": "wEMKHQPopHY",
+      "number": "550",
+      "title": "Wochenschau 550: Yugoslavia Crisis (Mar 1941) | 8K HQ (4K UHD)",
+      "year": "1941"
+    },
+    {
+      "id": "2HZx5FumOo8",
+      "number": "552",
+      "title": "Wochenschau 552: Belgrade Coup (02.04.1941) | 8K HQ (4K UHD)",
+      "year": "1941"
+    },
+    {
+      "id": "cBaedrKsyuE",
+      "number": "553",
+      "title": "Wochenschau 553: Balkans Campaign (09.04.1941) | 8K HQ (4K UHD)",
+      "year": "1941"
+    },
+    {
+      "id": "st3OhIheE_0",
+      "number": "554",
+      "title": "Wochenschau 554: Belgrade Falls (16.04.1941) | 8K HQ (4K UHD)",
+      "year": "1941"
+    },
+    {
+      "id": "yNbh1PBUTSA",
+      "number": "555",
+      "title": "Wochenschau 555: Greece Victory (23.04.1941) | 8K HQ (4K UHD)",
+      "year": "1941"
+    },
+    {
+      "id": "q1RBXjC1AbA",
+      "number": "556",
+      "title": "Wochenschau 556: Athens Occupied (30.04.1941) | 8K HQ (4K UHD)",
+      "year": "1941"
+    },
+    {
+      "id": "OOBufXFyuvg",
+      "number": "565",
+      "title": "Wochenschau 565: Eastern Advance (02.07.1941) | 8K HQ (4K UHD)",
+      "year": "1941"
+    }
+  ],
+  "errors": [
+    {
+      "task": "task_4",
+      "id": "UJRbjGwCptI",
+      "number": "697",
+      "title": "Wochenschau 697: Leningrad Relief (12.01.1944) | 8K HQ (4K UHD)",
+      "error": "API update failed"
+    },
+    {
+      "task": "task_4",
+      "id": "CgrWBr68rng",
+      "number": "699",
+      "title": "Wochenschau 699: Anzio Landing (26.01.1944) | 8K HQ (4K UHD)",
+      "error": "API update failed"
+    },
+    {
+      "task": "task_4",
+      "id": "WyDmmQuHV5Y",
+      "number": "700",
+      "title": "Wochenschau 700: Korsun Pocket (02.02.1944) | 8K HQ (4K UHD)",
+      "error": "API update failed"
+    },
+    {
+      "task": "task_4",
+      "id": "WAKX3d__J8E",
+      "number": "701",
+      "title": "Wochenschau 701: Battle of Monte Cassino (09.02.1944) | 8K HQ (4K UHD)",
+      "error": "API update failed"
+    },
+    {
+      "task": "task_4",
+      "id": "f6iafERcG6M",
+      "number": "703",
+      "title": "Wochenschau 703: German Industry & Home Front (23.02.1944) | 8K HQ (4K UHD)",
+      "error": "API update failed"
+    },
+    {
+      "task": "task_4",
+      "id": "ULW1rl24JLM",
+      "number": "703",
+      "title": "Wochenschau 703: Big Week (23.02.1944) | 8K HQ (4K UHD)",
+      "error": "API update failed"
+    },
+    {
+      "task": "task_4",
+      "id": "a-mad6-VBuU",
+      "number": "704",
+      "title": "Wochenschau 704: Air Supremacy Lost (01.03.1944) | 8K HQ (4K UHD)",
+      "error": "API update failed"
+    },
+    {
+      "task": "task_4",
+      "id": "FU9uhmbyyas",
+      "number": "706",
+      "title": "Wochenschau 706: Hungary Under Occupation (15.03.1944) | 8K HQ (4K UHD)",
+      "error": "API update failed"
+    },
+    {
+      "task": "task_4",
+      "id": "xZ8hbztqcQI",
+      "number": "707",
+      "title": "Wochenschau 707: Crimea Campaign (22.03.1944) | 8K HQ (4K UHD)",
+      "error": "API update failed"
+    },
+    {
+      "task": "task_4",
+      "id": "XYH4X8I4L-8",
+      "number": "708",
+      "title": "Wochenschau 708: Eastern Front Offensive (29.03.1944) | 8K HQ (4K UHD)",
+      "error": "API update failed"
+    },
+    {
+      "task": "task_4",
+      "id": "jRYN8RQVHj4",
+      "number": "709",
+      "title": "Wochenschau 709: Crimea Battles (05.04.1944) | 8K HQ (4K UHD)",
+      "error": "API update failed"
+    },
+    {
+      "task": "task_4",
+      "id": "Lqk_6Rp9YLw",
+      "number": "710",
+      "title": "Wochenschau 710: Crimea Evacuation (12.04.1944) | 8K HQ (4K UHD)",
+      "error": "API update failed"
+    },
+    {
+      "task": "task_4",
+      "id": "BMG-obvTut0",
+      "number": "711",
+      "title": "Wochenschau 711: Invasion Expected (19.04.1944) | 8K HQ (4K UHD)",
+      "error": "API update failed"
+    },
+    {
+      "task": "task_4",
+      "id": "P4iJuIBsxKw",
+      "number": "712",
+      "title": "Wochenschau 712: Atlantic Wall (26.04.1944) | 8K HQ (4K UHD)",
+      "error": "API update failed"
+    },
+    {
+      "task": "task_4",
+      "id": "o7-VFXC9xDg",
+      "number": "713",
+      "title": "Wochenschau 713: Sevastopol Falls (03.05.1944) | 8K HQ (4K UHD)",
+      "error": "API update failed"
+    },
+    {
+      "task": "task_4",
+      "id": "m36-1Q855iU",
+      "number": "715",
+      "title": "Wochenschau 715: Cassino Falls (17.05.1944) | 8K HQ (4K UHD)",
+      "error": "API update failed"
+    },
+    {
+      "task": "task_4",
+      "id": "6K-MuUu6L44",
+      "number": "720",
+      "title": "Wochenschau 720: V1 Attacks (Jun 1944) | 8K HQ (4K UHD)",
+      "error": "API update failed"
+    },
+    {
+      "task": "task_4",
+      "id": "W-UcQleew8Y",
+      "number": "721",
+      "title": "Wochenschau 721: Bagration Begins (Jun 1944) | 8K HQ (4K UHD)",
+      "error": "API update failed"
+    },
+    {
+      "task": "task_4",
+      "id": "bZkUPQHqyfg",
+      "number": "722",
+      "title": "Wochenschau 722: Bagration (Jul 1944) | 8K HQ (4K UHD)",
+      "error": "API update failed"
+    },
+    {
+      "task": "task_4",
+      "id": "jGz1kC1Z69A",
+      "number": "746",
+      "title": "Wochenschau 746: Ardennes Offensive (Dec 1944) | 8K HQ (4K UHD)",
+      "error": "API update failed"
+    },
+    {
+      "task": "task_4",
+      "id": "6Mh7zjUCmHw",
+      "number": "749",
+      "title": "Wochenschau 749: Ardennes Fails (10.01.1945) | 8K HQ (4K UHD)",
+      "error": "API update failed"
+    },
+    {
+      "task": "task_4",
+      "id": "w2UvksMOs3c",
+      "number": "750",
+      "title": "Wochenschau 750: Vistula Offensive (17.01.1945) | 8K HQ (4K UHD)",
+      "error": "API update failed"
+    },
+    {
+      "task": "task_4",
+      "id": "6YLPpJLgVXk",
+      "number": "751",
+      "title": "Wochenschau 751: Eastern Collapse (24.01.1945) | 8K HQ (4K UHD)",
+      "error": "API update failed"
+    },
+    {
+      "task": "task_4",
+      "id": "tzqJDt8ASiE",
+      "number": "752",
+      "title": "Wochenschau 752: Auschwitz Liberated (31.01.1945) | 8K HQ (4K UHD)",
+      "error": "API update failed"
+    },
+    {
+      "task": "task_4",
+      "id": "iEEvt-s1XhQ",
+      "number": "753",
+      "title": "Wochenschau 753: Yalta Conference (Feb 1945) | 8K HQ (4K UHD)",
+      "error": "API update failed"
+    },
+    {
+      "task": "task_4",
+      "id": "H_n_mS-eKps",
+      "number": "754",
+      "title": "Wochenschau 754: Dresden Bombed (Feb 1945) | 8K HQ (4K UHD)",
+      "error": "API update failed"
+    }
+  ],
+  "quota_used": 1307
+}

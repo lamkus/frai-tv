@@ -1,0 +1,7008 @@
+{
+  "timestamp": "2026-01-05T14:38:42.876585",
+  "total_videos": 209,
+  "videos_with_issues": 206,
+  "total_issues": 428,
+  "average_score": 60.28708133971292,
+  "issues_summary": {
+    "⚠️ TIMESTAMPS": 203,
+    "❌ PLAYLIST": 90,
+    "⚠️ PLAYLIST": 56,
+    "⚠️ TAGS": 44,
+    "⚠️ BESCHREIBUNG": 20,
+    "❌ KATEGORIE": 15
+  },
+  "videos": [
+    {
+      "video_id": "90UleF637FA",
+      "title": "Mr. Ken Block - Awesome Gymkhana #1 The First - World First - Thx Blockman 4 Th1z!!",
+      "category": "1",
+      "description_length": 176,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ BESCHREIBUNG: Nur 176 Zeichen (min. 200)",
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Subscribe-CTA in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered",
+        "💡 TITEL: Keine Auflösung (8K/4K) im Titel"
+      ],
+      "issue_count": 4,
+      "score": 20
+    },
+    {
+      "video_id": "MKSFnveRc7c",
+      "title": "Battling Bosko (1932) | 8K | @remAIke_IT",
+      "category": "1",
+      "description_length": 156,
+      "tags_count": 8,
+      "tags": [
+        "8K",
+        "classic film",
+        "nostalgia",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "retro",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "bosko",
+        "episode": null,
+        "total": null
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ BESCHREIBUNG: Nur 156 Zeichen (min. 200)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Bosko Playlist"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 TAGS: Nur 8 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation",
+        "💡 TITEL: Serie erkannt aber keine Episodennummer (X/Y)"
+      ],
+      "issue_count": 4,
+      "score": 20
+    },
+    {
+      "video_id": "TidsN4s9v1w",
+      "title": "Casper (29/55): Bull Fright (1955) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 92,
+      "tags_count": 9,
+      "tags": [
+        "8K",
+        "casper",
+        "casper the friendly ghost",
+        "classic film",
+        "famous studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "casper",
+        "episode": 29,
+        "total": 55
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ BESCHREIBUNG: Nur 92 Zeichen (min. 200)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Casper Playlist"
+      ],
+      "suggestions": [
+        "💡 Subscribe-CTA in Beschreibung fehlt",
+        "💡 TAGS: Nur 9 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 4,
+      "score": 25
+    },
+    {
+      "video_id": "SARofiBGJ2U",
+      "title": "Astro Boy (1/52): Astro Boys Geburt | Deutsch | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 649,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "de",
+      "series": {
+        "series": "astro_boy",
+        "episode": 1,
+        "total": 52
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Astro Boy Playlist"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 4,
+      "score": 30
+    },
+    {
+      "video_id": "lNcvMYyLPVU",
+      "title": "Astro Boy (1/52): Astro Boys Geburt | Deutsch | 8K HQ | Anime Klassiker | @remAIke_IT",
+      "category": "1",
+      "description_length": 781,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "de",
+      "series": {
+        "series": "astro_boy",
+        "episode": 1,
+        "total": 52
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Astro Boy Playlist"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 4,
+      "score": 30
+    },
+    {
+      "video_id": "xzZ9yB5lJ9s",
+      "title": "Ferdy: Die abenteuerliche Rettung Bambini | German Deutsch| 8K HQ (4K UHD) | @remAIke_IT",
+      "category": "1",
+      "description_length": 809,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "de",
+      "series": {
+        "series": "ferdy",
+        "episode": null,
+        "total": null
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Ferdy Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: 8K, restored, remastered",
+        "💡 TITEL: Serie erkannt aber keine Episodennummer (X/Y)"
+      ],
+      "issue_count": 4,
+      "score": 30
+    },
+    {
+      "video_id": "lxrwknLmRl4",
+      "title": "Porky Pig (45/159): Porky's Café (1942) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 155,
+      "tags_count": 12,
+      "tags": [
+        "8K",
+        "cartoon",
+        "classic film",
+        "looney tunes",
+        "nostalgia",
+        "porky pig",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "retro"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "porky_pig",
+        "episode": 45,
+        "total": 159
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ BESCHREIBUNG: Nur 155 Zeichen (min. 200)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Porky Pig Playlist"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 4,
+      "score": 30
+    },
+    {
+      "video_id": "ThOkLuJbxF8",
+      "title": "Porky Pig (38/159): Porky's Preview (1941) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 172,
+      "tags_count": 12,
+      "tags": [
+        "8K",
+        "cartoon",
+        "classic film",
+        "looney tunes",
+        "nostalgia",
+        "porky pig",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "retro"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "porky_pig",
+        "episode": 38,
+        "total": 159
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ BESCHREIBUNG: Nur 172 Zeichen (min. 200)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Porky Pig Playlist"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 4,
+      "score": 30
+    },
+    {
+      "video_id": "ZdECCZmCWBw",
+      "title": "Porky Pig (15/159): Porky's Railroad (1937) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 159,
+      "tags_count": 12,
+      "tags": [
+        "8K",
+        "cartoon",
+        "classic film",
+        "looney tunes",
+        "nostalgia",
+        "porky pig",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "retro"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "porky_pig",
+        "episode": 15,
+        "total": 159
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ BESCHREIBUNG: Nur 159 Zeichen (min. 200)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Porky Pig Playlist"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 4,
+      "score": 30
+    },
+    {
+      "video_id": "6NKrg94N2kQ",
+      "title": "Porky Pig (15/159): Porky's Railroad (1937) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 173,
+      "tags_count": 12,
+      "tags": [
+        "8K",
+        "cartoon",
+        "classic film",
+        "looney tunes",
+        "nostalgia",
+        "porky pig",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "retro"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "porky_pig",
+        "episode": 15,
+        "total": 159
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ BESCHREIBUNG: Nur 173 Zeichen (min. 200)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Porky Pig Playlist"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 4,
+      "score": 30
+    },
+    {
+      "video_id": "-ekQdtmjG7Y",
+      "title": "Alfred Jodokus Quack (20/52): Der Alptraum | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "category": "1",
+      "description_length": 715,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "de",
+      "series": {
+        "series": "alfred_jodokus_quack",
+        "episode": 20,
+        "total": 52
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Alfred Jodokus Quack Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 4,
+      "score": 35
+    },
+    {
+      "video_id": "ggJ9g-zD0yw",
+      "title": "Alfred Jodokus Quack (19/52): Rettet die Wale! | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "category": "1",
+      "description_length": 681,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "de",
+      "series": {
+        "series": "alfred_jodokus_quack",
+        "episode": 19,
+        "total": 52
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Alfred Jodokus Quack Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 4,
+      "score": 35
+    },
+    {
+      "video_id": "41NikNnOEts",
+      "title": "Alfred Jodokus Quack (2/52): Böse Überraschung | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "category": "1",
+      "description_length": 857,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "de",
+      "series": {
+        "series": "alfred_jodokus_quack",
+        "episode": 2,
+        "total": 52
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Alfred Jodokus Quack Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 4,
+      "score": 35
+    },
+    {
+      "video_id": "sjwlBJlBRrY",
+      "title": "Alfred Jodokus Quack (16/52): Die Reise zum Südpol | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "category": "1",
+      "description_length": 780,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "de",
+      "series": {
+        "series": "alfred_jodokus_quack",
+        "episode": 16,
+        "total": 52
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Alfred Jodokus Quack Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 4,
+      "score": 35
+    },
+    {
+      "video_id": "njrWOdwQVw0",
+      "title": "Alfred Jodokus Quack (18/52): Im ewigen Eis | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "category": "1",
+      "description_length": 721,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "de",
+      "series": {
+        "series": "alfred_jodokus_quack",
+        "episode": 18,
+        "total": 52
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Alfred Jodokus Quack Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 4,
+      "score": 35
+    },
+    {
+      "video_id": "DBw7GtT_EIo",
+      "title": "Alfred Jodokus Quack (36/52): Die Entführung | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "category": "1",
+      "description_length": 710,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "de",
+      "series": {
+        "series": "alfred_jodokus_quack",
+        "episode": 36,
+        "total": 52
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Alfred Jodokus Quack Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 4,
+      "score": 35
+    },
+    {
+      "video_id": "wtyacKdKcpY",
+      "title": "Alfred Jodokus Quack (17/52): Rettung aus dem All | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "category": "1",
+      "description_length": 739,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "de",
+      "series": {
+        "series": "alfred_jodokus_quack",
+        "episode": 17,
+        "total": 52
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Alfred Jodokus Quack Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 4,
+      "score": 35
+    },
+    {
+      "video_id": "gx6eICiEYLo",
+      "title": "Alfred Jodokus Quack (1/52) German / Deutsch : Hurra, er ist da! | 8K HQ (4K UHD) | @remAIke_IT",
+      "category": "1",
+      "description_length": 795,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "de",
+      "series": {
+        "series": "alfred_jodokus_quack",
+        "episode": 1,
+        "total": 52
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Alfred Jodokus Quack Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 4,
+      "score": 35
+    },
+    {
+      "video_id": "SUPSmIjII8Y",
+      "title": "Looney Tunes: All This and Rabbit Stew (1941) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 700,
+      "tags_count": 8,
+      "tags": [
+        "8K",
+        "classic film",
+        "nostalgia",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "retro",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "looney_tunes",
+        "episode": null,
+        "total": null
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Looney Tunes Playlist"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Subscribe-CTA in Beschreibung fehlt",
+        "💡 TAGS: Nur 8 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation",
+        "💡 TITEL: Serie erkannt aber keine Episodennummer (X/Y)"
+      ],
+      "issue_count": 3,
+      "score": 30
+    },
+    {
+      "video_id": "dLfEqos_mrg",
+      "title": "Looney Tunes: A Day at the Zoo (1939) | 8K HQ | Warner Bros | @remAIke_IT",
+      "category": "1",
+      "description_length": 670,
+      "tags_count": 8,
+      "tags": [
+        "8K",
+        "classic film",
+        "nostalgia",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "retro",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "looney_tunes",
+        "episode": null,
+        "total": null
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Looney Tunes Playlist"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 TAGS: Nur 8 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation",
+        "💡 TITEL: Serie erkannt aber keine Episodennummer (X/Y)"
+      ],
+      "issue_count": 3,
+      "score": 35
+    },
+    {
+      "video_id": "hOZQjNBV5R0",
+      "title": "Pagan Moon (1932) | 8K | @remAIke_IT",
+      "category": "1",
+      "description_length": 152,
+      "tags_count": 8,
+      "tags": [
+        "8K",
+        "classic film",
+        "nostalgia",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "retro",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ BESCHREIBUNG: Nur 152 Zeichen (min. 200)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 TAGS: Nur 8 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 3,
+      "score": 40
+    },
+    {
+      "video_id": "1qMv827zxW0",
+      "title": "Aint Nature Grand (1931) | 8K | @remAIke_IT",
+      "category": "1",
+      "description_length": 159,
+      "tags_count": 8,
+      "tags": [
+        "8K",
+        "classic film",
+        "nostalgia",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "retro",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ BESCHREIBUNG: Nur 159 Zeichen (min. 200)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 TAGS: Nur 8 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 3,
+      "score": 40
+    },
+    {
+      "video_id": "EZxg1D958mo",
+      "title": "A Corny Concerto (1943) | 8K | @remAIke_IT",
+      "category": "1",
+      "description_length": 158,
+      "tags_count": 8,
+      "tags": [
+        "8K",
+        "classic film",
+        "nostalgia",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "retro",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ BESCHREIBUNG: Nur 158 Zeichen (min. 200)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 TAGS: Nur 8 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 3,
+      "score": 40
+    },
+    {
+      "video_id": "2nT_DjkOWn8",
+      "title": "Pigs In A Polka (1943) | 8K | @remAIke_IT",
+      "category": "1",
+      "description_length": 157,
+      "tags_count": 8,
+      "tags": [
+        "8K",
+        "classic film",
+        "nostalgia",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "retro",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ BESCHREIBUNG: Nur 157 Zeichen (min. 200)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 TAGS: Nur 8 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 3,
+      "score": 40
+    },
+    {
+      "video_id": "0ZT_5BmyixM",
+      "title": "A Tale Of Two Kitties (1942) | 8K | @remAIke_IT",
+      "category": "1",
+      "description_length": 163,
+      "tags_count": 8,
+      "tags": [
+        "8K",
+        "classic film",
+        "nostalgia",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "retro",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ BESCHREIBUNG: Nur 163 Zeichen (min. 200)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 TAGS: Nur 8 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 3,
+      "score": 40
+    },
+    {
+      "video_id": "9dQKLUfKfgU",
+      "title": "Planet Outlaws (1953) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 74,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ BESCHREIBUNG: Nur 74 Zeichen (min. 200)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Subscribe-CTA in Beschreibung fehlt",
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 3,
+      "score": 40
+    },
+    {
+      "video_id": "TQxoPV8BuJE",
+      "title": "Casper (17/55): Spook No Evil (1953) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 1244,
+      "tags_count": 9,
+      "tags": [
+        "8K",
+        "casper",
+        "casper the friendly ghost",
+        "classic film",
+        "famous studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "casper",
+        "episode": 17,
+        "total": 55
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Casper Playlist"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 TAGS: Nur 9 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 3,
+      "score": 40
+    },
+    {
+      "video_id": "qOWjENMOyLo",
+      "title": "Design for Dreaming (1956) | 8K HQ | GM Motorama | @remAIke_IT",
+      "category": "1",
+      "description_length": 676,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 3,
+      "score": 45
+    },
+    {
+      "video_id": "_84z5LH1xbU",
+      "title": "Word to the Wives (1955) | 8K HQ | Vintage Educational | @remAIke_IT",
+      "category": "1",
+      "description_length": 609,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 3,
+      "score": 45
+    },
+    {
+      "video_id": "fKdS-UJ4W0w",
+      "title": "Molly Moo-Cow: The Grocery Boy (1953) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 594,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 3,
+      "score": 45
+    },
+    {
+      "video_id": "V9zhjG_6cHU",
+      "title": "New Year's Eve 1950s TV Supercut (74 Min) | 8K HQ (4K UHD) | @remAIke_IT",
+      "category": "1",
+      "description_length": 829,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 3,
+      "score": 45
+    },
+    {
+      "video_id": "zCU9meue9hw",
+      "title": "Times Square NBC Ball Drop (1953) | 8K HQ (4K UHD) | @remAIke_IT",
+      "category": "1",
+      "description_length": 804,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 3,
+      "score": 45
+    },
+    {
+      "video_id": "XAyK1yy_e-M",
+      "title": "Day of the Earth (1951) | Vintage Documentary | 8K HQ (4K UHD) | @remAIke_IT",
+      "category": "1",
+      "description_length": 809,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 3,
+      "score": 45
+    },
+    {
+      "video_id": "0ol3EMS2NMA",
+      "title": "Porky Pig (39/159): Porky's Ant (1941) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 724,
+      "tags_count": 12,
+      "tags": [
+        "8K",
+        "cartoon",
+        "classic film",
+        "looney tunes",
+        "nostalgia",
+        "porky pig",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "retro"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "porky_pig",
+        "episode": 39,
+        "total": 159
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Porky Pig Playlist"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 3,
+      "score": 45
+    },
+    {
+      "video_id": "Zq5Hi7pSzxA",
+      "title": "Porky Pig (55/159): Porky Pig's Feat (1943) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 567,
+      "tags_count": 12,
+      "tags": [
+        "8K",
+        "cartoon",
+        "classic film",
+        "looney tunes",
+        "nostalgia",
+        "porky pig",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "retro"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "porky_pig",
+        "episode": 55,
+        "total": 159
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Porky Pig Playlist"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 3,
+      "score": 45
+    },
+    {
+      "video_id": "BmFt9HoiTA4",
+      "title": "Porky Pig (54/159): Pigs in a Polka (1943) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 754,
+      "tags_count": 12,
+      "tags": [
+        "8K",
+        "cartoon",
+        "classic film",
+        "looney tunes",
+        "nostalgia",
+        "porky pig",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "retro"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "porky_pig",
+        "episode": 54,
+        "total": 159
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Porky Pig Playlist"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 3,
+      "score": 45
+    },
+    {
+      "video_id": "4QsmNrKZ6Sc",
+      "title": "Porky Pig (55/159): Porky Pig's Feat (1943) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 579,
+      "tags_count": 12,
+      "tags": [
+        "8K",
+        "cartoon",
+        "classic film",
+        "looney tunes",
+        "nostalgia",
+        "porky pig",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "retro"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "porky_pig",
+        "episode": 55,
+        "total": 159
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Porky Pig Playlist"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 3,
+      "score": 45
+    },
+    {
+      "video_id": "DtGjwFMdow8",
+      "title": "Porky Pig (5/159): Boom Boom (1936) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 680,
+      "tags_count": 12,
+      "tags": [
+        "8K",
+        "cartoon",
+        "classic film",
+        "looney tunes",
+        "nostalgia",
+        "porky pig",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "retro"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "porky_pig",
+        "episode": 5,
+        "total": 159
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Porky Pig Playlist"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 3,
+      "score": 45
+    },
+    {
+      "video_id": "1mVWh_B6_00",
+      "title": "Little Lambkins (1940) | Fleischer Color Classic | 8K HQ (4K UHD) |... | @remAIke_IT",
+      "category": "1",
+      "description_length": 407,
+      "tags_count": 20,
+      "tags": [
+        "1940",
+        "1940s",
+        "1940s classics",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "cartoon",
+        "classic",
+        "classic animation"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "color_classics",
+        "episode": null,
+        "total": null
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Color Classics Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered",
+        "💡 TITEL: Serie erkannt aber keine Episodennummer (X/Y)"
+      ],
+      "issue_count": 3,
+      "score": 45
+    },
+    {
+      "video_id": "4VO2weDCfi0",
+      "title": "The Little Stranger (1936) | Fleischer Color Classic | 8K HQ (4K UH... | @remAIke_IT",
+      "category": "1",
+      "description_length": 411,
+      "tags_count": 20,
+      "tags": [
+        "1930s",
+        "1930s classics",
+        "1936",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "cartoon",
+        "classic",
+        "classic animation"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "color_classics",
+        "episode": null,
+        "total": null
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Color Classics Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered",
+        "💡 TITEL: Serie erkannt aber keine Episodennummer (X/Y)"
+      ],
+      "issue_count": 3,
+      "score": 45
+    },
+    {
+      "video_id": "z3ooovq4lcE",
+      "title": "Casper (4/55): Casper's Spree Under the Sea (1950) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 865,
+      "tags_count": 9,
+      "tags": [
+        "8K",
+        "casper",
+        "casper the friendly ghost",
+        "classic film",
+        "famous studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "casper",
+        "episode": 4,
+        "total": 55
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Casper Playlist"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 9 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 3,
+      "score": 45
+    },
+    {
+      "video_id": "JwfacoEPaII",
+      "title": "Casper (24/55): Boos and Arrows (1954) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 677,
+      "tags_count": 9,
+      "tags": [
+        "8K",
+        "casper",
+        "casper the friendly ghost",
+        "classic film",
+        "famous studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "casper",
+        "episode": 24,
+        "total": 55
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Casper Playlist"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 9 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 3,
+      "score": 45
+    },
+    {
+      "video_id": "0p7ZwIJCH_0",
+      "title": "Casper (32/55): Ground Hog Play (1956) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 782,
+      "tags_count": 9,
+      "tags": [
+        "8K",
+        "casper",
+        "casper the friendly ghost",
+        "classic film",
+        "famous studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "casper",
+        "episode": 32,
+        "total": 55
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Casper Playlist"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 9 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 3,
+      "score": 45
+    },
+    {
+      "video_id": "uBJ6_wlcSWw",
+      "title": "Casper (41/55): Ice Scream (1957) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 799,
+      "tags_count": 9,
+      "tags": [
+        "8K",
+        "casper",
+        "casper the friendly ghost",
+        "classic film",
+        "famous studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "casper",
+        "episode": 41,
+        "total": 55
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Casper Playlist"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 9 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 3,
+      "score": 45
+    },
+    {
+      "video_id": "3gzbxznJ_PM",
+      "title": "POPEYE Marathon 8K (1950) | @remAIke_IT",
+      "category": "1",
+      "description_length": 2536,
+      "tags_count": 10,
+      "tags": [
+        "8K",
+        "classic film",
+        "fleischer",
+        "popeye",
+        "popeye the sailor",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "spinach",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "popeye",
+        "episode": null,
+        "total": null
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Popeye Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation",
+        "💡 TITEL: Serie erkannt aber keine Episodennummer (X/Y)"
+      ],
+      "issue_count": 3,
+      "score": 45
+    },
+    {
+      "video_id": "uWacVV7EkxQ",
+      "title": "Casper (1/55): The Friendly Ghost (1945) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 692,
+      "tags_count": 23,
+      "tags": [
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "cartoon",
+        "casper",
+        "casper the friendly ghost",
+        "christmas",
+        "classic animation",
+        "classic cartoon"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "casper",
+        "episode": 1,
+        "total": 55
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Casper Playlist"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: remastered"
+      ],
+      "issue_count": 3,
+      "score": 45
+    },
+    {
+      "video_id": "FG-vqRH5Cg4",
+      "title": "Charlie Chaplin Film Festival (1920) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2473,
+      "tags_count": 10,
+      "tags": [
+        "8K",
+        "charlie chaplin",
+        "classic film",
+        "comedy",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "silent film",
+        "the tramp",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "chaplin",
+        "episode": null,
+        "total": null
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Chaplin Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation",
+        "💡 TITEL: Serie erkannt aber keine Episodennummer (X/Y)"
+      ],
+      "issue_count": 3,
+      "score": 45
+    },
+    {
+      "video_id": "_3Z1GTYFUAM",
+      "title": "Buster Keaton – Convict 13 (1920) | 8K Remastered | Silent Comedy C...",
+      "category": "1",
+      "description_length": 410,
+      "tags_count": 24,
+      "tags": [
+        "1920",
+        "1920s",
+        "1920s classics",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "buster",
+        "buster keaton",
+        "classic comedy",
+        "classic tv"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "buster_keaton",
+        "episode": null,
+        "total": null
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Buster Keaton Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: animation",
+        "💡 TITEL: Serie erkannt aber keine Episodennummer (X/Y)"
+      ],
+      "issue_count": 3,
+      "score": 45
+    },
+    {
+      "video_id": "mybF4jPjl64",
+      "title": "Buster Keaton – My Wife’s Relations (1922) | 8K| Sil... | @remAIke_IT",
+      "category": "1",
+      "description_length": 419,
+      "tags_count": 25,
+      "tags": [
+        "1920s",
+        "1920s classics",
+        "1922",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "buster",
+        "buster keaton",
+        "classic comedy",
+        "classic tv"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "buster_keaton",
+        "episode": null,
+        "total": null
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Buster Keaton Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: animation",
+        "💡 TITEL: Serie erkannt aber keine Episodennummer (X/Y)"
+      ],
+      "issue_count": 3,
+      "score": 45
+    },
+    {
+      "video_id": "unzHtnrKeOU",
+      "title": "Superman (10/17): Japoteurs (1942) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 736,
+      "tags_count": 24,
+      "tags": [
+        "1940s",
+        "1940s classics",
+        "1942",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "cartoon",
+        "classic animation",
+        "classic cartoon"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "superman",
+        "episode": 10,
+        "total": 17
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Superman Playlist"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: remastered"
+      ],
+      "issue_count": 3,
+      "score": 45
+    },
+    {
+      "video_id": "M0-tJK4H3lo",
+      "title": "The Tokyo Jokio (1943) – Merrie Melodies8K Restora... | @remAIke_IT",
+      "category": "22",
+      "description_length": 421,
+      "tags_count": 20,
+      "tags": [
+        "1940s",
+        "1940s classics",
+        "1943",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "cartoon",
+        "classic animation",
+        "classic cartoon"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "looney_tunes",
+        "episode": null,
+        "total": null
+      },
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "❌ KATEGORIE: Ist '22', sollte '1' (Film & Animation) sein",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "⚠️ PLAYLIST: Nicht in Looney Tunes Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered",
+        "💡 TITEL: Serie erkannt aber keine Episodennummer (X/Y)"
+      ],
+      "issue_count": 3,
+      "score": 45
+    },
+    {
+      "video_id": "DKWzEM8p-dA",
+      "title": "Alfred Jodokus Quack (3/52): Hinter Gittern | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "category": "1",
+      "description_length": 814,
+      "tags_count": 19,
+      "tags": [
+        "4K UHD Content",
+        "8K Animation",
+        "Alfred Jodokus Quack",
+        "Animated Comedy",
+        "Animated Series",
+        "Animation Series",
+        "Cartoon Classics",
+        "Children's Series",
+        "Classic Episodes",
+        "Deutsch Animation"
+      ],
+      "has_timestamps": false,
+      "language": "de",
+      "series": {
+        "series": "alfred_jodokus_quack",
+        "episode": 3,
+        "total": 52
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Alfred Jodokus Quack Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: restored, remastered, public domain"
+      ],
+      "issue_count": 3,
+      "score": 50
+    },
+    {
+      "video_id": "NcfUWqlfSm0",
+      "title": "Getaway in Stockholm 1 – Porsche 911 | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 862,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 3,
+      "score": 50
+    },
+    {
+      "video_id": "q_Mgt80t5JA",
+      "title": "Guy Lombardo New Year’s Eve (1957) | CBS Kinescope | 8K HQ (4K UHD) | @remAIke_IT",
+      "category": "1",
+      "description_length": 809,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 3,
+      "score": 50
+    },
+    {
+      "video_id": "FQvtw2ira-o",
+      "title": "Times Square Vintage Compilation (1930s–1950s) | 8K HQ (4K UHD) | @remAIke_IT",
+      "category": "1",
+      "description_length": 734,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 3,
+      "score": 50
+    },
+    {
+      "video_id": "2CwXPhUDC7U",
+      "title": "New Year’s Eve 1951–1952 | Colorized Home Movies | 8K HQ (4K UHD) | @remAIke_IT",
+      "category": "1",
+      "description_length": 785,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 3,
+      "score": 50
+    },
+    {
+      "video_id": "r6-XNaneYMg",
+      "title": "Weihnachten im Dritten Reich (1933–1944) | 8K HQ | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 869,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "de",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 3,
+      "score": 50
+    },
+    {
+      "video_id": "kIjp4Mm_nm4",
+      "title": "Popeye (195/231): Private Eye Popeye (1954) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 1043,
+      "tags_count": 10,
+      "tags": [
+        "8K",
+        "classic film",
+        "fleischer",
+        "popeye",
+        "popeye the sailor",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "spinach",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "popeye",
+        "episode": 195,
+        "total": 231
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Popeye Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 3,
+      "score": 50
+    },
+    {
+      "video_id": "cH5VPFJFKtI",
+      "title": "Superman (9/17): Terror on the Midway (1942) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 826,
+      "tags_count": 10,
+      "tags": [
+        "8K",
+        "classic film",
+        "dc comics",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "superhero",
+        "superman",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "superman",
+        "episode": 9,
+        "total": 17
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Superman Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 3,
+      "score": 50
+    },
+    {
+      "video_id": "MGDT-j7K32s",
+      "title": "Superman (14/17): The Mummy Strikes (1943) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 667,
+      "tags_count": 10,
+      "tags": [
+        "8K",
+        "classic film",
+        "dc comics",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "superhero",
+        "superman",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "superman",
+        "episode": 14,
+        "total": 17
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Superman Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 3,
+      "score": 50
+    },
+    {
+      "video_id": "5H3WyI_TG-I",
+      "title": "Superman (15/17): Jungle Drums (1943) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 806,
+      "tags_count": 10,
+      "tags": [
+        "8K",
+        "classic film",
+        "dc comics",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "superhero",
+        "superman",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "superman",
+        "episode": 15,
+        "total": 17
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Superman Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 3,
+      "score": 50
+    },
+    {
+      "video_id": "bShrsrrzOYQ",
+      "title": "Superman (10/17): Japoteurs (1942) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2881,
+      "tags_count": 10,
+      "tags": [
+        "8K",
+        "classic film",
+        "dc comics",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "superhero",
+        "superman",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "superman",
+        "episode": 10,
+        "total": 17
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Superman Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 3,
+      "score": 50
+    },
+    {
+      "video_id": "eeId9wqhtuQ",
+      "title": "Popeye (228/231): Patriotic Popeye (1957) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2300,
+      "tags_count": 10,
+      "tags": [
+        "8K",
+        "classic film",
+        "fleischer",
+        "popeye",
+        "popeye the sailor",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "spinach",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "popeye",
+        "episode": 228,
+        "total": 231
+      },
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!",
+        "⚠️ PLAYLIST: Nicht in Popeye Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 3,
+      "score": 50
+    },
+    {
+      "video_id": "nqynuh9a79c",
+      "title": "Bettyboopforpresident 629 | 8K | @remAIke_IT",
+      "category": "1",
+      "description_length": 160,
+      "tags_count": 8,
+      "tags": [
+        "8K",
+        "classic film",
+        "nostalgia",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "retro",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": null,
+        "total": null
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ BESCHREIBUNG: Nur 160 Zeichen (min. 200)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 TAGS: Nur 8 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation",
+        "💡 TITEL: Serie erkannt aber keine Episodennummer (X/Y)"
+      ],
+      "issue_count": 2,
+      "score": 50
+    },
+    {
+      "video_id": "D1WD7sS637k",
+      "title": "Experiments in the Revival of Organisms (1940)",
+      "category": "1",
+      "description_length": 2740,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Subscribe-CTA in Beschreibung fehlt",
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation",
+        "💡 TITEL: Keine Auflösung (8K/4K) im Titel"
+      ],
+      "issue_count": 2,
+      "score": 50
+    },
+    {
+      "video_id": "DO8dSN4aAB4",
+      "title": "Nazi Concentration Camps (1945)",
+      "category": "1",
+      "description_length": 3020,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "de",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Subscribe-CTA in Beschreibung fehlt",
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation",
+        "💡 TITEL: Keine Auflösung (8K/4K) im Titel"
+      ],
+      "issue_count": 2,
+      "score": 50
+    },
+    {
+      "video_id": "PySMbbpIAUM",
+      "title": "The Cigar Box (1905) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 902,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Subscribe-CTA in Beschreibung fehlt",
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 50
+    },
+    {
+      "video_id": "IpWrF7DYyWU",
+      "title": "The Golden Beetle (1907) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 906,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Subscribe-CTA in Beschreibung fehlt",
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 50
+    },
+    {
+      "video_id": "PzbAE96bG1Q",
+      "title": "Hawaiian Birds (1936) | Fleischer Color Classic | 8K HQ (4K UHD) | ... | @remAIke_IT",
+      "category": "1",
+      "description_length": 191,
+      "tags_count": 20,
+      "tags": [
+        "1930s",
+        "1930s classics",
+        "1936",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "birds",
+        "cartoon",
+        "classic"
+      ],
+      "has_timestamps": true,
+      "language": "en",
+      "series": {
+        "series": "color_classics",
+        "episode": null,
+        "total": null
+      },
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ BESCHREIBUNG: Nur 191 Zeichen (min. 200)",
+        "⚠️ PLAYLIST: Nicht in Color Classics Playlist"
+      ],
+      "suggestions": [
+        "💡 Subscribe-CTA in Beschreibung fehlt",
+        "💡 Fehlende Tags: remastered",
+        "💡 TITEL: Serie erkannt aber keine Episodennummer (X/Y)"
+      ],
+      "issue_count": 2,
+      "score": 55
+    },
+    {
+      "video_id": "hvdNZy8AciI",
+      "title": "Casper (15/55): True Boo (1952) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 1208,
+      "tags_count": 9,
+      "tags": [
+        "8K",
+        "casper",
+        "casper the friendly ghost",
+        "classic film",
+        "famous studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "casper",
+        "episode": 15,
+        "total": 55
+      },
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "⚠️ PLAYLIST: Nicht in Casper Playlist"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 TAGS: Nur 9 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 55
+    },
+    {
+      "video_id": "EasEhYlorqQ",
+      "title": "Pearl Harbor (Short Version, ) (1942)",
+      "category": "1",
+      "description_length": 2726,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "de",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation",
+        "💡 TITEL: Keine Auflösung (8K/4K) im Titel"
+      ],
+      "issue_count": 2,
+      "score": 55
+    },
+    {
+      "video_id": "WWdC0Rq4cQQ",
+      "title": "Krazy Kat: Keeping Up (1916) | @reAImastered 8 K Comic Classic Edit...",
+      "category": "1",
+      "description_length": 295,
+      "tags_count": 20,
+      "tags": [
+        "1910s",
+        "1910s classics",
+        "1916",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "cartoon",
+        "classic",
+        "classic animation"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "krazy_kat",
+        "episode": null,
+        "total": null
+      },
+      "playlists": [
+        "ALL @reAImastered",
+        "@reAImastered for Kids"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "⚠️ PLAYLIST: Nicht in Krazy Kat Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered",
+        "💡 TITEL: Serie erkannt aber keine Episodennummer (X/Y)",
+        "💡 TITEL: Keine Auflösung (8K/4K) im Titel"
+      ],
+      "issue_count": 2,
+      "score": 55
+    },
+    {
+      "video_id": "qZU5lVJMkoM",
+      "title": "Felix Minds the Kid (1922) | @reAImastered 8 K Comic Classic Editio...",
+      "category": "22",
+      "description_length": 480,
+      "tags_count": 23,
+      "tags": [
+        "1920s",
+        "1920s classics",
+        "1922",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "cartoon",
+        "classic",
+        "classic animation"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "felix",
+        "episode": null,
+        "total": null
+      },
+      "playlists": [
+        "ALL @reAImastered",
+        "Felix The Cat",
+        "@reAImastered for Kids"
+      ],
+      "issues": [
+        "❌ KATEGORIE: Ist '22', sollte '1' (Film & Animation) sein",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered",
+        "💡 TITEL: Serie erkannt aber keine Episodennummer (X/Y)",
+        "💡 TITEL: Keine Auflösung (8K/4K) im Titel"
+      ],
+      "issue_count": 2,
+      "score": 55
+    },
+    {
+      "video_id": "EMQSoqxYWEI",
+      "title": "Betty Boop (34/105): May Party (1933) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 713,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 34,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "XvuABgCE8NQ",
+      "title": "Betty Boop (27/105): Museum (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 680,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 27,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "LJX_WL5ABAU",
+      "title": "Betty Boop (31/105): Penthouse (1933) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 765,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 31,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "VJZPCGZFfTA",
+      "title": "Betty Boop (23/105): Bamboo Isle (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 961,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 23,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "I8R0mmVKXm4",
+      "title": "Betty Boop (24/105): Ups and Downs (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 785,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 24,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "LnNGWC0OJcE",
+      "title": "Betty Boop (46/105): The Trial (1934) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 765,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "de",
+      "series": {
+        "series": "betty_boop",
+        "episode": 46,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "TpSJjvmyHGA",
+      "title": "Betty Boop (45/105): Rise to Fame (1934) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 743,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 45,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "flCgD7UH8HY",
+      "title": "Betty Boop (50/105): Prize Show (1934) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 693,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 50,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "AayVfUsXAEY",
+      "title": "Betty Boop (97/105): Sally Swing (1938) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 697,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 97,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "83CK1R2S1AY",
+      "title": "Betty Boop (79/105): Service with a Smile (1937) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 571,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 79,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "nuuO-UewcoE",
+      "title": "Betty Boop (41/105): She Wronged Him Right (1934) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 636,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 41,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "G_llq8tK_Fc",
+      "title": "Betty Boop (32/105): Snow White (1933) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 806,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 32,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "zogZ5nzJCTE",
+      "title": "Betty Boop (55/105): Stop That Noise (1935) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 679,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 55,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "gZFsTHvb2qE",
+      "title": "Betty Boop (26/105): You Rascal You (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 650,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 26,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "k53INuDjfNU",
+      "title": "Betty Boop (51/105): Keep in Style (1934) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 688,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 51,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "U3JSBxrhBAs",
+      "title": "Betty Boop (88/105): Riding the Rails (1938) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 671,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 88,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "bQJamskWRvA",
+      "title": "Betty Boop (42/105): Red Hot Mamma (1934) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 748,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 42,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "xoCvBUIaqwg",
+      "title": "Betty Boop (95/105): Pudgy the Watchman (1938) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 700,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 95,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "QgNUV39Sg0o",
+      "title": "Betty Boop (40/105): Parade of Wooden Soldiers (1933) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 608,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 40,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "X7w40xteJyw",
+      "title": "Betty Boop (38/105): Morning Noon and Night (1933) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 640,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 38,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "zouf8VMUeCo",
+      "title": "Betty Boop (91/105): Out of the Inkwell (1938) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 791,
+      "tags_count": 0,
+      "tags": [],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 91,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TAGS: Nur 0 Tags (empfohlen: 10-15)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: 8K, restored, remastered"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "cvUuj-GfEuo",
+      "title": "Betty Boop (43/105): Ha! Ha! Ha! (1934) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 76,
+      "tags_count": 10,
+      "tags": [
+        "1930s",
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 43,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored",
+        "🎨 Classic Cartoons | Vintage Animation"
+      ],
+      "issues": [
+        "⚠️ BESCHREIBUNG: Nur 76 Zeichen (min. 200)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Subscribe-CTA in Beschreibung fehlt",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "dpF2uQVgCsM",
+      "title": "The Fast and the Furious (1954) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 836,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "7W-_ArNKyKc",
+      "title": "Betty Boop (77/105): Whoops, I'm a Cowboy (1937) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 92,
+      "tags_count": 10,
+      "tags": [
+        "1930s",
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 77,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored",
+        "🎨 Classic Cartoons | Vintage Animation",
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ BESCHREIBUNG: Nur 92 Zeichen (min. 200)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Subscribe-CTA in Beschreibung fehlt",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "_Z9VTKGr25g",
+      "title": "Betty Boop (2/105): Barnacle Bill (1930) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 93,
+      "tags_count": 10,
+      "tags": [
+        "1930s",
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 2,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored",
+        "🎨 Classic Cartoons | Vintage Animation",
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ BESCHREIBUNG: Nur 93 Zeichen (min. 200)",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Subscribe-CTA in Beschreibung fehlt",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "-GPnP21sbB0",
+      "title": "Casper (13/55): Spunky Skunky (1952) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 760,
+      "tags_count": 9,
+      "tags": [
+        "8K",
+        "casper",
+        "casper the friendly ghost",
+        "classic film",
+        "famous studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "casper",
+        "episode": 13,
+        "total": 55
+      },
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "⚠️ PLAYLIST: Nicht in Casper Playlist"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 9 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "-WW6MO7XkLo",
+      "title": "Balloon Land (1935) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 662,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "EpzJcD6zkvs",
+      "title": "Suzy Snowflake (1953) Christmas Short | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 1804,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "U-WD47NSgAE",
+      "title": "Coca‑Cola Christmas Trucks – Holidays Are Coming (1995) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2656,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "JhJmasQ8N-8",
+      "title": "Great Expectations – David Lean (1946) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2617,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "ezYIk8bReaE",
+      "title": "The Skeleton Dance (1929) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2599,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "V8qeIRongA0",
+      "title": "Mel‑O‑Toons: Peter and the Wolf (1960) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2592,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "cCNm8nNHing",
+      "title": "Tarzan’s Revenge (1938) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2221,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "z8FqTSpp6Kg",
+      "title": "Dinner for One (1963) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2610,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "de",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "_aUNgDJoWoU",
+      "title": "Scarlet Street – Fritz Lang (1945) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2442,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "8lLtNb11NKU",
+      "title": "Metropolis – Fritz Lang (1927) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2834,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "de",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "Qm3K0-XL46Q",
+      "title": "Kirby Abridged Collection | 8K @remAIke_IT | Funny Kirby Anime Parody – Best Online Version",
+      "category": "1",
+      "description_length": 2355,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "exukLdxugy8",
+      "title": "Häxan – Witchcraft Through the Ages (1922) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2778,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "AyjJbgijx68",
+      "title": "Lucy Meets John Wayne (1966) | The Lucy Show S5E10 | 8K @remAIke_IT – Best Online Version",
+      "category": "1",
+      "description_length": 2289,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "2Ua5qHZ5QDw",
+      "title": "Golden Gate (1940) San Francisco | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2553,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "LEM6FkBTDNs",
+      "title": "20,000 Leagues Under the Sea (1916) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2312,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "DnwDqCsSqRw",
+      "title": "Berlin: Symphony of Great City (1927) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2585,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "EM076HMwVwI",
+      "title": "The Cure (1917) | Charlie Chaplin | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2269,
+      "tags_count": 10,
+      "tags": [
+        "8K",
+        "charlie chaplin",
+        "classic film",
+        "comedy",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "silent film",
+        "the tramp",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "chaplin",
+        "episode": null,
+        "total": null
+      },
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "⚠️ PLAYLIST: Nicht in Chaplin Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation",
+        "💡 TITEL: Serie erkannt aber keine Episodennummer (X/Y)"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "3NagSoFaAwI",
+      "title": "\"World First Scifi\" Airship Destroyed (1909) | @reAImastered 8 K Cl...",
+      "category": "22",
+      "description_length": 491,
+      "tags_count": 20,
+      "tags": [
+        "1900s",
+        "1900s classics",
+        "1909",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "airship",
+        "animation",
+        "cartoon",
+        "classic animation"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "❌ KATEGORIE: Ist '22', sollte '1' (Film & Animation) sein",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered",
+        "💡 TITEL: Keine Auflösung (8K/4K) im Titel"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "-623U3tgryM",
+      "title": "Mel-O-Toons: Peter and the Wolf (1960 ca.) | @reAImastered 8 K Comi...",
+      "category": "22",
+      "description_length": 499,
+      "tags_count": 17,
+      "tags": [
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "cartoon",
+        "classic animation",
+        "classic cartoon",
+        "comic",
+        "frai.tv",
+        "peter"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered",
+        "@reAImastered for Kids"
+      ],
+      "issues": [
+        "❌ KATEGORIE: Ist '22', sollte '1' (Film & Animation) sein",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered",
+        "💡 TITEL: Keine Auflösung (8K/4K) im Titel"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "0pBFESQ-FmA",
+      "title": "Little Nemo in Slumberland (1911) – reAImastering 8 K Edition | reA...",
+      "category": "22",
+      "description_length": 507,
+      "tags_count": 20,
+      "tags": [
+        "1910s",
+        "1910s classics",
+        "1911",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "cartoon",
+        "classic animation",
+        "classic cartoon"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered",
+        "@reAImastered for Kids"
+      ],
+      "issues": [
+        "❌ KATEGORIE: Ist '22', sollte '1' (Film & Animation) sein",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered",
+        "💡 TITEL: Keine Auflösung (8K/4K) im Titel"
+      ],
+      "issue_count": 2,
+      "score": 60
+    },
+    {
+      "video_id": "DHogGPBbzRI",
+      "title": "Soundie: Sweet Sue (Just You) | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "category": "1",
+      "description_length": 713,
+      "tags_count": 19,
+      "tags": [
+        "8K Video",
+        "Classic Hits",
+        "Dancing Clips",
+        "Film Nostalgia",
+        "Golden Age",
+        "High Fidelity",
+        "Jazz Era",
+        "Music Film",
+        "Musical Short",
+        "Nostalgic Sounds"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: restored, animation, public domain"
+      ],
+      "issue_count": 2,
+      "score": 65
+    },
+    {
+      "video_id": "D4Rphx3UDzQ",
+      "title": "Superman (16/17): The Underground World (1943) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 672,
+      "tags_count": 10,
+      "tags": [
+        "8K",
+        "classic film",
+        "dc comics",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "superhero",
+        "superman",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "superman",
+        "episode": 16,
+        "total": 17
+      },
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "⚠️ PLAYLIST: Nicht in Superman Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 65
+    },
+    {
+      "video_id": "guleycwwXeQ",
+      "title": "Superman (3/17): Billion Dollar Limited (1942) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 682,
+      "tags_count": 10,
+      "tags": [
+        "8K",
+        "classic film",
+        "dc comics",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "superhero",
+        "superman",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "superman",
+        "episode": 3,
+        "total": 17
+      },
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "⚠️ PLAYLIST: Nicht in Superman Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 65
+    },
+    {
+      "video_id": "Aq1OfWdwV-Q",
+      "title": "Superman (7/17): Electric Earthquake (1942) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2548,
+      "tags_count": 10,
+      "tags": [
+        "8K",
+        "classic film",
+        "dc comics",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "superhero",
+        "superman",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "superman",
+        "episode": 7,
+        "total": 17
+      },
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "⚠️ PLAYLIST: Nicht in Superman Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 65
+    },
+    {
+      "video_id": "gMpONbJ3-9U",
+      "title": "The Bee and the Rose (1908) | 8K| Segundo de Chomón ... | @remAIke_IT",
+      "category": "1",
+      "description_length": 403,
+      "tags_count": 20,
+      "tags": [
+        "1900s",
+        "1900s classics",
+        "1908",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "classic cinema",
+        "classic film",
+        "domain",
+        "film noir"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 65
+    },
+    {
+      "video_id": "Nzi6aRKDoEs",
+      "title": "Nosferatu (1922) | 8K| Public Domain Silent Horror | @remAIke_IT",
+      "category": "1",
+      "description_length": 869,
+      "tags_count": 17,
+      "tags": [
+        "1922",
+        "4k",
+        "8k",
+        "classic horror",
+        "domain",
+        "frai.tv",
+        "horror",
+        "nosferatu",
+        "public",
+        "public domain"
+      ],
+      "has_timestamps": false,
+      "language": "de",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: animation"
+      ],
+      "issue_count": 2,
+      "score": 65
+    },
+    {
+      "video_id": "T8AnrW3H5i8",
+      "title": "Little Nemo (1911) | 8K | World First Animated Film | Winsor McCay... | @remAIke_IT",
+      "category": "1",
+      "description_length": 395,
+      "tags_count": 20,
+      "tags": [
+        "1910s",
+        "1910s classics",
+        "1911",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animated",
+        "animation",
+        "cartoon",
+        "classic animation"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered"
+      ],
+      "issue_count": 2,
+      "score": 65
+    },
+    {
+      "video_id": "e0Tagj2Z5SU",
+      "title": "Superman (1/17): Superman (1941) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 306,
+      "tags_count": 23,
+      "tags": [
+        "1940s",
+        "1940s classics",
+        "1943",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "cartoon",
+        "classic animation",
+        "classic cartoon"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "superman",
+        "episode": 1,
+        "total": 17
+      },
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "⚠️ PLAYLIST: Nicht in Superman Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered"
+      ],
+      "issue_count": 2,
+      "score": 65
+    },
+    {
+      "video_id": "hPQN992PMUY",
+      "title": "Frankenstein (1910) | 8K| Edison Studios Film | Publ... | @remAIke_IT",
+      "category": "1",
+      "description_length": 401,
+      "tags_count": 23,
+      "tags": [
+        "1910",
+        "1910s",
+        "1910s classics",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "boris karloff",
+        "classic horror",
+        "edison",
+        "film"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 65
+    },
+    {
+      "video_id": "unbwEeI4bEE",
+      "title": "Popeye (180/231): Ancient Fistory (1953) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 304,
+      "tags_count": 24,
+      "tags": [
+        "1950s",
+        "1950s classics",
+        "1953",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "ancient",
+        "animation",
+        "cartoon",
+        "classic animation"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "popeye",
+        "episode": 180,
+        "total": 231
+      },
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "⚠️ PLAYLIST: Nicht in Popeye Playlist"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered"
+      ],
+      "issue_count": 2,
+      "score": 65
+    },
+    {
+      "video_id": "j4r3bPPQza0",
+      "title": "IA – Commodore 64 (CC517) | 8K| Vintage Computer Foo... | @remAIke_IT",
+      "category": "1",
+      "description_length": 609,
+      "tags_count": 17,
+      "tags": [
+        "8k",
+        "ai upscaled",
+        "archive",
+        "commodore",
+        "computer",
+        "documentary",
+        "footage",
+        "frai.tv",
+        "historical",
+        "history"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "❌ PLAYLIST: Video ist in KEINER Playlist!"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, classic, animation"
+      ],
+      "issue_count": 2,
+      "score": 65
+    },
+    {
+      "video_id": "5WVJHELSD7A",
+      "title": "The Cabinet of Dr. Caligari (1920) –8K Edition | Sil... | @remAIke_IT",
+      "category": "22",
+      "description_length": 513,
+      "tags_count": 20,
+      "tags": [
+        "1920",
+        "1920s",
+        "1920s classics",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "cabinet",
+        "caligari",
+        "classic horror",
+        "edition"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "❌ KATEGORIE: Ist '22', sollte '1' (Film & Animation) sein",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 65
+    },
+    {
+      "video_id": "E7X_PG6wJEk",
+      "title": "Felix the Cat (25/175): Felix at the Fair (1922) | 8K HQ | @remAIke_IT",
+      "category": "22",
+      "description_length": 1026,
+      "tags_count": 13,
+      "tags": [
+        "1922",
+        "4k",
+        "8k",
+        "edition",
+        "fair",
+        "felix",
+        "frai.tv",
+        "public domain",
+        "reaimastered",
+        "remaike"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "felix",
+        "episode": 25,
+        "total": 175
+      },
+      "playlists": [
+        "ALL @reAImastered",
+        "Felix The Cat",
+        "@reAImastered for Kids"
+      ],
+      "issues": [
+        "❌ KATEGORIE: Ist '22', sollte '1' (Film & Animation) sein",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: classic, animation"
+      ],
+      "issue_count": 2,
+      "score": 65
+    },
+    {
+      "video_id": "kLpuqswC0IE",
+      "title": "Felix the Cat (15/175): Felix at the Circus (1921) | 8K HQ | @remAIke_IT",
+      "category": "22",
+      "description_length": 538,
+      "tags_count": 21,
+      "tags": [
+        "1920s",
+        "1920s classics",
+        "1921",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "cartoon",
+        "circus",
+        "classic animation"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "felix",
+        "episode": 15,
+        "total": 175
+      },
+      "playlists": [
+        "ALL @reAImastered",
+        "Felix The Cat",
+        "@reAImastered for Kids"
+      ],
+      "issues": [
+        "❌ KATEGORIE: Ist '22', sollte '1' (Film & Animation) sein",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered"
+      ],
+      "issue_count": 2,
+      "score": 65
+    },
+    {
+      "video_id": "9_rhugQFh8w",
+      "title": "The Big Game Hunter –in 8K | @remAIke_IT",
+      "category": "22",
+      "description_length": 511,
+      "tags_count": 15,
+      "tags": [
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "cartoon",
+        "classic animation",
+        "classic cartoon",
+        "frai.tv",
+        "game",
+        "hunter"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered",
+        "Felix The Cat",
+        "@reAImastered for Kids"
+      ],
+      "issues": [
+        "❌ KATEGORIE: Ist '22', sollte '1' (Film & Animation) sein",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered"
+      ],
+      "issue_count": 2,
+      "score": 65
+    },
+    {
+      "video_id": "ICzD6hNya9c",
+      "title": "Felix the Cat (28/175): Felix Gets His Revenge (1922) | 8K HQ | @remAIke_IT",
+      "category": "22",
+      "description_length": 520,
+      "tags_count": 22,
+      "tags": [
+        "1920s",
+        "1920s classics",
+        "1922",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "cartoon",
+        "classic animation",
+        "classic cartoon"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "felix",
+        "episode": 28,
+        "total": 175
+      },
+      "playlists": [
+        "ALL @reAImastered",
+        "Felix The Cat",
+        "@reAImastered for Kids"
+      ],
+      "issues": [
+        "❌ KATEGORIE: Ist '22', sollte '1' (Film & Animation) sein",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered"
+      ],
+      "issue_count": 2,
+      "score": 65
+    },
+    {
+      "video_id": "_jemp3ZpZYY",
+      "title": "Felix the Cat (32/175): Felix Turns the Tide (1922) | 8K HQ | @remAIke_IT",
+      "category": "22",
+      "description_length": 408,
+      "tags_count": 23,
+      "tags": [
+        "1920s",
+        "1920s classics",
+        "1922",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "cartoon",
+        "classic animation",
+        "classic cartoon"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "felix",
+        "episode": 32,
+        "total": 175
+      },
+      "playlists": [
+        "ALL @reAImastered",
+        "Felix The Cat",
+        "@reAImastered for Kids"
+      ],
+      "issues": [
+        "❌ KATEGORIE: Ist '22', sollte '1' (Film & Animation) sein",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered"
+      ],
+      "issue_count": 2,
+      "score": 65
+    },
+    {
+      "video_id": "tk3DHvp9CFs",
+      "title": "The Astronomer’s Dream (1898) – Georges Méliès | 8K Film Restoratio...",
+      "category": "22",
+      "description_length": 479,
+      "tags_count": 20,
+      "tags": [
+        "1890s",
+        "1890s classics",
+        "1898",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "astronomer",
+        "classic cinema",
+        "classic film",
+        "dream"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "❌ KATEGORIE: Ist '22', sollte '1' (Film & Animation) sein",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 2,
+      "score": 65
+    },
+    {
+      "video_id": "8rr5p_y7k_8",
+      "title": "Felix the Cat (95/175): Pedigreedy (1927) | 8K HQ | @remAIke_IT",
+      "category": "22",
+      "description_length": 295,
+      "tags_count": 22,
+      "tags": [
+        "1920s",
+        "1920s classics",
+        "1927",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "cartoon",
+        "classic animation",
+        "classic cartoon"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "felix",
+        "episode": 95,
+        "total": 175
+      },
+      "playlists": [
+        "ALL @reAImastered",
+        "Felix The Cat",
+        "@reAImastered for Kids"
+      ],
+      "issues": [
+        "❌ KATEGORIE: Ist '22', sollte '1' (Film & Animation) sein",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered"
+      ],
+      "issue_count": 2,
+      "score": 65
+    },
+    {
+      "video_id": "cKMnE6pFz_w",
+      "title": "Felix the Cat (35/175): Felix in the Swim (1922) | 8K HQ | @remAIke_IT",
+      "category": "22",
+      "description_length": 487,
+      "tags_count": 22,
+      "tags": [
+        "1920s",
+        "1920s classics",
+        "1922",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "cartoon",
+        "classic animation",
+        "classic cartoon"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "felix",
+        "episode": 35,
+        "total": 175
+      },
+      "playlists": [
+        "ALL @reAImastered",
+        "Felix The Cat",
+        "@reAImastered for Kids"
+      ],
+      "issues": [
+        "❌ KATEGORIE: Ist '22', sollte '1' (Film & Animation) sein",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered"
+      ],
+      "issue_count": 2,
+      "score": 65
+    },
+    {
+      "video_id": "fFanPpOArKs",
+      "title": "Felix the Cat (15/175): Felix at the Circus (1921) | 8K HQ | @remAIke_IT",
+      "category": "22",
+      "description_length": 538,
+      "tags_count": 23,
+      "tags": [
+        "1920s",
+        "1920s classics",
+        "1921",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "cartoon",
+        "circus",
+        "classic animation"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "felix",
+        "episode": 15,
+        "total": 175
+      },
+      "playlists": [
+        "ALL @reAImastered",
+        "Felix The Cat",
+        "@reAImastered for Kids"
+      ],
+      "issues": [
+        "❌ KATEGORIE: Ist '22', sollte '1' (Film & Animation) sein",
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered"
+      ],
+      "issue_count": 2,
+      "score": 65
+    },
+    {
+      "video_id": "6A2_RKWP2X4",
+      "title": "Superman (1/17): Superman (1941) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 316,
+      "tags_count": 24,
+      "tags": [
+        "1940s",
+        "1940s classics",
+        "1942",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "cartoon",
+        "classic animation",
+        "classic cartoon"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "superman",
+        "episode": 1,
+        "total": 17
+      },
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung",
+        "⚠️ PLAYLIST: Nicht in Superman Playlist"
+      ],
+      "suggestions": [],
+      "issue_count": 2,
+      "score": 70
+    },
+    {
+      "video_id": "dfUyhjEnAqw",
+      "title": "The Frog (1908) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 861,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Subscribe-CTA in Beschreibung fehlt",
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 65
+    },
+    {
+      "video_id": "WGpVyRoQpF4",
+      "title": "The New Deal Show (1937) | Betty Boop | 8K HQ (4K UHD) | @remAIke_IT",
+      "category": "1",
+      "description_length": 645,
+      "tags_count": 19,
+      "tags": [
+        "1937 Animation",
+        "8K Quality",
+        "Animated Shorts",
+        "Animation Revival",
+        "Animation Tribute",
+        "Art Deco Animation",
+        "Betty Boop",
+        "Betty Boop Show",
+        "Cartoon History",
+        "Classic Animation"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": null,
+        "total": null
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: restored, public domain",
+        "💡 TITEL: Serie erkannt aber keine Episodennummer (X/Y)"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "ihaeGBIJMAE",
+      "title": "The Old Man of the Mountain (1933) | Betty Boop | 8K HQ (4K UHD) | @remAIke_IT",
+      "category": "1",
+      "description_length": 687,
+      "tags_count": 19,
+      "tags": [
+        "1933 Animation",
+        "8K Animation",
+        "Animated Nostalgia",
+        "Animated Shorts",
+        "Animation Revival",
+        "Art Deco Animation",
+        "Betty Boop",
+        "Betty Boop Style",
+        "Cartoon Classics",
+        "Cartoon History"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": null,
+        "total": null
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: restored, remastered, public domain",
+        "💡 TITEL: Serie erkannt aber keine Episodennummer (X/Y)"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "zrsfdqdmU18",
+      "title": "The Swing School (1938) | Betty Boop | 8K HQ (4K UHD) | @remAIke_IT",
+      "category": "1",
+      "description_length": 682,
+      "tags_count": 18,
+      "tags": [
+        "1930s Animation",
+        "Animated Classics",
+        "Animation History",
+        "Animation Showcase",
+        "Betty Boop",
+        "Betty Boop 8K",
+        "Betty Boop Fans",
+        "Cartoon Nostalgia",
+        "Cartoon Revival",
+        "Classic Cartoons"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": null,
+        "total": null
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: restored, public domain",
+        "💡 TITEL: Serie erkannt aber keine Episodennummer (X/Y)"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "IA6GAvGK32E",
+      "title": "The Betty Boop Limited (1932) | Betty Boop | 8K HQ (4K UHD) | @remAIke_IT",
+      "category": "1",
+      "description_length": 1293,
+      "tags_count": 19,
+      "tags": [
+        "4K UHD",
+        "8K animation",
+        "Betty Boop",
+        "Betty Boop 1932",
+        "Betty Boop Collection",
+        "Betty Boop fan",
+        "Boop Oop a Doop",
+        "animated classic",
+        "animation legend",
+        "animation restoration"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": null,
+        "total": null
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: restored, public domain",
+        "💡 TITEL: Serie erkannt aber keine Episodennummer (X/Y)"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "NYwqBuab170",
+      "title": "The Foxy Hunter (1937) | Betty Boop | 8K HQ (4K UHD) | @remAIke_IT",
+      "category": "1",
+      "description_length": 648,
+      "tags_count": 19,
+      "tags": [
+        "1937 Animation",
+        "8K Remaster",
+        "Animated Short",
+        "Animation Fans",
+        "Animation History",
+        "Betty Boop",
+        "Betty Boop Clips",
+        "Cartoon Art",
+        "Cartoon Revival",
+        "Classic Cartoons"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": null,
+        "total": null
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: restored, remastered, public domain",
+        "💡 TITEL: Serie erkannt aber keine Episodennummer (X/Y)"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "zNAslcrOzu4",
+      "title": "Betty Boop (33/105): Birthday Party (1933) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 743,
+      "tags_count": 11,
+      "tags": [
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "nostalgia",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "retro"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 33,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "AvyVS5S52zY",
+      "title": "Betty Boop (21/105): Bizzy Bee (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 706,
+      "tags_count": 11,
+      "tags": [
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "nostalgia",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "retro"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 21,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "jh_Kxe50lAY",
+      "title": "Betty Boop (49/105): Little Pal (1934) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 664,
+      "tags_count": 11,
+      "tags": [
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "nostalgia",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "retro"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 49,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "rWv1cA8lFUw",
+      "title": "Betty Boop (47/105): Life Guard (1934) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 653,
+      "tags_count": 11,
+      "tags": [
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "nostalgia",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "retro"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 47,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "Sk2IIXPV5ig",
+      "title": "Betty Boop (35/105): Big Boss (1933) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 747,
+      "tags_count": 11,
+      "tags": [
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "nostalgia",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "retro"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 35,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "MXE3TqsT2oE",
+      "title": "Old Mother Hubbard (1935) | ComiColor | 8K HQ (4K UHD) | Best Onlin... | @remAIke_IT",
+      "category": "1",
+      "description_length": 195,
+      "tags_count": 20,
+      "tags": [
+        "1930s",
+        "1930s classics",
+        "1935",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "best",
+        "cartoon",
+        "classic animation"
+      ],
+      "has_timestamps": true,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ BESCHREIBUNG: Nur 195 Zeichen (min. 200)"
+      ],
+      "suggestions": [
+        "💡 Subscribe-CTA in Beschreibung fehlt",
+        "💡 Fehlende Tags: remastered"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "fVp_aVBZhak",
+      "title": "Gabby: King for a Day (1940) | Fleischer Cartoon | 8K HQ (4K UHD) |... | @remAIke_IT",
+      "category": "1",
+      "description_length": 198,
+      "tags_count": 18,
+      "tags": [
+        "1940",
+        "1940s",
+        "1940s classics",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "cartoon",
+        "classic animation",
+        "classic cartoon"
+      ],
+      "has_timestamps": true,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ BESCHREIBUNG: Nur 198 Zeichen (min. 200)"
+      ],
+      "suggestions": [
+        "💡 Subscribe-CTA in Beschreibung fehlt",
+        "💡 Fehlende Tags: remastered"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "sEtFSMF3HbU",
+      "title": "Betty Boop (4/105): Any Little Girl (1931) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 205,
+      "tags_count": 11,
+      "tags": [
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "nostalgia",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "retro"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 4,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Channel-Handle in Beschreibung fehlt",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "TKhDd_o8gnA",
+      "title": "ComiColor: Simple Simon (1935) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 755,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "🎨 Classic Cartoons | Vintage Animation",
+        "ALL @reAImastered",
+        "@reAImastered for Kids"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "fN-EUreL8hw",
+      "title": "Christmas Comes But Once a Year (1936) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 673,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "@reAImastered for Kids"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "f8ZGvwk0k-o",
+      "title": "Santa’s Surprise (1947) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2422,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "YzvGVo8mAQM",
+      "title": "Rudolph the Red‑Nosed Reindeer (1948) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2424,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "Z4nwcfOqOOw",
+      "title": "Suzy Snowflake (1953) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2482,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "WSjkAZkPbKs",
+      "title": "EPIC Coca‑Cola Christmas Trucks – Holidays Are Coming (1995) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2656,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "yIQCHpjp4NE",
+      "title": "Merry Christmas from Batman & Robin Meet Santa Claus (1966) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2478,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "Zu_iBCd5NJc",
+      "title": "What You Should Know About Biological Warfare (1952) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2984,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "gux5NyjkqxE",
+      "title": "Batman & Robin Meet Santa Claus (1966) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2450,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "b4cqLlJ7t4M",
+      "title": "The Phantom of the Opera – Lon Chaney (1925) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2550,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "YbC2JynVCRA",
+      "title": "A Bill of Divorcement – Barrymore & Katharine Hepburn (1932) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2594,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "UtVxs89CUPc",
+      "title": "Wonderful World (1959) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2408,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "pqrCPhUCpxE",
+      "title": "Voyage to the Planet of Prehistoric Women (1968) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2287,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "eF81rBeXbzk",
+      "title": "The Hindenburg Explodes (1937) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2289,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "de",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "dGD2CeoZX68",
+      "title": "A Christmas Carol George C. Scott (1984) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2829,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "rV78L39ybOU",
+      "title": "My Japan (1945) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2243,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "9AgSJyMnxi8",
+      "title": "Atomic Bomb Newsreel (1946) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 2041,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "de",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "Ge-mC5q6lXw",
+      "title": "Duck and Cover (1951) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 1809,
+      "tags_count": 6,
+      "tags": [
+        "8K",
+        "classic film",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 TAGS: Nur 6 Tags (optimal: 10-15)",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 75
+    },
+    {
+      "video_id": "340C9lsoyYk",
+      "title": "Soundie: Tica Ti Tica Ta | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "category": "1",
+      "description_length": 742,
+      "tags_count": 19,
+      "tags": [
+        "8K Music",
+        "Cinematic Music",
+        "Classic Soundies",
+        "Film Nostalgia",
+        "Golden Age Music",
+        "HQ Soundie",
+        "Music History",
+        "Musical Cinema",
+        "Nostalgic Tunes",
+        "Old School Tunes"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "Soundies"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: restored, animation, public domain"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "A8LWgWF5f5k",
+      "title": "Soundie: The Hut-Sut Song | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "category": "1",
+      "description_length": 717,
+      "tags_count": 19,
+      "tags": [
+        "1940s Music",
+        "8K Music",
+        "Cinematic History",
+        "Classic Soundies",
+        "Film Nostalgia",
+        "Golden Age",
+        "Hut-Sut Song",
+        "Jazz Film",
+        "Music History",
+        "Music Revival"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "Soundies"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: restored, remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "Ucub3igzk2U",
+      "title": "Dick Whittington’s Cat (1935) | 8K HQ (4K UHD) | Best Online Versio... | @remAIke_IT",
+      "category": "1",
+      "description_length": 414,
+      "tags_count": 20,
+      "tags": [
+        "1930s",
+        "1930s classics",
+        "1935",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "best",
+        "cartoon",
+        "classic animation"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "@reAImastered for Kids"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "ig9_ZHkKfFA",
+      "title": "Betty Boop (68/105): Training Pigeons (1936) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 734,
+      "tags_count": 10,
+      "tags": [
+        "1930s",
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 68,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored",
+        "🎨 Classic Cartoons | Vintage Animation"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "PkU8BxTyp6E",
+      "title": "Betty Boop (21/105): Bizzy Bee (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 759,
+      "tags_count": 10,
+      "tags": [
+        "1930s",
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 21,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored",
+        "🎨 Classic Cartoons | Vintage Animation",
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "qf3PyBbuhNE",
+      "title": "Betty Boop (20/105): Stopping the Show (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 730,
+      "tags_count": 10,
+      "tags": [
+        "1930s",
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 20,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored",
+        "🎨 Classic Cartoons | Vintage Animation"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "ttE5cijN2XM",
+      "title": "Betty Boop (22/105): M.D. (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 730,
+      "tags_count": 10,
+      "tags": [
+        "1930s",
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 22,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored",
+        "🎨 Classic Cartoons | Vintage Animation",
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "7wGSFU_MzcI",
+      "title": "Betty Boop (14/105): The Dancing Fool (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 647,
+      "tags_count": 10,
+      "tags": [
+        "1930s",
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 14,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored",
+        "🎨 Classic Cartoons | Vintage Animation"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "dbQvrn0tUhA",
+      "title": "Betty Boop (18/105): Admission Free (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 654,
+      "tags_count": 10,
+      "tags": [
+        "1930s",
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 18,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored",
+        "🎨 Classic Cartoons | Vintage Animation"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "ZJOXUwDX-mA",
+      "title": "Betty Boop (6/105): Minding the Baby (1931) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 778,
+      "tags_count": 10,
+      "tags": [
+        "1930s",
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 6,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored",
+        "🎨 Classic Cartoons | Vintage Animation",
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "ztktLrgvxZ0",
+      "title": "Betty Boop (15/105): A-Hunting We Will Go (1932) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 691,
+      "tags_count": 10,
+      "tags": [
+        "1930s",
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 15,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored",
+        "🎨 Classic Cartoons | Vintage Animation"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "eX5cbYwNvnI",
+      "title": "Betty Boop (19/105): Betty Boop Limited (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 653,
+      "tags_count": 10,
+      "tags": [
+        "1930s",
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 19,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored",
+        "🎨 Classic Cartoons | Vintage Animation"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "_oZqwtQDg2c",
+      "title": "Betty Boop (9/105): Any Rags (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 701,
+      "tags_count": 10,
+      "tags": [
+        "1930s",
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 9,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored",
+        "🎨 Classic Cartoons | Vintage Animation"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "dCCl4JxrlF8",
+      "title": "Betty Boop (11/105): Minnie the Moocher (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 659,
+      "tags_count": 10,
+      "tags": [
+        "1930s",
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 11,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored",
+        "🎨 Classic Cartoons | Vintage Animation"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "tm43rHVnyd8",
+      "title": "Betty Boop (17/105): Hide and Seek (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 648,
+      "tags_count": 10,
+      "tags": [
+        "1930s",
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 17,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored",
+        "🎨 Classic Cartoons | Vintage Animation",
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "UuRQfXMfddA",
+      "title": "Betty Boop (10/105): Boop-Oop-A-Doop (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 675,
+      "tags_count": 10,
+      "tags": [
+        "1930s",
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 10,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored",
+        "🎨 Classic Cartoons | Vintage Animation"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "bOUZUrBvaWM",
+      "title": "Betty Boop (13/105): Crazy Town (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 662,
+      "tags_count": 10,
+      "tags": [
+        "1930s",
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 13,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "E76BLn0YNE4",
+      "title": "Betty Boop (12/105): Swim or Sink (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 633,
+      "tags_count": 10,
+      "tags": [
+        "1930s",
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 12,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored",
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "k_4r2lMtcF4",
+      "title": "Betty Boop (6/105): Minding the Baby (1931) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 794,
+      "tags_count": 10,
+      "tags": [
+        "1930s",
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 6,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored",
+        "🎨 Classic Cartoons | Vintage Animation",
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "h_4m9a7wqoc",
+      "title": "Betty Boop (1/105): Dizzy Dishes (1930) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 658,
+      "tags_count": 10,
+      "tags": [
+        "1930s",
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 1,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "fpa96bQkzwA",
+      "title": "Betty Boop (7/105): Mask-A-Raid (1931) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 696,
+      "tags_count": 10,
+      "tags": [
+        "1930s",
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 7,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "Falj-VXbzeo",
+      "title": "Betty Boop (16/105): Chess-Nuts (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "category": "1",
+      "description_length": 655,
+      "tags_count": 10,
+      "tags": [
+        "1930s",
+        "8K",
+        "betty boop",
+        "cartoon",
+        "classic film",
+        "fleischer studios",
+        "public domain",
+        "remAIke.TV",
+        "restored",
+        "vintage"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 16,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "dkxCgOivonc",
+      "title": "Betty Boop (72/105): More Pep (1936) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 405,
+      "tags_count": 23,
+      "tags": [
+        "1930s",
+        "1930s classics",
+        "1936",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "betty",
+        "betty boop",
+        "boop"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 72,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "EhZdQ74_sCM",
+      "title": "Prelinger – Children Make Movies (IA 0811) –8K Edition | @remAIke_IT",
+      "category": "1",
+      "description_length": 599,
+      "tags_count": 17,
+      "tags": [
+        "8k",
+        "ai upscaled",
+        "archive",
+        "children",
+        "documentary",
+        "frai.tv",
+        "historical",
+        "history",
+        "make",
+        "movies"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, classic, animation"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "EMnokZOLpzU",
+      "title": "The Grim Game (1919) –8K Edition | Houdini Silent Th... | @remAIke_IT",
+      "category": "1",
+      "description_length": 701,
+      "tags_count": 20,
+      "tags": [
+        "1910s",
+        "1910s classics",
+        "1919",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "classic cinema",
+        "classic film",
+        "edition",
+        "film noir"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "ExbniPRgH70",
+      "title": "The Candid Candidate (1937) – Cartoon-Klassiker in 8K restauriert •... | @remAIke_IT",
+      "category": "1",
+      "description_length": 507,
+      "tags_count": 19,
+      "tags": [
+        "1930s",
+        "1930s classics",
+        "1937",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "candid",
+        "candidate",
+        "cartoon"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "PSdJJaxI4gM",
+      "title": "Charade (1953) –8K Edition | Vintage Mystery Classic | @remAIke_IT",
+      "category": "1",
+      "description_length": 522,
+      "tags_count": 14,
+      "tags": [
+        "1953",
+        "4k",
+        "8k",
+        "charade",
+        "classic",
+        "edition",
+        "frai.tv",
+        "mystery",
+        "public domain",
+        "reaimastered"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: animation"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "DMDp52B3Nv4",
+      "title": "Felix the Cat (22/175): Felix Makes Good (1922) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 428,
+      "tags_count": 14,
+      "tags": [
+        "1922",
+        "4k",
+        "8k",
+        "edition",
+        "felix",
+        "frai.tv",
+        "good",
+        "makes",
+        "public domain",
+        "reaimastered"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "felix",
+        "episode": 22,
+        "total": 175
+      },
+      "playlists": [
+        "ALL @reAImastered",
+        "Felix The Cat",
+        "@reAImastered for Kids"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: classic, animation"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "eySdw7WrSps",
+      "title": "Felix the Cat (20/175): Felix in Love (1922) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 522,
+      "tags_count": 13,
+      "tags": [
+        "1922",
+        "4k",
+        "8k",
+        "edition",
+        "felix",
+        "frai.tv",
+        "love",
+        "public domain",
+        "reaimastered",
+        "remaike"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "felix",
+        "episode": 20,
+        "total": 175
+      },
+      "playlists": [
+        "ALL @reAImastered",
+        "Felix The Cat",
+        "@reAImastered for Kids"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: classic, animation"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "_X9OwQuRshk",
+      "title": "Felix the Cat (55/175): Finds a Way (1924) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 579,
+      "tags_count": 22,
+      "tags": [
+        "1920s",
+        "1920s classics",
+        "1924",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "cartoon",
+        "classic",
+        "classic animation"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "felix",
+        "episode": 55,
+        "total": 175
+      },
+      "playlists": [
+        "ALL @reAImastered",
+        "Felix The Cat",
+        "@reAImastered for Kids"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "-3UHQiZHPwY",
+      "title": "Betty Boop (28/105): Ker-Choo (1932) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 289,
+      "tags_count": 24,
+      "tags": [
+        "1930s",
+        "1930s classics",
+        "1932",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "betty",
+        "betty boop",
+        "boop"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 28,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored",
+        "ALL @reAImastered",
+        "@reAImastered for Kids"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "tJMJlCQc0UE",
+      "title": "Betty Boop (11/105): Minnie the Moocher (1932) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 488,
+      "tags_count": 24,
+      "tags": [
+        "1930s",
+        "1930s classics",
+        "1932",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "betty",
+        "betty boop",
+        "boop"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "betty_boop",
+        "episode": 11,
+        "total": 105
+      },
+      "playlists": [
+        "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored",
+        "ALL @reAImastered",
+        "@reAImastered for Kids"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "AD2oRdK4seI",
+      "title": "Felix the Cat (1/175): Feline Follies (1919) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 311,
+      "tags_count": 23,
+      "tags": [
+        "1910s",
+        "1910s classics",
+        "1919",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "cartoon",
+        "classic animation",
+        "classic cartoon"
+      ],
+      "has_timestamps": false,
+      "language": "en",
+      "series": {
+        "series": "felix",
+        "episode": 1,
+        "total": 175
+      },
+      "playlists": [
+        "ALL @reAImastered",
+        "Felix The Cat",
+        "@reAImastered for Kids"
+      ],
+      "issues": [
+        "⚠️ TIMESTAMPS: Keine Chapters in Beschreibung"
+      ],
+      "suggestions": [
+        "💡 Fehlende Tags: remastered"
+      ],
+      "issue_count": 1,
+      "score": 80
+    },
+    {
+      "video_id": "d8Ak1R_eOlY",
+      "title": "White Zombie (1932) | @reAImastered 8 K Classic Halloween Edition |...",
+      "category": "1",
+      "description_length": 204,
+      "tags_count": 20,
+      "tags": [
+        "1930s",
+        "1930s classics",
+        "1932",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "cartoon",
+        "classic",
+        "classic animation"
+      ],
+      "has_timestamps": true,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [],
+      "suggestions": [
+        "💡 Subscribe-CTA in Beschreibung fehlt",
+        "💡 Fehlende Tags: remastered",
+        "💡 TITEL: Keine Auflösung (8K/4K) im Titel"
+      ],
+      "issue_count": 0,
+      "score": 85
+    },
+    {
+      "video_id": "Q1H33-Yw_uQ",
+      "title": "Aesop’s Fables: Skating Hounds (1929) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 225,
+      "tags_count": 20,
+      "tags": [
+        "1920s",
+        "1920s classics",
+        "1929",
+        "8k",
+        "aesop",
+        "ai upscaled",
+        "archive",
+        "documentary",
+        "fables",
+        "frai.tv"
+      ],
+      "has_timestamps": true,
+      "language": "en",
+      "series": null,
+      "playlists": [
+        "ALL @reAImastered"
+      ],
+      "issues": [],
+      "suggestions": [
+        "💡 Subscribe-CTA in Beschreibung fehlt",
+        "💡 Fehlende Tags: remastered, animation"
+      ],
+      "issue_count": 0,
+      "score": 90
+    },
+    {
+      "video_id": "5CEONd_SGn8",
+      "title": "Felix the Cat (30/175): Felix Saves the Day (1922) | 8K HQ | @remAIke_IT",
+      "category": "1",
+      "description_length": 212,
+      "tags_count": 22,
+      "tags": [
+        "1920s",
+        "1920s classics",
+        "1922",
+        "4k",
+        "8k",
+        "ai upscaled",
+        "animation",
+        "cartoon",
+        "classic animation",
+        "classic cartoon"
+      ],
+      "has_timestamps": true,
+      "language": "en",
+      "series": {
+        "series": "felix",
+        "episode": 30,
+        "total": 175
+      },
+      "playlists": [
+        "ALL @reAImastered",
+        "Felix The Cat",
+        "@reAImastered for Kids"
+      ],
+      "issues": [],
+      "suggestions": [
+        "💡 Subscribe-CTA in Beschreibung fehlt"
+      ],
+      "issue_count": 0,
+      "score": 95
+    }
+  ]
+}

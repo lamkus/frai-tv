@@ -1,0 +1,21 @@
+{
+  "_info": "Track viewer requests from YouTube live chat / comments. Update manually or via comment scraper.",
+  "_last_updated": "2026-02-24",
+  "_total_rendered": 60,
+  "_total_known": 252,
+  "_missing": 192,
+  "requests": [],
+  "priority_queue": [],
+  "instructions": {
+    "how_to_add": "Add entries to 'requests' array when viewers comment in stream or videos",
+    "format": {
+      "nr": 470,
+      "date": "1939-09-13",
+      "event": "Poland Campaign",
+      "requested_by": "commenter_name",
+      "count": 1,
+      "source": "livestream_comment"
+    },
+    "priority_scoring": "count × recency_factor → top entries move to priority_queue"
+  }
+}

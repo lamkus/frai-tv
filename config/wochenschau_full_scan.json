@@ -1,0 +1,336 @@
+{
+  "total": 348,
+  "wochenschau": 41,
+  "public": 34,
+  "private": 7,
+  "videos": [
+    {
+      "id": "o33-c1riv4U",
+      "title": "Wochenschau 459: Pre-War Era (Jun 1939) | 8K",
+      "status": "public",
+      "published": "2026-01-30T14:30:52Z",
+      "nr": "459",
+      "has_seo": true
+    },
+    {
+      "id": "dAp7JFDhE3U",
+      "title": "Wochenschau 468: Nazi-Soviet Pact (Aug 1939) | 8K",
+      "status": "public",
+      "published": "2026-01-30T14:59:57Z",
+      "nr": "468",
+      "has_seo": true
+    },
+    {
+      "id": "t-VIxJaWE74",
+      "title": "Wochenschau 470: War Begins (Sep 1939) | 8K",
+      "status": "public",
+      "published": "2026-01-30T14:29:43Z",
+      "nr": "470",
+      "has_seo": true
+    },
+    {
+      "id": "9muRRAleqdA",
+      "title": "Wochenschau 471: Poland Campaign (Sep 1939) | 8K",
+      "status": "public",
+      "published": "2026-01-30T14:45:01Z",
+      "nr": "471",
+      "has_seo": true
+    },
+    {
+      "id": "3AtirtgrfUI",
+      "title": "Wochenschau 473: Fall of Warsaw (Sep 1939) | 8K",
+      "status": "public",
+      "published": "2026-01-30T14:05:19Z",
+      "nr": "473",
+      "has_seo": true
+    },
+    {
+      "id": "iRzeiRoAsj4",
+      "title": "Wochenschau 477: Poland Occupied (Oct 1939) | 8K",
+      "status": "public",
+      "published": "2026-01-21T19:45:29Z",
+      "nr": "477",
+      "has_seo": true
+    },
+    {
+      "id": "jeLWajro1As",
+      "title": "Wochenschau 480: Bürgerbräu Bomb (Nov 1939) | 8K",
+      "status": "public",
+      "published": "2026-01-22T08:43:53Z",
+      "nr": "480",
+      "has_seo": true
+    },
+    {
+      "id": "N7WPQUjFJjA",
+      "title": "Wochenschau 482: Winter War Begins (Nov 1939) | 8K",
+      "status": "public",
+      "published": "2026-01-21T18:29:54Z",
+      "nr": "482",
+      "has_seo": true
+    },
+    {
+      "id": "Qn7Nvx7eWz4",
+      "title": "Wochenschau 483: Winter War (Dec 1939) | 8K",
+      "status": "public",
+      "published": "2026-01-22T16:21:18Z",
+      "nr": "483",
+      "has_seo": true
+    },
+    {
+      "id": "DLifkhU0q1w",
+      "title": "Wochenschau 488: Phoney War (Jan 1940) | 8K",
+      "status": "public",
+      "published": "2026-01-22T16:48:33Z",
+      "nr": "488",
+      "has_seo": true
+    },
+    {
+      "id": "a5VVGGHPlsg",
+      "title": "Wochenschau 502: Norway Invasion (Apr 1940) | 8K",
+      "status": "public",
+      "published": "2026-01-30T17:13:19Z",
+      "nr": "502",
+      "has_seo": true
+    },
+    {
+      "id": "fC0MlizsAQQ",
+      "title": "Wochenschau 508: Dunkirk Pocket (May 1940) | 8K",
+      "status": "public",
+      "published": "2026-01-21T19:50:31Z",
+      "nr": "508",
+      "has_seo": true
+    },
+    {
+      "id": "2uHl4LYN8O8",
+      "title": "Wochenschau 509: Dunkirk Evacuation (Jun 1940) | 8K",
+      "status": "public",
+      "published": "2026-01-22T08:51:17Z",
+      "nr": "509",
+      "has_seo": true
+    },
+    {
+      "id": "3rB80OGKzrg",
+      "title": "Wochenschau 511: Paris Falls (Jun 1940) | 8K",
+      "status": "public",
+      "published": "2026-01-11T12:01:29Z",
+      "nr": "511",
+      "has_seo": true
+    },
+    {
+      "id": "xblc6reUMr0",
+      "title": "Wochenschau 512: French Armistice (Jun 1940) | 8K",
+      "status": "public",
+      "published": "2026-01-22T13:48:06Z",
+      "nr": "512",
+      "has_seo": true
+    },
+    {
+      "id": "D_kLmNFlbZI",
+      "title": "Wochenschau 513: Channel Islands (Jul 1940) | 8K",
+      "status": "private",
+      "published": "2026-01-22T15:08:46Z",
+      "nr": "513",
+      "has_seo": true
+    },
+    {
+      "id": "T-EsdXGhqog",
+      "title": "Wochenschau 516: Battle of Britain (Jul 1940) | 8K",
+      "status": "public",
+      "published": "2026-01-13T18:30:12Z",
+      "nr": "516",
+      "has_seo": true
+    },
+    {
+      "id": "Yj_QcM9Ce28",
+      "title": "Wochenschau 518: Channel Battles (Aug 1940) | 8K",
+      "status": "public",
+      "published": "2026-01-30T18:54:10Z",
+      "nr": "518",
+      "has_seo": true
+    },
+    {
+      "id": "7yfdqylo9qs",
+      "title": "Wochenschau 519: Eagle Day (Aug 1940) | 8K",
+      "status": "public",
+      "published": "2026-01-30T19:32:23Z",
+      "nr": "519",
+      "has_seo": true
+    },
+    {
+      "id": "i2mRp5iMxoo",
+      "title": "Wochenschau 520: Battle Peak (Aug 1940) | 8K",
+      "status": "public",
+      "published": "2026-01-30T19:33:09Z",
+      "nr": "520",
+      "has_seo": true
+    },
+    {
+      "id": "S31f7FuEvXw",
+      "title": "Wochenschau 522: Berlin Retaliation (Sep 1940) | 8K",
+      "status": "public",
+      "published": "2026-01-21T18:21:37Z",
+      "nr": "522",
+      "has_seo": true
+    },
+    {
+      "id": "fNCZYqnK3Cc",
+      "title": "Wochenschau 523: London Blitz (Sep 1940) | 8K",
+      "status": "public",
+      "published": "2026-01-22T12:55:57Z",
+      "nr": "523",
+      "has_seo": true
+    },
+    {
+      "id": "1O8sVLS-zfI",
+      "title": "Wochenschau 524: Sea Lion Postponed (Sep 1940) | 8K",
+      "status": "private",
+      "published": "2026-01-22T16:20:35Z",
+      "nr": "524",
+      "has_seo": true
+    },
+    {
+      "id": "J3LWOLaxuCc",
+      "title": "Wochenschau 542: Tobruk Falls (Jan 1941) | 8K",
+      "status": "public",
+      "published": "2026-01-30T19:31:52Z",
+      "nr": "542",
+      "has_seo": true
+    },
+    {
+      "id": "s5d9cAM6REo",
+      "title": "Wochenschau 543: Africa Corps (Jan 1941) | 8K",
+      "status": "private",
+      "published": "2026-01-30T18:43:10Z",
+      "nr": "543",
+      "has_seo": true
+    },
+    {
+      "id": "eBzXzhNYppQ",
+      "title": "Wochenschau 544: Rommel Arrives (Feb 1941) | 8K",
+      "status": "public",
+      "published": "2026-01-30T20:24:05Z",
+      "nr": "544",
+      "has_seo": true
+    },
+    {
+      "id": "7bqlAPsgzAQ",
+      "title": "Wochenschau 545: Africa Offensive (Feb 1941) | 8K",
+      "status": "public",
+      "published": "2026-01-30T21:14:34Z",
+      "nr": "545",
+      "has_seo": true
+    },
+    {
+      "id": "6wop-BU_XME",
+      "title": "Wochenschau 547: Africa Campaign (Feb 1941) | 8K",
+      "status": "private",
+      "published": "2026-01-31T00:11:56Z",
+      "nr": "547",
+      "has_seo": true
+    },
+    {
+      "id": "ZuD1fAyGiUw",
+      "title": "Wochenschau 548: Bulgaria Joins Axis (Mar 1941) | 8K",
+      "status": "private",
+      "published": "2026-01-31T00:11:53Z",
+      "nr": "548",
+      "has_seo": true
+    },
+    {
+      "id": "wEMKHQPopHY",
+      "title": "Wochenschau 550: Yugoslavia Crisis (Mar 1941) | 8K",
+      "status": "private",
+      "published": "2026-01-31T00:11:37Z",
+      "nr": "550",
+      "has_seo": true
+    },
+    {
+      "id": "tVD8197vAyE",
+      "title": "Wochenschau 573: Kiev Battle (Aug 1941) | 8K",
+      "status": "private",
+      "published": "2026-01-31T00:12:00Z",
+      "nr": "573",
+      "has_seo": true
+    },
+    {
+      "id": "0sO7jVL43yQ",
+      "title": "Wochenschau 652: Kharkov III (Mar 1943) | 8K",
+      "status": "public",
+      "published": "2026-01-22T12:12:39Z",
+      "nr": "652",
+      "has_seo": true
+    },
+    {
+      "id": "0sO7jVL43yQ",
+      "title": "Wochenschau 652: Kharkov III (Mar 1943) | 8K",
+      "status": "public",
+      "published": "2026-01-22T12:12:39Z",
+      "nr": "652",
+      "has_seo": true
+    },
+    {
+      "id": "6K-MuUu6L44",
+      "title": "Wochenschau 720: V1 Attacks (Jun 1944) | 8K",
+      "status": "public",
+      "published": "2026-01-17T20:58:46Z",
+      "nr": "720",
+      "has_seo": true
+    },
+    {
+      "id": "W-UcQleew8Y",
+      "title": "Wochenschau 721: Bagration Begins (Jun 1944) | 8K",
+      "status": "public",
+      "published": "2026-01-17T17:30:09Z",
+      "nr": "721",
+      "has_seo": true
+    },
+    {
+      "id": "W-UcQleew8Y",
+      "title": "Wochenschau 721: Bagration Begins (Jun 1944) | 8K",
+      "status": "public",
+      "published": "2026-01-17T17:30:09Z",
+      "nr": "721",
+      "has_seo": true
+    },
+    {
+      "id": "bZkUPQHqyfg",
+      "title": "Wochenschau 722: Bagration (Jul 1944) | 8K",
+      "status": "public",
+      "published": "2026-01-17T16:28:25Z",
+      "nr": "722",
+      "has_seo": true
+    },
+    {
+      "id": "w2UvksMOs3c",
+      "title": "Wochenschau 750: Vistula Offensive (Jan 1945) | 8K",
+      "status": "public",
+      "published": "2026-01-14T17:09:53Z",
+      "nr": "750",
+      "has_seo": true
+    },
+    {
+      "id": "6YLPpJLgVXk",
+      "title": "Wochenschau 751: Eastern Collapse (Jan 1945) | 8K",
+      "status": "public",
+      "published": "2026-01-14T15:12:38Z",
+      "nr": "751",
+      "has_seo": true
+    },
+    {
+      "id": "iEEvt-s1XhQ",
+      "title": "Wochenschau 753: Yalta Conference (Feb 1945) | 8K",
+      "status": "public",
+      "published": "2026-01-16T08:53:32Z",
+      "nr": "753",
+      "has_seo": true
+    },
+    {
+      "id": "H_n_mS-eKps",
+      "title": "Wochenschau 754: Dresden Bombed (Feb 1945) | 8K",
+      "status": "public",
+      "published": "2026-01-16T08:51:23Z",
+      "nr": "754",
+      "has_seo": true
+    }
+  ]
+}

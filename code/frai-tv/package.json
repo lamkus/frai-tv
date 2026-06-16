@@ -1,0 +1,25 @@
+{
+  "name": "frai-tv",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/generate-static-pages.mjs && node scripts/generate-watch-pages.mjs && node scripts/generate-sitemap.mjs && vite build",
+    "build:quick": "vite build",
+    "preview": "vite preview",
+    "sitemap": "node scripts/generate-sitemap.mjs",
+    "seo": "node scripts/generate-static-pages.mjs && node scripts/generate-watch-pages.mjs && node scripts/generate-sitemap.mjs"
+  },
+  "dependencies": {
+    "framer-motion": "^10.16.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.13.0",
+    "socket.io-client": "^4.8.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "vite": "^5.0.0"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-01-13T01:53:06.067208",
+  "total": 8,
+  "results": [
+    {
+      "id": "YHlhhiAfxEA",
+      "old_title": "4K Teaserama (1955) Short: Tempest Storm + Betty Page |  HQ @remAIke_IT #Clothing #dress #burlesque",
+      "new_title": "4K Teaserama (1955) Short: Tempest Storm + Betty Page |  HQ @remAIke_IT #Clothing #dress #burlesque #Shorts",
+      "status": "public",
+      "tags_count": 23,
+      "action": "ERROR: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/videos?part=snippet&alt=json returned \"The request metadata specifies an invalid or empty video title.\". Details: \"[{'message': 'The request metadata specifies an invalid or empty video title.', 'domain': 'youtube.video', 'reason': 'invalidTitle', 'location': 'body.snippet.title', 'locationType': 'other'}]\">"
+    },
+    {
+      "id": "GufKY_3dPDU",
+      "old_title": "Teaserama (1955) Short: Icky Lynn | BLUR | 8K HQ (4K UHD) | @remAIke_IT | Best Online Version",
+      "new_title": "Teaserama (1955) Short: Icky Lynn | BLUR | 8K HQ (4K UHD) | @remAIke_IT | Best Online Version #Shorts",
+      "status": "private",
+      "tags_count": 23,
+      "action": "ERROR: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/videos?part=snippet&alt=json returned \"The request metadata specifies an invalid or empty video title.\". Details: \"[{'message': 'The request metadata specifies an invalid or empty video title.', 'domain': 'youtube.video', 'reason': 'invalidTitle', 'location': 'body.snippet.title', 'locationType': 'other'}]\">"
+    },
+    {
+      "id": "h6rDmu7FBzo",
+      "old_title": "Teaserama (1955) Short: Bettie Page | Loop | 8K HQ (4K UHD) | @remAIke_IT | Best Online Version",
+      "new_title": "Teaserama (1955) Short: Bettie Page | Loop | 8K HQ (4K UHD) | @remAIke_IT | Best Online Version #Shorts",
+      "status": "public",
+      "tags_count": 24,
+      "action": "ERROR: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/videos?part=snippet&alt=json returned \"The request metadata specifies an invalid or empty video title.\". Details: \"[{'message': 'The request metadata specifies an invalid or empty video title.', 'domain': 'youtube.video', 'reason': 'invalidTitle', 'location': 'body.snippet.title', 'locationType': 'other'}]\">"
+    },
+    {
+      "id": "gVsamT781zU",
+      "old_title": "Teaserama (1955) Short: Chris La Chris | BLUR | 8K HQ (4K UHD) | @remAIke_IT",
+      "new_title": "Teaserama (1955) Short: Chris La Chris | BLUR | 8K HQ (4K UHD) | @remAIke_IT #Shorts",
+      "status": "public",
+      "tags_count": 23,
+      "action": "UPDATED"
+    },
+    {
+      "id": "ZglrHGrG_oY",
+      "old_title": "Teaserama (1955) Short: Trudy Wayne | 8K HQ (4K UHD) | @remAIke_IT",
+      "new_title": "Teaserama (1955) Short: Trudy Wayne | 8K HQ (4K UHD) | @remAIke_IT #Shorts",
+      "status": "public",
+      "tags_count": 23,
+      "action": "UPDATED"
+    },
+    {
+      "id": "_9GLuLakxgw",
+      "old_title": "Teaserama (1955) Short: Cherry Knight | 8K HQ (4K UHD) | @remAIke_IT | Best Online Version",
+      "new_title": "Teaserama (1955) Short: Cherry Knight | 8K HQ (4K UHD) | @remAIke_IT | Best Online Version #Shorts",
+      "status": "public",
+      "tags_count": 23,
+      "action": "UPDATED"
+    },
+    {
+      "id": "EpzJcD6zkvs",
+      "old_title": "Suzy Snowflake (1953)World First Winter / Christmas Short | 8K HQ | @remAIke_IT",
+      "new_title": "Suzy Snowflake (1953)World First Winter / Christmas Short | 8K HQ | @remAIke_IT #Shorts",
+      "status": "public",
+      "tags_count": 15,
+      "action": "UPDATED"
+    },
+    {
+      "id": "EasEhYlorqQ",
+      "old_title": "Pearl Harbor (Short Version, ) (1942)",
+      "new_title": "Pearl Harbor (Short Version, ) (1942) #Shorts",
+      "status": "public",
+      "tags_count": 12,
+      "action": "UPDATED"
+    }
+  ]
+}

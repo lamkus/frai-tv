@@ -1,0 +1,56 @@
+{
+  "timestamp": "2026-04-15T07:30:23.465596+00:00",
+  "tasks": {
+    "task1_category_fix": {
+      "found": 0,
+      "fixed": 0,
+      "videos": []
+    },
+    "task2_full_movie": {
+      "candidates": 0,
+      "updated": 0,
+      "videos": []
+    },
+    "task3_skylab_artemis": {
+      "found": 4,
+      "updated": 0,
+      "skipped": 1,
+      "videos_updated": [],
+      "videos_skipped": [
+        {
+          "id": "-Gz34LVx90U",
+          "title": "Skylab 2: Launch (1973) | NASA Archive | 8K HQ (4K UHD)",
+          "reason": "already has Artemis"
+        }
+      ]
+    }
+  },
+  "verification": {
+    "total_public": 440,
+    "total_all": 470,
+    "category_distribution": {
+      "1 (Film & Animation)": 391,
+      "27 (Education)": 8,
+      "24 (Entertainment)": 1,
+      "10 (Music)": 40
+    },
+    "title_format": {
+      "8K_HQ_4K_UHD": 433,
+      "bracket_8K": 0,
+      "other": 7
+    },
+    "feature_length": {
+      "total_45plus_min": 27,
+      "with_full_movie": 27,
+      "without_full_movie": 0,
+      "missing_titles": []
+    },
+    "localizations": {
+      "8plus_languages": 410,
+      "1to7_languages": 30,
+      "none": 0
+    }
+  },
+  "quota_used": 180,
+  "completed": "2026-04-15T07:30:39.741381+00:00"
+}

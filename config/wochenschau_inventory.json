@@ -1,0 +1,1851 @@
+{
+  "generated": "2026-02-08T00:18:44.808293",
+  "summary": {
+    "total_episodes": 250,
+    "done": 41,
+    "ready_to_upload": 8,
+    "needs_upscale": 186,
+    "incomplete_upscale": 15,
+    "youtube_only": 0,
+    "missing_numbers": 47,
+    "nr_range": "459-755",
+    "upload_volume_gb": 47.4,
+    "upscale_volume_min": 3793
+  },
+  "ready_to_upload": [
+    {
+      "nr": 491,
+      "date": "1940-01-31",
+      "enhanced_file": "Deutsche_Wochenschau_Nr491_1940-01-31_16min_sls.mp4",
+      "size_mb": 6525.1,
+      "duration_min": 16
+    },
+    {
+      "nr": 492,
+      "date": "1940-02-07",
+      "enhanced_file": "Deutsche_Wochenschau_Nr492_1940-02-07_18min_sls.mp4",
+      "size_mb": 6600.5,
+      "duration_min": 18
+    },
+    {
+      "nr": 493,
+      "date": "1940-02-14",
+      "enhanced_file": "Deutsche_Wochenschau_Nr493_1940-02-14_18min_sls.mp4",
+      "size_mb": 4425.9,
+      "duration_min": 18
+    },
+    {
+      "nr": 496,
+      "date": "1940-03-06",
+      "enhanced_file": "Deutsche_Wochenschau_Nr496_1940-03-06_14min_sls.mp4",
+      "size_mb": 5047.9,
+      "duration_min": 14
+    },
+    {
+      "nr": 504,
+      "date": "1940-05-01",
+      "enhanced_file": "Deutsche_Wochenschau_Nr504_1940-05-01_15min_sls.mp4",
+      "size_mb": 1450.9,
+      "duration_min": 15
+    },
+    {
+      "nr": 505,
+      "date": "1940-05-08",
+      "enhanced_file": "Deutsche_Wochenschau_Nr505_1940-05-08_20min_sls.mp4",
+      "size_mb": 7052.5,
+      "duration_min": 20
+    },
+    {
+      "nr": 506,
+      "date": "1940-05-15",
+      "enhanced_file": "Deutsche_Wochenschau_Nr506_1940-05-15_16min_sls.mp4",
+      "size_mb": 6168.7,
+      "duration_min": 16
+    },
+    {
+      "nr": 507,
+      "date": "1940-05-22",
+      "enhanced_file": "Deutsche_Wochenschau_Nr507_1940-05-22_28min_sls.mp4",
+      "size_mb": 11238.5,
+      "duration_min": 28
+    }
+  ],
+  "needs_upscale": [
+    {
+      "nr": 472,
+      "date": "1939-09-20",
+      "source_file": "Deutsche_Wochenschau_Nr472_1939-09-20_19min.mp4",
+      "duration_min": 19,
+      "size_mb": 112.7
+    },
+    {
+      "nr": 474,
+      "date": "1939-10-04",
+      "source_file": "Deutsche_Wochenschau_Nr474_1939-10-04_17min.mp4",
+      "duration_min": 17,
+      "size_mb": 100.1
+    },
+    {
+      "nr": 510,
+      "date": "1940-06-12",
+      "source_file": "Deutsche_Wochenschau_Nr510_1940-06-12_23min.mp4",
+      "duration_min": 23,
+      "size_mb": 111.2
+    },
+    {
+      "nr": 511,
+      "date": "1940-06-19",
+      "source_file": "Deutsche_Wochenschau_Nr511_1940-06-19_14min.mp4",
+      "duration_min": 14,
+      "size_mb": 72.5
+    },
+    {
+      "nr": 516,
+      "date": "1940-07-24",
+      "source_file": "Deutsche_Wochenschau_Nr516_1940-07-24_20min.mp4",
+      "duration_min": 20,
+      "size_mb": 96.9
+    },
+    {
+      "nr": 517,
+      "date": "1940-07-31",
+      "source_file": "Deutsche_Wochenschau_Nr517_1940-07-31_22min.mp4",
+      "duration_min": 22,
+      "size_mb": 106.5
+    },
+    {
+      "nr": 521,
+      "date": "1940-08-28",
+      "source_file": "Deutsche_Wochenschau_Nr521_1940-08-28_23min.mp4",
+      "duration_min": 23,
+      "size_mb": 82.0
+    },
+    {
+      "nr": 525,
+      "date": "1940-09-25",
+      "source_file": "Deutsche_Wochenschau_Nr525_1940-09-25_22min.mp4",
+      "duration_min": 22,
+      "size_mb": 129.8
+    },
+    {
+      "nr": 526,
+      "date": "1940-10-02",
+      "source_file": "Deutsche_Wochenschau_Nr526_1940-10-02_22min.mp4",
+      "duration_min": 22,
+      "size_mb": 92.9
+    },
+    {
+      "nr": 527,
+      "date": "1940-10-09",
+      "source_file": "Deutsche_Wochenschau_Nr527_1940-10-09_22min.mp4",
+      "duration_min": 22,
+      "size_mb": 104.8
+    },
+    {
+      "nr": 528,
+      "date": "1940-10-16",
+      "source_file": "Deutsche_Wochenschau_Nr528_1940-10-16_24min.mp4",
+      "duration_min": 24,
+      "size_mb": 136.2
+    },
+    {
+      "nr": 529,
+      "date": "1940-10-23",
+      "source_file": "Deutsche_Wochenschau_Nr529_1940-10-23_23min.mp4",
+      "duration_min": 23,
+      "size_mb": 98.2
+    },
+    {
+      "nr": 530,
+      "date": "1940-10-30",
+      "source_file": "Deutsche_Wochenschau_Nr530_1940-10-30_23min.mp4",
+      "duration_min": 23,
+      "size_mb": 142.6
+    },
+    {
+      "nr": 531,
+      "date": "1940-11-06",
+      "source_file": "Deutsche_Wochenschau_Nr531_1940-11-06_22min.mp4",
+      "duration_min": 22,
+      "size_mb": 126.3
+    },
+    {
+      "nr": 533,
+      "date": "1940-11-20",
+      "source_file": "Deutsche_Wochenschau_Nr533_1940-11-20_23min.mp4",
+      "duration_min": 23,
+      "size_mb": 135.7
+    },
+    {
+      "nr": 534,
+      "date": "1940-11-27",
+      "source_file": "Deutsche_Wochenschau_Nr534_1940-11-27_22min.mp4",
+      "duration_min": 22,
+      "size_mb": 131.1
+    },
+    {
+      "nr": 536,
+      "date": "1940-12-11",
+      "source_file": "Deutsche_Wochenschau_Nr536_1940-12-11_19min.mp4",
+      "duration_min": 19,
+      "size_mb": 113.3
+    },
+    {
+      "nr": 537,
+      "date": "1940-12-18",
+      "source_file": "Deutsche_Wochenschau_Nr537_1940-12-18_15min.mp4",
+      "duration_min": 15,
+      "size_mb": 88.6
+    },
+    {
+      "nr": 538,
+      "date": "1940-12-25",
+      "source_file": "Deutsche_Wochenschau_Nr538_1940-12-25_24min.mp4",
+      "duration_min": 24,
+      "size_mb": 141.4
+    },
+    {
+      "nr": 539,
+      "date": "1941-01-01",
+      "source_file": "Deutsche_Wochenschau_Nr539_1941-01-01_21min.mp4",
+      "duration_min": 21,
+      "size_mb": 119.8
+    },
+    {
+      "nr": 552,
+      "date": "1941-04-02",
+      "source_file": "Deutsche_Wochenschau_Nr552_1941-04-02_8min.mp4",
+      "duration_min": 8,
+      "size_mb": 46.2
+    },
+    {
+      "nr": 553,
+      "date": "1941-04-09",
+      "source_file": "Deutsche_Wochenschau_Nr553_1941-04-09_24min.mp4",
+      "duration_min": 24,
+      "size_mb": 138.7
+    },
+    {
+      "nr": 554,
+      "date": "1941-04-16",
+      "source_file": "Deutsche_Wochenschau_Nr554_1941-04-16_23min.mp4",
+      "duration_min": 23,
+      "size_mb": 135.5
+    },
+    {
+      "nr": 555,
+      "date": "1941-04-23",
+      "source_file": "Deutsche_Wochenschau_Nr555_1941-04-23_33min.mp4",
+      "duration_min": 33,
+      "size_mb": 644.3
+    },
+    {
+      "nr": 556,
+      "date": "1941-04-30",
+      "source_file": "Deutsche_Wochenschau_Nr556_1941-04-30_24min.mp4",
+      "duration_min": 24,
+      "size_mb": 139.4
+    },
+    {
+      "nr": 564,
+      "date": "1941-06-25",
+      "source_file": "Deutsche_Wochenschau_Nr564_1941-06-25_23min.mp4",
+      "duration_min": 23,
+      "size_mb": 87.8
+    },
+    {
+      "nr": 565,
+      "date": "1941-07-02",
+      "source_file": "Deutsche_Wochenschau_Nr565_1941-07-02_22min.mp4",
+      "duration_min": 22,
+      "size_mb": 94.8
+    },
+    {
+      "nr": 567,
+      "date": "1941-07-16",
+      "source_file": "Deutsche_Wochenschau_Nr567_1941-07-16_36min.mp4",
+      "duration_min": 36,
+      "size_mb": 159.9
+    },
+    {
+      "nr": 568,
+      "date": "1941-07-23",
+      "source_file": "Deutsche_Wochenschau_Nr568_1941-07-23_35min.mp4",
+      "duration_min": 35,
+      "size_mb": 135.8
+    },
+    {
+      "nr": 569,
+      "date": "1941-07-30",
+      "source_file": "Deutsche_Wochenschau_Nr569_1941-07-30_31min.mp4",
+      "duration_min": 31,
+      "size_mb": 133.1
+    },
+    {
+      "nr": 571,
+      "date": "1941-08-13",
+      "source_file": "Deutsche_Wochenschau_Nr571_1941-08-13_29min.mp4",
+      "duration_min": 29,
+      "size_mb": 137.9
+    },
+    {
+      "nr": 572,
+      "date": "1941-08-20",
+      "source_file": "Deutsche_Wochenschau_Nr572_1941-08-20_32min.mp4",
+      "duration_min": 32,
+      "size_mb": 175.8
+    },
+    {
+      "nr": 575,
+      "date": "1941-09-10",
+      "source_file": "Deutsche_Wochenschau_Nr575_1941-09-10_27min.mp4",
+      "duration_min": 27,
+      "size_mb": 111.8
+    },
+    {
+      "nr": 577,
+      "date": "1941-09-24",
+      "source_file": "Deutsche_Wochenschau_Nr577_1941-09-24_31min.mp4",
+      "duration_min": 31,
+      "size_mb": 179.5
+    },
+    {
+      "nr": 578,
+      "date": "1941-10-01",
+      "source_file": "Deutsche_Wochenschau_Nr578_1941-10-01_30min.mp4",
+      "duration_min": 30,
+      "size_mb": 173.6
+    },
+    {
+      "nr": 579,
+      "date": "1941-10-08",
+      "source_file": "Deutsche_Wochenschau_Nr579_1941-10-08_31min.mp4",
+      "duration_min": 31,
+      "size_mb": 180.7
+    },
+    {
+      "nr": 581,
+      "date": "1941-10-22",
+      "source_file": "Deutsche_Wochenschau_Nr581_1941-10-22_30min.mp4",
+      "duration_min": 30,
+      "size_mb": 899.3
+    },
+    {
+      "nr": 582,
+      "date": "1941-10-29",
+      "source_file": "Deutsche_Wochenschau_Nr582_1941-10-29_18min.mp4",
+      "duration_min": 18,
+      "size_mb": 83.6
+    },
+    {
+      "nr": 583,
+      "date": "1941-11-05",
+      "source_file": "Deutsche_Wochenschau_Nr583_1941-11-05_30min.mp4",
+      "duration_min": 30,
+      "size_mb": 177.7
+    },
+    {
+      "nr": 584,
+      "date": "1941-11-12",
+      "source_file": "Deutsche_Wochenschau_Nr584_1941-11-12_27min.mp4",
+      "duration_min": 27,
+      "size_mb": 165.6
+    },
+    {
+      "nr": 585,
+      "date": "1941-11-19",
+      "source_file": "Deutsche_Wochenschau_Nr585_1941-11-19_27min.mp4",
+      "duration_min": 27,
+      "size_mb": 160.7
+    },
+    {
+      "nr": 586,
+      "date": "1941-11-26",
+      "source_file": "Deutsche_Wochenschau_Nr586_1941-11-26_27min.mp4",
+      "duration_min": 27,
+      "size_mb": 159.7
+    },
+    {
+      "nr": 588,
+      "date": "1941-12-10",
+      "source_file": "Deutsche_Wochenschau_Nr588_1941-12-10_33min.mp4",
+      "duration_min": 33,
+      "size_mb": 186.9
+    },
+    {
+      "nr": 589,
+      "date": "1941-12-17",
+      "source_file": "Deutsche_Wochenschau_Nr589_1941-12-17_26min.mp4",
+      "duration_min": 26,
+      "size_mb": 204.3
+    },
+    {
+      "nr": 590,
+      "date": "1941-12-24",
+      "source_file": "Deutsche_Wochenschau_Nr590_1941-12-24_26min.mp4",
+      "duration_min": 26,
+      "size_mb": 123.2
+    },
+    {
+      "nr": 592,
+      "date": "1942-01-07",
+      "source_file": "Deutsche_Wochenschau_Nr592_1942-01-07_23min.mp4",
+      "duration_min": 23,
+      "size_mb": 133.3
+    },
+    {
+      "nr": 593,
+      "date": "1942-01-14",
+      "source_file": "Deutsche_Wochenschau_Nr593_1942-01-14_24min.mp4",
+      "duration_min": 24,
+      "size_mb": 92.1
+    },
+    {
+      "nr": 594,
+      "date": "1942-01-21",
+      "source_file": "Deutsche_Wochenschau_Nr594_1942-01-21_22min.mp4",
+      "duration_min": 22,
+      "size_mb": 127.6
+    },
+    {
+      "nr": 595,
+      "date": "1942-01-28",
+      "source_file": "Deutsche_Wochenschau_Nr595_1942-01-28_21min.mp4",
+      "duration_min": 21,
+      "size_mb": 119.5
+    },
+    {
+      "nr": 596,
+      "date": "1942-02-04",
+      "source_file": "Deutsche_Wochenschau_Nr596_1942-02-04_23min.mp4",
+      "duration_min": 23,
+      "size_mb": 134.6
+    },
+    {
+      "nr": 598,
+      "date": "1942-02-18",
+      "source_file": "Deutsche_Wochenschau_Nr598_1942-02-18_30min.mp4",
+      "duration_min": 30,
+      "size_mb": 167.5
+    },
+    {
+      "nr": 599,
+      "date": "1942-02-25",
+      "source_file": "Deutsche_Wochenschau_Nr599_1942-02-25_29min.mp4",
+      "duration_min": 29,
+      "size_mb": 167.6
+    },
+    {
+      "nr": 600,
+      "date": "1942-03-04",
+      "source_file": "Deutsche_Wochenschau_Nr600_1942-03-04_29min.mp4",
+      "duration_min": 29,
+      "size_mb": 169.2
+    },
+    {
+      "nr": 601,
+      "date": "1942-03-11",
+      "source_file": "Deutsche_Wochenschau_Nr601_1942-03-11_27min.mp4",
+      "duration_min": 27,
+      "size_mb": 154.2
+    },
+    {
+      "nr": 602,
+      "date": "1942-03-18",
+      "source_file": "Deutsche_Wochenschau_Nr602_1942-03-18_20min.mp4",
+      "duration_min": 20,
+      "size_mb": 118.9
+    },
+    {
+      "nr": 605,
+      "date": "1942-04-08",
+      "source_file": "Deutsche_Wochenschau_Nr605_1942-04-08_28min.mp4",
+      "duration_min": 28,
+      "size_mb": 163.9
+    },
+    {
+      "nr": 606,
+      "date": "1942-04-15",
+      "source_file": "Deutsche_Wochenschau_Nr606_1942-04-15_24min.mp4",
+      "duration_min": 24,
+      "size_mb": 138.1
+    },
+    {
+      "nr": 607,
+      "date": "1942-04-22",
+      "source_file": "Deutsche_Wochenschau_Nr607_1942-04-22_28min.mp4",
+      "duration_min": 28,
+      "size_mb": 164.4
+    },
+    {
+      "nr": 611,
+      "date": "1942-05-20",
+      "source_file": "Deutsche_Wochenschau_Nr611_1942-05-20_27min.mp4",
+      "duration_min": 27,
+      "size_mb": 160.8
+    },
+    {
+      "nr": 612,
+      "date": "1942-05-27",
+      "source_file": "Deutsche_Wochenschau_Nr612_1942-05-27_33min.mp4",
+      "duration_min": 33,
+      "size_mb": 183.0
+    },
+    {
+      "nr": 613,
+      "date": "1942-06-03",
+      "source_file": "Deutsche_Wochenschau_Nr613_1942-06-03_33min.mp4",
+      "duration_min": 33,
+      "size_mb": 187.7
+    },
+    {
+      "nr": 614,
+      "date": "1942-06-10",
+      "source_file": "Deutsche_Wochenschau_Nr614_1942-06-10_26min.mp4",
+      "duration_min": 26,
+      "size_mb": 146.6
+    },
+    {
+      "nr": 615,
+      "date": "1942-06-17",
+      "source_file": "Deutsche_Wochenschau_Nr615_1942-06-17_29min.mp4",
+      "duration_min": 29,
+      "size_mb": 171.0
+    },
+    {
+      "nr": 616,
+      "date": "1942-06-24",
+      "source_file": "Deutsche_Wochenschau_Nr616_1942-06-24_28min.mp4",
+      "duration_min": 28,
+      "size_mb": 171.6
+    },
+    {
+      "nr": 617,
+      "date": "1942-07-01",
+      "source_file": "Deutsche_Wochenschau_Nr617_1942-07-01_30min.mp4",
+      "duration_min": 30,
+      "size_mb": 804.2
+    },
+    {
+      "nr": 618,
+      "date": "1942-07-08",
+      "source_file": "Deutsche_Wochenschau_Nr618_1942-07-08_31min.mp4",
+      "duration_min": 31,
+      "size_mb": 176.5
+    },
+    {
+      "nr": 619,
+      "date": "1942-07-15",
+      "source_file": "Deutsche_Wochenschau_Nr619_1942-07-15_23min.mp4",
+      "duration_min": 23,
+      "size_mb": 94.5
+    },
+    {
+      "nr": 620,
+      "date": "1942-07-22",
+      "source_file": "Deutsche_Wochenschau_Nr620_1942-07-22_23min.mp4",
+      "duration_min": 23,
+      "size_mb": 137.9
+    },
+    {
+      "nr": 621,
+      "date": "1942-07-29",
+      "source_file": "Deutsche_Wochenschau_Nr621_1942-07-29_34min.mp4",
+      "duration_min": 34,
+      "size_mb": 193.8
+    },
+    {
+      "nr": 622,
+      "date": "1942-08-05",
+      "source_file": "Deutsche_Wochenschau_Nr622_1942-08-05_24min.mp4",
+      "duration_min": 24,
+      "size_mb": 145.1
+    },
+    {
+      "nr": 623,
+      "date": "1942-08-12",
+      "source_file": "Deutsche_Wochenschau_Nr623_1942-08-12_29min.mp4",
+      "duration_min": 29,
+      "size_mb": 159.4
+    },
+    {
+      "nr": 624,
+      "date": "1942-08-19",
+      "source_file": "Deutsche_Wochenschau_Nr624_1942-08-19_19min.mp4",
+      "duration_min": 19,
+      "size_mb": 79.1
+    },
+    {
+      "nr": 625,
+      "date": "1942-08-26",
+      "source_file": "Deutsche_Wochenschau_Nr625_1942-08-26_19min.mp4",
+      "duration_min": 19,
+      "size_mb": 114.1
+    },
+    {
+      "nr": 627,
+      "date": "1942-09-09",
+      "source_file": "Deutsche_Wochenschau_Nr627_1942-09-09_25min.mp4",
+      "duration_min": 25,
+      "size_mb": 140.7
+    },
+    {
+      "nr": 628,
+      "date": "1942-09-16",
+      "source_file": "Deutsche_Wochenschau_Nr628_1942-09-16_16min.mp4",
+      "duration_min": 16,
+      "size_mb": 98.9
+    },
+    {
+      "nr": 629,
+      "date": "1942-09-23",
+      "source_file": "Deutsche_Wochenschau_Nr629_1942-09-23_25min.mp4",
+      "duration_min": 25,
+      "size_mb": 778.9
+    },
+    {
+      "nr": 630,
+      "date": "1942-09-30",
+      "source_file": "Deutsche_Wochenschau_Nr630_1942-09-30_18min.mp4",
+      "duration_min": 18,
+      "size_mb": 103.7
+    },
+    {
+      "nr": 631,
+      "date": "1942-10-07",
+      "source_file": "Deutsche_Wochenschau_Nr631_1942-10-07_22min.mp4",
+      "duration_min": 22,
+      "size_mb": 124.7
+    },
+    {
+      "nr": 632,
+      "date": "1942-10-14",
+      "source_file": "Deutsche_Wochenschau_Nr632_1942-10-14_26min.mp4",
+      "duration_min": 26,
+      "size_mb": 149.4
+    },
+    {
+      "nr": 633,
+      "date": "1942-10-21",
+      "source_file": "Deutsche_Wochenschau_Nr633_1942-10-21_16min.mp4",
+      "duration_min": 16,
+      "size_mb": 90.3
+    },
+    {
+      "nr": 634,
+      "date": "1942-10-28",
+      "source_file": "Deutsche_Wochenschau_Nr634_1942-10-28_20min.mp4",
+      "duration_min": 20,
+      "size_mb": 84.8
+    },
+    {
+      "nr": 635,
+      "date": "1942-11-04",
+      "source_file": "Deutsche_Wochenschau_Nr635_1942-11-04_16min.mp4",
+      "duration_min": 16,
+      "size_mb": 90.7
+    },
+    {
+      "nr": 637,
+      "date": "1942-11-18",
+      "source_file": "Deutsche_Wochenschau_Nr637_1942-11-18_20min.mp4",
+      "duration_min": 20,
+      "size_mb": 560.1
+    },
+    {
+      "nr": 638,
+      "date": "1942-11-25",
+      "source_file": "Deutsche_Wochenschau_Nr638_1942-11-25_17min.mp4",
+      "duration_min": 17,
+      "size_mb": 98.1
+    },
+    {
+      "nr": 639,
+      "date": "1942-12-02",
+      "source_file": "Deutsche_Wochenschau_Nr639_1942-12-02_18min.mp4",
+      "duration_min": 18,
+      "size_mb": 103.6
+    },
+    {
+      "nr": 640,
+      "date": "1942-12-09",
+      "source_file": "Deutsche_Wochenschau_Nr640_1942-12-09_19min.mp4",
+      "duration_min": 19,
+      "size_mb": 111.7
+    },
+    {
+      "nr": 641,
+      "date": "1942-12-16",
+      "source_file": "Deutsche_Wochenschau_Nr641_1942-12-16_17min.mp4",
+      "duration_min": 17,
+      "size_mb": 1779.1
+    },
+    {
+      "nr": 642,
+      "date": "1942-12-23",
+      "source_file": "Deutsche_Wochenschau_Nr642_1942-12-23_19min.mp4",
+      "duration_min": 19,
+      "size_mb": 110.3
+    },
+    {
+      "nr": 644,
+      "date": "1943-01-06",
+      "source_file": "Deutsche_Wochenschau_Nr644_1943-01-06_13min.mp4",
+      "duration_min": 13,
+      "size_mb": 62.3
+    },
+    {
+      "nr": 645,
+      "date": "1943-01-13",
+      "source_file": "Deutsche_Wochenschau_Nr645_1943-01-13_22min.mp4",
+      "duration_min": 22,
+      "size_mb": 545.5
+    },
+    {
+      "nr": 647,
+      "date": "1943-01-27",
+      "source_file": "Deutsche_Wochenschau_Nr647_1943-01-27_25min.mp4",
+      "duration_min": 25,
+      "size_mb": 145.3
+    },
+    {
+      "nr": 648,
+      "date": "1943-02-03",
+      "source_file": "Deutsche_Wochenschau_Nr648_1943-02-03_21min.mp4",
+      "duration_min": 21,
+      "size_mb": 122.0
+    },
+    {
+      "nr": 649,
+      "date": "1943-02-10",
+      "source_file": "Deutsche_Wochenschau_Nr649_1943-02-10_21min.mp4",
+      "duration_min": 21,
+      "size_mb": 120.3
+    },
+    {
+      "nr": 650,
+      "date": "1943-02-17",
+      "source_file": "Deutsche_Wochenschau_Nr650_1943-02-17_19min.mp4",
+      "duration_min": 19,
+      "size_mb": 388.4
+    },
+    {
+      "nr": 651,
+      "date": "1943-02-24",
+      "source_file": "Deutsche_Wochenschau_Nr651_1943-02-24_17min.mp4",
+      "duration_min": 17,
+      "size_mb": 67.6
+    },
+    {
+      "nr": 653,
+      "date": "1943-03-10",
+      "source_file": "Deutsche_Wochenschau_Nr653_1943-03-10_21min.mp4",
+      "duration_min": 21,
+      "size_mb": 119.5
+    },
+    {
+      "nr": 655,
+      "date": "1943-03-24",
+      "source_file": "Deutsche_Wochenschau_Nr655_1943-03-24_22min.mp4",
+      "duration_min": 22,
+      "size_mb": 85.7
+    },
+    {
+      "nr": 656,
+      "date": "1943-03-31",
+      "source_file": "Deutsche_Wochenschau_Nr656_1943-03-31_21min.mp4",
+      "duration_min": 21,
+      "size_mb": 119.1
+    },
+    {
+      "nr": 657,
+      "date": "1943-04-07",
+      "source_file": "Deutsche_Wochenschau_Nr657_1943-04-07_21min.mp4",
+      "duration_min": 21,
+      "size_mb": 554.8
+    },
+    {
+      "nr": 658,
+      "date": "1943-04-14",
+      "source_file": "Deutsche_Wochenschau_Nr658_1943-04-14_27min.mp4",
+      "duration_min": 27,
+      "size_mb": 153.3
+    },
+    {
+      "nr": 659,
+      "date": "1943-04-21",
+      "source_file": "Deutsche_Wochenschau_Nr659_1943-04-21_21min.mp4",
+      "duration_min": 21,
+      "size_mb": 119.7
+    },
+    {
+      "nr": 661,
+      "date": "1943-05-05",
+      "source_file": "Deutsche_Wochenschau_Nr661_1943-05-05_21min.mp4",
+      "duration_min": 21,
+      "size_mb": 121.2
+    },
+    {
+      "nr": 662,
+      "date": "1943-05-12",
+      "source_file": "Deutsche_Wochenschau_Nr662_1943-05-12_26min.mp4",
+      "duration_min": 26,
+      "size_mb": 144.3
+    },
+    {
+      "nr": 663,
+      "date": "1943-05-19",
+      "source_file": "Deutsche_Wochenschau_Nr663_1943-05-19_15min.mp4",
+      "duration_min": 15,
+      "size_mb": 91.3
+    },
+    {
+      "nr": 665,
+      "date": "1943-06-02",
+      "source_file": "Deutsche_Wochenschau_Nr665_1943-06-02_19min.mp4",
+      "duration_min": 19,
+      "size_mb": 495.9
+    },
+    {
+      "nr": 666,
+      "date": "1943-06-09",
+      "source_file": "Deutsche_Wochenschau_Nr666_1943-06-09_19min.mp4",
+      "duration_min": 19,
+      "size_mb": 111.3
+    },
+    {
+      "nr": 667,
+      "date": "1943-06-16",
+      "source_file": "Deutsche_Wochenschau_Nr667_1943-06-16_22min.mp4",
+      "duration_min": 22,
+      "size_mb": 119.6
+    },
+    {
+      "nr": 668,
+      "date": "1943-06-23",
+      "source_file": "Deutsche_Wochenschau_Nr668_1943-06-23_22min.mp4",
+      "duration_min": 22,
+      "size_mb": 125.2
+    },
+    {
+      "nr": 669,
+      "date": "1943-06-30",
+      "source_file": "Deutsche_Wochenschau_Nr669_1943-06-30_23min.mp4",
+      "duration_min": 23,
+      "size_mb": 131.3
+    },
+    {
+      "nr": 670,
+      "date": "1943-07-07",
+      "source_file": "Deutsche_Wochenschau_Nr670_1943-07-07_24min.mp4",
+      "duration_min": 24,
+      "size_mb": 134.7
+    },
+    {
+      "nr": 671,
+      "date": "1943-07-14",
+      "source_file": "Deutsche_Wochenschau_Nr671_1943-07-14_25min.mp4",
+      "duration_min": 25,
+      "size_mb": 139.4
+    },
+    {
+      "nr": 672,
+      "date": "1943-07-21",
+      "source_file": "Deutsche_Wochenschau_Nr672_1943-07-21_23min.mp4",
+      "duration_min": 23,
+      "size_mb": 131.3
+    },
+    {
+      "nr": 673,
+      "date": "1943-07-28",
+      "source_file": "Deutsche_Wochenschau_Nr673_1943-07-28_26min.mp4",
+      "duration_min": 26,
+      "size_mb": 142.2
+    },
+    {
+      "nr": 674,
+      "date": "1943-08-04",
+      "source_file": "Deutsche_Wochenschau_Nr674_1943-08-04_24min.mp4",
+      "duration_min": 24,
+      "size_mb": 136.8
+    },
+    {
+      "nr": 675,
+      "date": "1943-08-11",
+      "source_file": "Deutsche_Wochenschau_Nr675_1943-08-11_18min.mp4",
+      "duration_min": 18,
+      "size_mb": 106.3
+    },
+    {
+      "nr": 676,
+      "date": "1943-08-18",
+      "source_file": "Deutsche_Wochenschau_Nr676_1943-08-18_17min.mp4",
+      "duration_min": 17,
+      "size_mb": 98.6
+    },
+    {
+      "nr": 677,
+      "date": "1943-08-25",
+      "source_file": "Deutsche_Wochenschau_Nr677_1943-08-25_20min.mp4",
+      "duration_min": 20,
+      "size_mb": 469.8
+    },
+    {
+      "nr": 679,
+      "date": "1943-09-08",
+      "source_file": "Deutsche_Wochenschau_Nr679_1943-09-08_19min.mp4",
+      "duration_min": 19,
+      "size_mb": 112.0
+    },
+    {
+      "nr": 680,
+      "date": "1943-09-15",
+      "source_file": "Deutsche_Wochenschau_Nr680_1943-09-15_17min.mp4",
+      "duration_min": 17,
+      "size_mb": 100.3
+    },
+    {
+      "nr": 681,
+      "date": "1943-09-22",
+      "source_file": "Deutsche_Wochenschau_Nr681_1943-09-22_28min.mp4",
+      "duration_min": 28,
+      "size_mb": 162.4
+    },
+    {
+      "nr": 682,
+      "date": "1943-09-29",
+      "source_file": "Deutsche_Wochenschau_Nr682_1943-09-29_21min.mp4",
+      "duration_min": 21,
+      "size_mb": 116.9
+    },
+    {
+      "nr": 683,
+      "date": "1943-10-06",
+      "source_file": "Deutsche_Wochenschau_Nr683_1943-10-06_23min.mp4",
+      "duration_min": 23,
+      "size_mb": 130.6
+    },
+    {
+      "nr": 684,
+      "date": "1943-10-13",
+      "source_file": "Deutsche_Wochenschau_Nr684_1943-10-13_20min.mp4",
+      "duration_min": 20,
+      "size_mb": 112.9
+    },
+    {
+      "nr": 685,
+      "date": "1943-10-20",
+      "source_file": "Deutsche_Wochenschau_Nr685_1943-10-20_19min.mp4",
+      "duration_min": 19,
+      "size_mb": 107.6
+    },
+    {
+      "nr": 686,
+      "date": "1943-10-27",
+      "source_file": "Deutsche_Wochenschau_Nr686_1943-10-27_20min.mp4",
+      "duration_min": 20,
+      "size_mb": 110.2
+    },
+    {
+      "nr": 687,
+      "date": "1943-11-03",
+      "source_file": "Deutsche_Wochenschau_Nr687_1943-11-03_18min.mp4",
+      "duration_min": 18,
+      "size_mb": 106.0
+    },
+    {
+      "nr": 688,
+      "date": "1943-11-10",
+      "source_file": "Deutsche_Wochenschau_Nr688_1943-11-10_20min.mp4",
+      "duration_min": 20,
+      "size_mb": 115.5
+    },
+    {
+      "nr": 689,
+      "date": "1943-11-17",
+      "source_file": "Deutsche_Wochenschau_Nr689_1943-11-17_19min.mp4",
+      "duration_min": 19,
+      "size_mb": 110.2
+    },
+    {
+      "nr": 690,
+      "date": "1943-11-24",
+      "source_file": "Deutsche_Wochenschau_Nr690_1943-11-24_19min.mp4",
+      "duration_min": 19,
+      "size_mb": 112.2
+    },
+    {
+      "nr": 691,
+      "date": "1943-12-01",
+      "source_file": "Deutsche_Wochenschau_Nr691_1943-12-01_15min.mp4",
+      "duration_min": 15,
+      "size_mb": 87.7
+    },
+    {
+      "nr": 692,
+      "date": "1943-12-08",
+      "source_file": "Deutsche_Wochenschau_Nr692_1943-12-08_21min.mp4",
+      "duration_min": 21,
+      "size_mb": 115.8
+    },
+    {
+      "nr": 693,
+      "date": "1943-12-15",
+      "source_file": "Deutsche_Wochenschau_Nr693_1943-12-15_20min.mp4",
+      "duration_min": 20,
+      "size_mb": 114.0
+    },
+    {
+      "nr": 694,
+      "date": "1943-12-22",
+      "source_file": "Deutsche_Wochenschau_Nr694_1943-12-22_18min.mp4",
+      "duration_min": 18,
+      "size_mb": 103.7
+    },
+    {
+      "nr": 695,
+      "date": "1943-12-29",
+      "source_file": "Deutsche_Wochenschau_Nr695_1943-12-29_22min.mp4",
+      "duration_min": 22,
+      "size_mb": 127.2
+    },
+    {
+      "nr": 696,
+      "date": "1944-01-05",
+      "source_file": "Deutsche_Wochenschau_Nr696_1944-01-05_10min.mp4",
+      "duration_min": 10,
+      "size_mb": 27.0
+    },
+    {
+      "nr": 697,
+      "date": "1944-01-12",
+      "source_file": "Deutsche_Wochenschau_Nr697_1944-01-12_19min.mp4",
+      "duration_min": 19,
+      "size_mb": 110.6
+    },
+    {
+      "nr": 698,
+      "date": "1944-01-19",
+      "source_file": "Deutsche_Wochenschau_Nr698_1944-01-19_19min.mp4",
+      "duration_min": 19,
+      "size_mb": 113.5
+    },
+    {
+      "nr": 699,
+      "date": "1944-01-26",
+      "source_file": "Deutsche_Wochenschau_Nr699_1944-01-26_21min.mp4",
+      "duration_min": 21,
+      "size_mb": 88.9
+    },
+    {
+      "nr": 700,
+      "date": "1944-02-02",
+      "source_file": "Deutsche_Wochenschau_Nr700_1944-02-02_10min.mp4",
+      "duration_min": 10,
+      "size_mb": 26.8
+    },
+    {
+      "nr": 701,
+      "date": "1944-02-09",
+      "source_file": "Deutsche_Wochenschau_Nr701_1944-02-09_9min.mp4",
+      "duration_min": 9,
+      "size_mb": 25.6
+    },
+    {
+      "nr": 702,
+      "date": "1944-02-16",
+      "source_file": "Deutsche_Wochenschau_Nr702_1944-02-16_16min.mp4",
+      "duration_min": 16,
+      "size_mb": 94.8
+    },
+    {
+      "nr": 703,
+      "date": "1944-02-23",
+      "source_file": "Deutsche_Wochenschau_Nr703_1944-02-23_18min.mp4",
+      "duration_min": 18,
+      "size_mb": 104.6
+    },
+    {
+      "nr": 704,
+      "date": "1944-03-01",
+      "source_file": "Deutsche_Wochenschau_Nr704_1944-03-01_8min.mp4",
+      "duration_min": 8,
+      "size_mb": 20.7
+    },
+    {
+      "nr": 705,
+      "date": "1944-03-08",
+      "source_file": "Deutsche_Wochenschau_Nr705_1944-03-08_19min.mp4",
+      "duration_min": 19,
+      "size_mb": 110.1
+    },
+    {
+      "nr": 706,
+      "date": "1944-03-15",
+      "source_file": "Deutsche_Wochenschau_Nr706_1944-03-15_10min.mp4",
+      "duration_min": 10,
+      "size_mb": 27.3
+    },
+    {
+      "nr": 707,
+      "date": "1944-03-22",
+      "source_file": "Deutsche_Wochenschau_Nr707_1944-03-22_20min.mp4",
+      "duration_min": 20,
+      "size_mb": 116.2
+    },
+    {
+      "nr": 708,
+      "date": "1944-03-29",
+      "source_file": "Deutsche_Wochenschau_Nr708_1944-03-29_17min.mp4",
+      "duration_min": 17,
+      "size_mb": 100.7
+    },
+    {
+      "nr": 709,
+      "date": "1944-04-05",
+      "source_file": "Deutsche_Wochenschau_Nr709_1944-04-05_18min.mp4",
+      "duration_min": 18,
+      "size_mb": 101.9
+    },
+    {
+      "nr": 710,
+      "date": "1944-04-12",
+      "source_file": "Deutsche_Wochenschau_Nr710_1944-04-12_11min.mp4",
+      "duration_min": 11,
+      "size_mb": 30.2
+    },
+    {
+      "nr": 711,
+      "date": "1944-04-19",
+      "source_file": "Deutsche_Wochenschau_Nr711_1944-04-19_19min.mp4",
+      "duration_min": 19,
+      "size_mb": 106.6
+    },
+    {
+      "nr": 712,
+      "date": "1944-04-26",
+      "source_file": "Deutsche_Wochenschau_Nr712_1944-04-26_21min.mp4",
+      "duration_min": 21,
+      "size_mb": 118.8
+    },
+    {
+      "nr": 713,
+      "date": "1944-05-03",
+      "source_file": "Deutsche_Wochenschau_Nr713_1944-05-03_19min.mp4",
+      "duration_min": 19,
+      "size_mb": 111.0
+    },
+    {
+      "nr": 714,
+      "date": "1944-05-10",
+      "source_file": "Deutsche_Wochenschau_Nr714_1944-05-10_15min.mp4",
+      "duration_min": 15,
+      "size_mb": 41.6
+    },
+    {
+      "nr": 715,
+      "date": "1944-05-17",
+      "source_file": "Deutsche_Wochenschau_Nr715_1944-05-17_19min.mp4",
+      "duration_min": 19,
+      "size_mb": 107.3
+    },
+    {
+      "nr": 716,
+      "date": "1944-05-24",
+      "source_file": "Deutsche_Wochenschau_Nr716_1944-05-24_10min.mp4",
+      "duration_min": 10,
+      "size_mb": 27.3
+    },
+    {
+      "nr": 717,
+      "date": "1944-05-31",
+      "source_file": "Deutsche_Wochenschau_Nr717_1944-05-31_17min.mp4",
+      "duration_min": 17,
+      "size_mb": 98.2
+    },
+    {
+      "nr": 718,
+      "date": "1944-06-07",
+      "source_file": "Deutsche_Wochenschau_Nr718_1944-06-07_18min.mp4",
+      "duration_min": 18,
+      "size_mb": 78.0
+    },
+    {
+      "nr": 719,
+      "date": "1944-06-14",
+      "source_file": "Deutsche_Wochenschau_Nr719_1944-06-14_16min.mp4",
+      "duration_min": 16,
+      "size_mb": 45.5
+    },
+    {
+      "nr": 723,
+      "date": "1944-07-12",
+      "source_file": "Deutsche_Wochenschau_Nr723_1944-07-12_20min.mp4",
+      "duration_min": 20,
+      "size_mb": 113.5
+    },
+    {
+      "nr": 724,
+      "date": "1944-07-19",
+      "source_file": "Deutsche_Wochenschau_Nr724_1944-07-19_9min.mp4",
+      "duration_min": 9,
+      "size_mb": 24.7
+    },
+    {
+      "nr": 725,
+      "date": "1944-07-26",
+      "source_file": "Deutsche_Wochenschau_Nr725_1944-07-26_17min.mp4",
+      "duration_min": 17,
+      "size_mb": 48.1
+    },
+    {
+      "nr": 726,
+      "date": "1944-08-02",
+      "source_file": "Deutsche_Wochenschau_Nr726_1944-08-02_8min.mp4",
+      "duration_min": 8,
+      "size_mb": 22.8
+    },
+    {
+      "nr": 727,
+      "date": "1944-08-09",
+      "source_file": "Deutsche_Wochenschau_Nr727_1944-08-09_15min.mp4",
+      "duration_min": 15,
+      "size_mb": 88.1
+    },
+    {
+      "nr": 728,
+      "date": "1944-08-16",
+      "source_file": "Deutsche_Wochenschau_Nr728_1944-08-16_13min.mp4",
+      "duration_min": 13,
+      "size_mb": 33.8
+    },
+    {
+      "nr": 729,
+      "date": "1944-08-23",
+      "source_file": "Deutsche_Wochenschau_Nr729_1944-08-23_12min.mp4",
+      "duration_min": 12,
+      "size_mb": 56.0
+    },
+    {
+      "nr": 730,
+      "date": "1944-08-30",
+      "source_file": "Deutsche_Wochenschau_Nr730_1944-08-30_13min.mp4",
+      "duration_min": 13,
+      "size_mb": 51.2
+    },
+    {
+      "nr": 731,
+      "date": "1944-09-06",
+      "source_file": "Deutsche_Wochenschau_Nr731_1944-09-06_11min.mp4",
+      "duration_min": 11,
+      "size_mb": 52.6
+    },
+    {
+      "nr": 732,
+      "date": "1944-09-13",
+      "source_file": "Deutsche_Wochenschau_Nr732_1944-09-13_10min.mp4",
+      "duration_min": 10,
+      "size_mb": 41.4
+    },
+    {
+      "nr": 733,
+      "date": "1944-09-20",
+      "source_file": "Deutsche_Wochenschau_Nr733_1944-09-20_12min.mp4",
+      "duration_min": 12,
+      "size_mb": 51.5
+    },
+    {
+      "nr": 734,
+      "date": "1944-09-27",
+      "source_file": "Deutsche_Wochenschau_Nr734_1944-09-27_12min.mp4",
+      "duration_min": 12,
+      "size_mb": 44.0
+    },
+    {
+      "nr": 735,
+      "date": "1944-10-04",
+      "source_file": "Deutsche_Wochenschau_Nr735_1944-10-04_12min.mp4",
+      "duration_min": 12,
+      "size_mb": 43.6
+    },
+    {
+      "nr": 736,
+      "date": "1944-10-11",
+      "source_file": "Deutsche_Wochenschau_Nr736_1944-10-11_12min.mp4",
+      "duration_min": 12,
+      "size_mb": 43.9
+    },
+    {
+      "nr": 737,
+      "date": "1944-10-18",
+      "source_file": "Deutsche_Wochenschau_Nr737_1944-10-18_13min.mp4",
+      "duration_min": 13,
+      "size_mb": 51.8
+    },
+    {
+      "nr": 738,
+      "date": "1944-10-25",
+      "source_file": "Deutsche_Wochenschau_Nr738_1944-10-25_11min.mp4",
+      "duration_min": 11,
+      "size_mb": 47.9
+    },
+    {
+      "nr": 739,
+      "date": "1944-11-01",
+      "source_file": "Deutsche_Wochenschau_Nr739_1944-11-01_12min.mp4",
+      "duration_min": 12,
+      "size_mb": 53.4
+    },
+    {
+      "nr": 740,
+      "date": "1944-11-08",
+      "source_file": "Deutsche_Wochenschau_Nr740_1944-11-08_10min.mp4",
+      "duration_min": 10,
+      "size_mb": 25.8
+    },
+    {
+      "nr": 741,
+      "date": "1944-11-15",
+      "source_file": "Deutsche_Wochenschau_Nr741_1944-11-15_12min.mp4",
+      "duration_min": 12,
+      "size_mb": 54.4
+    },
+    {
+      "nr": 742,
+      "date": "1944-11-22",
+      "source_file": "Deutsche_Wochenschau_Nr742_1944-11-22_12min.mp4",
+      "duration_min": 12,
+      "size_mb": 32.3
+    },
+    {
+      "nr": 743,
+      "date": "1944-11-29",
+      "source_file": "Deutsche_Wochenschau_Nr743_1944-11-29_9min.mp4",
+      "duration_min": 9,
+      "size_mb": 24.5
+    },
+    {
+      "nr": 744,
+      "date": "1944-12-06",
+      "source_file": "Deutsche_Wochenschau_Nr744_1944-12-06_10min.mp4",
+      "duration_min": 10,
+      "size_mb": 42.3
+    },
+    {
+      "nr": 745,
+      "date": "1944-12-13",
+      "source_file": "Deutsche_Wochenschau_Nr745_1944-12-13_8min.mp4",
+      "duration_min": 8,
+      "size_mb": 30.5
+    },
+    {
+      "nr": 747,
+      "date": "1944-12-27",
+      "source_file": "Deutsche_Wochenschau_Nr747_1944-12-27_11min.mp4",
+      "duration_min": 11,
+      "size_mb": 46.4
+    },
+    {
+      "nr": 748,
+      "date": "1945-01-03",
+      "source_file": "Deutsche_Wochenschau_Nr748_1945-01-03_13min.mp4",
+      "duration_min": 13,
+      "size_mb": 75.1
+    },
+    {
+      "nr": 749,
+      "date": "1945-01-10",
+      "source_file": "Deutsche_Wochenschau_Nr749_1945-01-10_10min.mp4",
+      "duration_min": 10,
+      "size_mb": 67.6
+    },
+    {
+      "nr": 752,
+      "date": "1945-01-31",
+      "source_file": "Deutsche_Wochenschau_Nr752_1945-01-31_10min.mp4",
+      "duration_min": 10,
+      "size_mb": 67.2
+    },
+    {
+      "nr": 755,
+      "date": "1945-02-21",
+      "source_file": "Deutsche_Wochenschau_Nr755_1945-02-21_10min.mp4",
+      "duration_min": 10,
+      "size_mb": 3967.2
+    }
+  ],
+  "incomplete_upscale": [
+    {
+      "nr": 497,
+      "date": "1940-03-13",
+      "status": "upscale_incomplete",
+      "source_file": "Deutsche_Wochenschau_Nr497_1940-03-13_20min.mp4",
+      "duration_min": 20
+    },
+    {
+      "nr": 499,
+      "date": "1940-03-27",
+      "status": "upscale_incomplete",
+      "source_file": "Deutsche_Wochenschau_Nr499_1940-03-27_14min.mp4",
+      "duration_min": 14
+    },
+    {
+      "nr": 532,
+      "date": "1940-11-13",
+      "status": "upscale_incomplete",
+      "source_file": "Deutsche_Wochenschau_Nr532_1940-11-13_21min.mp4",
+      "duration_min": 21
+    },
+    {
+      "nr": 557,
+      "date": "1941-05-07",
+      "status": "upscale_incomplete",
+      "source_file": "Deutsche_Wochenschau_Nr557_1941-05-07_20min.mp4",
+      "duration_min": 20
+    },
+    {
+      "nr": 561,
+      "date": "1941-06-04",
+      "status": "upscale_incomplete",
+      "source_file": "Deutsche_Wochenschau_Nr561_1941-06-04_20min.mp4",
+      "duration_min": 20
+    },
+    {
+      "nr": 562,
+      "date": "1941-06-11",
+      "status": "upscale_incomplete",
+      "source_file": "Deutsche_Wochenschau_Nr562_1941-06-11_26min.mp4",
+      "duration_min": 26
+    },
+    {
+      "nr": 566,
+      "date": "1941-07-09",
+      "status": "upscale_incomplete",
+      "source_file": "Deutsche_Wochenschau_Nr566_1941-07-09_25min.mp4",
+      "duration_min": 25
+    },
+    {
+      "nr": 570,
+      "date": "1941-08-06",
+      "status": "upscale_incomplete",
+      "source_file": "Deutsche_Wochenschau_Nr570_1941-08-06_34min.mp4",
+      "duration_min": 34
+    },
+    {
+      "nr": 574,
+      "date": "1941-09-03",
+      "status": "upscale_incomplete",
+      "source_file": "Deutsche_Wochenschau_Nr574_1941-09-03_31min.mp4",
+      "duration_min": 31
+    },
+    {
+      "nr": 576,
+      "date": "1941-09-17",
+      "status": "upscale_incomplete",
+      "source_file": "Deutsche_Wochenschau_Nr576_1941-09-17_27min.mp4",
+      "duration_min": 27
+    },
+    {
+      "nr": 604,
+      "date": "1942-04-01",
+      "status": "upscale_incomplete",
+      "source_file": "Deutsche_Wochenschau_Nr604_1942-04-01_23min.mp4",
+      "duration_min": 23
+    },
+    {
+      "nr": 608,
+      "date": "1942-04-29",
+      "status": "upscale_incomplete",
+      "source_file": "Deutsche_Wochenschau_Nr608_1942-04-29_29min.mp4",
+      "duration_min": 29
+    },
+    {
+      "nr": 609,
+      "date": "1942-05-06",
+      "status": "upscale_incomplete",
+      "source_file": "Deutsche_Wochenschau_Nr609_1942-05-06_29min.mp4",
+      "duration_min": 29
+    },
+    {
+      "nr": 610,
+      "date": "1942-05-13",
+      "status": "upscale_incomplete",
+      "source_file": "Deutsche_Wochenschau_Nr610_1942-05-13_25min.mp4",
+      "duration_min": 25
+    },
+    {
+      "nr": 660,
+      "date": "1943-04-28",
+      "status": "upscale_incomplete",
+      "source_file": "Deutsche_Wochenschau_Nr660_1943-04-28_19min.mp4",
+      "duration_min": 19
+    }
+  ],
+  "already_done": [
+    {
+      "nr": 459,
+      "date": "1939-06-21",
+      "youtube_id": "o33-c1riv4U",
+      "youtube_title": "Wochenschau 459: Pre-War Era (Jun 1939) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr459_1939-06-21_18min_sls.mp4",
+      "size_mb": 7065.5
+    },
+    {
+      "nr": 468,
+      "date": "1939-08-23",
+      "youtube_id": "dAp7JFDhE3U",
+      "youtube_title": "Wochenschau 468: Nazi-Soviet Pact (Aug 1939) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr468_1939-08-23_13min_sls.mp4",
+      "size_mb": 4958.8
+    },
+    {
+      "nr": 470,
+      "date": "1939-09-06",
+      "youtube_id": "t-VIxJaWE74",
+      "youtube_title": "Wochenschau 470: War Begins (Sep 1939) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr470_1939-09-06_21min_sls.mp4",
+      "size_mb": 8007.3
+    },
+    {
+      "nr": 471,
+      "date": "1939-09-13",
+      "youtube_id": "9muRRAleqdA",
+      "youtube_title": "Wochenschau 471: Poland Campaign (Sep 1939) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr471_1939-09-13_17min_sls.mp4",
+      "size_mb": 6735.7
+    },
+    {
+      "nr": 473,
+      "date": "1939-09-27",
+      "youtube_id": "3AtirtgrfUI",
+      "youtube_title": "Wochenschau 473: Fall of Warsaw (Sep 1939) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr473_1939-09-27_17min_sls.mp4",
+      "size_mb": 6706.0
+    },
+    {
+      "nr": 477,
+      "date": "1939-10-25",
+      "youtube_id": "iRzeiRoAsj4",
+      "youtube_title": "Wochenschau 477: Poland Occupied (Oct 1939) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr477_1939-10-25_18min_sls.mp4",
+      "size_mb": 6534.0
+    },
+    {
+      "nr": 480,
+      "date": "1939-11-15",
+      "youtube_id": "jeLWajro1As",
+      "youtube_title": "Wochenschau 480: Bürgerbräu Bomb (Nov 1939) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr480_1939-11-15_17min_sls.mp4",
+      "size_mb": 6155.0
+    },
+    {
+      "nr": 482,
+      "date": "1939-11-29",
+      "youtube_id": "N7WPQUjFJjA",
+      "youtube_title": "Wochenschau 482: Winter War Begins (Nov 1939) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr482_1939-11-29_18min_sls.mp4",
+      "size_mb": 6300.4
+    },
+    {
+      "nr": 483,
+      "date": "1939-12-06",
+      "youtube_id": "Qn7Nvx7eWz4",
+      "youtube_title": "Wochenschau 483: Winter War (Dec 1939) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr483_1939-12-06_21min_sls.mp4",
+      "size_mb": 8073.3
+    },
+    {
+      "nr": 488,
+      "date": "1940-01-10",
+      "youtube_id": "DLifkhU0q1w",
+      "youtube_title": "Wochenschau 488: Phoney War (Jan 1940) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr488_1940-01-10_15min_sls.mp4",
+      "size_mb": 5982.1
+    },
+    {
+      "nr": 502,
+      "date": "1940-04-17",
+      "youtube_id": "a5VVGGHPlsg",
+      "youtube_title": "Wochenschau 502: Norway Invasion (Apr 1940) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr502_1940-04-17_17min_sls.mp4",
+      "size_mb": 6738.0
+    },
+    {
+      "nr": 508,
+      "date": "1940-05-29",
+      "youtube_id": "fC0MlizsAQQ",
+      "youtube_title": "Wochenschau 508: Dunkirk Pocket (May 1940) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr508_1940-05-29_42min_sls.mp4",
+      "size_mb": 6906.1
+    },
+    {
+      "nr": 509,
+      "date": "1940-06-05",
+      "youtube_id": "2uHl4LYN8O8",
+      "youtube_title": "Wochenschau 509: Dunkirk Evacuation (Jun 1940) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr509_1940-06-05_24min_sls.mp4",
+      "size_mb": 7026.5
+    },
+    {
+      "nr": 512,
+      "date": "1940-06-26",
+      "youtube_id": "xblc6reUMr0",
+      "youtube_title": "Wochenschau 512: French Armistice (Jun 1940) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr512_1940-06-26_10min_sls.mp4",
+      "size_mb": 4253.5
+    },
+    {
+      "nr": 513,
+      "date": "1940-07-03",
+      "youtube_id": "D_kLmNFlbZI",
+      "youtube_title": "Wochenschau 513: Channel Islands (Jul 1940) | 8K",
+      "enhanced_file": "Deutsche_Wochenschau_Nr513_1940-07-03_24min_sls.mp4",
+      "size_mb": 9181.7
+    },
+    {
+      "nr": 514,
+      "date": "1940-07-10",
+      "youtube_id": "7st-GFEwdWQ",
+      "youtube_title": "Wochenschau 514: Berlin Parade (Jul 1940) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr514_1940-07-10_20min_sls.mp4",
+      "size_mb": 7013.1
+    },
+    {
+      "nr": 515,
+      "date": "1940-07-17",
+      "youtube_id": "vkCoIJGAf3E",
+      "youtube_title": "Wochenschau 515: Battle of Britain (Jul 1940) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr515_1940-07-17_22min_sls.mp4",
+      "size_mb": 35116.7
+    },
+    {
+      "nr": 518,
+      "date": "1940-08-07",
+      "youtube_id": "Yj_QcM9Ce28",
+      "youtube_title": "Wochenschau 518: Channel Battles (Aug 1940) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr518_1940-08-07_22min_sls.mp4",
+      "size_mb": 8421.1
+    },
+    {
+      "nr": 519,
+      "date": "1940-08-14",
+      "youtube_id": "7yfdqylo9qs",
+      "youtube_title": "Wochenschau 519: Eagle Day (Aug 1940) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr519_1940-08-14_26min_sls.mp4",
+      "size_mb": 7036.3
+    },
+    {
+      "nr": 520,
+      "date": "1940-08-21",
+      "youtube_id": "i2mRp5iMxoo",
+      "youtube_title": "Wochenschau 520: Battle Peak (Aug 1940) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr520_1940-08-21_24min_sls.mp4",
+      "size_mb": 9663.8
+    },
+    {
+      "nr": 522,
+      "date": "1940-09-04",
+      "youtube_id": "S31f7FuEvXw",
+      "youtube_title": "Wochenschau 522: Berlin Retaliation (Sep 1940) | 8K HQ (4K UHD)",
+      "source_file": "Deutsche_Wochenschau_Nr522_1940-09-04_21min.mp4"
+    },
+    {
+      "nr": 523,
+      "date": "1940-09-11",
+      "youtube_id": "fNCZYqnK3Cc",
+      "youtube_title": "Wochenschau 523: London Blitz (Sep 1940) | 8K HQ (4K UHD)",
+      "source_file": "Deutsche_Wochenschau_Nr523_1940-09-11_24min.mp4"
+    },
+    {
+      "nr": 524,
+      "date": "1940-09-18",
+      "youtube_id": "1O8sVLS-zfI",
+      "youtube_title": "Wochenschau 524: Sea Lion Postponed (Sep 1940) | 8K",
+      "source_file": "Deutsche_Wochenschau_Nr524_1940-09-18_21min.mp4"
+    },
+    {
+      "nr": 542,
+      "date": "1941-01-22",
+      "youtube_id": "J3LWOLaxuCc",
+      "youtube_title": "Wochenschau 542: Tobruk Falls (Jan 1941) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr542_1941-01-22_19min_sls.mp4",
+      "size_mb": 7148.9
+    },
+    {
+      "nr": 543,
+      "date": "1941-01-29",
+      "youtube_id": "s5d9cAM6REo",
+      "youtube_title": "Wochenschau 543: Africa Corps (Jan 1941) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr543_1941-01-29_22min_sls.mp4",
+      "size_mb": 8085.7
+    },
+    {
+      "nr": 544,
+      "date": "1941-02-05",
+      "youtube_id": "eBzXzhNYppQ",
+      "youtube_title": "Wochenschau 544: Rommel Arrives (Feb 1941) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr544_1941-02-05_19min_sls.mp4",
+      "size_mb": 7527.1
+    },
+    {
+      "nr": 545,
+      "date": "1941-02-12",
+      "youtube_id": "7bqlAPsgzAQ",
+      "youtube_title": "Wochenschau 545: Africa Offensive (Feb 1941) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr545_1941-02-12_23min_sls.mp4",
+      "size_mb": 8956.5
+    },
+    {
+      "nr": 547,
+      "date": "1941-02-26",
+      "youtube_id": "6wop-BU_XME",
+      "youtube_title": "Wochenschau 547: Africa Campaign (Feb 1941) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr547_1941-02-26_23min_sls.mp4",
+      "size_mb": 8792.3
+    },
+    {
+      "nr": 548,
+      "date": "1941-03-05",
+      "youtube_id": "ZuD1fAyGiUw",
+      "youtube_title": "Wochenschau 548: Bulgaria Joins Axis (Mar 1941) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr548_1941-03-05_16min_sls.mp4",
+      "size_mb": 6254.8
+    },
+    {
+      "nr": 550,
+      "date": "1941-03-19",
+      "youtube_id": "wEMKHQPopHY",
+      "youtube_title": "Wochenschau 550: Yugoslavia Crisis (Mar 1941) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr550_1941-03-19_23min_sls.mp4",
+      "size_mb": 9252.3
+    },
+    {
+      "nr": 573,
+      "date": "1941-08-27",
+      "youtube_id": "tVD8197vAyE",
+      "youtube_title": "Wochenschau 573: Kiev Battle (Aug 1941) | 8K HQ (4K UHD)",
+      "enhanced_file": "Deutsche_Wochenschau_Nr573_1941-08-27_28min_sls.mp4",
+      "size_mb": 11174.1
+    },
+    {
+      "nr": 652,
+      "date": "1943-03-03",
+      "youtube_id": "0sO7jVL43yQ",
+      "youtube_title": "Wochenschau 652: Kharkov III (Mar 1943) | 8K HQ (4K UHD)",
+      "source_file": "Deutsche_Wochenschau_Nr652_1943-03-03_20min.mp4"
+    },
+    {
+      "nr": 654,
+      "date": "1943-03-17",
+      "youtube_id": "dYBzf5V1TjI",
+      "youtube_title": "Wochenschau 654: Tunisia Battles (Mar 1943) | 8K HQ (4K UHD)",
+      "source_file": "Deutsche_Wochenschau_Nr654_1943-03-17_20min.mp4"
+    },
+    {
+      "nr": 720,
+      "date": "1944-06-21",
+      "youtube_id": "6K-MuUu6L44",
+      "youtube_title": "Wochenschau 720: V1 Attacks (Jun 1944) | 8K HQ (4K UHD)",
+      "source_file": "Deutsche_Wochenschau_Nr720_1944-06-21_18min.mp4"
+    },
+    {
+      "nr": 721,
+      "date": "1944-06-28",
+      "youtube_id": "W-UcQleew8Y",
+      "youtube_title": "Wochenschau 721: Bagration Begins (Jun 1944) | 8K HQ (4K UHD)",
+      "source_file": "Deutsche_Wochenschau_Nr721_1944-06-28_21min.mp4"
+    },
+    {
+      "nr": 722,
+      "date": "1944-07-05",
+      "youtube_id": "bZkUPQHqyfg",
+      "youtube_title": "Wochenschau 722: Bagration (Jul 1944) | 8K HQ (4K UHD)",
+      "source_file": "Deutsche_Wochenschau_Nr722_1944-07-05_12min.mp4"
+    },
+    {
+      "nr": 746,
+      "date": "1944-12-20",
+      "youtube_id": "jGz1kC1Z69A",
+      "youtube_title": "Wochenschau 746: Ardennes Offensive (Dec 1944) | 8K HQ (4K UHD)",
+      "source_file": "Deutsche_Wochenschau_Nr746_1944-12-20_13min.mp4"
+    },
+    {
+      "nr": 750,
+      "date": "1945-01-17",
+      "youtube_id": "w2UvksMOs3c",
+      "youtube_title": "Wochenschau 750: Vistula Offensive (Jan 1945) | 8K HQ (4K UHD)",
+      "source_file": "Deutsche_Wochenschau_Nr750_1945-01-17_10min.mp4"
+    },
+    {
+      "nr": 751,
+      "date": "1945-01-24",
+      "youtube_id": "6YLPpJLgVXk",
+      "youtube_title": "Wochenschau 751: Eastern Collapse (Jan 1945) | 8K HQ (4K UHD)",
+      "source_file": "Deutsche_Wochenschau_Nr751_1945-01-24_10min.mp4"
+    },
+    {
+      "nr": 753,
+      "date": "1945-02-07",
+      "youtube_id": "iEEvt-s1XhQ",
+      "youtube_title": "Wochenschau 753: Yalta Conference (Feb 1945) | 8K HQ (4K UHD)",
+      "source_file": "Deutsche_Wochenschau_Nr753_1945-02-07_12min.mp4"
+    },
+    {
+      "nr": 754,
+      "date": "1945-02-14",
+      "youtube_id": "H_n_mS-eKps",
+      "youtube_title": "Wochenschau 754: Dresden Bombed (Feb 1945) | 8K HQ (4K UHD)",
+      "source_file": "Deutsche_Wochenschau_Nr754_1945-02-14_13min.mp4"
+    }
+  ],
+  "youtube_only": [],
+  "missing_numbers": [
+    460,
+    461,
+    462,
+    463,
+    464,
+    465,
+    466,
+    467,
+    469,
+    475,
+    476,
+    478,
+    479,
+    481,
+    484,
+    485,
+    486,
+    487,
+    489,
+    490,
+    494,
+    495,
+    498,
+    500,
+    501,
+    503,
+    535,
+    540,
+    541,
+    546,
+    549,
+    551,
+    558,
+    559,
+    560,
+    563,
+    580,
+    587,
+    591,
+    597,
+    603,
+    626,
+    636,
+    643,
+    646,
+    664,
+    678
+  ]
+}

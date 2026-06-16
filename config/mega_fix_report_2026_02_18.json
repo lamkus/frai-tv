@@ -1,0 +1,580 @@
+{
+  "date": "2026-02-18T20:17:50.058247",
+  "mode": "applied",
+  "total": 350,
+  "fixed": 62,
+  "skipped": 288,
+  "errors": 1,
+  "quota_used": 3100,
+  "results": [
+    {
+      "id": "KaIC0B-xYBg",
+      "old_title": "Der 7. Sinn: Frauen am Steuer - Teil 1 (1970s) | 8K HQ (4K UHD)",
+      "new_title": "Der 7. Sinn: Frauen am Steuer - Teil 1 (1970s) | 8K HQ (4K UHD)",
+      "changes": [
+        "TAGS: 11→12"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "HyaZLqdMS9k",
+      "old_title": "Der 7. Sinn: Frauen am Steuer - Teil 3 (1970s) | 8K HQ (4K UHD)",
+      "new_title": "Der 7. Sinn: Frauen am Steuer - Teil 3 (1970s) | 8K HQ (4K UHD)",
+      "changes": [
+        "TAGS: 11→12"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "gGYWs-xw1VM",
+      "old_title": "Krtek: Der Maulwurf im Urlaub – Best Of Mix | 8K HQ (4K UHD)",
+      "new_title": "Krtek: Der Maulwurf im Urlaub – Best Of Mix | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: fixed",
+        "TAGS: 15→15"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "jeLWajro1As",
+      "old_title": "Wochenschau 480: Bürgerbräu Bomb (Nov 1939) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 480: Bürgerbräu Bomb (Nov 1939) | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: fixed"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "HGg-g6SwrrQ",
+      "old_title": "Reefer Madness (1936) | Cult Propaganda Classic | 8K HQ (4K UHD)",
+      "new_title": "Reefer Madness (1936) | Cult Propaganda Classic | 8K HQ (4K UHD)",
+      "changes": [
+        "TAGS: 15→15"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "JzJrH43etPA",
+      "old_title": "Ken Block: Gymkhana 3 (2010)  | DC Shoes | 8K HQ (4K UHD)",
+      "new_title": "Ken Block: Gymkhana 3 (2010) | DC Shoes | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Ken Block: Gymkhana 3 (2010)  | DC Shoes\" → \"Ken Block: Gymkhana 3 (2010) | DC Shoes \""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "5Bj9cvKO3P8",
+      "old_title": "Asterix der Gallier (1967)  | 🇩🇪 German | Full Movie | 8K HQ (4K UHD)",
+      "new_title": "Asterix der Gallier (1967) | 🇩🇪 German | Full Movie | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Asterix der Gallier (1967)  | 🇩🇪 German \" → \"Asterix der Gallier (1967) | 🇩🇪 German |\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "jPzc1XtrMds",
+      "old_title": "Asterix – Sieg über Cäsar (1985)  | 🇩🇪 German | 8K HQ (4K UHD)",
+      "new_title": "Asterix – Sieg über Cäsar (1985) | 🇩🇪 German | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Asterix – Sieg über Cäsar (1985)  | 🇩🇪 G\" → \"Asterix – Sieg über Cäsar (1985) | 🇩🇪 Ge\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "YU9W-d33yYg",
+      "old_title": "Marihuana (1936)  | Anti-Weed Propaganda | 8K HQ (4K UHD)",
+      "new_title": "Marihuana (1936) | Anti-Weed Propaganda | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Marihuana (1936)  | Anti-Weed Propaganda\" → \"Marihuana (1936) | Anti-Weed Propaganda \""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "w5Yyyp0H6vo",
+      "old_title": "Alfred J. Kwak / Quack – Zeichentrickserie Trailer | 8K HQ (4K UHD)",
+      "new_title": "Alfred J. Kwak / Quack – Zeichentrickserie Trailer | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: fixed",
+        "TAGS: 15→15"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "Z-0Xkt5czSY",
+      "old_title": "Tennis Party Game | Vintage | 8K HQ (4K UHD)",
+      "new_title": "Tennis Party Game | Vintage | 8K HQ (4K UHD)",
+      "changes": [
+        "TAGS: 15→14"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "Ot4M_FexpnQ",
+      "old_title": "BraveStarr Intro | 8K HQ (4K UHD) | Deutsch | @remAIke_IT",
+      "new_title": "BraveStarr Intro | 8K HQ (4K UHD) | Deutsch",
+      "changes": [
+        "TITLE: \"BraveStarr Intro | 8K HQ (4K UHD) | Deut\" → \"BraveStarr Intro | 8K HQ (4K UHD) | Deut\"",
+        "DESC: fixed",
+        "TAGS: 15→15"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "XU7yM4H5vrY",
+      "old_title": "BraveStarr: Das Musikfestival (1/65) | Deutsch | 8K HQ (4K UHD)",
+      "new_title": "BraveStarr: Das Musikfestival (1/65) | Deutsch | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: fixed",
+        "TAGS: 15→15"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "3rB80OGKzrg",
+      "old_title": "Wochenschau 511: Paris Falls (Jun 1940) | 8K (4K UHD)",
+      "new_title": "Wochenschau 511: Paris Falls (Jun 1940) | 8K (4K UHD)",
+      "changes": [
+        "TAGS: 15→15"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "Q_hgdk3UaJs",
+      "old_title": "Alfred J. Kwak (31/52): Die Bohrinsel | 8K HQ (4K UHD)",
+      "new_title": "Alfred J. Kwak (31/52): Die Bohrinsel | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: fixed",
+        "TAGS: 15→15"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "3UBF9ycZwJU",
+      "old_title": "The ORIGINAL Fast & Furious (1954) | 8K HQ (4K UHD)",
+      "new_title": "The ORIGINAL Fast & Furious (1954) | 8K HQ (4K UHD)",
+      "changes": [
+        "TAGS: 15→15"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "h6rDmu7FBzo",
+      "old_title": "Bettie Page Dancing | 8K HQ (4K UHD)",
+      "new_title": "Bettie Page Dancing | 8K HQ (4K UHD)",
+      "changes": [
+        "TAGS: 15→15"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "gVsamT781zU",
+      "old_title": "Teaserama (1955) Short: Chris La Chris | BLUR | 8K HQ (4K UHD)",
+      "new_title": "Teaserama (1955) Short: Chris La Chris | BLUR | 8K HQ (4K UHD)",
+      "changes": [
+        "TAGS: 11→12"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "ZglrHGrG_oY",
+      "old_title": "Teaserama (1955) Short: Trudy Wayne | 8K HQ (4K UHD)",
+      "new_title": "Teaserama (1955) Short: Trudy Wayne | 8K HQ (4K UHD)",
+      "changes": [
+        "TAGS: 11→12"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "_9GLuLakxgw",
+      "old_title": "1955 Burlesque Like You've Never Seen | 8K HQ (4K UHD)",
+      "new_title": "1955 Burlesque Like You've Never Seen | 8K HQ (4K UHD)",
+      "changes": [
+        "TAGS: 11→12"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "s_0yOzCKDa8",
+      "old_title": "December 7th: Pearl Harbor (1943) | John Ford | 8K HQ (4K UHD)",
+      "new_title": "December 7th: Pearl Harbor (1943) | John Ford | 8K HQ (4K UHD)",
+      "changes": [
+        "TAGS: 15→15"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "90UleF637FA",
+      "old_title": "Ken Block - Gymkhana The First 1 - World First  8K 4K | 8K HQ (4K UHD)",
+      "new_title": "Ken Block - Gymkhana The First 1 - World First 8K 4K | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Ken Block - Gymkhana The First 1 - World\" → \"Ken Block - Gymkhana The First 1 - World\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "EMQSoqxYWEI",
+      "old_title": "Betty Boop (34/105): May Party (1933) |  | @remA... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (34/105): May Party (1933) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (34/105): May Party (1933) | \" → \"Betty Boop (34/105): May Party (1933) | \""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "XvuABgCE8NQ",
+      "old_title": "Betty Boop (27/105): Museum (1932) | | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (27/105): Museum (1932) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (27/105): Museum (1932) | | 8\" → \"Betty Boop (27/105): Museum (1932) | 8K \""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "LJX_WL5ABAU",
+      "old_title": "Betty Boop (31/105): Penthouse (1933) |  | @remA... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (31/105): Penthouse (1933) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (31/105): Penthouse (1933) | \" → \"Betty Boop (31/105): Penthouse (1933) | \""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "VJZPCGZFfTA",
+      "old_title": "Betty Boop (23/105): Bamboo Isle (1932) |  | @re... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (23/105): Bamboo Isle (1932) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (23/105): Bamboo Isle (1932) \" → \"Betty Boop (23/105): Bamboo Isle (1932) \""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "I8R0mmVKXm4",
+      "old_title": "Betty Boop (24/105): Ups and Downs (1932) |  | @... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (24/105): Ups and Downs (1932) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (24/105): Ups and Downs (1932\" → \"Betty Boop (24/105): Ups and Downs (1932\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "LnNGWC0OJcE",
+      "old_title": "Betty Boop (46/105): The Trial (1934) |  | @remA... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (46/105): The Trial (1934) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (46/105): The Trial (1934) | \" → \"Betty Boop (46/105): The Trial (1934) | \""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "TpSJjvmyHGA",
+      "old_title": "Betty Boop (45/105): Rise to Fame (1934) |  | @r... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (45/105): Rise to Fame (1934) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (45/105): Rise to Fame (1934)\" → \"Betty Boop (45/105): Rise to Fame (1934)\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "flCgD7UH8HY",
+      "old_title": "Betty Boop (50/105): Prize Show (1934) |  | @rem... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (50/105): Prize Show (1934) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (50/105): Prize Show (1934) |\" → \"Betty Boop (50/105): Prize Show (1934) |\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "qOWjENMOyLo",
+      "old_title": "Design for Dreaming (1956)  | GM Motorama | 8K HQ (4K UHD)",
+      "new_title": "Design for Dreaming (1956) | GM Motorama | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Design for Dreaming (1956)  | GM Motoram\" → \"Design for Dreaming (1956) | GM Motorama\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "_84z5LH1xbU",
+      "old_title": "Word to the Wives (1955)  | Vintage Educational | 8K HQ (4K UHD)",
+      "new_title": "Word to the Wives (1955) | Vintage Educational | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Word to the Wives (1955)  | Vintage Educ\" → \"Word to the Wives (1955) | Vintage Educa\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "AayVfUsXAEY",
+      "old_title": "Betty Boop (97/105): Sally Swing (1938) |  | @re... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (97/105): Sally Swing (1938) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (97/105): Sally Swing (1938) \" → \"Betty Boop (97/105): Sally Swing (1938) \""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "G_llq8tK_Fc",
+      "old_title": "Betty Boop (32/105): Snow White (1933) |  | @rem... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (32/105): Snow White (1933) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (32/105): Snow White (1933) |\" → \"Betty Boop (32/105): Snow White (1933) |\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "zogZ5nzJCTE",
+      "old_title": "Betty Boop (55/105): Stop That Noise (1935) |  |... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (55/105): Stop That Noise (1935) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (55/105): Stop That Noise (19\" → \"Betty Boop (55/105): Stop That Noise (19\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "gZFsTHvb2qE",
+      "old_title": "Betty Boop (26/105): You Rascal You (1932) |  | ... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (26/105): You Rascal You (1932) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (26/105): You Rascal You (193\" → \"Betty Boop (26/105): You Rascal You (193\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "zNAslcrOzu4",
+      "old_title": "Betty Boop (33/105): Birthday Party (1933) |  | ... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (33/105): Birthday Party (1933) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (33/105): Birthday Party (193\" → \"Betty Boop (33/105): Birthday Party (193\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "AvyVS5S52zY",
+      "old_title": "Betty Boop (21/105): Bizzy Bee (1932) |  | @remA... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (21/105): Bizzy Bee (1932) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (21/105): Bizzy Bee (1932) | \" → \"Betty Boop (21/105): Bizzy Bee (1932) | \""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "jh_Kxe50lAY",
+      "old_title": "Betty Boop (49/105): Little Pal (1934) |  | @rem... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (49/105): Little Pal (1934) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (49/105): Little Pal (1934) |\" → \"Betty Boop (49/105): Little Pal (1934) |\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "rWv1cA8lFUw",
+      "old_title": "Betty Boop (47/105): Life Guard (1934) |  | @rem... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (47/105): Life Guard (1934) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (47/105): Life Guard (1934) |\" → \"Betty Boop (47/105): Life Guard (1934) |\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "Sk2IIXPV5ig",
+      "old_title": "Betty Boop (35/105): Big Boss (1933) |  | @remAI... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (35/105): Big Boss (1933) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (35/105): Big Boss (1933) |  \" → \"Betty Boop (35/105): Big Boss (1933) | 8\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "dLfEqos_mrg",
+      "old_title": "Looney Tunes: A Day at the Zoo (1939)  | Warner Bros | 8K HQ (4K UHD)",
+      "new_title": "Looney Tunes: A Day at the Zoo (1939) | Warner Bros | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Looney Tunes: A Day at the Zoo (1939)  |\" → \"Looney Tunes: A Day at the Zoo (1939) | \""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "sEtFSMF3HbU",
+      "old_title": "Betty Boop (4/105): Any Little Girl (1931) |  | ... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (4/105): Any Little Girl (1931) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (4/105): Any Little Girl (193\" → \"Betty Boop (4/105): Any Little Girl (193\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "cvUuj-GfEuo",
+      "old_title": "Betty Boop (43/105): Ha! Ha! Ha! (1934) |  | @re... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (43/105): Ha! Ha! Ha! (1934) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (43/105): Ha! Ha! Ha! (1934) \" → \"Betty Boop (43/105): Ha! Ha! Ha! (1934) \""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "PkU8BxTyp6E",
+      "old_title": "Betty Boop (21/105): Bizzy Bee (1932) |  | @remA... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (21/105): Bizzy Bee (1932) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (21/105): Bizzy Bee (1932) | \" → \"Betty Boop (21/105): Bizzy Bee (1932) | \""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "_Z9VTKGr25g",
+      "old_title": "Betty Boop (2/105): Barnacle Bill (1930) |  | @r... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (2/105): Barnacle Bill (1930) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (2/105): Barnacle Bill (1930)\" → \"Betty Boop (2/105): Barnacle Bill (1930)\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "qf3PyBbuhNE",
+      "old_title": "Betty Boop (20/105): Stopping the Show (1932) | ... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (20/105): Stopping the Show (1932) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (20/105): Stopping the Show (\" → \"Betty Boop (20/105): Stopping the Show (\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "ttE5cijN2XM",
+      "old_title": "Betty Boop (22/105): M.D. (1932) | | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (22/105): M.D. (1932) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (22/105): M.D. (1932) | | 8K \" → \"Betty Boop (22/105): M.D. (1932) | 8K HQ\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "7wGSFU_MzcI",
+      "old_title": "Betty Boop (14/105): The Dancing Fool (1932) |  ... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (14/105): The Dancing Fool (1932) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (14/105): The Dancing Fool (1\" → \"Betty Boop (14/105): The Dancing Fool (1\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "dbQvrn0tUhA",
+      "old_title": "Betty Boop (18/105): Admission Free (1932) |  | ... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (18/105): Admission Free (1932) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (18/105): Admission Free (193\" → \"Betty Boop (18/105): Admission Free (193\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "ZJOXUwDX-mA",
+      "old_title": "Betty Boop (6/105): Minding the Baby (1931)   | | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (6/105): Minding the Baby (1931) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (6/105): Minding the Baby (19\" → \"Betty Boop (6/105): Minding the Baby (19\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "_oZqwtQDg2c",
+      "old_title": "Betty Boop (9/105): Any Rags (1932) |  | @remAIk... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (9/105): Any Rags (1932) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (9/105): Any Rags (1932) |  |\" → \"Betty Boop (9/105): Any Rags (1932) | 8K\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "tm43rHVnyd8",
+      "old_title": "Betty Boop (17/105): Hide and Seek (1932) |  | @... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (17/105): Hide and Seek (1932) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (17/105): Hide and Seek (1932\" → \"Betty Boop (17/105): Hide and Seek (1932\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "UuRQfXMfddA",
+      "old_title": "Betty Boop (10/105): Boop-Oop-A-Doop (1932) |  |... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (10/105): Boop-Oop-A-Doop (1932) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (10/105): Boop-Oop-A-Doop (19\" → \"Betty Boop (10/105): Boop-Oop-A-Doop (19\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "bOUZUrBvaWM",
+      "old_title": "Betty Boop (13/105): Crazy Town (1932) |  | @rem... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (13/105): Crazy Town (1932) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (13/105): Crazy Town (1932) |\" → \"Betty Boop (13/105): Crazy Town (1932) |\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "E76BLn0YNE4",
+      "old_title": "Betty Boop (12/105): Swim or Sink (1932) |  | @r... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (12/105): Swim or Sink (1932) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (12/105): Swim or Sink (1932)\" → \"Betty Boop (12/105): Swim or Sink (1932)\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "k_4r2lMtcF4",
+      "old_title": "Betty Boop (6/105): Minding the Baby (1931) |  |... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (6/105): Minding the Baby (1931) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (6/105): Minding the Baby (19\" → \"Betty Boop (6/105): Minding the Baby (19\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "h_4m9a7wqoc",
+      "old_title": "Betty Boop (1/105): Dizzy Dishes (1930) |  | @re... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (1/105): Dizzy Dishes (1930) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (1/105): Dizzy Dishes (1930) \" → \"Betty Boop (1/105): Dizzy Dishes (1930) \""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "fpa96bQkzwA",
+      "old_title": "Betty Boop (7/105): Mask-A-Raid (1931) |  | @rem... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (7/105): Mask-A-Raid (1931) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (7/105): Mask-A-Raid (1931) |\" → \"Betty Boop (7/105): Mask-A-Raid (1931) |\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "Falj-VXbzeo",
+      "old_title": "Betty Boop (16/105): Chess-Nuts (1932) |  | @rem... | 8K HQ (4K UHD)",
+      "new_title": "Betty Boop (16/105): Chess-Nuts (1932) | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Betty Boop (16/105): Chess-Nuts (1932) |\" → \"Betty Boop (16/105): Chess-Nuts (1932) |\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "uBJ6_wlcSWw",
+      "old_title": "Ice Scream Episode | Casper 41/55  Restored Quality | 8K HQ (4K UHD)",
+      "new_title": "Ice Scream Episode | Casper 41/55 Restored Quality | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Ice Scream Episode | Casper 41/55  Resto\" → \"Ice Scream Episode | Casper 41/55 Restor\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "cCNm8nNHing",
+      "old_title": "Glenn Morris Only Film as Tarzan  Upgrade Complete | 8K HQ (4K UHD)",
+      "new_title": "Glenn Morris Only Film as Tarzan Upgrade Complete | 8K HQ (4K UHD)",
+      "changes": [
+        "TITLE: \"Glenn Morris Only Film as Tarzan  Upgrad\" → \"Glenn Morris Only Film as Tarzan Upgrade\""
+      ],
+      "status": "success"
+    },
+    {
+      "id": "uWacVV7EkxQ",
+      "status": "error",
+      "error": "<HttpError 503 when requesting https://youtube.googleapis.com/youtube/v3/videos?part=snippet&alt=json returned \"Backend Error\". Details: \"[{'message': 'Backend Error', 'domain': 'global', 'reason': 'backendError'}]\">"
+    }
+  ]
+}

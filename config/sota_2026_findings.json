@@ -1,0 +1,874 @@
+[
+ {
+  "dimension": "algorithm",
+  "key_findings": [
+   {
+    "claim": "YouTube is not one algorithm but a set of recommendation systems, each driving a distinct surface (Home/Browse, Suggested/Up-Next, Search, Shorts feed, Subscriptions, Notifications). The system 'pulls' content to match an individual viewer's habits rather than 'pushing' a video out to a broad audience. Optimization is per-surface, not global.",
+    "confidence": "high",
+    "evidence": "YouTube's official 'How YouTube Works' recommendations page describes the Homepage as 'a mixture of personalised recommendations, subscriptions and the latest news' and the Up Next panel as based on 'what you're currently watching.' YouTube's Senior Director of Growth & Discovery Todd Beaupré (René Ritchie interview, covered by Search Engine Journal): 'it isn't so much about pushing it out as much as it's pulling.'",
+    "source_urls": [
+     "https://www.youtube.com/intl/en_be/howyoutubeworks/recommendations/",
+     "https://www.searchenginejournal.com/how-youtubes-recommendation-system-works-in-2025/538379/"
+    ],
+    "actionable_rule": "Maintain per-surface metadata strategy fields in the pipeline. Tag each video with its dominant traffic source (from Analytics API: browse/suggested/search) and apply surface-specific title/thumbnail logic: search-driven videos get keyword-forward titles; browse/suggested-driven videos get curiosity/packaging-forward titles. Do not optimize one global title for all surfaces."
+   },
+   {
+    "claim": "The ranking model optimizes for expected/valuable WATCH TIME and viewer SATISFACTION, NOT click probability. CTR is an input that gates further distribution but is explicitly NOT the optimization target. YouTube's own A/B test tool ('Test & Compare') picks the winning thumbnail/title by watch-time share, explicitly over CTR.",
+    "confidence": "high",
+    "evidence": "YouTube Help (Test & Compare): 'we optimize tests for overall watch time over other metrics, like click-through-rate'; winner declared 'based on watch time share.' The foundational 2016 Covington/Adams/Sargin paper (ACM RecSys) states the ranking model predicts expected watch time rather than click probability because 'predicting CTR would promote clickbait.' YouTube's Impressions/CTR FAQ warns clickbait 'backfires' via low average view duration -> fewer recommendations.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/16391400?hl=en",
+     "https://cseweb.ucsd.edu/classes/fa17/cse291-b/reading/p191-covington.pdf",
+     "https://support.google.com/youtube/answer/7628154?hl=en"
+    ],
+    "actionable_rule": "In any automated thumbnail/title scoring, NEVER optimize purely for predicted CTR. Score packaging on a combined objective: (predicted CTR) x (predicted/observed retention). Treat any title/thumbnail variant that raises CTR but lowers average view duration (AVD) as a NET NEGATIVE and reject it. Where eligible, route thumbnail/title decisions through YouTube's native Test & Compare (winner = watch-time share) rather than guessing."
+   },
+   {
+    "claim": "Tags have minimal impact on discovery and ranking; they exist mainly to correct common spelling mistakes. They are NOT a meaningful ranking lever.",
+    "confidence": "high",
+    "evidence": "YouTube Help (performance FAQ): 'Tags are primarily used to help correct for common spelling mistakes.' This is a direct, unambiguous official statement.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/141805?hl=en"
+    ],
+    "actionable_rule": "De-prioritize the tags field in the metadata pipeline. Populate at most a few tags covering likely misspellings/alternate spellings of the core topic and brand, then stop. Do NOT spend pipeline effort on keyword-stuffed tag lists or tag-research tools; reallocate that budget to title, thumbnail, and the first 1-2 sentences of the description."
+   },
+   {
+    "claim": "Titles and the early description carry real weight for matching/relevance; they must accurately represent content. Misleading/clickbait/sensational titles reduce visibility. Descriptions and titles are read semantically (now via Gemini-class LLMs that analyze tone, on-screen elements, and meaning), so accurate natural-language framing matters more than keyword density.",
+    "confidence": "high",
+    "evidence": "YouTube Help (performance FAQ): 'Use compelling titles for your videos that accurately represent the content' and warnings against deceptive/sensational approaches. Beaupré (SEJ): LLMs let the system 'understand the ingredients' of a video rather than memorize co-watch patterns. (The specific 'Gemini' attribution appears in secondary blogs and is plausible but not confirmed verbatim by YouTube.)",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/141805?hl=en",
+     "https://www.searchenginejournal.com/how-youtubes-recommendation-system-works-in-2025/538379/"
+    ],
+    "actionable_rule": "Generate titles as natural, accurate, compelling phrases (front-load the core topic/entity in the first ~50 chars for search-skewed videos). Write the first 1-2 description sentences as a human-readable summary containing the primary topic/entities. Run an automated 'accuracy guard': flag any title whose claims are not supported by the transcript/chapters (mismatch -> reject), since misleading packaging is penalized."
+   },
+   {
+    "claim": "Old / back-catalog videos CAN and DO get re-recommended. View resurgence happens when (a) the topic rises in popularity/seasonality, or (b) new viewers discover the channel and binge older uploads. Performance is evaluated at the video+audience level, so an old video being re-surfaced does not require channel-wide changes.",
+    "confidence": "high",
+    "evidence": "YouTube Help (performance FAQ): older content can resurge because 'The topic your video is about is increasing in popularity' or 'New viewers are discovering your channel and binging your old videos.' Same page: 'Our systems rely more on video and audience-level signals to decide which videos are the best recommendations for your audience.'",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/141805?hl=en"
+    ],
+    "actionable_rule": "Run a periodic back-catalog refresh job: (1) detect rising/seasonal topics (Google Trends + YouTube search-suggest) and re-package matching old videos (new thumbnail/title via Test & Compare, refreshed first description line, add to relevant playlists); (2) build binge paths — strong end screens/playlists chaining related back-catalog videos to capture new-viewer binge behavior. Re-evaluate each video on its own audience-level metrics, not channel averages."
+   },
+   {
+    "claim": "Session contribution (does this video lead the viewer to watch MORE on YouTube afterward) is a real recommendation signal. Videos that extend the overall session get more suggested/browse placement; videos that end sessions get fewer. This is the modern framing of 'watch time' — total/session value, not a single video's raw minutes.",
+    "confidence": "medium",
+    "evidence": "YouTube has historically stated the suggestion system prioritizes videos that lead to longer overall viewing sessions (long-standing Creator guidance, echoed widely). Beaupré's 2025 framing emphasizes satisfaction and 'valuable watch time' over raw watch time. Precise current weighting is not publicly disclosed; the 'session contribution' label is heavily used by practitioners and is consistent with — but not verbatim-quoted in current — official docs.",
+    "source_urls": [
+     "https://www.searchenginejournal.com/how-youtubes-recommendation-system-works-in-2025/538379/",
+     "https://support.google.com/youtube/answer/141805?hl=en"
+    ],
+    "actionable_rule": "Optimize for session continuation, not just single-video retention. Programmatically add end screens and a 'next logical video' for every upload; group back-catalog into tight topical playlists; ensure every video links to 1-2 high-retention follow-ups. Track 'browse + suggested' share and downstream session metrics as a north-star, not raw watch time alone."
+   },
+   {
+    "claim": "Viewer SATISFACTION (surveys + likes/dislikes/'not interested'/feedback), not just behavioral watch metrics, is a core signal. YouTube collects in-product satisfaction surveys to learn how viewers FELT about a video, which it treats as harder to game than watch time. A short, efficient video that satisfies can outperform a long one that pads watch time.",
+    "confidence": "high",
+    "evidence": "YouTube official recommendations page lists 'likes, dislikes, subscriptions and feedback, including from satisfaction surveys.' Beaupré (SEJ): 'we're trying to understand not just about the viewer's behavior and what they do, but how do they feel'; total watch time is 'not the golden standard — sometimes viewers want a video to be more efficient.'",
+    "source_urls": [
+     "https://www.youtube.com/intl/en_be/howyoutubeworks/recommendations/",
+     "https://www.searchenginejournal.com/how-youtubes-recommendation-system-works-in-2025/538379/"
+    ],
+    "actionable_rule": "Do NOT pad runtime to inflate watch time. Optimize for 'satisfied completion': match runtime to the value delivered, deliver the promised payoff early, and use chapters so viewers can self-serve. Pipeline metric to monitor as a satisfaction proxy: likes-per-view and survey-driven signals where available; treat declining like-rate or rising 'not interested' as a quality red flag for a topic/format."
+   },
+   {
+    "claim": "Shorts and long-form are ranked by SEPARATE recommendation models with different signal weights, and (per late-2025 practitioner consensus) cross-format performance no longer drags the other down. Shorts lean on swipe-away vs watch in first seconds, loop/replay rate, and shares; long-form leans on CTR-as-gate, average view duration/retention, session contribution, and satisfaction surveys.",
+    "confidence": "medium",
+    "evidence": "YouTube has publicly stated Shorts and long-form use different ranking systems; the swipe/loop-vs-retention/CTR split is consistently reported across 2025-2026 sources. The specific 'full decoupling / no cross-drag as of late 2025' claim comes from practitioner/secondary sources, not a single verbatim YouTube statement, so weight is medium.",
+    "source_urls": [
+     "https://vidiq.com/blog/post/understanding-youtube-algorithm/",
+     "https://www.searchenginejournal.com/how-youtubes-recommendation-system-works-in-2025/538379/"
+    ],
+    "actionable_rule": "Maintain TWO metadata profiles in the pipeline: long-form (keyword-aware title, retention-optimized packaging, session/playlist chaining) and Shorts (hook in first 1-2s, designed for loop/replay, share-prompt, minimal reliance on description/tags). Do not reuse long-form thumbnails/titles wholesale on Shorts; evaluate each format against its own model's KPIs."
+   },
+   {
+    "claim": "The Trending page and Trending Now list were officially retired (rolled out from ~July 10-21, 2025), replaced by category-specific Charts (Music, Podcasts, Trailers, Gaming Explore). Discovery is now even more concentrated in personalized recommendations, search, and Shorts. There is no longer a single broad 'trending' surface to target.",
+    "confidence": "high",
+    "evidence": "YouTube official blog/announcement covered by 9to5Google and TechCrunch (July 10, 2025): Trending page removed because trends fragmented into micro-trends and 'visits to the Trending page decrease[d] significantly... over the last five years'; viewers now discover via 'recommendations and search suggestions to Shorts, comments and Communities.'",
+    "source_urls": [
+     "https://9to5google.com/2025/07/10/youtube-trending-page-removal/",
+     "https://techcrunch.com/2025/07/10/youtube-is-getting-rid-of-its-trending-page-and-trending-now-list"
+    ],
+    "actionable_rule": "Remove any 'optimize for Trending tab' logic. Target personalized discovery instead: niche/community-specific framing, topical playlists, and Charts categories only where relevant (e.g., music/podcast back-catalog). Use YouTube Studio's Inspiration tab and search-suggest data as the trend-sourcing input for the back-catalog refresh job."
+   },
+   {
+    "claim": "CTR benchmarks: roughly half of all channels/videos sit between 2% and 10% impressions CTR; new/under-a-week videos vary even more widely. CTR should be judged only after substantial impressions accumulate, never immediately post-upload. CTR is diagnostic, not a target to maximize in isolation.",
+    "confidence": "high",
+    "evidence": "YouTube Impressions/CTR FAQ: 'Half of all channels and videos on YouTube have an impressions CTR that can range between 2% and 10%'; advises against 'deciding without enough data' and checking 'immediately after uploading.'",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/7628154?hl=en"
+    ],
+    "actionable_rule": "Gate the pipeline's CTR-based decisions behind an impressions threshold (e.g., do not act on CTR until >= a few thousand impressions or >= 7 days). Flag videos with CTR below ~2% AS WELL AS those with high CTR but low AVD (clickbait pattern). Never compare CTR across surfaces directly (browse vs suggested vs search differ structurally)."
+   }
+  ],
+  "myths_debunked": [
+   {
+    "myth": "You should wait 24-48 hours after upload before making a video public so the algorithm has time to 'understand' it and give better recommendations.",
+    "reality": "False, stated directly by YouTube. The YouTube Liaison/Insider account: the recommendation system starts understanding the audience for a video immediately; waiting provides no recommendation benefit. Publish when ready.",
+    "source_urls": [
+     "https://x.com/YouTubeInsider/status/1964034935326724329",
+     "https://www.searchenginejournal.com/how-youtubes-recommendation-system-works-in-2025/538379/"
+    ]
+   },
+   {
+    "myth": "A video has a make-or-break 24-hour window; if it doesn't take off on day one (view velocity), it's dead.",
+    "reality": "Misleading. There is no fixed 24-hour kill switch. Videos are evaluated continuously at the video+audience level and can resurge weeks, months, or years later via topic/seasonality shifts or new-viewer binging. Evergreen back-catalog can 'sleep' then wake.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/141805?hl=en",
+     "https://x.com/YouTubeInsider/status/1964034935326724329"
+    ]
+   },
+   {
+    "myth": "Tags and keyword-stuffed tag lists are an important ranking/discovery lever.",
+    "reality": "False. YouTube states tags are 'primarily used to help correct for common spelling mistakes.' They have minimal discovery impact; effort belongs in title, thumbnail, and the spoken/described content the system can semantically understand.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/141805?hl=en"
+    ]
+   },
+   {
+    "myth": "Maximize click-through rate at all costs; CTR is the master metric, so the punchiest/most sensational thumbnail+title always wins.",
+    "reality": "False and counterproductive. YouTube's ranking model predicts expected watch time (not click probability) specifically to avoid promoting clickbait, and its own Test & Compare tool selects winners by watch-time share 'over... click-through-rate.' Clickbait that lowers average view duration earns FEWER recommendations.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/16391400?hl=en",
+     "https://cseweb.ucsd.edu/classes/fa17/cse291-b/reading/p191-covington.pdf",
+     "https://support.google.com/youtube/answer/7628154?hl=en"
+    ]
+   },
+   {
+    "myth": "More subscribers / a 'healthy channel' makes each new video rank higher; one underperforming video hurts the whole channel.",
+    "reality": "Mostly false. YouTube says its systems 'rely more on video and audience-level signals' to decide recommendations; an underperforming single video does not damage the channel, and subscriber count is not the ranking driver — per-video, per-audience performance is.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/141805?hl=en"
+    ]
+   },
+   {
+    "myth": "Uploading more frequently / on a strict schedule boosts the algorithm; consistency cadence is itself a ranking factor.",
+    "reality": "Not supported. YouTube states views are not correlated with time between uploads and a fixed schedule is not required. Cadence helps habit-building, but it is not an algorithmic ranking signal.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/141805?hl=en"
+    ]
+   },
+   {
+    "myth": "Optimizing for the Trending tab is a viable growth strategy.",
+    "reality": "Obsolete. The Trending page and Trending Now list were retired in July 2025 and replaced with narrow category Charts; discovery now runs through personalized recommendations, search, and Shorts. There is no broad Trending surface to target.",
+    "source_urls": [
+     "https://9to5google.com/2025/07/10/youtube-trending-page-removal/",
+     "https://techcrunch.com/2025/07/10/youtube-is-getting-rid-of-its-trending-page-and-trending-now-list"
+    ]
+   },
+   {
+    "myth": "Longer videos always win because they accumulate more watch time.",
+    "reality": "False. YouTube optimizes for viewer satisfaction and 'valuable' watch time, not raw minutes; per Beaupré, viewers sometimes prefer efficiency, and a tight satisfying video can outperform a padded long one. Padding runtime can hurt retention and satisfaction signals.",
+    "source_urls": [
+     "https://www.searchenginejournal.com/how-youtubes-recommendation-system-works-in-2025/538379/"
+    ]
+   }
+  ]
+ },
+ {
+  "dimension": "metadata",
+  "key_findings": [
+   {
+    "claim": "Tags play only a MINIMAL role in discovery, per YouTube's own official Help documentation. Title, thumbnail, and description are explicitly more important. Tags' main legitimate use is when your topic/name is commonly misspelled.",
+    "confidence": "high",
+    "evidence": "YouTube Help (primary source) verbatim: 'Tags can be useful if the content of your video is commonly misspelled. Otherwise, tags play a minimal role in your video's discovery.' and 'Your video's title, thumbnail, and description are more important pieces of metadata for your video's discovery.' Corroborated by two independent large-scale studies: Backlinko (1.3M videos) found only a 'weak correlation' for tags; Briggsby's reverse-engineering study ranked tags 'less critical than titles and descriptions.'",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/146402",
+     "https://backlinko.com/youtube-ranking-factors",
+     "https://www.briggsby.com/reverse-engineering-youtube-search"
+    ],
+    "actionable_rule": "Auto-generate 5-8 relevant tags max (always include the primary keyword and 1-2 common misspellings/variant spellings of the channel name or niche term). Do NOT spend pipeline effort scraping dozens of tags or competitor tags. Hard-cap tag field at a small set; treat tags as 'misspelling insurance,' not a ranking lever."
+   },
+   {
+    "claim": "MYTH BUSTED: The widely-repeated 'YouTube ignores ALL hashtags if you exceed 15' is FALSE. The official over-tagging threshold is 60 hashtags, not 15. The number 15 does not appear anywhere on the official hashtag policy page.",
+    "confidence": "high",
+    "evidence": "YouTube Help hashtag policy (primary source) verbatim: 'If a video or playlist has more than 60 hashtags, we'll ignore each hashtag on that content.' Direct fetch confirmed the page does not contain the number 15 in relation to hashtags. The '15' figure is pure SEO-blog folklore that contradicts the official documentation.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/6390658?hl=en"
+    ],
+    "actionable_rule": "Set the hard guardrail at 60 hashtags (the real limit), but cap the pipeline output at 3-5 highly relevant hashtags placed in the description. Never code logic around a '15 hashtag cliff' - it does not exist. Do not let the pipeline reject/strip hashtags based on a 15 threshold."
+   },
+   {
+    "claim": "Only the FIRST 3 hashtags in the description are surfaced as clickable links above the video title; the rest live only in the description. This makes hashtag ORDER meaningful.",
+    "confidence": "high",
+    "evidence": "YouTube Help verbatim: 'Out of all the hashtags you add to the video's description, up to three hashtags that are considered most engaging will appear by your video title.'",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/6390658?hl=en"
+    ],
+    "actionable_rule": "Place the 3 most important/engaging hashtags FIRST in the description hashtag block (these get the above-title placement). Order hashtags by relevance/breadth descending. Use 3-5 total to avoid diluting relevance."
+   },
+   {
+    "claim": "Title hard limit is 100 characters, but only ~60 (desktop search) / ~48-55 (mobile) reliably display before truncation. Keywords should be front-loaded because both the algorithm and users weight the opening words most.",
+    "confidence": "high",
+    "evidence": "100-char limit is the enforced YouTube Studio limit (cannot save longer); confirmed across multiple character-limit references and consistent with practitioner consensus. Front-loading benefit is supported by Backlinko/Briggsby noting keyword presence correlates with rankings and that truncation cuts off later words. Display truncation (~60 desktop) is platform-observed behavior.",
+    "source_urls": [
+     "https://typecount.com/blog/youtube-description-character-limit",
+     "https://www.briggsby.com/reverse-engineering-youtube-search"
+    ],
+    "actionable_rule": "Enforce title <= 100 chars (hard) and target the core hook + primary keyword within the first ~50-55 characters so it survives mobile truncation. Validate that the primary keyword's first character index is < 55. Reject titles where the keyword only appears after char 60."
+   },
+   {
+    "claim": "UNSETTLED: 'Optimal' title length is genuinely contested. Older large studies (Backlinko ~47-48 chars; Briggsby 20-40 char sweet spot) found SHORTER titles correlate with higher rankings/CTR. Some 2025-2026 blog 'studies' claim 70-100 chars wins. These conflict, and the newer claims come from low-authority SEO sources without verifiable methodology.",
+    "confidence": "medium",
+    "evidence": "Backlinko (1.3M videos): 'highest ranking YouTube videos have the shortest titles' (~47-48 chars avg). Briggsby: 'shorter titles tend to perform best... performance getting incrementally worse beyond 50+ characters,' sweet spot 20-40. Contradicting 70-100 char claims trace to a 10xcreator blog (fetch failed/unverifiable) and similar SEO sites with no published raw methodology. Both camps note correlation != causation.",
+    "source_urls": [
+     "https://backlinko.com/youtube-ranking-factors",
+     "https://www.briggsby.com/reverse-engineering-youtube-search"
+    ],
+    "actionable_rule": "Default the pipeline to concise titles in the ~40-60 character range (front-loaded keyword + curiosity hook). Treat the '70-100 chars is better' claim as unproven; if testing longer titles, do it as an A/B experiment with YouTube's built-in 'Test & Compare' title testing, not as the default."
+   },
+   {
+    "claim": "The first 1-2 lines / ~150 characters of the description are the highest-value real estate: they show in search/suggested previews before 'Show more' and are weighted by the algorithm to confirm topic. Description hard limit is 5,000 characters.",
+    "confidence": "high",
+    "evidence": "Practitioner consensus and YouTube's documented 'Show more' fold behavior; the algorithm uses description text to determine topical similarity for suggested videos (corroborated across 2025 algorithm guides citing YouTube's recommendation inputs). 5,000-char limit is the enforced Studio limit. Note: Backlinko found ZERO correlation between keyword-optimized descriptions and SEARCH rank specifically, but authors and YouTube both indicate descriptions still feed suggested-video matching.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/146402",
+     "https://backlinko.com/youtube-ranking-factors",
+     "https://buffer.com/resources/youtube-algorithm/"
+    ],
+    "actionable_rule": "Structure every description as: (1) benefit-driven opening sentence containing the primary keyword, kept under ~125 chars so it survives the 'Show more' fold; (2) 2-3 sentence summary with 1-2 secondary keywords written naturally; (3) chapters/timestamps; (4) links/CTA; (5) 3-5 hashtags. Enforce keyword presence in line 1 and total length <= 5000."
+   },
+   {
+    "claim": "Keyword STUFFING in descriptions does not help search rank and risks looking spammy; semantic/natural language is what YouTube rewards. Exact-match keyword in title gives at most a slight edge because YouTube understands synonyms/semantics.",
+    "confidence": "high",
+    "evidence": "Backlinko (1.3M videos): 'zero correlation' between keyword-optimized descriptions and rankings, and only a 'slight correlation' for exact-keyword titles, attributing this to YouTube's semantic/synonym understanding. Briggsby: broad-match keywords appear in >90% of top videos but exact match in only 38-45%, and warns lengthy descriptions correlate with stuffing and worse performance.",
+    "source_urls": [
+     "https://backlinko.com/youtube-ranking-factors",
+     "https://www.briggsby.com/reverse-engineering-youtube-search"
+    ],
+    "actionable_rule": "Cap primary-keyword repetition in the description to ~1-2 natural mentions. Have the pipeline flag/reject descriptions with keyword density above ~3% or the same exact phrase repeated 3+ times. Prefer including semantic variants/synonyms over repeating the exact phrase."
+   },
+   {
+    "claim": "Video chapters require a strict, machine-checkable format: at least 3 timestamps, the first MUST be 00:00, listed in ascending order, each chapter >= 10 seconds, placed in the description.",
+    "confidence": "high",
+    "evidence": "YouTube Help (primary source) verbatim: 'Your video should have at least three timestamps listed,' 'Make sure that the first timestamp you list starts with 00:00,' 'The minimum length for video chapters is 10 seconds,' and timestamps must be 'listed in ascending order' in the Description field.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/9884579"
+    ],
+    "actionable_rule": "Auto-validate chapters before publish: (a) >= 3 timestamps, (b) first line is exactly '0:00' or '00:00', (c) strictly ascending, (d) each gap >= 10s, (e) format MM:SS or HH:MM:SS. Block publish if any rule fails. Generate descriptive (keyword-aware but honest) chapter titles."
+   },
+   {
+    "claim": "Title/thumbnail are by far the highest-leverage metadata for click-through; the entire metadata stack is secondary to actual viewer-satisfaction signals (watch time, retention, engagement) which the algorithm weights most heavily.",
+    "confidence": "high",
+    "evidence": "YouTube Help ranks title/thumbnail/description above tags. Both Backlinko and Briggsby explicitly caution correlation != causation and conclude user-behavior signals (watch time, engagement) drive ranking far more than metadata text. 2025 algorithm guides consistently cite satisfaction/retention as the dominant inputs.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/146402",
+     "https://backlinko.com/youtube-ranking-factors",
+     "https://buffer.com/resources/youtube-algorithm/"
+    ],
+    "actionable_rule": "Weight pipeline QA effort accordingly: spend the most automated-scoring/human-review budget on title + thumbnail quality and the first 15 words of the description. Treat tags/extra hashtags as low-priority. Do not let metadata optimization substitute for retention-focused content."
+   }
+  ],
+  "myths_debunked": [
+   {
+    "myth": "YouTube ignores ALL your hashtags if you use more than 15.",
+    "reality": "The official YouTube hashtag policy says the threshold is 60, not 15: 'If a video or playlist has more than 60 hashtags, we'll ignore each hashtag on that content.' The number 15 appears nowhere on the official page. (Best practice is still 3-5 for relevance, but the '15 cliff' is folklore.)",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/6390658?hl=en"
+    ]
+   },
+   {
+    "myth": "Loading up tags (and copying competitors' tags) is a major way to rank your video.",
+    "reality": "YouTube's own Help says 'tags play a minimal role in your video's discovery' and are mainly for commonly-misspelled content. Independent studies of 1.3M+ videos found only weak/marginal correlation. Title, thumbnail, and description matter far more.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/146402",
+     "https://backlinko.com/youtube-ranking-factors"
+    ]
+   },
+   {
+    "myth": "Stuffing your description with the keyword many times boosts search ranking.",
+    "reality": "Backlinko's 1.3M-video study found ZERO correlation between keyword-optimized descriptions and search rank, and only a slight edge for exact-match titles, because YouTube understands synonyms/semantics. Stuffing risks looking spammy and correlates with worse performance.",
+    "source_urls": [
+     "https://backlinko.com/youtube-ranking-factors",
+     "https://www.briggsby.com/reverse-engineering-youtube-search"
+    ]
+   },
+   {
+    "myth": "Longer titles (70-100 characters) reliably outperform short ones.",
+    "reality": "This claim comes from low-authority 2025-2026 SEO blogs with no verifiable methodology and directly contradicts the two largest reverse-engineering studies (Backlinko: ~47-48 char winners; Briggsby: 20-40 char sweet spot, worse beyond 50). Title length is genuinely unsettled - treat long titles as an A/B hypothesis, not a default.",
+    "source_urls": [
+     "https://backlinko.com/youtube-ranking-factors",
+     "https://www.briggsby.com/reverse-engineering-youtube-search"
+    ]
+   },
+   {
+    "myth": "All keywords/hashtags placed anywhere in the description carry equal weight, so order doesn't matter.",
+    "reality": "Only the first ~150 characters show before 'Show more' and are weighted most, and only the first 3 hashtags surface as clickable links above the title. Placement and order are functionally meaningful.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/6390658?hl=en",
+     "https://support.google.com/youtube/answer/146402"
+    ]
+   }
+  ]
+ },
+ {
+  "dimension": "thumbnails",
+  "key_findings": [
+   {
+    "claim": "YouTube's native 'Test & Compare' A/B tool picks the winning title/thumbnail by WATCH TIME share (view duration per impression), NOT by click-through rate. YouTube explicitly states it optimizes for 'overall watch time over other metrics, like click-through-rate.' This is the single most important, load-bearing fact for an automated pipeline: optimizing thumbnails purely for raw CTR is contrary to how YouTube's own tool (and recommendation system) scores them.",
+    "confidence": "high",
+    "evidence": "Official YouTube Help (A/B test titles & thumbnails) and Creator Insider, reported via Search Engine Journal and Tubefilter: 'we optimize tests for overall watch time over other metrics, like click-through-rate' and 'the title or combination of title and thumbnail with the highest watch time will be shown to all viewers.' Global rollout to all eligible creators announced Dec 4, 2025.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/13861714?hl=en",
+     "https://www.searchenginejournal.com/youtube-title-a-b-testing-rolls-out-globally-to-creators/562571/",
+     "https://www.tubefilter.com/2025/07/16/youtube-feature-test-and-compare-titles-thumbnails/"
+    ],
+    "actionable_rule": "Pipeline should generate up to 3 distinct thumbnail variants per video and submit them to native Test & Compare via YouTube Studio (desktop, Advanced Features enabled). Treat the watch-time-share winner as the keeper, NOT the highest-CTR option. Do not auto-promote a variant on CTR alone; if a high-CTR variant has lower watch-time share, discard it."
+   },
+   {
+    "claim": "Test & Compare mechanics are well-defined and stable: up to 3 variants per video (titles and/or thumbnails), test runs up to ~2 weeks (often a few days), and returns one of three outcomes — Winner / Performed the same / Inconclusive (too few impressions). If no winner, the first-uploaded variant becomes the default. Desktop YouTube Studio only; not available for Shorts, scheduled Lives, Premieres (until converted to VOD), kids/mature/private videos.",
+    "confidence": "high",
+    "evidence": "Official YouTube Help (answer 13861714) and Tubefilter summary: 3 variants, up to two weeks, watch-time-share winner, three outcome states, eligibility exclusions (Shorts/Premieres/scheduled Lives/MFK/private), desktop-only, requires Advanced Features.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/13861714?hl=en",
+     "https://www.tubefilter.com/2025/07/16/youtube-feature-test-and-compare-titles-thumbnails/",
+     "https://influencermarketinghub.com/youtube-test-compare/"
+    ],
+    "actionable_rule": "Encode eligibility gating in the pipeline: only queue A/B tests for long-form, public, non-MFK videos via desktop Studio. Always upload exactly 3 variants (max). Allow each test a full 14-day window before reading results; if outcome is 'Inconclusive', do not treat lack of a winner as a signal — keep the default and optionally re-test with more differentiated variants. Order variants so the strongest candidate is uploaded first (it becomes default on a tie)."
+   },
+   {
+    "claim": "Faces in thumbnails do NOT universally raise performance. A large-scale 2025 study of 300,000+ high-performing videos (1of10 Media / Nate Curtiss, 'Outlier Score' methodology) found face vs. faceless thumbnails performed roughly the same on average; faces helped only conditionally — depending on niche (e.g. Finance better with faces, Business worse), channel size (helped larger channels modestly), and count (multiple faces outperformed single faces). The widely repeated 'faces always lift CTR 20-30%' is from a single vendor (vidIQ) and is not corroborated by the larger controlled dataset.",
+    "confidence": "medium",
+    "evidence": "Search Engine Journal coverage of 1of10 Media study (300k+ videos, 2025): faces perform similarly to faceless overall; effect 'depends on your niche, your format, and how many faces you use'; multiple faces outperformed single-face. Contrasts with vidIQ's uncorroborated 20-30% claim.",
+    "source_urls": [
+     "https://www.searchenginejournal.com/do-faces-help-youtube-thumbnails-heres-what-the-data-says/563944/",
+     "https://1of10.com/blog/clickbait-thumbnail/"
+    ],
+    "actionable_rule": "Do NOT hard-code 'always include a face.' Make face inclusion a per-niche/per-channel A/B hypothesis, not a default. For this channel's niche (AI/tech), test face vs. no-face empirically via Test & Compare rather than assuming faces help. Where faces are used, prefer expressive/high-emotion close-ups and consider multi-face compositions for relevant formats."
+   },
+   {
+    "claim": "Low text count outperforms text-heavy thumbnails: variants with roughly 3 words or fewer (or under ~12 characters) consistently beat 4+ word designs on average CTR. The mechanism is mobile legibility — thumbnails render as small as ~116x65 to ~168x94 px on phones, where the majority of YouTube viewing happens, so dense text becomes unreadable.",
+    "confidence": "medium",
+    "evidence": "Converging large-scale practitioner analyses (1of10, ThumbnailTest) report 3-words-or-fewer outperforming 4+ words; mobile render sizes ~116x65/168x94 px cited across multiple guides. Note: exact percentage lifts ('30% higher') are practitioner figures, not officially audited.",
+    "source_urls": [
+     "https://blog.bananathumbnail.com/youtube-thumbnail-ab-testing/",
+     "https://thumbnailtest.com/guides/youtube-thumbnail-size/",
+     "https://www.searchenginejournal.com/do-faces-help-youtube-thumbnails-heres-what-the-data-says/563944/"
+    ],
+    "actionable_rule": "Enforce a hard cap of <=3 words (or <=12-15 characters) of on-thumbnail text in the generation step. Reject/flag any auto-generated thumbnail exceeding the cap. Require a minimum font size and high text-to-background contrast, and run a mobile-size legibility check (downscale to ~160x90 px) before publishing."
+   },
+   {
+    "claim": "YouTube's official recommended thumbnail spec is 3840x2160 px (16:9), minimum width 640 px, formats JPG/PNG/GIF, with a 2 MB upload limit on mobile (50 MB desktop). The ubiquitous '1280x720' advice is the practical/minimum baseline, not the current official recommended resolution — uploading at higher resolution survives YouTube's compression better.",
+    "confidence": "high",
+    "evidence": "Official YouTube Help (answer 72431): 'resolution of 3840 x 2160 pixels (with minimum width of 640 pixels)', 16:9, JPG/GIF/PNG, 2 MB mobile / 50 MB desktop limits. Third-party guides still cite 1280x720 as the common baseline.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/72431",
+     "https://thumbnailtest.com/guides/youtube-thumbnail-size/"
+    ],
+    "actionable_rule": "Render/export thumbnails at high resolution (target 1920x1080 or 3840x2160, 16:9) rather than just 1280x720, keep file under 2 MB (compress JPG/PNG to fit), and validate aspect ratio = 16:9 and width >= 640 px as a pre-upload gate. Prefer PNG for crisp text/high-contrast graphics."
+   },
+   {
+    "claim": "High contrast and visual simplicity are the most defensible design levers. Multiple analyses associate strong color contrast and limited visual complexity with higher CTR, and report that thumbnails with more than ~3 distinct visual elements underperform simpler ones. These are directional best practices, not officially audited numbers, but they align with the mobile-legibility constraint above.",
+    "confidence": "medium",
+    "evidence": "Multiple 2025-2026 practitioner guides report high-contrast and <=3 visual-element thumbnails outperforming busy designs; consistent with small mobile render sizes. Specific percentages ('30% higher CTR', '23% lower') are vendor figures, not peer-reviewed.",
+    "source_urls": [
+     "https://awisee.com/blog/youtube-thumbnail-best-practices/",
+     "https://increv.co/academy/youtube-thumbnails-how-to-make-them-clickworthy/"
+    ],
+    "actionable_rule": "Bake a complexity/contrast linter into the pipeline: limit to <=3 focal visual elements, enforce a minimum luminance-contrast ratio between subject and background, and prefer a single dominant focal point. Flag busy/low-contrast outputs for regeneration. Treat all specific 'percent lift' numbers as hypotheses to confirm via Test & Compare, not as facts."
+   },
+   {
+    "claim": "Misleading or 'egregious clickbait' thumbnails carry real enforcement risk. Since December 2024 YouTube's spam policy explicitly covers 'misleading metadata or thumbnails' and YouTube began removing videos whose thumbnails promise content not delivered (with heightened enforcement on breaking news / current events). This caps how aggressively a CTR-maximizing pipeline can push sensational thumbnails.",
+    "confidence": "high",
+    "evidence": "YouTube spam/misleading-metadata policy and Dec 2024 'egregious clickbait' enforcement announcement (covered by multiple outlets); example violations cited (e.g., thumbnail 'Top political news' with no news content). Removal initially without a strike, then stricter for news.",
+    "source_urls": [
+     "https://chromeunboxed.com/no-more-clickbait-youtube-is-cracking-down-on-misleading-videos/",
+     "https://www.indiatvnews.com/technology/news/youtube-s-videos-with-misleading-thumbnails-to-be-removed-crackdown-on-clickbaits-2024-12-20-967145",
+     "https://1of10.com/blog/clickbait-thumbnail/"
+    ],
+    "actionable_rule": "Add a truthfulness/consistency check: the thumbnail's text and imagery must be supported by content actually present in the video (especially for any news/current-events framing). Reject thumbnails that assert claims the video does not deliver. This both avoids policy strikes and protects watch-time (the metric the algorithm and Test & Compare actually reward)."
+   },
+   {
+    "claim": "There is no single 'good CTR' target; CTR is dominated by traffic source and channel size, not thumbnail quality alone. YouTube states ~half of channels sit in a wide 2-10% range. Search traffic commonly exceeds ~12% (high intent) while Browse/Home is often under ~4% (low intent). Comparing a video's CTR to a flat benchmark is misleading.",
+    "confidence": "medium",
+    "evidence": "YouTube-attributed 2-10% range for ~half of channels (reported across analytics guides); traffic-source split (Search 12%+, Browse <4%) widely reported. Exact cutoffs are directional, not a precise official spec.",
+    "source_urls": [
+     "https://www.wildnettechnologies.com/blogs/what-is-a-good-ctr-on-youtube",
+     "https://www.lenostube.com/en/youtube-ctr-benchmark-average-good-best-practices/"
+    ],
+    "actionable_rule": "When the pipeline reports CTR, always segment by traffic source (Search vs Browse vs Suggested) and compare a thumbnail variant only against the SAME video's other variants and the channel's own historical median — never against a flat external benchmark. Do not trigger a 'replace thumbnail' action purely because absolute CTR is below an arbitrary number like 5%."
+   }
+  ],
+  "myths_debunked": [
+   {
+    "myth": "YouTube's Test & Compare picks the thumbnail with the highest CTR.",
+    "reality": "It picks the variant with the highest WATCH-TIME share (view duration per impression). YouTube explicitly states it optimizes 'for overall watch time over other metrics, like click-through-rate' to avoid rewarding clickbait that tanks retention.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/13861714?hl=en",
+     "https://www.searchenginejournal.com/youtube-title-a-b-testing-rolls-out-globally-to-creators/562571/"
+    ]
+   },
+   {
+    "myth": "Always put a (big emotional) face in the thumbnail — faces lift CTR by 20-30%.",
+    "reality": "A 300,000+ video controlled study (1of10 Media, 2025) found faces and faceless thumbnails perform about the same on average; faces help only conditionally by niche, channel size, and face count. The '20-30%' figure comes from a single vendor (vidIQ) and is not corroborated. Faces should be A/B tested, not assumed.",
+    "source_urls": [
+     "https://www.searchenginejournal.com/do-faces-help-youtube-thumbnails-heres-what-the-data-says/563944/"
+    ]
+   },
+   {
+    "myth": "Higher CTR always means better performance, so maximize CTR.",
+    "reality": "CTR in isolation is misleading. YouTube's Director of Growth (Todd Beaupre) notes a 5% CTR / 100k views video beats a 20% CTR / 10k views one, and the system optimizes for viewer satisfaction and watch time. A clickbait thumbnail can hit 12% CTR but kill retention and get suppressed.",
+    "source_urls": [
+     "https://adoutreach.beehiiv.com/p/how-youtube-s-algorithm-really-works-in-2025-straight-from-youtube-s-director-of-growth",
+     "https://www.wildnettechnologies.com/blogs/what-is-a-good-ctr-on-youtube"
+    ]
+   },
+   {
+    "myth": "1280x720 is the recommended thumbnail resolution.",
+    "reality": "1280x720 is effectively the minimum/baseline. YouTube's official Help page recommends 3840x2160 (16:9), minimum width 640 px; uploading higher resolution survives YouTube's compression better. Keep files under the 2 MB mobile limit.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/72431"
+    ]
+   },
+   {
+    "myth": "There is a universal 'good' CTR number (e.g. you need 5%+).",
+    "reality": "CTR is driven primarily by traffic source and channel size. ~Half of channels span a wide 2-10% range; Search traffic often exceeds 12% while Browse is frequently under 4%. A flat benchmark is not a meaningful target.",
+    "source_urls": [
+     "https://www.lenostube.com/en/youtube-ctr-benchmark-average-good-best-practices/",
+     "https://www.wildnettechnologies.com/blogs/what-is-a-good-ctr-on-youtube"
+    ]
+   },
+   {
+    "myth": "Sensational/clickbait thumbnails are a free CTR win.",
+    "reality": "Since December 2024 YouTube's spam policy explicitly targets 'misleading metadata or thumbnails' and removes 'egregious clickbait' (thumbnails promising content not in the video), with stricter enforcement on news/current events. Misleading thumbnails risk removal and depress the watch-time the algorithm actually rewards.",
+    "source_urls": [
+     "https://chromeunboxed.com/no-more-clickbait-youtube-is-cracking-down-on-misleading-videos/",
+     "https://1of10.com/blog/clickbait-thumbnail/"
+    ]
+   }
+  ]
+ },
+ {
+  "dimension": "multilang",
+  "key_findings": [
+   {
+    "claim": "Multi-language AUDIO tracks measurably expand international reach. Per the official YouTube Blog, creators who uploaded multi-language audio tracks saw OVER 25% of their watch time come from views in the video's NON-PRIMARY language. YouTube also cites Jamie Oliver's channel views being amplified ~3x and Mark Rober averaging ~30 language tracks per video.",
+    "confidence": "high",
+    "evidence": "Official YouTube Blog 'Unlock a world of viewers with multi-language audio' states: 'creators uploading Multi-language Audio tracks to their videos saw over 25% of their watch time come from views in the video's non-primary language.' Same post gives Jamie Oliver 3x and Mark Rober ~30 tracks examples. Corroborated by TechCrunch (Sep 10 2025).",
+    "source_urls": [
+     "https://blog.youtube/news-and-events/multi-language-audio/",
+     "https://techcrunch.com/2025/09/10/youtubes-multi-language-audio-feature-for-dubbing-videos-rolls-out-to-all-creators/"
+    ],
+    "actionable_rule": "Treat multi-language audio as the single highest-leverage international reach lever. For every published video, generate/track at least the top non-primary audience languages and record per-language watch-time share in the metadata pipeline; prioritize languages where the channel already shows non-primary watch time."
+   },
+   {
+    "claim": "AUTO-DUBBING (AI-generated, free, powered by Google 'Aloud'/Gemini) is now available to ALL creators worldwide as of February 2026, supporting 27 languages, and is ENABLED BY DEFAULT for eligible videos. 'Expressive Speech' (tone/emotion replication) is live in 8 languages: English, French, German, Hindi, Indonesian, Italian, Portuguese, Spanish.",
+    "confidence": "high",
+    "evidence": "Official YouTube Blog 'Unlocking a global audience with auto dubbing' (Feb 4-5 2026): auto dubbing 'available to everyone,' '27 languages,' Expressive Speech in the 8 named languages, '6 million daily viewers who watched at least 10 minutes of auto dubbed content' in December. YouTube Help confirms 'This feature is enabled by default for eligible creators.'",
+    "source_urls": [
+     "https://blog.youtube/news-and-events/youtube-auto-dubbing-expressive-speech/",
+     "https://support.google.com/youtube/answer/15569972?hl=en",
+     "https://www.socialmediatoday.com/news/youtube-expands-auto-dubbing-to-all-creators/811375/"
+    ],
+    "actionable_rule": "Do NOT assume auto-dubbing is off — it defaults ON. Pipeline must explicitly set the channel-level 'Automatic dubbing' toggle (YouTube Studio > Settings > Content, or per-video Advanced settings) to the desired state, set the correct ORIGINAL video language on every upload (wrong source language = wrong/garbled dubs), and log which languages were auto-dubbed per video."
+   },
+   {
+    "claim": "Auto-dubbing and uploaded multi-language audio use DIFFERENT mechanisms and eligibility paths. Auto-dubbing is automatic/free for all. Manually-uploaded multi-language audio tracks (your own/professional dubs) currently require ADVANCED FEATURES access, not just YPP, and do NOT auto-generate — you upload an audio-only file per language in YouTube Studio > Languages.",
+    "confidence": "high",
+    "evidence": "Official YouTube Help (answer 13338784): 'Multi-language audio is currently available to a subset of creators with access to Advanced features as we are expanding access gradually'; 'Multi-language audio lets you upload your own dubbed audio tracks. It does not automatically create these tracks.' To replace an auto-dub you must first delete it.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/13338784?hl=en",
+     "https://support.google.com/youtube/answer/15569972?hl=en"
+    ],
+    "actionable_rule": "Branch the pipeline: (1) auto-dub path = ensure correct source language + toggle setting; (2) human/custom-dub path = produce audio-only files (roughly equal length to video) and upload via Studio > Languages > Add Language > Dub > Add. To override a bad auto-dub with a custom track, delete the auto-dub for that language FIRST."
+   },
+   {
+    "claim": "Viewers are routed to a dubbed track BY DEFAULT based on their watch history / preferred-language signals, not by an explicit per-video choice — and viewers have NO global off-switch (only per-video, per-session track switching). This means a low-quality auto-dub can become the DEFAULT experience for a chunk of your audience.",
+    "confidence": "high",
+    "evidence": "Official YouTube Blog: 'Preferred Language setting' + selection defaults based on watch history. Yahoo Tech/independent reporting: auto-dub 'silently defaults' to dubbed audio; 'the only option is to manually switch the audio track on each video... There's no global setting' for viewers. Creators, by contrast, get channel-level control.",
+    "source_urls": [
+     "https://blog.youtube/news-and-events/youtube-auto-dubbing-expressive-speech/",
+     "https://tech.yahoo.com/streaming/articles/youtube-auto-dubbing-missing-one-132908591.html"
+    ],
+    "actionable_rule": "QA every auto-dub before relying on it: preview the dub + review the transcript in Studio for the channel's high-traffic target languages (e.g. German for this channel). If a dub is robotic/wrong, disable that language or replace with a custom track. Make per-language dub QA a gated step before a video is considered 'done.'"
+   },
+   {
+    "claim": "YouTube officially claims auto-dubbing has 'no negative impact on your original video's discovery algorithm.' Independent practitioners caution the opposite is possible IF a bad dub is served by default and tanks average view duration. Both can be true: the dub track itself is not penalized, but poor retention on a default-dubbed track is still poor retention.",
+    "confidence": "medium",
+    "evidence": "Official YouTube Blog states auto dubs have 'no negative impact on your original video's discovery algorithm.' Practitioner sources (Android Police, BeMultilingual) warn quality issues can lower average viewer duration in dubbed languages. The official claim is specifically about the ORIGINAL video's discovery, not retention within a dubbed track.",
+    "source_urls": [
+     "https://blog.youtube/news-and-events/youtube-auto-dubbing-expressive-speech/",
+     "https://www.androidpolice.com/youtube-multilingual-dubbing-auto-manual/"
+    ],
+    "actionable_rule": "Monitor per-audio-language retention/AVD in YouTube Analytics as a separate metric. If an auto-dubbed language shows materially worse AVD than the original, disable or replace that language rather than leaving the default dub live."
+   },
+   {
+    "claim": "Auto-TRANSLATED CAPTIONS/subtitles are broadly available (100+ target languages) but DEPEND on a source caption track existing first. Auto-generated captions exist in 90+ languages. Auto-translate is a viewer-side machine-translation layer (typical accuracy ~70-90%, varies by language pair) — it is not something the creator 'enables' per language.",
+    "confidence": "high",
+    "evidence": "YouTube Help (answer 6373554) lists automatic captions in 90+ languages with explicit accuracy caveats (accents, background noise). Viewer-side auto-translate of subtitles into 100+ languages is documented across help/practitioner sources; requires an existing caption track.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/6373554?hl=en",
+     "https://support.google.com/youtube/answer/6289575?hl=en"
+    ],
+    "actionable_rule": "Always publish an accurate native-language caption/subtitle file per video (don't rely solely on raw auto-captions). A clean source caption is the prerequisite that unlocks viewer auto-translate into 100+ languages AND improves auto-dub accuracy. Bake 'upload corrected SRT' into the publish checklist."
+   },
+   {
+    "claim": "LOCALIZED TITLES & DESCRIPTIONS are a supported, current feature (Studio > Subtitles/Languages > Add Language > Title and description), and let users find videos in their own language. This is genuinely useful for discoverability in non-English markets, but the widely-repeated '15% average watch-time increase from translating titles/descriptions' figure has NO traceable primary YouTube source.",
+    "confidence": "medium",
+    "evidence": "Official YouTube Help (answer 6289575) documents translating your own titles/descriptions and frames the benefit as discoverability/accessibility for fans in their own language. The '15% increase' stat appears only in third-party SEO blogs attributing it to 'YouTube' with no link to any YouTube primary source.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/6289575?hl=en",
+     "https://support.google.com/youtube/answer/6304325?hl=en"
+    ],
+    "actionable_rule": "Add localized titles/descriptions for the channel's top 3-5 audience languages via the Studio Languages CSV/API, but do NOT promise a specific % lift. Treat it as a discoverability hygiene step layered UNDER audio dubbing (audio is the proven driver), and A/B measure rather than assuming the folklore number."
+   },
+   {
+    "claim": "Setting the correct ORIGINAL/DEFAULT video language is a load-bearing prerequisite for the whole multilingual stack. Auto-dub eligibility and quality, caption accuracy, and correct viewer routing all key off it. Videos are also ineligible for auto-dub if >120 min, music-only/no speech, speech too fast, undetectable language, or copyrighted.",
+    "confidence": "high",
+    "evidence": "YouTube Help (answer 15569972) lists ineligibility conditions (>120 min, no speech, unsupported/undetectable source language, speech too fast, copyrighted) and instructs creators to set the original language accurately for better dubs.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/15569972?hl=en",
+     "https://support.google.com/youtube/answer/6304325?hl=en"
+    ],
+    "actionable_rule": "Make 'set original video language' a REQUIRED, validated field at upload (fail the pipeline if blank/auto-detected-only). Pre-flag videos that violate auto-dub eligibility (length >120 min, music-only) so the team doesn't expect dubs that will never generate."
+   }
+  ],
+  "myths_debunked": [
+   {
+    "myth": "Translating your titles and descriptions gives you a ~15% average watch-time increase (often quoted as 'according to YouTube').",
+    "reality": "No primary YouTube source supports this number — it circulates only in third-party SEO blogs citing an unnamed 'YouTube' claim. Localized titles/descriptions are a real, useful discoverability feature, but the specific 15% figure is unverified folklore. The PROVEN reach driver with an official statistic is multi-language AUDIO (25%+ of watch time from non-primary languages).",
+    "source_urls": [
+     "https://blog.youtube/news-and-events/multi-language-audio/",
+     "https://support.google.com/youtube/answer/6289575?hl=en"
+    ]
+   },
+   {
+    "myth": "Auto-dubbing is opt-in / off by default, so you don't need to manage it.",
+    "reality": "Auto-dubbing is ENABLED BY DEFAULT for eligible creators and videos. If you ignore it, YouTube may serve AI dubs (potentially low quality) to viewers automatically. You must actively review, set the channel toggle, and QA target-language dubs.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/15569972?hl=en",
+     "https://tech.yahoo.com/streaming/articles/youtube-auto-dubbing-missing-one-132908591.html"
+    ]
+   },
+   {
+    "myth": "Auto-dubbing and 'multi-language audio tracks' are the same feature with the same setup.",
+    "reality": "They are different. Auto-dubbing is free, automatic, AI-generated, all-creators, 27 languages. Multi-language audio tracks are creator-UPLOADED files, require Advanced features access, and do not auto-generate. They interact: to use your own dub in a language you must first delete the auto-dub there.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/13338784?hl=en",
+     "https://support.google.com/youtube/answer/15569972?hl=en"
+    ]
+   },
+   {
+    "myth": "Adding an auto-dub track will hurt your original video's ranking/discovery.",
+    "reality": "YouTube officially states auto dubs have 'no negative impact on your original video's discovery algorithm.' The legitimate risk is indirect: if a BAD dub is served by default and tanks retention in that language, that language's performance suffers — so the fix is QA/disable per language, not avoiding dubbing entirely.",
+    "source_urls": [
+     "https://blog.youtube/news-and-events/youtube-auto-dubbing-expressive-speech/",
+     "https://www.androidpolice.com/youtube-multilingual-dubbing-auto-manual/"
+    ]
+   },
+   {
+    "myth": "Auto-translated subtitles work on any video automatically, so captions aren't worth uploading.",
+    "reality": "Viewer-side auto-translate (100+ languages) requires an existing caption track, and quality cascades from the source caption (raw auto-captions ~70-90% accurate, worse with accents/noise). A clean, corrected native caption file is the prerequisite that makes translated subtitles — and more accurate auto-dubs — actually good.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/6373554?hl=en"
+    ]
+   },
+   {
+    "myth": "You can rely on YouTube's community/viewers to crowdsource your translations.",
+    "reality": "Community Contributions (crowdsourced titles, descriptions, captions) were discontinued back in September 2020 due to spam and ~0.001% usage. Localization is now creator-driven (your own uploads/API) or AI-driven (auto-dub/auto-translate). Don't build a pipeline assuming community translation exists.",
+    "source_urls": [
+     "https://www.engadget.com/youtube-community-contributions-saying-goodbye-141205281.html",
+     "https://support.google.com/youtube/answer/6054623/contribute-translated-content?hl=en"
+    ]
+   }
+  ]
+ },
+ {
+  "dimension": "geo",
+  "key_findings": [
+   {
+    "claim": "Google officially states there is NO special file, markup, schema, or chunking needed to appear in AI Overviews / AI Mode — eligibility = being indexed and snippet-eligible in normal Search. This is the single most authoritative GEO statement available for the Gemini/AI-Overviews surface.",
+    "confidence": "high",
+    "evidence": "Google's official AI Features documentation (published May 15 2026): 'There are no additional requirements to appear in AI Overviews or AI Mode... To be eligible to be shown as a supporting link in AI Overviews or AI Mode, a page must be indexed and eligible to be shown in Google Search with a snippet.' It explicitly debunks: 'You don't need to create new machine readable files, AI text files, or markup... There's also no special schema.org structured data that you need to add.' Google frames AEO/GEO as 'still SEO'.",
+    "source_urls": [
+     "https://developers.google.com/search/docs/appearance/ai-features",
+     "https://www.searchenginejournal.com/googles-new-ai-search-guide-calls-aeo-and-geo-still-seo/575026/",
+     "https://searchengineland.com/google-publishes-guide-on-optimizing-for-generative-ai-features-477671"
+    ],
+    "actionable_rule": "Treat Google AI Overviews/AI Mode eligibility as a function of standard indexability: ensure every watch/catalog page returns 200, is in the XML sitemap, is not noindex, has a unique meta description and crawlable HTML body text. Do NOT gate AI visibility on any special 'AI file'. Add a CI check that fails the build if a published page is noindex, blocked in robots.txt, or missing from the sitemap."
+   },
+   {
+    "claim": "llms.txt is NOT used by the major AI answer engines for retrieval or citation in practice. Two independent server-log studies show AI bots almost never fetch the file, and there is no measurable citation lift from publishing one.",
+    "confidence": "high",
+    "evidence": "Ahrefs analyzed 137,210 domains (May 2026): 97% of llms.txt files received ZERO requests; only ~1.1% of requests to the files that WERE fetched came from AI-retrieval bots (ChatGPT/Perplexity/Claude search), and 'zero requests came from AI bots for llms.txt files that don't exist — they never go looking.' OtterlyAI's 90-day controlled experiment: only 84 of 62,100+ AI bot visits (~0.1%) hit /llms.txt, 'no positive correlation between llms.txt presence and increased AI crawler activity.' SE Ranking's 300,000-domain study found no statistical correlation between having llms.txt and being cited by LLMs.",
+    "source_urls": [
+     "https://ahrefs.com/blog/llmstxt-study/",
+     "https://otterly.ai/blog/the-llms-txt-experiment/",
+     "https://presenc.ai/research/state-of-llms-txt-2026"
+    ],
+    "actionable_rule": "Do NOT spend pipeline effort generating or maintaining llms.txt as a citation lever. If kept at all, treat it as a near-zero-cost optional artifact, never a priority, and do not report it as a GEO 'win'. Reallocate that effort to indexability + on-page content quality. (Note: the channel's MEMORY.md currently lists llms.txt as a GEO measure — this finding contradicts that and the memory should be updated.)"
+   },
+   {
+    "claim": "Google has explicitly and repeatedly stated it does not support llms.txt and is not planning to, comparing it to the long-ignored keywords meta tag.",
+    "confidence": "high",
+    "evidence": "Gary Illyes (Google) at Search Central Deep Dive 2025 (Bangkok) stated Google doesn't support llms.txt and isn't planning to, comparing it to the keywords meta tag (ignored for a decade because it's site-operator-controlled and manipulable). Google's May 2026 AI-features guide names llms.txt directly in its mythbusting section. A brief Dec 3 2025 appearance of llms.txt in Google's own dev docs was removed the same day.",
+    "source_urls": [
+     "https://www.searchenginejournal.com/googles-llms-txt-guidance-depends-on-which-product-you-ask/575431/",
+     "https://developers.google.com/search/docs/appearance/ai-features",
+     "https://www.seroundtable.com/google-optimize-generative-ai-mythbusting-41335.html"
+    ],
+    "actionable_rule": "Hard-code into team guidance: llms.txt has zero effect on Google AI Overviews/AI Mode/Gemini. Never present llms.txt as helping with Google surfaces."
+   },
+   {
+    "claim": "Content-level GEO tactics with peer-reviewed backing: adding QUOTATIONS, STATISTICS, and CITED SOURCES measurably increases the chance of being included/cited by generative engines. Keyword stuffing does NOT work (it can reduce visibility).",
+    "confidence": "medium",
+    "evidence": "Peer-reviewed KDD 2024 paper 'GEO: Generative Engine Optimization' (Aggarwal et al., Princeton/Georgia Tech/Allen AI/IIT Delhi), GEO-bench = 10,000 queries across 25 domains, metric = Position-Adjusted Word Count, validated on live Perplexity.ai. Relative visibility lift: Quotation Addition ~+41% (and ~+22% on live Perplexity), Statistics Addition ~+31-40%, Cite Sources ~+30-40%, Fluency ~+15-30%. Keyword Stuffing showed little/no gain and decreased visibility. Caveat: effects are domain-dependent and the paper predates current engine versions; treat exact percentages as directional, not guaranteed.",
+    "source_urls": [
+     "https://arxiv.org/abs/2311.09735",
+     "https://arxiv.org/html/2311.09735v3",
+     "https://collaborate.princeton.edu/en/publications/geo-generative-engine-optimization/"
+    ],
+    "actionable_rule": "In auto-generated page copy (descriptions, episode/series pages, Wochenschau write-ups), template-insert: (1) at least one verifiable statistic with a cited source, (2) a short attributed quotation where relevant, and (3) an explicit outbound citation to an authoritative source. Forbid keyword-stuffing patterns in the generator (cap keyword density, lint for repeated exact-match phrases)."
+   },
+   {
+    "claim": "For AI brand/site visibility, off-site BRAND MENTIONS — and YouTube mentions specifically — correlate far more strongly with AI citation than backlinks do. This is the single most channel-relevant finding for a YouTube creator with a catalog site.",
+    "confidence": "medium",
+    "evidence": "Ahrefs Q1 2026 AI Search Benchmark, ~75,000 brands: YouTube mentions (brand name in video title/transcript/description) showed the HIGHEST measured Spearman correlation with AI brand visibility at ~0.737; branded web mentions ~0.664; traditional backlinks only ~0.218 — i.e. mentions are ~3x stronger predictors than backlinks. Caveat: this is correlation, not proven causation; large brands naturally accrue both mentions and AI visibility.",
+    "source_urls": [
+     "https://ahrefs.com/blog/ai-brand-visibility-correlations",
+     "https://www.businesswire.com/news/home/20260526119691/en/Across-75000-Brands-YouTube-Mentions-Are-the-Strongest-Signal-of-AI-Visibility-New-Ahrefs-Report-Reveals",
+     "https://thenextweb.com/news/ahrefs-youtube-mentions-ai-visibility-brand-search"
+    ],
+    "actionable_rule": "Make the brand string consistent and machine-extractable everywhere: put the canonical brand/channel name (e.g. 'remAIke.TV' / '@remAIke_IT') verbatim in every YouTube video title, description, and (where possible) spoken intro for transcript capture, and mirror that exact string on every catalog page. Prioritize getting the brand name into third-party text (Reddit/forum threads, press, wikis) over chasing raw backlinks."
+   },
+   {
+    "claim": "Recency is a real ranking/citation signal for AI engines: recently published/updated pages are crawled and cited disproportionately more than old content.",
+    "confidence": "medium",
+    "evidence": "Seer Interactive study of 5,000+ cited URLs across ChatGPT, Perplexity, and AI Overviews: ~65% of AI bot log-hits were for content published in the past year, 79% for 2024-2025, only 6% for content older than 6 years. Citation share for 2025-alone content: ChatGPT 31%, Perplexity ~50%, AIOs ~44%. Ahrefs separately found AI-cited content is ~25.7% fresher than typical Google organic results. Recency effect is vertical-dependent (strong for finance/news, weaker for evergreen topics).",
+    "source_urls": [
+     "https://www.seerinteractive.com/insights/study-ai-brand-visibility-and-content-recency",
+     "https://www.quattr.com/blog/content-freshness"
+    ],
+    "actionable_rule": "Emit and surface accurate dateModified/datePublished in page markup and visible text, and genuinely refresh high-value catalog/series pages (e.g. update Wochenschau archive and series-overview pages on a schedule). Ping IndexNow on every publish/update so Bing-fed engines re-crawl quickly. Avoid fake date-bumping without real content change (Google's quality systems can discount it)."
+   },
+   {
+    "claim": "IndexNow is a real, low-cost lever for the ChatGPT-Search/Copilot/Bing cluster (but NOT for Google). ChatGPT Search and Copilot draw heavily on Bing's index, which IndexNow feeds.",
+    "confidence": "medium",
+    "evidence": "ChatGPT Search citations correlate strongly with Bing rankings; Microsoft Copilot uses the Bing Search API for web access; OpenAI confirmed the Bing partnership at SearchGPT launch and supplements with its own OAI-SearchBot crawler. IndexNow is supported by Bing, Yandex, Naver, Seznam, Yep — Google has confirmed it does NOT support IndexNow as of 2026. So IndexNow can shorten the time-to-crawl/cite for the Bing-fed AI surfaces.",
+    "source_urls": [
+     "https://www.sorank.com/glossary-geo-seo/openai-crawlers",
+     "https://pressonify.ai/blog/indexnow-instant-indexing-press-releases-2026",
+     "https://docdigitalsem.com/bing-indexing-for-ai-search/"
+    ],
+    "actionable_rule": "Wire IndexNow into the publish pipeline: on every new/updated watch or catalog URL, POST the URL list to the IndexNow API with the site's verified key file. Also verify the site in Bing Webmaster Tools and submit the sitemap there. Expect benefit for ChatGPT Search/Copilot/Bing; do not expect any Google benefit from IndexNow."
+   },
+   {
+    "claim": "For a creator/video catalog, the right robots.txt strategy is to ALLOW the live-retrieval/search bots (OAI-SearchBot, PerplexityBot, ChatGPT-User, Claude search bots, Googlebot) so pages can be fetched and cited, while optionally blocking training-only bots (GPTBot, ClaudeBot, Google-Extended, CCBot) if the goal is to avoid training use. Blocking search bots removes citation eligibility.",
+    "confidence": "high",
+    "evidence": "OpenAI documents the canonical split: operators can allow OAI-SearchBot (powers ChatGPT Search retrieval/citation) while disallowing GPTBot (training); IPs verifiable via openai.com/searchbot.json. The 2026 practitioner consensus: live-citation bots (OAI-SearchBot, PerplexityBot, ChatGPT-User, Claude search) drive cited traffic and should be allowed; training bots can be blocked separately. Caveat: some crawlers (Bytespider, and documented Perplexity stealth fetching) ignore robots.txt — robots.txt is a directive, not enforcement; only server/WAF rules truly block.",
+    "source_urls": [
+     "https://www.anagram.ai/blog/ai-crawlers-explained-gptbot-claudebot-perplexitybot-and-how-to-let-them-in-2026",
+     "https://www.openshadow.io/guides/ai-bot-user-agents-2026",
+     "https://crawlercheck.com/directory/ai-bots/oai-searchbot"
+    ],
+    "actionable_rule": "Audit robots.txt to explicitly Allow the retrieval/search user-agents (OAI-SearchBot, ChatGPT-User, PerplexityBot, Claude search bots, Googlebot, Bingbot). Decide training-bot policy explicitly (Allow if you want max reach, Disallow GPTBot/Google-Extended/ClaudeBot/CCBot if you want to opt out of training) — but NEVER blanket-Disallow the search bots, or you forfeit AI citations. Verify the channel's current robots.txt does not accidentally block OAI-SearchBot/PerplexityBot."
+   },
+   {
+    "claim": "VideoObject structured data does NOT specially boost AI-answer eligibility per Google, but it is still worth shipping for traditional video rich results and to give engines clean machine-readable facts/transcripts — useful for a video catalog. The large '+73%/+317%' schema-lift figures are observational/vendor claims, not controlled proof.",
+    "confidence": "low",
+    "evidence": "Google's official stance: 'no special schema.org structured data that you need to add' for AI features; but Article, FAQPage, and VideoObject still earn traditional rich results, and Google recommends supporting content with high-quality video 'when applicable'. Vendor/observational sources claim large AI-citation lifts from structured + multimodal content (+73% selection, +317% citation), but these lack controlled methodology and clear attribution — treat as unproven.",
+    "source_urls": [
+     "https://developers.google.com/search/docs/appearance/ai-features",
+     "https://swarmify.com/blog/video-schema-markup/",
+     "https://www.openbyt.com/video-multimedia-content-ai-search-results/"
+    ],
+    "actionable_rule": "Generate valid VideoObject schema (name, description, thumbnailUrl, uploadDate, duration, contentUrl/embedUrl, and chapters via Clip/SeekToAction) on every watch page — justified by traditional video rich results and clean transcript/fact exposure, NOT marketed internally as a guaranteed AI-citation booster. Always keep structured-data values matching visible page text (Google requirement). Validate schema in CI."
+   },
+   {
+    "claim": "Community/UGC platforms (Reddit, Quora, YouTube) are disproportionately cited by AI engines, so earning authentic presence there matters more than for classic SEO.",
+    "confidence": "medium",
+    "evidence": "Multiple 2026 analyses: community platforms (Reddit, Quora) account for a majority share of citations across ChatGPT/Perplexity/AI Overviews (one analysis ~52.5%); Semrush found Reddit referenced more than once per ChatGPT prompt in its sample. Caveat: figures vary by query domain and by which engine, and methodologies differ across these practitioner studies.",
+    "source_urls": [
+     "https://www.semrush.com/blog/ai-search-optimization/",
+     "https://www.superlines.io/articles/ai-search-statistics/"
+    ],
+    "actionable_rule": "Beyond owned pages, seed authentic, non-spammy brand-name mentions and helpful answers on Reddit/Quora and in YouTube descriptions/transcripts. Do NOT buy/automate fake mentions — Google's guidance explicitly warns against 'inauthentic mentions'. Track AI citations (not just crawler hits) with a visibility tool to measure whether opening crawler access and seeding mentions actually pays off."
+   }
+  ],
+  "myths_debunked": [
+   {
+    "myth": "Publishing an llms.txt file gets your site read and cited by ChatGPT, Perplexity, Gemini, and Copilot.",
+    "reality": "Empirically false at scale. Across 137,210 domains, 97% of llms.txt files got zero requests, and only ~1% of the requests they did get came from AI-retrieval bots; a controlled 90-day test saw ~0.1% of AI bot traffic touch the file with no visibility lift; a 300,000-domain study found no citation correlation. Google says it does not and will not support it.",
+    "source_urls": [
+     "https://ahrefs.com/blog/llmstxt-study/",
+     "https://otterly.ai/blog/the-llms-txt-experiment/",
+     "https://developers.google.com/search/docs/appearance/ai-features"
+    ]
+   },
+   {
+    "myth": "You need special 'AI-ready' markup, machine-readable files, or to 'chunk' / rewrite your content for AI systems to appear in AI Overviews / AI Mode.",
+    "reality": "Google explicitly states none of this is needed: no special files, no AI markup, no special schema, no chunking, no AI-specific rewrites. Eligibility comes from normal indexing and snippet-eligibility. AEO/GEO is 'still SEO'.",
+    "source_urls": [
+     "https://developers.google.com/search/docs/appearance/ai-features",
+     "https://www.searchenginejournal.com/googles-new-ai-search-guide-calls-aeo-and-geo-still-seo/575026/"
+    ]
+   },
+   {
+    "myth": "Keyword stuffing / more keyword density helps you get picked up by generative engines.",
+    "reality": "The peer-reviewed GEO study found keyword stuffing produced little-to-no gain and actually decreased visibility on the objective metric. Generative engines reward quotations, statistics, and cited sources — not keyword repetition.",
+    "source_urls": [
+     "https://arxiv.org/html/2311.09735v3",
+     "https://arxiv.org/abs/2311.09735"
+    ]
+   },
+   {
+    "myth": "Backlinks are still the dominant authority signal for getting cited by AI engines.",
+    "reality": "Across ~75,000 brands, traditional backlinks correlated only ~0.22 with AI visibility, while branded web mentions (~0.66) and especially YouTube mentions (~0.74) were ~3x stronger predictors. For AI citation, getting your brand name mentioned in text (notably YouTube titles/transcripts/descriptions) outweighs raw link-building.",
+    "source_urls": [
+     "https://ahrefs.com/blog/ai-brand-visibility-correlations",
+     "https://www.businesswire.com/news/home/20260526119691/en/Across-75000-Brands-YouTube-Mentions-Are-the-Strongest-Signal-of-AI-Visibility-New-Ahrefs-Report-Reveals"
+    ]
+   },
+   {
+    "myth": "IndexNow speeds up Google AI Overviews / Gemini indexing.",
+    "reality": "Google confirmed it does not support IndexNow in 2026. IndexNow only feeds Bing/Yandex/Naver/Seznam/Yep — useful for the ChatGPT-Search/Copilot/Bing cluster, irrelevant for Google's AI surfaces.",
+    "source_urls": [
+     "https://pressonify.ai/blog/indexnow-instant-indexing-press-releases-2026",
+     "https://docdigitalsem.com/bing-indexing-for-ai-search/"
+    ]
+   },
+   {
+    "myth": "Specific viral numbers like '4.3x more citations for short articles' and '+28% from schema setup' are research-backed GEO benchmarks.",
+    "reality": "These specific figures trace to an unattributed promotional ebook ('Citation Nation'), not peer-reviewed or log-based studies — treat as folklore. Use the attributable numbers instead (Ahrefs correlations, Seer recency study, the KDD GEO paper). Vendor schema-lift claims of '+73%/+317%' are observational and uncontrolled — directional at best, not proven.",
+    "source_urls": [
+     "https://www.seerinteractive.com/insights/study-ai-brand-visibility-and-content-recency",
+     "https://ahrefs.com/blog/ai-brand-visibility-correlations"
+    ]
+   },
+   {
+    "myth": "Blocking all AI bots in robots.txt protects you with no downside.",
+    "reality": "Blocking is two separate decisions: blocking training bots (GPTBot, Google-Extended, ClaudeBot, CCBot) opts you out of training with little citation downside, but blocking the live retrieval/search bots (OAI-SearchBot, PerplexityBot, ChatGPT-User, Googlebot) makes you ineligible to be fetched and cited in AI answers. Also, robots.txt is advisory — some crawlers (Bytespider, documented Perplexity stealth fetches) ignore it, so it is not real access enforcement.",
+    "source_urls": [
+     "https://www.anagram.ai/blog/ai-crawlers-explained-gptbot-claudebot-perplexitybot-and-how-to-let-them-in-2026",
+     "https://crawlercheck.com/directory/ai-bots/oai-searchbot"
+    ]
+   }
+  ]
+ },
+ {
+  "dimension": "archival",
+  "key_findings": [
+   {
+    "claim": "For archival/newsreel channels, curated compilations of famous people/events/catastrophes/curiosities measurably outperform raw single clips. British Pathe's data: 'The Hindenburg Disaster' 6.3M views and '10 Tragedies Caught on Film' compilation 5.2M views, vs 'Girl Power' women's-history compilations averaging only 10,685 views. Top performers cluster on canonical figures (Churchill, Elvis, Schwarzenegger, royalty) and disasters.",
+    "confidence": "high",
+    "evidence": "Peer-reviewed case study in VIEW Journal of European Television History and Culture (2018) analyzing British Pathe's 85,000-film archive on YouTube (3M subscribers). Documents that compilations + catchy titles + appealing thumbnails focused on celebrities/events/catastrophes/curiosities drove the highest views; niche/topical compilations underperformed by ~500x.",
+    "actionable_rule": "Pipeline should auto-classify each archival asset by subject entity (named person, named event, disaster, oddity). Prioritize publishing assets matching high-demand entities; auto-generate themed compilations (5-12 min) grouped by famous-person/disaster/curiosity. De-prioritize standalone obscure clips for the main feed (publish as searchable long-tail, not as flagship uploads). Titles must front-load the famous entity name + an emotional/curiosity hook.",
+    "source_urls": [
+     "https://viewjournal.eu/articles/10.18146/2213-0969.2018.jethc139",
+     "https://www.researchgate.net/publication/341107317_'Great_Stuff'_British_Pathe's_YouTube_Channel_and_Curatorial_Strategies_for_Audiovisual_Heritage_in_a_Commercial_Ecosystem"
+    ]
+   },
+   {
+    "claim": "Public-domain/archival footage with NO added value is explicitly NOT monetizable under YouTube policy. Compilations qualify only with 'significant original commentary, substantive modifications, or educational or entertainment value' (e.g., explaining how clips connect). This is the single biggest monetization risk for an archival channel.",
+    "confidence": "high",
+    "evidence": "Official YouTube Help 'channel monetization policies' (reused content) page: prohibits 'combining clips ... or public domain footage with no commentary, context, or creative edits.' July 15, 2025 'inauthentic content' rename (TeamYouTube) left reused-content rules unchanged and confirmed AI-tool use alone does not break eligibility. Enforcement is channel-level (whole channel can be demonetized).",
+    "actionable_rule": "Every uploaded archival video must carry at least one mandatory 'added-value' layer recorded in metadata: (a) original spoken/written commentary or historical context overlay, (b) restoration/colorization/upscaling note, or (c) educational framing (dates, sources, significance) in an on-screen lower-third AND description. Pipeline should block publishing if no added-value field is populated. Avoid template/mass-produced narration across many videos (triggers inauthentic-content policy).",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/1311392?hl=en",
+     "https://ppc.land/youtube-clarifies-inauthentic-content-policy-changes/"
+    ]
+   },
+   {
+    "claim": "Shorts are a genuine top-of-funnel discovery lever (majority of Shorts views come from non-subscribers), but they convert to long-form/subscribers far weaker than long-form itself, and Shorts vs long-form algorithms are now largely independent. Treat Shorts as awareness, not as a watch-time or revenue engine for archival long-form.",
+    "confidence": "medium",
+    "evidence": "YouTube Help confirms Shorts subscribers count toward subscriber totals but Shorts watch time does NOT count toward the 4,000-hour long-form monetization threshold (separate 10M engaged-views/90-day track). Practitioner aggregations report ~75% of Shorts views from non-subscribers and lower per-view subscriber conversion than long-form. Caveat: the strongest conversion stats come from SEO blogs, not YouTube primary data, so the magnitude is uncertain.",
+    "actionable_rule": "Auto-cut 1-3 Shorts per flagship long-form upload using the most dramatic 15-45s archival moment (disaster, famous face, shocking reveal); pin a link/end-screen to the full long-form. Track Shorts->long-form via 'traffic source: Shorts feed' in Studio, not by Shorts view count. Do not chase Shorts volume as a primary KPI; budget it as cheap discovery only.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/10059070?hl=en",
+     "https://support.google.com/youtube/answer/15424877?hl=en",
+     "https://air.io/en/youtube-hacks/should-you-chase-shorts-views-or-double-down-on-long-form-for-channel-growth"
+    ]
+   },
+   {
+    "claim": "Wikipedia/Wikimedia embedding sends real but small absolute referral traffic; its value for an archival channel is more about authority/citation and AI-discovery than raw clicks. English Wikipedia generates ~43M external clicks/month total; per-page CTR is low (~0.9% overall), with infobox/official links highest (~2.47%) and inline reference links near-zero (~0.03%).",
+    "confidence": "high",
+    "evidence": "Peer-reviewed 'On the Value of Wikipedia as a Gateway to the Web' (arXiv 2102.07385) + Wikimedia research: 43M clicks/month, infobox official-link CTR 2.47%, references 0.03%, body 0.14%; ~6% of US/UK sessions click an external reference. Wikimedia Commons hosts public-domain video natively (does not embed YouTube), so Commons is for hosting source files, not driving YouTube clicks.",
+    "actionable_rule": "Pipeline should (1) upload the public-domain source file to Wikimedia Commons with rich Structured Data + categories (builds discoverability + signals authority), and (2) add the YouTube restored version as an external/'official' link in the relevant Wikipedia article's external-links or infobox area where allowed by editorial norms - NOT as a buried inline citation (10-80x lower CTR). Do not expect Wikipedia to be a primary traffic source; treat it as authority + AI-citation surface.",
+    "source_urls": [
+     "https://arxiv.org/abs/2102.07385",
+     "https://commons.wikimedia.org/wiki/Commons:Video",
+     "https://commons.wikimedia.org/wiki/Commons:Simple_media_reuse_guide"
+    ]
+   },
+   {
+    "claim": "YouTube chapters/key-moments are a high-leverage, low-cost discovery lever specifically for long archival video, because individual chapters can surface as standalone results in Google Search keyed to specific queries (a person, year, or event inside an hour-long newsreel reel).",
+    "confidence": "medium",
+    "evidence": "YouTube/Google key-moments documentation and 2025-2026 practitioner guides: chapters require first timestamp at 0:00, >=3 chapters, each >=10s; chapters feed Google Search 'key moments' as deep-linked entries. This is especially valuable for long compilations where each segment targets a distinct entity/query. (Primary mechanism is documented by Google; the magnitude of the SEO lift is practitioner-reported.)",
+    "actionable_rule": "For every compilation, auto-generate chapter timestamps from the segment cut-list, naming each chapter with the entity + year (e.g., '00:00 Intro', '01:12 Churchill VE Day 1945', '03:40 Hindenburg 1937'). Write the same entity+year strings into the description. This makes each archival segment independently discoverable in Google key moments and improves retention navigation.",
+    "source_urls": [
+     "https://influencermarketinghub.com/youtube-chapters-key-moments/",
+     "https://almcorp.com/blog/youtube-chapter-seo/"
+    ]
+   },
+   {
+    "claim": "AI restoration/upscaling/colorization is now a primary differentiation lever for archival channels and is policy-safe as 'substantive modification' / added value - and YouTube itself is rolling out AI super-resolution upscaling of old uploads.",
+    "confidence": "medium",
+    "evidence": "YouTube July 2025 clarification: AI tools used to enhance storytelling do not by themselves break monetization. Restoration/colorization/4K upscaling counts as the 'substantive modification' the reused-content policy requires. Industry reporting (2025-2026) documents AI 4K upscaling/colorization as a growth tactic ('nostalgia' remasters) and YouTube's own 'super resolution' rollout. Magnitude of view lift is not from primary data, hence medium confidence.",
+    "actionable_rule": "Make restoration the default value-add: pipeline records a 'restoration_applied' field (denoise/upscale/colorize) and surfaces it in title/thumbnail ('4K Restored', 'Colorized 1937') and description. This both differentiates in-feed and satisfies the reused-content 'substantive modification' bar. Disclose AI use where required to stay within authenticity rules.",
+    "source_urls": [
+     "https://ppc.land/youtube-clarifies-inauthentic-content-policy-changes/",
+     "https://quasa.io/media/youtube-s-ai-upscaling-rollout-a-breath-of-fresh-air-for-old-videos-or-a-risky-gamble"
+    ]
+   },
+   {
+    "claim": "YouTube's late-2025/2026 home-feed shift toward Shorts has reduced long-form recommendation slots, raising the value of OFF-platform and search-based discovery (Google key moments, Wikipedia/Commons, cross-posting) and of evergreen search demand over feed-dependent discovery for niche archival channels.",
+    "confidence": "low",
+    "evidence": "PPC Land (Dec 2025) citing retention director Mario Joos' analysis of 1,000+ channels: long-form recommendation slots on home feed cut up to ~80% in favor of Shorts; Shorts reached per-watch-hour revenue parity with long-form Oct 29 2025. NOT officially confirmed by YouTube (no primary statement), so directional only - flagged as a hypothesis to monitor, not a proven fact.",
+    "actionable_rule": "Hedge against feed dependency: optimize archival uploads for durable SEARCH demand (entity + year + event in title/description/chapters) and off-platform inbound (Wikipedia/Commons, history subreddits/forums, newsletter), rather than relying on the home feed. Monitor 'traffic source: Browse vs Search vs External' in Studio monthly; if Browse share is falling, double down on search-targeted titles and cross-posting. Re-verify this claim against official YouTube sources before betting heavily on it.",
+    "source_urls": [
+     "https://ppc.land/youtubes-home-feed-quietly-kills-long-form-video-discovery/"
+    ]
+   },
+   {
+    "claim": "Cross-posting/syndication and a consistent weekly schedule with social promotion were part of the documented success of the leading archival channel, and licensing-bait curation ('Archives Picks' appetizers) created a secondary revenue/discovery channel via press and re-users.",
+    "confidence": "medium",
+    "evidence": "VIEW Journal British Pathe case study: weekly consistent uploads, promotion across Facebook/Twitter/Instagram and mailing lists, plus the 29-video 'Archives Picks' series explicitly built as 'appetizers' to motivate journalist engagement and licensing requests. Mediakraft Networks managed this curation. The press embrace of the 85k-film drop also drove a discovery spike.",
+    "actionable_rule": "Pipeline should enforce a fixed weekly publish cadence and auto-distribute each upload to the channel's social accounts + newsletter with the same entity-keyword title. Maintain a short 'best-of/appetizer' compilation track aimed at press/re-users, with clear licensing/contact info in the description to capture licensing demand as a parallel growth+revenue funnel.",
+    "source_urls": [
+     "https://viewjournal.eu/articles/10.18146/2213-0969.2018.jethc139"
+    ]
+   }
+  ],
+  "myths_debunked": [
+   {
+    "myth": "You can build a public-domain archival channel by just uploading old films/newsreels as-is and monetize them because they're public domain.",
+    "reality": "Public-domain status does NOT grant monetization. YouTube's reused-content policy explicitly bars compilations 'with no commentary, context, or creative edits,' and singling out public-domain footage 'with no added value' as not allowed. Enforcement is channel-level. You MUST add commentary, restoration, or educational framing to every upload.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/1311392?hl=en",
+     "https://ppc.land/youtube-clarifies-inauthentic-content-policy-changes/"
+    ]
+   },
+   {
+    "myth": "Posting lots of Shorts will pull viewers into your long-form archival videos and grow watch time / monetization.",
+    "reality": "Shorts and long-form run on largely independent systems. Shorts subscribers count, but Shorts watch time does NOT count toward the 4,000-hour long-form monetization threshold, and Shorts->long-form conversion is comparatively weak. Shorts are useful as cheap top-of-funnel awareness only - not a watch-time or revenue engine for archival long-form.",
+    "source_urls": [
+     "https://support.google.com/youtube/answer/10059070?hl=en",
+     "https://support.google.com/youtube/answer/15424877?hl=en"
+    ]
+   },
+   {
+    "myth": "Getting your YouTube videos linked from Wikipedia will drive a flood of referral traffic.",
+    "reality": "Peer-reviewed data: Wikipedia's overall external-link CTR is ~0.9%, and inline reference links convert at only ~0.03% (infobox/official links are best at ~2.47%). Total English-Wikipedia external clicks are ~43M/month spread across millions of links. Wikipedia is valuable for AUTHORITY and AI/citation discovery, not as a high-volume traffic source - and only well-placed (infobox/external-links) placements get meaningful clicks.",
+    "source_urls": [
+     "https://arxiv.org/abs/2102.07385"
+    ]
+   },
+   {
+    "myth": "Embed your YouTube videos directly on Wikimedia Commons / Wikipedia to host them there.",
+    "reality": "Wikimedia Commons does not embed YouTube; it hosts freely-licensed/public-domain media natively (and only accepts video that is genuinely free-licensed). The archival play is to upload the source file to Commons (authority + reuse) and separately link the restored YouTube version where Wikipedia editorial norms allow - they are two distinct surfaces, not an embed.",
+    "source_urls": [
+     "https://commons.wikimedia.org/wiki/Commons:Video",
+     "https://commons.wikimedia.org/wiki/Commons:YouTube_files"
+    ]
+   },
+   {
+    "myth": "Longer compilations always win because YouTube rewards raw watch time.",
+    "reality": "YouTube weights watch time by satisfaction/session signals, not raw minutes; a long compilation with low retention loses to a tighter video with high retention. British Pathe's data shows compilations win only when curated around high-demand entities (a poorly-targeted compilation averaged ~10k views vs ~5M for a well-targeted one). Curate for retention + famous-entity demand, not length.",
+    "source_urls": [
+     "https://viewjournal.eu/articles/10.18146/2213-0969.2018.jethc139",
+     "https://blog.hootsuite.com/youtube-algorithm/"
+    ]
+   }
+  ]
+ }
+]

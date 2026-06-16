@@ -1,0 +1,178 @@
+{
+  "date": "2026-02-22",
+  "mode": "applied",
+  "total_videos": 24,
+  "quota_used": 1200,
+  "ok": 24,
+  "errors": 0,
+  "results": [
+    {
+      "id": "2HZx5FumOo8",
+      "title": "Wochenschau 552: Belgrade Coup (02.04.1941) | 8K HQ (4K UHD)",
+      "phase": 1,
+      "status": "OK",
+      "quota": 50
+    },
+    {
+      "id": "Yhz7gsTVqNA",
+      "title": "Wochenschau 567: Smolensk Pocket (16.07.1941) | 8K HQ (4K UHD)",
+      "phase": 1,
+      "status": "OK",
+      "quota": 50
+    },
+    {
+      "id": "suxhPHyaQHU",
+      "title": "Wochenschau 569: Kiev Encirclement (30.07.1941) | 8K HQ (4K UHD)",
+      "phase": 1,
+      "status": "OK",
+      "quota": 50
+    },
+    {
+      "id": "6Mh7zjUCmHw",
+      "title": "Wochenschau 749: Ardennes Fails (10.01.1945) | 8K HQ (4K UHD)",
+      "phase": 1,
+      "status": "OK",
+      "quota": 50
+    },
+    {
+      "id": "8vH0m4Af1Hk",
+      "title": "Alfred J. Kwak (E06) Olympiade | DE | 8K HQ (4K UHD)",
+      "phase": 2,
+      "status": "OK",
+      "quota": 50
+    },
+    {
+      "id": "RFPKjY2AQDg",
+      "title": "Alfred J. Kwak (E07) Abenteuer auf hoher See | DE | 8K HQ (4K UHD)",
+      "phase": 2,
+      "status": "OK",
+      "quota": 50
+    },
+    {
+      "id": "LQFhE9PUgB4",
+      "title": "Alfred J. Kwak (E09) Ein gefährliches Geschenk | DE | 8K HQ (4K UHD)",
+      "phase": 2,
+      "status": "OK",
+      "quota": 50
+    },
+    {
+      "id": "0lphM8tc95M",
+      "title": "Alfred J. Kwak (E12) Die geheimnisvolle Königin | DE | 8K HQ (4K UHD)",
+      "phase": 2,
+      "status": "OK",
+      "quota": 50
+    },
+    {
+      "id": "Zb88QyQcUK4",
+      "title": "Alfred J. Kwak (E13) Haltet den Dieb! | DE | 8K HQ (4K UHD)",
+      "phase": 2,
+      "status": "OK",
+      "quota": 50
+    },
+    {
+      "id": "xkYPbDSepCY",
+      "title": "Alfred J. Kwak (E14) Skrupellose Geschäfte | DE | 8K HQ (4K UHD)",
+      "phase": 2,
+      "status": "OK",
+      "quota": 50
+    },
+    {
+      "id": "k_sQAu1YbWY",
+      "title": "Alfred J. Kwak (E15) Die Explosion | DE | 8K HQ (4K UHD)",
+      "phase": 2,
+      "status": "OK",
+      "quota": 50
+    },
+    {
+      "id": "ghhyzR9NSLE",
+      "title": "Alfred J. Kwak (E19) Rettet die Wale! | DE | 8K HQ (4K UHD)",
+      "phase": 2,
+      "status": "OK",
+      "quota": 50
+    },
+    {
+      "id": "oWZ5BmJVsxI",
+      "title": "Alfred J. Kwak (E20) Der Alptraum | DE | 8K HQ (4K UHD)",
+      "phase": 2,
+      "status": "OK",
+      "quota": 50
+    },
+    {
+      "id": "rC7bAjq0tLY",
+      "title": "Alfred J. Kwak (E29) Die Burengänse | DE | 8K HQ (4K UHD)",
+      "phase": 2,
+      "status": "OK",
+      "quota": 50
+    },
+    {
+      "id": "NvwmtSLyCE4",
+      "title": "Alfred J. Kwak (E31) Die Bohrinsel | DE | 8K HQ (4K UHD)",
+      "phase": 2,
+      "status": "OK",
+      "quota": 50
+    },
+    {
+      "id": "CmdyjVrJghc",
+      "title": "Alfred J. Kwak (E32) Atlantis | DE | 8K HQ (4K UHD)",
+      "phase": 2,
+      "status": "OK",
+      "quota": 50
+    },
+    {
+      "id": "Dg6eQNIY_Ys",
+      "title": "Alfred J. Kwak (E37) Die Entführung | DE | 8K HQ (4K UHD)",
+      "phase": 2,
+      "status": "OK",
+      "quota": 50
+    },
+    {
+      "id": "alOAM7jqMHY",
+      "title": "Alfred J. Kwak (E43) Groß-Wasserland | DE | 8K HQ (4K UHD)",
+      "phase": 2,
+      "status": "OK",
+      "quota": 50
+    },
+    {
+      "id": "wZkHuISjOyE",
+      "title": "Alfred J. Kwak (E44) Die Überschwemmung | DE | 8K HQ (4K UHD)",
+      "phase": 2,
+      "status": "OK",
+      "quota": 50
+    },
+    {
+      "id": "8aeRL4PwSVI",
+      "title": "Alfred J. Kwak (E48) Eine Partie Golf | DE | 8K HQ (4K UHD)",
+      "phase": 2,
+      "status": "OK",
+      "quota": 50
+    },
+    {
+      "id": "RLfihGmp26w",
+      "title": "Alfred J. Kwak (E49) Der Regenbogen | DE | 8K HQ (4K UHD)",
+      "phase": 2,
+      "status": "OK",
+      "quota": 50
+    },
+    {
+      "id": "t1uRzra4Kb0",
+      "title": "Alfred J. Kwak (E50) Das Casino | DE | 8K HQ (4K UHD)",
+      "phase": 2,
+      "status": "OK",
+      "quota": 50
+    },
+    {
+      "id": "3rB80OGKzrg",
+      "title": "Wochenschau 511: Paris Falls (19.06.1940) | 8K HQ (4K UHD)",
+      "phase": 3,
+      "status": "OK",
+      "quota": 50
+    },
+    {
+      "id": "21iqU9NKJL0",
+      "title": "The Skeleton Dance (1929) | Disney Silly Symphony | 8K HQ (4K UHD)",
+      "phase": 3,
+      "status": "OK",
+      "quota": 50
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "date": "2026-02-03T10:27:15.764547",
+  "channel_id": "UCVFv6Egpl0LDvigpFbQXNeQ",
+  "checks": {
+    "branding": {
+      "has_custom_url": true,
+      "has_description": true,
+      "has_country": true,
+      "has_keywords": false,
+      "has_trailer": false,
+      "has_banner": true,
+      "has_watermark": false,
+      "has_localizations": true,
+      "subscriber_count": 22200,
+      "video_count": 335,
+      "view_count": 244326
+    },
+    "metadata": {
+      "total": 364,
+      "with_tags": 363,
+      "with_chapters": 58,
+      "with_custom_thumbnail": 0,
+      "with_captions": 0,
+      "with_localizations": 0,
+      "with_end_screen": 0,
+      "with_cards": 0,
+      "category_education": 2,
+      "category_entertainment": 256,
+      "category_music": 41,
+      "category_other": 65,
+      "title_too_long": 108,
+      "title_no_year": 21,
+      "title_no_brand": 66,
+      "made_for_kids": 4,
+      "age_restricted": 2,
+      "has_location": 0,
+      "has_recording_date": 0,
+      "description_short": 2,
+      "description_no_cta": 2,
+      "description_no_hashtags": 5,
+      "license_creative_commons": 0,
+      "comments_disabled": 0,
+      "embeddable": 317,
+      "public_stats": 321
+    },
+    "playlists": {
+      "total": 27,
+      "public": 25,
+      "private": 2,
+      "with_description": 21,
+      "with_localizations": 11,
+      "empty": 1,
+      "small": 8,
+      "details": [
+        {
+          "title": "Der kleine Maulwurf | Krtek | 8K Collection",
+          "id": "PL3d2Tsr13ihOSScyaDwcf2A2G_S8qG3mM",
+          "videos": 5,
+          "public": true,
+          "has_desc": true
+        },
+        {
+          "title": "Best of remAIke_IT | 8K Restauriert",
+          "id": "PL3d2Tsr13ihOkdoE8nvG_xou6vbLh98_a",
+          "videos": 11,
+          "public": true,
+          "has_desc": true
+        },
+        {
+          "title": "Deutsche Wochenschau 1939-1945 | WWII Newsreels | 8K Restored",
+          "id": "PL3d2Tsr13ihMPkNIfoXwQ4W-bSheQxEvg",
+          "videos": 45,
+          "public": true,
+          "has_desc": true
+        },
+        {
+          "title": "Soundies - Vintage Musikvideos (1940er) | 8K",
+          "id": "PL3d2Tsr13ihMFH1EDv8To7SBS04OW5tBL",
+          "videos": 30,
+          "public": true,
+          "has_desc": true
+        },
+        {
+          "title": "BraveStarr - Komplette Serie (1987-1988) | 8K Deutsch",
+          "id": "PL3d2Tsr13ihOHV7IckAv3tDxpPdw4WHQf",
+          "videos": 4,
+          "public": true,
+          "has_desc": true
+        },
+        {
+          "title": "Teaserama",
+          "id": "PL3d2Tsr13ihOFJE3TdX-fG2sS7IZZlC_e",
+          "videos": 6,
+          "public": true,
+          "has_desc": false
+        },
+        {
+          "title": "⚫ Bosko - Harman-Ising | 8K Restored",
+          "id": "PL3d2Tsr13ihPNyK9Ssvh4yVVGA7_sfsEL",
+          "videos": 1,
+          "public": true,
+          "has_desc": true
+        },
+        {
+          "title": "🐜 Ferdy die Ameise - German | Deutsch | 8K Restored",
+          "id": "PL3d2Tsr13ihNaaFVT5SIuZcWyeLj9VoF6",
+          "videos": 1,
+          "public": true,
+          "has_desc": true
+        },
+        {
+          "title": "😐 Buster Keaton - Stunt Genius | 8K Restored",
+          "id": "PL3d2Tsr13ihNwE41FHYamleI0gf5yY2k2",
+          "videos": 2,
+          "public": true,
+          "has_desc": true
+        },
+        {
+          "title": "🎩 Charlie Chaplin - Silent Comedy | 8K Restored",
+          "id": "PL3d2Tsr13ihMbymGDXF3mmYk6SkYS73Fp",
+          "videos": 2,
+          "public": true,
+          "has_desc": true
+        },
+        {
+          "title": "🤖 Astro Boy - German | Deutsch | 8K Restored",
+          "id": "PL3d2Tsr13ihM6nRQlwMj5Jzj6D2KXv2Ye",
+          "videos": 3,
+          "public": true,
+          "has_desc": true
+        },
+        {
+          "title": "Color Classics - Fleischer Studios | 8K",
+          "id": "PL3d2Tsr13ihN-FoO36o1nSSYAfsat2TLJ",
+          "videos": 4,
+          "public": true,
+          "has_desc": true
+        },
+        {
+          "title": "Looney Tunes - Classic Cartoons | 8K",
+          "id": "PL3d2Tsr13ihN5gZXFcC8gjn9I3yQG_eYR",
+          "videos": 16,
+          "public": true,
+          "has_desc": true
+        },
+        {
+          "title": "Popeye der Seemann | 8K Restauriert",
+          "id": "PL3d2Tsr13ihMGVG70VrIyLTfZVnNnpggj",
+          "videos": 9,
+          "public": true,
+          "has_desc": false
+        },
+        {
+          "title": "🐷 Porky Pig - Looney Tunes Collection | 8K Restored",
+          "id": "PL3d2Tsr13ihNXcCH2-a7VZUyJS-Do8Sn0",
+          "videos": 10,
+          "public": true,
+          "has_desc": true
+        },
+        {
+          "title": "Casper der freundliche Geist | 8K",
+          "id": "PL3d2Tsr13ihNlMyu7m1gUrorwDsPL0Szf",
+          "videos": 9,
+          "public": true,
+          "has_desc": false
+        },
+        {
+          "title": "Superman - Fleischer Studios (1941-1943) | 8K",
+          "id": "PL3d2Tsr13ihNGGfilho9PHb3gqsOrhksr",
+          "videos": 10,
+          "public": true,
+          "has_desc": true
+        },
+        {
+          "title": "🦆 Alfred Jodokus Quack - German | Deutsch | 8K Restored",
+          "id": "PL3d2Tsr13ihO4514Eao7ttTv6PRKtEReL",
+          "videos": 41,
+          "public": true,
+          "has_desc": true
+        },
+        {
+          "title": "Soundies",
+          "id": "PL3d2Tsr13ihMoB5EqMRXUrp8c6cYHuo9Y",
+          "videos": 3,
+          "public": true,
+          "has_desc": false
+        },
+        {
+          "title": "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored",
+          "id": "PL3d2Tsr13ihMNCgAFrHLvjx4YIoDCcx-o",
+          "videos": 59,
+          "public": true,
+          "has_desc": true
+        },
+        {
+          "title": "🎭 Silent Film Era | 1900-1930",
+          "id": "PL3d2Tsr13ihOtO1PqtELeaO4vZRrD-uak",
+          "videos": 18,
+          "public": true,
+          "has_desc": true
+        },
+        {
+          "title": "🎨 Classic Cartoons | Vintage Animation",
+          "id": "PL3d2Tsr13ihNihBImPdVQqXpQyGdT4vJW",
+          "videos": 110,
+          "public": true,
+          "has_desc": true
+        },
+        {
+          "title": "test",
+          "id": "PL3d2Tsr13ihMNasR7X7TQ9gaVcY89Q56Z",
+          "videos": 0,
+          "public": false,
+          "has_desc": false
+        },
+        {
+          "title": "Complete Archive | All Videos | @remAIke_IT",
+          "id": "PL3d2Tsr13ihPiIyGzDm0xRRxtbTD7Lpre",
+          "videos": 323,
+          "public": true,
+          "has_desc": true
+        },
+        {
+          "title": "Felix The Cat",
+          "id": "PL3d2Tsr13ihMd-3bVHubF6OmUBQp_qlv9",
+          "videos": 22,
+          "public": true,
+          "has_desc": true
+        },
+        {
+          "title": "@reAImastered for Kids",
+          "id": "PL3d2Tsr13ihPSHCGv48UqQqZ5DbFupIZk",
+          "videos": 115,
+          "public": true,
+          "has_desc": true
+        },
+        {
+          "title": "Jasmine Geburtstag",
+          "id": "PL3d2Tsr13ihNoYTE5RdRnjv_ZJ_6F8aCO",
+          "videos": 81,
+          "public": false,
+          "has_desc": false
+        }
+      ]
+    },
+    "features_2026": {
+      "series_format": {
+        "status": "✅ AKTIV",
+        "note": "Multiple Serien erkannt (Betty Boop, Maulwurf, Wochenschau, etc.)",
+        "action": null
+      },
+      "satisfaction_signals": {
+        "status": "⚠️ TEILWEISE",
+        "note": "CTAs vorhanden, aber nicht alle Videos haben sie",
+        "action": "2 Videos brauchen CTAs"
+      },
+      "shorts_strategy": {
+        "status": "❓ UNBEKANNT",
+        "note": "Keine Shorts-Strategie erkennbar",
+        "action": "Shorts aus Klassikern erstellen? (9:16, <60s)"
+      },
+      "community_posts": {
+        "status": "❓ PRÜFEN",
+        "note": "Community Tab Status unbekannt (nicht via API prüfbar)",
+        "action": "Manuell prüfen: Werden Community Posts genutzt?"
+      },
+      "end_screens_cards": {
+        "status": "⚠️ TEILWEISE",
+        "note": "End Screens nicht via API prüfbar",
+        "action": "Manuell prüfen: Alle Videos mit End Screen?"
+      },
+      "chapters": {
+        "status": "⚠️ TEILWEISE",
+        "note": "58/364 Videos haben Chapters",
+        "action": "306 Videos brauchen Chapters"
+      },
+      "multilingual_seo": {
+        "status": "✅ AKTIV",
+        "note": "Wochenschau in 14 Sprachen, Channel Localizations vorhanden",
+        "action": null
+      },
+      "playlist_optimization": {
+        "status": "✅ AKTIV",
+        "note": "27 Playlists, Serien gut organisiert",
+        "action": "1 leere Playlists löschen"
+      },
+      "thumbnail_consistency": {
+        "status": "❓ MANUELL",
+        "note": "Nicht via API prüfbar",
+        "action": "Manuell prüfen: Einheitliches Design pro Serie?"
+      },
+      "upload_schedule": {
+        "status": "❓ ANALYSIEREN",
+        "note": "Upload-Pattern sollte konsistent sein",
+        "action": "Upload-Historie analysieren"
+      }
+    },
+    "oldschool": {
+      "excessive_tags": {
+        "status": "✅ OK",
+        "old_practice": "Keyword Stuffing in Tags (>30 Tags)",
+        "check": "Tags werden moderat genutzt",
+        "modern": "Focus auf Title + Description statt Tags"
+      },
+      "tags_in_description": {
+        "status": "✅ OK",
+        "old_practice": "Tags/Keywords in Description verstecken",
+        "check": "Keine keyword-stuffing erkannt",
+        "modern": "Nur 2-5 relevante #Hashtags am Ende"
+      },
+      "clickbait_titles": {
+        "status": "✅ OK",
+        "old_practice": "ALL CAPS, Excessive Emojis, Misleading",
+        "check": "Titel sind deskriptiv und professionell",
+        "modern": "Accurate + Curiosity-inducing"
+      },
+      "sub4sub_spam": {
+        "status": "✅ OK",
+        "old_practice": "Sub4Sub, Like4Like in Description",
+        "check": "Keine Spam-CTAs erkannt",
+        "modern": "Organic Engagement CTAs"
+      },
+      "watermark_abuse": {
+        "status": "✅ OK",
+        "old_practice": "Mehrere Watermarks, Subscribe Buttons im Video",
+        "check": "Channel Watermark Feature sollte genutzt werden",
+        "modern": "Dezentes Branding, YouTube native features"
+      },
+      "description_links_spam": {
+        "status": "✅ OK",
+        "old_practice": "20+ Links in Description",
+        "check": "Moderate Link-Nutzung",
+        "modern": "3-5 relevante Links (Playlist, Website, Social)"
+      },
+      "ignore_analytics": {
+        "status": "❓ MANUELL",
+        "old_practice": "Nur Views zählen",
+        "check": "CTR, AVD, Retention sollten beachtet werden",
+        "modern": "Data-driven Content-Entscheidungen"
+      },
+      "no_community_engagement": {
+        "status": "❓ MANUELL",
+        "old_practice": "Keine Antwort auf Kommentare",
+        "check": "Kommentar-Engagement prüfen",
+        "modern": "First-hour engagement = Algorithmus-Signal!"
+      }
+    },
+    "unused_features": {
+      "video_localizations": {
+        "usage": "0/364",
+        "benefit": "Besseres Ranking in anderen Ländern",
+        "recommendation": "Wochenschau hat es, für andere Serien hinzufügen"
+      },
+      "recording_details": {
+        "usage": "0/364",
+        "benefit": "Historische Einordnung (für Vintage Content!)",
+        "recommendation": "recordingDate für alle Vintage-Videos setzen"
+      },
+      "location_data": {
+        "usage": "0/364",
+        "benefit": "Geolokalisierte Suche (z.B. \"WW2 Berlin\")",
+        "recommendation": "Für Wochenschau: Historische Orte hinzufügen"
+      },
+      "playlist_localizations": {
+        "usage": "11/27",
+        "benefit": "Playlists in anderen Sprachen auffindbar",
+        "recommendation": "Wichtige Playlists mehrsprachig machen"
+      },
+      "info_cards": {
+        "usage": "Nicht prüfbar via API",
+        "benefit": "Cross-Promotion zwischen Videos",
+        "recommendation": "Manuell prüfen und bei allen Videos aktivieren"
+      },
+      "end_screens": {
+        "usage": "Nicht prüfbar via API",
+        "benefit": "Watch Time erhöhen durch Weiterleitung",
+        "recommendation": "Template End Screen für alle Videos"
+      },
+      "auto_chapters": {
+        "usage": "Aktivierbar in Studio",
+        "benefit": "YouTube generiert Chapters automatisch",
+        "recommendation": "Prüfen ob aktiviert (wenn manuell keine)"
+      }
+    }
+  },
+  "final_score": 63,
+  "max_score": 100
+}

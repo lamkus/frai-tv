@@ -1,0 +1,637 @@
+{
+  "total_wochenschau": 49,
+  "public": 41,
+  "checks": {
+    "has_location_in_desc": {
+      "passed": 4,
+      "failed": 37
+    },
+    "has_event_in_title": {
+      "passed": 41,
+      "failed": 0
+    },
+    "has_date_format": {
+      "passed": 0,
+      "failed": 41
+    },
+    "has_multilingual_desc": {
+      "passed": 41,
+      "failed": 0
+    },
+    "has_remaike_brand": {
+      "passed": 0,
+      "failed": 41
+    },
+    "has_8k": {
+      "passed": 41,
+      "failed": 0
+    },
+    "hashtags_2_5": {
+      "passed": 0,
+      "failed": 41
+    },
+    "tags_max_15": {
+      "passed": 35,
+      "failed": 6
+    }
+  },
+  "location_fails": [
+    {
+      "nr": "515",
+      "title": "Wochenschau 515: Battle of Britain (Jul 1940) | 8K",
+      "expected": "London, England",
+      "found": "MISSING"
+    },
+    {
+      "nr": "514",
+      "title": "Wochenschau 514: Berlin Parade (Jul 1940) | 8K",
+      "expected": "Berlin, Germany",
+      "found": "MISSING"
+    },
+    {
+      "nr": "547",
+      "title": "Wochenschau 547: Africa Campaign (Feb 1941) | 8K",
+      "expected": "North Africa",
+      "found": "MISSING"
+    },
+    {
+      "nr": "573",
+      "title": "Wochenschau 573: Kiev Battle (Aug 1941) | 8K",
+      "expected": "Kyiv, Ukraine",
+      "found": "MISSING"
+    },
+    {
+      "nr": "548",
+      "title": "Wochenschau 548: Bulgaria Joins Axis (Mar 1941) | ",
+      "expected": "Sofia, Bulgaria",
+      "found": "MISSING"
+    },
+    {
+      "nr": "543",
+      "title": "Wochenschau 543: Africa Corps (Jan 1941) | 8K",
+      "expected": "North Africa",
+      "found": "MISSING"
+    },
+    {
+      "nr": "550",
+      "title": "Wochenschau 550: Yugoslavia Crisis (Mar 1941) | 8K",
+      "expected": "Belgrade, Yugoslavia",
+      "found": "MISSING"
+    },
+    {
+      "nr": "545",
+      "title": "Wochenschau 545: Africa Offensive (Feb 1941) | 8K",
+      "expected": "North Africa",
+      "found": "MISSING"
+    },
+    {
+      "nr": "544",
+      "title": "Wochenschau 544: Rommel Arrives (Feb 1941) | 8K",
+      "expected": "Tripoli, Libya",
+      "found": "MISSING"
+    },
+    {
+      "nr": "520",
+      "title": "Wochenschau 520: Battle Peak (Aug 1940) | 8K",
+      "expected": "London, England",
+      "found": "MISSING"
+    },
+    {
+      "nr": "519",
+      "title": "Wochenschau 519: Eagle Day (Aug 1940) | 8K",
+      "expected": "England",
+      "found": "MISSING"
+    },
+    {
+      "nr": "542",
+      "title": "Wochenschau 542: Tobruk Falls (Jan 1941) | 8K",
+      "expected": "Tobruk, Libya",
+      "found": "MISSING"
+    },
+    {
+      "nr": "518",
+      "title": "Wochenschau 518: Channel Battles (Aug 1940) | 8K",
+      "expected": "English Channel",
+      "found": "MISSING"
+    },
+    {
+      "nr": "502",
+      "title": "Wochenschau 502: Norway Invasion (Apr 1940) | 8K",
+      "expected": "Oslo, Norway",
+      "found": "MISSING"
+    },
+    {
+      "nr": "468",
+      "title": "Wochenschau 468: Nazi-Soviet Pact (Aug 1939) | 8K",
+      "expected": "Moscow, Russia",
+      "found": "MISSING"
+    },
+    {
+      "nr": "459",
+      "title": "Wochenschau 459: Pre-War Era (Jun 1939) | 8K",
+      "expected": "Berlin, Germany",
+      "found": "MISSING"
+    },
+    {
+      "nr": "470",
+      "title": "Wochenschau 470: War Begins (Sep 1939) | 8K",
+      "expected": "Warsaw, Poland",
+      "found": "MISSING"
+    },
+    {
+      "nr": "473",
+      "title": "Wochenschau 473: Fall of Warsaw (Sep 1939) | 8K",
+      "expected": "Warsaw, Poland",
+      "found": "MISSING"
+    },
+    {
+      "nr": "488",
+      "title": "Wochenschau 488: Phoney War (Jan 1940) | 8K",
+      "expected": "Germany",
+      "found": "MISSING"
+    },
+    {
+      "nr": "483",
+      "title": "Wochenschau 483: Winter War (Dec 1939) | 8K",
+      "expected": "Finland",
+      "found": "MISSING"
+    },
+    {
+      "nr": "512",
+      "title": "Wochenschau 512: French Armistice (Jun 1940) | 8K",
+      "expected": "Compiègne, France",
+      "found": "MISSING"
+    },
+    {
+      "nr": "523",
+      "title": "Wochenschau 523: London Blitz (Sep 1940) | 8K",
+      "expected": "London, England",
+      "found": "MISSING"
+    },
+    {
+      "nr": "652",
+      "title": "Wochenschau 652: Kharkov III (Mar 1943) | 8K",
+      "expected": "Kharkov, Ukraine",
+      "found": "MISSING"
+    },
+    {
+      "nr": "509",
+      "title": "Wochenschau 509: Dunkirk Evacuation (Jun 1940) | 8",
+      "expected": "Dunkirk, France",
+      "found": "MISSING"
+    },
+    {
+      "nr": "480",
+      "title": "Wochenschau 480: Bürgerbräu Bomb (Nov 1939) | 8K",
+      "expected": "Munich, Germany",
+      "found": "MISSING"
+    },
+    {
+      "nr": "508",
+      "title": "Wochenschau 508: Dunkirk Pocket (May 1940) | 8K",
+      "expected": "Dunkirk, France",
+      "found": "MISSING"
+    },
+    {
+      "nr": "482",
+      "title": "Wochenschau 482: Winter War Begins (Nov 1939) | 8K",
+      "expected": "Finland",
+      "found": "MISSING"
+    },
+    {
+      "nr": "522",
+      "title": "Wochenschau 522: Berlin Retaliation (Sep 1940) | 8",
+      "expected": "Berlin, Germany",
+      "found": "MISSING"
+    },
+    {
+      "nr": "652",
+      "title": "Wochenschau 652: Kharkov III (Mar 1943) | 8K",
+      "expected": "Kharkov, Ukraine",
+      "found": "MISSING"
+    },
+    {
+      "nr": "720",
+      "title": "Wochenschau 720: V1 Attacks (Jun 1944) | 8K",
+      "expected": "London, England",
+      "found": "MISSING"
+    },
+    {
+      "nr": "721",
+      "title": "Wochenschau 721: Bagration Begins (Jun 1944) | 8K",
+      "expected": "Belarus",
+      "found": "MISSING"
+    },
+    {
+      "nr": "746",
+      "title": "Wochenschau 746: Ardennes Offensive (Dec 1944) | 8",
+      "expected": "Ardennes, Belgium",
+      "found": "MISSING"
+    },
+    {
+      "nr": "722",
+      "title": "Wochenschau 722: Bagration (Jul 1944) | 8K",
+      "expected": "Minsk, Belarus",
+      "found": "MISSING"
+    },
+    {
+      "nr": "753",
+      "title": "Wochenschau 753: Yalta Conference (Feb 1945) | 8K",
+      "expected": "Yalta, Crimea",
+      "found": "MISSING"
+    },
+    {
+      "nr": "754",
+      "title": "Wochenschau 754: Dresden Bombed (Feb 1945) | 8K",
+      "expected": "Dresden, Germany",
+      "found": "MISSING"
+    },
+    {
+      "nr": "750",
+      "title": "Wochenschau 750: Vistula Offensive (Jan 1945) | 8K",
+      "expected": "Vistula River, Poland",
+      "found": "MISSING"
+    },
+    {
+      "nr": "751",
+      "title": "Wochenschau 751: Eastern Collapse (Jan 1945) | 8K",
+      "expected": "Poland",
+      "found": "MISSING"
+    }
+  ],
+  "event_fails": [],
+  "brand_fails": [
+    {
+      "nr": "513",
+      "title": "Wochenschau 513: Channel Islands (Jul 1940) | 8K"
+    },
+    {
+      "nr": "515",
+      "title": "Wochenschau 515: Battle of Britain (Jul 1940) | 8K"
+    },
+    {
+      "nr": "514",
+      "title": "Wochenschau 514: Berlin Parade (Jul 1940) | 8K"
+    },
+    {
+      "nr": "547",
+      "title": "Wochenschau 547: Africa Campaign (Feb 1941) | 8K"
+    },
+    {
+      "nr": "573",
+      "title": "Wochenschau 573: Kiev Battle (Aug 1941) | 8K"
+    },
+    {
+      "nr": "548",
+      "title": "Wochenschau 548: Bulgaria Joins Axis (Mar 1941) | "
+    },
+    {
+      "nr": "543",
+      "title": "Wochenschau 543: Africa Corps (Jan 1941) | 8K"
+    },
+    {
+      "nr": "550",
+      "title": "Wochenschau 550: Yugoslavia Crisis (Mar 1941) | 8K"
+    },
+    {
+      "nr": "545",
+      "title": "Wochenschau 545: Africa Offensive (Feb 1941) | 8K"
+    },
+    {
+      "nr": "544",
+      "title": "Wochenschau 544: Rommel Arrives (Feb 1941) | 8K"
+    },
+    {
+      "nr": "520",
+      "title": "Wochenschau 520: Battle Peak (Aug 1940) | 8K"
+    },
+    {
+      "nr": "519",
+      "title": "Wochenschau 519: Eagle Day (Aug 1940) | 8K"
+    },
+    {
+      "nr": "542",
+      "title": "Wochenschau 542: Tobruk Falls (Jan 1941) | 8K"
+    },
+    {
+      "nr": "518",
+      "title": "Wochenschau 518: Channel Battles (Aug 1940) | 8K"
+    },
+    {
+      "nr": "502",
+      "title": "Wochenschau 502: Norway Invasion (Apr 1940) | 8K"
+    },
+    {
+      "nr": "468",
+      "title": "Wochenschau 468: Nazi-Soviet Pact (Aug 1939) | 8K"
+    },
+    {
+      "nr": "471",
+      "title": "Wochenschau 471: Poland Campaign (Sep 1939) | 8K"
+    },
+    {
+      "nr": "459",
+      "title": "Wochenschau 459: Pre-War Era (Jun 1939) | 8K"
+    },
+    {
+      "nr": "470",
+      "title": "Wochenschau 470: War Begins (Sep 1939) | 8K"
+    },
+    {
+      "nr": "473",
+      "title": "Wochenschau 473: Fall of Warsaw (Sep 1939) | 8K"
+    },
+    {
+      "nr": "488",
+      "title": "Wochenschau 488: Phoney War (Jan 1940) | 8K"
+    },
+    {
+      "nr": "483",
+      "title": "Wochenschau 483: Winter War (Dec 1939) | 8K"
+    },
+    {
+      "nr": "512",
+      "title": "Wochenschau 512: French Armistice (Jun 1940) | 8K"
+    },
+    {
+      "nr": "523",
+      "title": "Wochenschau 523: London Blitz (Sep 1940) | 8K"
+    },
+    {
+      "nr": "652",
+      "title": "Wochenschau 652: Kharkov III (Mar 1943) | 8K"
+    },
+    {
+      "nr": "509",
+      "title": "Wochenschau 509: Dunkirk Evacuation (Jun 1940) | 8"
+    },
+    {
+      "nr": "480",
+      "title": "Wochenschau 480: Bürgerbräu Bomb (Nov 1939) | 8K"
+    },
+    {
+      "nr": "508",
+      "title": "Wochenschau 508: Dunkirk Pocket (May 1940) | 8K"
+    },
+    {
+      "nr": "477",
+      "title": "Wochenschau 477: Poland Occupied (Oct 1939) | 8K"
+    },
+    {
+      "nr": "482",
+      "title": "Wochenschau 482: Winter War Begins (Nov 1939) | 8K"
+    },
+    {
+      "nr": "522",
+      "title": "Wochenschau 522: Berlin Retaliation (Sep 1940) | 8"
+    },
+    {
+      "nr": "652",
+      "title": "Wochenschau 652: Kharkov III (Mar 1943) | 8K"
+    },
+    {
+      "nr": "720",
+      "title": "Wochenschau 720: V1 Attacks (Jun 1944) | 8K"
+    },
+    {
+      "nr": "721",
+      "title": "Wochenschau 721: Bagration Begins (Jun 1944) | 8K"
+    },
+    {
+      "nr": "654",
+      "title": "Wochenschau 654: Tunisia Battles (Mar 1943) | 8K"
+    },
+    {
+      "nr": "746",
+      "title": "Wochenschau 746: Ardennes Offensive (Dec 1944) | 8"
+    },
+    {
+      "nr": "722",
+      "title": "Wochenschau 722: Bagration (Jul 1944) | 8K"
+    },
+    {
+      "nr": "753",
+      "title": "Wochenschau 753: Yalta Conference (Feb 1945) | 8K"
+    },
+    {
+      "nr": "754",
+      "title": "Wochenschau 754: Dresden Bombed (Feb 1945) | 8K"
+    },
+    {
+      "nr": "750",
+      "title": "Wochenschau 750: Vistula Offensive (Jan 1945) | 8K"
+    },
+    {
+      "nr": "751",
+      "title": "Wochenschau 751: Eastern Collapse (Jan 1945) | 8K"
+    }
+  ],
+  "multilingual_fails": [],
+  "hashtag_fails": [
+    {
+      "nr": "513",
+      "title": "Wochenschau 513: Channel Islands (Jul 19",
+      "count": 12
+    },
+    {
+      "nr": "515",
+      "title": "Wochenschau 515: Battle of Britain (Jul ",
+      "count": 12
+    },
+    {
+      "nr": "514",
+      "title": "Wochenschau 514: Berlin Parade (Jul 1940",
+      "count": 12
+    },
+    {
+      "nr": "547",
+      "title": "Wochenschau 547: Africa Campaign (Feb 19",
+      "count": 12
+    },
+    {
+      "nr": "573",
+      "title": "Wochenschau 573: Kiev Battle (Aug 1941) ",
+      "count": 12
+    },
+    {
+      "nr": "548",
+      "title": "Wochenschau 548: Bulgaria Joins Axis (Ma",
+      "count": 12
+    },
+    {
+      "nr": "543",
+      "title": "Wochenschau 543: Africa Corps (Jan 1941)",
+      "count": 12
+    },
+    {
+      "nr": "550",
+      "title": "Wochenschau 550: Yugoslavia Crisis (Mar ",
+      "count": 12
+    },
+    {
+      "nr": "545",
+      "title": "Wochenschau 545: Africa Offensive (Feb 1",
+      "count": 12
+    },
+    {
+      "nr": "544",
+      "title": "Wochenschau 544: Rommel Arrives (Feb 194",
+      "count": 12
+    },
+    {
+      "nr": "520",
+      "title": "Wochenschau 520: Battle Peak (Aug 1940) ",
+      "count": 12
+    },
+    {
+      "nr": "519",
+      "title": "Wochenschau 519: Eagle Day (Aug 1940) | ",
+      "count": 12
+    },
+    {
+      "nr": "542",
+      "title": "Wochenschau 542: Tobruk Falls (Jan 1941)",
+      "count": 12
+    },
+    {
+      "nr": "518",
+      "title": "Wochenschau 518: Channel Battles (Aug 19",
+      "count": 12
+    },
+    {
+      "nr": "502",
+      "title": "Wochenschau 502: Norway Invasion (Apr 19",
+      "count": 12
+    },
+    {
+      "nr": "468",
+      "title": "Wochenschau 468: Nazi-Soviet Pact (Aug 1",
+      "count": 12
+    },
+    {
+      "nr": "471",
+      "title": "Wochenschau 471: Poland Campaign (Sep 19",
+      "count": 12
+    },
+    {
+      "nr": "459",
+      "title": "Wochenschau 459: Pre-War Era (Jun 1939) ",
+      "count": 12
+    },
+    {
+      "nr": "470",
+      "title": "Wochenschau 470: War Begins (Sep 1939) |",
+      "count": 12
+    },
+    {
+      "nr": "473",
+      "title": "Wochenschau 473: Fall of Warsaw (Sep 193",
+      "count": 12
+    },
+    {
+      "nr": "488",
+      "title": "Wochenschau 488: Phoney War (Jan 1940) |",
+      "count": 12
+    },
+    {
+      "nr": "483",
+      "title": "Wochenschau 483: Winter War (Dec 1939) |",
+      "count": 12
+    },
+    {
+      "nr": "512",
+      "title": "Wochenschau 512: French Armistice (Jun 1",
+      "count": 12
+    },
+    {
+      "nr": "523",
+      "title": "Wochenschau 523: London Blitz (Sep 1940)",
+      "count": 12
+    },
+    {
+      "nr": "652",
+      "title": "Wochenschau 652: Kharkov III (Mar 1943) ",
+      "count": 12
+    },
+    {
+      "nr": "509",
+      "title": "Wochenschau 509: Dunkirk Evacuation (Jun",
+      "count": 12
+    },
+    {
+      "nr": "480",
+      "title": "Wochenschau 480: Bürgerbräu Bomb (Nov 19",
+      "count": 12
+    },
+    {
+      "nr": "508",
+      "title": "Wochenschau 508: Dunkirk Pocket (May 194",
+      "count": 12
+    },
+    {
+      "nr": "477",
+      "title": "Wochenschau 477: Poland Occupied (Oct 19",
+      "count": 12
+    },
+    {
+      "nr": "482",
+      "title": "Wochenschau 482: Winter War Begins (Nov ",
+      "count": 12
+    },
+    {
+      "nr": "522",
+      "title": "Wochenschau 522: Berlin Retaliation (Sep",
+      "count": 12
+    },
+    {
+      "nr": "652",
+      "title": "Wochenschau 652: Kharkov III (Mar 1943) ",
+      "count": 12
+    },
+    {
+      "nr": "720",
+      "title": "Wochenschau 720: V1 Attacks (Jun 1944) |",
+      "count": 12
+    },
+    {
+      "nr": "721",
+      "title": "Wochenschau 721: Bagration Begins (Jun 1",
+      "count": 12
+    },
+    {
+      "nr": "654",
+      "title": "Wochenschau 654: Tunisia Battles (Mar 19",
+      "count": 12
+    },
+    {
+      "nr": "746",
+      "title": "Wochenschau 746: Ardennes Offensive (Dec",
+      "count": 12
+    },
+    {
+      "nr": "722",
+      "title": "Wochenschau 722: Bagration (Jul 1944) | ",
+      "count": 12
+    },
+    {
+      "nr": "753",
+      "title": "Wochenschau 753: Yalta Conference (Feb 1",
+      "count": 12
+    },
+    {
+      "nr": "754",
+      "title": "Wochenschau 754: Dresden Bombed (Feb 194",
+      "count": 12
+    },
+    {
+      "nr": "750",
+      "title": "Wochenschau 750: Vistula Offensive (Jan ",
+      "count": 12
+    },
+    {
+      "nr": "751",
+      "title": "Wochenschau 751: Eastern Collapse (Jan 1",
+      "count": 12
+    }
+  ]
+}

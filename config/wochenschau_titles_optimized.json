@@ -1,0 +1,2287 @@
+{
+  "meta": {
+    "created": "2026-01-30T15:16:52.504457",
+    "purpose": "Optimized titles for YouTube SEO 2026",
+    "target_length": "50-55 chars (max 60)",
+    "format": "Wochenschau [NR]: [Event] ([Mon YYYY]) | 8K"
+  },
+  "statistics": {
+    "total_videos": 252,
+    "videos_with_events": 252,
+    "videos_without_events": 0,
+    "new_titles_under_60": 252,
+    "new_titles_under_55": 252,
+    "avg_current_length": 91,
+    "avg_new_length": 47.58730158730159
+  },
+  "titles": {
+    "459": {
+      "current_title": "Die Deutsche Wochenschau Nr. 459 | 21.06.1939 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 459: Pre-War Era (Jun 1939) | 8K",
+      "new_length": 44,
+      "event_en": "Pre-War Era",
+      "date": "1939-06-21",
+      "savings": 47
+    },
+    "468": {
+      "current_title": "Die Deutsche Wochenschau Nr. 468 | 23.08.1939 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 468: Nazi-Soviet Pact (Aug 1939) | 8K",
+      "new_length": 49,
+      "event_en": "Nazi-Soviet Pact",
+      "date": "1939-08-23",
+      "savings": 42
+    },
+    "470": {
+      "current_title": "Die Deutsche Wochenschau Nr. 470 | 06.09.1939 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 470: War Begins (Sep 1939) | 8K",
+      "new_length": 43,
+      "event_en": "War Begins",
+      "date": "1939-09-06",
+      "savings": 48
+    },
+    "471": {
+      "current_title": "Die Deutsche Wochenschau Nr. 471 | 13.09.1939 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 471: Poland Campaign (Sep 1939) | 8K",
+      "new_length": 48,
+      "event_en": "Poland Campaign",
+      "date": "1939-09-13",
+      "savings": 43
+    },
+    "472": {
+      "current_title": "Die Deutsche Wochenschau Nr. 472 | 20.09.1939 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 472: Warsaw Encircled (Sep 1939) | 8K",
+      "new_length": 49,
+      "event_en": "Warsaw Encircled",
+      "date": "1939-09-20",
+      "savings": 42
+    },
+    "473": {
+      "current_title": "Die Deutsche Wochenschau Nr. 473 | 27.09.1939 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 473: Fall of Warsaw (Sep 1939) | 8K",
+      "new_length": 47,
+      "event_en": "Fall of Warsaw",
+      "date": "1939-09-27",
+      "savings": 44
+    },
+    "474": {
+      "current_title": "Die Deutsche Wochenschau Nr. 474 | 04.10.1939 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 474: Warsaw Victory (Oct 1939) | 8K",
+      "new_length": 47,
+      "event_en": "Warsaw Victory",
+      "date": "1939-10-04",
+      "savings": 44
+    },
+    "477": {
+      "current_title": "Die Deutsche Wochenschau Nr. 477 | 25.10.1939 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 477: Poland Occupied (Oct 1939) | 8K",
+      "new_length": 48,
+      "event_en": "Poland Occupied",
+      "date": "1939-10-25",
+      "savings": 43
+    },
+    "480": {
+      "current_title": "Die Deutsche Wochenschau Nr. 480 | 15.11.1939 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 480: Bürgerbräu Bomb (Nov 1939) | 8K",
+      "new_length": 48,
+      "event_en": "Bürgerbräu Bomb",
+      "date": "1939-11-15",
+      "savings": 43
+    },
+    "482": {
+      "current_title": "Die Deutsche Wochenschau Nr. 482 | 29.11.1939 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 482: Winter War Begins (Nov 1939) | 8K",
+      "new_length": 50,
+      "event_en": "Winter War Begins",
+      "date": "1939-11-29",
+      "savings": 41
+    },
+    "483": {
+      "current_title": "Die Deutsche Wochenschau Nr. 483 | 06.12.1939 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 483: Winter War (Dec 1939) | 8K",
+      "new_length": 43,
+      "event_en": "Winter War",
+      "date": "1939-12-06",
+      "savings": 48
+    },
+    "488": {
+      "current_title": "Die Deutsche Wochenschau Nr. 488 | 10.01.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 488: Phoney War (Jan 1940) | 8K",
+      "new_length": 43,
+      "event_en": "Phoney War",
+      "date": "1940-01-10",
+      "savings": 48
+    },
+    "491": {
+      "current_title": "Die Deutsche Wochenschau Nr. 491 | 31.01.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 491: Phoney War (Jan 1940) | 8K",
+      "new_length": 43,
+      "event_en": "Phoney War",
+      "date": "1940-01-31",
+      "savings": 48
+    },
+    "492": {
+      "current_title": "Die Deutsche Wochenschau Nr. 492 | 07.02.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 492: Altmark Incident (Feb 1940) | 8K",
+      "new_length": 49,
+      "event_en": "Altmark Incident",
+      "date": "1940-02-07",
+      "savings": 42
+    },
+    "493": {
+      "current_title": "Die Deutsche Wochenschau Nr. 493 | 14.02.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 493: Finland Front (Feb 1940) | 8K",
+      "new_length": 46,
+      "event_en": "Finland Front",
+      "date": "1940-02-14",
+      "savings": 45
+    },
+    "496": {
+      "current_title": "Die Deutsche Wochenschau Nr. 496 | 06.03.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 496: Winter War Ends (Mar 1940) | 8K",
+      "new_length": 48,
+      "event_en": "Winter War Ends",
+      "date": "1940-03-06",
+      "savings": 43
+    },
+    "497": {
+      "current_title": "Die Deutsche Wochenschau Nr. 497 | 13.03.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 497: Atlantic Naval War (Mar 1940) | 8K",
+      "new_length": 51,
+      "event_en": "Atlantic Naval War",
+      "date": "1940-03-13",
+      "savings": 40
+    },
+    "499": {
+      "current_title": "Die Deutsche Wochenschau Nr. 499 | 27.03.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 499: War Preparations (Mar 1940) | 8K",
+      "new_length": 49,
+      "event_en": "War Preparations",
+      "date": "1940-03-27",
+      "savings": 42
+    },
+    "502": {
+      "current_title": "Die Deutsche Wochenschau Nr. 502 | 17.04.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 502: Norway Invasion (Apr 1940) | 8K",
+      "new_length": 48,
+      "event_en": "Norway Invasion",
+      "date": "1940-04-17",
+      "savings": 43
+    },
+    "504": {
+      "current_title": "Die Deutsche Wochenschau Nr. 504 | 01.05.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 504: Battle of Narvik (May 1940) | 8K",
+      "new_length": 49,
+      "event_en": "Battle of Narvik",
+      "date": "1940-05-01",
+      "savings": 42
+    },
+    "505": {
+      "current_title": "Die Deutsche Wochenschau Nr. 505 | 08.05.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 505: Western Campaign (May 1940) | 8K",
+      "new_length": 49,
+      "event_en": "Western Campaign",
+      "date": "1940-05-08",
+      "savings": 42
+    },
+    "506": {
+      "current_title": "Die Deutsche Wochenschau Nr. 506 | 15.05.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 506: Rotterdam Blitz (May 1940) | 8K",
+      "new_length": 48,
+      "event_en": "Rotterdam Blitz",
+      "date": "1940-05-15",
+      "savings": 43
+    },
+    "507": {
+      "current_title": "Die Deutsche Wochenschau Nr. 507 | 22.05.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 507: Sedan Advance (May 1940) | 8K",
+      "new_length": 46,
+      "event_en": "Sedan Advance",
+      "date": "1940-05-22",
+      "savings": 45
+    },
+    "508": {
+      "current_title": "Die Deutsche Wochenschau Nr. 508 | 29.05.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 508: Dunkirk Pocket (May 1940) | 8K",
+      "new_length": 47,
+      "event_en": "Dunkirk Pocket",
+      "date": "1940-05-29",
+      "savings": 44
+    },
+    "509": {
+      "current_title": "Die Deutsche Wochenschau Nr. 509 | 05.06.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 509: Dunkirk Evacuation (Jun 1940) | 8K",
+      "new_length": 51,
+      "event_en": "Dunkirk Evacuation",
+      "date": "1940-06-05",
+      "savings": 40
+    },
+    "510": {
+      "current_title": "Die Deutsche Wochenschau Nr. 510 | 12.06.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 510: France Collapsing (Jun 1940) | 8K",
+      "new_length": 50,
+      "event_en": "France Collapsing",
+      "date": "1940-06-12",
+      "savings": 41
+    },
+    "511": {
+      "current_title": "Die Deutsche Wochenschau Nr. 511 | 19.06.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 511: Paris Falls (Jun 1940) | 8K",
+      "new_length": 44,
+      "event_en": "Paris Falls",
+      "date": "1940-06-19",
+      "savings": 47
+    },
+    "512": {
+      "current_title": "Die Deutsche Wochenschau Nr. 512 | 26.06.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 512: French Armistice (Jun 1940) | 8K",
+      "new_length": 49,
+      "event_en": "French Armistice",
+      "date": "1940-06-26",
+      "savings": 42
+    },
+    "513": {
+      "current_title": "Die Deutsche Wochenschau Nr. 513 | 03.07.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 513: Channel Islands (Jul 1940) | 8K",
+      "new_length": 48,
+      "event_en": "Channel Islands",
+      "date": "1940-07-03",
+      "savings": 43
+    },
+    "514": {
+      "current_title": "Die Deutsche Wochenschau Nr. 514 | 10.07.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 514: Berlin Parade (Jul 1940) | 8K",
+      "new_length": 46,
+      "event_en": "Berlin Parade",
+      "date": "1940-07-10",
+      "savings": 45
+    },
+    "515": {
+      "current_title": "Die Deutsche Wochenschau Nr. 515 | 17.07.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 515: Battle of Britain (Jul 1940) | 8K",
+      "new_length": 50,
+      "event_en": "Battle of Britain",
+      "date": "1940-07-17",
+      "savings": 41
+    },
+    "516": {
+      "current_title": "Die Deutsche Wochenschau Nr. 516 | 24.07.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 516: Battle of Britain (Jul 1940) | 8K",
+      "new_length": 50,
+      "event_en": "Battle of Britain",
+      "date": "1940-07-24",
+      "savings": 41
+    },
+    "517": {
+      "current_title": "Die Deutsche Wochenschau Nr. 517 | 31.07.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 517: Eagle Day Planning (Jul 1940) | 8K",
+      "new_length": 51,
+      "event_en": "Eagle Day Planning",
+      "date": "1940-07-31",
+      "savings": 40
+    },
+    "518": {
+      "current_title": "Die Deutsche Wochenschau Nr. 518 | 07.08.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 518: Channel Battles (Aug 1940) | 8K",
+      "new_length": 48,
+      "event_en": "Channel Battles",
+      "date": "1940-08-07",
+      "savings": 43
+    },
+    "519": {
+      "current_title": "Die Deutsche Wochenschau Nr. 519 | 14.08.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 519: Eagle Day (Aug 1940) | 8K",
+      "new_length": 42,
+      "event_en": "Eagle Day",
+      "date": "1940-08-14",
+      "savings": 49
+    },
+    "520": {
+      "current_title": "Die Deutsche Wochenschau Nr. 520 | 21.08.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 520: Battle Peak (Aug 1940) | 8K",
+      "new_length": 44,
+      "event_en": "Battle Peak",
+      "date": "1940-08-21",
+      "savings": 47
+    },
+    "521": {
+      "current_title": "Die Deutsche Wochenschau Nr. 521 | 28.08.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 521: London Bombed (Aug 1940) | 8K",
+      "new_length": 46,
+      "event_en": "London Bombed",
+      "date": "1940-08-28",
+      "savings": 45
+    },
+    "522": {
+      "current_title": "Die Deutsche Wochenschau Nr. 522 | 04.09.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 522: Berlin Retaliation (Sep 1940) | 8K",
+      "new_length": 51,
+      "event_en": "Berlin Retaliation",
+      "date": "1940-09-04",
+      "savings": 40
+    },
+    "523": {
+      "current_title": "Die Deutsche Wochenschau Nr. 523 | 11.09.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 523: London Blitz (Sep 1940) | 8K",
+      "new_length": 45,
+      "event_en": "London Blitz",
+      "date": "1940-09-11",
+      "savings": 46
+    },
+    "524": {
+      "current_title": "Die Deutsche Wochenschau Nr. 524 | 18.09.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 524: Sea Lion Postponed (Sep 1940) | 8K",
+      "new_length": 51,
+      "event_en": "Sea Lion Postponed",
+      "date": "1940-09-18",
+      "savings": 40
+    },
+    "525": {
+      "current_title": "Die Deutsche Wochenschau Nr. 525 | 25.09.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 525: Tripartite Pact (Sep 1940) | 8K",
+      "new_length": 48,
+      "event_en": "Tripartite Pact",
+      "date": "1940-09-25",
+      "savings": 43
+    },
+    "526": {
+      "current_title": "Die Deutsche Wochenschau Nr. 526 | 02.10.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 526: U-Boat Victories (Oct 1940) | 8K",
+      "new_length": 49,
+      "event_en": "U-Boat Victories",
+      "date": "1940-10-02",
+      "savings": 42
+    },
+    "527": {
+      "current_title": "Die Deutsche Wochenschau Nr. 527 | 09.10.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 527: Sea Lion Cancelled (Oct 1940) | 8K",
+      "new_length": 51,
+      "event_en": "Sea Lion Cancelled",
+      "date": "1940-10-09",
+      "savings": 40
+    },
+    "528": {
+      "current_title": "Die Deutsche Wochenschau Nr. 528 | 16.10.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 528: Blitz Continues (Oct 1940) | 8K",
+      "new_length": 48,
+      "event_en": "Blitz Continues",
+      "date": "1940-10-16",
+      "savings": 43
+    },
+    "529": {
+      "current_title": "Die Deutsche Wochenschau Nr. 529 | 23.10.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 529: Hendaye Meeting (Oct 1940) | 8K",
+      "new_length": 48,
+      "event_en": "Hendaye Meeting",
+      "date": "1940-10-23",
+      "savings": 43
+    },
+    "530": {
+      "current_title": "Die Deutsche Wochenschau Nr. 530 | 30.10.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 530: Greece War (Oct 1940) | 8K",
+      "new_length": 43,
+      "event_en": "Greece War",
+      "date": "1940-10-30",
+      "savings": 48
+    },
+    "531": {
+      "current_title": "Die Deutsche Wochenschau Nr. 531 | 06.11.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 531: Coventry Raid (Nov 1940) | 8K",
+      "new_length": 46,
+      "event_en": "Coventry Raid",
+      "date": "1940-11-06",
+      "savings": 45
+    },
+    "532": {
+      "current_title": "Die Deutsche Wochenschau Nr. 532 | 13.11.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 532: Molotov in Berlin (Nov 1940) | 8K",
+      "new_length": 50,
+      "event_en": "Molotov in Berlin",
+      "date": "1940-11-13",
+      "savings": 41
+    },
+    "533": {
+      "current_title": "Die Deutsche Wochenschau Nr. 533 | 20.11.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 533: Coventry Destroyed (Nov 1940) | 8K",
+      "new_length": 51,
+      "event_en": "Coventry Destroyed",
+      "date": "1940-11-20",
+      "savings": 40
+    },
+    "534": {
+      "current_title": "Die Deutsche Wochenschau Nr. 534 | 27.11.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 534: Hungary Joins Axis (Nov 1940) | 8K",
+      "new_length": 51,
+      "event_en": "Hungary Joins Axis",
+      "date": "1940-11-27",
+      "savings": 40
+    },
+    "536": {
+      "current_title": "Die Deutsche Wochenschau Nr. 536 | 11.12.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 536: Greek Disaster (Dec 1940) | 8K",
+      "new_length": 47,
+      "event_en": "Greek Disaster",
+      "date": "1940-12-11",
+      "savings": 44
+    },
+    "537": {
+      "current_title": "Die Deutsche Wochenschau Nr. 537 | 18.12.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 537: Barbarossa Order (Dec 1940) | 8K",
+      "new_length": 49,
+      "event_en": "Barbarossa Order",
+      "date": "1940-12-18",
+      "savings": 42
+    },
+    "538": {
+      "current_title": "Die Deutsche Wochenschau Nr. 538 | 25.12.1940 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 538: Christmas 1940 (Dec 1940) | 8K",
+      "new_length": 47,
+      "event_en": "Christmas 1940",
+      "date": "1940-12-25",
+      "savings": 44
+    },
+    "539": {
+      "current_title": "Die Deutsche Wochenschau Nr. 539 | 01.01.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 539: New Year 1941 (Jan 1941) | 8K",
+      "new_length": 46,
+      "event_en": "New Year 1941",
+      "date": "1941-01-01",
+      "savings": 45
+    },
+    "542": {
+      "current_title": "Die Deutsche Wochenschau Nr. 542 | 22.01.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 542: Tobruk Falls (Jan 1941) | 8K",
+      "new_length": 45,
+      "event_en": "Tobruk Falls",
+      "date": "1941-01-22",
+      "savings": 46
+    },
+    "543": {
+      "current_title": "Die Deutsche Wochenschau Nr. 543 | 29.01.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 543: Africa Corps (Jan 1941) | 8K",
+      "new_length": 45,
+      "event_en": "Africa Corps",
+      "date": "1941-01-29",
+      "savings": 46
+    },
+    "544": {
+      "current_title": "Die Deutsche Wochenschau Nr. 544 | 05.02.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 544: Rommel Arrives (Feb 1941) | 8K",
+      "new_length": 47,
+      "event_en": "Rommel Arrives",
+      "date": "1941-02-05",
+      "savings": 44
+    },
+    "545": {
+      "current_title": "Die Deutsche Wochenschau Nr. 545 | 12.02.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 545: Africa Offensive (Feb 1941) | 8K",
+      "new_length": 49,
+      "event_en": "Africa Offensive",
+      "date": "1941-02-12",
+      "savings": 42
+    },
+    "546": {
+      "current_title": "Die Deutsche Wochenschau Nr. 546 | 19.02.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 546: North Africa (Feb 1941) | 8K",
+      "new_length": 45,
+      "event_en": "North Africa",
+      "date": "1941-02-19",
+      "savings": 46
+    },
+    "547": {
+      "current_title": "Die Deutsche Wochenschau Nr. 547 | 26.02.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 547: Africa Campaign (Feb 1941) | 8K",
+      "new_length": 48,
+      "event_en": "Africa Campaign",
+      "date": "1941-02-26",
+      "savings": 43
+    },
+    "548": {
+      "current_title": "Die Deutsche Wochenschau Nr. 548 | 05.03.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 548: Bulgaria Joins Axis (Mar 1941) | 8K",
+      "new_length": 52,
+      "event_en": "Bulgaria Joins Axis",
+      "date": "1941-03-05",
+      "savings": 39
+    },
+    "549": {
+      "current_title": "Die Deutsche Wochenschau Nr. 549 | 12.03.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 549: Lend-Lease Act (Mar 1941) | 8K",
+      "new_length": 47,
+      "event_en": "Lend-Lease Act",
+      "date": "1941-03-12",
+      "savings": 44
+    },
+    "550": {
+      "current_title": "Die Deutsche Wochenschau Nr. 550 | 19.03.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 550: Yugoslavia Crisis (Mar 1941) | 8K",
+      "new_length": 50,
+      "event_en": "Yugoslavia Crisis",
+      "date": "1941-03-19",
+      "savings": 41
+    },
+    "552": {
+      "current_title": "Die Deutsche Wochenschau Nr. 552 | 02.04.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 552: Belgrade Coup (Apr 1941) | 8K",
+      "new_length": 46,
+      "event_en": "Belgrade Coup",
+      "date": "1941-04-02",
+      "savings": 45
+    },
+    "553": {
+      "current_title": "Die Deutsche Wochenschau Nr. 553 | 09.04.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 553: Balkans Campaign (Apr 1941) | 8K",
+      "new_length": 49,
+      "event_en": "Balkans Campaign",
+      "date": "1941-04-09",
+      "savings": 42
+    },
+    "554": {
+      "current_title": "Die Deutsche Wochenschau Nr. 554 | 16.04.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 554: Belgrade Falls (Apr 1941) | 8K",
+      "new_length": 47,
+      "event_en": "Belgrade Falls",
+      "date": "1941-04-16",
+      "savings": 44
+    },
+    "555": {
+      "current_title": "Die Deutsche Wochenschau Nr. 555 | 23.04.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 555: Greece Victory (Apr 1941) | 8K",
+      "new_length": 47,
+      "event_en": "Greece Victory",
+      "date": "1941-04-23",
+      "savings": 44
+    },
+    "556": {
+      "current_title": "Die Deutsche Wochenschau Nr. 556 | 30.04.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 556: Athens Occupied (Apr 1941) | 8K",
+      "new_length": 48,
+      "event_en": "Athens Occupied",
+      "date": "1941-04-30",
+      "savings": 43
+    },
+    "557": {
+      "current_title": "Die Deutsche Wochenschau Nr. 557 | 07.05.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 557: Bismarck Sails (May 1941) | 8K",
+      "new_length": 47,
+      "event_en": "Bismarck Sails",
+      "date": "1941-05-07",
+      "savings": 44
+    },
+    "561": {
+      "current_title": "Die Deutsche Wochenschau Nr. 561 | 04.06.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 561: Crete Captured (Jun 1941) | 8K",
+      "new_length": 47,
+      "event_en": "Crete Captured",
+      "date": "1941-06-04",
+      "savings": 44
+    },
+    "562": {
+      "current_title": "Die Deutsche Wochenschau Nr. 562 | 11.06.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 562: Bismarck Sunk (Jun 1941) | 8K",
+      "new_length": 46,
+      "event_en": "Bismarck Sunk",
+      "date": "1941-06-11",
+      "savings": 45
+    },
+    "564": {
+      "current_title": "Die Deutsche Wochenschau Nr. 564 | 25.06.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 564: Operation Barbarossa (Jun 1941) | 8K",
+      "new_length": 53,
+      "event_en": "Operation Barbarossa",
+      "date": "1941-06-25",
+      "savings": 38
+    },
+    "565": {
+      "current_title": "Die Deutsche Wochenschau Nr. 565 | 02.07.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 565: Eastern Advance (Jul 1941) | 8K",
+      "new_length": 48,
+      "event_en": "Eastern Advance",
+      "date": "1941-07-02",
+      "savings": 43
+    },
+    "566": {
+      "current_title": "Die Deutsche Wochenschau Nr. 566 | 09.07.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 566: Minsk Falls (Jul 1941) | 8K",
+      "new_length": 44,
+      "event_en": "Minsk Falls",
+      "date": "1941-07-09",
+      "savings": 47
+    },
+    "567": {
+      "current_title": "Die Deutsche Wochenschau Nr. 567 | 16.07.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 567: Smolensk Pocket (Jul 1941) | 8K",
+      "new_length": 48,
+      "event_en": "Smolensk Pocket",
+      "date": "1941-07-16",
+      "savings": 43
+    },
+    "568": {
+      "current_title": "Die Deutsche Wochenschau Nr. 568 | 23.07.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 568: Eastern Summer (Jul 1941) | 8K",
+      "new_length": 47,
+      "event_en": "Eastern Summer",
+      "date": "1941-07-23",
+      "savings": 44
+    },
+    "569": {
+      "current_title": "Die Deutsche Wochenschau Nr. 569 | 30.07.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 569: Kiev Encirclement (Jul 1941) | 8K",
+      "new_length": 50,
+      "event_en": "Kiev Encirclement",
+      "date": "1941-07-30",
+      "savings": 41
+    },
+    "570": {
+      "current_title": "Die Deutsche Wochenschau Nr. 570 | 06.08.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 570: Smolensk Falls (Aug 1941) | 8K",
+      "new_length": 47,
+      "event_en": "Smolensk Falls",
+      "date": "1941-08-06",
+      "savings": 44
+    },
+    "571": {
+      "current_title": "Die Deutsche Wochenschau Nr. 571 | 13.08.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 571: Atlantic Charter (Aug 1941) | 8K",
+      "new_length": 49,
+      "event_en": "Atlantic Charter",
+      "date": "1941-08-13",
+      "savings": 42
+    },
+    "572": {
+      "current_title": "Die Deutsche Wochenschau Nr. 572 | 20.08.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 572: Leningrad Siege (Aug 1941) | 8K",
+      "new_length": 48,
+      "event_en": "Leningrad Siege",
+      "date": "1941-08-20",
+      "savings": 43
+    },
+    "573": {
+      "current_title": "Die Deutsche Wochenschau Nr. 573 | 27.08.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 573: Kiev Battle (Aug 1941) | 8K",
+      "new_length": 44,
+      "event_en": "Kiev Battle",
+      "date": "1941-08-27",
+      "savings": 47
+    },
+    "574": {
+      "current_title": "Die Deutsche Wochenschau Nr. 574 | 03.09.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 574: Leningrad Encircled (Sep 1941) | 8K",
+      "new_length": 52,
+      "event_en": "Leningrad Encircled",
+      "date": "1941-09-03",
+      "savings": 39
+    },
+    "575": {
+      "current_title": "Die Deutsche Wochenschau Nr. 575 | 10.09.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 575: 900 Days Leningrad (Sep 1941) | 8K",
+      "new_length": 51,
+      "event_en": "900 Days Leningrad",
+      "date": "1941-09-10",
+      "savings": 40
+    },
+    "576": {
+      "current_title": "Die Deutsche Wochenschau Nr. 576 | 17.09.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 576: Kiev Encirclement (Sep 1941) | 8K",
+      "new_length": 50,
+      "event_en": "Kiev Encirclement",
+      "date": "1941-09-17",
+      "savings": 41
+    },
+    "577": {
+      "current_title": "Die Deutsche Wochenschau Nr. 577 | 24.09.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 577: Kiev Surrender (Sep 1941) | 8K",
+      "new_length": 47,
+      "event_en": "Kiev Surrender",
+      "date": "1941-09-24",
+      "savings": 44
+    },
+    "578": {
+      "current_title": "Die Deutsche Wochenschau Nr. 578 | 01.10.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 578: Typhoon Begins (Oct 1941) | 8K",
+      "new_length": 47,
+      "event_en": "Typhoon Begins",
+      "date": "1941-10-01",
+      "savings": 44
+    },
+    "579": {
+      "current_title": "Die Deutsche Wochenschau Nr. 579 | 08.10.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 579: Vyazma Pocket (Oct 1941) | 8K",
+      "new_length": 46,
+      "event_en": "Vyazma Pocket",
+      "date": "1941-10-08",
+      "savings": 45
+    },
+    "581": {
+      "current_title": "Die Deutsche Wochenschau Nr. 581 | 22.10.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 581: Moscow Advance (Oct 1941) | 8K",
+      "new_length": 47,
+      "event_en": "Moscow Advance",
+      "date": "1941-10-22",
+      "savings": 44
+    },
+    "582": {
+      "current_title": "Die Deutsche Wochenschau Nr. 582 | 29.10.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 582: Autumn Mud (Oct 1941) | 8K",
+      "new_length": 43,
+      "event_en": "Autumn Mud",
+      "date": "1941-10-29",
+      "savings": 48
+    },
+    "583": {
+      "current_title": "Die Deutsche Wochenschau Nr. 583 | 05.11.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 583: Moscow in Danger (Nov 1941) | 8K",
+      "new_length": 49,
+      "event_en": "Moscow in Danger",
+      "date": "1941-11-05",
+      "savings": 42
+    },
+    "584": {
+      "current_title": "Die Deutsche Wochenschau Nr. 584 | 12.11.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 584: Frost Hits (Nov 1941) | 8K",
+      "new_length": 43,
+      "event_en": "Frost Hits",
+      "date": "1941-11-12",
+      "savings": 48
+    },
+    "585": {
+      "current_title": "Die Deutsche Wochenschau Nr. 585 | 19.11.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 585: Tikhvin Falls (Nov 1941) | 8K",
+      "new_length": 46,
+      "event_en": "Tikhvin Falls",
+      "date": "1941-11-19",
+      "savings": 45
+    },
+    "586": {
+      "current_title": "Die Deutsche Wochenschau Nr. 586 | 26.11.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 586: Rostov Captured (Nov 1941) | 8K",
+      "new_length": 48,
+      "event_en": "Rostov Captured",
+      "date": "1941-11-26",
+      "savings": 43
+    },
+    "588": {
+      "current_title": "Die Deutsche Wochenschau Nr. 588 | 10.12.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 588: Pearl Harbor (Dec 1941) | 8K",
+      "new_length": 45,
+      "event_en": "Pearl Harbor",
+      "date": "1941-12-10",
+      "savings": 46
+    },
+    "589": {
+      "current_title": "Die Deutsche Wochenschau Nr. 589 | 17.12.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 589: Moscow Counterattack (Dec 1941) | 8K",
+      "new_length": 53,
+      "event_en": "Moscow Counterattack",
+      "date": "1941-12-17",
+      "savings": 38
+    },
+    "590": {
+      "current_title": "Die Deutsche Wochenschau Nr. 590 | 24.12.1941 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 590: US Enters War (Dec 1941) | 8K",
+      "new_length": 46,
+      "event_en": "US Enters War",
+      "date": "1941-12-24",
+      "savings": 45
+    },
+    "592": {
+      "current_title": "Die Deutsche Wochenschau Nr. 592 | 07.01.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 592: Winter Crisis (Jan 1942) | 8K",
+      "new_length": 46,
+      "event_en": "Winter Crisis",
+      "date": "1942-01-07",
+      "savings": 45
+    },
+    "593": {
+      "current_title": "Die Deutsche Wochenschau Nr. 593 | 14.01.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 593: Wannsee Conference (Jan 1942) | 8K",
+      "new_length": 51,
+      "event_en": "Wannsee Conference",
+      "date": "1942-01-14",
+      "savings": 40
+    },
+    "594": {
+      "current_title": "Die Deutsche Wochenschau Nr. 594 | 21.01.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 594: Rommel Offensive (Jan 1942) | 8K",
+      "new_length": 49,
+      "event_en": "Rommel Offensive",
+      "date": "1942-01-21",
+      "savings": 42
+    },
+    "595": {
+      "current_title": "Die Deutsche Wochenschau Nr. 595 | 28.01.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 595: Demyansk Pocket (Jan 1942) | 8K",
+      "new_length": 48,
+      "event_en": "Demyansk Pocket",
+      "date": "1942-01-28",
+      "savings": 43
+    },
+    "596": {
+      "current_title": "Die Deutsche Wochenschau Nr. 596 | 04.02.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 596: Singapore Battle (Feb 1942) | 8K",
+      "new_length": 49,
+      "event_en": "Singapore Battle",
+      "date": "1942-02-04",
+      "savings": 42
+    },
+    "598": {
+      "current_title": "Die Deutsche Wochenschau Nr. 598 | 18.02.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 598: Singapore Falls (Feb 1942) | 8K",
+      "new_length": 48,
+      "event_en": "Singapore Falls",
+      "date": "1942-02-18",
+      "savings": 43
+    },
+    "599": {
+      "current_title": "Die Deutsche Wochenschau Nr. 599 | 25.02.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 599: Cerberus Success (Feb 1942) | 8K",
+      "new_length": 49,
+      "event_en": "Cerberus Success",
+      "date": "1942-02-25",
+      "savings": 42
+    },
+    "600": {
+      "current_title": "Die Deutsche Wochenschau Nr. 600 | 04.03.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 600: East Front Holds (Mar 1942) | 8K",
+      "new_length": 49,
+      "event_en": "East Front Holds",
+      "date": "1942-03-04",
+      "savings": 42
+    },
+    "601": {
+      "current_title": "Die Deutsche Wochenschau Nr. 601 | 11.03.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 601: Tobruk Battles (Mar 1942) | 8K",
+      "new_length": 47,
+      "event_en": "Tobruk Battles",
+      "date": "1942-03-11",
+      "savings": 44
+    },
+    "602": {
+      "current_title": "Die Deutsche Wochenschau Nr. 602 | 18.03.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 602: U-Boat War (Mar 1942) | 8K",
+      "new_length": 43,
+      "event_en": "U-Boat War",
+      "date": "1942-03-18",
+      "savings": 48
+    },
+    "604": {
+      "current_title": "Die Deutsche Wochenschau Nr. 604 | 01.04.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 604: Bombs on Germany (Apr 1942) | 8K",
+      "new_length": 49,
+      "event_en": "Bombs on Germany",
+      "date": "1942-04-01",
+      "savings": 42
+    },
+    "605": {
+      "current_title": "Die Deutsche Wochenschau Nr. 605 | 08.04.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 605: Lubeck Bombed (Apr 1942) | 8K",
+      "new_length": 46,
+      "event_en": "Lubeck Bombed",
+      "date": "1942-04-08",
+      "savings": 45
+    },
+    "606": {
+      "current_title": "Die Deutsche Wochenschau Nr. 606 | 15.04.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 606: Baedeker Raids (Apr 1942) | 8K",
+      "new_length": 47,
+      "event_en": "Baedeker Raids",
+      "date": "1942-04-15",
+      "savings": 44
+    },
+    "607": {
+      "current_title": "Die Deutsche Wochenschau Nr. 607 | 22.04.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 607: Spring Offensive (Apr 1942) | 8K",
+      "new_length": 49,
+      "event_en": "Spring Offensive",
+      "date": "1942-04-22",
+      "savings": 42
+    },
+    "608": {
+      "current_title": "Die Deutsche Wochenschau Nr. 608 | 29.04.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 608: Hitler Speech (Apr 1942) | 8K",
+      "new_length": 46,
+      "event_en": "Hitler Speech",
+      "date": "1942-04-29",
+      "savings": 45
+    },
+    "609": {
+      "current_title": "Die Deutsche Wochenschau Nr. 609 | 06.05.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 609: Kharkov Offensive (May 1942) | 8K",
+      "new_length": 50,
+      "event_en": "Kharkov Offensive",
+      "date": "1942-05-06",
+      "savings": 41
+    },
+    "610": {
+      "current_title": "Die Deutsche Wochenschau Nr. 610 | 13.05.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 610: Kharkov Pocket (May 1942) | 8K",
+      "new_length": 47,
+      "event_en": "Kharkov Pocket",
+      "date": "1942-05-13",
+      "savings": 44
+    },
+    "611": {
+      "current_title": "Die Deutsche Wochenschau Nr. 611 | 20.05.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 611: Kharkov Victory (May 1942) | 8K",
+      "new_length": 48,
+      "event_en": "Kharkov Victory",
+      "date": "1942-05-20",
+      "savings": 43
+    },
+    "612": {
+      "current_title": "Die Deutsche Wochenschau Nr. 612 | 27.05.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 612: Heydrich Killed (May 1942) | 8K",
+      "new_length": 48,
+      "event_en": "Heydrich Killed",
+      "date": "1942-05-27",
+      "savings": 43
+    },
+    "613": {
+      "current_title": "Die Deutsche Wochenschau Nr. 613 | 03.06.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 613: 1000 Bombers Cologne (Jun 1942) | 8K",
+      "new_length": 53,
+      "event_en": "1000 Bombers Cologne",
+      "date": "1942-06-03",
+      "savings": 38
+    },
+    "614": {
+      "current_title": "Die Deutsche Wochenschau Nr. 614 | 10.06.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 614: Heydrich Death (Jun 1942) | 8K",
+      "new_length": 47,
+      "event_en": "Heydrich Death",
+      "date": "1942-06-10",
+      "savings": 44
+    },
+    "615": {
+      "current_title": "Die Deutsche Wochenschau Nr. 615 | 17.06.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 615: Midway Battle (Jun 1942) | 8K",
+      "new_length": 46,
+      "event_en": "Midway Battle",
+      "date": "1942-06-17",
+      "savings": 45
+    },
+    "616": {
+      "current_title": "Die Deutsche Wochenschau Nr. 616 | 24.06.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 616: Tobruk Captured (Jun 1942) | 8K",
+      "new_length": 48,
+      "event_en": "Tobruk Captured",
+      "date": "1942-06-24",
+      "savings": 43
+    },
+    "617": {
+      "current_title": "Die Deutsche Wochenschau Nr. 617 | 01.07.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 617: Rommel in Egypt (Jul 1942) | 8K",
+      "new_length": 48,
+      "event_en": "Rommel in Egypt",
+      "date": "1942-07-01",
+      "savings": 43
+    },
+    "618": {
+      "current_title": "Die Deutsche Wochenschau Nr. 618 | 08.07.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 618: Case Blue (Jul 1942) | 8K",
+      "new_length": 42,
+      "event_en": "Case Blue",
+      "date": "1942-07-08",
+      "savings": 49
+    },
+    "619": {
+      "current_title": "Die Deutsche Wochenschau Nr. 619 | 15.07.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 619: El Alamein (Jul 1942) | 8K",
+      "new_length": 43,
+      "event_en": "El Alamein",
+      "date": "1942-07-15",
+      "savings": 48
+    },
+    "620": {
+      "current_title": "Die Deutsche Wochenschau Nr. 620 | 22.07.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 620: Caucasus Advance (Jul 1942) | 8K",
+      "new_length": 49,
+      "event_en": "Caucasus Advance",
+      "date": "1942-07-22",
+      "savings": 42
+    },
+    "621": {
+      "current_title": "Die Deutsche Wochenschau Nr. 621 | 29.07.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 621: Rostov Falls Again (Jul 1942) | 8K",
+      "new_length": 51,
+      "event_en": "Rostov Falls Again",
+      "date": "1942-07-29",
+      "savings": 40
+    },
+    "622": {
+      "current_title": "Die Deutsche Wochenschau Nr. 622 | 05.08.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 622: Stalingrad Advance (Aug 1942) | 8K",
+      "new_length": 51,
+      "event_en": "Stalingrad Advance",
+      "date": "1942-08-05",
+      "savings": 40
+    },
+    "623": {
+      "current_title": "Die Deutsche Wochenschau Nr. 623 | 12.08.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 623: Churchill-Stalin (Aug 1942) | 8K",
+      "new_length": 49,
+      "event_en": "Churchill-Stalin",
+      "date": "1942-08-12",
+      "savings": 42
+    },
+    "624": {
+      "current_title": "Die Deutsche Wochenschau Nr. 624 | 19.08.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 624: Dieppe Raid (Aug 1942) | 8K",
+      "new_length": 44,
+      "event_en": "Dieppe Raid",
+      "date": "1942-08-19",
+      "savings": 47
+    },
+    "625": {
+      "current_title": "Die Deutsche Wochenschau Nr. 625 | 26.08.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 625: Stalingrad Reached (Aug 1942) | 8K",
+      "new_length": 51,
+      "event_en": "Stalingrad Reached",
+      "date": "1942-08-26",
+      "savings": 40
+    },
+    "627": {
+      "current_title": "Die Deutsche Wochenschau Nr. 627 | 09.09.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 627: Stalingrad Streets (Sep 1942) | 8K",
+      "new_length": 51,
+      "event_en": "Stalingrad Streets",
+      "date": "1942-09-09",
+      "savings": 40
+    },
+    "628": {
+      "current_title": "Die Deutsche Wochenschau Nr. 628 | 16.09.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 628: Stalingrad Hill (Sep 1942) | 8K",
+      "new_length": 48,
+      "event_en": "Stalingrad Hill",
+      "date": "1942-09-16",
+      "savings": 43
+    },
+    "629": {
+      "current_title": "Die Deutsche Wochenschau Nr. 629 | 23.09.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 629: Stalingrad Factories (Sep 1942) | 8K",
+      "new_length": 53,
+      "event_en": "Stalingrad Factories",
+      "date": "1942-09-23",
+      "savings": 38
+    },
+    "630": {
+      "current_title": "Die Deutsche Wochenschau Nr. 630 | 30.09.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 630: Caucasus Elbrus (Sep 1942) | 8K",
+      "new_length": 48,
+      "event_en": "Caucasus Elbrus",
+      "date": "1942-09-30",
+      "savings": 43
+    },
+    "631": {
+      "current_title": "Die Deutsche Wochenschau Nr. 631 | 07.10.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 631: Factory Battle (Oct 1942) | 8K",
+      "new_length": 47,
+      "event_en": "Factory Battle",
+      "date": "1942-10-07",
+      "savings": 44
+    },
+    "632": {
+      "current_title": "Die Deutsche Wochenschau Nr. 632 | 14.10.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 632: Stalingrad Peak (Oct 1942) | 8K",
+      "new_length": 48,
+      "event_en": "Stalingrad Peak",
+      "date": "1942-10-14",
+      "savings": 43
+    },
+    "633": {
+      "current_title": "Die Deutsche Wochenschau Nr. 633 | 21.10.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 633: El Alamein II (Oct 1942) | 8K",
+      "new_length": 46,
+      "event_en": "El Alamein II",
+      "date": "1942-10-21",
+      "savings": 45
+    },
+    "634": {
+      "current_title": "Die Deutsche Wochenschau Nr. 634 | 28.10.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 634: El Alamein Defeat (Oct 1942) | 8K",
+      "new_length": 50,
+      "event_en": "El Alamein Defeat",
+      "date": "1942-10-28",
+      "savings": 41
+    },
+    "635": {
+      "current_title": "Die Deutsche Wochenschau Nr. 635 | 04.11.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 635: Africa Retreat (Nov 1942) | 8K",
+      "new_length": 47,
+      "event_en": "Africa Retreat",
+      "date": "1942-11-04",
+      "savings": 44
+    },
+    "637": {
+      "current_title": "Die Deutsche Wochenschau Nr. 637 | 18.11.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 637: Torch Landing (Nov 1942) | 8K",
+      "new_length": 46,
+      "event_en": "Torch Landing",
+      "date": "1942-11-18",
+      "savings": 45
+    },
+    "638": {
+      "current_title": "Die Deutsche Wochenschau Nr. 638 | 25.11.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 638: Stalingrad Encircled (Nov 1942) | 8K",
+      "new_length": 53,
+      "event_en": "Stalingrad Encircled",
+      "date": "1942-11-25",
+      "savings": 38
+    },
+    "639": {
+      "current_title": "Die Deutsche Wochenschau Nr. 639 | 02.12.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 639: Stalingrad Pocket (Dec 1942) | 8K",
+      "new_length": 50,
+      "event_en": "Stalingrad Pocket",
+      "date": "1942-12-02",
+      "savings": 41
+    },
+    "640": {
+      "current_title": "Die Deutsche Wochenschau Nr. 640 | 09.12.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 640: Winter Storm (Dec 1942) | 8K",
+      "new_length": 45,
+      "event_en": "Winter Storm",
+      "date": "1942-12-09",
+      "savings": 46
+    },
+    "641": {
+      "current_title": "Die Deutsche Wochenschau Nr. 641 | 16.12.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 641: Winter Storm Fails (Dec 1942) | 8K",
+      "new_length": 51,
+      "event_en": "Winter Storm Fails",
+      "date": "1942-12-16",
+      "savings": 40
+    },
+    "642": {
+      "current_title": "Die Deutsche Wochenschau Nr. 642 | 23.12.1942 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 642: Christmas Stalingrad (Dec 1942) | 8K",
+      "new_length": 53,
+      "event_en": "Christmas Stalingrad",
+      "date": "1942-12-23",
+      "savings": 38
+    },
+    "644": {
+      "current_title": "Die Deutsche Wochenschau Nr. 644 | 06.01.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 644: Stalingrad Agony (Jan 1943) | 8K",
+      "new_length": 49,
+      "event_en": "Stalingrad Agony",
+      "date": "1943-01-06",
+      "savings": 42
+    },
+    "645": {
+      "current_title": "Die Deutsche Wochenschau Nr. 645 | 13.01.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 645: Ring Operation (Jan 1943) | 8K",
+      "new_length": 47,
+      "event_en": "Ring Operation",
+      "date": "1943-01-13",
+      "savings": 44
+    },
+    "647": {
+      "current_title": "Die Deutsche Wochenschau Nr. 647 | 27.01.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 647: Casablanca Summit (Jan 1943) | 8K",
+      "new_length": 50,
+      "event_en": "Casablanca Summit",
+      "date": "1943-01-27",
+      "savings": 41
+    },
+    "648": {
+      "current_title": "Die Deutsche Wochenschau Nr. 648 | 03.02.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 648: Stalingrad Surrender (Feb 1943) | 8K",
+      "new_length": 53,
+      "event_en": "Stalingrad Surrender",
+      "date": "1943-02-03",
+      "savings": 38
+    },
+    "649": {
+      "current_title": "Die Deutsche Wochenschau Nr. 649 | 10.02.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 649: After Stalingrad (Feb 1943) | 8K",
+      "new_length": 49,
+      "event_en": "After Stalingrad",
+      "date": "1943-02-10",
+      "savings": 42
+    },
+    "650": {
+      "current_title": "Die Deutsche Wochenschau Nr. 650 | 17.02.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 650: Total War (Feb 1943) | 8K",
+      "new_length": 42,
+      "event_en": "Total War",
+      "date": "1943-02-17",
+      "savings": 49
+    },
+    "651": {
+      "current_title": "Die Deutsche Wochenschau Nr. 651 | 24.02.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 651: Kharkov Recaptured (Feb 1943) | 8K",
+      "new_length": 51,
+      "event_en": "Kharkov Recaptured",
+      "date": "1943-02-24",
+      "savings": 40
+    },
+    "652": {
+      "current_title": "Die Deutsche Wochenschau Nr. 652 | 03.03.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 652: Kharkov III (Mar 1943) | 8K",
+      "new_length": 44,
+      "event_en": "Kharkov III",
+      "date": "1943-03-03",
+      "savings": 47
+    },
+    "653": {
+      "current_title": "Die Deutsche Wochenschau Nr. 653 | 10.03.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 653: Kharkov Victory (Mar 1943) | 8K",
+      "new_length": 48,
+      "event_en": "Kharkov Victory",
+      "date": "1943-03-10",
+      "savings": 43
+    },
+    "654": {
+      "current_title": "Die Deutsche Wochenschau Nr. 654 | 17.03.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 654: Tunisia Battles (Mar 1943) | 8K",
+      "new_length": 48,
+      "event_en": "Tunisia Battles",
+      "date": "1943-03-17",
+      "savings": 43
+    },
+    "655": {
+      "current_title": "Die Deutsche Wochenschau Nr. 655 | 24.03.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 655: Africa Retreat (Mar 1943) | 8K",
+      "new_length": 47,
+      "event_en": "Africa Retreat",
+      "date": "1943-03-24",
+      "savings": 44
+    },
+    "656": {
+      "current_title": "Die Deutsche Wochenschau Nr. 656 | 31.03.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 656: Eastern Situation (Mar 1943) | 8K",
+      "new_length": 50,
+      "event_en": "Eastern Situation",
+      "date": "1943-03-31",
+      "savings": 41
+    },
+    "657": {
+      "current_title": "Die Deutsche Wochenschau Nr. 657 | 07.04.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 657: Katyn Discovery (Apr 1943) | 8K",
+      "new_length": 48,
+      "event_en": "Katyn Discovery",
+      "date": "1943-04-07",
+      "savings": 43
+    },
+    "658": {
+      "current_title": "Die Deutsche Wochenschau Nr. 658 | 14.04.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 658: Katyn Propaganda (Apr 1943) | 8K",
+      "new_length": 49,
+      "event_en": "Katyn Propaganda",
+      "date": "1943-04-14",
+      "savings": 42
+    },
+    "659": {
+      "current_title": "Die Deutsche Wochenschau Nr. 659 | 21.04.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 659: Tunisia Final (Apr 1943) | 8K",
+      "new_length": 46,
+      "event_en": "Tunisia Final",
+      "date": "1943-04-21",
+      "savings": 45
+    },
+    "660": {
+      "current_title": "Die Deutsche Wochenschau Nr. 660 | 28.04.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 660: Dambuster Raid (Apr 1943) | 8K",
+      "new_length": 47,
+      "event_en": "Dambuster Raid",
+      "date": "1943-04-28",
+      "savings": 44
+    },
+    "661": {
+      "current_title": "Die Deutsche Wochenschau Nr. 661 | 05.05.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 661: Africa Defeat (May 1943) | 8K",
+      "new_length": 46,
+      "event_en": "Africa Defeat",
+      "date": "1943-05-05",
+      "savings": 45
+    },
+    "662": {
+      "current_title": "Die Deutsche Wochenschau Nr. 662 | 12.05.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 662: Africa Surrender (May 1943) | 8K",
+      "new_length": 49,
+      "event_en": "Africa Surrender",
+      "date": "1943-05-12",
+      "savings": 42
+    },
+    "663": {
+      "current_title": "Die Deutsche Wochenschau Nr. 663 | 19.05.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 663: Dambuster Attack (May 1943) | 8K",
+      "new_length": 49,
+      "event_en": "Dambuster Attack",
+      "date": "1943-05-19",
+      "savings": 42
+    },
+    "665": {
+      "current_title": "Die Deutsche Wochenschau Nr. 665 | 02.06.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 665: Ruhr Bombing (Jun 1943) | 8K",
+      "new_length": 45,
+      "event_en": "Ruhr Bombing",
+      "date": "1943-06-02",
+      "savings": 46
+    },
+    "666": {
+      "current_title": "Die Deutsche Wochenschau Nr. 666 | 09.06.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 666: Citadel Planning (Jun 1943) | 8K",
+      "new_length": 49,
+      "event_en": "Citadel Planning",
+      "date": "1943-06-09",
+      "savings": 42
+    },
+    "667": {
+      "current_title": "Die Deutsche Wochenschau Nr. 667 | 16.06.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 667: Sicily Preparation (Jun 1943) | 8K",
+      "new_length": 51,
+      "event_en": "Sicily Preparation",
+      "date": "1943-06-16",
+      "savings": 40
+    },
+    "668": {
+      "current_title": "Die Deutsche Wochenschau Nr. 668 | 23.06.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 668: Kursk Buildup (Jun 1943) | 8K",
+      "new_length": 46,
+      "event_en": "Kursk Buildup",
+      "date": "1943-06-23",
+      "savings": 45
+    },
+    "669": {
+      "current_title": "Die Deutsche Wochenschau Nr. 669 | 30.06.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 669: Hamburg Bombing (Jun 1943) | 8K",
+      "new_length": 48,
+      "event_en": "Hamburg Bombing",
+      "date": "1943-06-30",
+      "savings": 43
+    },
+    "670": {
+      "current_title": "Die Deutsche Wochenschau Nr. 670 | 07.07.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 670: Kursk Battle (Jul 1943) | 8K",
+      "new_length": 45,
+      "event_en": "Kursk Battle",
+      "date": "1943-07-07",
+      "savings": 46
+    },
+    "671": {
+      "current_title": "Die Deutsche Wochenschau Nr. 671 | 14.07.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 671: Sicily Invasion (Jul 1943) | 8K",
+      "new_length": 48,
+      "event_en": "Sicily Invasion",
+      "date": "1943-07-14",
+      "savings": 43
+    },
+    "672": {
+      "current_title": "Die Deutsche Wochenschau Nr. 672 | 21.07.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 672: Kursk Cancelled (Jul 1943) | 8K",
+      "new_length": 48,
+      "event_en": "Kursk Cancelled",
+      "date": "1943-07-21",
+      "savings": 43
+    },
+    "673": {
+      "current_title": "Die Deutsche Wochenschau Nr. 673 | 28.07.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 673: Hamburg Firestorm (Jul 1943) | 8K",
+      "new_length": 50,
+      "event_en": "Hamburg Firestorm",
+      "date": "1943-07-28",
+      "savings": 41
+    },
+    "674": {
+      "current_title": "Die Deutsche Wochenschau Nr. 674 | 04.08.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 674: Mussolini Falls (Aug 1943) | 8K",
+      "new_length": 48,
+      "event_en": "Mussolini Falls",
+      "date": "1943-08-04",
+      "savings": 43
+    },
+    "675": {
+      "current_title": "Die Deutsche Wochenschau Nr. 675 | 11.08.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 675: Sicily Retreat (Aug 1943) | 8K",
+      "new_length": 47,
+      "event_en": "Sicily Retreat",
+      "date": "1943-08-11",
+      "savings": 44
+    },
+    "676": {
+      "current_title": "Die Deutsche Wochenschau Nr. 676 | 18.08.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 676: Sicily Lost (Aug 1943) | 8K",
+      "new_length": 44,
+      "event_en": "Sicily Lost",
+      "date": "1943-08-18",
+      "savings": 47
+    },
+    "677": {
+      "current_title": "Die Deutsche Wochenschau Nr. 677 | 25.08.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 677: Soviet Counter (Aug 1943) | 8K",
+      "new_length": 47,
+      "event_en": "Soviet Counter",
+      "date": "1943-08-25",
+      "savings": 44
+    },
+    "679": {
+      "current_title": "Die Deutsche Wochenschau Nr. 679 | 08.09.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 679: Italy Surrenders (Sep 1943) | 8K",
+      "new_length": 49,
+      "event_en": "Italy Surrenders",
+      "date": "1943-09-08",
+      "savings": 42
+    },
+    "680": {
+      "current_title": "Die Deutsche Wochenschau Nr. 680 | 15.09.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 680: Mussolini Rescue (Sep 1943) | 8K",
+      "new_length": 49,
+      "event_en": "Mussolini Rescue",
+      "date": "1943-09-15",
+      "savings": 42
+    },
+    "681": {
+      "current_title": "Die Deutsche Wochenschau Nr. 681 | 22.09.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 681: Salerno Landing (Sep 1943) | 8K",
+      "new_length": 48,
+      "event_en": "Salerno Landing",
+      "date": "1943-09-22",
+      "savings": 43
+    },
+    "682": {
+      "current_title": "Die Deutsche Wochenschau Nr. 682 | 29.09.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 682: Italy Front (Sep 1943) | 8K",
+      "new_length": 44,
+      "event_en": "Italy Front",
+      "date": "1943-09-29",
+      "savings": 47
+    },
+    "683": {
+      "current_title": "Die Deutsche Wochenschau Nr. 683 | 06.10.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 683: Smolensk Freed (Oct 1943) | 8K",
+      "new_length": 47,
+      "event_en": "Smolensk Freed",
+      "date": "1943-10-06",
+      "savings": 44
+    },
+    "684": {
+      "current_title": "Die Deutsche Wochenschau Nr. 684 | 13.10.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 684: Dnepr Battles (Oct 1943) | 8K",
+      "new_length": 46,
+      "event_en": "Dnepr Battles",
+      "date": "1943-10-13",
+      "savings": 45
+    },
+    "685": {
+      "current_title": "Die Deutsche Wochenschau Nr. 685 | 20.10.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 685: Kiev Advance (Oct 1943) | 8K",
+      "new_length": 45,
+      "event_en": "Kiev Advance",
+      "date": "1943-10-20",
+      "savings": 46
+    },
+    "686": {
+      "current_title": "Die Deutsche Wochenschau Nr. 686 | 27.10.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 686: Gustav Line (Oct 1943) | 8K",
+      "new_length": 44,
+      "event_en": "Gustav Line",
+      "date": "1943-10-27",
+      "savings": 47
+    },
+    "687": {
+      "current_title": "Die Deutsche Wochenschau Nr. 687 | 03.11.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 687: Kiev Battle (Nov 1943) | 8K",
+      "new_length": 44,
+      "event_en": "Kiev Battle",
+      "date": "1943-11-03",
+      "savings": 47
+    },
+    "688": {
+      "current_title": "Die Deutsche Wochenschau Nr. 688 | 10.11.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 688: Kiev Liberated (Nov 1943) | 8K",
+      "new_length": 47,
+      "event_en": "Kiev Liberated",
+      "date": "1943-11-10",
+      "savings": 44
+    },
+    "689": {
+      "current_title": "Die Deutsche Wochenschau Nr. 689 | 17.11.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 689: Berlin Bombed (Nov 1943) | 8K",
+      "new_length": 46,
+      "event_en": "Berlin Bombed",
+      "date": "1943-11-17",
+      "savings": 45
+    },
+    "690": {
+      "current_title": "Die Deutsche Wochenschau Nr. 690 | 24.11.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 690: Tehran Conference (Nov 1943) | 8K",
+      "new_length": 50,
+      "event_en": "Tehran Conference",
+      "date": "1943-11-24",
+      "savings": 41
+    },
+    "691": {
+      "current_title": "Die Deutsche Wochenschau Nr. 691 | 01.12.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 691: Winter Battles (Dec 1943) | 8K",
+      "new_length": 47,
+      "event_en": "Winter Battles",
+      "date": "1943-12-01",
+      "savings": 44
+    },
+    "692": {
+      "current_title": "Die Deutsche Wochenschau Nr. 692 | 08.12.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 692: Eastern Retreats (Dec 1943) | 8K",
+      "new_length": 49,
+      "event_en": "Eastern Retreats",
+      "date": "1943-12-08",
+      "savings": 42
+    },
+    "693": {
+      "current_title": "Die Deutsche Wochenschau Nr. 693 | 15.12.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 693: Monte Cassino (Dec 1943) | 8K",
+      "new_length": 46,
+      "event_en": "Monte Cassino",
+      "date": "1943-12-15",
+      "savings": 45
+    },
+    "694": {
+      "current_title": "Die Deutsche Wochenschau Nr. 694 | 22.12.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 694: Christmas 1943 (Dec 1943) | 8K",
+      "new_length": 47,
+      "event_en": "Christmas 1943",
+      "date": "1943-12-22",
+      "savings": 44
+    },
+    "695": {
+      "current_title": "Die Deutsche Wochenschau Nr. 695 | 29.12.1943 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 695: Leningrad Prep (Dec 1943) | 8K",
+      "new_length": 47,
+      "event_en": "Leningrad Prep",
+      "date": "1943-12-29",
+      "savings": 44
+    },
+    "696": {
+      "current_title": "Die Deutsche Wochenschau Nr. 696 | 05.01.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 696: New Year 1944 (Jan 1944) | 8K",
+      "new_length": 46,
+      "event_en": "New Year 1944",
+      "date": "1944-01-05",
+      "savings": 45
+    },
+    "697": {
+      "current_title": "Die Deutsche Wochenschau Nr. 697 | 12.01.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 697: Leningrad Relief (Jan 1944) | 8K",
+      "new_length": 49,
+      "event_en": "Leningrad Relief",
+      "date": "1944-01-12",
+      "savings": 42
+    },
+    "698": {
+      "current_title": "Die Deutsche Wochenschau Nr. 698 | 19.01.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 698: Leningrad Freed (Jan 1944) | 8K",
+      "new_length": 48,
+      "event_en": "Leningrad Freed",
+      "date": "1944-01-19",
+      "savings": 43
+    },
+    "699": {
+      "current_title": "Die Deutsche Wochenschau Nr. 699 | 26.01.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 699: Anzio Landing (Jan 1944) | 8K",
+      "new_length": 46,
+      "event_en": "Anzio Landing",
+      "date": "1944-01-26",
+      "savings": 45
+    },
+    "700": {
+      "current_title": "Die Deutsche Wochenschau Nr. 700 | 02.02.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 700: Korsun Pocket (Feb 1944) | 8K",
+      "new_length": 46,
+      "event_en": "Korsun Pocket",
+      "date": "1944-02-02",
+      "savings": 45
+    },
+    "701": {
+      "current_title": "Die Deutsche Wochenschau Nr. 701 | 09.02.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 701: Monte Cassino II (Feb 1944) | 8K",
+      "new_length": 49,
+      "event_en": "Monte Cassino II",
+      "date": "1944-02-09",
+      "savings": 42
+    },
+    "702": {
+      "current_title": "Die Deutsche Wochenschau Nr. 702 | 16.02.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 702: Cassino Bombed (Feb 1944) | 8K",
+      "new_length": 47,
+      "event_en": "Cassino Bombed",
+      "date": "1944-02-16",
+      "savings": 44
+    },
+    "703": {
+      "current_title": "Die Deutsche Wochenschau Nr. 703 | 23.02.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 703: Big Week (Feb 1944) | 8K",
+      "new_length": 41,
+      "event_en": "Big Week",
+      "date": "1944-02-23",
+      "savings": 50
+    },
+    "704": {
+      "current_title": "Die Deutsche Wochenschau Nr. 704 | 01.03.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 704: Air Supremacy Lost (Mar 1944) | 8K",
+      "new_length": 51,
+      "event_en": "Air Supremacy Lost",
+      "date": "1944-03-01",
+      "savings": 40
+    },
+    "705": {
+      "current_title": "Die Deutsche Wochenschau Nr. 705 | 08.03.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 705: Cassino III (Mar 1944) | 8K",
+      "new_length": 44,
+      "event_en": "Cassino III",
+      "date": "1944-03-08",
+      "savings": 47
+    },
+    "706": {
+      "current_title": "Die Deutsche Wochenschau Nr. 706 | 15.03.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 706: Hungary Occupied (Mar 1944) | 8K",
+      "new_length": 49,
+      "event_en": "Hungary Occupied",
+      "date": "1944-03-15",
+      "savings": 42
+    },
+    "707": {
+      "current_title": "Die Deutsche Wochenschau Nr. 707 | 22.03.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 707: Crimea Defense (Mar 1944) | 8K",
+      "new_length": 47,
+      "event_en": "Crimea Defense",
+      "date": "1944-03-22",
+      "savings": 44
+    },
+    "708": {
+      "current_title": "Die Deutsche Wochenschau Nr. 708 | 29.03.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 708: Eastern Spring (Mar 1944) | 8K",
+      "new_length": 47,
+      "event_en": "Eastern Spring",
+      "date": "1944-03-29",
+      "savings": 44
+    },
+    "709": {
+      "current_title": "Die Deutsche Wochenschau Nr. 709 | 05.04.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 709: Crimea Evacuation (Apr 1944) | 8K",
+      "new_length": 50,
+      "event_en": "Crimea Evacuation",
+      "date": "1944-04-05",
+      "savings": 41
+    },
+    "710": {
+      "current_title": "Die Deutsche Wochenschau Nr. 710 | 12.04.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 710: Crimea Lost (Apr 1944) | 8K",
+      "new_length": 44,
+      "event_en": "Crimea Lost",
+      "date": "1944-04-12",
+      "savings": 47
+    },
+    "711": {
+      "current_title": "Die Deutsche Wochenschau Nr. 711 | 19.04.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 711: Invasion Expected (Apr 1944) | 8K",
+      "new_length": 50,
+      "event_en": "Invasion Expected",
+      "date": "1944-04-19",
+      "savings": 41
+    },
+    "712": {
+      "current_title": "Die Deutsche Wochenschau Nr. 712 | 26.04.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 712: Atlantic Wall (Apr 1944) | 8K",
+      "new_length": 46,
+      "event_en": "Atlantic Wall",
+      "date": "1944-04-26",
+      "savings": 45
+    },
+    "713": {
+      "current_title": "Die Deutsche Wochenschau Nr. 713 | 03.05.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 713: Sevastopol Falls (May 1944) | 8K",
+      "new_length": 49,
+      "event_en": "Sevastopol Falls",
+      "date": "1944-05-03",
+      "savings": 42
+    },
+    "714": {
+      "current_title": "Die Deutsche Wochenschau Nr. 714 | 10.05.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 714: Cassino Final (May 1944) | 8K",
+      "new_length": 46,
+      "event_en": "Cassino Final",
+      "date": "1944-05-10",
+      "savings": 45
+    },
+    "715": {
+      "current_title": "Die Deutsche Wochenschau Nr. 715 | 17.05.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 715: Cassino Falls (May 1944) | 8K",
+      "new_length": 46,
+      "event_en": "Cassino Falls",
+      "date": "1944-05-17",
+      "savings": 45
+    },
+    "716": {
+      "current_title": "Die Deutsche Wochenschau Nr. 716 | 24.05.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 716: Rome Offensive (May 1944) | 8K",
+      "new_length": 47,
+      "event_en": "Rome Offensive",
+      "date": "1944-05-24",
+      "savings": 44
+    },
+    "717": {
+      "current_title": "Die Deutsche Wochenschau Nr. 717 | 31.05.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 717: Italy Retreat (May 1944) | 8K",
+      "new_length": 46,
+      "event_en": "Italy Retreat",
+      "date": "1944-05-31",
+      "savings": 45
+    },
+    "718": {
+      "current_title": "Die Deutsche Wochenschau Nr. 718 | 07.06.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 718: D-Day (Jun 1944) | 8K",
+      "new_length": 38,
+      "event_en": "D-Day",
+      "date": "1944-06-07",
+      "savings": 53
+    },
+    "719": {
+      "current_title": "Die Deutsche Wochenschau Nr. 719 | 14.06.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 719: Rome Falls (Jun 1944) | 8K",
+      "new_length": 43,
+      "event_en": "Rome Falls",
+      "date": "1944-06-14",
+      "savings": 48
+    },
+    "720": {
+      "current_title": "Die Deutsche Wochenschau Nr. 720 | 21.06.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 720: V1 Attacks (Jun 1944) | 8K",
+      "new_length": 43,
+      "event_en": "V1 Attacks",
+      "date": "1944-06-21",
+      "savings": 48
+    },
+    "721": {
+      "current_title": "Die Deutsche Wochenschau Nr. 721 | 28.06.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 721: Bagration Begins (Jun 1944) | 8K",
+      "new_length": 49,
+      "event_en": "Bagration Begins",
+      "date": "1944-06-28",
+      "savings": 42
+    },
+    "722": {
+      "current_title": "Die Deutsche Wochenschau Nr. 722 | 05.07.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 722: Bagration (Jul 1944) | 8K",
+      "new_length": 42,
+      "event_en": "Bagration",
+      "date": "1944-07-05",
+      "savings": 49
+    },
+    "723": {
+      "current_title": "Die Deutsche Wochenschau Nr. 723 | 12.07.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 723: Minsk Liberated (Jul 1944) | 8K",
+      "new_length": 48,
+      "event_en": "Minsk Liberated",
+      "date": "1944-07-12",
+      "savings": 43
+    },
+    "724": {
+      "current_title": "Die Deutsche Wochenschau Nr. 724 | 19.07.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 724: July 20 Plot (Jul 1944) | 8K",
+      "new_length": 45,
+      "event_en": "July 20 Plot",
+      "date": "1944-07-19",
+      "savings": 46
+    },
+    "725": {
+      "current_title": "Die Deutsche Wochenschau Nr. 725 | 26.07.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 725: Warsaw Uprising (Jul 1944) | 8K",
+      "new_length": 48,
+      "event_en": "Warsaw Uprising",
+      "date": "1944-07-26",
+      "savings": 43
+    },
+    "726": {
+      "current_title": "Die Deutsche Wochenschau Nr. 726 | 02.08.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 726: Paris Threatened (Aug 1944) | 8K",
+      "new_length": 49,
+      "event_en": "Paris Threatened",
+      "date": "1944-08-02",
+      "savings": 42
+    },
+    "727": {
+      "current_title": "Die Deutsche Wochenschau Nr. 727 | 09.08.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 727: Falaise Pocket (Aug 1944) | 8K",
+      "new_length": 47,
+      "event_en": "Falaise Pocket",
+      "date": "1944-08-09",
+      "savings": 44
+    },
+    "728": {
+      "current_title": "Die Deutsche Wochenschau Nr. 728 | 16.08.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 728: Paris Liberated (Aug 1944) | 8K",
+      "new_length": 48,
+      "event_en": "Paris Liberated",
+      "date": "1944-08-16",
+      "savings": 43
+    },
+    "729": {
+      "current_title": "Die Deutsche Wochenschau Nr. 729 | 23.08.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 729: Romania Surrenders (Aug 1944) | 8K",
+      "new_length": 51,
+      "event_en": "Romania Surrenders",
+      "date": "1944-08-23",
+      "savings": 40
+    },
+    "730": {
+      "current_title": "Die Deutsche Wochenschau Nr. 730 | 30.08.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 730: France Retreat (Aug 1944) | 8K",
+      "new_length": 47,
+      "event_en": "France Retreat",
+      "date": "1944-08-30",
+      "savings": 44
+    },
+    "731": {
+      "current_title": "Die Deutsche Wochenschau Nr. 731 | 06.09.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 731: Finland Surrenders (Sep 1944) | 8K",
+      "new_length": 51,
+      "event_en": "Finland Surrenders",
+      "date": "1944-09-06",
+      "savings": 40
+    },
+    "732": {
+      "current_title": "Die Deutsche Wochenschau Nr. 732 | 13.09.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 732: Reich Border (Sep 1944) | 8K",
+      "new_length": 45,
+      "event_en": "Reich Border",
+      "date": "1944-09-13",
+      "savings": 46
+    },
+    "733": {
+      "current_title": "Die Deutsche Wochenschau Nr. 733 | 20.09.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 733: Market Garden (Sep 1944) | 8K",
+      "new_length": 46,
+      "event_en": "Market Garden",
+      "date": "1944-09-20",
+      "savings": 45
+    },
+    "734": {
+      "current_title": "Die Deutsche Wochenschau Nr. 734 | 27.09.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 734: Arnhem Victory (Sep 1944) | 8K",
+      "new_length": 47,
+      "event_en": "Arnhem Victory",
+      "date": "1944-09-27",
+      "savings": 44
+    },
+    "735": {
+      "current_title": "Die Deutsche Wochenschau Nr. 735 | 04.10.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 735: Aachen Battle (Oct 1944) | 8K",
+      "new_length": 46,
+      "event_en": "Aachen Battle",
+      "date": "1944-10-04",
+      "savings": 45
+    },
+    "736": {
+      "current_title": "Die Deutsche Wochenschau Nr. 736 | 11.10.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 736: Aachen Falls (Oct 1944) | 8K",
+      "new_length": 45,
+      "event_en": "Aachen Falls",
+      "date": "1944-10-11",
+      "savings": 46
+    },
+    "737": {
+      "current_title": "Die Deutsche Wochenschau Nr. 737 | 18.10.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 737: Volkssturm (Oct 1944) | 8K",
+      "new_length": 43,
+      "event_en": "Volkssturm",
+      "date": "1944-10-18",
+      "savings": 48
+    },
+    "738": {
+      "current_title": "Die Deutsche Wochenschau Nr. 738 | 25.10.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 738: East Prussia (Oct 1944) | 8K",
+      "new_length": 45,
+      "event_en": "East Prussia",
+      "date": "1944-10-25",
+      "savings": 46
+    },
+    "739": {
+      "current_title": "Die Deutsche Wochenschau Nr. 739 | 01.11.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 739: East Prussia Defense (Nov 1944) | 8K",
+      "new_length": 53,
+      "event_en": "East Prussia Defense",
+      "date": "1944-11-01",
+      "savings": 38
+    },
+    "740": {
+      "current_title": "Die Deutsche Wochenschau Nr. 740 | 08.11.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 740: V2 Attacks (Nov 1944) | 8K",
+      "new_length": 43,
+      "event_en": "V2 Attacks",
+      "date": "1944-11-08",
+      "savings": 48
+    },
+    "741": {
+      "current_title": "Die Deutsche Wochenschau Nr. 741 | 15.11.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 741: Budapest Encircled (Nov 1944) | 8K",
+      "new_length": 51,
+      "event_en": "Budapest Encircled",
+      "date": "1944-11-15",
+      "savings": 40
+    },
+    "742": {
+      "current_title": "Die Deutsche Wochenschau Nr. 742 | 22.11.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 742: Strasbourg Liberated (Nov 1944) | 8K",
+      "new_length": 53,
+      "event_en": "Strasbourg Liberated",
+      "date": "1944-11-22",
+      "savings": 38
+    },
+    "743": {
+      "current_title": "Die Deutsche Wochenschau Nr. 743 | 29.11.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 743: Ardennes Planning (Nov 1944) | 8K",
+      "new_length": 50,
+      "event_en": "Ardennes Planning",
+      "date": "1944-11-29",
+      "savings": 41
+    },
+    "744": {
+      "current_title": "Die Deutsche Wochenschau Nr. 744 | 06.12.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 744: Last Offensive (Dec 1944) | 8K",
+      "new_length": 47,
+      "event_en": "Last Offensive",
+      "date": "1944-12-06",
+      "savings": 44
+    },
+    "745": {
+      "current_title": "Die Deutsche Wochenschau Nr. 745 | 13.12.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 745: Ardennes Ready (Dec 1944) | 8K",
+      "new_length": 47,
+      "event_en": "Ardennes Ready",
+      "date": "1944-12-13",
+      "savings": 44
+    },
+    "746": {
+      "current_title": "Die Deutsche Wochenschau Nr. 746 | 20.12.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 746: Ardennes Offensive (Dec 1944) | 8K",
+      "new_length": 51,
+      "event_en": "Ardennes Offensive",
+      "date": "1944-12-20",
+      "savings": 40
+    },
+    "747": {
+      "current_title": "Die Deutsche Wochenschau Nr. 747 | 27.12.1944 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 747: Ardennes Peak (Dec 1944) | 8K",
+      "new_length": 46,
+      "event_en": "Ardennes Peak",
+      "date": "1944-12-27",
+      "savings": 45
+    },
+    "748": {
+      "current_title": "Die Deutsche Wochenschau Nr. 748 | 03.01.1945 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 748: Northwind Offensive (Jan 1945) | 8K",
+      "new_length": 52,
+      "event_en": "Northwind Offensive",
+      "date": "1945-01-03",
+      "savings": 39
+    },
+    "749": {
+      "current_title": "Die Deutsche Wochenschau Nr. 749 | 10.01.1945 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 749: Ardennes Fails (Jan 1945) | 8K",
+      "new_length": 47,
+      "event_en": "Ardennes Fails",
+      "date": "1945-01-10",
+      "savings": 44
+    },
+    "750": {
+      "current_title": "Die Deutsche Wochenschau Nr. 750 | 17.01.1945 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 750: Vistula Offensive (Jan 1945) | 8K",
+      "new_length": 50,
+      "event_en": "Vistula Offensive",
+      "date": "1945-01-17",
+      "savings": 41
+    },
+    "751": {
+      "current_title": "Die Deutsche Wochenschau Nr. 751 | 24.01.1945 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 751: Eastern Collapse (Jan 1945) | 8K",
+      "new_length": 49,
+      "event_en": "Eastern Collapse",
+      "date": "1945-01-24",
+      "savings": 42
+    },
+    "752": {
+      "current_title": "Die Deutsche Wochenschau Nr. 752 | 31.01.1945 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 752: Auschwitz Liberated (Jan 1945) | 8K",
+      "new_length": 52,
+      "event_en": "Auschwitz Liberated",
+      "date": "1945-01-31",
+      "savings": 39
+    },
+    "753": {
+      "current_title": "Die Deutsche Wochenschau Nr. 753 | 07.02.1945 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 753: Yalta Conference (Feb 1945) | 8K",
+      "new_length": 49,
+      "event_en": "Yalta Conference",
+      "date": "1945-02-07",
+      "savings": 42
+    },
+    "754": {
+      "current_title": "Die Deutsche Wochenschau Nr. 754 | 14.02.1945 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 754: Dresden Bombed (Feb 1945) | 8K",
+      "new_length": 47,
+      "event_en": "Dresden Bombed",
+      "date": "1945-02-14",
+      "savings": 44
+    },
+    "755": {
+      "current_title": "Die Deutsche Wochenschau Nr. 755 | 21.02.1945 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "current_length": 91,
+      "new_title": "Wochenschau 755: Final Newsreel (Feb 1945) | 8K",
+      "new_length": 47,
+      "event_en": "Final Newsreel",
+      "date": "1945-02-21",
+      "savings": 44
+    }
+  }
+}

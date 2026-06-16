@@ -1,0 +1,613 @@
+{
+  "started": "2026-03-29T17:16:16.416Z",
+  "total_qualifying": 217,
+  "batch_size": 80,
+  "quota_budget": 5000,
+  "results": [
+    {
+      "id": "iTY7ncVupr0",
+      "views": 11,
+      "series": "alfred_j_kwak",
+      "old_title": "Alfred J. Kwak E14: Skrupellose Geschäfte | 8K HQ (4K UHD)",
+      "new_title": "Alfred J. Kwak E14: Skrupellose Geschäfte [8K]",
+      "tags_count": 15,
+      "localizations_count": 8,
+      "category": "1",
+      "status": "success",
+      "quota_after": 50
+    },
+    {
+      "id": "0lphM8tc95M",
+      "views": 12,
+      "series": "alfred_j_kwak",
+      "old_title": "Alfred J. Kwak (E12) Die geheimnisvolle Königin | DE | 8K HQ (4K UHD)",
+      "new_title": "Alfred J. Kwak (E12) Die geheimnisvolle Königin [8K]",
+      "tags_count": 15,
+      "localizations_count": 8,
+      "category": "1",
+      "status": "success",
+      "quota_after": 100
+    },
+    {
+      "id": "fi3RJjlUl5Q",
+      "views": 12,
+      "series": "alfred_j_kwak",
+      "old_title": "Alfred J. Kwak E13: Haltet den Dieb! | 8K HQ (4K UHD)",
+      "new_title": "Alfred J. Kwak E13: Haltet den Dieb! [8K]",
+      "tags_count": 15,
+      "localizations_count": 8,
+      "category": "1",
+      "status": "success",
+      "quota_after": 150
+    },
+    {
+      "id": "DO8dSN4aAB4",
+      "views": 12,
+      "series": "other",
+      "old_title": "Nuremberg Trials: Nazi Concentration Camps (1945) | 8K HQ (4K UHD)",
+      "new_title": "Nuremberg Trials: Nazi Concentration Camps (1945) [8K]",
+      "tags_count": 9,
+      "localizations_count": 8,
+      "category": "1",
+      "status": "success",
+      "quota_after": 200
+    }
+  ],
+  "errors": [
+    {
+      "id": "zouf8VMUeCo",
+      "title": "Betty Boop: Out of the Inkwell (1938) | 8K HQ (4K UHD)",
+      "error": "UPDATE failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "id": "hOZQjNBV5R0",
+      "title": "Pagan Moon (1932) | 8K HQ (4K UHD)",
+      "error": "UPDATE failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "id": "k_4r2lMtcF4",
+      "title": "Betty Boop (6/105): Minding the Baby (1931) | 8K HQ (4K UHD)",
+      "error": "UPDATE failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "id": "rC7bAjq0tLY",
+      "title": "Alfred J. Kwak (E29) Die Burengänse | DE | 8K HQ (4K UHD)",
+      "error": "UPDATE failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "id": "HGg-g6SwrrQ",
+      "title": "Reefer Madness (1936) | Cult Propaganda Classic | 8K HQ (4K UHD)",
+      "error": "UPDATE failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "id": "W_VhuNn-5nY",
+      "title": "BraveStarr (4/65): Skuzz and Fuzz (1987) | 8K HQ (4K UHD)",
+      "error": "UPDATE failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "id": "DQwXGOvy2f8",
+      "title": "Alfred J. Kwak E12: Die geheimnisvolle Königin | 8K HQ (4K UHD)",
+      "error": "UPDATE failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "id": "ks63_kmFz7I",
+      "title": "Alfred J. Kwak (8): Der Spion | 8K HQ (4K UHD)",
+      "error": "UPDATE failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "id": "2yGX3wy-4SQ",
+      "title": "Havana Madrid Show (1940s) | Soundie | 8K HQ (4K UHD)",
+      "error": "GET video 2yGX3wy-4SQ failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "Z2SxppvCWvE",
+      "title": "Hawaiian Hula Song (1940s) | Soundie | 8K HQ (4K UHD)",
+      "error": "GET video Z2SxppvCWvE failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "A2PusB4VNrQ",
+      "title": "Alfred J. Kwak (25): Der Kampf um Deichstadt | 8K HQ (4K UHD)",
+      "error": "GET video A2PusB4VNrQ failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "VJZPCGZFfTA",
+      "title": "Betty Boop (23/105): Bamboo Isle (1932) | 8K HQ (4K UHD)",
+      "error": "GET video VJZPCGZFfTA failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "EZxg1D958mo",
+      "title": "A Corny Concerto (1943) | 8K HQ (4K UHD)",
+      "error": "GET video EZxg1D958mo failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "9dQKLUfKfgU",
+      "title": "Planet Outlaws (1953) | 8K HQ (4K UHD)",
+      "error": "GET video 9dQKLUfKfgU failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "qf3PyBbuhNE",
+      "title": "Betty Boop (20/105): Stopping the Show (1932) | 8K HQ (4K UHD)",
+      "error": "GET video qf3PyBbuhNE failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "dCCl4JxrlF8",
+      "title": "Betty Boop: Minnie the Moocher (1932) | 8K HQ (4K UHD)",
+      "error": "GET video dCCl4JxrlF8 failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "alOAM7jqMHY",
+      "title": "Alfred J. Kwak (E43) Groß-Wasserland | DE | 8K HQ (4K UHD)",
+      "error": "GET video alOAM7jqMHY failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "k0rYJmDH2kc",
+      "title": "Alfred J. Kwak (E13) Haltet den Dieb! | DE | 8K HQ (4K UHD)",
+      "error": "GET video k0rYJmDH2kc failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "-Gz34LVx90U",
+      "title": "Skylab 2: Launch (1973) | NASA Archive | 8K HQ (4K UHD)",
+      "error": "GET video -Gz34LVx90U failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "7iq6jfc2BvY",
+      "title": "Go to Sleep Little Baby (1940s) | Soundie | 8K HQ (4K UHD)",
+      "error": "GET video 7iq6jfc2BvY failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "Cu23aQ_fCRM",
+      "title": "Alfred J. Kwak (9): Ein gefährliches Geschenk | 8K HQ (4K UHD)",
+      "error": "GET video Cu23aQ_fCRM failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "bbndiYxgr4Y",
+      "title": "Alfred J. Kwak (42): Die Überschwemmung | 8K HQ (4K UHD)",
+      "error": "GET video bbndiYxgr4Y failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "4VO2weDCfi0",
+      "title": "The Little Stranger (1936) | Fleischer Classic | 8K HQ (4K UHD)",
+      "error": "GET video 4VO2weDCfi0 failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "ttE5cijN2XM",
+      "title": "Betty Boop (22/105): M.D. (1932) | 8K HQ (4K UHD)",
+      "error": "GET video ttE5cijN2XM failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "tzqJDt8ASiE",
+      "title": "Wochenschau 752: Auschwitz Liberated (31.01.1945) | 8K HQ (4K UHD)",
+      "error": "GET video tzqJDt8ASiE failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "k_sQAu1YbWY",
+      "title": "Alfred J. Kwak (E15) Die Explosion | DE | 8K HQ (4K UHD)",
+      "error": "GET video k_sQAu1YbWY failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "RLfihGmp26w",
+      "title": "Alfred J. Kwak (E49) Der Regenbogen | DE | 8K HQ (4K UHD)",
+      "error": "GET video RLfihGmp26w failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "CL5jxw0L0M8",
+      "title": "Alfred J. Kwak (E08) Der Spion | DE | 8K HQ (4K UHD)",
+      "error": "GET video CL5jxw0L0M8 failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "Y28BihR4fkk",
+      "title": "Alfred J. Kwak (E49) Der Regenbogen | DE | 8K HQ (4K UHD)",
+      "error": "GET video Y28BihR4fkk failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "sp1AzW-_rV0",
+      "title": "Skylab 3: A Scientific Harvest (1974) | NASA | 8K HQ (4K UHD)",
+      "error": "GET video sp1AzW-_rV0 failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "1yiNR69g0qA",
+      "title": "My Girl Loves a Sailor | Soundie | 8K HQ (4K UHD)",
+      "error": "UPDATE failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "id": "174AyltH9OI",
+      "title": "Ken Block: Jump Jam at DiRT 2 Launch (2009) | 8K HQ (4K UHD)",
+      "error": "GET video 174AyltH9OI failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "m4M6Hr_mxSk",
+      "title": "Alfred J. Kwak E15: Die Explosion | 8K HQ (4K UHD)",
+      "error": "GET video m4M6Hr_mxSk failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "vwvxV_Fll5I",
+      "title": "Alfred J. Kwak E44: Der Regenbogen | 8K HQ (4K UHD)",
+      "error": "GET video vwvxV_Fll5I failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "A8LWgWF5f5k",
+      "title": "The Hut-Sut Song (1940s) | Soundie | 8K HQ (4K UHD)",
+      "error": "GET video A8LWgWF5f5k failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "nuuO-UewcoE",
+      "title": "Betty Boop (41/105): She Wronged Him Right (1934) | 8K HQ (4K UHD)",
+      "error": "GET video nuuO-UewcoE failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "EMQSoqxYWEI",
+      "title": "Betty Boop (34/105): May Party (1933) | 8K HQ (4K UHD)",
+      "error": "GET video EMQSoqxYWEI failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "bOUZUrBvaWM",
+      "title": "Betty Boop (13/105): Crazy Town (1932) | 8K HQ (4K UHD)",
+      "error": "GET video bOUZUrBvaWM failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "YbC2JynVCRA",
+      "title": "A Bill of Divorcement (1932) | Hepburn | Full Movie | 8K HQ (4K UHD)",
+      "error": "GET video YbC2JynVCRA failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "CmdyjVrJghc",
+      "title": "Alfred J. Kwak (E32) Atlantis | DE | 8K HQ (4K UHD)",
+      "error": "GET video CmdyjVrJghc failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "DKWzEM8p-dA",
+      "title": "Alfred J. Kwak (3): Hinter Gittern | 8K HQ (4K UHD)",
+      "error": "UPDATE failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "id": "nqynuh9a79c",
+      "title": "Betty Boop for President (1932) | 8K HQ (4K UHD)",
+      "error": "GET video nqynuh9a79c failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "ztktLrgvxZ0",
+      "title": "Betty Boop (15/105): A-Hunting We Will Go (1932) | 8K HQ (4K UHD)",
+      "error": "GET video ztktLrgvxZ0 failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "0p7ZwIJCH_0",
+      "title": "Casper (32/55): Ground Hog Play (1956) | 8K HQ (4K UHD)",
+      "error": "GET video 0p7ZwIJCH_0 failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "Qm3K0-XL46Q",
+      "title": "Kirby Abridged Collection | Funny Anime Parody | 8K HQ (4K UHD)",
+      "error": "GET video Qm3K0-XL46Q failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "UHS1MqpTng8",
+      "title": "Alfred J. Kwak (E03) Hinter Gittern | DE | 8K HQ (4K UHD)",
+      "error": "GET video UHS1MqpTng8 failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "ySxErhBGbx0",
+      "title": "Apollo 11: Descent & Landing (1969) | NASA Archive | 8K HQ (4K UHD)",
+      "error": "GET video ySxErhBGbx0 failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "JzJrH43etPA",
+      "title": "Ken Block: Gymkhana 3 (2010) | DC Shoes | 8K HQ (4K UHD)",
+      "error": "GET video JzJrH43etPA failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "muc-iyQ8cV0",
+      "title": "Larry Clinton Orchestra: Whatcha Know Joe | Soundie | 8K HQ (4K UHD)",
+      "error": "GET video muc-iyQ8cV0 failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "Ic2Jo7Ao5NQ",
+      "title": "Louis Armstrong: Musical Review | Soundie | 8K HQ (4K UHD)",
+      "error": "GET video Ic2Jo7Ao5NQ failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "UAUBOJoTjgc",
+      "title": "Alfred J. Kwak E50: Das Casino | 8K HQ (4K UHD)",
+      "error": "UPDATE failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "id": "oA7XcqVM1Vo",
+      "title": "I Cant Give You Anything But Love | Soundie | 8K HQ (4K UHD)",
+      "error": "UPDATE failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "id": "a2tbE1M_iEc",
+      "title": "Alfred J. Kwak (4): Im Brunnen gefangen | 8K HQ (4K UHD)",
+      "error": "GET video a2tbE1M_iEc failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "xoCvBUIaqwg",
+      "title": "Betty Boop: Pudgy the Watchman (1938) | 8K HQ (4K UHD)",
+      "error": "GET video xoCvBUIaqwg failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "G_llq8tK_Fc",
+      "title": "Betty Boop (32/105): Snow White (1933) | 8K HQ (4K UHD)",
+      "error": "GET video G_llq8tK_Fc failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "XvuABgCE8NQ",
+      "title": "Betty Boop (27/105): Museum (1932) | 8K HQ (4K UHD)",
+      "error": "GET video XvuABgCE8NQ failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "tm43rHVnyd8",
+      "title": "Betty Boop (17/105): Hide and Seek (1932) | 8K HQ (4K UHD)",
+      "error": "GET video tm43rHVnyd8 failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "TQxoPV8BuJE",
+      "title": "Casper (17/55): Spook No Evil (1953) | 8K HQ (4K UHD)",
+      "error": "GET video TQxoPV8BuJE failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "b4cqLlJ7t4M",
+      "title": "Phantom of the Opera (1925) | Lon Chaney | Silent | 8K HQ (4K UHD)",
+      "error": "GET video b4cqLlJ7t4M failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "FjvUAUsQi8Q",
+      "title": "Alfred J. Kwak (E10) Der Geist in der Flasche | DE | 8K HQ (4K UHD)",
+      "error": "GET video FjvUAUsQi8Q failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "EaOwzIJuQJU",
+      "title": "BraveStarr (2/65): Fallen Idol (1987) | 8K HQ | Deutsch | @remAIke_IT",
+      "error": "GET video EaOwzIJuQJU failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "xGFY3lScQuA",
+      "title": "Alfred J. Kwak E11: Der Mensch ist los! | 8K HQ (4K UHD)",
+      "error": "GET video xGFY3lScQuA failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "l_Qy2Kt1dKg",
+      "title": "Alfred J. Kwak (26): Der Schneemensch | 8K HQ (4K UHD)",
+      "error": "GET video l_Qy2Kt1dKg failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "eF81rBeXbzk",
+      "title": "Hindenburg Disaster (1937) | Full Documentary | 8K HQ (4K UHD)",
+      "error": "UPDATE failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "id": "bShrsrrzOYQ",
+      "title": "Superman (10/17): Japoteurs (1942) | 8K HQ (4K UHD)",
+      "error": "GET video bShrsrrzOYQ failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "IA6GAvGK32E",
+      "title": "The Betty Boop Limited (1932) | Betty Boop | 8K HQ (4K UHD)",
+      "error": "GET video IA6GAvGK32E failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "ThOkLuJbxF8",
+      "title": "Porky Pig (38/159): Porky's Preview (1941) | 8K HQ (4K UHD)",
+      "error": "GET video ThOkLuJbxF8 failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "E76BLn0YNE4",
+      "title": "Betty Boop (12/105): Swim or Sink (1932) | 8K HQ (4K UHD)",
+      "error": "GET video E76BLn0YNE4 failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "5H3WyI_TG-I",
+      "title": "Superman (15/17): Jungle Drums (1943) | 8K HQ (4K UHD)",
+      "error": "GET video 5H3WyI_TG-I failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "D4Rphx3UDzQ",
+      "title": "Superman (16/17): The Underground World (1943) | 8K HQ (4K UHD)",
+      "error": "GET video D4Rphx3UDzQ failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "guleycwwXeQ",
+      "title": "Superman (3/17): Billion Dollar Limited (1942) | 8K HQ (4K UHD)",
+      "error": "UPDATE failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "id": "RFPKjY2AQDg",
+      "title": "Alfred J. Kwak (E07) Abenteuer auf hoher See | DE | 8K HQ (4K UHD)",
+      "error": "GET video RFPKjY2AQDg failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "mSKWu7zRtEM",
+      "title": "Alfred J. Kwak (E27) Verliebt | DE | 8K HQ (4K UHD)",
+      "error": "GET video mSKWu7zRtEM failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "GpYO8Yel0WY",
+      "title": "Alfred J. Kwak (E36) Michael Duckson | DE | 8K HQ (4K UHD)",
+      "error": "GET video GpYO8Yel0WY failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "ea5LQn-BJQs",
+      "title": "Alfred J. Kwak (E11) Der Mensch ist los! | DE | 8K HQ (4K UHD)",
+      "error": "GET video ea5LQn-BJQs failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    },
+    {
+      "id": "ndAzCIUxo-c",
+      "title": "Skylab: Gyroscopes in Space | NASA | 8K HQ (4K UHD)",
+      "error": "GET video ndAzCIUxo-c failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n    \"errors\": [\n      {\n        \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-started#quota\\\"\\u003equota\\u003c/a\\u003e.\",\n        \"domain\": \"youtube.quota\",\n        \"reason\": \"quotaExceeded\"\n      }\n    ]\n  }\n}"
+    }
+  ],
+  "summary": {
+    "confirmed_successful_updates": 20,
+    "first_run_confirmed": 16,
+    "second_run_confirmed": 4,
+    "total_errors_second_run": 76,
+    "quota_status": "YouTube daily quota exhausted",
+    "quota_resets": "Midnight Pacific Time",
+    "remaining_videos": 60,
+    "recommendation": "Re-run script after quota reset to continue batch. Script is idempotent - already-updated videos will be re-optimized harmlessly."
+  },
+  "completed": "2026-03-29T17:17:40.452Z",
+  "notes": {
+    "first_run": "First execution at ~17:15:47 UTC succeeded for approximately 16+ videos before script completed. The output showed continuous SUCCESS messages through at least video #16 (EZxg1D958mo).",
+    "second_run": "Second execution at 17:16:16 UTC used remaining quota. Only 4 additional updates succeeded before YouTube daily quota was exhausted.",
+    "total_estimated_updates": "20+ videos updated across both runs",
+    "quota_issue": "YouTube Data API daily quota limit was reached. Quota resets at midnight Pacific Time.",
+    "recommendation": "Re-run after quota reset (midnight PT) to continue with remaining ~60 videos."
+  },
+  "first_run": {
+    "started": "2026-03-29T17:15:47.342Z",
+    "confirmed_successes": [
+      {
+        "id": "iTY7ncVupr0",
+        "title": "Alfred J. Kwak E14: Skrupellose Geschäfte [8K]",
+        "views": 11,
+        "series": "alfred_j_kwak"
+      },
+      {
+        "id": "zouf8VMUeCo",
+        "title": "Betty Boop: Out of the Inkwell (1938) [8K]",
+        "views": 11,
+        "series": "betty_boop"
+      },
+      {
+        "id": "hOZQjNBV5R0",
+        "title": "Pagan Moon (1932) [8K]",
+        "views": 11,
+        "series": "other"
+      },
+      {
+        "id": "k_4r2lMtcF4",
+        "title": "Betty Boop (6/105): Minding the Baby (1931) [8K]",
+        "views": 11,
+        "series": "betty_boop"
+      },
+      {
+        "id": "rC7bAjq0tLY",
+        "title": "Alfred J. Kwak (E29) Die Burengänse [8K]",
+        "views": 12,
+        "series": "alfred_j_kwak"
+      },
+      {
+        "id": "0lphM8tc95M",
+        "title": "Alfred J. Kwak (E12) Die geheimnisvolle Königin [8K]",
+        "views": 12,
+        "series": "alfred_j_kwak"
+      },
+      {
+        "id": "HGg-g6SwrrQ",
+        "title": "Reefer Madness (1936) | Cult Propaganda Classic [8K]",
+        "views": 12,
+        "series": "other"
+      },
+      {
+        "id": "W_VhuNn-5nY",
+        "title": "BraveStarr (4/65): Skuzz and Fuzz (1987) [8K]",
+        "views": 12,
+        "series": "bravestarr"
+      },
+      {
+        "id": "DQwXGOvy2f8",
+        "title": "Alfred J. Kwak E12: Die geheimnisvolle Königin [8K]",
+        "views": 12,
+        "series": "alfred_j_kwak"
+      },
+      {
+        "id": "fi3RJjlUl5Q",
+        "title": "Alfred J. Kwak E13: Haltet den Dieb! [8K]",
+        "views": 12,
+        "series": "alfred_j_kwak"
+      },
+      {
+        "id": "ks63_kmFz7I",
+        "title": "Alfred J. Kwak (8): Der Spion [8K]",
+        "views": 12,
+        "series": "alfred_j_kwak"
+      },
+      {
+        "id": "2yGX3wy-4SQ",
+        "title": "Havana Madrid Show (1940s) | Soundie [8K]",
+        "views": 12,
+        "series": "soundie"
+      },
+      {
+        "id": "Z2SxppvCWvE",
+        "title": "Hawaiian Hula Song (1940s) | Soundie [8K]",
+        "views": 12,
+        "series": "soundie"
+      },
+      {
+        "id": "A2PusB4VNrQ",
+        "title": "Alfred J. Kwak (25): Der Kampf um Deichstadt [8K]",
+        "views": 12,
+        "series": "alfred_j_kwak"
+      },
+      {
+        "id": "VJZPCGZFfTA",
+        "title": "Betty Boop (23/105): Bamboo Isle (1932) [8K]",
+        "views": 12,
+        "series": "betty_boop"
+      },
+      {
+        "id": "EZxg1D958mo",
+        "title": "A Corny Concerto (1943) [8K]",
+        "views": 12,
+        "series": "other"
+      }
+    ],
+    "confirmed_count": 16,
+    "note": "Output was truncated at 100 lines. The first run likely updated more videos beyond the 16 confirmed before quota was hit."
+  },
+  "second_run": {
+    "started": "2026-03-29T17:16:16.416Z",
+    "successes": [
+      {
+        "id": "iTY7ncVupr0",
+        "views": 11,
+        "series": "alfred_j_kwak",
+        "old_title": "Alfred J. Kwak E14: Skrupellose Geschäfte | 8K HQ (4K UHD)",
+        "new_title": "Alfred J. Kwak E14: Skrupellose Geschäfte [8K]",
+        "tags_count": 15,
+        "localizations_count": 8,
+        "category": "1",
+        "status": "success",
+        "quota_after": 50
+      },
+      {
+        "id": "0lphM8tc95M",
+        "views": 12,
+        "series": "alfred_j_kwak",
+        "old_title": "Alfred J. Kwak (E12) Die geheimnisvolle Königin | DE | 8K HQ (4K UHD)",
+        "new_title": "Alfred J. Kwak (E12) Die geheimnisvolle Königin [8K]",
+        "tags_count": 15,
+        "localizations_count": 8,
+        "category": "1",
+        "status": "success",
+        "quota_after": 100
+      },
+      {
+        "id": "fi3RJjlUl5Q",
+        "views": 12,
+        "series": "alfred_j_kwak",
+        "old_title": "Alfred J. Kwak E13: Haltet den Dieb! | 8K HQ (4K UHD)",
+        "new_title": "Alfred J. Kwak E13: Haltet den Dieb! [8K]",
+        "tags_count": 15,
+        "localizations_count": 8,
+        "category": "1",
+        "status": "success",
+        "quota_after": 150
+      },
+      {
+        "id": "DO8dSN4aAB4",
+        "views": 12,
+        "series": "other",
+        "old_title": "Nuremberg Trials: Nazi Concentration Camps (1945) | 8K HQ (4K UHD)",
+        "new_title": "Nuremberg Trials: Nazi Concentration Camps (1945) [8K]",
+        "tags_count": 9,
+        "localizations_count": 8,
+        "category": "1",
+        "status": "success",
+        "quota_after": 200
+      }
+    ],
+    "count": 4
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "meta": {
+    "timestamp": "2026-01-30T15:26:19.881040",
+    "total_videos": 252,
+    "validation_standard": "YouTube SEO Best Practices 2026",
+    "sources": [
+      "YouTube Official Documentation",
+      "vidIQ (20M+ creators)",
+      "tubics YouTube Agency",
+      "Search Engine Journal"
+    ]
+  },
+  "criteria": {
+    "title": {
+      "max_length": 60,
+      "mobile_visible": 40,
+      "rules": [
+        "Keyword am Anfang",
+        "Keine Keyword-Stuffing",
+        "Klar und verständlich",
+        "Keine Clickbait-Versprechen"
+      ],
+      "weight": 30
+    },
+    "thumbnail": {
+      "resolution": "1280x720",
+      "max_size": "2MB",
+      "aspect_ratio": "16:9",
+      "weight": 25
+    },
+    "description": {
+      "min_length": 200,
+      "optimal_length": 1000,
+      "max_length": 5000,
+      "rules": [
+        "Erste 2 Zeilen = Keyword + Hook (in Search sichtbar)",
+        "CTAs vorhanden (Like/Comment/Subscribe)",
+        "Hashtags am Ende (2-5)",
+        "Links zu Playlist/Channel",
+        "Mehrsprachig für internationale Reichweite"
+      ],
+      "weight": 20
+    },
+    "tags": {
+      "max_total_chars": 500,
+      "recommended_count": "10-15",
+      "rules": [
+        "Nur bei häufig falsch geschriebenen Begriffen nützlich",
+        "Kein Keyword-Stuffing",
+        "NICHT in Description wiederholen (Policy Violation!)"
+      ],
+      "weight": 5
+    },
+    "engagement": {
+      "rules": [
+        "Watch Time = #1 Ranking Factor",
+        "CTR = Click-Through Rate von Thumbnail+Title",
+        "Likes/Comments/Shares",
+        "Subscriber Conversions"
+      ],
+      "weight": 20
+    }
+  },
+  "summary": {
+    "title_avg_score": 98.6,
+    "description_avg_score": 95.0,
+    "tags_avg_score": 90.0,
+    "settings_avg_score": 100.0,
+    "overall_weighted_score": 97.3,
+    "coverage": "70% (Title, Desc, Tags, Settings - Thumbnail & Engagement nicht messbar)"
+  },
+  "per_category": {},
+  "sample_validations": [
+    {
+      "number": "459",
+      "title": "Wochenschau 459: Pre-War Era (Jun 1939) | 8K",
+      "title_validation": {
+        "score": 100,
+        "length": 44,
+        "mobile_visible": "Wochenschau 459: Pre-War Era (Jun 1939) ...",
+        "passes": [
+          "✅ Titel-Länge OK (44 chars)",
+          "✅ Keyword 'Wochenschau' am Anfang",
+          "✅ Event-Keyword + Datum vorhanden",
+          "✅ Quality-Marker (8K) vorhanden"
+        ],
+        "issues": []
+      },
+      "description_validation": {
+        "score": 95,
+        "length": 2410,
+        "hashtag_count": 12,
+        "passes": [
+          "✅ Description-Länge gut (2410 chars)",
+          "✅ Keyword in ersten 160 chars (Search-Preview)",
+          "✅ CTAs vorhanden (Like/Comment/Subscribe)",
+          "✅ Multilingual (6 Sprachen)",
+          "✅ Playlist-Link vorhanden"
+        ],
+        "issues": [
+          "Zu viele Hashtags (12, max 5)"
+        ]
+      },
+      "tags_validation": {
+        "score": 90,
+        "count": 37,
+        "total_chars": 440,
+        "international_tags": 7,
+        "passes": [
+          "✅ Tag-Länge OK (440 chars)",
+          "✅ Core-Tags vorhanden (4/4)",
+          "✅ Internationale Tags (7 non-ASCII)"
+        ],
+        "issues": [
+          "Zu viele Tags (37, YouTube: minimal role)"
+        ]
+      },
+      "settings_validation": {
+        "score": 100,
+        "passes": [
+          "✅ Passende Category (25)",
+          "✅ 'Made for Kids' = False (korrekt)",
+          "✅ Privacy = Private (User publishes manually)",
+          "✅ License korrekt"
+        ],
+        "issues": []
+      },
+      "total_score": 9785.7
+    },
+    {
+      "number": "523",
+      "title": "Wochenschau 523: London Blitz (Sep 1940) | 8K",
+      "title_validation": {
+        "score": 100,
+        "length": 45,
+        "mobile_visible": "Wochenschau 523: London Blitz (Sep 1940)...",
+        "passes": [
+          "✅ Titel-Länge OK (45 chars)",
+          "✅ Keyword 'Wochenschau' am Anfang",
+          "✅ Event-Keyword + Datum vorhanden",
+          "✅ Quality-Marker (8K) vorhanden"
+        ],
+        "issues": []
+      },
+      "description_validation": {
+        "score": 95,
+        "length": 1968,
+        "hashtag_count": 12,
+        "passes": [
+          "✅ Description-Länge gut (1968 chars)",
+          "✅ Keyword in ersten 160 chars (Search-Preview)",
+          "✅ CTAs vorhanden (Like/Comment/Subscribe)",
+          "✅ Multilingual (6 Sprachen)",
+          "✅ Playlist-Link vorhanden"
+        ],
+        "issues": [
+          "Zu viele Hashtags (12, max 5)"
+        ]
+      },
+      "tags_validation": {
+        "score": 90,
+        "count": 36,
+        "total_chars": 437,
+        "international_tags": 6,
+        "passes": [
+          "✅ Tag-Länge OK (437 chars)",
+          "✅ Core-Tags vorhanden (4/4)",
+          "✅ Internationale Tags (6 non-ASCII)"
+        ],
+        "issues": [
+          "Zu viele Tags (36, YouTube: minimal role)"
+        ]
+      },
+      "settings_validation": {
+        "score": 100,
+        "passes": [
+          "✅ Passende Category (25)",
+          "✅ 'Made for Kids' = False (korrekt)",
+          "✅ Privacy = Private (User publishes manually)",
+          "✅ License korrekt"
+        ],
+        "issues": []
+      },
+      "total_score": 9785.7
+    },
+    {
+      "number": "570",
+      "title": "Wochenschau 570: Smolensk Falls (Aug 1941) | 8K",
+      "title_validation": {
+        "score": 100,
+        "length": 47,
+        "mobile_visible": "Wochenschau 570: Smolensk Falls (Aug 194...",
+        "passes": [
+          "✅ Titel-Länge OK (47 chars)",
+          "✅ Keyword 'Wochenschau' am Anfang",
+          "✅ Event-Keyword + Datum vorhanden",
+          "✅ Quality-Marker (8K) vorhanden"
+        ],
+        "issues": []
+      },
+      "description_validation": {
+        "score": 95,
+        "length": 1974,
+        "hashtag_count": 12,
+        "passes": [
+          "✅ Description-Länge gut (1974 chars)",
+          "✅ Keyword in ersten 160 chars (Search-Preview)",
+          "✅ CTAs vorhanden (Like/Comment/Subscribe)",
+          "✅ Multilingual (6 Sprachen)",
+          "✅ Playlist-Link vorhanden"
+        ],
+        "issues": [
+          "Zu viele Hashtags (12, max 5)"
+        ]
+      },
+      "tags_validation": {
+        "score": 90,
+        "count": 36,
+        "total_chars": 440,
+        "international_tags": 6,
+        "passes": [
+          "✅ Tag-Länge OK (440 chars)",
+          "✅ Core-Tags vorhanden (4/4)",
+          "✅ Internationale Tags (6 non-ASCII)"
+        ],
+        "issues": [
+          "Zu viele Tags (36, YouTube: minimal role)"
+        ]
+      },
+      "settings_validation": {
+        "score": 100,
+        "passes": [
+          "✅ Passende Category (25)",
+          "✅ 'Made for Kids' = False (korrekt)",
+          "✅ Privacy = Private (User publishes manually)",
+          "✅ License korrekt"
+        ],
+        "issues": []
+      },
+      "total_score": 9785.7
+    },
+    {
+      "number": "755",
+      "title": "Wochenschau 755: Final Newsreel (Feb 1945) | 8K",
+      "title_validation": {
+        "score": 100,
+        "length": 47,
+        "mobile_visible": "Wochenschau 755: Final Newsreel (Feb 194...",
+        "passes": [
+          "✅ Titel-Länge OK (47 chars)",
+          "✅ Keyword 'Wochenschau' am Anfang",
+          "✅ Event-Keyword + Datum vorhanden",
+          "✅ Quality-Marker (8K) vorhanden"
+        ],
+        "issues": []
+      },
+      "description_validation": {
+        "score": 95,
+        "length": 1992,
+        "hashtag_count": 12,
+        "passes": [
+          "✅ Description-Länge gut (1992 chars)",
+          "✅ Keyword in ersten 160 chars (Search-Preview)",
+          "✅ CTAs vorhanden (Like/Comment/Subscribe)",
+          "✅ Multilingual (6 Sprachen)",
+          "✅ Playlist-Link vorhanden"
+        ],
+        "issues": [
+          "Zu viele Hashtags (12, max 5)"
+        ]
+      },
+      "tags_validation": {
+        "score": 90,
+        "count": 36,
+        "total_chars": 441,
+        "international_tags": 6,
+        "passes": [
+          "✅ Tag-Länge OK (441 chars)",
+          "✅ Core-Tags vorhanden (4/4)",
+          "✅ Internationale Tags (6 non-ASCII)"
+        ],
+        "issues": [
+          "Zu viele Tags (36, YouTube: minimal role)"
+        ]
+      },
+      "settings_validation": {
+        "score": 100,
+        "passes": [
+          "✅ Passende Category (25)",
+          "✅ 'Made for Kids' = False (korrekt)",
+          "✅ Privacy = Private (User publishes manually)",
+          "✅ License korrekt"
+        ],
+        "issues": []
+      },
+      "total_score": 9785.7
+    }
+  ],
+  "issues_by_type": {
+    "Zu viele Hashtags": 252,
+    "Zu viele Tags": 252,
+    "Titel grenzwertig": 35
+  },
+  "overall_grade": "A+ (Excellent)"
+}

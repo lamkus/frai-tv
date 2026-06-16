@@ -1,0 +1,708 @@
+{
+  "planName": "frai.tv SEO + YouTube Cross-Linking Implementation Plan",
+  "created": "2026-04-14",
+  "status": "PLANNING",
+  "summary": "Complete technical plan to make frai.tv crawlable by Google, add structured data, fix caching, and create a bidirectional SEO flywheel between frai.tv and YouTube @remAIke_IT",
+
+  "currentProblems": {
+    "zeroIndexation": "Not a single page indexed by Google as of 2026-04-10",
+    "spaRendering": "Pure React SPA - Googlebot sees only <div id='root'></div>",
+    "noStructuredData": "Zero Schema.org / JSON-LD on any page",
+    "noOgTags": "No OpenGraph or Twitter Card meta tags",
+    "noCanonicals": "No canonical URLs set anywhere",
+    "antiCacheHeaders": "index.html has no-cache, no-store, must-revalidate which prevents any CDN/proxy caching",
+    "flatSitemap": "437 URLs but all with same lastmod, no video sitemap extensions, missing navigation pages"
+  },
+
+  "phase1_prerendering": {
+    "title": "Make frai.tv crawlable - Pre-rendering Solution",
+    "priority": "CRITICAL",
+    "estimatedEffort": "4-6 hours",
+    "recommendation": "vite-plugin-ssg (Static Site Generation at build time)",
+    "reasoning": [
+      "Current stack: Vite 5 + React 18 + react-router-dom 6 (createBrowserRouter)",
+      "All video data is bundled in remaikeData.js (~436 videos) - no runtime API needed for core content",
+      "SSG is simpler than SSR because there is no dynamic user-specific content on public pages",
+      "Alternatives rejected: vite-plugin-ssr (now Vike) adds server runtime complexity; prerender.io costs money; react-snap is unmaintained; Cloudflare Workers requires rewriting rendering logic"
+    ],
+    "implementation": {
+      "step1_install": {
+        "description": "Install vite-plugin-ssg for static pre-rendering",
+        "command": "npm install -D vite-plugin-ssg",
+        "notes": "If vite-plugin-ssg does not support createBrowserRouter, use react-snap as fallback or switch to a custom prerender script using Playwright (already in devDependencies)"
+      },
+      "step2_custom_prerender_script": {
+        "description": "Since createBrowserRouter is incompatible with most SSG plugins, build a custom Playwright-based prerenderer",
+        "file": "scripts/prerender.mjs",
+        "code": [
+          "import { chromium } from 'playwright';",
+          "import { readFileSync, writeFileSync, mkdirSync, readdirSync } from 'fs';",
+          "import { join, dirname } from 'path';",
+          "import { fileURLToPath } from 'url';",
+          "",
+          "const __dirname = dirname(fileURLToPath(import.meta.url));",
+          "const DIST = join(__dirname, '..', 'dist');",
+          "const BASE_URL = 'http://localhost:4173';",
+          "",
+          "// All routes to prerender (generated from App.jsx router config)",
+          "const routes = [",
+          "  '/',",
+          "  '/browse',",
+          "  '/explore',",
+          "  '/search',",
+          "  '/timeline',",
+          "  '/live',",
+          "  '/sender',",
+          "  '/shorts',",
+          "  '/series',",
+          "  '/wochenschau',",
+          "  '/impressum',",
+          "  '/datenschutz',",
+          "];",
+          "",
+          "// Add all video routes from remaikeData",
+          "import('../src/data/remaikeData.js').then(async ({ remaikeVideos }) => {",
+          "  for (const v of remaikeVideos) {",
+          "    routes.push(`/watch/${v.ytId}`);",
+          "  }",
+          "",
+          "  const browser = await chromium.launch();",
+          "  const page = await browser.newPage();",
+          "",
+          "  for (const route of routes) {",
+          "    await page.goto(`${BASE_URL}${route}`, { waitUntil: 'networkidle' });",
+          "    // Wait for React to hydrate",
+          "    await page.waitForSelector('#root > *', { timeout: 10000 });",
+          "",
+          "    const html = await page.content();",
+          "    const filePath = route === '/'",
+          "      ? join(DIST, 'index.html')",
+          "      : join(DIST, route, 'index.html');",
+          "",
+          "    mkdirSync(dirname(filePath), { recursive: true });",
+          "    writeFileSync(filePath, html);",
+          "    console.log(`Prerendered: ${route}`);",
+          "  }",
+          "",
+          "  await browser.close();",
+          "  console.log(`Done: ${routes.length} pages prerendered`);",
+          "});",
+          ""
+        ]
+      },
+      "step3_build_script_update": {
+        "description": "Update package.json build script to include prerendering after Vite build",
+        "file": "package.json",
+        "change": {
+          "scripts": {
+            "build": "vite build",
+            "build:seo": "vite build && vite preview --port 4173 & sleep 3 && node scripts/prerender.mjs && kill %1",
+            "prerender": "node scripts/prerender.mjs"
+          }
+        }
+      },
+      "step4_fix_index_html_cache_headers": {
+        "description": "REMOVE the anti-caching meta tags from index.html - these are the #1 reason Google may refuse to cache",
+        "file": "index.html",
+        "remove_lines": [
+          "<meta http-equiv=\"Cache-Control\" content=\"no-cache, no-store, must-revalidate\" />",
+          "<meta http-equiv=\"Pragma\" content=\"no-cache\" />",
+          "<meta http-equiv=\"Expires\" content=\"0\" />"
+        ],
+        "notes": "Cache headers should be set via server/CDN config, not HTML meta tags. For Vercel/Netlify/Cloudflare Pages, use their caching config instead."
+      }
+    }
+  },
+
+  "phase2_schema_org": {
+    "title": "Schema.org JSON-LD Structured Data",
+    "priority": "CRITICAL",
+    "estimatedEffort": "3-4 hours",
+    "implementation": {
+      "step1_create_seo_helper": {
+        "description": "Create a reusable SEO component that injects JSON-LD into <head>",
+        "file": "src/lib/useSEO.js",
+        "code": [
+          "import { useEffect } from 'react';",
+          "",
+          "/**",
+          " * Injects JSON-LD structured data into document head.",
+          " * Removes previous injection on unmount or data change.",
+          " */",
+          "export function useJsonLd(data) {",
+          "  useEffect(() => {",
+          "    if (!data) return;",
+          "    const script = document.createElement('script');",
+          "    script.type = 'application/ld+json';",
+          "    script.id = 'seo-jsonld-' + (data['@type'] || 'default');",
+          "    script.textContent = JSON.stringify(data);",
+          "",
+          "    // Remove any previous script with same id",
+          "    const existing = document.getElementById(script.id);",
+          "    if (existing) existing.remove();",
+          "",
+          "    document.head.appendChild(script);",
+          "    return () => script.remove();",
+          "  }, [JSON.stringify(data)]);",
+          "}",
+          "",
+          "/**",
+          " * Sets OG + Twitter meta tags dynamically.",
+          " */",
+          "export function useOgTags({ title, description, image, url, type = 'website' }) {",
+          "  useEffect(() => {",
+          "    const tags = {",
+          "      'og:title': title,",
+          "      'og:description': description,",
+          "      'og:image': image,",
+          "      'og:url': url || window.location.href,",
+          "      'og:type': type,",
+          "      'og:site_name': 'frai.tv',",
+          "      'og:locale': 'de_DE',",
+          "      'twitter:card': 'summary_large_image',",
+          "      'twitter:title': title,",
+          "      'twitter:description': description,",
+          "      'twitter:image': image,",
+          "    };",
+          "",
+          "    const created = [];",
+          "    for (const [property, content] of Object.entries(tags)) {",
+          "      if (!content) continue;",
+          "      let meta = document.querySelector(`meta[property='${property}']`)",
+          "        || document.querySelector(`meta[name='${property}']`);",
+          "      if (!meta) {",
+          "        meta = document.createElement('meta');",
+          "        meta.setAttribute(property.startsWith('twitter:') ? 'name' : 'property', property);",
+          "        document.head.appendChild(meta);",
+          "        created.push(meta);",
+          "      }",
+          "      meta.content = content;",
+          "    }",
+          "",
+          "    // Set canonical URL",
+          "    let canonical = document.querySelector('link[rel=\"canonical\"]');",
+          "    if (!canonical) {",
+          "      canonical = document.createElement('link');",
+          "      canonical.rel = 'canonical';",
+          "      document.head.appendChild(canonical);",
+          "    }",
+          "    canonical.href = url || window.location.href;",
+          "",
+          "    return () => created.forEach(m => m.remove());",
+          "  }, [title, description, image, url, type]);",
+          "}",
+          ""
+        ]
+      },
+      "step2_video_page_jsonld": {
+        "description": "Add VideoObject + BreadcrumbList JSON-LD to VideoDetailPage.jsx",
+        "file": "src/pages/VideoDetailPage.jsx",
+        "insertAfterUseMeta": [
+          "",
+          "// === Schema.org JSON-LD ===",
+          "useJsonLd(video ? {",
+          "  '@context': 'https://schema.org',",
+          "  '@type': 'VideoObject',",
+          "  'name': video.title,",
+          "  'description': (video.description || '').slice(0, 300),",
+          "  'thumbnailUrl': [",
+          "    `https://img.youtube.com/vi/${video.ytId}/maxresdefault.jpg`,",
+          "    `https://img.youtube.com/vi/${video.ytId}/sddefault.jpg`",
+          "  ],",
+          "  'uploadDate': video.publishDate || video.publishedAt,",
+          "  'duration': video.duration ? `PT${Math.floor(video.duration/60)}M${video.duration%60}S` : undefined,",
+          "  'contentUrl': `https://www.youtube.com/watch?v=${video.ytId}`,",
+          "  'embedUrl': `https://www.youtube.com/embed/${video.ytId}`,",
+          "  'interactionStatistic': video.viewCount ? {",
+          "    '@type': 'InteractionCounter',",
+          "    'interactionType': 'https://schema.org/WatchAction',",
+          "    'userInteractionCount': video.viewCount",
+          "  } : undefined,",
+          "  'publisher': {",
+          "    '@type': 'Organization',",
+          "    'name': 'remAIke',",
+          "    'url': 'https://frai.tv',",
+          "    'logo': { '@type': 'ImageObject', 'url': 'https://frai.tv/icons/icon-512.png' },",
+          "    'sameAs': [",
+          "      'https://www.youtube.com/@remAIke_IT',",
+          "      'https://frai.tv'",
+          "    ]",
+          "  },",
+          "  'potentialAction': {",
+          "    '@type': 'WatchAction',",
+          "    'target': `https://frai.tv/watch/${video.ytId}`",
+          "  }",
+          "} : null);",
+          "",
+          "// BreadcrumbList",
+          "useJsonLd(video ? {",
+          "  '@context': 'https://schema.org',",
+          "  '@type': 'BreadcrumbList',",
+          "  'itemListElement': [",
+          "    { '@type': 'ListItem', 'position': 1, 'name': 'frai.tv', 'item': 'https://frai.tv' },",
+          "    { '@type': 'ListItem', 'position': 2, 'name': video.category || 'Videos', 'item': `https://frai.tv/browse/${encodeURIComponent(video.category || '')}` },",
+          "    { '@type': 'ListItem', 'position': 3, 'name': video.title }",
+          "  ]",
+          "} : null);",
+          "",
+          "// OG Tags",
+          "useOgTags({",
+          "  title: video?.title ? `${video.title} — frai.tv` : 'frai.tv',",
+          "  description: video?.description?.slice(0, 160) || 'Klassische Filme in 4K auf frai.tv',",
+          "  image: video?.ytId ? `https://img.youtube.com/vi/${video.ytId}/maxresdefault.jpg` : undefined,",
+          "  url: video?.ytId ? `https://frai.tv/watch/${video.ytId}` : undefined,",
+          "  type: 'video.other'",
+          "});",
+          ""
+        ]
+      },
+      "step3_organization_jsonld_in_index": {
+        "description": "Add Organization schema to index.html (static, always present)",
+        "file": "index.html",
+        "insertBeforeClosingHead": [
+          "<script type=\"application/ld+json\">",
+          "{",
+          "  \"@context\": \"https://schema.org\",",
+          "  \"@type\": \"Organization\",",
+          "  \"name\": \"remAIke\",",
+          "  \"alternateName\": \"frai.tv\",",
+          "  \"url\": \"https://frai.tv\",",
+          "  \"logo\": \"https://frai.tv/icons/icon-512.png\",",
+          "  \"description\": \"FREE AI Enhanced TV - Klassische Filme restauriert in 4K & 8K\",",
+          "  \"sameAs\": [",
+          "    \"https://www.youtube.com/@remAIke_IT\"",
+          "  ],",
+          "  \"founder\": {",
+          "    \"@type\": \"Organization\",",
+          "    \"name\": \"skillbox.nrw GmbH\"",
+          "  }",
+          "}",
+          "</script>",
+          "",
+          "<script type=\"application/ld+json\">",
+          "{",
+          "  \"@context\": \"https://schema.org\",",
+          "  \"@type\": \"WebSite\",",
+          "  \"name\": \"frai.tv\",",
+          "  \"url\": \"https://frai.tv\",",
+          "  \"potentialAction\": {",
+          "    \"@type\": \"SearchAction\",",
+          "    \"target\": \"https://frai.tv/search?q={search_term_string}\",",
+          "    \"query-input\": \"required name=search_term_string\"",
+          "  }",
+          "}",
+          "</script>"
+        ]
+      },
+      "step4_homepage_jsonld": {
+        "description": "Add ItemList schema to MediathekPage (homepage) for video catalog",
+        "file": "src/pages/MediathekPage.jsx",
+        "notes": "Use useJsonLd to inject ItemList with top 10 videos as ListItem entries, each referencing their /watch/ URL"
+      }
+    }
+  },
+
+  "phase3_og_tags": {
+    "title": "OpenGraph & Twitter Card Meta Tags",
+    "priority": "HIGH",
+    "estimatedEffort": "2 hours",
+    "implementation": {
+      "step1_static_defaults_in_index_html": {
+        "description": "Add default OG tags to index.html that will be overridden per-page by JS",
+        "file": "index.html",
+        "insertInHead": [
+          "<!-- OpenGraph defaults (overridden per page by React) -->",
+          "<meta property=\"og:site_name\" content=\"frai.tv\" />",
+          "<meta property=\"og:type\" content=\"website\" />",
+          "<meta property=\"og:title\" content=\"frai.tv - FREE AI Enhanced TV\" />",
+          "<meta property=\"og:description\" content=\"Klassische Filme & Cartoons restauriert in 4K & 8K. Kostenlos streamen auf frai.tv\" />",
+          "<meta property=\"og:image\" content=\"https://frai.tv/icons/og-image-1200x630.png\" />",
+          "<meta property=\"og:url\" content=\"https://frai.tv\" />",
+          "<meta property=\"og:locale\" content=\"de_DE\" />",
+          "",
+          "<!-- Twitter Card defaults -->",
+          "<meta name=\"twitter:card\" content=\"summary_large_image\" />",
+          "<meta name=\"twitter:title\" content=\"frai.tv - FREE AI Enhanced TV\" />",
+          "<meta name=\"twitter:description\" content=\"Klassische Filme & Cartoons restauriert in 4K & 8K\" />",
+          "<meta name=\"twitter:image\" content=\"https://frai.tv/icons/og-image-1200x630.png\" />",
+          "",
+          "<!-- Canonical URL -->",
+          "<link rel=\"canonical\" href=\"https://frai.tv\" />"
+        ]
+      },
+      "step2_create_og_image": {
+        "description": "Create a 1200x630 OG image for social sharing",
+        "file": "public/icons/og-image-1200x630.png",
+        "notes": "Design: Dark background (#0a0a0a), frai.tv logo centered, tagline 'FREE AI Enhanced TV', gold accent (#c9a962). Can be generated with any image tool."
+      },
+      "step3_per_page_og_tags": {
+        "description": "Each page that uses useMeta should also call useOgTags from src/lib/useSEO.js",
+        "pages_to_update": [
+          "VideoDetailPage.jsx - already covered in phase2",
+          "BrowsePage.jsx - og:title = 'Browse {category} — frai.tv'",
+          "SearchPage.jsx - og:title = 'Search — frai.tv'",
+          "SeriesPage.jsx - og:title = '{seriesName} — frai.tv'",
+          "WochenschauPage.jsx - og:title = 'Wochenschau Archiv — frai.tv'",
+          "TimelinePage.jsx - og:title = 'Timeline — frai.tv'",
+          "MediathekPage.jsx - uses defaults from index.html"
+        ]
+      }
+    }
+  },
+
+  "phase4_sitemap_improvements": {
+    "title": "Sitemap Overhaul with Video Extensions",
+    "priority": "HIGH",
+    "estimatedEffort": "3-4 hours",
+    "implementation": {
+      "step1_build_time_sitemap_generator": {
+        "description": "Create a script that generates sitemap.xml at build time from remaikeData.js",
+        "file": "scripts/generate-sitemap.mjs",
+        "code": [
+          "import { writeFileSync } from 'fs';",
+          "import { join, dirname } from 'path';",
+          "import { fileURLToPath } from 'url';",
+          "",
+          "const __dirname = dirname(fileURLToPath(import.meta.url));",
+          "",
+          "// Dynamic import of video data",
+          "const { remaikeVideos, CATEGORIES, DECADES } = await import('../src/data/remaikeData.js');",
+          "",
+          "const BASE = 'https://frai.tv';",
+          "const today = new Date().toISOString().split('T')[0];",
+          "",
+          "function escapeXml(s) {",
+          "  return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\"/g,'&quot;');",
+          "}",
+          "",
+          "function isoDuration(seconds) {",
+          "  if (!seconds) return '';",
+          "  const h = Math.floor(seconds/3600);",
+          "  const m = Math.floor((seconds%3600)/60);",
+          "  const s = seconds%60;",
+          "  return `PT${h?h+'H':''}${m?m+'M':''}${s?s+'S':''}`;",
+          "}",
+          "",
+          "let xml = `<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n`;",
+          "xml += `<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"\\n`;",
+          "xml += `        xmlns:video=\"http://www.google.com/schemas/sitemap-video/1.1\">\\n`;",
+          "",
+          "// --- Static pages ---",
+          "const staticPages = [",
+          "  { loc: '/', priority: '1.0', changefreq: 'daily' },",
+          "  { loc: '/browse', priority: '0.8', changefreq: 'weekly' },",
+          "  { loc: '/explore', priority: '0.7', changefreq: 'weekly' },",
+          "  { loc: '/search', priority: '0.6', changefreq: 'monthly' },",
+          "  { loc: '/timeline', priority: '0.7', changefreq: 'weekly' },",
+          "  { loc: '/series', priority: '0.7', changefreq: 'weekly' },",
+          "  { loc: '/wochenschau', priority: '0.7', changefreq: 'weekly' },",
+          "  { loc: '/shorts', priority: '0.6', changefreq: 'weekly' },",
+          "  { loc: '/live', priority: '0.5', changefreq: 'daily' },",
+          "  { loc: '/sender', priority: '0.5', changefreq: 'monthly' },",
+          "  { loc: '/impressum', priority: '0.3', changefreq: 'yearly' },",
+          "  { loc: '/datenschutz', priority: '0.3', changefreq: 'yearly' },",
+          "];",
+          "",
+          "for (const p of staticPages) {",
+          "  xml += `  <url>\\n`;",
+          "  xml += `    <loc>${BASE}${p.loc}</loc>\\n`;",
+          "  xml += `    <lastmod>${today}</lastmod>\\n`;",
+          "  xml += `    <changefreq>${p.changefreq}</changefreq>\\n`;",
+          "  xml += `    <priority>${p.priority}</priority>\\n`;",
+          "  xml += `  </url>\\n`;",
+          "}",
+          "",
+          "// --- Category pages ---",
+          "for (const cat of (CATEGORIES || [])) {",
+          "  xml += `  <url>\\n`;",
+          "  xml += `    <loc>${BASE}/browse/${encodeURIComponent(cat.id)}</loc>\\n`;",
+          "  xml += `    <lastmod>${today}</lastmod>\\n`;",
+          "  xml += `    <changefreq>weekly</changefreq>\\n`;",
+          "  xml += `    <priority>0.6</priority>\\n`;",
+          "  xml += `  </url>\\n`;",
+          "}",
+          "",
+          "// --- Video pages with video: extensions ---",
+          "for (const v of remaikeVideos) {",
+          "  const videoDate = v.publishDate || v.publishedAt || today;",
+          "  const lastmod = typeof videoDate === 'string' ? videoDate.split('T')[0] : today;",
+          "",
+          "  xml += `  <url>\\n`;",
+          "  xml += `    <loc>${BASE}/watch/${v.ytId}</loc>\\n`;",
+          "  xml += `    <lastmod>${lastmod}</lastmod>\\n`;",
+          "  xml += `    <changefreq>monthly</changefreq>\\n`;",
+          "  xml += `    <priority>0.5</priority>\\n`;",
+          "  xml += `    <video:video>\\n`;",
+          "  xml += `      <video:thumbnail_loc>https://img.youtube.com/vi/${v.ytId}/maxresdefault.jpg</video:thumbnail_loc>\\n`;",
+          "  xml += `      <video:title>${escapeXml(v.title)}</video:title>\\n`;",
+          "  xml += `      <video:description>${escapeXml((v.description||'').slice(0,2048))}</video:description>\\n`;",
+          "  xml += `      <video:content_loc>https://www.youtube.com/watch?v=${v.ytId}</video:content_loc>\\n`;",
+          "  xml += `      <video:player_loc>https://www.youtube.com/embed/${v.ytId}</video:player_loc>\\n`;",
+          "  if (v.duration) xml += `      <video:duration>${v.duration}</video:duration>\\n`;",
+          "  if (lastmod) xml += `      <video:publication_date>${lastmod}</video:publication_date>\\n`;",
+          "  xml += `      <video:family_friendly>yes</video:family_friendly>\\n`;",
+          "  xml += `      <video:live>no</video:live>\\n`;",
+          "  if (v.tags && v.tags.length) xml += `      <video:tag>${escapeXml(v.tags.slice(0,32).join(', '))}</video:tag>\\n`;",
+          "  if (v.category) xml += `      <video:category>${escapeXml(v.category)}</video:category>\\n`;",
+          "  xml += `    </video:video>\\n`;",
+          "  xml += `  </url>\\n`;",
+          "}",
+          "",
+          "xml += `</urlset>\\n`;",
+          "",
+          "writeFileSync(join(__dirname, '..', 'public', 'sitemap.xml'), xml);",
+          "console.log(`Sitemap generated: ${staticPages.length + (CATEGORIES||[]).length + remaikeVideos.length} URLs`);",
+          ""
+        ]
+      },
+      "step2_add_npm_script": {
+        "description": "Add sitemap generation to package.json scripts",
+        "change": {
+          "scripts": {
+            "sitemap": "node scripts/generate-sitemap.mjs",
+            "build:seo": "vite build && node scripts/generate-sitemap.mjs && vite preview --port 4173 & sleep 3 && node scripts/prerender.mjs && kill %1"
+          }
+        }
+      }
+    }
+  },
+
+  "phase5_cross_linking_strategy": {
+    "title": "YouTube <-> frai.tv Bidirectional SEO Flywheel",
+    "priority": "HIGH",
+    "estimatedEffort": "4-6 hours",
+    "strategy": {
+      "principle": "Every YouTube video pushes traffic to frai.tv. Every frai.tv page sends authority signals back to YouTube. Google sees both as a unified media presence.",
+
+      "youtube_to_fraitv": {
+        "description_template": {
+          "first_line": "Watch in cinema quality on frai.tv: https://frai.tv/watch/{ytId}",
+          "reasoning": "First line of YouTube description appears in search results. Direct link to frai.tv gets clicks and sends referral traffic.",
+          "full_template": [
+            "{videoTitle}",
+            "",
+            "Watch in cinema quality: https://frai.tv/watch/{ytId}",
+            "Browse all classic films: https://frai.tv/browse",
+            "",
+            "{existingDescription}",
+            "",
+            "---",
+            "frai.tv - FREE AI Enhanced TV",
+            "Subscribe: https://www.youtube.com/@remAIke_IT?sub_confirmation=1",
+            "Website: https://frai.tv",
+            ""
+          ]
+        },
+        "pinned_comment": {
+          "template": "This film is also available on frai.tv in our curated cinema experience: https://frai.tv/watch/{ytId}",
+          "notes": "Pinned comments with links improve CTR and send traffic to frai.tv"
+        },
+        "end_screen": "Add frai.tv link as an associated website end screen element on every video",
+        "channel_banner": "Add frai.tv URL to channel banner and About section",
+        "cards": "Add YouTube info cards at key moments linking to frai.tv"
+      },
+
+      "fraitv_to_youtube": {
+        "video_detail_page_changes": {
+          "description": "Add prominent 'Watch on YouTube' button to VideoDetailPage.jsx",
+          "code_snippet": [
+            "// Add after the Share button in VideoDetailPage.jsx actions section",
+            "<a",
+            "  href={`https://www.youtube.com/watch?v=${ytId}`}",
+            "  target=\"_blank\"",
+            "  rel=\"noopener\"",
+            "  className=\"btn btn-secondary text-fluid-sm px-3 xs:px-5 py-2.5 xs:py-3\"",
+            ">",
+            "  <svg className=\"w-5 h-5\" viewBox=\"0 0 24 24\" fill=\"currentColor\">",
+            "    <path d=\"M23.498 6.186a2.994 2.994 0 00-2.107-2.117C19.544 3.5 12 3.5 12 3.5s-7.544 0-9.391.569A2.994 2.994 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a2.994 2.994 0 002.107 2.117C4.456 20.5 12 20.5 12 20.5s7.544 0 9.391-.569a2.994 2.994 0 002.107-2.117C24 15.93 24 12 24 12s0-3.93-.502-5.814z\"/>",
+            "    <path d=\"M9.545 15.568V8.432L15.818 12l-6.273 3.568z\" fill=\"#0a0a0a\"/>",
+            "  </svg>",
+            "  <span className=\"hidden sm:inline\">YouTube</span>",
+            "</a>"
+          ]
+        },
+        "subscribe_cta": {
+          "description": "Add YouTube subscribe button/CTA in footer or sidebar",
+          "notes": "Link to https://www.youtube.com/@remAIke_IT?sub_confirmation=1"
+        },
+        "playlist_mirroring": {
+          "description": "Create a /series/{seriesId} page for each YouTube playlist",
+          "implementation": [
+            "Fetch playlist data from YouTube API or maintain a static playlist map in remaikeData.js",
+            "Each series page shows all episodes in order, linking to both frai.tv /watch/ and YouTube",
+            "Add PlaylistList schema.org structured data"
+          ]
+        },
+        "embed_strategy": {
+          "description": "YouTube embeds on frai.tv count as YouTube views, boosting watch time",
+          "notes": "The current VideoPlayer already uses YouTube embeds via iframe - this is correct. Each frai.tv view = YouTube view."
+        }
+      },
+
+      "seo_flywheel_mechanics": [
+        "1. YouTube description links to frai.tv -> Google discovers frai.tv pages via YouTube crawl",
+        "2. frai.tv has proper Schema.org VideoObject -> Google understands video content",
+        "3. Video sitemap with video: extensions -> Google Video Search indexes frai.tv pages",
+        "4. frai.tv pages link back to YouTube -> Backlink authority flows both ways",
+        "5. User searches 'classic film remastered 4K' -> finds frai.tv in Google -> watches on frai.tv -> YouTube embed counts as YouTube view -> boosts YouTube ranking",
+        "6. User finds YouTube video -> clicks frai.tv link in description -> browses more content -> increases frai.tv engagement signals"
+      ]
+    }
+  },
+
+  "phase6_robots_txt_improvements": {
+    "title": "robots.txt Refinements",
+    "priority": "MEDIUM",
+    "estimatedEffort": "30 minutes",
+    "currentStatus": "Good - AI crawlers blocked, main paths allowed",
+    "improvements": {
+      "add_video_sitemap_reference": {
+        "description": "If a separate video sitemap is created, add it to robots.txt",
+        "line": "Sitemap: https://frai.tv/video-sitemap.xml"
+      },
+      "block_internal_routes": {
+        "description": "Add missing disallow entries",
+        "additions": [
+          "Disallow: /watchlist",
+          "Disallow: /history"
+        ],
+        "reasoning": "Watchlist and history are user-specific pages with no public content"
+      },
+      "remove_crawl_delay": {
+        "description": "Remove Crawl-delay directive - it is not respected by Googlebot and may slow down Bing crawling unnecessarily for a small site",
+        "notes": "Crawl-delay is non-standard. For a site with ~450 pages, there is no risk of overloading."
+      }
+    }
+  },
+
+  "phase7_performance_and_caching": {
+    "title": "Performance, Cache Headers, and Preload Hints",
+    "priority": "MEDIUM",
+    "estimatedEffort": "2 hours",
+    "implementation": {
+      "step1_remove_anticache_meta": {
+        "description": "Already covered in phase1 step4 - remove no-cache/no-store from index.html",
+        "crossRef": "phase1_prerendering.implementation.step4_fix_index_html_cache_headers"
+      },
+      "step2_server_cache_headers": {
+        "description": "Set proper Cache-Control headers at the server/CDN level",
+        "vercel_config": {
+          "file": "vercel.json",
+          "content": {
+            "headers": [
+              {
+                "source": "/assets/(.*)",
+                "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+              },
+              {
+                "source": "/icons/(.*)",
+                "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400" }]
+              },
+              {
+                "source": "/(.*).html",
+                "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600, stale-while-revalidate=86400" }]
+              },
+              {
+                "source": "/sitemap.xml",
+                "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400" }]
+              }
+            ]
+          }
+        },
+        "netlify_config": {
+          "file": "_headers",
+          "content": [
+            "/assets/*",
+            "  Cache-Control: public, max-age=31536000, immutable",
+            "",
+            "/*.html",
+            "  Cache-Control: public, max-age=3600, stale-while-revalidate=86400",
+            "",
+            "/sitemap.xml",
+            "  Cache-Control: public, max-age=86400"
+          ]
+        }
+      },
+      "step3_preload_hints": {
+        "description": "Add resource hints to index.html for critical assets",
+        "file": "index.html",
+        "insertInHead": [
+          "<!-- Preload critical font -->",
+          "<link rel=\"preload\" href=\"https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap\" as=\"style\" />",
+          "",
+          "<!-- DNS prefetch for YouTube thumbnails -->",
+          "<link rel=\"dns-prefetch\" href=\"https://img.youtube.com\" />",
+          "<link rel=\"preconnect\" href=\"https://img.youtube.com\" crossorigin />",
+          "<link rel=\"dns-prefetch\" href=\"https://www.youtube.com\" />",
+          "<link rel=\"preconnect\" href=\"https://www.youtube.com\" crossorigin />"
+        ]
+      },
+      "step4_image_optimization": {
+        "description": "Add loading='lazy' and decoding='async' to thumbnail images across components",
+        "files_to_update": [
+          "src/components/video/VideoCard.jsx",
+          "src/components/ui/PosterCard.jsx",
+          "src/pages/VideoDetailPage.jsx (hero image can be eager)"
+        ]
+      }
+    }
+  },
+
+  "implementation_order": {
+    "week1": [
+      "Phase 1: Remove anti-cache meta tags from index.html (30 min)",
+      "Phase 2 Step 3: Add Organization + WebSite JSON-LD to index.html (30 min)",
+      "Phase 3 Step 1: Add default OG tags to index.html (30 min)",
+      "Phase 2 Step 1: Create useSEO.js helper (1 hour)",
+      "Phase 2 Step 2: Add VideoObject JSON-LD to VideoDetailPage (1 hour)",
+      "Phase 6: robots.txt improvements (30 min)"
+    ],
+    "week2": [
+      "Phase 4: Build sitemap generator script (3 hours)",
+      "Phase 1: Build Playwright prerender script (4 hours)",
+      "Phase 7: Server cache headers + preload hints (2 hours)"
+    ],
+    "week3": [
+      "Phase 5: Update YouTube descriptions with frai.tv links (ongoing, batch via API)",
+      "Phase 5: Add YouTube button to VideoDetailPage (1 hour)",
+      "Phase 3 Step 2: Create OG image (1 hour)",
+      "Phase 3 Step 3: Add per-page OG tags to all pages (2 hours)"
+    ],
+    "ongoing": [
+      "Monitor Google Search Console for indexation progress",
+      "Submit sitemap to Google Search Console",
+      "Track referral traffic YouTube -> frai.tv and frai.tv -> YouTube",
+      "Update YouTube descriptions for new uploads automatically"
+    ]
+  },
+
+  "success_metrics": {
+    "indexation": "Target: 100+ pages indexed within 4 weeks of deployment",
+    "video_rich_results": "Target: VideoObject rich results appearing for at least 50 videos in Google",
+    "referral_traffic": "Target: 5% of YouTube traffic clicking through to frai.tv within 8 weeks",
+    "og_previews": "Target: All shared links show proper thumbnail + title on social media",
+    "search_console_coverage": "Target: 0 coverage errors, all submitted URLs indexed"
+  },
+
+  "files_to_create": [
+    "scripts/prerender.mjs",
+    "scripts/generate-sitemap.mjs",
+    "src/lib/useSEO.js",
+    "public/icons/og-image-1200x630.png"
+  ],
+
+  "files_to_modify": [
+    "index.html - remove anti-cache meta, add OG tags, add JSON-LD, add preload hints, add canonical",
+    "src/pages/VideoDetailPage.jsx - add JSON-LD + OG tags + YouTube link button",
+    "src/pages/MediathekPage.jsx - add homepage JSON-LD",
+    "src/pages/BrowsePage.jsx - add per-category OG tags",
+    "src/pages/SeriesPage.jsx - add series OG tags",
+    "src/pages/WochenschauPage.jsx - add archive OG tags",
+    "src/pages/TimelinePage.jsx - add timeline OG tags",
+    "src/pages/SearchPage.jsx - add search OG tags",
+    "public/robots.txt - add watchlist/history disallow, remove crawl-delay",
+    "public/sitemap.xml - regenerated by script",
+    "package.json - add sitemap + prerender scripts",
+    "vite.config.js - potential SSG plugin addition"
+  ]
+}

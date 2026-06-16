@@ -1,0 +1,9 @@
+{
+  "applied_at": "2026-01-11T12:38:06.405293",
+  "total_planned": 40,
+  "applied": 39,
+  "failed": 1,
+  "errors": [
+    "DKWzEM8p-dA: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/videos?part=snippet&alt=jso"
+  ]
+}

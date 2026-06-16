@@ -1,0 +1,479 @@
+{
+  "_info": {
+    "source": "https://de.wikipedia.org/wiki/Bravestarr",
+    "updated": "2026-01-13",
+    "note": "PRODUKTIONS-NUMMER ist im Dateinamen (e01, e02, etc.), NICHT die Ausstrahlungsnummer!"
+  },
+  "episodes": {
+    "001": {
+      "de_title": "Das Musikfestival",
+      "en_title": "New Texas Blues",
+      "broadcast_nr": 55,
+      "broadcast_date": "1988-02-10",
+      "director": "Marsh Lamore"
+    },
+    "002": {
+      "de_title": "Das Ungetüm aus der Wüste",
+      "en_title": "Night of the Bronco-Tank",
+      "broadcast_nr": 60,
+      "broadcast_date": "1988-02-17",
+      "director": "Richard Trueblood"
+    },
+    "003": {
+      "de_title": "Die Kräfte des Bären",
+      "en_title": "Strength of the Bear",
+      "broadcast_nr": 65,
+      "broadcast_date": "1988-02-24",
+      "director": "Ed Friedman"
+    },
+    "004": {
+      "de_title": "Der Weltraumzoo",
+      "en_title": "Space Zoo",
+      "broadcast_nr": 45,
+      "broadcast_date": "1987-11-18",
+      "director": "Lou Kachivas"
+    },
+    "005": {
+      "de_title": "Die ungleichen Brüder",
+      "en_title": "Brother's Keeper",
+      "broadcast_nr": 58,
+      "broadcast_date": "1988-02-15",
+      "director": "Bill Nunes"
+    },
+    "006": {
+      "de_title": "Kerium Fieber",
+      "en_title": "Kerium Fever",
+      "broadcast_nr": 10,
+      "broadcast_date": "1987-09-25",
+      "director": "Ed Friedman"
+    },
+    "007": {
+      "de_title": "Die Eroberung",
+      "en_title": "The Taking of Thistledown 123",
+      "broadcast_nr": 3,
+      "broadcast_date": "1987-09-16",
+      "director": "Ernie Schmidt"
+    },
+    "008": {
+      "de_title": "Das friedliche Tal",
+      "en_title": "No Drums, No Trumpets",
+      "broadcast_nr": 63,
+      "broadcast_date": "1988-02-22",
+      "director": "Marsh Lamore"
+    },
+    "009": {
+      "de_title": "Die Kraftprobe",
+      "en_title": "Showdown at Sawtooth",
+      "broadcast_nr": 19,
+      "broadcast_date": "1987-10-08",
+      "director": "Marsh Lamore"
+    },
+    "010": {
+      "de_title": "Hüter des Gesetzes",
+      "en_title": "BraveStarr and the Law",
+      "broadcast_nr": 9,
+      "broadcast_date": "1987-09-24",
+      "director": "Richard Trueblood"
+    },
+    "011": {
+      "de_title": "Tex, der Retter",
+      "en_title": "Eye of the Beholder",
+      "broadcast_nr": 16,
+      "broadcast_date": "1987-10-05",
+      "director": "Tom Sito"
+    },
+    "012": {
+      "de_title": "Die Stadt der Sklaven",
+      "en_title": "Nomad Is an Island",
+      "broadcast_nr": 61,
+      "broadcast_date": "1988-02-18",
+      "director": "Bill Reed"
+    },
+    "013": {
+      "de_title": "Die Ballade von Sara Jane",
+      "en_title": "The Ballad of Sara Jane",
+      "broadcast_nr": 57,
+      "broadcast_date": "1988-02-12",
+      "director": "Ed Friedman"
+    },
+    "014": {
+      "de_title": "Augenzeuge",
+      "en_title": "Eyewitness",
+      "broadcast_nr": 12,
+      "broadcast_date": "1987-09-29",
+      "director": "Bill Nunes"
+    },
+    "015": {
+      "de_title": "Das Medaillon",
+      "en_title": "BraveStarr and the Medallion",
+      "broadcast_nr": 40,
+      "broadcast_date": "1987-11-11",
+      "director": "Ernie Schmidt"
+    },
+    "016": {
+      "de_title": "Sherlock Holmes im 23. Jahrhundert (1)",
+      "en_title": "Sherlock Holmes in the 23rd Century (Part 1)",
+      "broadcast_nr": 53,
+      "broadcast_date": "1988-02-08",
+      "director": "Tom Tataranowicz"
+    },
+    "017": {
+      "de_title": "Sherlock Holmes im 23. Jahrhundert (2)",
+      "en_title": "Sherlock Holmes in the 23rd Century (Part 2)",
+      "broadcast_nr": 54,
+      "broadcast_date": "1988-02-09",
+      "director": "Ernie Schmidt"
+    },
+    "018": {
+      "de_title": "Der Raumpirat",
+      "en_title": "Hail, Hail, the Gang's All Here",
+      "broadcast_nr": 15,
+      "broadcast_date": "1987-10-02",
+      "director": "Bill Reed"
+    },
+    "019": {
+      "de_title": "Der Sklavenhändler",
+      "en_title": "Thoren the Slavemaster",
+      "broadcast_nr": 25,
+      "broadcast_date": "1987-10-21",
+      "director": "Tom Sito"
+    },
+    "020": {
+      "de_title": "Die entscheidende Meile",
+      "en_title": "To Walk a Mile",
+      "broadcast_nr": 7,
+      "broadcast_date": "1987-09-22",
+      "director": "Richard Trueblood"
+    },
+    "021": {
+      "de_title": "Skuzz und Fuzz",
+      "en_title": "Skuzz and Fuzz",
+      "broadcast_nr": 4,
+      "broadcast_date": "1987-09-17",
+      "director": "Bill Reed"
+    },
+    "022": {
+      "de_title": "Wer bin ich?",
+      "en_title": "Who Am I?",
+      "broadcast_nr": 23,
+      "broadcast_date": "1987-10-16",
+      "director": "Tom Sito"
+    },
+    "023": {
+      "de_title": "Borkas Gesetz",
+      "en_title": "The Vigilantes",
+      "broadcast_nr": 13,
+      "broadcast_date": "1987-09-30",
+      "director": "Bill Reed"
+    },
+    "024": {
+      "de_title": "Die Zeugen",
+      "en_title": "The Witnesses",
+      "broadcast_nr": 34,
+      "broadcast_date": "1987-11-03",
+      "director": "Bill Reed"
+    },
+    "025": {
+      "de_title": "Die falschen Hände",
+      "en_title": "The Wrong Hands",
+      "broadcast_nr": 17,
+      "broadcast_date": "1987-10-06",
+      "director": "Bill Reed"
+    },
+    "026": {
+      "de_title": "Der Gute, der Böse und der Tolpatsch",
+      "en_title": "The Good, the Bad, and the Clumsy",
+      "broadcast_nr": 30,
+      "broadcast_date": "1987-10-28",
+      "director": "Lou Kachivas"
+    },
+    "027": {
+      "de_title": "Das Kind",
+      "en_title": "Wild Child",
+      "broadcast_nr": 14,
+      "broadcast_date": "1987-10-01",
+      "director": "Bill Nunes"
+    },
+    "028": {
+      "de_title": "Jeremiah und die Prärie-Leute",
+      "en_title": "Jeremiah and the Prairie People",
+      "broadcast_nr": 56,
+      "broadcast_date": "1988-02-11",
+      "director": "Lou Kachivas"
+    },
+    "029": {
+      "de_title": "Der verkannte Held",
+      "en_title": "Unsung Hero",
+      "broadcast_nr": 20,
+      "broadcast_date": "1987-10-12",
+      "director": "Ed Friedman"
+    },
+    "030": {
+      "de_title": "Der allerbeste Zauber",
+      "en_title": "An Older Hand",
+      "broadcast_nr": 18,
+      "broadcast_date": "1987-10-07",
+      "director": "Richard Trueblood"
+    },
+    "031": {
+      "de_title": "Die Geisel",
+      "en_title": "Hostage",
+      "broadcast_nr": 28,
+      "broadcast_date": "1987-10-26",
+      "director": "Ed Friedman"
+    },
+    "032": {
+      "de_title": "Planet auf Abwegen",
+      "en_title": "Runaway Planet",
+      "broadcast_nr": 36,
+      "broadcast_date": "1987-11-05",
+      "director": "Marsh Lamore"
+    },
+    "033": {
+      "de_title": "Die Raumschiffbasis",
+      "en_title": "BraveStarr and the Treaty",
+      "broadcast_nr": 24,
+      "broadcast_date": "1987-10-20",
+      "director": "Bill Nunes"
+    },
+    "034": {
+      "de_title": "Der Berg der Verlorenen",
+      "en_title": "Lost Mountain",
+      "broadcast_nr": 21,
+      "broadcast_date": "1987-10-13",
+      "director": "Lou Kachivas"
+    },
+    "035": {
+      "de_title": "Handlebar tobt sich aus",
+      "en_title": "Handlebar and Rampage",
+      "broadcast_nr": 35,
+      "broadcast_date": "1987-11-04",
+      "director": "Tom Sito"
+    },
+    "036": {
+      "de_title": "Der verhexte Schild",
+      "en_title": "The Haunted Shield",
+      "broadcast_nr": 49,
+      "broadcast_date": "1988-02-02",
+      "director": "Ernie Schmidt"
+    },
+    "037": {
+      "de_title": "Das gestrauchelte Idol",
+      "en_title": "Fallen Idol",
+      "broadcast_nr": 2,
+      "broadcast_date": "1987-09-15",
+      "director": "Ernie Schmidt"
+    },
+    "038": {
+      "de_title": "Großer Thirty – Kleiner Wimble",
+      "en_title": "Big Thirty and Little Wimble",
+      "broadcast_nr": 8,
+      "broadcast_date": "1987-09-23",
+      "director": "Marsh Lamore"
+    },
+    "039": {
+      "de_title": "Erinnerungen",
+      "en_title": "Memories",
+      "broadcast_nr": 11,
+      "broadcast_date": "1987-09-28",
+      "director": "Lou Kachivas"
+    },
+    "040": {
+      "de_title": "Der Sohn eines Freundes",
+      "en_title": "Buddy",
+      "broadcast_nr": 38,
+      "broadcast_date": "1987-11-09",
+      "director": "Ed Friedman"
+    },
+    "041": {
+      "de_title": "Krawall",
+      "en_title": "Rampage",
+      "broadcast_nr": 6,
+      "broadcast_date": "1987-09-21",
+      "director": "Marsh Lamore"
+    },
+    "042": {
+      "de_title": "Der Tunnel des Terrors",
+      "en_title": "Tunnel of Terror",
+      "broadcast_nr": 29,
+      "broadcast_date": "1987-10-27",
+      "director": "Ernie Schmidt"
+    },
+    "043": {
+      "de_title": "Der halbstarke Marshall",
+      "en_title": "Trouble Wears a Badge",
+      "broadcast_nr": 22,
+      "broadcast_date": "1987-10-15",
+      "director": "Richard Trueblood"
+    },
+    "044": {
+      "de_title": "Die drei Sonnen",
+      "en_title": "BraveStarr and the Three Suns",
+      "broadcast_nr": 33,
+      "broadcast_date": "1987-11-02",
+      "director": "Richard Trueblood"
+    },
+    "045": {
+      "de_title": "Die Wildkatze",
+      "en_title": "Running Wild",
+      "broadcast_nr": 47,
+      "broadcast_date": "1988-01-29",
+      "director": "Ed Friedman"
+    },
+    "046": {
+      "de_title": "Die schreckliche Nacht",
+      "en_title": "Tex's Terrible Night",
+      "broadcast_nr": 46,
+      "broadcast_date": "1987-12-14",
+      "director": "Tom Tataranowicz"
+    },
+    "047": {
+      "de_title": "Der Aufstand",
+      "en_title": "Revolt of the Prairie People",
+      "broadcast_nr": 27,
+      "broadcast_date": "1987-10-23",
+      "director": "Ed Friedman"
+    },
+    "048": {
+      "de_title": "Der Richter",
+      "en_title": "A Day in the Life of a New Texas Judge",
+      "broadcast_nr": 5,
+      "broadcast_date": "1987-09-18",
+      "director": "Ernie Schmidt"
+    },
+    "049": {
+      "de_title": "Der Preis",
+      "en_title": "The Price",
+      "broadcast_nr": 26,
+      "broadcast_date": "1987-10-22",
+      "director": "Marsh Lamore"
+    },
+    "050": {
+      "de_title": "Tex ist kraftlos",
+      "en_title": "Tex But No Hex",
+      "broadcast_nr": 44,
+      "broadcast_date": "1987-11-17",
+      "director": "Marsh Lamore"
+    },
+    "051": {
+      "de_title": "Ruf zu den Waffen",
+      "en_title": "Call to Arms",
+      "broadcast_nr": 32,
+      "broadcast_date": "1987-10-30",
+      "director": "Ernie Schmidt"
+    },
+    "052": {
+      "de_title": "Gleichgewicht der Macht",
+      "en_title": "Balance of Power",
+      "broadcast_nr": 31,
+      "broadcast_date": "1987-10-29",
+      "director": "Bill Nunes"
+    },
+    "053": {
+      "de_title": "Thirty Thirty ist verschwunden",
+      "en_title": "The Disappearance of Thirty-Thirty",
+      "broadcast_nr": 1,
+      "broadcast_date": "1987-09-14",
+      "director": "Lou Kachivas, Tom Tatanarowicz"
+    },
+    "054": {
+      "de_title": "Die kriminellen Brüder",
+      "en_title": "Brothers in Crime",
+      "broadcast_nr": 52,
+      "broadcast_date": "1988-02-05",
+      "director": "Tom Sito"
+    },
+    "055": {
+      "de_title": "Dingo Dans Bande",
+      "en_title": "Shake Hands with Long Arm John",
+      "broadcast_nr": 64,
+      "broadcast_date": "1988-02-23",
+      "director": "Lou Kachivas"
+    },
+    "056": {
+      "de_title": "Das Geisterschiff",
+      "en_title": "Ship of No Return",
+      "broadcast_nr": 50,
+      "broadcast_date": "1988-02-03",
+      "director": "Richard Trueblood"
+    },
+    "057": {
+      "de_title": "Das Fieber",
+      "en_title": "Call of the Wild",
+      "broadcast_nr": 43,
+      "broadcast_date": "1987-11-16",
+      "director": "Tom Sito"
+    },
+    "058": {
+      "de_title": "Der gefährliche Campingplatz",
+      "en_title": "Thirty-Thirty Goes Camping",
+      "broadcast_nr": 48,
+      "broadcast_date": "1988-02-01",
+      "director": "Bill Nunes"
+    },
+    "059": {
+      "de_title": "Stadt in Gefahr",
+      "en_title": "The Day the Town Was Taken",
+      "broadcast_nr": 39,
+      "broadcast_date": "1987-11-10",
+      "director": "Bill Nunes"
+    },
+    "060": {
+      "de_title": "Der Kopfgeldjäger",
+      "en_title": "The Bounty Hunter",
+      "broadcast_nr": 37,
+      "broadcast_date": "1987-11-06",
+      "director": "Lou Kachivas"
+    },
+    "061": {
+      "de_title": "Das Versteck in der Wüste",
+      "en_title": "Sunrise, Sunset",
+      "broadcast_nr": 42,
+      "broadcast_date": "1987-11-13",
+      "director": "Bill Reed"
+    },
+    "062": {
+      "de_title": "Die Legende einer schönen Frau",
+      "en_title": "Legend of a Pretty Lady",
+      "broadcast_nr": 41,
+      "broadcast_date": "1987-11-12",
+      "director": "Richard Trueblood"
+    },
+    "063": {
+      "de_title": "Bravestarr und die Hoheit",
+      "en_title": "BraveStarr and the Empress",
+      "broadcast_nr": 59,
+      "broadcast_date": "1988-02-16",
+      "director": "Ernie Schmidt"
+    },
+    "064": {
+      "de_title": "Die Blockade",
+      "en_title": "The Blockade",
+      "broadcast_nr": 62,
+      "broadcast_date": "1988-02-19",
+      "director": "Tom Sito"
+    },
+    "065": {
+      "de_title": "Kleine Lüge, große Wirkung",
+      "en_title": "Little Lie That Grew",
+      "broadcast_nr": 51,
+      "broadcast_date": "1988-02-04",
+      "director": "Bill Reed"
+    }
+  },
+  "lookup_helpers": {
+    "by_broadcast_order": {
+      "1": "053",
+      "2": "037",
+      "3": "007",
+      "4": "021",
+      "5": "048",
+      "6": "041",
+      "7": "020",
+      "8": "038",
+      "9": "010",
+      "10": "006"
+    },
+    "note": "Dateiname e02 = Produktions-Nr 002 = 'Das Ungetüm aus der Wüste', NICHT Ausstrahlungs-Episode 2 'Das gestrauchelte Idol'!"
+  }
+}

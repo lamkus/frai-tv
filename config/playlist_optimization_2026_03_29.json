@@ -1,0 +1,1317 @@
+{
+  "timestamp": "2026-03-29T17:13:51.135Z",
+  "actions": [
+    "Updated playlist \"Der kleine Maulwurf | Krtek | 8K Collection\" -> \"🐀 Der kleine Maulwurf | Krtek | 8K\"",
+    "Updated playlist \"WorldFirstTVPodcast - 4k Deutsche Wochenschau 1939-1945 | WWII Newsreel | 8K Best Quality\" -> \"📰 Deutsche Wochenschau - Historisches Archiv | 8K\"",
+    "Updated playlist \"Soundies - Vintage Musikvideos (1940er) | 8K\" -> \"🎵 Soundies - Vintage Music Videos (1940er) | 8K\"",
+    "Updated playlist \"BraveStarr - Komplette Serie (1987-1988) | 8K Deutsch\" -> \"🤠 BraveStarr - Komplette Serie | 8K Deutsch\"",
+    "Updated playlist \"Teaserama\" -> \"💎 Vintage Raritäten | 8K Fundstücke\"",
+    "Updated playlist \"⚫ Bosko - Harman-Ising | 8K Restored\" -> \"🐰 Looney Tunes & Merrie Melodies | 8K Collection\"",
+    "Updated playlist \"😐 Buster Keaton - Stunt Genius | 8K Restored\" -> \"🎬 Stummfilm-Klassiker (1900-1930) | 8K Restauriert\"",
+    "Updated playlist \"🤖 Astro Boy - German | Deutsch | 8K Restored\" -> \"🤖 Astro Boy (1963) | 8K Deutsch\"",
+    "Updated playlist \"Color Classics - Fleischer Studios | 8K\" -> \"🦸 Superman - Fleischer Studios (1941-1943) | 8K\"",
+    "Updated playlist \"Popeye der Seemann | 8K Restauriert\" -> \"⚓ Popeye der Seemann | Fleischer Studios | 8K\"",
+    "Updated playlist \"Casper der freundliche Geist | 8K\" -> \"👻 Casper - Der freundliche Geist | 8K Collection\"",
+    "Updated playlist \"🦆 Alfred Jodokus Quack - German | Deutsch | 8K Restored\" -> \"🦆 Alfred J. Kwak - Komplette Serie | 8K Deutsch\"",
+    "Updated playlist \"💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored\" -> \"💋 Betty Boop Collection (1930er) | Jazz Age | 8K\"",
+    "Updated playlist \"Felix The Cat\" -> \"🐱 Felix the Cat - Stummfilm-Ära | 8K Restauriert\"",
+    "Created playlist \"📽️ Vintage Dokumentationen | 8K Archiv\"",
+    "Created playlist \"🎥 Public Domain Filme | Klassiker | 8K\"",
+    "Created playlist \"🏰 Silly Symphonies | Disney Klassiker | 8K\"",
+    "Created playlist \"🏎️ Ken Block Gymkhana | 8K Collection\""
+  ],
+  "playlists_fetched": [
+    {
+      "id": "PL3d2Tsr13ihOSScyaDwcf2A2G_S8qG3mM",
+      "title": "Der kleine Maulwurf | Krtek | 8K Collection",
+      "itemCount": 16,
+      "hasLocalizations": true,
+      "localizationLangs": [
+        "de"
+      ]
+    },
+    {
+      "id": "PL3d2Tsr13ihOkdoE8nvG_xou6vbLh98_a",
+      "title": "Best of remAIke_IT | 8K Restauriert",
+      "itemCount": 13,
+      "hasLocalizations": true,
+      "localizationLangs": [
+        "ja",
+        "en",
+        "es",
+        "de"
+      ]
+    },
+    {
+      "id": "PL3d2Tsr13ihMPkNIfoXwQ4W-bSheQxEvg",
+      "title": "WorldFirstTVPodcast - 4k Deutsche Wochenschau 1939-1945 | WWII Newsreel | 8K Best Quality",
+      "itemCount": 104,
+      "hasLocalizations": true,
+      "localizationLangs": [
+        "de"
+      ]
+    },
+    {
+      "id": "PL3d2Tsr13ihMFH1EDv8To7SBS04OW5tBL",
+      "title": "Soundies - Vintage Musikvideos (1940er) | 8K",
+      "itemCount": 36,
+      "hasLocalizations": true,
+      "localizationLangs": [
+        "de",
+        "en",
+        "ja",
+        "es"
+      ]
+    },
+    {
+      "id": "PL3d2Tsr13ihOHV7IckAv3tDxpPdw4WHQf",
+      "title": "BraveStarr - Komplette Serie (1987-1988) | 8K Deutsch",
+      "itemCount": 4,
+      "hasLocalizations": false,
+      "localizationLangs": []
+    },
+    {
+      "id": "PL3d2Tsr13ihOFJE3TdX-fG2sS7IZZlC_e",
+      "title": "Teaserama",
+      "itemCount": 6,
+      "hasLocalizations": false,
+      "localizationLangs": []
+    },
+    {
+      "id": "PL3d2Tsr13ihPNyK9Ssvh4yVVGA7_sfsEL",
+      "title": "⚫ Bosko - Harman-Ising | 8K Restored",
+      "itemCount": 1,
+      "hasLocalizations": false,
+      "localizationLangs": []
+    },
+    {
+      "id": "PL3d2Tsr13ihNaaFVT5SIuZcWyeLj9VoF6",
+      "title": "🐜 Ferdy die Ameise - German | Deutsch | 8K Restored",
+      "itemCount": 1,
+      "hasLocalizations": false,
+      "localizationLangs": []
+    },
+    {
+      "id": "PL3d2Tsr13ihNwE41FHYamleI0gf5yY2k2",
+      "title": "😐 Buster Keaton - Stunt Genius | 8K Restored",
+      "itemCount": 2,
+      "hasLocalizations": false,
+      "localizationLangs": []
+    },
+    {
+      "id": "PL3d2Tsr13ihMbymGDXF3mmYk6SkYS73Fp",
+      "title": "🎩 Charlie Chaplin - Silent Comedy | 8K Restored",
+      "itemCount": 2,
+      "hasLocalizations": false,
+      "localizationLangs": []
+    },
+    {
+      "id": "PL3d2Tsr13ihM6nRQlwMj5Jzj6D2KXv2Ye",
+      "title": "🤖 Astro Boy - German | Deutsch | 8K Restored",
+      "itemCount": 3,
+      "hasLocalizations": false,
+      "localizationLangs": []
+    },
+    {
+      "id": "PL3d2Tsr13ihN-FoO36o1nSSYAfsat2TLJ",
+      "title": "Color Classics - Fleischer Studios | 8K",
+      "itemCount": 4,
+      "hasLocalizations": true,
+      "localizationLangs": [
+        "de",
+        "ja",
+        "es",
+        "en"
+      ]
+    },
+    {
+      "id": "PL3d2Tsr13ihN5gZXFcC8gjn9I3yQG_eYR",
+      "title": "Looney Tunes - Classic Cartoons | 8K",
+      "itemCount": 14,
+      "hasLocalizations": true,
+      "localizationLangs": [
+        "de",
+        "en",
+        "es",
+        "ja"
+      ]
+    },
+    {
+      "id": "PL3d2Tsr13ihMGVG70VrIyLTfZVnNnpggj",
+      "title": "Popeye der Seemann | 8K Restauriert",
+      "itemCount": 8,
+      "hasLocalizations": true,
+      "localizationLangs": [
+        "de",
+        "es",
+        "ja",
+        "en"
+      ]
+    },
+    {
+      "id": "PL3d2Tsr13ihNXcCH2-a7VZUyJS-Do8Sn0",
+      "title": "🐷 Porky Pig - Looney Tunes Collection | 8K Restored",
+      "itemCount": 8,
+      "hasLocalizations": false,
+      "localizationLangs": []
+    },
+    {
+      "id": "PL3d2Tsr13ihNlMyu7m1gUrorwDsPL0Szf",
+      "title": "Casper der freundliche Geist | 8K",
+      "itemCount": 9,
+      "hasLocalizations": true,
+      "localizationLangs": [
+        "ja",
+        "en",
+        "es",
+        "de"
+      ]
+    },
+    {
+      "id": "PL3d2Tsr13ihNGGfilho9PHb3gqsOrhksr",
+      "title": "Superman - Fleischer Studios (1941-1943) | 8K",
+      "itemCount": 10,
+      "hasLocalizations": true,
+      "localizationLangs": [
+        "es",
+        "en",
+        "ja",
+        "de"
+      ]
+    },
+    {
+      "id": "PL3d2Tsr13ihO4514Eao7ttTv6PRKtEReL",
+      "title": "🦆 Alfred Jodokus Quack - German | Deutsch | 8K Restored",
+      "itemCount": 64,
+      "hasLocalizations": false,
+      "localizationLangs": []
+    },
+    {
+      "id": "PL3d2Tsr13ihMoB5EqMRXUrp8c6cYHuo9Y",
+      "title": "Soundies",
+      "itemCount": 3,
+      "hasLocalizations": false,
+      "localizationLangs": []
+    },
+    {
+      "id": "PL3d2Tsr13ihMNCgAFrHLvjx4YIoDCcx-o",
+      "title": "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored",
+      "itemCount": 59,
+      "hasLocalizations": false,
+      "localizationLangs": []
+    },
+    {
+      "id": "PL3d2Tsr13ihOtO1PqtELeaO4vZRrD-uak",
+      "title": "🎭 Silent Film Era | 1900-1930",
+      "itemCount": 18,
+      "hasLocalizations": true,
+      "localizationLangs": [
+        "en"
+      ]
+    },
+    {
+      "id": "PL3d2Tsr13ihNihBImPdVQqXpQyGdT4vJW",
+      "title": "🎨 Classic Cartoons | Vintage Animation",
+      "itemCount": 109,
+      "hasLocalizations": true,
+      "localizationLangs": [
+        "en"
+      ]
+    },
+    {
+      "id": "PL3d2Tsr13ihMNasR7X7TQ9gaVcY89Q56Z",
+      "title": "test",
+      "itemCount": 0,
+      "hasLocalizations": false,
+      "localizationLangs": []
+    },
+    {
+      "id": "PL3d2Tsr13ihPiIyGzDm0xRRxtbTD7Lpre",
+      "title": "Complete Archive | All Videos | @remAIke_IT",
+      "itemCount": 320,
+      "hasLocalizations": false,
+      "localizationLangs": []
+    },
+    {
+      "id": "PL3d2Tsr13ihMd-3bVHubF6OmUBQp_qlv9",
+      "title": "Felix The Cat",
+      "itemCount": 22,
+      "hasLocalizations": false,
+      "localizationLangs": []
+    },
+    {
+      "id": "PL3d2Tsr13ihPSHCGv48UqQqZ5DbFupIZk",
+      "title": "@reAImastered for Kids",
+      "itemCount": 114,
+      "hasLocalizations": false,
+      "localizationLangs": []
+    },
+    {
+      "id": "PL3d2Tsr13ihNoYTE5RdRnjv_ZJ_6F8aCO",
+      "title": "Jasmine Geburtstag",
+      "itemCount": 81,
+      "hasLocalizations": false,
+      "localizationLangs": []
+    }
+  ],
+  "orphaned_videos": [
+    {
+      "id": "iql1XOHf0t0",
+      "title": "Wochenschau 474: Fall of Warsaw (04.10.1939) | 8K HQ (4K UHD)",
+      "matched_category": "wochenschau"
+    },
+    {
+      "id": "57TykeHQYwU",
+      "title": "🆕 4K 24/7 WochenschauTV 1939-1945 | German Newsreel TV | Highest Quality  HDTV HQ",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "o7-VFXC9xDg",
+      "title": "Wochenschau 713: Sevastopol Falls (03.05.1944) | 8K HQ (4K UHD)",
+      "matched_category": "wochenschau"
+    },
+    {
+      "id": "T1pUCPyDrl4",
+      "title": "Wochenschau 692: Eastern Retreats (08.12.1943) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "RsfUriJTAvE",
+      "title": "Wochenschau 690: Tehran Conference (24.11.1943) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "P4iJuIBsxKw",
+      "title": "Wochenschau 712: Atlantic Wall (26.04.1944) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "m36-1Q855iU",
+      "title": "Wochenschau 715: Cassino Falls (17.05.1944) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "BMG-obvTut0",
+      "title": "Wochenschau 711: Invasion Expected (19.04.1944) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "Lqk_6Rp9YLw",
+      "title": "Wochenschau 710: Crimea Evacuation (12.04.1944) | 8K HQ (4K UHD)",
+      "matched_category": "wochenschau"
+    },
+    {
+      "id": "XYH4X8I4L-8",
+      "title": "Wochenschau 708: Eastern Front Offensive (29.03.1944) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "jRYN8RQVHj4",
+      "title": "Wochenschau 709: Crimea Battles (05.04.1944) | 8K HQ (4K UHD)",
+      "matched_category": "wochenschau"
+    },
+    {
+      "id": "xZ8hbztqcQI",
+      "title": "Wochenschau 707: Crimea Campaign (22.03.1944) | 8K HQ (4K UHD)",
+      "matched_category": "wochenschau"
+    },
+    {
+      "id": "WAKX3d__J8E",
+      "title": "Wochenschau 701: Battle of Monte Cassino (09.02.1944) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "f6iafERcG6M",
+      "title": "Wochenschau 703: German Industry & Home Front (23.02.1944) | 8K HQ (4K UHD)",
+      "matched_category": "wochenschau"
+    },
+    {
+      "id": "FU9uhmbyyas",
+      "title": "Wochenschau 706: Hungary Under Occupation (15.03.1944) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "NKjPNR8t_Yk",
+      "title": "Wochenschau 705: Cassino III (08.03.1944) | 8K HQ (4K UHD)",
+      "matched_category": "wochenschau"
+    },
+    {
+      "id": "CgrWBr68rng",
+      "title": "Wochenschau 699: Anzio Landing (26.01.1944) | 8K HQ (4K UHD)",
+      "matched_category": "wochenschau"
+    },
+    {
+      "id": "ULW1rl24JLM",
+      "title": "Wochenschau 703: Big Week (23.02.1944) | 8K HQ (4K UHD)",
+      "matched_category": "wochenschau"
+    },
+    {
+      "id": "a-mad6-VBuU",
+      "title": "Wochenschau 704: Air Supremacy Lost (01.03.1944) | 8K HQ (4K UHD)",
+      "matched_category": "wochenschau"
+    },
+    {
+      "id": "WyDmmQuHV5Y",
+      "title": "Wochenschau 700: Korsun Pocket (02.02.1944) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "UJRbjGwCptI",
+      "title": "Wochenschau 697: Leningrad Relief (12.01.1944) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "w17Gyr4r5A8",
+      "title": "Der kleene Punker | Ganzer Film | 8K HQ (4K UHD)",
+      "matched_category": "misc_vintage"
+    },
+    {
+      "id": "WV9o9YtlQbQ",
+      "title": "Drüben bei Lehmanns (E01) Neueröffnung (1970) | 8K HQ (4K UHD)",
+      "matched_category": "NONE"
+    },
+    {
+      "id": "m7QBaZuR-Rw",
+      "title": "Der 7. Sinn: Frauen am Steuer (Übung macht den MeiSTER) | 8K HQ (4K UHD)",
+      "matched_category": "NONE"
+    },
+    {
+      "id": "PI1iAvZGlxo",
+      "title": "#1",
+      "matched_category": "NONE"
+    },
+    {
+      "id": "tzqJDt8ASiE",
+      "title": "Wochenschau 752: Auschwitz Liberated (31.01.1945) | 8K HQ (4K UHD)",
+      "matched_category": "wochenschau"
+    },
+    {
+      "id": "cBaedrKsyuE",
+      "title": "Wochenschau 553: Balkans Campaign (09.04.1941) | 8K HQ (4K UHD)",
+      "matched_category": "wochenschau"
+    },
+    {
+      "id": "st3OhIheE_0",
+      "title": "Wochenschau 554: Belgrade Falls (16.04.1941) | 8K HQ (4K UHD)",
+      "matched_category": "wochenschau"
+    },
+    {
+      "id": "2HZx5FumOo8",
+      "title": "Wochenschau 552: Belgrade Coup (02.04.1941) | 8K HQ (4K UHD)",
+      "matched_category": "wochenschau"
+    },
+    {
+      "id": "suxhPHyaQHU",
+      "title": "Wochenschau 569: Kiev Encirclement (30.07.1941) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "6Mh7zjUCmHw",
+      "title": "Wochenschau 749: Ardennes Fails (10.01.1945) | 8K HQ (4K UHD)",
+      "matched_category": "wochenschau"
+    },
+    {
+      "id": "Yhz7gsTVqNA",
+      "title": "Wochenschau 567: Smolensk Pocket (16.07.1941) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "OOBufXFyuvg",
+      "title": "Wochenschau 565: Eastern Advance (02.07.1941) | 8K HQ (4K UHD)",
+      "matched_category": "wochenschau"
+    },
+    {
+      "id": "yNbh1PBUTSA",
+      "title": "Wochenschau 555: Greece Victory (23.04.1941) | 8K HQ (4K UHD)",
+      "matched_category": "wochenschau"
+    },
+    {
+      "id": "q1RBXjC1AbA",
+      "title": "Wochenschau 556: Athens Occupied (30.04.1941) | 8K HQ (4K UHD)",
+      "matched_category": "wochenschau"
+    },
+    {
+      "id": "xkYPbDSepCY",
+      "title": "Alfred J. Kwak (E14) Skrupellose Geschäfte | DE | 8K HQ (4K UHD)",
+      "matched_category": "alfred_j_quack"
+    },
+    {
+      "id": "t1uRzra4Kb0",
+      "title": "Alfred J. Kwak (E50) Das Casino | DE | 8K HQ (4K UHD)",
+      "matched_category": "alfred_j_quack"
+    },
+    {
+      "id": "rC7bAjq0tLY",
+      "title": "Alfred J. Kwak (E29) Die Burengänse | DE | 8K HQ (4K UHD)",
+      "matched_category": "alfred_j_quack"
+    },
+    {
+      "id": "wZkHuISjOyE",
+      "title": "Alfred J. Kwak (E44) Die Überschwemmung | DE | 8K HQ (4K UHD)",
+      "matched_category": "alfred_j_quack"
+    },
+    {
+      "id": "GpYO8Yel0WY",
+      "title": "Alfred J. Kwak (E36) Michael Duckson | DE | 8K HQ (4K UHD)",
+      "matched_category": "alfred_j_quack"
+    },
+    {
+      "id": "is5qVIkr6Vo",
+      "title": "Alfred J. Kwak (E02) Böse Überraschung | DE | 8K HQ (4K UHD)",
+      "matched_category": "alfred_j_quack"
+    },
+    {
+      "id": "Dg6eQNIY_Ys",
+      "title": "Alfred J. Kwak (E37) Die Entführung | DE | 8K HQ (4K UHD)",
+      "matched_category": "alfred_j_quack"
+    },
+    {
+      "id": "I1Hqb1mGlzU",
+      "title": "Alfred J. Kwak (E18) Im ewigen Eis | DE | 8K HQ (4K UHD)",
+      "matched_category": "alfred_j_quack"
+    },
+    {
+      "id": "x7u-1DcabiE",
+      "title": "Alfred J. Kwak (E17) Rettung aus dem All | DE | 8K HQ (4K UHD)",
+      "matched_category": "alfred_j_quack"
+    },
+    {
+      "id": "4Nu91xa9_eY",
+      "title": "Alfred J. Kwak (E16) Die Reise zum Südpol | DE | 8K HQ (4K UHD)",
+      "matched_category": "alfred_j_quack"
+    },
+    {
+      "id": "HyaZLqdMS9k",
+      "title": "Der 7. Sinn: Frauen am Steuer - Teil 3 (1970s) | 8K HQ (4K UHD)",
+      "matched_category": "NONE"
+    },
+    {
+      "id": "KaIC0B-xYBg",
+      "title": "Der 7. Sinn: Frauen am Steuer - Teil 1 (1970s) | 8K HQ (4K UHD)",
+      "matched_category": "NONE"
+    },
+    {
+      "id": "Ima7UohPE4Y",
+      "title": "Wochenschau 606: Baedeker Raids (15.04.1942) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "pFCidUe6JV4",
+      "title": "Wochenschau 605: Lubeck Bombed (08.04.1942) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "SYY31eEbYiQ",
+      "title": "Der 7. Sinn: Frauen am Steuer (1970s) | 8K HQ (4K UHD)",
+      "matched_category": "NONE"
+    },
+    {
+      "id": "OWT520VIjxI",
+      "title": "Skylab Space Station (1973) | NASA | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "-Gz34LVx90U",
+      "title": "Skylab 2: Launch (1973) | NASA Archive | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "ySxErhBGbx0",
+      "title": "Apollo 11: Descent & Landing (1969) | NASA Archive | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "MV82Fm6Ma4A",
+      "title": "Apollo 11 Moonwalk (1969) | NASA | Full Movie | 8K HQ (4K UHD)",
+      "matched_category": "public_domain_films"
+    },
+    {
+      "id": "tG-_jHZAdFg",
+      "title": "Wochenschau 492: Altmark Incident (07.02.1940) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "yMXZOo8c6Gk",
+      "title": "Wochenschau 493: Finland Front (14.02.1940) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "YXV4LEIBHqc",
+      "title": "Wochenschau 505: Western Campaign (08.05.1940) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "v9gB3LUgoNA",
+      "title": "The Skeleton Dance: Rib Solo (1929) | Disney | 8K HQ (4K UHD)",
+      "matched_category": "disney_silly"
+    },
+    {
+      "id": "21iqU9NKJL0",
+      "title": "The Skeleton Dance (1929) | Disney Silly Symphony | 8K HQ (4K UHD)",
+      "matched_category": "disney_silly"
+    },
+    {
+      "id": "3FstojEXJ5k",
+      "title": "Wochenschau 496: Winter War Ends (06.03.1940) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "n-_DEeOSKz0",
+      "title": "Wochenschau 504: Battle of Narvik (01.05.1940) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "W1zYu-fTejs",
+      "title": "Wochenschau 491: Phoney War (31.01.1940) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "sp1AzW-_rV0",
+      "title": "Skylab 3: A Scientific Harvest (1974) | NASA | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "ndAzCIUxo-c",
+      "title": "Skylab: Gyroscopes in Space | NASA | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "vkCoIJGAf3E",
+      "title": "Wochenschau 515: Battle of Britain (Jul 1940) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "7st-GFEwdWQ",
+      "title": "Wochenschau 514: Berlin Parade (Jul 1940) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "g8215791a7I",
+      "title": "Wochenschau 513: Channel Islands (Jul 1940) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "tVD8197vAyE",
+      "title": "Wochenschau 573: Kiev Battle (Aug 1941) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "6wop-BU_XME",
+      "title": "Wochenschau 547: Africa Campaign (Feb 1941) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "ZuD1fAyGiUw",
+      "title": "Wochenschau 548: Bulgaria Joins Axis (Mar 1941) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "wEMKHQPopHY",
+      "title": "Wochenschau 550: Yugoslavia Crisis (Mar 1941) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "7bqlAPsgzAQ",
+      "title": "Wochenschau 545: Africa Offensive (Feb 1941) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "eBzXzhNYppQ",
+      "title": "Wochenschau 544: Rommel Arrives (Feb 1941) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "s5d9cAM6REo",
+      "title": "Wochenschau 543: Africa Corps (Jan 1941) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "7yfdqylo9qs",
+      "title": "Wochenschau 519: Eagle Day (Aug 1940) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "i2mRp5iMxoo",
+      "title": "Wochenschau 520: Battle Peak (Aug 1940) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "J3LWOLaxuCc",
+      "title": "Wochenschau 542: Tobruk Falls (Jan 1941) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "Yj_QcM9Ce28",
+      "title": "Wochenschau 518: Channel Battles (Aug 1940) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "a5VVGGHPlsg",
+      "title": "Wochenschau 502: Norway Invasion (Apr 1940) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "dAp7JFDhE3U",
+      "title": "Wochenschau 468: Nazi-Soviet Pact (23.08.1939) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "o33-c1riv4U",
+      "title": "Wochenschau 459: Pre-War Era (21.06.1939) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "3AtirtgrfUI",
+      "title": "Wochenschau 473: Fall of Warsaw (27.09.1939) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "9muRRAleqdA",
+      "title": "Wochenschau 471: Poland Campaign (13.09.1939) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "t-VIxJaWE74",
+      "title": "Wochenschau 470: War Begins (06.09.1939) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "DLifkhU0q1w",
+      "title": "Wochenschau 488: Phoney War (Jan 1940) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "Qn7Nvx7eWz4",
+      "title": "Wochenschau 483: Winter War (Dec 1939) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "fNCZYqnK3Cc",
+      "title": "Wochenschau 523: London Blitz (Sep 1940) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "xblc6reUMr0",
+      "title": "Wochenschau 512: French Armistice (Jun 1940) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "jeLWajro1As",
+      "title": "Wochenschau 480: Bürgerbräu Bomb (Nov 1939) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "2uHl4LYN8O8",
+      "title": "Wochenschau 509: Dunkirk Evacuation (Jun 1940) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "iRzeiRoAsj4",
+      "title": "Wochenschau 477: Poland Occupied (Oct 1939) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "fC0MlizsAQQ",
+      "title": "Wochenschau 508: Dunkirk Pocket (May 1940) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "N7WPQUjFJjA",
+      "title": "Wochenschau 482: Winter War Begins (Nov 1939) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "S31f7FuEvXw",
+      "title": "Wochenschau 522: Berlin Retaliation (Sep 1940) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "bhnnR0WX_X0",
+      "title": "Boxing Cats (1894) | Edison | World's First Cat Video | 8K HQ (4K UHD)",
+      "matched_category": "NONE"
+    },
+    {
+      "id": "HGg-g6SwrrQ",
+      "title": "Reefer Madness (1936) | Cult Propaganda Classic | 8K HQ (4K UHD)",
+      "matched_category": "public_domain_films"
+    },
+    {
+      "id": "JzJrH43etPA",
+      "title": "Ken Block: Gymkhana 3 (2010) | DC Shoes | 8K HQ (4K UHD)",
+      "matched_category": "gymkhana"
+    },
+    {
+      "id": "wtsOrVX8c30",
+      "title": "How would you feel sitting next to Ken Block? 🏎️💨 | 8K HQ (4K UHD)",
+      "matched_category": "gymkhana"
+    },
+    {
+      "id": "174AyltH9OI",
+      "title": "Ken Block: Jump Jam at DiRT 2 Launch (2009) | 8K HQ (4K UHD)",
+      "matched_category": "gymkhana"
+    },
+    {
+      "id": "6K-MuUu6L44",
+      "title": "Wochenschau 720: V1 Attacks (Jun 1944) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "jGz1kC1Z69A",
+      "title": "Wochenschau 746: Ardennes Offensive (Dec 1944) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "dYBzf5V1TjI",
+      "title": "Wochenschau 654: Tunisia Battles (Mar 1943) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "W-UcQleew8Y",
+      "title": "Wochenschau 721: Bagration Begins (Jun 1944) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "0sO7jVL43yQ",
+      "title": "Wochenschau 652: Kharkov III (Mar 1943) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "bZkUPQHqyfg",
+      "title": "Wochenschau 722: Bagration (Jul 1944) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "iEEvt-s1XhQ",
+      "title": "Wochenschau 753: Yalta Conference (Feb 1945) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "H_n_mS-eKps",
+      "title": "Wochenschau 754: Dresden Bombed (Feb 1945) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "jPzc1XtrMds",
+      "title": "Asterix – Sieg über Cäsar (1985) | 🇩🇪 German | 8K HQ (4K UHD)",
+      "matched_category": "asterix"
+    },
+    {
+      "id": "CSLfwklQq9s",
+      "title": "Marihuana (1936) | 8K HQ (4K UHD)",
+      "matched_category": "misc_vintage"
+    },
+    {
+      "id": "YU9W-d33yYg",
+      "title": "Marihuana (1936) | Anti-Weed Propaganda | 8K HQ (4K UHD)",
+      "matched_category": "misc_vintage"
+    },
+    {
+      "id": "4vaim28zk50",
+      "title": "Nürnberger Nachfolgeprozesse (1947-49) | 8K HQ (4K UHD)",
+      "matched_category": "NONE"
+    },
+    {
+      "id": "w2UvksMOs3c",
+      "title": "Wochenschau 750: Vistula Offensive (17.01.1945) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "6YLPpJLgVXk",
+      "title": "Wochenschau 751: Eastern Collapse (24.01.1945) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "T-EsdXGhqog",
+      "title": "Wochenschau 516: Battle of Britain (Jul 1940) | 8K",
+      "matched_category": "wochenschau"
+    },
+    {
+      "id": "3rB80OGKzrg",
+      "title": "Wochenschau 511: Paris Falls (19.06.1940) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "3UBF9ycZwJU",
+      "title": "The ORIGINAL Fast & Furious (1954) | 8K HQ (4K UHD)",
+      "matched_category": "public_domain_films"
+    },
+    {
+      "id": "s_0yOzCKDa8",
+      "title": "December 7th: Pearl Harbor (1943) | John Ford | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "EasEhYlorqQ",
+      "title": "Pearl Harbor Documentary (1942) | 8K HQ (4K UHD)",
+      "matched_category": "documentaries"
+    },
+    {
+      "id": "DO8dSN4aAB4",
+      "title": "Nuremberg Trials: Nazi Concentration Camps (1945) | 8K HQ (4K UHD)",
+      "matched_category": "public_domain_films"
+    }
+  ],
+  "playlists_updated": [
+    {
+      "id": "PL3d2Tsr13ihOSScyaDwcf2A2G_S8qG3mM",
+      "old_title": "Der kleine Maulwurf | Krtek | 8K Collection",
+      "new_title": "🐀 Der kleine Maulwurf | Krtek | 8K",
+      "localizations_added": [
+        "en",
+        "es",
+        "ja",
+        "fr"
+      ],
+      "issues_fixed": [
+        "no_emoji",
+        "no_subscribe_cta",
+        "missing_localizations"
+      ]
+    },
+    {
+      "id": "PL3d2Tsr13ihMPkNIfoXwQ4W-bSheQxEvg",
+      "old_title": "WorldFirstTVPodcast - 4k Deutsche Wochenschau 1939-1945 | WWII Newsreel | 8K Best Quality",
+      "new_title": "📰 Deutsche Wochenschau - Historisches Archiv | 8K",
+      "localizations_added": [
+        "en",
+        "es",
+        "ja",
+        "fr"
+      ],
+      "issues_fixed": [
+        "no_emoji",
+        "missing_localizations"
+      ]
+    },
+    {
+      "id": "PL3d2Tsr13ihMFH1EDv8To7SBS04OW5tBL",
+      "old_title": "Soundies - Vintage Musikvideos (1940er) | 8K",
+      "new_title": "🎵 Soundies - Vintage Music Videos (1940er) | 8K",
+      "localizations_added": [
+        "en",
+        "es",
+        "ja",
+        "fr"
+      ],
+      "issues_fixed": [
+        "no_emoji",
+        "no_subscribe_cta",
+        "no_hashtags",
+        "no_channel_link"
+      ]
+    },
+    {
+      "id": "PL3d2Tsr13ihOHV7IckAv3tDxpPdw4WHQf",
+      "old_title": "BraveStarr - Komplette Serie (1987-1988) | 8K Deutsch",
+      "new_title": "🤠 BraveStarr - Komplette Serie | 8K Deutsch",
+      "localizations_added": [
+        "en",
+        "es",
+        "ja",
+        "fr"
+      ],
+      "issues_fixed": [
+        "no_emoji",
+        "no_subscribe_cta",
+        "no_channel_link",
+        "missing_localizations"
+      ]
+    },
+    {
+      "id": "PL3d2Tsr13ihOFJE3TdX-fG2sS7IZZlC_e",
+      "old_title": "Teaserama",
+      "new_title": "💎 Vintage Raritäten | 8K Fundstücke",
+      "localizations_added": [
+        "en",
+        "es",
+        "ja",
+        "fr"
+      ],
+      "issues_fixed": [
+        "no_8K_in_title",
+        "no_emoji",
+        "short_description",
+        "no_subscribe_cta",
+        "no_hashtags",
+        "no_channel_link",
+        "missing_localizations"
+      ]
+    },
+    {
+      "id": "PL3d2Tsr13ihPNyK9Ssvh4yVVGA7_sfsEL",
+      "old_title": "⚫ Bosko - Harman-Ising | 8K Restored",
+      "new_title": "🐰 Looney Tunes & Merrie Melodies | 8K Collection",
+      "localizations_added": [
+        "en",
+        "es",
+        "ja",
+        "fr"
+      ],
+      "issues_fixed": [
+        "missing_localizations",
+        "too_few_videos"
+      ]
+    },
+    {
+      "id": "PL3d2Tsr13ihNwE41FHYamleI0gf5yY2k2",
+      "old_title": "😐 Buster Keaton - Stunt Genius | 8K Restored",
+      "new_title": "🎬 Stummfilm-Klassiker (1900-1930) | 8K Restauriert",
+      "localizations_added": [
+        "en",
+        "es",
+        "ja",
+        "fr"
+      ],
+      "issues_fixed": [
+        "missing_localizations",
+        "too_few_videos"
+      ]
+    },
+    {
+      "id": "PL3d2Tsr13ihM6nRQlwMj5Jzj6D2KXv2Ye",
+      "old_title": "🤖 Astro Boy - German | Deutsch | 8K Restored",
+      "new_title": "🤖 Astro Boy (1963) | 8K Deutsch",
+      "localizations_added": [
+        "en",
+        "es",
+        "ja",
+        "fr"
+      ],
+      "issues_fixed": [
+        "missing_localizations"
+      ]
+    },
+    {
+      "id": "PL3d2Tsr13ihN-FoO36o1nSSYAfsat2TLJ",
+      "old_title": "Color Classics - Fleischer Studios | 8K",
+      "new_title": "🦸 Superman - Fleischer Studios (1941-1943) | 8K",
+      "localizations_added": [
+        "en",
+        "es",
+        "ja",
+        "fr"
+      ],
+      "issues_fixed": [
+        "no_emoji",
+        "no_subscribe_cta",
+        "no_hashtags",
+        "no_channel_link"
+      ]
+    },
+    {
+      "id": "PL3d2Tsr13ihMGVG70VrIyLTfZVnNnpggj",
+      "old_title": "Popeye der Seemann | 8K Restauriert",
+      "new_title": "⚓ Popeye der Seemann | Fleischer Studios | 8K",
+      "localizations_added": [
+        "en",
+        "es",
+        "ja",
+        "fr"
+      ],
+      "issues_fixed": [
+        "no_emoji",
+        "short_description",
+        "no_subscribe_cta",
+        "no_hashtags",
+        "no_channel_link"
+      ]
+    },
+    {
+      "id": "PL3d2Tsr13ihNlMyu7m1gUrorwDsPL0Szf",
+      "old_title": "Casper der freundliche Geist | 8K",
+      "new_title": "👻 Casper - Der freundliche Geist | 8K Collection",
+      "localizations_added": [
+        "en",
+        "es",
+        "ja",
+        "fr"
+      ],
+      "issues_fixed": [
+        "no_emoji",
+        "short_description",
+        "no_subscribe_cta",
+        "no_hashtags",
+        "no_channel_link"
+      ]
+    },
+    {
+      "id": "PL3d2Tsr13ihO4514Eao7ttTv6PRKtEReL",
+      "old_title": "🦆 Alfred Jodokus Quack - German | Deutsch | 8K Restored",
+      "new_title": "🦆 Alfred J. Kwak - Komplette Serie | 8K Deutsch",
+      "localizations_added": [
+        "en",
+        "es",
+        "ja",
+        "fr"
+      ],
+      "issues_fixed": [
+        "missing_localizations"
+      ]
+    },
+    {
+      "id": "PL3d2Tsr13ihMNCgAFrHLvjx4YIoDCcx-o",
+      "old_title": "💋 Betty Boop - Jazz Age Collection (1930s) | 8K Restored",
+      "new_title": "💋 Betty Boop Collection (1930er) | Jazz Age | 8K",
+      "localizations_added": [
+        "en",
+        "es",
+        "ja",
+        "fr"
+      ],
+      "issues_fixed": [
+        "no_subscribe_cta",
+        "missing_localizations"
+      ]
+    },
+    {
+      "id": "PL3d2Tsr13ihMd-3bVHubF6OmUBQp_qlv9",
+      "old_title": "Felix The Cat",
+      "new_title": "🐱 Felix the Cat - Stummfilm-Ära | 8K Restauriert",
+      "localizations_added": [
+        "en",
+        "es",
+        "ja",
+        "fr"
+      ],
+      "issues_fixed": [
+        "no_8K_in_title",
+        "no_emoji",
+        "no_subscribe_cta",
+        "no_hashtags",
+        "no_channel_link",
+        "missing_localizations"
+      ]
+    }
+  ],
+  "playlists_created": [
+    {
+      "id": "PL3d2Tsr13ihMnHAJcx9pdVloPtbba4Lz6",
+      "title": "📽️ Vintage Dokumentationen | 8K Archiv",
+      "category": "documentaries",
+      "planned_videos": 69
+    },
+    {
+      "id": "PL3d2Tsr13ihOYJ9k-T-B7tYMjcFdn1i30",
+      "title": "🎥 Public Domain Filme | Klassiker | 8K",
+      "category": "public_domain_films",
+      "planned_videos": 4
+    },
+    {
+      "id": "PL3d2Tsr13ihOsqH1cmr3JhEj8ttuyWJYx",
+      "title": "🏰 Silly Symphonies | Disney Klassiker | 8K",
+      "category": "disney_silly",
+      "planned_videos": 2
+    },
+    {
+      "id": "PL3d2Tsr13ihPcto1UddGEb6CFu-P4Yr4k",
+      "title": "🏎️ Ken Block Gymkhana | 8K Collection",
+      "category": "gymkhana",
+      "planned_videos": 3
+    }
+  ],
+  "videos_added": [
+    {
+      "videoId": "iql1XOHf0t0",
+      "videoTitle": "Wochenschau 474: Fall of Warsaw (04.10.1939) | 8K HQ (4K UHD)",
+      "playlistId": "PL3d2Tsr13ihMPkNIfoXwQ4W-bSheQxEvg",
+      "category": "wochenschau"
+    },
+    {
+      "videoId": "o7-VFXC9xDg",
+      "videoTitle": "Wochenschau 713: Sevastopol Falls (03.05.1944) | 8K HQ (4K UHD)",
+      "playlistId": "PL3d2Tsr13ihMPkNIfoXwQ4W-bSheQxEvg",
+      "category": "wochenschau"
+    },
+    {
+      "videoId": "Lqk_6Rp9YLw",
+      "videoTitle": "Wochenschau 710: Crimea Evacuation (12.04.1944) | 8K HQ (4K UHD)",
+      "playlistId": "PL3d2Tsr13ihMPkNIfoXwQ4W-bSheQxEvg",
+      "category": "wochenschau"
+    },
+    {
+      "videoId": "jRYN8RQVHj4",
+      "videoTitle": "Wochenschau 709: Crimea Battles (05.04.1944) | 8K HQ (4K UHD)",
+      "playlistId": "PL3d2Tsr13ihMPkNIfoXwQ4W-bSheQxEvg",
+      "category": "wochenschau"
+    },
+    {
+      "videoId": "xZ8hbztqcQI",
+      "videoTitle": "Wochenschau 707: Crimea Campaign (22.03.1944) | 8K HQ (4K UHD)",
+      "playlistId": "PL3d2Tsr13ihMPkNIfoXwQ4W-bSheQxEvg",
+      "category": "wochenschau"
+    },
+    {
+      "videoId": "f6iafERcG6M",
+      "videoTitle": "Wochenschau 703: German Industry & Home Front (23.02.1944) | 8K HQ (4K UHD)",
+      "playlistId": "PL3d2Tsr13ihMPkNIfoXwQ4W-bSheQxEvg",
+      "category": "wochenschau"
+    },
+    {
+      "videoId": "NKjPNR8t_Yk",
+      "videoTitle": "Wochenschau 705: Cassino III (08.03.1944) | 8K HQ (4K UHD)",
+      "playlistId": "PL3d2Tsr13ihMPkNIfoXwQ4W-bSheQxEvg",
+      "category": "wochenschau"
+    },
+    {
+      "videoId": "CgrWBr68rng",
+      "videoTitle": "Wochenschau 699: Anzio Landing (26.01.1944) | 8K HQ (4K UHD)",
+      "playlistId": "PL3d2Tsr13ihMPkNIfoXwQ4W-bSheQxEvg",
+      "category": "wochenschau"
+    },
+    {
+      "videoId": "ULW1rl24JLM",
+      "videoTitle": "Wochenschau 703: Big Week (23.02.1944) | 8K HQ (4K UHD)",
+      "playlistId": "PL3d2Tsr13ihMPkNIfoXwQ4W-bSheQxEvg",
+      "category": "wochenschau"
+    },
+    {
+      "videoId": "a-mad6-VBuU",
+      "videoTitle": "Wochenschau 704: Air Supremacy Lost (01.03.1944) | 8K HQ (4K UHD)",
+      "playlistId": "PL3d2Tsr13ihMPkNIfoXwQ4W-bSheQxEvg",
+      "category": "wochenschau"
+    },
+    {
+      "videoId": "tzqJDt8ASiE",
+      "videoTitle": "Wochenschau 752: Auschwitz Liberated (31.01.1945) | 8K HQ (4K UHD)",
+      "playlistId": "PL3d2Tsr13ihMPkNIfoXwQ4W-bSheQxEvg",
+      "category": "wochenschau"
+    },
+    {
+      "videoId": "cBaedrKsyuE",
+      "videoTitle": "Wochenschau 553: Balkans Campaign (09.04.1941) | 8K HQ (4K UHD)",
+      "playlistId": "PL3d2Tsr13ihMPkNIfoXwQ4W-bSheQxEvg",
+      "category": "wochenschau"
+    },
+    {
+      "videoId": "st3OhIheE_0",
+      "videoTitle": "Wochenschau 554: Belgrade Falls (16.04.1941) | 8K HQ (4K UHD)",
+      "playlistId": "PL3d2Tsr13ihMPkNIfoXwQ4W-bSheQxEvg",
+      "category": "wochenschau"
+    },
+    {
+      "videoId": "2HZx5FumOo8",
+      "videoTitle": "Wochenschau 552: Belgrade Coup (02.04.1941) | 8K HQ (4K UHD)",
+      "playlistId": "PL3d2Tsr13ihMPkNIfoXwQ4W-bSheQxEvg",
+      "category": "wochenschau"
+    },
+    {
+      "videoId": "6Mh7zjUCmHw",
+      "videoTitle": "Wochenschau 749: Ardennes Fails (10.01.1945) | 8K HQ (4K UHD)",
+      "playlistId": "PL3d2Tsr13ihMPkNIfoXwQ4W-bSheQxEvg",
+      "category": "wochenschau"
+    },
+    {
+      "videoId": "OOBufXFyuvg",
+      "videoTitle": "Wochenschau 565: Eastern Advance (02.07.1941) | 8K HQ (4K UHD)",
+      "playlistId": "PL3d2Tsr13ihMPkNIfoXwQ4W-bSheQxEvg",
+      "category": "wochenschau"
+    },
+    {
+      "videoId": "yNbh1PBUTSA",
+      "videoTitle": "Wochenschau 555: Greece Victory (23.04.1941) | 8K HQ (4K UHD)",
+      "playlistId": "PL3d2Tsr13ihMPkNIfoXwQ4W-bSheQxEvg",
+      "category": "wochenschau"
+    },
+    {
+      "videoId": "q1RBXjC1AbA",
+      "videoTitle": "Wochenschau 556: Athens Occupied (30.04.1941) | 8K HQ (4K UHD)",
+      "playlistId": "PL3d2Tsr13ihMPkNIfoXwQ4W-bSheQxEvg",
+      "category": "wochenschau"
+    },
+    {
+      "videoId": "T-EsdXGhqog",
+      "videoTitle": "Wochenschau 516: Battle of Britain (Jul 1940) | 8K",
+      "playlistId": "PL3d2Tsr13ihMPkNIfoXwQ4W-bSheQxEvg",
+      "category": "wochenschau"
+    },
+    {
+      "videoId": "57TykeHQYwU",
+      "videoTitle": "🆕 4K 24/7 WochenschauTV 1939-1945 | German Newsreel TV | Highest Quality  HDTV HQ",
+      "playlistId": "PL3d2Tsr13ihMnHAJcx9pdVloPtbba4Lz6",
+      "category": "documentaries"
+    },
+    {
+      "videoId": "T1pUCPyDrl4",
+      "videoTitle": "Wochenschau 692: Eastern Retreats (08.12.1943) | 8K HQ (4K UHD)",
+      "playlistId": "PL3d2Tsr13ihMnHAJcx9pdVloPtbba4Lz6",
+      "category": "documentaries"
+    }
+  ],
+  "quota_used": 1977,
+  "errors": [
+    "Quota limit reached while adding videos to \"documentaries\"",
+    "Quota limit reached while adding videos to \"misc_vintage\"",
+    "Quota limit reached while adding videos to \"alfred_j_quack\"",
+    "Quota limit reached while adding videos to \"public_domain_films\"",
+    "Quota limit reached while adding videos to \"disney_silly\"",
+    "Quota limit reached while adding videos to \"gymkhana\""
+  ],
+  "summary": {
+    "total_playlists": 27,
+    "playlists_updated": 14,
+    "playlists_created": 4,
+    "videos_added": 21,
+    "orphaned_videos_total": 119,
+    "orphaned_videos_matched": 111,
+    "orphaned_videos_unmatched": 8,
+    "unmatched_videos": [
+      {
+        "id": "WV9o9YtlQbQ",
+        "title": "Drüben bei Lehmanns (E01) Neueröffnung (1970) | 8K HQ (4K UHD)"
+      },
+      {
+        "id": "m7QBaZuR-Rw",
+        "title": "Der 7. Sinn: Frauen am Steuer (Übung macht den MeiSTER) | 8K HQ (4K UHD)"
+      },
+      {
+        "id": "PI1iAvZGlxo",
+        "title": "#1"
+      },
+      {
+        "id": "HyaZLqdMS9k",
+        "title": "Der 7. Sinn: Frauen am Steuer - Teil 3 (1970s) | 8K HQ (4K UHD)"
+      },
+      {
+        "id": "KaIC0B-xYBg",
+        "title": "Der 7. Sinn: Frauen am Steuer - Teil 1 (1970s) | 8K HQ (4K UHD)"
+      },
+      {
+        "id": "SYY31eEbYiQ",
+        "title": "Der 7. Sinn: Frauen am Steuer (1970s) | 8K HQ (4K UHD)"
+      },
+      {
+        "id": "bhnnR0WX_X0",
+        "title": "Boxing Cats (1894) | Edison | World's First Cat Video | 8K HQ (4K UHD)"
+      },
+      {
+        "id": "4vaim28zk50",
+        "title": "Nürnberger Nachfolgeprozesse (1947-49) | 8K HQ (4K UHD)"
+      }
+    ],
+    "small_playlists": [
+      {
+        "id": "PL3d2Tsr13ihPNyK9Ssvh4yVVGA7_sfsEL",
+        "title": "⚫ Bosko - Harman-Ising | 8K Restored",
+        "count": 1
+      },
+      {
+        "id": "PL3d2Tsr13ihNaaFVT5SIuZcWyeLj9VoF6",
+        "title": "🐜 Ferdy die Ameise - German | Deutsch | 8K Restored",
+        "count": 1
+      },
+      {
+        "id": "PL3d2Tsr13ihNwE41FHYamleI0gf5yY2k2",
+        "title": "😐 Buster Keaton - Stunt Genius | 8K Restored",
+        "count": 2
+      },
+      {
+        "id": "PL3d2Tsr13ihMbymGDXF3mmYk6SkYS73Fp",
+        "title": "🎩 Charlie Chaplin - Silent Comedy | 8K Restored",
+        "count": 2
+      }
+    ],
+    "errors": 6,
+    "quota_used": 1977,
+    "quota_limit": 2000
+  }
+}

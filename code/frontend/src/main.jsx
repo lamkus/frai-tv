@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './i18n'; // Must be imported before App to initialize i18next
 import App from './App.jsx';
 import './styles/globals.css';
 import './styles/remaike-ui.css';

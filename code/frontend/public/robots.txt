@@ -1,56 +1,47 @@
 # frai.tv - FREE AI Enhanced TV
 # https://frai.tv
+#
+# frai.tv is a public-domain restoration archive (classic film, animation,
+# historic newsreels). The content is FREE to index, cite, quote and
+# reference. AI answer engines and agents are explicitly WELCOME — see the
+# structured guide at https://frai.tv/llms.txt
+#
+# (Previously this file blocked GPTBot/ClaudeBot/PerplexityBot/Google-Extended
+#  etc. That contradicted our goal of being a citable AI source, so those
+#  blocks were removed — the public-domain content has nothing to protect from
+#  training and everything to gain from being discoverable.)
 
 User-agent: *
 Allow: /
 Allow: /watch/
-Allow: /projector
-Allow: /browse
-Allow: /catalog
 Allow: /series
 Allow: /timeline
+Allow: /wochenschau
+Allow: /browse
+Allow: /catalog
+Allow: /projector
 Allow: /search
-Allow: /impressum
-Allow: /datenschutz
-Allow: /landing
 
 # Static assets
 Allow: /icons/
 Allow: /manifest.json
+Allow: /llms.txt
 
-# Block internal/admin routes
+# Block only internal/admin routes (applies to every crawler, AI included)
 Disallow: /admin
 Disallow: /api/
 Disallow: /settings
 Disallow: /widget
 
-# Block AI training crawlers
-User-agent: GPTBot
-Disallow: /
+# ── AI answer engines & agents: explicitly welcome ──
+# Listed for clarity; they also fall under the permissive "User-agent: *" rule.
+# GPTBot · OAI-SearchBot · ChatGPT-User · ClaudeBot · Claude-User
+# anthropic-ai · PerplexityBot · Perplexity-User · Google-Extended
+# Applebot-Extended · CCBot · Amazonbot · Bytespider  -> all ALLOWED.
 
-User-agent: CCBot
-Disallow: /
-
-User-agent: Google-Extended
-Disallow: /
-
-User-agent: ClaudeBot
-Disallow: /
-
-User-agent: anthropic-ai
-Disallow: /
-
-User-agent: Bytespider
-Disallow: /
-
-User-agent: ChatGPT-User
-Disallow: /
-
-User-agent: PerplexityBot
-Disallow: /
-
-# Sitemap
+# Sitemaps
 Sitemap: https://frai.tv/sitemap.xml
+Sitemap: https://frai.tv/video-sitemap.xml
 
-# Crawl-delay for polite crawling
-Crawl-delay: 2
+# Polite crawl pacing on shared hosting (Google ignores this; Bing honors it)
+Crawl-delay: 1

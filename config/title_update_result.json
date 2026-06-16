@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-01-30T15:20:20.620753",
+  "updates": [
+    {
+      "nr": "459",
+      "video_id": "o33-c1riv4U",
+      "success": true,
+      "old_title": "Die Deutsche Wochenschau Nr. 459 | 21.06.1939 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "new_title": "Wochenschau 459: Pre-War Era (Jun 1939) | 8K",
+      "old_length": 91,
+      "new_length": 44,
+      "savings": 47
+    },
+    {
+      "nr": "468",
+      "video_id": "dAp7JFDhE3U",
+      "success": true,
+      "old_title": "Die Deutsche Wochenschau Nr. 468 | 23.08.1939 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "new_title": "Wochenschau 468: Nazi-Soviet Pact (Aug 1939) | 8K",
+      "old_length": 91,
+      "new_length": 49,
+      "savings": 42
+    },
+    {
+      "nr": "470",
+      "video_id": "t-VIxJaWE74",
+      "success": true,
+      "old_title": "Die Deutsche Wochenschau Nr. 470 | 06.09.1939 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "new_title": "Wochenschau 470: War Begins (Sep 1939) | 8K",
+      "old_length": 91,
+      "new_length": 43,
+      "savings": 48
+    },
+    {
+      "nr": "471",
+      "video_id": "9muRRAleqdA",
+      "success": true,
+      "old_title": "Die Deutsche Wochenschau Nr. 471 | 13.09.1939 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "new_title": "Wochenschau 471: Poland Campaign (Sep 1939) | 8K",
+      "old_length": 91,
+      "new_length": 48,
+      "savings": 43
+    },
+    {
+      "nr": "473",
+      "video_id": "3AtirtgrfUI",
+      "success": true,
+      "old_title": "Die Deutsche Wochenschau Nr. 473 | 27.09.1939 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "new_title": "Wochenschau 473: Fall of Warsaw (Sep 1939) | 8K",
+      "old_length": 91,
+      "new_length": 47,
+      "savings": 44
+    }
+  ],
+  "summary": {
+    "total_videos": 5,
+    "successful": 5,
+    "failed": 0,
+    "total_chars_saved": 224,
+    "avg_chars_saved": 44.8
+  }
+}

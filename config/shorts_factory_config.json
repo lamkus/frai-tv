@@ -1,0 +1,162 @@
+{
+  "version": "1.0.0",
+  "created": "2026-02-10",
+  "description": "remAIke.TV Shorts Factory Configuration",
+
+  "source_directories": [
+    "V:\\OriginalSources\\Final\\nyx8kexportupscale",
+    "V:\\OriginalSources\\Final",
+    "D:\\remaike.TV\\output\\shorts"
+  ],
+
+  "output": {
+    "base_dir": "D:\\remaike.TV\\output\\shorts",
+    "subdirs": {
+      "pixel_zoom": "pixel_zoom",
+      "soundie_vertical": "soundie_vertical",
+      "time_slider": "time_slider",
+      "impact": "impact",
+      "cinema": "cinema",
+      "restoration_race": "restoration_race"
+    }
+  },
+
+  "rendering": {
+    "codec": "libx264",
+    "preset": "slow",
+    "crf": 18,
+    "pixel_format": "yuv420p",
+    "fps": 24,
+    "width": 1080,
+    "height": 1920,
+    "audio_codec": "aac",
+    "audio_bitrate": "192k",
+    "nvenc_fallback": true,
+    "max_parallel_renders": 1,
+    "timeout_seconds": 600
+  },
+
+  "nvenc_settings": {
+    "enabled": false,
+    "codec": "h264_nvenc",
+    "preset": "p7",
+    "rc": "vbr",
+    "cq": 19,
+    "note": "Enable after RTX 3090 install — gives 15x speedup"
+  },
+
+  "formats": {
+    "pixel_zoom": {
+      "enabled": true,
+      "priority": 0,
+      "duration": 13,
+      "has_audio": false,
+      "daily_target": 3,
+      "description": "Pixel-level zoom → 8K reveal"
+    },
+    "soundie_vertical": {
+      "enabled": true,
+      "priority": 0,
+      "duration": 60,
+      "has_audio": true,
+      "daily_target": 2,
+      "description": "Soundie smart-cropped to 9:16"
+    },
+    "time_slider": {
+      "enabled": true,
+      "priority": 1,
+      "duration": 30,
+      "has_audio": false,
+      "daily_target": 2,
+      "description": "Animated before/after slider"
+    },
+    "impact": {
+      "enabled": true,
+      "priority": 1,
+      "duration": 13,
+      "has_audio": false,
+      "daily_target": 2,
+      "description": "Single wow moment loop"
+    },
+    "restoration_race": {
+      "enabled": false,
+      "priority": 1,
+      "duration": 60,
+      "has_audio": false,
+      "daily_target": 1,
+      "description": "4-grid comparison — needs complex filtergraph, Phase 2"
+    },
+    "cinema": {
+      "enabled": true,
+      "priority": 2,
+      "duration": 60,
+      "has_audio": true,
+      "daily_target": 1,
+      "description": "60s cinematic micro-narrative"
+    }
+  },
+
+  "scheduling": {
+    "daily_total_target": 10,
+    "upload_batch_size": 3,
+    "upload_interval_hours": 4,
+    "peak_upload_times_utc": ["14:00", "18:00", "22:00"],
+    "note": "3 Shorts every 4 hours during peak engagement times"
+  },
+
+  "scene_detection": {
+    "min_scene_duration": 3.0,
+    "max_scene_duration": 120.0,
+    "adaptive_threshold": 3.0,
+    "min_content_val": 15.0,
+    "score_thresholds": {
+      "excellent": 80,
+      "good": 60,
+      "acceptable": 40,
+      "skip": 39
+    }
+  },
+
+  "quality_requirements": {
+    "min_resolution": "1080p",
+    "preferred_resolution": "8k",
+    "min_bitrate_mbps": 5,
+    "max_output_size_mb": 50
+  },
+
+  "watermark": {
+    "text": "remAIke 8K",
+    "fontsize": 28,
+    "fontcolor": "white@0.6",
+    "position": "bottom_right",
+    "font": "Georgia"
+  },
+
+  "metadata_template": {
+    "title_prefix": "",
+    "title_suffix": "| 8K | @remAIke_IT",
+    "default_tags": [
+      "8K",
+      "upscale",
+      "AI enhanced",
+      "public domain",
+      "vintage",
+      "restoration",
+      "before and after"
+    ],
+    "category_id": "1",
+    "privacy_status": "private",
+    "made_for_kids": false
+  },
+
+  "category_overrides": {
+    "soundie": {
+      "category_id": "10",
+      "extra_tags": ["soundie", "1940s", "vintage music", "jazz", "swing"]
+    },
+    "wochenschau": {
+      "category_id": "27",
+      "extra_tags": ["wochenschau", "newsreel", "WWII", "history"]
+    }
+  }
+}

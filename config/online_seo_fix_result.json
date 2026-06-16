@@ -1,0 +1,110 @@
+{
+  "timestamp": "2026-01-30T15:46:31.543663",
+  "updates": [
+    {
+      "nr": "459",
+      "video_id": "o33-c1riv4U",
+      "event": "Pre-War Era",
+      "success": true,
+      "changes": {
+        "title": {
+          "old": "Wochenschau 459: Pre-War Era (Jun 1939) | 8K",
+          "new": "Wochenschau 459: Pre-War Era (Jun 1939) | 8K"
+        },
+        "description": {
+          "old_length": 2410,
+          "new_length": 2410
+        },
+        "tags": {
+          "old_count": 30,
+          "new_count": 16
+        }
+      }
+    },
+    {
+      "nr": "468",
+      "video_id": "dAp7JFDhE3U",
+      "event": "Nazi-Soviet Pact",
+      "success": true,
+      "changes": {
+        "title": {
+          "old": "Wochenschau 468: Nazi-Soviet Pact (Aug 1939) | 8K",
+          "new": "Wochenschau 468: Nazi-Soviet Pact (Aug 1939) | 8K"
+        },
+        "description": {
+          "old_length": 2440,
+          "new_length": 2440
+        },
+        "tags": {
+          "old_count": 30,
+          "new_count": 16
+        }
+      }
+    },
+    {
+      "nr": "470",
+      "video_id": "t-VIxJaWE74",
+      "event": "War Begins",
+      "success": true,
+      "changes": {
+        "title": {
+          "old": "Wochenschau 470: War Begins (Sep 1939) | 8K",
+          "new": "Wochenschau 470: War Begins (Sep 1939) | 8K"
+        },
+        "description": {
+          "old_length": 2424,
+          "new_length": 2424
+        },
+        "tags": {
+          "old_count": 30,
+          "new_count": 17
+        }
+      }
+    },
+    {
+      "nr": "471",
+      "video_id": "9muRRAleqdA",
+      "event": "Poland Campaign",
+      "success": true,
+      "changes": {
+        "title": {
+          "old": "Wochenschau 471: Poland Campaign (Sep 1939) | 8K",
+          "new": "Wochenschau 471: Poland Campaign (Sep 1939) | 8K"
+        },
+        "description": {
+          "old_length": 2394,
+          "new_length": 2394
+        },
+        "tags": {
+          "old_count": 30,
+          "new_count": 16
+        }
+      }
+    },
+    {
+      "nr": "473",
+      "video_id": "3AtirtgrfUI",
+      "event": "Fall of Warsaw",
+      "success": true,
+      "changes": {
+        "title": {
+          "old": "Wochenschau 473: Fall of Warsaw (Sep 1939) | 8K",
+          "new": "Wochenschau 473: Fall of Warsaw (Sep 1939) | 8K"
+        },
+        "description": {
+          "old_length": 2410,
+          "new_length": 2410
+        },
+        "tags": {
+          "old_count": 30,
+          "new_count": 16
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total_videos": 5,
+    "successful": 5,
+    "failed": 0
+  }
+}

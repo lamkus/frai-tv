@@ -1,0 +1,369 @@
+{
+  "asterix": {
+    "title_de": "Asterix Filme (1967-1985) | 8K Deutsch",
+    "title_en": "Asterix Movies (1967-1985) | 8K German",
+    "title_es": "Asterix Películas (1967-1985) | 8K Alemán",
+    "emoji": "⚔️",
+    "category": "series_kids",
+    "pattern": "asterix|obelix",
+    "description_de": "Die klassischen Asterix-Zeichentrickfilme in 8K!\n\nDie gallischen Helden Asterix und Obelix in ihren legendären Abenteuern.\n\nPublic Domain • 8K restauriert\n\n#Asterix #Obelix #Zeichentrick #8K",
+    "tags": ["asterix", "obelix", "gallier", "zeichentrick", "8k", "klassiker", "animation"]
+  },
+  "astro_boy": {
+    "title_de": "Astro Boy (1963) | 8K Deutsch",
+    "title_en": "Astro Boy (1963) | 8K German Dub",
+    "title_es": "Astro Boy (1963) | 8K Alemán",
+    "emoji": "🤖",
+    "category": "series_kids",
+    "pattern": "astro\\s*boy|tetsuwan\\s*atom",
+    "description_de": "Astro Boy - Osamu Tezukas Anime-Klassiker in 8K!\n\nDer kleine Roboterjunge mit großem Herz.\n\n1963 • 8K restauriert\n\n#AstroBoy #Anime #Klassiker #8K",
+    "tags": ["astro boy", "anime", "tezuka", "1963", "robot", "8k", "klassiker"]
+  },
+  "gymkhana": {
+    "title_de": "Ken Block Gymkhana | 8K Collection",
+    "title_en": "Ken Block Gymkhana | 8K Collection",
+    "title_es": "Ken Block Gymkhana | 8K Colección",
+    "emoji": "🏎️",
+    "category": "automotive",
+    "pattern": "ken\\s*block|gymkhana|getaway.*stockholm",
+    "description_de": "Ken Block Gymkhana & Getaway in Stockholm in 8K!\n\nLegendäre Drift-Videos und Street Racing.\n\n8K HQ\n\n#KenBlock #Gymkhana #Drift #8K",
+    "tags": ["ken block", "gymkhana", "drift", "racing", "8k", "automotive", "getaway stockholm"]
+  },
+  "maulwurf": {
+    "title_de": "Der kleine Maulwurf | Krtek | 8K",
+    "title_en": "The Little Mole | Krtek | 8K",
+    "title_es": "El Pequeño Topo | Krtek | 8K",
+    "emoji": "🐀",
+    "category": "series_kids",
+    "pattern": "maulwurf|krtek|krtečk",
+    "description_de": "Der kleine Maulwurf - Tschechischer Zeichentrick-Klassiker in 8K!\n\nZdeněk Milers zeitlose Animationsserie ohne Dialoge.\n\nPublic Domain • 8K restauriert\n\n#Maulwurf #Krtek #Zeichentrick #8K",
+    "tags": ["maulwurf", "krtek", "czech animation", "zdenek miler", "8k", "kinderserien"]
+  },
+  "care_bears": {
+    "title_de": "Glücksbärchis | Care Bears | 8K",
+    "title_en": "Care Bears | 8K",
+    "title_es": "Los Osos Amorosos | Care Bears | 8K",
+    "emoji": "🐻",
+    "category": "series_kids",
+    "pattern": "glücksbärchi|care\\s*bears",
+    "description_de": "Die Glücksbärchis in 8K!\n\n80er Jahre Kult-Zeichentrick.\n\n8K restauriert\n\n#Glücksbärchis #CareBears #80er #8K",
+    "tags": ["glücksbärchis", "care bears", "80s", "cartoon", "8k"]
+  },
+  "hitchcock": {
+    "title_de": "Alfred Hitchcock Klassiker | 8K",
+    "title_en": "Alfred Hitchcock Classics | 8K",
+    "title_es": "Clásicos de Alfred Hitchcock | 8K",
+    "emoji": "🎭",
+    "category": "films",
+    "pattern": "hitchcock|blackmail.*1929|psycho|vertigo",
+    "description_de": "Alfred Hitchcock Meisterwerke in 8K!\n\nDer Master of Suspense.\n\nPublic Domain • 8K restauriert\n\n#Hitchcock #Thriller #Klassiker #8K",
+    "tags": ["hitchcock", "thriller", "classic film", "suspense", "8k", "public domain"]
+  },
+  "disney_silly": {
+    "title_de": "Silly Symphonies | Disney Klassiker | 8K",
+    "title_en": "Silly Symphonies | Disney Classics | 8K",
+    "title_es": "Silly Symphonies | Clásicos Disney | 8K",
+    "emoji": "🏰",
+    "category": "classic_cartoons",
+    "pattern": "silly\\s*symph|disney.*1929|disney.*1930|disney.*1931|skeleton\\s*dance",
+    "description_de": "Disney Silly Symphonies in 8K!\n\nDie musikalischen Meisterwerke aus den frühen Disney-Studios.\n\n1929-1939 • Public Domain • 8K restauriert\n\n#SillySymphonies #Disney #VintageCartoons #8K",
+    "tags": ["silly symphonies", "disney", "1930s", "animation", "8k", "classic cartoons"]
+  },
+  "mel_o_toons": {
+    "title_de": "Mel-O-Toons | Klassische Cartoons | 8K",
+    "title_en": "Mel-O-Toons | Classic Cartoons | 8K",
+    "title_es": "Mel-O-Toons | Dibujos Clásicos | 8K",
+    "emoji": "🎶",
+    "category": "classic_cartoons",
+    "pattern": "mel.o.toon|peter.*wolf.*1960",
+    "description_de": "Mel-O-Toons Klassiker in 8K!\n\nAnimierte Kindergeschichten aus den 1950er-60ern.\n\nPublic Domain • 8K restauriert\n\n#MelOToons #VintageCartoons #8K",
+    "tags": ["mel-o-toons", "1960s", "animation", "8k", "classic cartoons", "kids"]
+  },
+  "documentaries": {
+    "title_de": "Vintage Dokumentationen | 8K Archiv",
+    "title_en": "Vintage Documentaries | 8K Archive",
+    "title_es": "Documentales Vintage | 8K Archivo",
+    "emoji": "📽️",
+    "category": "documentary",
+    "pattern": "documentary|what.*should.*know|duck.*cover|biological.*warfare|times\\s*square.*vintage|day.*earth.*1951|hindenburg|pearl\\s*harbor|december\\s*7th|design.*dreaming|experiments.*revival|golden\\s*gate.*1940|berlin.*symphony",
+    "description_de": "Vintage Dokumentationen & Archivmaterial in 8K!\n\nHistorische Zeitdokumente restauriert.\n\nPublic Domain • 8K HQ\n\n#Dokumentation #Geschichte #Archiv #8K",
+    "tags": ["documentary", "vintage", "history", "archive", "8k", "public domain"]
+  },
+  "little_nemo": {
+    "title_de": "Little Nemo & Frühe Animation | 8K",
+    "title_en": "Little Nemo & Early Animation | 8K",
+    "title_es": "Little Nemo & Animación Temprana | 8K",
+    "emoji": "💤",
+    "category": "silent_film",
+    "pattern": "little\\s*nemo|winsor\\s*mccay",
+    "description_de": "Little Nemo - Winsor McCays Animationspionier in 8K!\n\n1911 - Einer der ersten animierten Filme der Geschichte.\n\nPublic Domain • 8K restauriert\n\n#LittleNemo #Animation #Filmgeschichte #8K",
+    "tags": ["little nemo", "winsor mccay", "1911", "animation history", "8k", "pioneer"]
+  },
+  "melies": {
+    "title_de": "Georges Méliès | Filmzauber | 8K",
+    "title_en": "Georges Méliès | Film Magic | 8K",
+    "title_es": "Georges Méliès | Magia del Cine | 8K",
+    "emoji": "🌙",
+    "category": "silent_film",
+    "pattern": "méliès|melies|astronomer.*dream|golden\\s*beetle|cigar\\s*box|segundo.*chomón|bee.*rose.*1908|frog.*1908",
+    "description_de": "Georges Méliès - Der Zauberer des frühen Kinos in 8K!\n\nPionierende Spezialeffekte aus der Stummfilmära.\n\n1896-1912 • Public Domain • 8K restauriert\n\n#Méliès #Stummfilm #Filmgeschichte #8K",
+    "tags": ["melies", "silent film", "special effects", "1900s", "8k", "film pioneer"]
+  },
+  "misc_vintage": {
+    "title_de": "Vintage Raritäten | 8K Fundstücke",
+    "title_en": "Vintage Rarities | 8K Gems",
+    "title_es": "Rarezas Vintage | 8K Joyas",
+    "emoji": "💎",
+    "category": "misc",
+    "pattern": "teaserama|marihuana.*1936|metropolis.*1927|phantom.*opera.*1925|tarzan.*revenge|dinner.*one|wonderful.*world.*1959|voyage.*prehistoric|candid.*candidate|cabinet.*caligari|aesop.*fables|krazy\\s*kat|commodore|prelinger|clever.*smart|drei.*mäuse|kleene.*punker|lucy.*john.*wayne|kirby.*abridged|cricket.*fiddle|big\\s*game\\s*hunter|aint.*nature.*grand|tennisparty|livestream",
+    "description_de": "Vintage Raritäten & Kuriositäten in 8K!\n\nSeltene Fundstücke aus dem Filmarchiv.\n\nPublic Domain • 8K HQ\n\n#Vintage #Klassiker #Filmarchiv #8K",
+    "tags": ["vintage", "rare", "classic", "8k", "archive", "curiosities"]
+  },
+  "alfred_j_quack": {
+    "title_de": "Alfred J. Kwak - Komplette Serie | 8K Deutsch",
+    "title_en": "Alfred J. Kwak - Complete Series | 8K German Dub",
+    "title_es": "Alfred J. Kwak - Serie Completa | 8K Alemán",
+    "emoji": "🦆",
+    "category": "series_kids",
+    "pattern": "alfred\\s*j\\.?\\s*(kwak|quack)|jodokus|dolf|henk|alfred.*episode",
+    "description_de": "Die komplette Serie \"Alfred J. Kwak\" (1989-1991) in brillanter 8K Qualität.\n\nDie niederländisch-deutsche Zeichentrickserie erzählt die Geschichte der Ente Alfred und behandelt wichtige Themen wie Freundschaft, Gerechtigkeit und Geschichte.\n\n52 Episoden • Deutsch synchronisiert • Public Domain restauriert\n\nLIKE • COMMENT • SUBSCRIBE @remAIke_IT\nMehr Klassiker: www.FRai.TV\n\n#AlfredJKwak #Zeichentrick #80erKlassiker #8K",
+    "description_en": "The complete \"Alfred J. Kwak\" series (1989-1991) in stunning 8K quality.\n\nThis Dutch-German animated series tells the story of Alfred the duck and addresses important themes like friendship, justice, and history.\n\n52 episodes • German dubbed • Public domain restored\n\nLIKE • COMMENT • SUBSCRIBE @remAIke_IT\nMore classics: www.FRai.TV\n\n#AlfredJKwak #Animation #80sClassic #8K",
+    "tags": [
+      "alfred j kwak",
+      "alfred jodokus quack",
+      "zeichentrick",
+      "80er",
+      "animation",
+      "8k",
+      "kinderserien",
+      "klassiker",
+      "dolf",
+      "henk",
+      "public domain"
+    ]
+  },
+  "bravestarr": {
+    "title_de": "BraveStarr - Komplette Serie | 8K Deutsch",
+    "title_en": "BraveStarr - Complete Series | 8K German Dub",
+    "title_es": "BraveStarr - Serie Completa | 8K Alemán",
+    "emoji": "🤠",
+    "category": "series_kids",
+    "pattern": "bravestarr|brave\\s*starr",
+    "description_de": "BraveStarr (1987-1988) - Der Space-Western-Klassiker in 8K!\n\nMarshal BraveStarr beschützt den Planeten New Texas mit der Kraft des Bären, des Falken, des Pumas und des Wolfes.\n\n65 Episoden • Filmation Studios • 8K restauriert\n\nLIKE • COMMENT • SUBSCRIBE @remAIke_IT\n\n#BraveStarr #SpaceWestern #80erKlassiker #8K #Filmation",
+    "tags": [
+      "bravestarr",
+      "space western",
+      "80s cartoon",
+      "filmation",
+      "8k",
+      "animation",
+      "new texas",
+      "marshal"
+    ]
+  },
+  "betty_boop": {
+    "title_de": "Betty Boop Collection (1930er) | Jazz Age | 8K",
+    "title_en": "Betty Boop Collection (1930s) | Jazz Age | 8K",
+    "title_es": "Betty Boop Colección (1930s) | Era del Jazz | 8K",
+    "emoji": "💋",
+    "category": "classic_cartoons",
+    "pattern": "betty\\s*boop",
+    "description_de": "Die ikonische Betty Boop - Fleischer Studios' Jazz-Age-Ikone in 8K restauriert!\n\nPre-Code Cartoons aus den 1930ern mit dem unverwechselbaren Stil der Fleischer Brothers.\n\n60+ Kurzfilme • Public Domain • 8K HQ\n\nLIKE • COMMENT • SUBSCRIBE @remAIke_IT\n\n#BettyBoop #JazzAge #1930s #VintageCartoons #8K #Fleischer",
+    "tags": [
+      "betty boop",
+      "fleischer",
+      "1930s",
+      "jazz age",
+      "vintage cartoon",
+      "8k",
+      "pre-code",
+      "animation",
+      "public domain"
+    ]
+  },
+  "casper": {
+    "title_de": "Casper - Der freundliche Geist | 8K Collection",
+    "title_en": "Casper the Friendly Ghost | 8K Collection",
+    "title_es": "Casper el Fantasma Amigable | 8K Colección",
+    "emoji": "👻",
+    "category": "classic_cartoons",
+    "pattern": "casper",
+    "description_de": "Casper, der freundliche Geist - Famous Studios Klassiker in 8K!\n\nDie charmanten Abenteuer des kleinen Geistes, der nur Freunde finden möchte.\n\nPublic Domain • 8K restauriert\n\n#Casper #FriendlyGhost #VintageCartoons #8K",
+    "tags": [
+      "casper",
+      "friendly ghost",
+      "famous studios",
+      "1940s",
+      "1950s",
+      "vintage cartoon",
+      "8k",
+      "kids"
+    ]
+  },
+  "felix_cat": {
+    "title_de": "Felix the Cat - Stummfilm-Ära | 8K Restauriert",
+    "title_en": "Felix the Cat - Silent Era | 8K Restored",
+    "title_es": "Félix el Gato - Era Muda | 8K Restaurado",
+    "emoji": "🐱",
+    "category": "classic_cartoons",
+    "pattern": "felix.*cat|felix\\s*the\\s*cat",
+    "description_de": "Felix the Cat - Der erste Cartoon-Superstar!\n\nDie legendäre Stummfilm-Katze aus den 1920ern in brillanter 8K Qualität restauriert.\n\nPat Sullivan Studios • Public Domain\n\n#FelixTheCat #SilentFilm #1920s #VintageCartoons #8K",
+    "tags": [
+      "felix the cat",
+      "silent film",
+      "1920s",
+      "pat sullivan",
+      "vintage cartoon",
+      "8k",
+      "animation history"
+    ]
+  },
+  "looney_tunes": {
+    "title_de": "Looney Tunes & Merrie Melodies | 8K Collection",
+    "title_en": "Looney Tunes & Merrie Melodies | 8K Collection",
+    "title_es": "Looney Tunes & Merrie Melodies | 8K Colección",
+    "emoji": "🐰",
+    "category": "classic_cartoons",
+    "pattern": "looney\\s*tunes|merrie\\s*melodies|bugs\\s*bunny|daffy|porky|bosko",
+    "description_de": "Warner Bros. Cartoon-Klassiker in 8K!\n\nBugs Bunny, Daffy Duck, Porky Pig und mehr aus der goldenen Ära der Animation.\n\nPublic Domain Episoden • 8K restauriert\n\n#LooneyTunes #MerrieMelodies #WarnerBros #VintageCartoons #8K",
+    "tags": [
+      "looney tunes",
+      "merrie melodies",
+      "bugs bunny",
+      "daffy duck",
+      "porky pig",
+      "warner bros",
+      "8k",
+      "classic cartoons"
+    ]
+  },
+  "popeye": {
+    "title_de": "Popeye der Seemann | Fleischer Studios | 8K",
+    "title_en": "Popeye the Sailor | Fleischer Studios | 8K",
+    "title_es": "Popeye el Marino | Fleischer Studios | 8K",
+    "emoji": "⚓",
+    "category": "classic_cartoons",
+    "pattern": "popeye|spinach",
+    "description_de": "Popeye der Seemann - Fleischer Studios Meisterwerk in 8K!\n\nDie kultigen Abenteuer von Popeye, Olive Oyl und Bluto.\n\n1930er-1940er • Public Domain • 8K HQ\n\n#Popeye #Fleischer #VintageCartoons #8K",
+    "tags": [
+      "popeye",
+      "fleischer studios",
+      "olive oyl",
+      "bluto",
+      "1930s",
+      "1940s",
+      "vintage cartoon",
+      "8k"
+    ]
+  },
+  "superman_fleischer": {
+    "title_de": "Superman - Fleischer Studios (1941-1943) | 8K",
+    "title_en": "Superman - Fleischer Studios (1941-1943) | 8K",
+    "title_es": "Superman - Fleischer Studios (1941-1943) | 8K",
+    "emoji": "🦸",
+    "category": "classic_cartoons",
+    "pattern": "superman|fleischer.*superman|fleischer.*color|color\\s*classic|little\\s*lambkins|gabby.*king",
+    "description_de": "Die legendären Superman-Cartoons von Fleischer Studios in 8K!\n\n17 bahnbrechende Kurzfilme, die Animationsgeschichte schrieben.\n\n1941-1943 • Public Domain • 8K restauriert\n\n#Superman #Fleischer #1940s #DCComics #8K",
+    "tags": [
+      "superman",
+      "fleischer studios",
+      "1941",
+      "1942",
+      "1943",
+      "dc comics",
+      "animation",
+      "8k",
+      "public domain"
+    ]
+  },
+  "soundies": {
+    "title_de": "Soundies - Vintage Music Videos (1940er) | 8K",
+    "title_en": "Soundies - Vintage Music Videos (1940s) | 8K",
+    "title_es": "Soundies - Videos Musicales Vintage (1940s) | 8K",
+    "emoji": "🎵",
+    "category": "music",
+    "pattern": "soundie",
+    "description_de": "Soundies - Die Musikvideos der 1940er Jahre in 8K!\n\nOriginalaufnahmen aus Jukeboxen der WWII-Ära. Jazz, Swing, Blues und mehr.\n\nPublic Domain • 8K HQ restauriert\n\n#Soundies #1940s #VintageMusic #Jazz #Swing #8K",
+    "tags": [
+      "soundies",
+      "1940s",
+      "vintage music",
+      "jazz",
+      "swing",
+      "big band",
+      "jukebox",
+      "8k",
+      "music video"
+    ]
+  },
+  "silent_era": {
+    "title_de": "Stummfilm-Klassiker (1900-1930) | 8K Restauriert",
+    "title_en": "Silent Film Classics (1900-1930) | 8K Restored",
+    "title_es": "Clásicos del Cine Mudo (1900-1930) | 8K Restaurado",
+    "emoji": "🎬",
+    "category": "silent_film",
+    "pattern": "silent|stummfilm|buster\\s*keaton|charlie\\s*chaplin|harold\\s*lloyd|melies|1920.*film|1910.*film",
+    "description_de": "Die goldene Ära des Stummfilms in 8K!\n\nBuster Keaton, Charlie Chaplin, Georges Méliès und mehr - restauriert für moderne Displays.\n\n1900-1930 • Public Domain • 8K HQ\n\n#Stummfilm #SilentFilm #BusterKeaton #CharlieChaplin #8K",
+    "tags": [
+      "silent film",
+      "stummfilm",
+      "buster keaton",
+      "charlie chaplin",
+      "harold lloyd",
+      "melies",
+      "1920s",
+      "8k",
+      "film history"
+    ]
+  },
+  "wochenschau": {
+    "title_de": "Deutsche Wochenschau - Historisches Archiv | 8K",
+    "title_en": "German Newsreel - Historical Archive | 8K",
+    "title_es": "Noticiero Alemán - Archivo Histórico | 8K",
+    "emoji": "📰",
+    "category": "historical",
+    "pattern": "wochenschau|newsreel|ufa.*ton|deutsche\\s*woche",
+    "description_de": "Deutsche Wochenschau - Historisches Archivmaterial in 8K.\n\nOriginale Kino-Wochenschauen zur historischen Dokumentation und Bildung.\nDieses Material wird in seinem historischen Kontext gezeigt.\n\nHINWEIS: Enthält zeitgenössisches Propagandamaterial.\nPublic Domain • 8K restauriert\n\n#Wochenschau #Geschichte #Zeitgeschichte #8K #Archiv",
+    "tags": [
+      "wochenschau",
+      "newsreel",
+      "history",
+      "archive",
+      "germany",
+      "8k",
+      "wwii",
+      "documentary",
+      "historical"
+    ]
+  },
+  "christmas": {
+    "title_de": "Weihnachtsklassiker | Holiday Specials | 8K",
+    "title_en": "Christmas Classics | Holiday Specials | 8K",
+    "title_es": "Clásicos de Navidad | Holiday Specials | 8K",
+    "emoji": "🎄",
+    "category": "holiday",
+    "pattern": "christmas|santa|xmas|holiday|weihnacht|silvester|new\\s*year|rudolph|red.nosed.reindeer",
+    "description_de": "Weihnachts- und Neujahrsklassiker in 8K!\n\nFestliche Cartoons, Filme und mehr für die Feiertage.\n\nPublic Domain • 8K HQ\n\n#Weihnachten #Christmas #Klassiker #8K",
+    "tags": ["christmas", "holiday", "santa", "new year", "vintage", "8k", "classic", "xmas"]
+  },
+  "public_domain_films": {
+    "title_de": "Public Domain Filme | Klassiker | 8K",
+    "title_en": "Public Domain Films | Classics | 8K",
+    "title_es": "Películas de Dominio Público | Clásicos | 8K",
+    "emoji": "🎥",
+    "category": "films",
+    "pattern": "full\\s*movie|film\\s*\\(\\d{4}\\)|full\\s*film|1932\\)|1933\\)|1934\\)|1935\\)|1936\\)|1945\\)|1946\\)|1953\\)|1954\\)",
+    "description_de": "Public Domain Spielfilme in 8K Qualität!\n\nKlassische Filme, Thriller, Horror und mehr - urheberrechtsfrei und restauriert.\n\nPublic Domain • 8K HQ\n\n#PublicDomain #Klassiker #Film #8K",
+    "tags": ["public domain", "classic films", "movies", "8k", "vintage", "restored"]
+  },
+  "shorts": {
+    "title_de": "Shorts | Kurzvideos | 8K Highlights",
+    "title_en": "Shorts | Quick Clips | 8K Highlights",
+    "title_es": "Shorts | Clips Rápidos | 8K Highlights",
+    "emoji": "⚡",
+    "category": "shorts",
+    "pattern": "#shorts|short$|kurzfilm",
+    "description_de": "Die besten Momente aus unserem Archiv als Shorts!\n\nSchnelle Clips, Highlights und Teaser zu unseren 8K Restaurierungen.\n\n#Shorts #8K #Highlights",
+    "tags": ["shorts", "8k", "highlights", "quick clips", "teaser"]
+  }
+}

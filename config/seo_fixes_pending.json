@@ -1,0 +1,642 @@
+{
+  "title_fixes": [
+    {
+      "video_id": "iEEvt-s1XhQ",
+      "category": "Wochenschau",
+      "current_title": "Die Deutsche Wochenschau Nr. 753 (05.03.1945) | 8K HQ | @remAIke_IT",
+      "new_title": "Wochenschau Nr. 753 (1945) | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Keyword 'Wochenschau' muss am Anfang stehen",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "H_n_mS-eKps",
+      "category": "Wochenschau",
+      "current_title": "Die Deutsche Wochenschau Nr. 754 (16.03.1945) | 8K HQ | @remAIke_IT",
+      "new_title": "Wochenschau Nr. 754 (1945) | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Keyword 'Wochenschau' muss am Anfang stehen",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "gB_KUOpsNnM",
+      "category": "Soundies",
+      "current_title": "Soundie: Heaven Help a Sailor | 8K HQ | Vintage Music | @remAIke_IT",
+      "new_title": "Heaven Help a Sailor (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "w2UvksMOs3c",
+      "category": "Wochenschau",
+      "current_title": "Die Deutsche Wochenschau Nr. 750 | 25.01.1945 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "new_title": "Wochenschau Nr. 750 (1945) | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Keyword 'Wochenschau' muss am Anfang stehen",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "6YLPpJLgVXk",
+      "category": "Wochenschau",
+      "current_title": "Die Deutsche Wochenschau Nr. 751 | 10.02.1945 | Germany WWII Newsreel | 8K HQ | @remAIke_IT",
+      "new_title": "Wochenschau Nr. 751 (1945) | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Keyword 'Wochenschau' muss am Anfang stehen",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "mReDNz-Exdk",
+      "category": "Soundies",
+      "current_title": "Soundie: Lamp of Memory | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Lamp of Memory (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "6XVj6G3qNYY",
+      "category": "Soundies",
+      "current_title": "Soundie: Jiveroo | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Jiveroo (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "ukmrI7DlXkc",
+      "category": "Soundies",
+      "current_title": "Soundie: In a Shanty in Old Shanty Town | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "In a Shanty in Old Shanty Town (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "oA7XcqVM1Vo",
+      "category": "Soundies",
+      "current_title": "Soundie: I Cant Give You Anything But Love | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "I Cant Give You Anything But Love | Soundie | 8K | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "OvBqUlzTunI",
+      "category": "Soundies",
+      "current_title": "Soundie: Hollywood Boogie | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Hollywood Boogie (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "mDSdzFc572Y",
+      "category": "Soundies",
+      "current_title": "Soundie: What This Country Needs | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "What This Country Needs (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "hAs6lunYl-E",
+      "category": "Soundies",
+      "current_title": "Soundie: A Jazz Etude | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "A Jazz Etude (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "1zKpqdriv70",
+      "category": "Soundies",
+      "current_title": "Soundie: Ten Pretty Girls | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Ten Pretty Girls (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "Z2SxppvCWvE",
+      "category": "Soundies",
+      "current_title": "Soundie: Hawaiian Hula Song | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Hawaiian Hula Song (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "rprpMDyTWRI",
+      "category": "Soundies",
+      "current_title": "Soundie: Zig Me Baby with a Gentle Zag | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Zig Me Baby with a Gentle Zag (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "NAk0QvvaT7M",
+      "category": "Soundies",
+      "current_title": "Soundie: Whos Yehudi | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Whos Yehudi (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "w82vzaGBqwE",
+      "category": "Soundies",
+      "current_title": "Soundie: A Little Robin Told Me So | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "A Little Robin Told Me So (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "GerP7_evS9o",
+      "category": "Soundies",
+      "current_title": "Soundie: Beyond the Blue Horizon | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Beyond the Blue Horizon (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "D-LL4VuR5Pg",
+      "category": "Soundies",
+      "current_title": "Soundie: Lullaby of Broadway | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Lullaby of Broadway (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "LJp-M01OI-8",
+      "category": "Soundies",
+      "current_title": "Soundie: Chime Bells | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Chime Bells (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "HvwtRYp43eU",
+      "category": "Soundies",
+      "current_title": "Soundie: Got to Be This or That | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Got to Be This or That (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "2yGX3wy-4SQ",
+      "category": "Soundies",
+      "current_title": "Soundie: Havana Madrid Show | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Havana Madrid Show (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "TWodj8k8-zU",
+      "category": "Alfred J. Kwak",
+      "current_title": "Alfred Jodokus Quack (29/52): Die Burengänse | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "new_title": "Alfred J. Kwak (29): Die Burengänse | 8K | @remAIke_IT",
+      "title_change_reason": "Titel zu lang (85 chars) - max 70",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "T-EsdXGhqog",
+      "category": "Wochenschau",
+      "current_title": "8K HQ Die Deutsche Wochenschau Nr. 516 | 22.07.1940 | Germany WWII Newsreel |  4K HQ | @remAIke_IT",
+      "new_title": "Wochenschau Nr. 516 (1940) | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Keyword 'Wochenschau' muss am Anfang stehen",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "hIsTWWP-YkQ",
+      "category": "Soundies",
+      "current_title": "Soundie: Once in a While | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Once in a While (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "3rB80OGKzrg",
+      "category": "Wochenschau",
+      "current_title": "8K HQ Die Deutsche Wochenschau Nr. 511 | 20.06.1940 | Germany WWII Newsreel |  8K HQ | @remAIke_IT",
+      "new_title": "Wochenschau Nr. 511 (1940) | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Keyword 'Wochenschau' muss am Anfang stehen",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "Q_hgdk3UaJs",
+      "category": "Alfred J. Kwak",
+      "current_title": "Alfred Jodokus Quack (31/52): Die Bohrinsel | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "new_title": "Alfred J. Kwak (31): Die Bohrinsel | 8K | @remAIke_IT",
+      "title_change_reason": "Titel zu lang (84 chars) - max 70",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "gB_KUOpsNnM",
+      "category": "Soundies",
+      "current_title": "Soundie: Heaven Help a Sailor | 8K HQ | Vintage Music | @remAIke_IT",
+      "new_title": "Heaven Help a Sailor (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "mReDNz-Exdk",
+      "category": "Soundies",
+      "current_title": "Soundie: Lamp of Memory | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Lamp of Memory (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "6XVj6G3qNYY",
+      "category": "Soundies",
+      "current_title": "Soundie: Jiveroo | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Jiveroo (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "ukmrI7DlXkc",
+      "category": "Soundies",
+      "current_title": "Soundie: In a Shanty in Old Shanty Town | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "In a Shanty in Old Shanty Town (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "oA7XcqVM1Vo",
+      "category": "Soundies",
+      "current_title": "Soundie: I Cant Give You Anything But Love | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "I Cant Give You Anything But Love | Soundie | 8K | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "OvBqUlzTunI",
+      "category": "Soundies",
+      "current_title": "Soundie: Hollywood Boogie | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Hollywood Boogie (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "mDSdzFc572Y",
+      "category": "Soundies",
+      "current_title": "Soundie: What This Country Needs | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "What This Country Needs (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "hAs6lunYl-E",
+      "category": "Soundies",
+      "current_title": "Soundie: A Jazz Etude | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "A Jazz Etude (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "1zKpqdriv70",
+      "category": "Soundies",
+      "current_title": "Soundie: Ten Pretty Girls | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Ten Pretty Girls (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "Z2SxppvCWvE",
+      "category": "Soundies",
+      "current_title": "Soundie: Hawaiian Hula Song | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Hawaiian Hula Song (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "rprpMDyTWRI",
+      "category": "Soundies",
+      "current_title": "Soundie: Zig Me Baby with a Gentle Zag | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Zig Me Baby with a Gentle Zag (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "NAk0QvvaT7M",
+      "category": "Soundies",
+      "current_title": "Soundie: Whos Yehudi | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Whos Yehudi (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "w82vzaGBqwE",
+      "category": "Soundies",
+      "current_title": "Soundie: A Little Robin Told Me So | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "A Little Robin Told Me So (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "GerP7_evS9o",
+      "category": "Soundies",
+      "current_title": "Soundie: Beyond the Blue Horizon | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Beyond the Blue Horizon (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "D-LL4VuR5Pg",
+      "category": "Soundies",
+      "current_title": "Soundie: Lullaby of Broadway | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Lullaby of Broadway (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "LJp-M01OI-8",
+      "category": "Soundies",
+      "current_title": "Soundie: Chime Bells | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Chime Bells (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "HvwtRYp43eU",
+      "category": "Soundies",
+      "current_title": "Soundie: Got to Be This or That | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Got to Be This or That (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "2yGX3wy-4SQ",
+      "category": "Soundies",
+      "current_title": "Soundie: Havana Madrid Show | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Havana Madrid Show (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "hIsTWWP-YkQ",
+      "category": "Soundies",
+      "current_title": "Soundie: Once in a While | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Once in a While (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "Cu23aQ_fCRM",
+      "category": "Alfred J. Kwak",
+      "current_title": "Alfred Jodokus Quack (9/52): Ein gefährliches Geschenk | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "new_title": "Alfred J. Kwak (9): Ein gefährliches Geschenk | 8K | @remAIke_IT",
+      "title_change_reason": "Titel zu lang (95 chars) - max 70",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "xk8Z8FVkgrI",
+      "category": "Alfred J. Kwak",
+      "current_title": "Alfred Jodokus Quack (40/52): Der Drache | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "new_title": "Alfred J. Kwak (40): Der Drache | 8K | @remAIke_IT",
+      "title_change_reason": "Titel zu lang (81 chars) - max 70",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "dVNG0cuXVIA",
+      "category": "Alfred J. Kwak",
+      "current_title": "Alfred Jodokus Quack (41/52): Präsident für Groß-Wasserland | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "new_title": "Alfred J. Kwak (41): Präsident für Groß-Wasserland | 8K | @remAIke_IT",
+      "title_change_reason": "Titel zu lang (100 chars) - max 70",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "l_Qy2Kt1dKg",
+      "category": "Alfred J. Kwak",
+      "current_title": "Alfred Jodokus Quack (26/52): Der Schneemensch | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "new_title": "Alfred J. Kwak (26): Der Schneemensch | 8K | @remAIke_IT",
+      "title_change_reason": "Titel zu lang (87 chars) - max 70",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "bbndiYxgr4Y",
+      "category": "Alfred J. Kwak",
+      "current_title": "Alfred Jodokus Quack (42/52): Die Überschwemmung | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "new_title": "Alfred J. Kwak (42): Die Überschwemmung | 8K | @remAIke_IT",
+      "title_change_reason": "Titel zu lang (89 chars) - max 70",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "gZ38wlpWQVI",
+      "category": "Alfred J. Kwak",
+      "current_title": "Alfred Jodokus Quack (39/52): Der Vulkan | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "new_title": "Alfred J. Kwak (39): Der Vulkan | 8K | @remAIke_IT",
+      "title_change_reason": "Titel zu lang (81 chars) - max 70",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "ks63_kmFz7I",
+      "category": "Alfred J. Kwak",
+      "current_title": "Alfred Jodokus Quack (8/52): Der Spion | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "new_title": "Alfred J. Kwak (8): Der Spion | 8K | @remAIke_IT",
+      "title_change_reason": "Titel zu lang (79 chars) - max 70",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "epYGBQ_eH5Q",
+      "category": "Alfred J. Kwak",
+      "current_title": "Alfred Jodokus Quack (7/52): Abenteuer auf hoher See | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "new_title": "Alfred J. Kwak (7): Abenteuer auf hoher See | 8K | @remAIke_IT",
+      "title_change_reason": "Titel zu lang (93 chars) - max 70",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "F6yiVJXyjr0",
+      "category": "Alfred J. Kwak",
+      "current_title": "Alfred Jodokus Quack (5/52): In letzter Sekunde | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "new_title": "Alfred J. Kwak (5): In letzter Sekunde | 8K | @remAIke_IT",
+      "title_change_reason": "Titel zu lang (88 chars) - max 70",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "vefvSUzZ_Ow",
+      "category": "Alfred J. Kwak",
+      "current_title": "Alfred Jodokus Quack (6/52): Olympiade | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "new_title": "Alfred J. Kwak (6): Olympiade | 8K | @remAIke_IT",
+      "title_change_reason": "Titel zu lang (79 chars) - max 70",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "a2tbE1M_iEc",
+      "category": "Alfred J. Kwak",
+      "current_title": "Alfred Jodokus Quack (4/52): Im Brunnen gefangen | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "new_title": "Alfred J. Kwak (4): Im Brunnen gefangen | 8K | @remAIke_IT",
+      "title_change_reason": "Titel zu lang (89 chars) - max 70",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "A2PusB4VNrQ",
+      "category": "Alfred J. Kwak",
+      "current_title": "Alfred Jodokus Quack (25/52): Der Kampf um Deichstadt | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "new_title": "Alfred J. Kwak (25): Der Kampf um Deichstadt | 8K | @remAIke_IT",
+      "title_change_reason": "Titel zu lang (94 chars) - max 70",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "340C9lsoyYk",
+      "category": "Soundies",
+      "current_title": "Soundie: Tica Ti Tica Ta | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Tica Ti Tica Ta (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "A8LWgWF5f5k",
+      "category": "Soundies",
+      "current_title": "Soundie: The Hut-Sut Song | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "The Hut-Sut Song (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "DHogGPBbzRI",
+      "category": "Soundies",
+      "current_title": "Soundie: Sweet Sue (Just You) | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "new_title": "Sweet Sue (Just You) (1940s) | Soundie | 8K HQ | @remAIke_IT",
+      "title_change_reason": "Song-Titel muss am Anfang stehen für YouTube Music",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "DKWzEM8p-dA",
+      "category": "Alfred J. Kwak",
+      "current_title": "Alfred Jodokus Quack (3/52): Hinter Gittern | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "new_title": "Alfred J. Kwak (3): Hinter Gittern | 8K | @remAIke_IT",
+      "title_change_reason": "Titel zu lang (84 chars) - max 70",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "-ekQdtmjG7Y",
+      "category": "Alfred J. Kwak",
+      "current_title": "Alfred Jodokus Quack (20/52): Der Alptraum | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "new_title": "Alfred J. Kwak (20): Der Alptraum | 8K | @remAIke_IT",
+      "title_change_reason": "Titel zu lang (83 chars) - max 70",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "ggJ9g-zD0yw",
+      "category": "Alfred J. Kwak",
+      "current_title": "Alfred Jodokus Quack (19/52): Rettet die Wale! | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "new_title": "Alfred J. Kwak (19): Rettet die Wale! | 8K | @remAIke_IT",
+      "title_change_reason": "Titel zu lang (87 chars) - max 70",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "41NikNnOEts",
+      "category": "Alfred J. Kwak",
+      "current_title": "Alfred Jodokus Quack (2/52): Böse Überraschung | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "new_title": "Alfred J. Kwak (2): Böse Überraschung | 8K | @remAIke_IT",
+      "title_change_reason": "Titel zu lang (87 chars) - max 70",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "sjwlBJlBRrY",
+      "category": "Alfred J. Kwak",
+      "current_title": "Alfred Jodokus Quack (16/52): Die Reise zum Südpol | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "new_title": "Alfred J. Kwak (16): Die Reise zum Südpol | 8K | @remAIke_IT",
+      "title_change_reason": "Titel zu lang (91 chars) - max 70",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "njrWOdwQVw0",
+      "category": "Alfred J. Kwak",
+      "current_title": "Alfred Jodokus Quack (18/52): Im ewigen Eis | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "new_title": "Alfred J. Kwak (18): Im ewigen Eis | 8K | @remAIke_IT",
+      "title_change_reason": "Titel zu lang (84 chars) - max 70",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "DBw7GtT_EIo",
+      "category": "Alfred J. Kwak",
+      "current_title": "Alfred Jodokus Quack (36/52): Die Entführung | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "new_title": "Alfred J. Kwak (36): Die Entführung | 8K | @remAIke_IT",
+      "title_change_reason": "Titel zu lang (85 chars) - max 70",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "wtyacKdKcpY",
+      "category": "Alfred J. Kwak",
+      "current_title": "Alfred Jodokus Quack (17/52): Rettung aus dem All | Deutsch | 8K HQ (4K UHD) | @remAIke_IT",
+      "new_title": "Alfred J. Kwak (17): Rettung aus dem All | 8K | @remAIke_IT",
+      "title_change_reason": "Titel zu lang (90 chars) - max 70",
+      "needs_cta": false,
+      "needs_hashtags": false
+    },
+    {
+      "video_id": "dfUyhjEnAqw",
+      "category": "Other",
+      "current_title": "The Frog (1908) | 8K HQ | @remAIke_IT",
+      "new_title": null,
+      "title_change_reason": null,
+      "needs_cta": false,
+      "needs_hashtags": true
+    }
+  ],
+  "description_fixes": [],
+  "stats": {
+    "total_analyzed": 285,
+    "title_fixes_needed": 69,
+    "cta_fixes_needed": 0,
+    "hashtag_fixes_needed": 1
+  },
+  "generated_at": "2026-01-20T15:13:17.584103"
+}

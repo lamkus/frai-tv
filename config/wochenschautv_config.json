@@ -1,0 +1,87 @@
+{
+  "_meta": {
+    "description": "WochenschauTV - 24/7 Chronologischer Livestream auf remAIke_IT",
+    "version": "1.0",
+    "created": "2026-02-18",
+    "concept": "Alle Deutsche Wochenschau Episoden chronologisch als Permastream"
+  },
+  "stream": {
+    "title": "Classic WWII Newsreels 24/7 | Deutsche Wochenschau Restored | 8K HQ (4K UHD)",
+    "description_template": "🎬 Vintage German WWII newsreels restored in stunning 8K — the original Deutsche Wochenschau, remastered with AI.\nWatch rare original footage from 1939–1945, broadcasting 24/7 in chronological order. New episodes added regularly!\n\n📢 REQUEST EPISODES IN LIVE CHAT!\nWant to see a specific battle, event or year? Tell us in chat!\nWe are actively restoring the full collection (252 episodes) and prioritize YOUR requests.\n👉 Currently streaming: 39 verified 8K episodes | Goal: all 252\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n⚠️ HISTORICAL DOCUMENT — EDUCATIONAL USE ONLY\nThis stream shows original World War II propaganda newsreels.\nThe views expressed do NOT reflect the opinion of the uploader.\nShown for educational, documentary and historical purposes only.\n\nHISTORISCHES DOKUMENT — NUR ZU BILDUNGSZWECKEN\nDieses Material zeigt Original-Propaganda der NS-Zeit und dient\nausschließlich der historischen Dokumentation und Bildung.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📺 WHAT IS THIS STREAM?\nThe Deutsche Wochenschau was a weekly newsreel shown in German cinemas during World War II (1939–1945). These classic propaganda films documented battles, politics and daily wartime life from the German perspective.\n\nEvery episode has been AI-remastered from original 35mm film scans to breathtaking 8K resolution. This is the only stream offering these vintage newsreels in restored quality, 24 hours a day, 7 days a week.\n\n🎬 FEATURED EVENTS:\n• Invasion of Poland (1939)\n• Fall of France (1940)\n• Battle of Britain (1940)\n• Operation Barbarossa (1941)\n• Siege of Stalingrad (1942–1943)\n• D-Day & Allied Advance (1944)\n• Final Days of the Third Reich (1945)\n\n🌍 FIND THIS STREAM IN YOUR LANGUAGE:\n🇩🇪 Deutsche Wochenschau, Zweiter Weltkrieg, Kriegswochenschau, Dokumentation\n🇬🇧 German Newsreel, World War 2, WWII Documentary, WW2 Footage, Classic War Film\n🇪🇸 Noticiero alemán, Segunda Guerra Mundial, documental histórico\n🇵🇹 Cinejornal alemão, Segunda Guerra Mundial, documentário\n🇫🇷 Actualités allemandes, Seconde Guerre mondiale, film documentaire\n🇷🇺 Немецкая кинохроника, Вторая мировая война, документальный\n🇯🇵 ドイツニュース映画, 第二次世界大戦, 歴史ドキュメンタリー\n🇮🇳 जर्मन न्यूज़रील, द्वितीय विश्व युद्ध, इतिहास\n🇨🇳 德国新闻片, 二战纪录片, 第二次世界大战\n🇸🇦 النشرة الإخبارية الألمانية, الحرب العالمية الثانية, وثائقي\n🇮🇩 Berita perang Jerman, Perang Dunia II, film dokumenter sejarah\n🇹🇷 Alman haber filmi, İkinci Dünya Savaşı, tarihi belgesel\n🇰🇷 독일 뉴스릴, 제2차 세계대전, 역사 다큐멘터리\n🇻🇳 Tin tức chiến tranh Đức, Thế chiến thứ hai, phim tài liệu\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n👆 LIKE this stream to help others find it!\n💬 REQUEST your favorite episodes in chat!\n🔔 SUBSCRIBE — new episodes restored every week!\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🌐 www.remaike.IT\n📺 https://www.youtube.com/@remAIke_IT\n\n📜 Source: Public Domain (UFA/Deutsche Wochenschau GmbH, 1939–1945)\n\n#WWII #Documentary #History #WW2 #PublicDomain",
+    "category_id": "27",
+    "tags": [
+      "WWII",
+      "World War II",
+      "WW2",
+      "Deutsche Wochenschau",
+      "German newsreel",
+      "documentary",
+      "history",
+      "8K",
+      "restored",
+      "remastered",
+      "historical footage",
+      "vintage footage",
+      "public domain",
+      "World War 2",
+      "Zweiter Weltkrieg"
+    ],
+    "default_language": "de",
+    "made_for_kids": false,
+    "privacy": "public"
+  },
+  "ffmpeg": {
+    "resolution": "1920x1080",
+    "_note": "1080p render (~5min/ep). AV1 software decode + h264_nvenc.",
+    "fps": 25,
+    "video_bitrate": "8000k",
+    "audio_bitrate": "192k",
+    "audio_sample_rate": 44100,
+    "codec_video": "libx264",
+    "codec_video_nvenc": "h264_nvenc",
+    "codec_audio": "aac",
+    "preset": "medium",
+    "preset_nvenc": "p5",
+    "pixel_format": "yuv420p",
+    "rtmp_url": "rtmp://a.rtmp.youtube.com/live2",
+    "max_keyframe_interval": 50,
+    "bufsize": "16000k"
+  },
+  "overlay": {
+    "disclaimer": {
+      "enabled": false,
+      "_note": "Disclaimer now embedded in the bottom bar info text",
+      "text": "HISTORICAL DOCUMENT",
+      "position": "bottom_bar",
+      "font_size": 32,
+      "font_color": "white",
+      "bg_color": "black@0.6",
+      "duration_seconds": null
+    },
+    "episode_info": {
+      "enabled": true,
+      "position": "bottom_bar",
+      "font_size": 32,
+      "font_color": "white",
+      "bg_color": "black@0.5",
+      "template": "Ep {number} | {date} | {event_en}"
+    }
+  },
+  "schedule": {
+    "mode": "chronological_loop",
+    "pause_between_episodes_seconds": 10,
+    "info_screen_between": true,
+    "info_screen_duration_seconds": 10,
+    "restart_on_error": true,
+    "restart_delay_seconds": 30
+  },
+  "paths": {
+    "video_source_dirs": ["D:\\remaike.TV\\watch\\wochenschau_stream"],
+    "source_mapping": "config/wochenschau_8k_verified_sources.json",
+    "_note": "4K downloads from own YouTube channel (verified 8K uploads, downloaded as 4K AV1). 40 episodes.",
+    "disclaimer_intro": "assets/wochenschau/disclaimer_intro_DE.mp4",
+    "info_screen_template": "assets/wochenschau/info_screen.png",
+    "playlist_file": "config/wochenschau_stream_playlist.txt",
+    "log_file": "logs/wochenschautv_stream.log"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "date": "2026-02-10",
+  "mode": "dry_run",
+  "total_audited": 10,
+  "compliant": 1,
+  "fixes": [
+    {
+      "id": "21iqU9NKJL0",
+      "title": "SHORT skeleton dance full CINEMA",
+      "privacy": "private",
+      "issues": [
+        "R1: No 8K/4K in title",
+        "R4: No CTA in description",
+        "R5: Missing www.remaike.IT",
+        "R6: Missing YouTube channel link",
+        "R11: Description too short (0 chars)",
+        "R12: Too few localizations (0)"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": true,
+      "needs_cat_fix": false,
+      "new_cat": "1",
+      "needs_localizations": true
+    },
+    {
+      "id": "3FstojEXJ5k",
+      "title": "deutsche wochenschau nr496 1940 03 06 14min sls ARCHIVE PROTECTED",
+      "privacy": "private",
+      "issues": [
+        "R1: No 8K/4K in title",
+        "R4: No CTA in description",
+        "R5: Missing www.remaike.IT",
+        "R6: Missing YouTube channel link",
+        "R9: Wochenschau should be Education(27), is 1",
+        "R10: Raw 'sls' artifact in title",
+        "R11: Description too short (0 chars)",
+        "R12: Too few localizations (0)"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": true,
+      "needs_cat_fix": true,
+      "new_cat": "27",
+      "needs_localizations": true
+    },
+    {
+      "id": "n-_DEeOSKz0",
+      "title": "deutsche wochenschau nr504 1940 05 01 15min sls ARCHIVE PROTECTED",
+      "privacy": "private",
+      "issues": [
+        "R1: No 8K/4K in title",
+        "R4: No CTA in description",
+        "R5: Missing www.remaike.IT",
+        "R6: Missing YouTube channel link",
+        "R9: Wochenschau should be Education(27), is 1",
+        "R10: Raw 'sls' artifact in title",
+        "R11: Description too short (0 chars)",
+        "R12: Too few localizations (0)"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": true,
+      "needs_cat_fix": true,
+      "new_cat": "27",
+      "needs_localizations": true
+    },
+    {
+      "id": "W1zYu-fTejs",
+      "title": "deutsche wochenschau nr491 1940 01 31 16min sls ARCHIVE PROTECTED",
+      "privacy": "private",
+      "issues": [
+        "R1: No 8K/4K in title",
+        "R4: No CTA in description",
+        "R5: Missing www.remaike.IT",
+        "R6: Missing YouTube channel link",
+        "R9: Wochenschau should be Education(27), is 1",
+        "R10: Raw 'sls' artifact in title",
+        "R11: Description too short (0 chars)",
+        "R12: Too few localizations (0)"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": true,
+      "needs_cat_fix": true,
+      "new_cat": "27",
+      "needs_localizations": true
+    },
+    {
+      "id": "3rB80OGKzrg",
+      "title": "Wochenschau 511: Paris Falls (Jun 1940) | 8K",
+      "privacy": "public",
+      "issues": [
+        "R5: Missing www.remaike.IT",
+        "R7: Too many hashtags (12)",
+        "R9: Wochenschau should be Education(27), is 25",
+        "R12: Too few localizations (1)"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": true,
+      "needs_cat_fix": true,
+      "new_cat": "27",
+      "needs_localizations": true
+    },
+    {
+      "id": "YHlhhiAfxEA",
+      "title": "Rare 1955 Burlesque Footage: Icons You've Never Seen #classic #restored",
+      "privacy": "public",
+      "issues": [
+        "R1: No 8K/4K in title",
+        "R3: Title too long (71 chars)",
+        "R7: Too many hashtags (14)",
+        "R8: Too many tags (16)",
+        "R12: Too few localizations (1)"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": true,
+      "needs_cat_fix": false,
+      "new_cat": "1",
+      "needs_localizations": true
+    },
+    {
+      "id": "3UBF9ycZwJU",
+      "title": "The 8K ORIGINAL Fast & Furious from 1954! 🏎️ | @remAIke_IT",
+      "privacy": "public",
+      "issues": [
+        "R2: @remAIke_IT in title",
+        "R5: Missing www.remaike.IT",
+        "R7: Too many hashtags (13)",
+        "R12: Too few localizations (1)"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": true,
+      "needs_cat_fix": false,
+      "new_cat": "1",
+      "needs_localizations": true
+    },
+    {
+      "id": "2CwXPhUDC7U",
+      "title": "New Year’s Eve 1951–1952 | Colorized Home Movies | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R12: Too few localizations (1)"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_cat_fix": false,
+      "new_cat": "1",
+      "needs_localizations": true
+    },
+    {
+      "id": "XAyK1yy_e-M",
+      "title": "Day of the Earth (1951) | Vintage Documentary | 8K HQ (4K UHD) | @remAIke_IT",
+      "privacy": "public",
+      "issues": [
+        "R2: @remAIke_IT in title",
+        "R3: Title too long (76 chars)",
+        "R5: Missing www.remaike.IT",
+        "R6: Missing YouTube channel link",
+        "R7: Too many hashtags (11)",
+        "R12: Too few localizations (1)"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": true,
+      "needs_cat_fix": false,
+      "new_cat": "1",
+      "needs_localizations": true
+    }
+  ],
+  "quota_cost": 0
+}

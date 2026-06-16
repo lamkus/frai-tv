@@ -1,0 +1,75 @@
+{
+  "timestamp": "2026-04-14T08:45:00+00:00",
+  "action": "NASA/Space Artemis 2 trending update",
+  "channel_id": "UCVFv6Egpl0LDvigpFbQXNeQ",
+  "videos_total": 6,
+  "videos_updated": 2,
+  "videos_remaining": 4,
+  "quota_exhausted": true,
+  "quota_resets": "2026-04-15T07:00:00+00:00 (midnight Pacific)",
+  "rerun_script": "D:\\remaike.TV\\scripts\\nasa_artemis_update.py",
+  "rerun_command": "PYTHONIOENCODING=utf-8 python scripts/nasa_artemis_update.py",
+  "updates": [
+    {
+      "videoId": "ySxErhBGbx0",
+      "status": "success",
+      "old_title": "Apollo 11: Descent & Landing (1969) | NASA Archive | 8K HQ (4K UHD)",
+      "new_title": "Apollo 11: Original Moon Landing Footage (1969) | NASA Archive | 8K HQ (4K UHD)",
+      "title_changed": true,
+      "description_prepended": true,
+      "new_tags": [
+        "Artemis 2", "Artemis II", "Moon landing", "NASA 2026",
+        "Moon return", "Apollo footage", "8K space", "Moon 8K",
+        "Apollo 11", "apollo 11 footage", "moon landing footage",
+        "neil armstrong", "first moon landing", "4K UHD", "8K"
+      ]
+    },
+    {
+      "videoId": "MV82Fm6Ma4A",
+      "status": "success",
+      "old_title": "Apollo 11 Moonwalk (1969) | NASA | Full Movie | 8K HQ (4K UHD) ARTEMIS2",
+      "new_title": "Apollo 11: Complete Moonwalk (1969) | Where Artemis 2 Returns | NASA | Full Movie | 8K AI Remastered",
+      "title_changed": true,
+      "description_prepended": false,
+      "note": "Title updated via debug session. Description already had ARTEMIS2 content. Tags need update on re-run."
+    },
+    {
+      "videoId": "OWT520VIjxI",
+      "status": "pending",
+      "old_title": "Skylab Space Station (1973) | NASA | 8K HQ (4K UHD)",
+      "new_title": "Skylab: America's First Space Station (1973) | From Skylab to Artemis | NASA | 8K AI Remastered",
+      "reason": "quota_exhausted"
+    },
+    {
+      "videoId": "-Gz34LVx90U",
+      "status": "pending",
+      "old_title": "Skylab 2: Launch (1973) | NASA Archive | 8K HQ (4K UHD)",
+      "new_title": null,
+      "note": "Keep existing title. Update description + tags only.",
+      "reason": "quota_exhausted"
+    },
+    {
+      "videoId": "sp1AzW-_rV0",
+      "status": "pending",
+      "old_title": "Skylab 3: A Scientific Harvest (1974) | NASA | 8K HQ (4K UHD)",
+      "new_title": "Skylab 3: A Scientific Harvest (1974) | NASA's Space Station Legacy | 8K AI Remastered",
+      "reason": "quota_exhausted"
+    },
+    {
+      "videoId": "ndAzCIUxo-c",
+      "status": "pending",
+      "old_title": "Skylab: Gyroscopes in Space | NASA | 8K HQ (4K UHD)",
+      "new_title": null,
+      "note": "Keep existing title. Update description + tags only.",
+      "reason": "quota_exhausted"
+    }
+  ],
+  "errors": [],
+  "notes": [
+    "Quota exhausted during session due to debugging API calls.",
+    "Script is re-runnable and idempotent: skips already-updated videos.",
+    "Re-run after quota reset (midnight Pacific = 2026-04-15T07:00Z).",
+    "Remaining 4 videos need 200 quota units (4 x 50).",
+    "Script uses case-insensitive Artemis detection to avoid double-prepending."
+  ]
+}

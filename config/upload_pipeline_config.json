@@ -1,0 +1,38 @@
+{
+  "watch_directories": ["/watch", "D:/remaike.TV/watch"],
+  "allowed_extensions": [".mp4", ".mkv", ".mov", ".avi"],
+  "skip_globs": ["*.tmp", "*.part", "._*"],
+  "max_file_size_gb": 128,
+
+  "youtube_credentials_path": "config/youtube_oauth.json",
+  "default_privacy": "private",
+  "default_category_id": "22",
+  "default_playlist_id": "PL_REPLACE_ME",
+  "folder_playlist_mapping": {
+    "tutorials": ["PL_TUTORIALS"],
+    "gaming": ["PL_GAMING"],
+    "vlogs": ["PL_VLOGS"]
+  },
+
+  "defaults": {
+    "tags": ["fraitv", "streaming"],
+    "hashtags": ["fraitv", "streaming", "youtube"]
+  },
+
+  "patterns": {
+    "title": "{folder} - {name} | FRai.TV",
+    "description": "📺 {title}\n\n🎬 Mehr auf FRai.TV: https://frai.tv\n📅 {date}\n⏱️ Dauer: {duration}\n📺 Auflösung: {resolution}\n\n#fraitv #{folder} #streaming"
+  },
+
+  "fraitv_api_url": "https://api.frai.tv",
+  "fraitv_api_key": "REPLACE_WITH_TOKEN",
+
+  "retry": {
+    "max_retries": 5,
+    "base_delay_seconds": 2
+  },
+
+  "concurrency": 2,
+  "enable_watch": true,
+  "enable_virus_scan": false
+}

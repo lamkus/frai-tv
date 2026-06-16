@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-01-13T01:54:20.176105",
+  "total": 13,
+  "results": [
+    {
+      "id": "gB_KUOpsNnM",
+      "old_title": "soundie heaven help a sailor on a night like thi 8K HQ",
+      "new_title": "Soundie: Heaven Help a Sailor on a Night Like This | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "tags": 34,
+      "action": "ERROR: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/videos?part=snippet&alt=json returned \"The request metadata specifies an invalid or empty video title.\". Details: \"[{'message': 'The request metadata specifies an invalid or empty video title.', 'domain': 'youtube.video', 'reason': 'invalidTitle', 'location': 'body.snippet.title', 'locationType': 'other'}]\">"
+    },
+    {
+      "id": "6XVj6G3qNYY",
+      "old_title": "soundie jiveroo 8K HQ",
+      "new_title": "Soundie: Jiveroo | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "tags": 34,
+      "action": "UPDATED"
+    },
+    {
+      "id": "ukmrI7DlXkc",
+      "old_title": "soundie in a shanty in old shanty town 8K HQ",
+      "new_title": "Soundie: In a Shanty in Old Shanty Town | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "tags": 33,
+      "action": "UPDATED"
+    },
+    {
+      "id": "oA7XcqVM1Vo",
+      "old_title": "soundie i can t give you anything but love 8K HQ",
+      "new_title": "Soundie: I Cant Give You Anything But Love | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "tags": 34,
+      "action": "UPDATED"
+    },
+    {
+      "id": "OvBqUlzTunI",
+      "old_title": "soundie hollywood boogie 8K HQ",
+      "new_title": "Soundie: Hollywood Boogie | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "tags": 35,
+      "action": "UPDATED"
+    },
+    {
+      "id": "mDSdzFc572Y",
+      "old_title": "soundie what this country needs 8K HQ",
+      "new_title": "Soundie: What This Country Needs | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "tags": 33,
+      "action": "UPDATED"
+    },
+    {
+      "id": "hAs6lunYl-E",
+      "old_title": "soundie a jazz etude 8K HQ",
+      "new_title": "Soundie: A Jazz Etude | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "tags": 33,
+      "action": "UPDATED"
+    },
+    {
+      "id": "1zKpqdriv70",
+      "old_title": "soundie ten pretty girls and i ll make you mi 8K HQ",
+      "new_title": "Soundie: Ten Pretty Girls | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "tags": 34,
+      "action": "UPDATED"
+    },
+    {
+      "id": "Z2SxppvCWvE",
+      "old_title": "soundie hawaiian hula song 8K HQ",
+      "new_title": "Soundie: Hawaiian Hula Song | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "tags": 36,
+      "action": "UPDATED"
+    },
+    {
+      "id": "rprpMDyTWRI",
+      "old_title": "soundie zig me baby with a gentle zag 8K HQ",
+      "new_title": "Soundie: Zig Me Baby with a Gentle Zag | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "tags": 34,
+      "action": "UPDATED"
+    },
+    {
+      "id": "NAk0QvvaT7M",
+      "old_title": "soundie who s yehudi 8K HQ",
+      "new_title": "Soundie: Whos Yehudi | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "tags": 34,
+      "action": "UPDATED"
+    },
+    {
+      "id": "w82vzaGBqwE",
+      "old_title": "soundie a little robin told me so 8K HQ",
+      "new_title": "Soundie: A Little Robin Told Me So | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "tags": 35,
+      "action": "UPDATED"
+    },
+    {
+      "id": "GerP7_evS9o",
+      "old_title": "soundie beyond the blue horizon 8K HQ",
+      "new_title": "Soundie: Beyond the Blue Horizon | 8K HQ (4K UHD) | Vintage Music Film | @remAIke_IT",
+      "tags": 35,
+      "action": "UPDATED"
+    }
+  ]
+}

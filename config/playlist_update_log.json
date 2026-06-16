@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-01-10T17:52:40.265319",
+  "updated": [
+    {
+      "key": "betty_boop_chronological",
+      "playlist_id": "PL3d2Tsr13ihMNCgAFrHLvjx4YIoDCcx-o",
+      "status": "updated",
+      "added": 59,
+      "failed": 0
+    },
+    {
+      "key": "alfred_quack_chronological",
+      "playlist_id": "PL3d2Tsr13ihO4514Eao7ttTv6PRKtEReL",
+      "status": "updated",
+      "added": 3,
+      "failed": 29
+    }
+  ],
+  "skipped": [
+    {
+      "key": "best_cartoons",
+      "reason": "not_mapped"
+    },
+    {
+      "key": "cartoon_marathon",
+      "reason": "not_mapped"
+    },
+    {
+      "key": "feature_films_marathon",
+      "reason": "not_mapped"
+    }
+  ],
+  "failed": [
+    {
+      "key": "superman_chronological",
+      "error": "<HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&playlistId=PL3d2Tsr13ihNGGfilho9PHb3gqsOrhksr&maxResults=50&alt=json returned \"The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.\". Details: \"[{'message': 'The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]\">"
+    },
+    {
+      "key": "casper_chronological",
+      "error": "<HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&playlistId=PL3d2Tsr13ihNlMyu7m1gUrorwDsPL0Szf&maxResults=50&alt=json returned \"The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.\". Details: \"[{'message': 'The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]\">"
+    },
+    {
+      "key": "porky_looney",
+      "error": "<HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&playlistId=PL3d2Tsr13ihNXcCH2-a7VZUyJS-Do8Sn0&maxResults=50&alt=json returned \"The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.\". Details: \"[{'message': 'The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]\">"
+    },
+    {
+      "key": "kids_watchtime",
+      "error": "<HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&playlistId=PL3d2Tsr13ihPSHCGv48UqQqZ5DbFupIZk&maxResults=50&alt=json returned \"The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.\". Details: \"[{'message': 'The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]\">"
+    },
+    {
+      "key": "german_series_complete",
+      "error": "<HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&playlistId=PL3d2Tsr13ihPD7KZc4zP8KqNJzy1paDgL&maxResults=50&alt=json returned \"The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.\". Details: \"[{'message': 'The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]\">"
+    }
+  ]
+}

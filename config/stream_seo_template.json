@@ -1,0 +1,119 @@
+{
+  "_comment": "WochenschauTV Live Stream SEO Template - Applied automatically by broadcast_manager.py on every new broadcast",
+  "_updated": "2026-02-24",
+
+  "category_id": "27",
+  "default_language": "de",
+  "default_audio_language": "de",
+  "self_declared_made_for_kids": false,
+  "privacy_status": "public",
+
+  "thumbnail_path": "assets/wochenschau/thumbnails/stream_thumbnail_branded.jpg",
+
+  "title": "🔴 LIVE 24/7 ⚡ NEW | WWII Footage RESTORED in 8K Best Quality (4K UHD) | WochenschauTV",
+
+  "description_template": "🎬 Complete Deutsche Wochenschau WWII Archive – AI remastered in stunning 8K quality, streaming 24/7.\nOriginal German newsreels 1939–1945, restored and upscaled to 4K UHD. Free historical footage, public domain.\n\n⚠️ HISTORISCHES DOKUMENT | HISTORICAL DOCUMENT\nDieses Material dient ausschließlich der historischen Dokumentation und Bildung.\nDie dargestellten Inhalte spiegeln NICHT die Meinung des Uploaders wider.\nThis content does NOT reflect the views of the uploader. Educational purposes only.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📺 ARCHIV-STATUS | ARCHIVE STATUS\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n✅ Currently streaming:         60 episodes\n🔄 Full archive target:         252 episodes (1939–1945)\n📦 Remaining to be restored:    192 episodes\n\nWE ARE BUILDING THE COMPLETE ARCHIVE!\nWIR BAUEN DAS VOLLSTÄNDIGE ARCHIV AUF!\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n💬 COMMUNITY – MITMACHEN | GET INVOLVED\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🗳️ Which episode is missing? Comment \"Nr. XXX\" or a date!\n📚 Historical questions or corrections? Write them below!\n🔍 Looking for a specific battle or event? We prioritise your requests!\n\nThis archive lives through YOUR demand.\nThe more you request, the faster the next episode becomes available.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n👆 LIKE if you value preserved history!\n💬 COMMENT which episode you want next!\n🔔 SUBSCRIBE – new episodes added regularly!\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n🌐 SEARCH IN YOUR LANGUAGE | SUCHE IN DEINER SPRACHE:\n\n🇩🇪 Deutsche Wochenschau, Zweiter Weltkrieg, Kriegsdokumentation, historisches Archiv\n🇬🇧 German Newsreel, World War II, WWII documentary, vintage war footage, remastered\n🇪🇸 Noticiero alemán, Segunda Guerra Mundial, documental histórico, metraje de guerra\n🇵🇹 Cinejornal alemão, Segunda Guerra Mundial, documentário histórico, imagens de guerra\n🇫🇷 Actualités allemandes, Seconde Guerre mondiale, documentaire historique, archives\n🇷🇺 Немецкая кинохроника, Вторая мировая война, историческая документация\n🇯🇵 ドイツニュース映画, 第二次世界大戦, 歴史ドキュメンタリー, 戦争映像\n🇮🇳 जर्मन न्यूज़रील, द्वितीय विश्व युद्ध, ऐतिहासिक वृत्तचित्र, युद्ध फुटेज\n🇨🇳 德国新闻片, 二战, 第二次世界大战, 历史纪录片, 战争影像\n🇸🇦 النشرة الإخبارية الألمانية, الحرب العالمية الثانية, وثائقي تاريخي\n🇮🇩 Berita Jerman, Perang Dunia II, dokumenter sejarah, rekaman perang\n🇻🇳 Tin tức Đức, Thế chiến thứ hai, phim tài liệu lịch sử\n🇹🇷 Alman haber filmi, İkinci Dünya Savaşı, tarihi belgesel, savaş görüntüleri\n🇰🇷 독일 뉴스릴, 제2차 세계대전, 역사 다큐멘터리, 전쟁 영상\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n🌐 www.remaike.IT\n📺 https://www.youtube.com/@remAIke_IT\n🎬 Playlist: https://www.youtube.com/playlist?list=PL3d2Tsr13ihMPkNIfoXwQ4W-bSheQxEvg\n\n📜 Source: Public Domain (UFA/DW 1939–1945)\n⚠️ Educational & Historical Documentation Only\n\n#Wochenschau #WWII #8K #History #PublicDomain",
+
+  "tags": [
+    "remAIke",
+    "8K",
+    "4K UHD",
+    "remastered",
+    "restored",
+    "Wochenschau",
+    "Deutsche Wochenschau",
+    "German newsreel",
+    "Zweiter Weltkrieg",
+    "Geschichte",
+    "WWII",
+    "World War II",
+    "WW2",
+    "documentary",
+    "war footage",
+    "public domain",
+    "historical footage",
+    "vintage newsreel",
+    "war documentary",
+    "history documentary",
+    "free documentary",
+    "8K video",
+    "Segunda Guerra Mundial",
+    "cinejornal",
+    "第二次世界大戦",
+    "द्वितीय विश्व युद्ध",
+    "الحرب العالمية الثانية",
+    "Perang Dunia II",
+    "Seconde Guerre mondiale",
+    "İkinci Dünya Savaşı",
+    "제2차 세계대전",
+    "Вторая мировая война"
+  ],
+
+  "localizations": {
+    "de": {
+      "title": "🔴 LIVE 24/7 ⚡ NEU | WWII Originalaufnahmen RESTAURIERT in 8K Best Quality (4K UHD) | WochenschauTV",
+      "description": "🎬 Das komplette Wochenschau-Archiv – KI-restauriert in atemberaubender 8K Qualität. 24/7 Non-Stop!\nOriginalaufnahmen 1939–1945, kostenlos und gemeinfrei.\n\n⚠️ HISTORISCHES DOKUMENT – Ausschließlich für Bildungszwecke.\n\n💬 Welche Ausgabe fehlt? Kommentiert \"Nr. XXX\"!\n🔔 ABONNIERT – neue Episoden regelmäßig!\n\n🌐 www.remaike.IT\n📺 https://www.youtube.com/@remAIke_IT"
+    },
+    "en": {
+      "title": "🔴 LIVE 24/7 ⚡ NEW | WWII Footage RESTORED in 8K Best Quality (4K UHD) | WochenschauTV",
+      "description": "🎬 The COMPLETE German Newsreel Archive – AI restored in stunning 8K. 24/7 Non-Stop!\nOriginal WWII footage 1939–1945, free & public domain.\n\n⚠️ HISTORICAL DOCUMENT – Educational purposes only.\n\n💬 Which episode is missing? Comment \"Nr. XXX\"!\n🔔 SUBSCRIBE for new episodes!\n\n🌐 www.remaike.IT\n📺 https://www.youtube.com/@remAIke_IT"
+    },
+    "es": {
+      "title": "🔴 EN VIVO 24/7 ⚡ NUEVO | WWII Imágenes RESTAURADAS en 8K (4K UHD) | WochenschauTV",
+      "description": "🎬 Archivo completo del noticiero alemán WWII – restaurado con IA en 8K. ¡24/7!\nImágenes originales 1939–1945, dominio público.\n\n⚠️ DOCUMENTO HISTÓRICO – Solo fines educativos.\n\n💬 ¿Qué episodio falta? Comenta \"Nr. XXX\"!\n🔔 ¡SUSCRÍBETE!\n\n🌐 www.remaike.IT"
+    },
+    "pt": {
+      "title": "🔴 AO VIVO 24/7 ⚡ NOVO | WWII Imagens RESTAURADAS em 8K (4K UHD) | WochenschauTV",
+      "description": "🎬 Arquivo completo do cinejornal alemão WWII – restaurado com IA em 8K. 24/7!\nImagens originais 1939–1945, domínio público.\n\n⚠️ DOCUMENTO HISTÓRICO – Fins educacionais.\n\n💬 Qual episódio falta? Comente \"Nr. XXX\"!\n🔔 INSCREVA-SE!\n\n🌐 www.remaike.IT"
+    },
+    "fr": {
+      "title": "🔴 EN DIRECT 24/7 ⚡ NOUVEAU | WWII Images RESTAURÉES en 8K (4K UHD) | WochenschauTV",
+      "description": "🎬 Archives complètes des actualités WWII – restaurées par IA en 8K. 24/7!\nImages originales 1939–1945, domaine public.\n\n⚠️ DOCUMENT HISTORIQUE – Usage éducatif.\n\n💬 Quel épisode manque? Commentez \"Nr. XXX\"!\n🔔 ABONNEZ-VOUS!\n\n🌐 www.remaike.IT"
+    },
+    "ja": {
+      "title": "🔴 24時間配信 ⚡ NEW | WWII オリジナル映像 8K復元 (4K UHD) | WochenschauTV",
+      "description": "🎬 ドイツ週間ニュース完全アーカイブ – AIで8K復元。24時間ノンストップ！\n1939–1945年オリジナル映像、パブリックドメイン。\n\n⚠️ 歴史的文書 – 教育目的のみ。\n\n💬 「Nr. XXX」とコメント！\n🔔 チャンネル登録！\n\n🌐 www.remaike.IT"
+    },
+    "hi": {
+      "title": "🔴 लाइव 24/7 ⚡ नया | WWII फुटेज 8K में पुनर्स्थापित (4K UHD) | WochenschauTV",
+      "description": "🎬 जर्मन न्यूज़रील का पूर्ण संग्रह – AI द्वारा 8K में पुनर्निर्मित। 24/7 नॉन-स्टॉप!\n1939–1945 मूल फुटेज, सार्वजनिक डोमेन।\n\n⚠️ ऐतिहासिक दस्तावेज़ – शैक्षिक उद्देश्य।\n\n💬 \"Nr. XXX\" लिखें!\n🔔 सब्सक्राइब!\n\n🌐 www.remaike.IT"
+    },
+    "id": {
+      "title": "🔴 LIVE 24/7 ⚡ BARU | WWII Rekaman Asli DIRESTORASI 8K (4K UHD) | WochenschauTV",
+      "description": "🎬 Arsip lengkap berita Jerman WWII – direstorasi AI dalam 8K. 24/7!\nRekaman asli 1939–1945, domain publik.\n\n⚠️ DOKUMEN SEJARAH – Untuk pendidikan.\n\n💬 Episode mana yang hilang? \"Nr. XXX\"!\n🔔 SUBSCRIBE!\n\n🌐 www.remaike.IT"
+    },
+    "ar": {
+      "title": "🔴 بث مباشر 24/7 ⚡ جديد | لقطات أصلية WWII بجودة 8K | WochenschauTV",
+      "description": "🎬 أرشيف كامل للنشرة الألمانية WWII – مُعاد ترميمه بالذكاء الاصطناعي بجودة 8K.\n\n⚠️ وثيقة تاريخية – للأغراض التعليمية فقط.\n\n💬 \"Nr. XXX\" اكتب!\n🔔 اشترك!\n\n🌐 www.remaike.IT"
+    },
+    "tr": {
+      "title": "🔴 CANLI 24/7 ⚡ YENİ | WWII Orijinal Görüntüler 8K RESTORE (4K UHD) | WochenschauTV",
+      "description": "🎬 Alman haber filmlerinin tam arşivi – AI ile 8K restore. 24/7!\n1939–1945 orijinal görüntüler.\n\n⚠️ TARİHİ BELGE – Eğitim amaçlı.\n\n💬 \"Nr. XXX\" yazın!\n🔔 ABONE OLUN!\n\n🌐 www.remaike.IT"
+    },
+    "ko": {
+      "title": "🔴 24시간 라이브 ⚡ NEW | WWII 원본 영상 8K 복원 (4K UHD) | WochenschauTV",
+      "description": "🎬 독일 뉴스릴 완전 아카이브 – AI 8K 복원. 24시간 논스톱!\n1939–1945 원본 영상, 퍼블릭 도메인.\n\n⚠️ 역사적 문서 – 교육 목적.\n\n💬 \"Nr. XXX\" 댓글로!\n🔔 구독!\n\n🌐 www.remaike.IT"
+    },
+    "ru": {
+      "title": "🔴 СТРИМ 24/7 ⚡ НОВОЕ | WWII Кадры ВОССТАНОВЛЕНЫ в 8K (4K UHD) | WochenschauTV",
+      "description": "🎬 Полный архив немецкой кинохроники – ремастеринг ИИ в 8K. 24/7!\n1939–1945 оригинальные кадры, общественное достояние.\n\n⚠️ ИСТОРИЧЕСКИЙ ДОКУМЕНТ – Образовательные цели.\n\n💬 \"Nr. XXX\" напишите!\n🔔 ПОДПИСЫВАЙТЕСЬ!\n\n🌐 www.remaike.IT"
+    },
+    "vi": {
+      "title": "🔴 TRỰC TIẾP 24/7 ⚡ MỚI | WWII Hình Ảnh Gốc PHỤC HỒI 8K (4K UHD) | WochenschauTV",
+      "description": "🎬 Kho lưu trữ tin tức Đức WWII – phục chế AI 8K. 24/7!\n1939–1945 hình ảnh gốc.\n\n⚠️ TÀI LIỆU LỊCH SỬ – Giáo dục.\n\n💬 \"Nr. XXX\" bình luận!\n🔔 ĐĂNG KÝ!\n\n🌐 www.remaike.IT"
+    },
+    "zh-Hans": {
+      "title": "🔴 24/7直播 ⚡ 最新 | 二战原始影像 8K修复 (4K UHD) | WochenschauTV",
+      "description": "🎬 德国新闻片完整档案 – AI修复8K。24/7不间断！\n1939–1945原始影像，公共领域。\n\n⚠️ 历史文献 – 仅供教育。\n\n💬 \"Nr. XXX\" 评论！\n🔔 订阅！\n\n🌐 www.remaike.IT"
+    }
+  },
+
+  "broadcast_settings": {
+    "enable_auto_start": true,
+    "enable_auto_stop": false,
+    "enable_dvr": true,
+    "latency_preference": "ultraLow",
+    "enable_monitor_stream": false,
+    "record_from_start": false
+  }
+}

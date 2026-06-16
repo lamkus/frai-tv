@@ -1,0 +1,1533 @@
+{
+    "_meta": {
+        "description": "Historisch verifizierte Event-Keywords für Wochenschau-Episoden",
+        "sources": [
+            "https://de.wikipedia.org/wiki/Chronologie_des_Zweiten_Weltkrieges",
+            "https://de.wikipedia.org/wiki/Die_Deutsche_Wochenschau",
+            "Bundesarchiv Filmarchiv"
+        ],
+        "methodology": "Event-Datum muss VOR oder AM Wochenschau-Datum liegen (Produktionsvorlauf ~3-7 Tage)",
+        "created": "2026-01-22",
+        "verified": true
+    },
+    "events": {
+        "459": {
+            "date": "1939-06-21",
+            "event_de": "Vorkriegszeit",
+            "event_en": "Pre-War Era",
+            "note": "Letzte Friedens-Wochenschau vor dem Krieg"
+        },
+        "468": {
+            "date": "1939-08-23",
+            "event_de": "Hitler-Stalin-Pakt",
+            "event_en": "Nazi-Soviet Pact",
+            "note": "Deutsch-Sowjetischer Nichtangriffspakt (23.08.1939)"
+        },
+        "470": {
+            "date": "1939-09-06",
+            "event_de": "Kriegsausbruch",
+            "event_en": "War Begins",
+            "note": "ERSTE KRIEGSWOCHENSCHAU! Überfall auf Polen (01.09.1939)"
+        },
+        "471": {
+            "date": "1939-09-13",
+            "event_de": "Polenfeldzug",
+            "event_en": "Poland Campaign",
+            "note": "Blitzkrieg in Polen"
+        },
+        "472": {
+            "date": "1939-09-20",
+            "event_de": "Warschau eingekesselt",
+            "event_en": "Warsaw Encircled",
+            "note": "Einschließung Warschaus"
+        },
+        "473": {
+            "date": "1939-09-27",
+            "event_de": "Fall Warschau",
+            "event_en": "Fall of Warsaw",
+            "note": "Kapitulation Warschaus (27.09.1939)"
+        },
+        "474": {
+            "date": "1939-10-04",
+            "event_de": "Siegesparade Warschau",
+            "event_en": "Warsaw Victory",
+            "note": "Hitler-Parade in Warschau (05.10.1939)"
+        },
+        "477": {
+            "date": "1939-10-25",
+            "event_de": "Besatzung Polen",
+            "event_en": "Poland Occupied",
+            "note": "Generalgouvernement errichtet"
+        },
+        "480": {
+            "date": "1939-11-15",
+            "event_de": "Bürgerbräu-Attentat",
+            "event_en": "Bürgerbräu Bomb",
+            "note": "Georg Elsers Attentat auf Hitler (08.11.1939)"
+        },
+        "482": {
+            "date": "1939-11-29",
+            "event_de": "Winterkrieg beginnt",
+            "event_en": "Winter War Begins",
+            "note": "Sowjetischer Angriff auf Finnland (30.11.1939)"
+        },
+        "483": {
+            "date": "1939-12-06",
+            "event_de": "Winterkrieg",
+            "event_en": "Winter War",
+            "note": "Finnischer Widerstand"
+        },
+        "488": {
+            "date": "1940-01-10",
+            "event_de": "Sitzkrieg",
+            "event_en": "Phoney War",
+            "note": "Ruhephase an der Westfront"
+        },
+        "491": {
+            "date": "1940-01-31",
+            "event_de": "Sitzkrieg",
+            "event_en": "Phoney War",
+            "note": "Winterfront"
+        },
+        "492": {
+            "date": "1940-02-07",
+            "event_de": "Altmark-Affäre",
+            "event_en": "Altmark Incident",
+            "note": "Britischer Übergriff in norwegischen Gewässern (16.02.1940)"
+        },
+        "493": {
+            "date": "1940-02-14",
+            "event_de": "Winterkrieg Finnland",
+            "event_en": "Finland Front",
+            "note": "Finnland kämpft gegen UdSSR"
+        },
+        "496": {
+            "date": "1940-03-06",
+            "event_de": "Winterkrieg endet",
+            "event_en": "Winter War Ends",
+            "note": "Frieden von Moskau (12.03.1940)"
+        },
+        "497": {
+            "date": "1940-03-13",
+            "event_de": "Seekrieg Atlantik",
+            "event_en": "Atlantic Naval War",
+            "note": "U-Boot-Krieg intensiviert sich"
+        },
+        "499": {
+            "date": "1940-03-27",
+            "event_de": "Kriegsvorbereitung",
+            "event_en": "War Preparations",
+            "note": "Planung Weserübung"
+        },
+        "502": {
+            "date": "1940-04-17",
+            "event_de": "Norwegen Invasion",
+            "event_en": "Norway Invasion",
+            "note": "Unternehmen Weserübung (09.04.1940)"
+        },
+        "504": {
+            "date": "1940-05-01",
+            "event_de": "Kampf um Narvik",
+            "event_en": "Battle of Narvik",
+            "note": "Seeschlacht bei Narvik"
+        },
+        "505": {
+            "date": "1940-05-08",
+            "event_de": "Westfeldzug beginnt",
+            "event_en": "Western Campaign",
+            "note": "Fall Gelb startet (10.05.1940)"
+        },
+        "506": {
+            "date": "1940-05-15",
+            "event_de": "Rotterdam bombardiert",
+            "event_en": "Rotterdam Blitz",
+            "note": "Luftangriff Rotterdam (14.05.1940)"
+        },
+        "507": {
+            "date": "1940-05-22",
+            "event_de": "Durchbruch Sedan",
+            "event_en": "Sedan Advance",
+            "note": "Panzerdurchbruch bei Sedan (13.-15.05.1940)"
+        },
+        "508": {
+            "date": "1940-05-29",
+            "event_de": "Dünkirchen Kessel",
+            "event_en": "Dunkirk Pocket",
+            "note": "Alliierte eingekesselt bei Dünkirchen (26.05.-04.06.1940)"
+        },
+        "509": {
+            "date": "1940-06-05",
+            "event_de": "Dünkirchen Evakuierung",
+            "event_en": "Dunkirk Evacuation",
+            "note": "Operation Dynamo, 340.000 Soldaten evakuiert"
+        },
+        "510": {
+            "date": "1940-06-12",
+            "event_de": "Frankreich Zusammenbruch",
+            "event_en": "France Collapsing",
+            "note": "Fall Rot, Vorstoß nach Paris"
+        },
+        "511": {
+            "date": "1940-06-19",
+            "event_de": "Paris fällt",
+            "event_en": "Paris Falls",
+            "note": "ERSTE EINHEITS-WOCHENSCHAU! Paris besetzt (14.06.1940)"
+        },
+        "512": {
+            "date": "1940-06-26",
+            "event_de": "Waffenstillstand Frankreich",
+            "event_en": "French Armistice",
+            "note": "Waffenstillstand Compiègne (22.06.1940)"
+        },
+        "513": {
+            "date": "1940-07-03",
+            "event_de": "Kanalinseln besetzt",
+            "event_en": "Channel Islands",
+            "note": "Besetzung der britischen Kanalinseln"
+        },
+        "514": {
+            "date": "1940-07-10",
+            "event_de": "Siegesparade Berlin",
+            "event_en": "Berlin Parade",
+            "note": "Triumphzug in Berlin"
+        },
+        "515": {
+            "date": "1940-07-17",
+            "event_de": "Luftschlacht beginnt",
+            "event_en": "Battle of Britain",
+            "note": "Beginn Luftschlacht um England (10.07.1940)"
+        },
+        "516": {
+            "date": "1940-07-24",
+            "event_de": "Luftschlacht England",
+            "event_en": "Battle of Britain",
+            "note": "Luftangriffe auf britische Konvois"
+        },
+        "517": {
+            "date": "1940-07-31",
+            "event_de": "Adlertag Planung",
+            "event_en": "Eagle Day Planning",
+            "note": "Vorbereitung Adlerangriff"
+        },
+        "518": {
+            "date": "1940-08-07",
+            "event_de": "Kanalkampf",
+            "event_en": "Channel Battles",
+            "note": "Luftkämpfe über dem Ärmelkanal"
+        },
+        "519": {
+            "date": "1940-08-14",
+            "event_de": "Adlertag",
+            "event_en": "Eagle Day",
+            "note": "Adlertag 13.08.1940, Großangriff auf RAF"
+        },
+        "520": {
+            "date": "1940-08-21",
+            "event_de": "Luftschlacht Höhepunkt",
+            "event_en": "Battle Peak",
+            "note": "Höhepunkt der Luftschlacht"
+        },
+        "521": {
+            "date": "1940-08-28",
+            "event_de": "London Bombardiert",
+            "event_en": "London Bombed",
+            "note": "Erste Bomben auf London (24./25.08.1940)"
+        },
+        "522": {
+            "date": "1940-09-04",
+            "event_de": "Berlin Vergeltung",
+            "event_en": "Berlin Retaliation",
+            "note": "Britische Vergeltung auf Berlin (25./26.08.1940)"
+        },
+        "523": {
+            "date": "1940-09-11",
+            "event_de": "Blitz auf London",
+            "event_en": "London Blitz",
+            "note": "Beginn des Blitz (07.09.1940)"
+        },
+        "524": {
+            "date": "1940-09-18",
+            "event_de": "Seelöwe verschoben",
+            "event_en": "Sea Lion Postponed",
+            "note": "Invasion Englands verschoben (17.09.1940)"
+        },
+        "525": {
+            "date": "1940-09-25",
+            "event_de": "Dreimächtepakt",
+            "event_en": "Tripartite Pact",
+            "note": "Achse Berlin-Rom-Tokio (27.09.1940)"
+        },
+        "526": {
+            "date": "1940-10-02",
+            "event_de": "U-Boot Erfolge",
+            "event_en": "U-Boat Victories",
+            "note": "Glückliche Zeit der U-Boote"
+        },
+        "527": {
+            "date": "1940-10-09",
+            "event_de": "Seelöwe abgesagt",
+            "event_en": "Sea Lion Cancelled",
+            "note": "Invasion England endgültig verschoben (12.10.1940)"
+        },
+        "528": {
+            "date": "1940-10-16",
+            "event_de": "Blitz Fortsetzung",
+            "event_en": "Blitz Continues",
+            "note": "Nachtangriffe auf London"
+        },
+        "529": {
+            "date": "1940-10-23",
+            "event_de": "Hendaye Treffen",
+            "event_en": "Hendaye Meeting",
+            "note": "Hitler trifft Franco (23.10.1940)"
+        },
+        "530": {
+            "date": "1940-10-30",
+            "event_de": "Griechenland Krieg",
+            "event_en": "Greece War",
+            "note": "Italien greift Griechenland an (28.10.1940)"
+        },
+        "531": {
+            "date": "1940-11-06",
+            "event_de": "Coventry Angriff",
+            "event_en": "Coventry Raid",
+            "note": "Vorbereitung Coventry-Angriff"
+        },
+        "532": {
+            "date": "1940-11-13",
+            "event_de": "Molotow Berlin",
+            "event_en": "Molotov in Berlin",
+            "note": "Molotow-Besuch in Berlin (12.-13.11.1940)"
+        },
+        "533": {
+            "date": "1940-11-20",
+            "event_de": "Coventry zerstört",
+            "event_en": "Coventry Destroyed",
+            "note": "Luftangriff auf Coventry (14.11.1940)"
+        },
+        "534": {
+            "date": "1940-11-27",
+            "event_de": "Ungarn Dreimächtepakt",
+            "event_en": "Hungary Joins Axis",
+            "note": "Ungarn tritt Achse bei (20.11.1940)"
+        },
+        "536": {
+            "date": "1940-12-11",
+            "event_de": "Griechenland Debakel",
+            "event_en": "Greek Disaster",
+            "note": "Italienische Niederlage in Griechenland"
+        },
+        "537": {
+            "date": "1940-12-18",
+            "event_de": "Barbarossa Befehl",
+            "event_en": "Barbarossa Order",
+            "note": "Weisung Nr. 21 Barbarossa (18.12.1940)"
+        },
+        "538": {
+            "date": "1940-12-25",
+            "event_de": "Weihnachten 1940",
+            "event_en": "Christmas 1940",
+            "note": "Kriegsweihnachten an der Front"
+        },
+        "539": {
+            "date": "1941-01-01",
+            "event_de": "Neujahr 1941",
+            "event_en": "New Year 1941",
+            "note": "Jahreswechsel im Krieg"
+        },
+        "542": {
+            "date": "1941-01-22",
+            "event_de": "Tobruk fällt",
+            "event_en": "Tobruk Falls",
+            "note": "Britische Eroberung von Tobruk (22.01.1941)"
+        },
+        "543": {
+            "date": "1941-01-29",
+            "event_de": "Afrika Korps",
+            "event_en": "Africa Corps",
+            "note": "Rommel wird nach Afrika geschickt"
+        },
+        "544": {
+            "date": "1941-02-05",
+            "event_de": "Rommel Ankunft",
+            "event_en": "Rommel Arrives",
+            "note": "Rommel landet in Tripolis (12.02.1941)"
+        },
+        "545": {
+            "date": "1941-02-12",
+            "event_de": "Afrika Offensive",
+            "event_en": "Africa Offensive",
+            "note": "Beginn deutscher Gegenoffensive"
+        },
+        "546": {
+            "date": "1941-02-19",
+            "event_de": "Nordafrika",
+            "event_en": "North Africa",
+            "note": "Kämpfe in der Cyrenaika"
+        },
+        "547": {
+            "date": "1941-02-26",
+            "event_de": "Afrikafeldzug",
+            "event_en": "Africa Campaign",
+            "note": "Rommel drängt Briten zurück"
+        },
+        "548": {
+            "date": "1941-03-05",
+            "event_de": "Bulgarien Achse",
+            "event_en": "Bulgaria Joins Axis",
+            "note": "Bulgarien tritt Achse bei (01.03.1941)"
+        },
+        "549": {
+            "date": "1941-03-12",
+            "event_de": "Leih-Pacht Gesetz",
+            "event_en": "Lend-Lease Act",
+            "note": "US Lend-Lease Gesetz (11.03.1941)"
+        },
+        "550": {
+            "date": "1941-03-19",
+            "event_de": "Jugoslawien Krise",
+            "event_en": "Yugoslavia Crisis",
+            "note": "Jugoslawien tritt Achse bei (25.03.1941)"
+        },
+        "552": {
+            "date": "1941-04-02",
+            "event_de": "Belgrad Putsch",
+            "event_en": "Belgrade Coup",
+            "note": "Putsch gegen Achsenbeitritt (27.03.1941)"
+        },
+        "553": {
+            "date": "1941-04-09",
+            "event_de": "Balkanfeldzug",
+            "event_en": "Balkans Campaign",
+            "note": "Angriff auf Jugoslawien + Griechenland (06.04.1941)"
+        },
+        "554": {
+            "date": "1941-04-16",
+            "event_de": "Belgrad gefallen",
+            "event_en": "Belgrade Falls",
+            "note": "Kapitulation Jugoslawiens (17.04.1941)"
+        },
+        "555": {
+            "date": "1941-04-23",
+            "event_de": "Griechenland Sieg",
+            "event_en": "Greece Victory",
+            "note": "Griechische Kapitulation (23.04.1941)"
+        },
+        "556": {
+            "date": "1941-04-30",
+            "event_de": "Athen besetzt",
+            "event_en": "Athens Occupied",
+            "note": "Wehrmacht in Athen (27.04.1941)"
+        },
+        "557": {
+            "date": "1941-05-07",
+            "event_de": "Bismarck ausgelaufen",
+            "event_en": "Bismarck Sails",
+            "note": "Bismarck beginnt Operation Rheinübung"
+        },
+        "561": {
+            "date": "1941-06-04",
+            "event_de": "Kreta erobert",
+            "event_en": "Crete Captured",
+            "note": "Luftlandeschlacht um Kreta (20.05.-01.06.1941)"
+        },
+        "562": {
+            "date": "1941-06-11",
+            "event_de": "Bismarck versenkt",
+            "event_en": "Bismarck Sunk",
+            "note": "Untergang der Bismarck (27.05.1941)"
+        },
+        "564": {
+            "date": "1941-06-25",
+            "event_de": "Barbarossa",
+            "event_en": "Operation Barbarossa",
+            "note": "GRÖSSTE INVASION DER GESCHICHTE! (22.06.1941)"
+        },
+        "565": {
+            "date": "1941-07-02",
+            "event_de": "Ostfront Vormarsch",
+            "event_en": "Eastern Advance",
+            "note": "Schneller Vormarsch in die UdSSR"
+        },
+        "566": {
+            "date": "1941-07-09",
+            "event_de": "Minsk gefallen",
+            "event_en": "Minsk Falls",
+            "note": "Kesselschlacht bei Minsk (28.06.-09.07.1941)"
+        },
+        "567": {
+            "date": "1941-07-16",
+            "event_de": "Smolensk Kessel",
+            "event_en": "Smolensk Pocket",
+            "note": "Schlacht um Smolensk beginnt (10.07.1941)"
+        },
+        "568": {
+            "date": "1941-07-23",
+            "event_de": "Ostfront Sommer",
+            "event_en": "Eastern Summer",
+            "note": "Vormarsch auf drei Achsen"
+        },
+        "569": {
+            "date": "1941-07-30",
+            "event_de": "Kiew Einkreisung",
+            "event_en": "Kiev Encirclement",
+            "note": "Beginn der Kiew-Operation"
+        },
+        "570": {
+            "date": "1941-08-06",
+            "event_de": "Smolensk gefallen",
+            "event_en": "Smolensk Falls",
+            "note": "Fall von Smolensk (05.08.1941)"
+        },
+        "571": {
+            "date": "1941-08-13",
+            "event_de": "Atlantik Charta",
+            "event_en": "Atlantic Charter",
+            "note": "Roosevelt und Churchill treffen sich (14.08.1941)"
+        },
+        "572": {
+            "date": "1941-08-20",
+            "event_de": "Leningrad Belagerung",
+            "event_en": "Leningrad Siege",
+            "note": "Einschließung Leningrads beginnt"
+        },
+        "573": {
+            "date": "1941-08-27",
+            "event_de": "Kiew Schlacht",
+            "event_en": "Kiev Battle",
+            "note": "Größte Kesselschlacht der Geschichte"
+        },
+        "574": {
+            "date": "1941-09-03",
+            "event_de": "Leningrad eingeschlossen",
+            "event_en": "Leningrad Encircled",
+            "note": "Belagerung Leningrads beginnt (08.09.1941)"
+        },
+        "575": {
+            "date": "1941-09-10",
+            "event_de": "900 Tage Leningrad",
+            "event_en": "900 Days Leningrad",
+            "note": "Beginn der 872-Tage-Blockade"
+        },
+        "576": {
+            "date": "1941-09-17",
+            "event_de": "Kiew Kessel",
+            "event_en": "Kiev Encirclement",
+            "note": "Kiew eingekesselt"
+        },
+        "577": {
+            "date": "1941-09-24",
+            "event_de": "Kiew Kapitulation",
+            "event_en": "Kiev Surrender",
+            "note": "Fall von Kiew (26.09.1941), 665.000 Gefangene"
+        },
+        "578": {
+            "date": "1941-10-01",
+            "event_de": "Taifun beginnt",
+            "event_en": "Typhoon Begins",
+            "note": "Operation Taifun - Angriff auf Moskau (02.10.1941)"
+        },
+        "579": {
+            "date": "1941-10-08",
+            "event_de": "Wjasma Kessel",
+            "event_en": "Vyazma Pocket",
+            "note": "Doppelschlacht bei Wjasma und Brjansk"
+        },
+        "581": {
+            "date": "1941-10-22",
+            "event_de": "Vormarsch Moskau",
+            "event_en": "Moscow Advance",
+            "note": "Wehrmacht 100km vor Moskau"
+        },
+        "582": {
+            "date": "1941-10-29",
+            "event_de": "Herbstschlammperiode",
+            "event_en": "Autumn Mud",
+            "note": "Rasputiza stoppt Vormarsch"
+        },
+        "583": {
+            "date": "1941-11-05",
+            "event_de": "Moskau in Gefahr",
+            "event_en": "Moscow in Danger",
+            "note": "Evakuierung Moskaus angeordnet"
+        },
+        "584": {
+            "date": "1941-11-12",
+            "event_de": "Frost Einbruch",
+            "event_en": "Frost Hits",
+            "note": "Erster starker Frost an der Ostfront"
+        },
+        "585": {
+            "date": "1941-11-19",
+            "event_de": "Tikhvin gefallen",
+            "event_en": "Tikhvin Falls",
+            "note": "Eroberung von Tichwin (08.11.1941)"
+        },
+        "586": {
+            "date": "1941-11-26",
+            "event_de": "Rostow erobert",
+            "event_en": "Rostov Captured",
+            "note": "Einnahme von Rostow am Don (21.11.1941)"
+        },
+        "588": {
+            "date": "1941-12-10",
+            "event_de": "Pearl Harbor",
+            "event_en": "Pearl Harbor",
+            "note": "Japanischer Angriff auf Pearl Harbor (07.12.1941)"
+        },
+        "589": {
+            "date": "1941-12-17",
+            "event_de": "Moskau Gegenoffensive",
+            "event_en": "Moscow Counterattack",
+            "note": "Sowjetische Gegenoffensive vor Moskau (05.12.1941)"
+        },
+        "590": {
+            "date": "1941-12-24",
+            "event_de": "Kriegserklärung USA",
+            "event_en": "US Enters War",
+            "note": "Deutschland erklärt USA den Krieg (11.12.1941)"
+        },
+        "592": {
+            "date": "1942-01-07",
+            "event_de": "Winterkrise",
+            "event_en": "Winter Crisis",
+            "note": "Wehrmacht wird vor Moskau zurückgeschlagen"
+        },
+        "593": {
+            "date": "1942-01-14",
+            "event_de": "Wannsee Konferenz",
+            "event_en": "Wannsee Conference",
+            "note": "Wannsee-Konferenz (20.01.1942)"
+        },
+        "594": {
+            "date": "1942-01-21",
+            "event_de": "Rommel Offensive",
+            "event_en": "Rommel Offensive",
+            "note": "Rommel startet Gegenoffensive in Afrika"
+        },
+        "595": {
+            "date": "1942-01-28",
+            "event_de": "Demjansk Kessel",
+            "event_en": "Demyansk Pocket",
+            "note": "Einschließung bei Demjansk"
+        },
+        "596": {
+            "date": "1942-02-04",
+            "event_de": "Singapur Schlacht",
+            "event_en": "Singapore Battle",
+            "note": "Japan greift Singapur an"
+        },
+        "598": {
+            "date": "1942-02-18",
+            "event_de": "Singapur gefallen",
+            "event_en": "Singapore Falls",
+            "note": "Fall von Singapur (15.02.1942)"
+        },
+        "599": {
+            "date": "1942-02-25",
+            "event_de": "Cerberus Erfolg",
+            "event_en": "Cerberus Success",
+            "note": "Kanaldurchbruch (11.-13.02.1942)"
+        },
+        "600": {
+            "date": "1942-03-04",
+            "event_de": "Ostfront Stabilisiert",
+            "event_en": "East Front Holds",
+            "note": "Winterkrise überstanden"
+        },
+        "601": {
+            "date": "1942-03-11",
+            "event_de": "Tobruk Kämpfe",
+            "event_en": "Tobruk Battles",
+            "note": "Stellungskampf in Nordafrika"
+        },
+        "602": {
+            "date": "1942-03-18",
+            "event_de": "U-Boot Krieg",
+            "event_en": "U-Boat War",
+            "note": "Zweite glückliche Zeit der U-Boote"
+        },
+        "604": {
+            "date": "1942-04-01",
+            "event_de": "Bomben auf Deutschland",
+            "event_en": "Bombs on Germany",
+            "note": "Erste große RAF-Angriffe auf Deutschland"
+        },
+        "605": {
+            "date": "1942-04-08",
+            "event_de": "Lübeck bombardiert",
+            "event_en": "Lubeck Bombed",
+            "note": "Luftangriff auf Lübeck (28./29.03.1942)"
+        },
+        "606": {
+            "date": "1942-04-15",
+            "event_de": "Baedeker Angriffe",
+            "event_en": "Baedeker Raids",
+            "note": "Deutsche Vergeltungsangriffe auf historische Städte"
+        },
+        "607": {
+            "date": "1942-04-22",
+            "event_de": "Frühjahrsoffensive",
+            "event_en": "Spring Offensive",
+            "note": "Planungen für Sommeroffensive 1942"
+        },
+        "608": {
+            "date": "1942-04-29",
+            "event_de": "Hitler Rede",
+            "event_en": "Hitler Speech",
+            "note": "Hitler-Rede zum Geburtstag"
+        },
+        "609": {
+            "date": "1942-05-06",
+            "event_de": "Charkow Offensive",
+            "event_en": "Kharkov Offensive",
+            "note": "Sowjetische Offensive bei Charkow"
+        },
+        "610": {
+            "date": "1942-05-13",
+            "event_de": "Charkow Kessel",
+            "event_en": "Kharkov Pocket",
+            "note": "Einschließung sowjetischer Truppen"
+        },
+        "611": {
+            "date": "1942-05-20",
+            "event_de": "Charkow Sieg",
+            "event_en": "Kharkov Victory",
+            "note": "Vernichtung des Kessels"
+        },
+        "612": {
+            "date": "1942-05-27",
+            "event_de": "Heydrich Attentat",
+            "event_en": "Heydrich Killed",
+            "note": "Attentat auf Heydrich (27.05.1942)"
+        },
+        "613": {
+            "date": "1942-06-03",
+            "event_de": "1000 Bomber Köln",
+            "event_en": "1000 Bombers Cologne",
+            "note": "Erste 1000-Bomber-Angriff auf Köln (30./31.05.1942)"
+        },
+        "614": {
+            "date": "1942-06-10",
+            "event_de": "Heydrich Tod",
+            "event_en": "Heydrich Death",
+            "note": "Tod Heydrichs (04.06.1942), Lidice-Massaker"
+        },
+        "615": {
+            "date": "1942-06-17",
+            "event_de": "Midway Schlacht",
+            "event_en": "Midway Battle",
+            "note": "Japan verliert bei Midway (04.-07.06.1942)"
+        },
+        "616": {
+            "date": "1942-06-24",
+            "event_de": "Tobruk Eroberung",
+            "event_en": "Tobruk Captured",
+            "note": "Rommel erobert Tobruk (21.06.1942)"
+        },
+        "617": {
+            "date": "1942-07-01",
+            "event_de": "Rommel in Ägypten",
+            "event_en": "Rommel in Egypt",
+            "note": "Afrika Korps dringt nach Ägypten vor"
+        },
+        "618": {
+            "date": "1942-07-08",
+            "event_de": "Fall Blau",
+            "event_en": "Case Blue",
+            "note": "Deutsche Sommeroffensive beginnt (28.06.1942)"
+        },
+        "619": {
+            "date": "1942-07-15",
+            "event_de": "El Alamein",
+            "event_en": "El Alamein",
+            "note": "Erste Schlacht von El Alamein"
+        },
+        "620": {
+            "date": "1942-07-22",
+            "event_de": "Vormarsch Kaukasus",
+            "event_en": "Caucasus Advance",
+            "note": "Vormarsch in Richtung Kaukasus"
+        },
+        "621": {
+            "date": "1942-07-29",
+            "event_de": "Rostow II gefallen",
+            "event_en": "Rostov Falls Again",
+            "note": "Zweite Eroberung von Rostow (24.07.1942)"
+        },
+        "622": {
+            "date": "1942-08-05",
+            "event_de": "Stalingrad Vormarsch",
+            "event_en": "Stalingrad Advance",
+            "note": "Vormarsch auf Stalingrad"
+        },
+        "623": {
+            "date": "1942-08-12",
+            "event_de": "Churchill Stalin Treffen",
+            "event_en": "Churchill-Stalin",
+            "note": "Churchill trifft Stalin in Moskau (12.-16.08.1942)"
+        },
+        "624": {
+            "date": "1942-08-19",
+            "event_de": "Dieppe Raid",
+            "event_en": "Dieppe Raid",
+            "note": "Gescheiterter alliierter Landungsversuch (19.08.1942)"
+        },
+        "625": {
+            "date": "1942-08-26",
+            "event_de": "Stalingrad erreicht",
+            "event_en": "Stalingrad Reached",
+            "note": "Deutsche erreichen Stalingrad (23.08.1942)"
+        },
+        "627": {
+            "date": "1942-09-09",
+            "event_de": "Stalingrad Straßenkampf",
+            "event_en": "Stalingrad Streets",
+            "note": "Beginn der Straßenkämpfe in Stalingrad"
+        },
+        "628": {
+            "date": "1942-09-16",
+            "event_de": "Stalingrad Mamajew",
+            "event_en": "Stalingrad Hill",
+            "note": "Kampf um Mamajew-Kurgan"
+        },
+        "629": {
+            "date": "1942-09-23",
+            "event_de": "Stalingrad Fabriken",
+            "event_en": "Stalingrad Factories",
+            "note": "Kämpfe um Traktorenwerk"
+        },
+        "630": {
+            "date": "1942-09-30",
+            "event_de": "Kaukasus Elbruss",
+            "event_en": "Caucasus Elbrus",
+            "note": "Fahne auf dem Elbrus gehisst (21.08.1942)"
+        },
+        "631": {
+            "date": "1942-10-07",
+            "event_de": "Stalingrad Fabrikkampf",
+            "event_en": "Factory Battle",
+            "note": "Kampf um Rote Oktober Fabrik"
+        },
+        "632": {
+            "date": "1942-10-14",
+            "event_de": "Stalingrad Höhepunkt",
+            "event_en": "Stalingrad Peak",
+            "note": "Höhepunkt der deutschen Offensive"
+        },
+        "633": {
+            "date": "1942-10-21",
+            "event_de": "El Alamein II",
+            "event_en": "El Alamein II",
+            "note": "Vorbereitung britische Offensive"
+        },
+        "634": {
+            "date": "1942-10-28",
+            "event_de": "El Alamein Niederlage",
+            "event_en": "El Alamein Defeat",
+            "note": "Montgomery startet Offensive (23.10.1942)"
+        },
+        "635": {
+            "date": "1942-11-04",
+            "event_de": "Afrika Rückzug",
+            "event_en": "Africa Retreat",
+            "note": "Rommel beginnt Rückzug"
+        },
+        "637": {
+            "date": "1942-11-18",
+            "event_de": "Torch Landung",
+            "event_en": "Torch Landing",
+            "note": "Alliierte Landung in Nordafrika (08.11.1942)"
+        },
+        "638": {
+            "date": "1942-11-25",
+            "event_de": "Stalingrad Einkessel",
+            "event_en": "Stalingrad Encircled",
+            "note": "Operation Uranus - 6. Armee eingekesselt (19.-23.11.1942)"
+        },
+        "639": {
+            "date": "1942-12-02",
+            "event_de": "Stalingrad Kessel",
+            "event_en": "Stalingrad Pocket",
+            "note": "300.000 Mann eingeschlossen"
+        },
+        "640": {
+            "date": "1942-12-09",
+            "event_de": "Wintergewitter",
+            "event_en": "Winter Storm",
+            "note": "Entsatzversuch beginnt (12.12.1942)"
+        },
+        "641": {
+            "date": "1942-12-16",
+            "event_de": "Wintergewitter scheitert",
+            "event_en": "Winter Storm Fails",
+            "note": "Entsatz erreicht 6. Armee nicht"
+        },
+        "642": {
+            "date": "1942-12-23",
+            "event_de": "Weihnachten Stalingrad",
+            "event_en": "Christmas Stalingrad",
+            "note": "Verzweifelte Lage im Kessel"
+        },
+        "644": {
+            "date": "1943-01-06",
+            "event_de": "Stalingrad Agonie",
+            "event_en": "Stalingrad Agony",
+            "note": "Hungerkrise im Kessel"
+        },
+        "645": {
+            "date": "1943-01-13",
+            "event_de": "Ring Operation",
+            "event_en": "Ring Operation",
+            "note": "Sowjetische Schlussoffensive beginnt (10.01.1943)"
+        },
+        "647": {
+            "date": "1943-01-27",
+            "event_de": "Casablanca Konferenz",
+            "event_en": "Casablanca Summit",
+            "note": "Roosevelt + Churchill fordern bedingungslose Kapitulation"
+        },
+        "648": {
+            "date": "1943-02-03",
+            "event_de": "Stalingrad Kapitulation",
+            "event_en": "Stalingrad Surrender",
+            "note": "WENDEPUNKT DES KRIEGES! Kapitulation (02.02.1943)"
+        },
+        "649": {
+            "date": "1943-02-10",
+            "event_de": "Nach Stalingrad",
+            "event_en": "After Stalingrad",
+            "note": "Reaktion auf Stalingrad-Niederlage"
+        },
+        "650": {
+            "date": "1943-02-17",
+            "event_de": "Totaler Krieg",
+            "event_en": "Total War",
+            "note": "Goebbels Sportpalastrede (18.02.1943)"
+        },
+        "651": {
+            "date": "1943-02-24",
+            "event_de": "Charkow Rückeroberung",
+            "event_en": "Kharkov Recaptured",
+            "note": "Mansteins Gegenoffensive"
+        },
+        "652": {
+            "date": "1943-03-03",
+            "event_de": "Charkow III",
+            "event_en": "Kharkov III",
+            "note": "Dritte Schlacht um Charkow"
+        },
+        "653": {
+            "date": "1943-03-10",
+            "event_de": "Charkow Sieg",
+            "event_en": "Kharkov Victory",
+            "note": "Rückeroberung Charkows (14.03.1943)"
+        },
+        "654": {
+            "date": "1943-03-17",
+            "event_de": "Tunis Kämpfe",
+            "event_en": "Tunisia Battles",
+            "note": "Kämpfe in Tunesien"
+        },
+        "655": {
+            "date": "1943-03-24",
+            "event_de": "Afrika Rückzug",
+            "event_en": "Africa Retreat",
+            "note": "Rückzug auf Tunis"
+        },
+        "656": {
+            "date": "1943-03-31",
+            "event_de": "Ostfront Lage",
+            "event_en": "Eastern Situation",
+            "note": "Frontbegradigung"
+        },
+        "657": {
+            "date": "1943-04-07",
+            "event_de": "Katyn Entdeckung",
+            "event_en": "Katyn Discovery",
+            "note": "Entdeckung des Katyn-Massakers (13.04.1943)"
+        },
+        "658": {
+            "date": "1943-04-14",
+            "event_de": "Katyn Propaganda",
+            "event_en": "Katyn Propaganda",
+            "note": "Propaganda über Katyn"
+        },
+        "659": {
+            "date": "1943-04-21",
+            "event_de": "Tunis Endkampf",
+            "event_en": "Tunisia Final",
+            "note": "Letzte Kämpfe in Afrika"
+        },
+        "660": {
+            "date": "1943-04-28",
+            "event_de": "Dambuster Raid",
+            "event_en": "Dambuster Raid",
+            "note": "Angriff auf Möhne- und Edertalsperre geplant"
+        },
+        "661": {
+            "date": "1943-05-05",
+            "event_de": "Afrika Niederlage",
+            "event_en": "Africa Defeat",
+            "note": "Ende in Nordafrika naht"
+        },
+        "662": {
+            "date": "1943-05-12",
+            "event_de": "Afrika Kapitulation",
+            "event_en": "Africa Surrender",
+            "note": "Kapitulation in Tunis (13.05.1943)"
+        },
+        "663": {
+            "date": "1943-05-19",
+            "event_de": "Dambuster Angriff",
+            "event_en": "Dambuster Attack",
+            "note": "Operation Chastise (17.05.1943)"
+        },
+        "665": {
+            "date": "1943-06-02",
+            "event_de": "Ruhrgebiet Bomben",
+            "event_en": "Ruhr Bombing",
+            "note": "Battle of the Ruhr"
+        },
+        "666": {
+            "date": "1943-06-09",
+            "event_de": "Zitadelle Planung",
+            "event_en": "Citadel Planning",
+            "note": "Vorbereitung Operation Zitadelle"
+        },
+        "667": {
+            "date": "1943-06-16",
+            "event_de": "Sizilien Vorbereitung",
+            "event_en": "Sicily Preparation",
+            "note": "Alliierte planen Sizilien-Invasion"
+        },
+        "668": {
+            "date": "1943-06-23",
+            "event_de": "Kursk Aufmarsch",
+            "event_en": "Kursk Buildup",
+            "note": "Truppenkonzentration bei Kursk"
+        },
+        "669": {
+            "date": "1943-06-30",
+            "event_de": "Hamburg Bomben",
+            "event_en": "Hamburg Bombing",
+            "note": "Vorbereitung Operation Gomorrha"
+        },
+        "670": {
+            "date": "1943-07-07",
+            "event_de": "Kursk Schlacht",
+            "event_en": "Kursk Battle",
+            "note": "GRÖSSTE PANZERSCHLACHT! Operation Zitadelle (05.07.1943)"
+        },
+        "671": {
+            "date": "1943-07-14",
+            "event_de": "Sizilien Invasion",
+            "event_en": "Sicily Invasion",
+            "note": "Alliierte landen auf Sizilien (10.07.1943)"
+        },
+        "672": {
+            "date": "1943-07-21",
+            "event_de": "Kursk Abbruch",
+            "event_en": "Kursk Cancelled",
+            "note": "Zitadelle wird abgebrochen"
+        },
+        "673": {
+            "date": "1943-07-28",
+            "event_de": "Hamburg Feuersturm",
+            "event_en": "Hamburg Firestorm",
+            "note": "Operation Gomorrha (24.07.-03.08.1943)"
+        },
+        "674": {
+            "date": "1943-08-04",
+            "event_de": "Mussolini Sturz",
+            "event_en": "Mussolini Falls",
+            "note": "Sturz Mussolinis (25.07.1943)"
+        },
+        "675": {
+            "date": "1943-08-11",
+            "event_de": "Sizilien Rückzug",
+            "event_en": "Sicily Retreat",
+            "note": "Evakuierung aus Sizilien"
+        },
+        "676": {
+            "date": "1943-08-18",
+            "event_de": "Sizilien verloren",
+            "event_en": "Sicily Lost",
+            "note": "Räumung Siziliens abgeschlossen (17.08.1943)"
+        },
+        "677": {
+            "date": "1943-08-25",
+            "event_de": "Sowjet Gegenoffensive",
+            "event_en": "Soviet Counter",
+            "note": "Sowjetische Sommeroffensive beginnt"
+        },
+        "679": {
+            "date": "1943-09-08",
+            "event_de": "Italien Kapitulation",
+            "event_en": "Italy Surrenders",
+            "note": "Waffenstillstand mit Italien (08.09.1943)"
+        },
+        "680": {
+            "date": "1943-09-15",
+            "event_de": "Mussolini Befreiung",
+            "event_en": "Mussolini Rescue",
+            "note": "Gran Sasso Raid - Befreiung Mussolinis (12.09.1943)"
+        },
+        "681": {
+            "date": "1943-09-22",
+            "event_de": "Salerno Landung",
+            "event_en": "Salerno Landing",
+            "note": "Alliierte landen bei Salerno (09.09.1943)"
+        },
+        "682": {
+            "date": "1943-09-29",
+            "event_de": "Italien Front",
+            "event_en": "Italy Front",
+            "note": "Kämpfe in Süditalien"
+        },
+        "683": {
+            "date": "1943-10-06",
+            "event_de": "Smolensk befreit",
+            "event_en": "Smolensk Freed",
+            "note": "Sowjets befreien Smolensk (25.09.1943)"
+        },
+        "684": {
+            "date": "1943-10-13",
+            "event_de": "Dnepr Kämpfe",
+            "event_en": "Dnepr Battles",
+            "note": "Schlacht um den Dnepr"
+        },
+        "685": {
+            "date": "1943-10-20",
+            "event_de": "Kiew Vormarsch",
+            "event_en": "Kiev Advance",
+            "note": "Sowjets nähern sich Kiew"
+        },
+        "686": {
+            "date": "1943-10-27",
+            "event_de": "Gustav Linie",
+            "event_en": "Gustav Line",
+            "note": "Deutsche errichten Gustav-Linie"
+        },
+        "687": {
+            "date": "1943-11-03",
+            "event_de": "Kiew Schlacht",
+            "event_en": "Kiev Battle",
+            "note": "Kampf um Kiew"
+        },
+        "688": {
+            "date": "1943-11-10",
+            "event_de": "Kiew befreit",
+            "event_en": "Kiev Liberated",
+            "note": "Befreiung Kiews (06.11.1943)"
+        },
+        "689": {
+            "date": "1943-11-17",
+            "event_de": "Berlin Bomben",
+            "event_en": "Berlin Bombed",
+            "note": "Battle of Berlin beginnt (18.11.1943)"
+        },
+        "690": {
+            "date": "1943-11-24",
+            "event_de": "Teheran Konferenz",
+            "event_en": "Tehran Conference",
+            "note": "Konferenz von Teheran (28.11.-01.12.1943)"
+        },
+        "691": {
+            "date": "1943-12-01",
+            "event_de": "Winterkämpfe",
+            "event_en": "Winter Battles",
+            "note": "Winterkämpfe an der Ostfront"
+        },
+        "692": {
+            "date": "1943-12-08",
+            "event_de": "Ostfront Rückzüge",
+            "event_en": "Eastern Retreats",
+            "note": "Rückzugskämpfe im Osten"
+        },
+        "693": {
+            "date": "1943-12-15",
+            "event_de": "Monte Cassino",
+            "event_en": "Monte Cassino",
+            "note": "Kämpfe um Monte Cassino beginnen"
+        },
+        "694": {
+            "date": "1943-12-22",
+            "event_de": "Weihnachten 1943",
+            "event_en": "Christmas 1943",
+            "note": "Viertes Kriegsweihnachten"
+        },
+        "695": {
+            "date": "1943-12-29",
+            "event_de": "Leningrad Vorbereitung",
+            "event_en": "Leningrad Prep",
+            "note": "Vorbereitung der Leningrad-Offensive"
+        },
+        "696": {
+            "date": "1944-01-05",
+            "event_de": "Neujahr 1944",
+            "event_en": "New Year 1944",
+            "note": "Fünftes Kriegsjahr beginnt"
+        },
+        "697": {
+            "date": "1944-01-12",
+            "event_de": "Leningrad Entsetzen",
+            "event_en": "Leningrad Relief",
+            "note": "Offensive zur Befreiung Leningrads"
+        },
+        "698": {
+            "date": "1944-01-19",
+            "event_de": "Leningrad befreit",
+            "event_en": "Leningrad Freed",
+            "note": "Ende der Blockade (27.01.1944)"
+        },
+        "699": {
+            "date": "1944-01-26",
+            "event_de": "Anzio Landung",
+            "event_en": "Anzio Landing",
+            "note": "Alliierte landen bei Anzio (22.01.1944)"
+        },
+        "700": {
+            "date": "1944-02-02",
+            "event_de": "Tscherkassy Kessel",
+            "event_en": "Korsun Pocket",
+            "note": "Kesselschlacht bei Tscherkassy"
+        },
+        "701": {
+            "date": "1944-02-09",
+            "event_de": "Monte Cassino II",
+            "event_en": "Monte Cassino II",
+            "note": "Zweite Schlacht um Monte Cassino"
+        },
+        "702": {
+            "date": "1944-02-16",
+            "event_de": "Cassino Bombardiert",
+            "event_en": "Cassino Bombed",
+            "note": "Bombardierung des Klosters (15.02.1944)"
+        },
+        "703": {
+            "date": "1944-02-23",
+            "event_de": "Big Week",
+            "event_en": "Big Week",
+            "note": "Alliierte Luftoffensive gegen Luftwaffe"
+        },
+        "704": {
+            "date": "1944-03-01",
+            "event_de": "Luftherrschaft verloren",
+            "event_en": "Air Supremacy Lost",
+            "note": "Allierte gewinnen Lufthoheit"
+        },
+        "705": {
+            "date": "1944-03-08",
+            "event_de": "Cassino III",
+            "event_en": "Cassino III",
+            "note": "Dritte Schlacht um Monte Cassino"
+        },
+        "706": {
+            "date": "1944-03-15",
+            "event_de": "Ungarn besetzt",
+            "event_en": "Hungary Occupied",
+            "note": "Operation Margarethe - Besetzung Ungarns (19.03.1944)"
+        },
+        "707": {
+            "date": "1944-03-22",
+            "event_de": "Krim Verteidigung",
+            "event_en": "Crimea Defense",
+            "note": "Kämpfe auf der Krim"
+        },
+        "708": {
+            "date": "1944-03-29",
+            "event_de": "Ostfront Frühjahr",
+            "event_en": "Eastern Spring",
+            "note": "Frühjahrsoffensiven im Osten"
+        },
+        "709": {
+            "date": "1944-04-05",
+            "event_de": "Krim Evakuierung",
+            "event_en": "Crimea Evacuation",
+            "note": "Rückzug von der Krim"
+        },
+        "710": {
+            "date": "1944-04-12",
+            "event_de": "Krim verloren",
+            "event_en": "Crimea Lost",
+            "note": "Sowjets erobern Krim zurück"
+        },
+        "711": {
+            "date": "1944-04-19",
+            "event_de": "Invasion Erwartet",
+            "event_en": "Invasion Expected",
+            "note": "Vorbereitung auf alliierte Invasion"
+        },
+        "712": {
+            "date": "1944-04-26",
+            "event_de": "Atlantikwall",
+            "event_en": "Atlantic Wall",
+            "note": "Ausbau des Atlantikwalls"
+        },
+        "713": {
+            "date": "1944-05-03",
+            "event_de": "Sewastopol gefallen",
+            "event_en": "Sevastopol Falls",
+            "note": "Verlust von Sewastopol"
+        },
+        "714": {
+            "date": "1944-05-10",
+            "event_de": "Cassino Finale",
+            "event_en": "Cassino Final",
+            "note": "Vierte Schlacht um Monte Cassino"
+        },
+        "715": {
+            "date": "1944-05-17",
+            "event_de": "Cassino gefallen",
+            "event_en": "Cassino Falls",
+            "note": "Fall von Monte Cassino (18.05.1944)"
+        },
+        "716": {
+            "date": "1944-05-24",
+            "event_de": "Rom Offensive",
+            "event_en": "Rome Offensive",
+            "note": "Vormarsch auf Rom"
+        },
+        "717": {
+            "date": "1944-05-31",
+            "event_de": "Italien Rückzug",
+            "event_en": "Italy Retreat",
+            "note": "Rückzug in Italien"
+        },
+        "718": {
+            "date": "1944-06-07",
+            "event_de": "D-Day",
+            "event_en": "D-Day",
+            "note": "ALLIIERTE INVASION NORMANDIE (06.06.1944)"
+        },
+        "719": {
+            "date": "1944-06-14",
+            "event_de": "Rom gefallen",
+            "event_en": "Rome Falls",
+            "note": "Fall von Rom (04.06.1944)"
+        },
+        "720": {
+            "date": "1944-06-21",
+            "event_de": "V1 Angriffe",
+            "event_en": "V1 Attacks",
+            "note": "V1-Angriffe auf London beginnen (13.06.1944)"
+        },
+        "721": {
+            "date": "1944-06-28",
+            "event_de": "Bagration beginnt",
+            "event_en": "Bagration Begins",
+            "note": "Operation Bagration - Katastrophe (22.06.1944)"
+        },
+        "722": {
+            "date": "1944-07-05",
+            "event_de": "Bagration Durchbruch",
+            "event_en": "Bagration",
+            "note": "Zusammenbruch der Heeresgruppe Mitte"
+        },
+        "723": {
+            "date": "1944-07-12",
+            "event_de": "Minsk befreit",
+            "event_en": "Minsk Liberated",
+            "note": "Befreiung Minsks (03.07.1944)"
+        },
+        "724": {
+            "date": "1944-07-19",
+            "event_de": "20. Juli Attentat",
+            "event_en": "July 20 Plot",
+            "note": "STAUFFENBERG-ATTENTAT (20.07.1944)"
+        },
+        "725": {
+            "date": "1944-07-26",
+            "event_de": "Warschauer Aufstand",
+            "event_en": "Warsaw Uprising",
+            "note": "Warschauer Aufstand beginnt (01.08.1944)"
+        },
+        "726": {
+            "date": "1944-08-02",
+            "event_de": "Paris bedroht",
+            "event_en": "Paris Threatened",
+            "note": "Alliierte nähern sich Paris"
+        },
+        "727": {
+            "date": "1944-08-09",
+            "event_de": "Falaise Kessel",
+            "event_en": "Falaise Pocket",
+            "note": "Einschließung bei Falaise"
+        },
+        "728": {
+            "date": "1944-08-16",
+            "event_de": "Paris befreit",
+            "event_en": "Paris Liberated",
+            "note": "Befreiung von Paris (25.08.1944)"
+        },
+        "729": {
+            "date": "1944-08-23",
+            "event_de": "Rumänien Kapitulation",
+            "event_en": "Romania Surrenders",
+            "note": "Rumänien wechselt die Seiten (23.08.1944)"
+        },
+        "730": {
+            "date": "1944-08-30",
+            "event_de": "Rückzug Frankreich",
+            "event_en": "France Retreat",
+            "note": "Allgemeiner Rückzug aus Frankreich"
+        },
+        "731": {
+            "date": "1944-09-06",
+            "event_de": "Finnland Kapitulation",
+            "event_en": "Finland Surrenders",
+            "note": "Waffenstillstand mit Finnland (04.09.1944)"
+        },
+        "732": {
+            "date": "1944-09-13",
+            "event_de": "Reichsgrenze erreicht",
+            "event_en": "Reich Border",
+            "note": "Alliierte erreichen deutsche Grenze"
+        },
+        "733": {
+            "date": "1944-09-20",
+            "event_de": "Market Garden",
+            "event_en": "Market Garden",
+            "note": "Operation Market Garden (17.-25.09.1944)"
+        },
+        "734": {
+            "date": "1944-09-27",
+            "event_de": "Arnheim Sieg",
+            "event_en": "Arnhem Victory",
+            "note": "Deutsche Abwehrerfolg bei Arnheim"
+        },
+        "735": {
+            "date": "1944-10-04",
+            "event_de": "Aachen Kampf",
+            "event_en": "Aachen Battle",
+            "note": "Schlacht um Aachen"
+        },
+        "736": {
+            "date": "1944-10-11",
+            "event_de": "Aachen gefallen",
+            "event_en": "Aachen Falls",
+            "note": "Fall von Aachen (21.10.1944)"
+        },
+        "737": {
+            "date": "1944-10-18",
+            "event_de": "Volkssturm",
+            "event_en": "Volkssturm",
+            "note": "Aufstellung des Volkssturms (18.10.1944)"
+        },
+        "738": {
+            "date": "1944-10-25",
+            "event_de": "Ostpreußen Invasion",
+            "event_en": "East Prussia",
+            "note": "Sowjets in Ostpreußen"
+        },
+        "739": {
+            "date": "1944-11-01",
+            "event_de": "Ostpreußen Verteidigung",
+            "event_en": "East Prussia Defense",
+            "note": "Kämpfe in Ostpreußen"
+        },
+        "740": {
+            "date": "1944-11-08",
+            "event_de": "V2 Angriffe",
+            "event_en": "V2 Attacks",
+            "note": "V2-Angriffe auf London und Antwerpen"
+        },
+        "741": {
+            "date": "1944-11-15",
+            "event_de": "Budapest eingekesselt",
+            "event_en": "Budapest Encircled",
+            "note": "Einschließung von Budapest beginnt"
+        },
+        "742": {
+            "date": "1944-11-22",
+            "event_de": "Straßburg befreit",
+            "event_en": "Strasbourg Liberated",
+            "note": "Befreiung von Straßburg (23.11.1944)"
+        },
+        "743": {
+            "date": "1944-11-29",
+            "event_de": "Ardennen Planung",
+            "event_en": "Ardennes Planning",
+            "note": "Vorbereitung Ardennenoffensive"
+        },
+        "744": {
+            "date": "1944-12-06",
+            "event_de": "Letzte Offensive",
+            "event_en": "Last Offensive",
+            "note": "Planung Wacht am Rhein"
+        },
+        "745": {
+            "date": "1944-12-13",
+            "event_de": "Ardennen Bereit",
+            "event_en": "Ardennes Ready",
+            "note": "Aufmarsch für Ardennenoffensive"
+        },
+        "746": {
+            "date": "1944-12-20",
+            "event_de": "Ardennen Offensive",
+            "event_en": "Ardennes Offensive",
+            "note": "LETZTE DEUTSCHE OFFENSIVE (16.12.1944)"
+        },
+        "747": {
+            "date": "1944-12-27",
+            "event_de": "Ardennen Höhepunkt",
+            "event_en": "Ardennes Peak",
+            "note": "Höhepunkt der Ardennenoffensive"
+        },
+        "748": {
+            "date": "1945-01-03",
+            "event_de": "Nordwind Offensive",
+            "event_en": "Northwind Offensive",
+            "note": "Operation Nordwind im Elsass"
+        },
+        "749": {
+            "date": "1945-01-10",
+            "event_de": "Ardennen scheitert",
+            "event_en": "Ardennes Fails",
+            "note": "Rückzug aus den Ardennen"
+        },
+        "750": {
+            "date": "1945-01-17",
+            "event_de": "Weichsel Offensive",
+            "event_en": "Vistula Offensive",
+            "note": "Weichsel-Oder-Operation beginnt (12.01.1945)"
+        },
+        "751": {
+            "date": "1945-01-24",
+            "event_de": "Ostfront Zusammenbruch",
+            "event_en": "Eastern Collapse",
+            "note": "Zusammenbruch der Ostfront"
+        },
+        "752": {
+            "date": "1945-01-31",
+            "event_de": "Auschwitz befreit",
+            "event_en": "Auschwitz Liberated",
+            "note": "Befreiung von Auschwitz (27.01.1945)"
+        },
+        "753": {
+            "date": "1945-02-07",
+            "event_de": "Jalta Konferenz",
+            "event_en": "Yalta Conference",
+            "note": "Konferenz von Jalta (04.-11.02.1945)"
+        },
+        "754": {
+            "date": "1945-02-14",
+            "event_de": "Dresden Bomben",
+            "event_en": "Dresden Bombed",
+            "note": "Bombardierung Dresdens (13.-15.02.1945)"
+        },
+        "755": {
+            "date": "1945-02-21",
+            "event_de": "Letzte Wochenschau",
+            "event_en": "Final Newsreel",
+            "note": "LETZTE WOCHENSCHAU - Hitlers letzter Auftritt"
+        }
+    },
+    "474": {
+        "date": "04.10.1939",
+        "event_en": "Fall of Warsaw",
+        "event_de": "Kapitulation von Warschau",
+        "notes": "State funeral for von Fritsch, capitulation of Warsaw to General Blaskowitz, signing of surrender."
+    }
+}

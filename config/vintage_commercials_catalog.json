@@ -1,0 +1,823 @@
+{
+  "_info": "Vintage Commercials Catalog for WochenschauKino",
+  "_description": "Curated list of public domain commercials from 1930s-1950s for authentic cinema experience",
+  "_updated": "2026-02-21 - Extended with 84 items (7 new gap-fillers: 1939, 1940, 1946, 1947)",
+  "_sources": [
+    "archive.org/details/classic_tv_commercials (6751 items)",
+    "archive.org/details/prelinger (Prelinger Archives)",
+    "archive.org Advanced Search: 10 specialized queries, 971 results analyzed",
+    "Local: V:\\OriginalSources\\Commercials\\",
+    "Local: V:\\OriginalSources\\MusicVideos\\"
+  ],
+  "download_dir": "V:\\Commercials\\Vintage",
+  "archive_org_base_url": "https://archive.org/download",
+  "categories": {
+    "cigarettes_tobacco": {
+      "label": "Zigaretten & Tabak",
+      "era": "1930-1955",
+      "note": "Lucky Strike, Camel, Chesterfield - die groessten Werbeklassiker der Aera",
+      "items": [
+        {
+          "id": "LuckyStr1948_2",
+          "title": "Lucky Strike: Square Dance",
+          "year": 1948,
+          "duration_sec": 60,
+          "downloads": 193977,
+          "desc": "Iconic animated Lucky Strike ad with square dancing cigarettes"
+        },
+        {
+          "id": "LuckyStr1948",
+          "title": "Lucky Strike: Marching Cigarettes",
+          "year": 1948,
+          "duration_sec": 60,
+          "downloads": 120215,
+          "desc": "Famous marching cigarette pack animation - LS/MFT"
+        },
+        {
+          "id": "1953CommercialForLuckyStrikeCigarettes",
+          "title": "Lucky Strike: 1953 Commercial",
+          "year": 1953,
+          "duration_sec": 60,
+          "downloads": 121849,
+          "desc": "Lucky Strike Means Fine Tobacco - 1953 TV spot"
+        },
+        {
+          "id": "Zeek_The_Amazing_Piece_of_Toast",
+          "title": "Lucky Strike: 1955 Commercial #2",
+          "year": 1955,
+          "duration_sec": 60,
+          "downloads": 39165,
+          "desc": "Lucky Strike Commercial from 1955 - cinema ad format"
+        },
+        {
+          "id": "tobacco_nyhh0257",
+          "title": "Camel Cigarettes Advertisement",
+          "year": 1956,
+          "duration_sec": 60,
+          "downloads": 143,
+          "desc": "Camel cigarettes TV advertisement 1956"
+        },
+        {
+          "id": "tobacco_kyhh0257",
+          "title": "Kent Cigarettes feat. Bob Cousy",
+          "year": 1960,
+          "duration_sec": 60,
+          "downloads": 84,
+          "desc": "Kent cigarettes ad featuring basketball star Bob Cousy"
+        }
+      ]
+    },
+    "coca_cola": {
+      "label": "Coca-Cola Klassiker",
+      "era": "1937-1960",
+      "note": "Coca-Cola von 1937 bis 1960 - die ikonischste Marke der Aera!",
+      "items": [
+        {
+          "id": "adf6c07ad16549d897593901871346fc",
+          "title": "Coca-Cola Commercial 1937",
+          "year": 1937,
+          "duration_sec": 60,
+          "downloads": 203,
+          "desc": "Fruehe Coca-Cola Kinowerbung aus 1937 - PERFEKT fuer Wochenschau-Aera!"
+        },
+        {
+          "id": "2612d01dd4da4b84b9626e6db957bdd6",
+          "title": "Coca-Cola Commercial 1938/early 1940s",
+          "year": 1938,
+          "duration_sec": 60,
+          "downloads": 421,
+          "desc": "Coca-Cola Kinowerbung 1938 - passt exakt zur fruehen Wochenschau-Aera"
+        },
+        {
+          "id": "always-tomorrow-1941",
+          "title": "Always Tomorrow (Coca-Cola Short Film 1941)",
+          "year": 1941,
+          "duration_sec": 600,
+          "downloads": 138,
+          "desc": "Coca-Cola sponsored short film 1941 - Portrait of an American Business"
+        },
+        {
+          "id": "coca-cola1950",
+          "title": "Coca-Cola Commercial 1950",
+          "year": 1950,
+          "duration_sec": 60,
+          "downloads": 3181,
+          "desc": "1950 commercial for Coca-Cola"
+        },
+        {
+          "id": "coca-cola1950-ad2",
+          "title": "Coca-Cola Commercial 1950 (Ad 2)",
+          "year": 1950,
+          "duration_sec": 60,
+          "downloads": 1589,
+          "desc": "Second 1950 commercial for Coca-Cola"
+        },
+        {
+          "id": "KitCarsonCoc",
+          "title": "Kit Carson Coca-Cola Spots",
+          "year": 1950,
+          "duration_sec": 120,
+          "downloads": 10476,
+          "desc": "Kit Carson TV show Coca-Cola sponsor spots - Western meets Coke!"
+        },
+        {
+          "id": "Mokuba_Is_Cuddly_and_Loves_Classic_TV",
+          "title": "Coca-Cola Classic Commercial 1953",
+          "year": 1953,
+          "duration_sec": 60,
+          "downloads": 23800,
+          "desc": "A 3rd Classic Commercial for Coca-Cola (1953)"
+        },
+        {
+          "id": "Coke_Commercial",
+          "title": "Classic Coca-Cola Commercial 1954",
+          "year": 1954,
+          "duration_sec": 60,
+          "downloads": 48378,
+          "desc": "Classic Coca-Cola Commercial from 1954"
+        },
+        {
+          "id": "coca-cola1954-ad4",
+          "title": "Coca-Cola Commercial 1954 (Ad 4)",
+          "year": 1954,
+          "duration_sec": 60,
+          "downloads": 823,
+          "desc": "1954 commercial for Coca-Cola (ad 4)"
+        },
+        {
+          "id": "Roast_Lamb_with_Gravy",
+          "title": "Coca-Cola Commercial Sept 1954",
+          "year": 1954,
+          "duration_sec": 60,
+          "downloads": 4265,
+          "desc": "A 4th Classic Commercial for Coca-Cola (29/September/1954)"
+        },
+        {
+          "id": "Zarbon_Eats_Little_Children",
+          "title": "Coca-Cola Commercial Jan 1955",
+          "year": 1955,
+          "duration_sec": 60,
+          "downloads": 59965,
+          "desc": "A 5th Classic Commercial for Coca-Cola (20/January/1955)"
+        },
+        {
+          "id": "1960Coca-colaCommercial-Commercial1",
+          "title": "Coca-Cola 1960 Commercial #1",
+          "year": 1960,
+          "duration_sec": 60,
+          "downloads": 9505,
+          "desc": "1960 Coca-Cola commercial - Commercial 1"
+        },
+        {
+          "id": "1960Coca-colaCommercial-Commercial2",
+          "title": "Coca-Cola 1960 Commercial #2",
+          "year": 1960,
+          "duration_sec": 60,
+          "downloads": 51160,
+          "desc": "1960 Coca-Cola commercial - Commercial 2"
+        },
+        {
+          "id": "1960CommercialForkingSizeCoca-cola",
+          "title": "Coca-Cola King Size 1960",
+          "year": 1960,
+          "duration_sec": 60,
+          "downloads": 2340,
+          "desc": "1960 commercial for King Size Coca-Cola"
+        }
+      ]
+    },
+    "food_beverages": {
+      "label": "Essen & Getraenke",
+      "era": "1930-1960",
+      "note": "Pepsi, Kellogg's, Cheerios - ohne Coca-Cola (eigene Kategorie)",
+      "items": [
+        {
+          "id": "pepsi_ad_1930s_hit_the_spot",
+          "title": "Pepsi-Cola: Hit the Spot (1930s)",
+          "year": 1938,
+          "duration_sec": 30,
+          "downloads": 173,
+          "desc": "Early Pepsi radio/film ad - Pepsi-Cola hits the spot!"
+        },
+        {
+          "id": "Cheerios1960",
+          "title": "Cheerios / V-8 Commercial",
+          "year": 1960,
+          "duration_sec": 60,
+          "downloads": 117690,
+          "desc": "Classic Cheerios and V-8 juice TV commercial"
+        },
+        {
+          "id": "KelloggsSugarFrostedFlakesCereal1976",
+          "title": "Kellogg's Frosted Flakes (Tony the Tiger)",
+          "year": 1950,
+          "duration_sec": 30,
+          "downloads": 424302,
+          "desc": "They're GRRRREAT! - early Kellogg's TV commercial"
+        }
+      ]
+    },
+    "chevrolet_cinema": {
+      "label": "Chevrolet Leader News (Kino-Newsreels!)",
+      "era": "1935-1956",
+      "note": "PERFEKT! Chevrolet produzierte eigene Kino-Newsreels - wie Mini-Wochenschauen fuer Autos!",
+      "items": [
+        {
+          "id": "0690_Chevrolet_Leader_News_Vol_1_No_1_M6650_0",
+          "title": "Chevrolet Leader News Vol.1 No.1",
+          "year": 1935,
+          "duration_sec": 600,
+          "downloads": 15234,
+          "desc": "Kino-Newsreel Format! Chevrolet produzierte eigene 'News' fuer Kinos - wie Wochenschau fuer Autos"
+        },
+        {
+          "id": "0195_Chevrolet_Leader_News_Vol_1_No_2_M7650_1",
+          "title": "Chevrolet Leader News Vol.1 No.2",
+          "year": 1935,
+          "duration_sec": 600,
+          "downloads": 16379,
+          "desc": "Chevrolet Leader News - Kino-Newsreel format"
+        },
+        {
+          "id": "Chevrole1936_3",
+          "title": "Chevrolet Leader News Vol.2 No.3",
+          "year": 1936,
+          "duration_sec": 600,
+          "downloads": 29806,
+          "desc": "Chevrolet Leader News 1936 - perfekte Kinowerbung"
+        },
+        {
+          "id": "Chevrole1937",
+          "title": "Chevrolet Leader News Vol.3 No.1",
+          "year": 1937,
+          "duration_sec": 600,
+          "downloads": 17421,
+          "desc": "Chevrolet Leader News 1937"
+        },
+        {
+          "id": "Chevrole1937_2",
+          "title": "Chevrolet Leader News Vol.3 No.2",
+          "year": 1937,
+          "duration_sec": 600,
+          "downloads": 23773,
+          "desc": "Chevrolet Leader News 1937 Vol.3 No.2"
+        },
+        {
+          "id": "0545_Chevrolet_Leader_News_Vol_3_No_4_M00464_",
+          "title": "Chevrolet Leader News Vol.3 No.4",
+          "year": 1937,
+          "duration_sec": 600,
+          "downloads": 16787,
+          "desc": "Chevrolet Leader News 1937 Vol.3 No.4"
+        },
+        {
+          "id": "Chevrole1938",
+          "title": "Chevrolet Leader News Vol.4 No.1",
+          "year": 1938,
+          "duration_sec": 600,
+          "downloads": 12861,
+          "desc": "Chevrolet Leader News 1938 - letzte Ausgabe vor Kriegsbeginn"
+        },
+        {
+          "id": "1955Chev1955",
+          "title": "1955 Chevrolet Screen Ads",
+          "year": 1955,
+          "duration_sec": 300,
+          "downloads": 162530,
+          "desc": "Original Chevrolet KINO-Werbung 1955 - explizit fuer Kinoleinwaende produziert!",
+          "needs_splitting": true
+        },
+        {
+          "id": "1956CommercialForChevroletStationWagons",
+          "title": "1956 Chevrolet Station Wagons",
+          "year": 1956,
+          "duration_sec": 60,
+          "downloads": 22270,
+          "desc": "1956 commercial for Chevrolet Station wagons"
+        },
+        {
+          "id": "Chevrole1939",
+          "title": "Chevrolet Leader News Vol.4 No.2",
+          "year": 1939,
+          "duration_sec": 500,
+          "downloads": 11000,
+          "desc": "Chevrolet promotional newsreel from 1939 - pre-war era"
+        },
+        {
+          "id": "Chevrole1939_3",
+          "title": "Chevrolet Leader News Vol.5 No.2",
+          "year": 1939,
+          "duration_sec": 513,
+          "downloads": 10000,
+          "desc": "Chevrolet promotional newsreel from 1939 - pre-war production"
+        },
+        {
+          "id": "Hired1940",
+          "title": "Hired! Chevrolet Sales Training",
+          "year": 1940,
+          "duration_sec": 1113,
+          "downloads": 26000,
+          "desc": "Chevrolet sales training film 1940 - classic automotive marketing"
+        }
+      ]
+    },
+    "automotive": {
+      "label": "Automobile (andere Marken)",
+      "era": "1940-1960",
+      "note": "Ford, Lincoln - American Dream auf Raedern",
+      "items": [
+        {
+          "id": "1941LincolnAdvertisement",
+          "title": "Lincoln Advertisement 1941",
+          "year": 1941,
+          "duration_sec": 90,
+          "downloads": 3235,
+          "desc": "1941 Lincoln luxury car advertisement - Kriegsaera!"
+        },
+        {
+          "id": "Wonderfu1960",
+          "title": "Wonderful New World of Fords (1960)",
+          "year": 1960,
+          "duration_sec": 120,
+          "downloads": 154644,
+          "desc": "A Wonderful New World of Fords - 1960 Ford promotional spot"
+        },
+        {
+          "id": "ToNewHor1940",
+          "title": "To New Horizons - GM Futurama",
+          "year": 1940,
+          "duration_sec": 1381,
+          "downloads": 165000,
+          "desc": "GM Futurama pavilion film from 1939 Worlds Fair - iconic vision of the future"
+        }
+      ]
+    },
+    "technology_household": {
+      "label": "Technik & Haushalt",
+      "era": "1940-1960",
+      "note": "General Electric, Westinghouse, Frigidaire, UNIVAC, Kodak, Remington",
+      "items": [
+        {
+          "id": "UNIVAC-AD-2",
+          "title": "UNIVAC Computer Commercial (1956)",
+          "year": 1956,
+          "duration_sec": 60,
+          "downloads": 113200,
+          "desc": "Fifties advertising: UNIVAC computer commercial"
+        },
+        {
+          "id": "1956CommercialForKodakSignet40Camera",
+          "title": "Kodak Signet 40 Camera (1956)",
+          "year": 1956,
+          "duration_sec": 60,
+          "downloads": 117518,
+          "desc": "1956 commercial for Kodak Signet 40 camera"
+        },
+        {
+          "id": "1950CommercialForGeneralElectricTelevisionSet",
+          "title": "General Electric Television Set (1950)",
+          "year": 1950,
+          "duration_sec": 60,
+          "downloads": 63278,
+          "desc": "1950 commercial for GE television set - der Beginn des TV-Zeitalters!"
+        },
+        {
+          "id": "GE_Dish_Washer",
+          "title": "General Electric Dish Washer (1952)",
+          "year": 1952,
+          "duration_sec": 60,
+          "downloads": 24804,
+          "desc": "Classic Fifties Commercial: General Electric Dish Washer"
+        },
+        {
+          "id": "1956FrigidaireRefrigorator",
+          "title": "Frigidaire Refrigerator (1956)",
+          "year": 1956,
+          "duration_sec": 60,
+          "downloads": 40537,
+          "desc": "1956 commercial for Frigidaire refrigerator"
+        },
+        {
+          "id": "Westinghouse1951Refrigerator",
+          "title": "Westinghouse Refrigerator (1951)",
+          "year": 1951,
+          "duration_sec": 60,
+          "downloads": 11225,
+          "desc": "1951 Commercial for Westinghouse Refrigerator"
+        },
+        {
+          "id": "1952CommercialForAWestinghouseElectricRange",
+          "title": "Westinghouse Electric Range (1952)",
+          "year": 1952,
+          "duration_sec": 60,
+          "downloads": 2100,
+          "desc": "1952 commercial for a Westinghouse Electric Range"
+        },
+        {
+          "id": "westinghouse1950televisonset",
+          "title": "Westinghouse Television Set (1950)",
+          "year": 1950,
+          "duration_sec": 60,
+          "downloads": 1979,
+          "desc": "1950 commercial for Westinghouse television set"
+        },
+        {
+          "id": "1953CommercialForTheRemington60DeLuxeElectric",
+          "title": "Remington 60 De Luxe Shaver (1953)",
+          "year": 1953,
+          "duration_sec": 60,
+          "downloads": 4414,
+          "desc": "1953 commercial for the Remington 60 De Luxe electric shaver"
+        },
+        {
+          "id": "1959CommercialForBlackFlagInsectBomb",
+          "title": "Black Flag Insect Bomb (1959)",
+          "year": 1959,
+          "duration_sec": 60,
+          "downloads": 110849,
+          "desc": "1959 TV commercial for Black Flag bug spray"
+        },
+        {
+          "id": "1954CommercialForR.d.x.WeightlossPills",
+          "title": "R.D.X. Weight Loss Pills (1954)",
+          "year": 1954,
+          "duration_sec": 60,
+          "downloads": 130002,
+          "desc": "1954 commercial for R.D.X. weight loss pills - vintage quack medicine"
+        },
+        {
+          "id": "OnceUpon1956",
+          "title": "Once Upon a Honeymoon (Bell Telephone, 1956)",
+          "year": 1956,
+          "duration_sec": 600,
+          "downloads": 103798,
+          "desc": "Color sponsored film by Bell Telephone - can split into segments"
+        },
+        {
+          "id": "WhatMake1947",
+          "title": "What Makes a Fine Watch Fine",
+          "year": 1947,
+          "duration_sec": 900,
+          "downloads": 40000,
+          "desc": "Hamilton Watch promotional film 1947 - precision watchmaking"
+        }
+      ]
+    },
+    "war_era_propaganda": {
+      "label": "Kriegszeit: War Bonds, Home Front, Rationierung",
+      "era": "1941-1948",
+      "note": "DAS HERZSTUECK! War Bonds, Victory Gardens, Wartime Nutrition - lief DIREKT vor/nach Wochenschau im Kino!",
+      "items": [
+        {
+          "id": "ARC-38907",
+          "title": "1st War Bond Drive Newsreel (1942)",
+          "year": 1942,
+          "duration_sec": 300,
+          "downloads": 801,
+          "desc": "May/June 1942 Newsreel: 1st War Bond Drive, Willow Run & Chrysler Tank Plant"
+        },
+        {
+          "id": "428-npc-43254",
+          "title": "WAR BOND DRIVE (1942)",
+          "year": 1942,
+          "duration_sec": 120,
+          "downloads": 14,
+          "desc": "War Bond Drive short film 1942"
+        },
+        {
+          "id": "fc-fc-4380",
+          "title": "War Bond Purchase Awards (1943)",
+          "year": 1943,
+          "duration_sec": 120,
+          "downloads": 11,
+          "desc": "War Bond Purchase Awards ceremony film 1943"
+        },
+        {
+          "id": "428-npc-2206",
+          "title": "WAR BOND DRIVE #2 (1942)",
+          "year": 1942,
+          "duration_sec": 120,
+          "downloads": 11,
+          "desc": "Second War Bond Drive short film"
+        },
+        {
+          "id": "MakeMine1948",
+          "title": "Make Mine Freedom (1948, animiert!)",
+          "year": 1948,
+          "duration_sec": 600,
+          "downloads": 528780,
+          "desc": "Animated propaganda short about American freedom - hoch poliert, 528K Downloads!"
+        },
+        {
+          "id": "ToMarket1942",
+          "title": "To Market, To Market Part I (USDA, 1942)",
+          "year": 1942,
+          "duration_sec": 600,
+          "downloads": 19266,
+          "desc": "USDA wartime food rationing film - wie man trotz Rationierung gut isst"
+        },
+        {
+          "id": "ToMarket1942_2",
+          "title": "To Market, To Market Part II (USDA, 1942)",
+          "year": 1942,
+          "duration_sec": 600,
+          "downloads": 17832,
+          "desc": "USDA wartime food rationing Part II"
+        },
+        {
+          "id": "WartimeN1943",
+          "title": "Wartime Nutrition (1943)",
+          "year": 1943,
+          "duration_sec": 600,
+          "downloads": 961395,
+          "desc": "Government nutrition film 1943 - 961K Downloads! Extrem populaer"
+        },
+        {
+          "id": "Hemp_for_victory_1942",
+          "title": "Hemp for Victory (USDA, 1942)",
+          "year": 1942,
+          "duration_sec": 840,
+          "downloads": 201187,
+          "desc": "USDA Film: Hanfanbau fuer den Krieg - beruehmt-beruechtigter Propagandafilm!"
+        },
+        {
+          "id": "Two1955CommercialsForTexaco",
+          "title": "Two 1955 Commercials for Texaco",
+          "year": 1955,
+          "duration_sec": 120,
+          "downloads": 2808,
+          "desc": "Zwei Texaco Werbeclips 1955"
+        },
+        {
+          "id": "Despotis1946",
+          "title": "Despotism - Encyclopaedia Britannica",
+          "year": 1946,
+          "duration_sec": 600,
+          "downloads": 50000,
+          "desc": "Educational film on despotism vs democracy - post-war era"
+        },
+        {
+          "id": "DontBeaS1947",
+          "title": "Dont Be a Sucker - US War Dept",
+          "year": 1947,
+          "duration_sec": 1020,
+          "downloads": 60000,
+          "desc": "Anti-propaganda film by US War Department - post-war education"
+        }
+      ]
+    },
+    "drive_in_cinema_experience": {
+      "label": "Drive-In & Kino-Erlebnis",
+      "era": "1940-1965",
+      "note": "Intermission Ads, Snack Bar, Kino-Atmosphaere - das FEELING von 'damals'!",
+      "items": [
+        {
+          "id": "Chevrole1954",
+          "title": "Chevrolet Sales Convention Musical (1954)",
+          "year": 1954,
+          "duration_sec": 600,
+          "downloads": 20764,
+          "desc": "Chevrolet Sales Convention Musical - bizarres 50er-Jahre Kino"
+        },
+        {
+          "id": "Corvairi1960",
+          "title": "Corvair in Action (1960)",
+          "year": 1960,
+          "duration_sec": 600,
+          "downloads": 160211,
+          "desc": "The Corvair in Action - Ford competitor, cinema ad style"
+        },
+        {
+          "id": "FreedomH1956",
+          "title": "Freedom Highway Part I (1956)",
+          "year": 1956,
+          "duration_sec": 900,
+          "downloads": 59388,
+          "desc": "Freedom Highway - American automobile culture documentary"
+        },
+        {
+          "id": "DIA40",
+          "title": "Pop Goes The Whistle (1960)",
+          "year": 1960,
+          "duration_sec": 300,
+          "downloads": 43470,
+          "desc": "Pop Goes The Whistle - Drive-in style entertainment short"
+        }
+      ]
+    },
+    "compilations": {
+      "label": "Werbung-Compilations (zum Splitten!)",
+      "era": "1940-1960",
+      "note": "ALLE 8 Teile + Master + Comedy - muessen in Einzelclips geschnitten werden. Ergibt 100+ individuelle Spots!",
+      "items": [
+        {
+          "id": "ClassicT1948",
+          "title": "Classic Television Commercials Part I",
+          "year": 1948,
+          "duration_sec": 1800,
+          "downloads": 309265,
+          "needs_splitting": true
+        },
+        {
+          "id": "ClassicT1948_2",
+          "title": "Classic Television Commercials Part II",
+          "year": 1948,
+          "duration_sec": 1800,
+          "downloads": 91317,
+          "needs_splitting": true
+        },
+        {
+          "id": "ClassicT1948_3",
+          "title": "Classic Television Commercials Part III",
+          "year": 1948,
+          "duration_sec": 1800,
+          "downloads": 102754,
+          "needs_splitting": true
+        },
+        {
+          "id": "ClassicT1948_4",
+          "title": "Classic Television Commercials Part IV",
+          "year": 1948,
+          "duration_sec": 1800,
+          "downloads": 70036,
+          "needs_splitting": true
+        },
+        {
+          "id": "ClassicT1948_5",
+          "title": "Classic Television Commercials Part V",
+          "year": 1948,
+          "duration_sec": 1800,
+          "downloads": 99610,
+          "needs_splitting": true
+        },
+        {
+          "id": "ClassicT1948_6",
+          "title": "Classic Television Commercials Part VI",
+          "year": 1948,
+          "duration_sec": 1800,
+          "downloads": 68441,
+          "needs_splitting": true
+        },
+        {
+          "id": "ClassicT1948_7",
+          "title": "Classic Television Commercials Part VII",
+          "year": 1948,
+          "duration_sec": 1800,
+          "downloads": 66693,
+          "needs_splitting": true
+        },
+        {
+          "id": "ClassicT1948_8",
+          "title": "Classic Television Commercials Part VIII",
+          "year": 1948,
+          "duration_sec": 1800,
+          "downloads": 91961,
+          "needs_splitting": true
+        },
+        {
+          "id": "Televisi1960",
+          "title": "Television Commercials (1950s-1960s)",
+          "year": 1950,
+          "duration_sec": 2400,
+          "downloads": 275836,
+          "needs_splitting": true
+        },
+        {
+          "id": "ctvc",
+          "title": "Classic Television Commercials (Master Collection)",
+          "year": 1950,
+          "duration_sec": 7200,
+          "downloads": 508611,
+          "desc": "MASSIVE master collection - 2h+ Material!",
+          "needs_splitting": true
+        },
+        {
+          "id": "202275_Television_Commercials_Classic_Comedy",
+          "title": "Television Commercials: Classic and Comedy",
+          "year": 1950,
+          "duration_sec": 1800,
+          "downloads": 5324,
+          "needs_splitting": true
+        }
+      ]
+    },
+    "local_existing": {
+      "label": "Lokal vorhandene Werbung",
+      "era": "1930-1995",
+      "note": "Bereits auf V:\\ vorhanden - kein Download noetig",
+      "items": [
+        {
+          "local_path": "V:\\OriginalSources\\MusicVideos\\Lucky Strike Cigarette Commercial_ Square Dan",
+          "title": "Lucky Strike: Square Dance (lokal)",
+          "year": 1948
+        },
+        {
+          "local_path": "V:\\OriginalSources\\MusicVideos\\Classic Television Commercials _Part V_.mp4",
+          "title": "Classic TV Commercials Part V (lokal)",
+          "year": 1950,
+          "needs_splitting": true
+        },
+        {
+          "local_path": "V:\\OriginalSources\\_sources\\christmas\\GERMANY\\German Commercials 1950s.mp4",
+          "title": "Deutsche Werbung 1950er (lokal)",
+          "year": 1955
+        },
+        {
+          "local_path": "V:\\OriginalSources\\_sources\\christmas\\UK\\Cinema Adverts Volumes 1 and 2.mp4",
+          "title": "UK Cinema Adverts Vol 1+2 (lokal)",
+          "year": 1950
+        },
+        {
+          "local_path": "V:\\MediaArchive\\HISTORIC_CATS\\1903\\Cinema Adverts Volumes 1 and 2_1903.mp4",
+          "title": "Cinema Adverts (Historic, lokal)",
+          "year": 1950
+        },
+        {
+          "local_path": "V:\\OriginalSources\\Commercials\\Coca-Cola_Holidays_Are_Coming_1995_ORIGINAL_4",
+          "title": "Coca-Cola Holidays Are Coming (1995, lokal)",
+          "year": 1995
+        }
+      ]
+    }
+  },
+  "download_priority": {
+    "_info": "Download order — nach Kontext-Relevanz fuer Wochenschau-Aera sortiert!",
+    "tier1_wartime_era": {
+      "note": "PERFEKTER KONTEXT: Kriegszeit 1937-1945 — lief VOR/NACH Wochenschau im Kino!",
+      "items": [
+        "adf6c07ad16549d897593901871346fc",
+        "2612d01dd4da4b84b9626e6db957bdd6",
+        "always-tomorrow-1941",
+        "ARC-38907",
+        "428-npc-43254",
+        "fc-fc-4380",
+        "ToMarket1942",
+        "ToMarket1942_2",
+        "WartimeN1943",
+        "Hemp_for_victory_1942",
+        "MakeMine1948",
+        "1941LincolnAdvertisement"
+      ]
+    },
+    "tier2_kino_classics": {
+      "note": "Ikonische Kino-Werbung der Aera — Chevrolet Leader News, Lucky Strike, Pepsi",
+      "items": [
+        "0690_Chevrolet_Leader_News_Vol_1_No_1_M6650_0",
+        "Chevrole1936_3",
+        "Chevrole1937_2",
+        "Chevrole1938",
+        "1955Chev1955",
+        "LuckyStr1948_2",
+        "LuckyStr1948",
+        "pepsi_ad_1930s_hit_the_spot",
+        "ClassicT1948",
+        "ClassicT1948_2"
+      ]
+    },
+    "tier3_brand_icons": {
+      "note": "Ikonische Marken-Spots 1950er — Coca-Cola, GE, Kodak, UNIVAC",
+      "items": [
+        "coca-cola1950",
+        "Coke_Commercial",
+        "KitCarsonCoc",
+        "Zarbon_Eats_Little_Children",
+        "1950CommercialForGeneralElectricTelevisionSet",
+        "UNIVAC-AD-2",
+        "1956CommercialForKodakSignet40Camera",
+        "1956FrigidaireRefrigorator",
+        "1953CommercialForLuckyStrikeCigarettes",
+        "Cheerios1960"
+      ]
+    },
+    "tier4_compilations_to_split": {
+      "note": "Grosse Compilations zum Splitten — ergibt 100+ Einzelspots",
+      "items": [
+        "ctvc",
+        "ClassicT1948_3",
+        "ClassicT1948_4",
+        "ClassicT1948_5",
+        "ClassicT1948_6",
+        "ClassicT1948_7",
+        "ClassicT1948_8",
+        "Televisi1960",
+        "202275_Television_Commercials_Classic_Comedy"
+      ]
+    }
+  },
+  "compilation_split_plan": {
+    "_info": "Large compilations need splitting into individual 30-90 second clips",
+    "tool": "ffmpeg scene detection + manual review",
+    "target_clip_length_sec": 60,
+    "output_naming": "commercial_{year}_{brand}_{index}.mp4",
+    "output_dir": "V:\\Commercials\\Vintage\\split"
+  },
+  "stats": {
+    "total_individual_spots": 67,
+    "total_compilations": 11,
+    "estimated_clips_after_split": "150+",
+    "categories": 10,
+    "era_coverage": "1935-1960",
+    "perfect_wochenschau_match_1939_1945": 12,
+    "total_archive_org_downloads": "3.5M+"
+  }
+}

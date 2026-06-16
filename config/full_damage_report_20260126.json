@@ -1,0 +1,633 @@
+{
+  "timestamp": "2026-01-26T09:24:06.140661",
+  "total_videos": 329,
+  "videos_with_issues": 243,
+  "high_view_issues": 45,
+  "title_issues_breakdown": {
+    "too_long": 102,
+    "missing_brand": 3,
+    "missing_quality": 2,
+    "wrong_soundie_format": 44,
+    "lowercase_start": 1
+  },
+  "tag_issues_breakdown": {
+    "excessive_18": 13,
+    "excessive_20": 22,
+    "excessive_23": 16,
+    "excessive_24": 8,
+    "excessive_25": 14,
+    "excessive_19": 7,
+    "excessive_26": 2,
+    "excessive_17": 7,
+    "excessive_22": 12,
+    "excessive_27": 4,
+    "excessive_16": 2,
+    "excessive_21": 10,
+    "excessive_36": 1,
+    "excessive_30": 23,
+    "spammy_tags": 18
+  },
+  "top_problem_videos": [
+    {
+      "id": "TLdsnAi8bWg",
+      "title": "Silly Symphony: 8K The Skeleton Dance (1929) | Walt Disney HQ | @remAIke_IT",
+      "views": 73751,
+      "tag_count": 18,
+      "issues": {
+        "title": [
+          "too_long"
+        ],
+        "tags": [
+          "excessive_18"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "d8Ak1R_eOlY",
+      "title": "White Zombie (1932) | Horror Classic | 8K HQ | @remAIke_IT",
+      "views": 32807,
+      "tag_count": 20,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_20"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "fFanPpOArKs",
+      "title": "Felix the Cat (15/175): Felix at the Circus (1921) | 8K HQ | @remAIke_IT",
+      "views": 25038,
+      "tag_count": 23,
+      "issues": {
+        "title": [
+          "too_long"
+        ],
+        "tags": [
+          "excessive_23"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "6A2_RKWP2X4",
+      "title": "Superman (1/17): Superman (1941) | 8K HQ | @remAIke_IT",
+      "views": 20284,
+      "tag_count": 24,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_24"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "5WVJHELSD7A",
+      "title": "The Cabinet of Dr. Caligari (1920) | Silent Horror | 8K HQ | @remAIke_IT",
+      "views": 16576,
+      "tag_count": 20,
+      "issues": {
+        "title": [
+          "too_long"
+        ],
+        "tags": [
+          "excessive_20"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "z8FqTSpp6Kg",
+      "title": "Dinner for One (1963) | 8K HQ | @remAIke_IT",
+      "views": 14140,
+      "tag_count": 25,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_25"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "PSdJJaxI4gM",
+      "title": "Charade (1953) | Vintage Mystery | 8K HQ | @remAIke_IT",
+      "views": 7698,
+      "tag_count": 19,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_19"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "EMnokZOLpzU",
+      "title": "The Grim Game (1919) | Houdini Silent Thriller | 8K HQ | @remAIke_IT",
+      "views": 6757,
+      "tag_count": 20,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_20"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "yIQCHpjp4NE",
+      "title": "Merry Christmas from Batman & Robin Meet Santa Claus (1966) | 8K HQ | @remAIke_IT",
+      "views": 5562,
+      "tag_count": 26,
+      "issues": {
+        "title": [
+          "too_long"
+        ],
+        "tags": [
+          "excessive_26"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "tJMJlCQc0UE",
+      "title": "Betty Boop (11/105): Minnie the Moocher (1932) | 8K HQ | @remAIke_IT",
+      "views": 5424,
+      "tag_count": 24,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_24"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "unzHtnrKeOU",
+      "title": "Superman (10/17): Japoteurs (1942) | 8K HQ | @remAIke_IT",
+      "views": 4378,
+      "tag_count": 24,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_24"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "qZU5lVJMkoM",
+      "title": "Felix Minds the Kid (1922) | Felix the Cat | 8K HQ | @remAIke_IT",
+      "views": 4282,
+      "tag_count": 23,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_23"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "NcfUWqlfSm0",
+      "title": "Getaway in Stockholm 1 – Porsche 911 | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "views": 4141,
+      "tag_count": 15,
+      "issues": {
+        "title": [
+          "too_long"
+        ],
+        "tags": []
+      },
+      "has_issues": true
+    },
+    {
+      "id": "Nzi6aRKDoEs",
+      "title": "Nosferatu (1922) | Silent Horror Classic | 8K HQ | @remAIke_IT",
+      "views": 4094,
+      "tag_count": 17,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_17"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "M0-tJK4H3lo",
+      "title": "Tokyo Jokio (1943) | Merrie Melodies WWII | 8K HQ | @remAIke_IT",
+      "views": 4082,
+      "tag_count": 20,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_20"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "_3Z1GTYFUAM",
+      "title": "Buster Keaton: Convict 13 (1920) | Silent Comedy | 8K HQ | @remAIke_IT",
+      "views": 4049,
+      "tag_count": 24,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_24"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "-623U3tgryM",
+      "title": "Mel-O-Toons: Peter and the Wolf (1960) | 8K HQ | @remAIke_IT",
+      "views": 4032,
+      "tag_count": 17,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_17"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "3NagSoFaAwI",
+      "title": "Airship Destroyed (1909) | Early Sci-Fi | 8K HQ | @remAIke_IT",
+      "views": 3998,
+      "tag_count": 20,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_20"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "LEM6FkBTDNs",
+      "title": "8K 20,000 Leagues Under the Sea (1916) | 8K HQ | @remAIke_IT",
+      "views": 3019,
+      "tag_count": 22,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_22"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "pqrCPhUCpxE",
+      "title": "Voyage to the Planet of Prehistoric Women (1968) | 8K HQ | @remAIke_IT",
+      "views": 2892,
+      "tag_count": 23,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_23"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "T8AnrW3H5i8",
+      "title": "Little Nemo (1911) | Winsor McCay Animation | 8K HQ | @remAIke_IT",
+      "views": 2870,
+      "tag_count": 20,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_20"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "j4r3bPPQza0",
+      "title": "Commodore 64 Vintage Computer Documentary | 8K HQ | @remAIke_IT",
+      "views": 2572,
+      "tag_count": 17,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_17"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "_aUNgDJoWoU",
+      "title": "Scarlet Street – Fritz Lang (1945) | 8K HQ | @remAIke_IT",
+      "views": 2476,
+      "tag_count": 27,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_27"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "WWdC0Rq4cQQ",
+      "title": "Krazy Kat: Keeping Up (1916) | 8K HQ | @remAIke_IT",
+      "views": 2381,
+      "tag_count": 20,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_20"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "unbwEeI4bEE",
+      "title": "Popeye (180/231): Ancient Fistory (1953) | 8K HQ | @remAIke_IT",
+      "views": 2380,
+      "tag_count": 24,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_24"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "tk3DHvp9CFs",
+      "title": "The Astronomer's Dream (1898) | Georges Méliès | 8K HQ | @remAIke_IT",
+      "views": 2371,
+      "tag_count": 20,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_20"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "3gzbxznJ_PM",
+      "title": "Popeye Marathon (4h 41m) | Fleischer Studios | 8K HQ | @remAIke_IT",
+      "views": 2171,
+      "tag_count": 16,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_16"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "hPQN992PMUY",
+      "title": "Frankenstein (1910) | Edison Studios | 8K HQ | @remAIke_IT",
+      "views": 2131,
+      "tag_count": 23,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_23"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "Q1H33-Yw_uQ",
+      "title": "Aesop’s Fables: Skating Hounds (1929) | 8K HQ | @remAIke_IT",
+      "views": 1956,
+      "tag_count": 20,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_20"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "kLpuqswC0IE",
+      "title": "Felix the Cat (15/175): Felix at the Circus (1921) | 8K HQ | @remAIke_IT",
+      "views": 1903,
+      "tag_count": 21,
+      "issues": {
+        "title": [
+          "too_long"
+        ],
+        "tags": [
+          "excessive_21"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "dkxCgOivonc",
+      "title": "Betty Boop (72/105): More Pep (1936) | 8K HQ | @remAIke_IT",
+      "views": 1886,
+      "tag_count": 23,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_23"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "eySdw7WrSps",
+      "title": "Felix the Cat (20/175): Felix in Love (1922) | 8K HQ | @remAIke_IT",
+      "views": 1789,
+      "tag_count": 18,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_18"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "5CEONd_SGn8",
+      "title": "Felix the Cat (30/175): Felix Saves the Day (1922) | 8K HQ | @remAIke_IT",
+      "views": 1672,
+      "tag_count": 22,
+      "issues": {
+        "title": [
+          "too_long"
+        ],
+        "tags": [
+          "excessive_22"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "-3UHQiZHPwY",
+      "title": "Betty Boop (28/105): Ker-Choo (1932) | 8K HQ | @remAIke_IT",
+      "views": 1670,
+      "tag_count": 24,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_24"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "E7X_PG6wJEk",
+      "title": "Felix the Cat (25/175): Felix at the Fair (1922) | 8K HQ | @remAIke_IT",
+      "views": 1609,
+      "tag_count": 18,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_18"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "cKMnE6pFz_w",
+      "title": "Felix the Cat (35/175): Felix in the Swim (1922) | 8K HQ | @remAIke_IT",
+      "views": 1542,
+      "tag_count": 22,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_22"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "0pBFESQ-FmA",
+      "title": "Little Nemo in Slumberland (1911) | Winsor McCay | 8K HQ | @remAIke_IT",
+      "views": 1521,
+      "tag_count": 20,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_20"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "PySMbbpIAUM",
+      "title": "The Cigar Box (1905) | 8K HQ | @remAIke_IT",
+      "views": 1485,
+      "tag_count": 21,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_21"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "AD2oRdK4seI",
+      "title": "Felix the Cat (1/175): Feline Follies (1919) | 8K HQ | @remAIke_IT",
+      "views": 1409,
+      "tag_count": 23,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_23"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "EhZdQ74_sCM",
+      "title": "Prelinger: Children Make Movies | 8K HQ | @remAIke_IT",
+      "views": 1314,
+      "tag_count": 17,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_17"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "dLfEqos_mrg",
+      "title": "Looney Tunes: A Day at the Zoo (1939) | 8K HQ | Warner Bros | @remAIke_IT",
+      "views": 1296,
+      "tag_count": 10,
+      "issues": {
+        "title": [
+          "too_long"
+        ],
+        "tags": []
+      },
+      "has_issues": true
+    },
+    {
+      "id": "WSjkAZkPbKs",
+      "title": "EPIC Coca‑Cola Christmas Trucks – Holidays Are Coming (1995) | 8K HQ | @remAIke_IT",
+      "views": 1121,
+      "tag_count": 26,
+      "issues": {
+        "title": [
+          "too_long"
+        ],
+        "tags": [
+          "excessive_26"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "_jemp3ZpZYY",
+      "title": "Felix the Cat (32/175): Felix Turns the Tide (1922) | 8K HQ | @remAIke_IT",
+      "views": 1062,
+      "tag_count": 23,
+      "issues": {
+        "title": [
+          "too_long"
+        ],
+        "tags": [
+          "excessive_23"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "mybF4jPjl64",
+      "title": "Buster Keaton: My Wife's Relations (1922) | 8K HQ | @remAIke_IT",
+      "views": 1012,
+      "tag_count": 25,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_25"
+        ]
+      },
+      "has_issues": true
+    },
+    {
+      "id": "gMpONbJ3-9U",
+      "title": "The Bee and the Rose (1908) | Segundo de Chomón | 8K HQ | @remAIke_IT",
+      "views": 1004,
+      "tag_count": 20,
+      "issues": {
+        "title": [],
+        "tags": [
+          "excessive_20"
+        ]
+      },
+      "has_issues": true
+    }
+  ]
+}

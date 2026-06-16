@@ -1,0 +1,1200 @@
+{
+  "scan_date": "2026-02-27T11:51:17.031063",
+  "total": 452,
+  "public": 426,
+  "private": 26,
+  "categories": {
+    "Wochenschau": 87,
+    "Alfred J. Kwak": 64,
+    "Other": 124,
+    "Maulwurf": 15,
+    "Clever & Smart": 1,
+    "Soundies": 51,
+    "Ken Block": 4,
+    "BraveStarr": 1,
+    "Betty Boop": 58,
+    "Looney Tunes": 2,
+    "Christmas": 6,
+    "Superman/Fleischer": 15,
+    "Popeye": 3,
+    "Casper": 9,
+    "Felix the Cat": 12
+  },
+  "quality_formats_public": {
+    "8K HQ (4K UHD)": 424,
+    "NONE": 1,
+    "8K only": 1
+  },
+  "total_problems": 85,
+  "problem_counts": {
+    "WS_NO_EPISODE_NR": 72,
+    "TOO_MANY_TAGS(18)": 4,
+    "DRAFT_NO_NAME": 12,
+    "TOO_MANY_TAGS(17)": 2,
+    "NO_QUALITY_TAG": 1,
+    "NO_WEBSITE": 1,
+    "NO_CTA": 1,
+    "TOO_MANY_TAGS(20)": 4,
+    "WS_NO_DATE": 37,
+    "INCOMPLETE_QUALITY": 1,
+    "WS_WRONG_CAT(25)": 1
+  },
+  "problems_detail": [
+    {
+      "id": "jRYN8RQVHj4",
+      "title": "Wochenschau 709: Crimea Battles (05.04.1944) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "TOO_MANY_TAGS(18)"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 18,
+      "views": "24"
+    },
+    {
+      "id": "Lqk_6Rp9YLw",
+      "title": "Wochenschau 710: Crimea Evacuation (12.04.1944) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "TOO_MANY_TAGS(18)"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 18,
+      "views": "3"
+    },
+    {
+      "id": "WAKX3d__J8E",
+      "title": "Wochenschau 701: Battle of Monte Cassino (09.02.1944) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 1,
+      "views": "4"
+    },
+    {
+      "id": "f6iafERcG6M",
+      "title": "Wochenschau 703: German Industry & Home Front (23.02.1944) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "TOO_MANY_TAGS(18)"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 18,
+      "views": "6"
+    },
+    {
+      "id": "xZ8hbztqcQI",
+      "title": "Wochenschau 707: Crimea Campaign (22.03.1944) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "TOO_MANY_TAGS(18)"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 18,
+      "views": "6"
+    },
+    {
+      "id": "FU9uhmbyyas",
+      "title": "Wochenschau 706: Hungary Under Occupation (15.03.1944) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 1,
+      "views": "9"
+    },
+    {
+      "id": "XYH4X8I4L-8",
+      "title": "Wochenschau 708: Eastern Front Offensive (29.03.1944) | 8K HQ (4K UHD)",
+      "privacy": "private",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "DRAFT_NO_NAME"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 18,
+      "views": "0"
+    },
+    {
+      "id": "CgrWBr68rng",
+      "title": "Wochenschau 699: Anzio Landing (26.01.1944) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "17"
+    },
+    {
+      "id": "ULW1rl24JLM",
+      "title": "Wochenschau 703: Big Week (23.02.1944) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "24"
+    },
+    {
+      "id": "NKjPNR8t_Yk",
+      "title": "Wochenschau 705: Cassino III (08.03.1944) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "30"
+    },
+    {
+      "id": "a-mad6-VBuU",
+      "title": "Wochenschau 704: Air Supremacy Lost (01.03.1944) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "11"
+    },
+    {
+      "id": "WyDmmQuHV5Y",
+      "title": "Wochenschau 700: Korsun Pocket (02.02.1944) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "TOO_MANY_TAGS(17)"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 17,
+      "views": "16"
+    },
+    {
+      "id": "UJRbjGwCptI",
+      "title": "Wochenschau 697: Leningrad Relief (12.01.1944) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "TOO_MANY_TAGS(17)"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 17,
+      "views": "18"
+    },
+    {
+      "id": "st3OhIheE_0",
+      "title": "Wochenschau 554: Belgrade Falls (16.04.1941) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "23"
+    },
+    {
+      "id": "cBaedrKsyuE",
+      "title": "Wochenschau 553: Balkans Campaign (09.04.1941) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "37"
+    },
+    {
+      "id": "tzqJDt8ASiE",
+      "title": "Wochenschau 752: Auschwitz Liberated (31.01.1945) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "10"
+    },
+    {
+      "id": "PI1iAvZGlxo",
+      "title": "#1",
+      "privacy": "public",
+      "quality": "NONE",
+      "problems": [
+        "NO_QUALITY_TAG",
+        "NO_WEBSITE",
+        "NO_CTA"
+      ],
+      "content_cat": "Other",
+      "yt_cat": "27",
+      "tags_count": 0,
+      "views": "112"
+    },
+    {
+      "id": "2HZx5FumOo8",
+      "title": "Wochenschau 552: Belgrade Coup (02.04.1941) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "TOO_MANY_TAGS(20)"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 20,
+      "views": "20"
+    },
+    {
+      "id": "Yhz7gsTVqNA",
+      "title": "Wochenschau 567: Smolensk Pocket (16.07.1941) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "TOO_MANY_TAGS(20)"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 20,
+      "views": "30"
+    },
+    {
+      "id": "6Mh7zjUCmHw",
+      "title": "Wochenschau 749: Ardennes Fails (10.01.1945) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "TOO_MANY_TAGS(20)"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 20,
+      "views": "14"
+    },
+    {
+      "id": "suxhPHyaQHU",
+      "title": "Wochenschau 569: Kiev Encirclement (30.07.1941) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "TOO_MANY_TAGS(20)"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 20,
+      "views": "18"
+    },
+    {
+      "id": "q1RBXjC1AbA",
+      "title": "Wochenschau 556: Athens Occupied (30.04.1941) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "32"
+    },
+    {
+      "id": "yNbh1PBUTSA",
+      "title": "Wochenschau 555: Greece Victory (23.04.1941) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 14,
+      "views": "22"
+    },
+    {
+      "id": "OOBufXFyuvg",
+      "title": "Wochenschau 565: Eastern Advance (02.07.1941) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "22"
+    },
+    {
+      "id": "Ima7UohPE4Y",
+      "title": "Wochenschau 606: Baedeker Raids (15.04.1942) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "44"
+    },
+    {
+      "id": "pFCidUe6JV4",
+      "title": "Wochenschau 605: Lubeck Bombed (08.04.1942) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "39"
+    },
+    {
+      "id": "R9dz4YGCy5E",
+      "title": "Wochenschau 496: Winter War Ends (06.03.1940) | 8K HQ (4K UHD)",
+      "privacy": "private",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "DRAFT_NO_NAME"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "1"
+    },
+    {
+      "id": "YXV4LEIBHqc",
+      "title": "Wochenschau 505: Western Campaign (08.05.1940) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "48"
+    },
+    {
+      "id": "W1zYu-fTejs",
+      "title": "Wochenschau 491: Phoney War (31.01.1940) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "32"
+    },
+    {
+      "id": "3FstojEXJ5k",
+      "title": "Wochenschau 496: Winter War Ends (06.03.1940) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "39"
+    },
+    {
+      "id": "n-_DEeOSKz0",
+      "title": "Wochenschau 504: Battle of Narvik (01.05.1940) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "24"
+    },
+    {
+      "id": "tG-_jHZAdFg",
+      "title": "Wochenschau 492: Altmark Incident (07.02.1940) | 8K HQ (4K UHD)",
+      "privacy": "private",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "DRAFT_NO_NAME"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "0"
+    },
+    {
+      "id": "yMXZOo8c6Gk",
+      "title": "Wochenschau 493: Finland Front (14.02.1940) | 8K HQ (4K UHD)",
+      "privacy": "private",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "DRAFT_NO_NAME"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "0"
+    },
+    {
+      "id": "g8215791a7I",
+      "title": "Wochenschau 513: Channel Islands (Jul 1940) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "46"
+    },
+    {
+      "id": "g8215791a7I",
+      "title": "Wochenschau 513: Channel Islands (Jul 1940) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "46"
+    },
+    {
+      "id": "vkCoIJGAf3E",
+      "title": "Wochenschau 515: Battle of Britain (Jul 1940) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "30"
+    },
+    {
+      "id": "7st-GFEwdWQ",
+      "title": "Wochenschau 514: Berlin Parade (Jul 1940) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "60"
+    },
+    {
+      "id": "SV7o2XaYZyc",
+      "title": "DUPE - Wochenschau 509: Dunkirk Evacuation (Jun 1940) | 8K (4K UHD)",
+      "privacy": "private",
+      "quality": "8K (4K UHD)",
+      "problems": [
+        "DRAFT_NO_NAME"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 12,
+      "views": "0"
+    },
+    {
+      "id": "LCa6Klpi8ts",
+      "title": "DUPE - Wochenschau 518: Channel Battles (Aug 1940) | 8K (4K UHD)",
+      "privacy": "private",
+      "quality": "8K (4K UHD)",
+      "problems": [
+        "DRAFT_NO_NAME"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 12,
+      "views": "0"
+    },
+    {
+      "id": "ULzsDOb2x3U",
+      "title": "DUPE - Wochenschau 519: Eagle Day (Aug 1940) | 8K (4K UHD)",
+      "privacy": "private",
+      "quality": "8K (4K UHD)",
+      "problems": [
+        "DRAFT_NO_NAME"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 12,
+      "views": "0"
+    },
+    {
+      "id": "iFSHNS7kVgQ",
+      "title": "DUPE - Wochenschau 542: Tobruk Falls (Jan 1941) | 8K (4K UHD)",
+      "privacy": "private",
+      "quality": "8K (4K UHD)",
+      "problems": [
+        "DRAFT_NO_NAME"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 12,
+      "views": "0"
+    },
+    {
+      "id": "sGZg6lIHFh8",
+      "title": "DUPE - Wochenschau 520: Battle Peak (Aug 1940) | 8K (4K UHD)",
+      "privacy": "private",
+      "quality": "8K (4K UHD)",
+      "problems": [
+        "DRAFT_NO_NAME"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 12,
+      "views": "0"
+    },
+    {
+      "id": "LjGFowS8qHI",
+      "title": "DUPE - Wochenschau 512: French Armistice (Jun 1940) | 8K (4K UHD)",
+      "privacy": "private",
+      "quality": "8K (4K UHD)",
+      "problems": [
+        "DRAFT_NO_NAME"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 12,
+      "views": "0"
+    },
+    {
+      "id": "6wop-BU_XME",
+      "title": "Wochenschau 547: Africa Campaign (Feb 1941) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "50"
+    },
+    {
+      "id": "tVD8197vAyE",
+      "title": "Wochenschau 573: Kiev Battle (Aug 1941) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "51"
+    },
+    {
+      "id": "ZuD1fAyGiUw",
+      "title": "Wochenschau 548: Bulgaria Joins Axis (Mar 1941) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "38"
+    },
+    {
+      "id": "s5d9cAM6REo",
+      "title": "Wochenschau 543: Africa Corps (Jan 1941) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "42"
+    },
+    {
+      "id": "wEMKHQPopHY",
+      "title": "Wochenschau 550: Yugoslavia Crisis (Mar 1941) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "43"
+    },
+    {
+      "id": "7bqlAPsgzAQ",
+      "title": "Wochenschau 545: Africa Offensive (Feb 1941) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "37"
+    },
+    {
+      "id": "eBzXzhNYppQ",
+      "title": "Wochenschau 544: Rommel Arrives (Feb 1941) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "18"
+    },
+    {
+      "id": "i2mRp5iMxoo",
+      "title": "Wochenschau 520: Battle Peak (Aug 1940) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "13"
+    },
+    {
+      "id": "7yfdqylo9qs",
+      "title": "Wochenschau 519: Eagle Day (Aug 1940) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "34"
+    },
+    {
+      "id": "J3LWOLaxuCc",
+      "title": "Wochenschau 542: Tobruk Falls (Jan 1941) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "30"
+    },
+    {
+      "id": "Yj_QcM9Ce28",
+      "title": "Wochenschau 518: Channel Battles (Aug 1940) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "33"
+    },
+    {
+      "id": "a5VVGGHPlsg",
+      "title": "Wochenschau 502: Norway Invasion (Apr 1940) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "38"
+    },
+    {
+      "id": "dAp7JFDhE3U",
+      "title": "Wochenschau: Nazi-Soviet Pact (23.08.1939) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "20"
+    },
+    {
+      "id": "9muRRAleqdA",
+      "title": "Wochenschau: Poland Campaign (13.09.1939) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "64"
+    },
+    {
+      "id": "o33-c1riv4U",
+      "title": "Wochenschau: Pre-War Era (21.06.1939) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "625"
+    },
+    {
+      "id": "t-VIxJaWE74",
+      "title": "Wochenschau: War Begins (06.09.1939) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "28"
+    },
+    {
+      "id": "3AtirtgrfUI",
+      "title": "Wochenschau: Fall of Warsaw (27.09.1939) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "39"
+    },
+    {
+      "id": "DLifkhU0q1w",
+      "title": "Wochenschau 488: Phoney War (Jan 1940) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "56"
+    },
+    {
+      "id": "Qn7Nvx7eWz4",
+      "title": "Wochenschau 483: Winter War (Dec 1939) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "54"
+    },
+    {
+      "id": "1O8sVLS-zfI",
+      "title": "Wochenschau 524: Sea Lion Postponed (Sep 1940) | 8K (4K UHD)",
+      "privacy": "private",
+      "quality": "8K (4K UHD)",
+      "problems": [
+        "DRAFT_NO_NAME"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "2"
+    },
+    {
+      "id": "D_kLmNFlbZI",
+      "title": "Wochenschau 513: Channel Islands (Jul 1940) | 8K (4K UHD)",
+      "privacy": "private",
+      "quality": "8K (4K UHD)",
+      "problems": [
+        "DRAFT_NO_NAME"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "0"
+    },
+    {
+      "id": "xblc6reUMr0",
+      "title": "Wochenschau 512: French Armistice (Jun 1940) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "44"
+    },
+    {
+      "id": "fNCZYqnK3Cc",
+      "title": "Wochenschau 523: London Blitz (Sep 1940) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "86"
+    },
+    {
+      "id": "0sO7jVL43yQ",
+      "title": "Wochenschau 652: Kharkov III (Mar 1943) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "70"
+    },
+    {
+      "id": "2uHl4LYN8O8",
+      "title": "Wochenschau 509: Dunkirk Evacuation (Jun 1940) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "62"
+    },
+    {
+      "id": "jeLWajro1As",
+      "title": "Wochenschau 480: Bürgerbräu Bomb (Nov 1939) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "44"
+    },
+    {
+      "id": "fC0MlizsAQQ",
+      "title": "Wochenschau 508: Dunkirk Pocket (May 1940) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "55"
+    },
+    {
+      "id": "iRzeiRoAsj4",
+      "title": "Wochenschau 477: Poland Occupied (Oct 1939) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "87"
+    },
+    {
+      "id": "N7WPQUjFJjA",
+      "title": "Wochenschau 482: Winter War Begins (Nov 1939) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "50"
+    },
+    {
+      "id": "S31f7FuEvXw",
+      "title": "Wochenschau 522: Berlin Retaliation (Sep 1940) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "91"
+    },
+    {
+      "id": "0sO7jVL43yQ",
+      "title": "Wochenschau 652: Kharkov III (Mar 1943) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "70"
+    },
+    {
+      "id": "6K-MuUu6L44",
+      "title": "Wochenschau 720: V1 Attacks (Jun 1944) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "42"
+    },
+    {
+      "id": "W-UcQleew8Y",
+      "title": "Wochenschau 721: Bagration Begins (Jun 1944) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "49"
+    },
+    {
+      "id": "dYBzf5V1TjI",
+      "title": "Wochenschau 654: Tunisia Battles (Mar 1943) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "27"
+    },
+    {
+      "id": "jGz1kC1Z69A",
+      "title": "Wochenschau 746: Ardennes Offensive (Dec 1944) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "64"
+    },
+    {
+      "id": "bZkUPQHqyfg",
+      "title": "Wochenschau 722: Bagration (Jul 1944) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "21"
+    },
+    {
+      "id": "iEEvt-s1XhQ",
+      "title": "Wochenschau 753: Yalta Conference (Feb 1945) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "30"
+    },
+    {
+      "id": "H_n_mS-eKps",
+      "title": "Wochenschau 754: Dresden Bombed (Feb 1945) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "66"
+    },
+    {
+      "id": "w2UvksMOs3c",
+      "title": "Wochenschau: Vistula Offensive (17.01.1945) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "31"
+    },
+    {
+      "id": "6YLPpJLgVXk",
+      "title": "Wochenschau: Eastern Collapse (24.01.1945) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 15,
+      "views": "24"
+    },
+    {
+      "id": "T-EsdXGhqog",
+      "title": "Wochenschau 516: Battle of Britain (Jul 1940) | 8K",
+      "privacy": "public",
+      "quality": "8K only",
+      "problems": [
+        "INCOMPLETE_QUALITY",
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE",
+        "WS_WRONG_CAT(25)"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "25",
+      "tags_count": 15,
+      "views": "285"
+    },
+    {
+      "id": "9AgSJyMnxi8",
+      "title": "Atomic Bomb Newsreel (1946) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "quality": "8K HQ (4K UHD)",
+      "problems": [
+        "WS_NO_EPISODE_NR",
+        "WS_NO_DATE"
+      ],
+      "content_cat": "Wochenschau",
+      "yt_cat": "27",
+      "tags_count": 13,
+      "views": "22"
+    }
+  ]
+}

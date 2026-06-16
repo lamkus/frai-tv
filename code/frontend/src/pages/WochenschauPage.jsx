@@ -15,8 +15,9 @@ import { useApp } from '../context/AppContext';
  */
 
 // Extract episode number from title like "Wochenschau 474: Fall of Warsaw..."
+// Also handles: "German Newsreel Nr. 598", "UFA Sound Newsreel No. 401", "German WWII Newsreel 720"
 function extractEpisodeNumber(title) {
-  const match = title.match(/Wochenschau\s+(\d+)/i);
+  const match = title.match(/(?:Wochenschau|Newsreel)\s*(?:No\.?|Nr\.?)?\s*(\d+)/i);
   return match ? parseInt(match[1], 10) : null;
 }
 
@@ -80,14 +81,15 @@ export default function WochenschauPage() {
     };
   }, [t]);
 
-  // Filter Wochenschau videos: title starts with "Wochenschau" + has episode number
+  // Filter Wochenschau videos: includes German Newsreels, UFA Newsreels, and Wochenschau
   const wochenschauVideos = useMemo(() => {
     return videos.filter((v) => {
+      // Direct subcategory match (from remaikeData categorization)
+      if (v.category === 'documentaries' && v.subcategory === 'newsreels') return true;
+      // Title-based detection (legacy fallback)
       const hasWochenschauTitle = /^(?:\u{1F195}\s*)?(?:4K\s+24\/7\s+)?Wochenschau(?:TV)?\s+\d+/iu.test(v.title);
-      const isDocCategory = v.category === 'documentaries';
-      const titleContainsWochenschau = v.title.toLowerCase().includes('wochenschau');
-      // Include if title starts with "Wochenschau NNN" pattern, or is a documentary with Wochenschau in title
-      return hasWochenschauTitle || (isDocCategory && titleContainsWochenschau);
+      const titleContainsNewsreel = /wochenschau|newsreel/i.test(v.title);
+      return hasWochenschauTitle || titleContainsNewsreel;
     });
   }, [videos]);
 

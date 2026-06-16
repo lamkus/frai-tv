@@ -1,0 +1,27 @@
+{
+  "date": "2026-02-20",
+  "mode": "APPLY",
+  "quota_used": 200,
+  "results": [
+    {
+      "id": "2HZx5FumOo8",
+      "nr": "552",
+      "status": "updated"
+    },
+    {
+      "id": "Yhz7gsTVqNA",
+      "nr": "567",
+      "status": "updated"
+    },
+    {
+      "id": "suxhPHyaQHU",
+      "nr": "569",
+      "status": "updated"
+    },
+    {
+      "id": "6Mh7zjUCmHw",
+      "nr": "749",
+      "status": "updated"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "broadcast_id": "lm4EcKHQ45o",
+  "stream_id": "VFv6Egpl0LDvigpFbQXNeQ1771887015419315",
+  "stream_key": "03zh-p4dr-szmz-zufb-3be3",
+  "rtmp_url": "rtmp://a.rtmp.youtube.com/live2",
+  "full_rtmp": "rtmp://a.rtmp.youtube.com/live2/03zh-p4dr-szmz-zufb-3be3",
+  "title": "\ud83d\udd34 LIVE 24/7 \u26a1 NEW | WWII Footage RESTORED in 8K Best Quality (4K UHD) | WochenschauTV",
+  "created_at": "2026-02-24T01:12:04.042301+00:00",
+  "status": "created",
+  "note": "PERMANENT stream \u2013 key never changes",
+  "seo_applied": true,
+  "seo_languages": [
+    "de",
+    "en",
+    "es",
+    "pt",
+    "fr",
+    "ja",
+    "hi",
+    "id",
+    "ar",
+    "tr",
+    "ko",
+    "ru",
+    "vi",
+    "zh-Hans"
+  ],
+  "seo_tag_count": 32
+}

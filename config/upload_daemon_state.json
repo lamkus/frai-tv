@@ -1,0 +1,19 @@
+{
+  "videos": {
+    "20c681f41356e61b98d415287fb685b7": {
+      "file_path": "V:\\remAIke\\UploadRDY\\YoutubeWatermarked\\QUEUE\\autouploadtest\\comicolor - 1935 - _old mother hubbard_.mp4_sls_8K_HQ.mp4",
+      "file_name": "comicolor - 1935 - _old mother hubbard_.mp4_sls_8K_HQ.mp4",
+      "checksum": "20c681f41356e61b98d415287fb685b7",
+      "status": "pending",
+      "youtube_id": null,
+      "title": "ComiColor: Comicolor 1935 Old Mother Hubbard (1935) | 8K @remAIke_IT",
+      "error": "quota_exceeded",
+      "attempts": 1,
+      "last_attempt": "2025-12-25T16:48:01.284670",
+      "uploaded_at": null
+    }
+  },
+  "quota_blocked_until": null,
+  "total_uploaded": 0,
+  "last_run": null
+}

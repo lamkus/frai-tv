@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-01-10T18:44:15.576315",
+  "channel_id": "UCVFv6Egpl0LDvigpFbQXNeQ",
+  "channel_handle": "remaike_it",
+  "socialblade": {
+    "error": "403 Client Error: Forbidden for url: https://socialblade.com/youtube/handle/remaike_it",
+    "source": "socialblade"
+  },
+  "google_trends": {
+    "source": "google_trends",
+    "timestamp": "2026-01-10T18:44:15.905231",
+    "keywords": {
+      "Betty Boop": {
+        "explore_url": "https://trends.google.com/trends/explore?q=Betty%20Boop&geo=DE",
+        "note": "Manuelle Prüfung empfohlen - API erfordert pytrends library"
+      },
+      "Alfred J Kwak": {
+        "explore_url": "https://trends.google.com/trends/explore?q=Alfred%20J%20Kwak&geo=DE",
+        "note": "Manuelle Prüfung empfohlen - API erfordert pytrends library"
+      },
+      "classic cartoons": {
+        "explore_url": "https://trends.google.com/trends/explore?q=classic%20cartoons&geo=DE",
+        "note": "Manuelle Prüfung empfohlen - API erfordert pytrends library"
+      },
+      "public domain cartoons": {
+        "explore_url": "https://trends.google.com/trends/explore?q=public%20domain%20cartoons&geo=DE",
+        "note": "Manuelle Prüfung empfohlen - API erfordert pytrends library"
+      },
+      "vintage animation": {
+        "explore_url": "https://trends.google.com/trends/explore?q=vintage%20animation&geo=DE",
+        "note": "Manuelle Prüfung empfohlen - API erfordert pytrends library"
+      },
+      "Fleischer Studios": {
+        "explore_url": "https://trends.google.com/trends/explore?q=Fleischer%20Studios&geo=DE",
+        "note": "Manuelle Prüfung empfohlen - API erfordert pytrends library"
+      }
+    }
+  },
+  "wayback": {
+    "error": "HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=10)",
+    "source": "wayback"
+  },
+  "competitors": {
+    "source": "youtube_api",
+    "timestamp": "2026-01-10T18:44:26.520393",
+    "channels": {
+      "UCd1FLoKfBQlKB3l_FK-EHGg": {
+        "error": "403 Client Error: Forbidden for url: https://youtube.googleapis.com/youtube/v3/channels?part=statistics%2Csnippet%2CbrandingSettings&id=UCd1FLoKfBQlKB3l_FK-EHGg&key=<REDACTED>"
+      },
+      "UC_HlEq0aJxsK9pPSDCOZDMQ": {
+        "error": "403 Client Error: Forbidden for url: https://youtube.googleapis.com/youtube/v3/channels?part=statistics%2Csnippet%2CbrandingSettings&id=UC_HlEq0aJxsK9pPSDCOZDMQ&key=<REDACTED>"
+      }
+    }
+  }
+}

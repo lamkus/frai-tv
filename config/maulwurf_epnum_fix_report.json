@@ -1,0 +1,80 @@
+{
+  "date": "2026-02-10T01:39:53.318430",
+  "operation": "maulwurf_episode_number_fix",
+  "source": "CZ Wikipedia - Seznam dílů seriálu O krtkovi",
+  "db_fixes": 6,
+  "youtube_results": [
+    {
+      "video_id": "wjpCNxf5SsY",
+      "status": "FIXED",
+      "old_title": "Krtek E16: Der Maulwurf und die Streichhölzer (1974) | 8K HQ",
+      "new_title": "Krtek E17: Der Maulwurf und die Streichhölzer (1974) | 8K HQ",
+      "old_ep": 16,
+      "new_ep": 17,
+      "year": 1974,
+      "localizations_fixed": 10,
+      "source": "CZ Wiki #17: Krtek a zápalky (1974)"
+    },
+    {
+      "video_id": "3GM123aC4bE",
+      "status": "FIXED",
+      "old_title": "Krtek E20: Der Maulwurf und das Hühnerei (1975) | 8K HQ",
+      "new_title": "Krtek E22: Der Maulwurf und das Hühnerei (1975) | 8K HQ",
+      "old_ep": 20,
+      "new_ep": 22,
+      "year": 1975,
+      "localizations_fixed": 10,
+      "source": "CZ Wiki #22: Krtek a vejce (1975)"
+    },
+    {
+      "video_id": "j4aBiGJcEY8",
+      "status": "FIXED",
+      "old_title": "Krtek E21: Der Maulwurf als Fotograf (1975) | 8K HQ",
+      "new_title": "Krtek E23: Der Maulwurf als Fotograf (1975) | 8K HQ",
+      "old_ep": 21,
+      "new_ep": 23,
+      "year": 1975,
+      "localizations_fixed": 10,
+      "source": "CZ Wiki #23: Krtek fotografem (1975)"
+    },
+    {
+      "video_id": "MlzpyJ6CyHw",
+      "status": "FIXED",
+      "old_title": "Krtek E63: Der Maulwurf und der kleine Frosch (1998) | 8K HQ",
+      "new_title": "Krtek E49: Der Maulwurf und der kleine Frosch (2002) | 8K HQ",
+      "old_ep": 63,
+      "new_ep": 49,
+      "year": 2002,
+      "localizations_fixed": 11,
+      "source": "CZ Wiki #49: Krtek a žabka (2002) — the LAST episode ever made"
+    },
+    {
+      "video_id": "EZxjMpAY9Wk",
+      "status": "FIXED",
+      "old_title": "Krtek E59: Der Maulwurf und die Quelle (1999) | 8K HQ",
+      "new_title": "Krtek E45: Der Maulwurf und die Quelle (1999) | 8K HQ",
+      "old_ep": 59,
+      "new_ep": 45,
+      "year": 1999,
+      "localizations_fixed": 11,
+      "source": "CZ Wiki #45: Krtek a pramen (1999)"
+    },
+    {
+      "video_id": "tMaYrApYlxc",
+      "status": "FIXED",
+      "old_title": "Krtek E60: Der Maulwurf und die Flöte (1999) | 8K HQ",
+      "new_title": "Krtek E44: Der Maulwurf und die Flöte (1999) | 8K HQ",
+      "old_ep": 60,
+      "new_ep": 44,
+      "year": 1999,
+      "localizations_fixed": 11,
+      "source": "CZ Wiki #44: Krtek a flétna (1999)"
+    }
+  ],
+  "total_quota": 306,
+  "summary": {
+    "fixed": 6,
+    "errors": 0,
+    "skipped": 0
+  }
+}

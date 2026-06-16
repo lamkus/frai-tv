@@ -1,0 +1,456 @@
+{
+  "date": "2026-04-15",
+  "public": 440,
+  "private": 30,
+  "clean": 387,
+  "clean_pct": 87,
+  "with_issues": 53,
+  "issue_breakdown": {
+    "LOW_LOC": 30,
+    "UNTRANSLATED_JA": 4,
+    "NO_HASHTAGS": 4,
+    "NO_QUALITY_TAG": 2,
+    "NO_TAGS": 2,
+    "SHORT_DESC": 2,
+    "NO_WEBSITE": 2,
+    "NO_CTA": 19
+  },
+  "issues_detail": [
+    {
+      "id": "4_2qWUEje-c",
+      "title": "Clever & Smart: In geheimer Mission | Full Movie | 8K HQ (4K",
+      "views": 229,
+      "issues": [
+        "LOW_LOC(7)"
+      ]
+    },
+    {
+      "id": "v9gB3LUgoNA",
+      "title": "The Skeleton Dance: Rib Solo (1929) | Disney | 8K HQ (4K UHD",
+      "views": 153,
+      "issues": [
+        "LOW_LOC(5)"
+      ]
+    },
+    {
+      "id": "SYY31eEbYiQ",
+      "title": "Der 7. Sinn: Frauen am Steuer (1970s) | 8K HQ (4K UHD)",
+      "views": 108,
+      "issues": [
+        "LOW_LOC(7)"
+      ]
+    },
+    {
+      "id": "3AtirtgrfUI",
+      "title": "Wochenschau 473: Fall of Warsaw (27.09.1939) | 8K HQ (4K UHD",
+      "views": 101,
+      "issues": [
+        "UNTRANSLATED_JA"
+      ]
+    },
+    {
+      "id": "YU9W-d33yYg",
+      "title": "Marihuana (1936) | Anti-Weed Propaganda | 8K HQ (4K UHD)",
+      "views": 101,
+      "issues": [
+        "LOW_LOC(5)"
+      ]
+    },
+    {
+      "id": "57TykeHQYwU",
+      "title": "🆕 4K 24/7 WochenschauTV 1939-1945 | German Newsreel TV | Hig",
+      "views": 94,
+      "issues": [
+        "LOW_LOC(1)"
+      ]
+    },
+    {
+      "id": "w5Yyyp0H6vo",
+      "title": "Alfred J. Kwak / Quack – Zeichentrickserie Trailer | 8K HQ (",
+      "views": 92,
+      "issues": [
+        "NO_HASHTAGS"
+      ]
+    },
+    {
+      "id": "iql1XOHf0t0",
+      "title": "Wochenschau 474: Fall of Warsaw (04.10.1939) | 8K HQ (4K UHD",
+      "views": 88,
+      "issues": [
+        "UNTRANSLATED_JA"
+      ]
+    },
+    {
+      "id": "hvJsq7z3sjg",
+      "title": "Die drei Mäuse-Musketiere (1992) | Full Movie | 8K HQ (4K UH",
+      "views": 77,
+      "issues": [
+        "LOW_LOC(4)"
+      ]
+    },
+    {
+      "id": "T1pUCPyDrl4",
+      "title": "Wochenschau 692: Eastern Retreats (08.12.1943) | 8K HQ (4K U",
+      "views": 67,
+      "issues": [
+        "UNTRANSLATED_JA"
+      ]
+    },
+    {
+      "id": "fVp_aVBZhak",
+      "title": "Gabby: King for a Day (1940) | Fleischer | 8K HQ (4K UHD)",
+      "views": 58,
+      "issues": [
+        "LOW_LOC(5)"
+      ]
+    },
+    {
+      "id": "10eYnX7MjGY",
+      "title": "deutsche wochenschau nr696 1944",
+      "views": 54,
+      "issues": [
+        "NO_QUALITY_TAG",
+        "LOW_LOC(1)",
+        "NO_TAGS",
+        "SHORT_DESC(36)",
+        "NO_WEBSITE",
+        "NO_HASHTAGS",
+        "NO_CTA"
+      ]
+    },
+    {
+      "id": "TKhDd_o8gnA",
+      "title": "ComiColor: Simple Simon (1935) | 8K HQ (4K UHD)",
+      "views": 46,
+      "issues": [
+        "LOW_LOC(5)"
+      ]
+    },
+    {
+      "id": "V8qeIRongA0",
+      "title": "Mel‑O‑Toons: Peter and the Wolf (1960) | 8K HQ (4K UHD)",
+      "views": 45,
+      "issues": [
+        "LOW_LOC(5)"
+      ]
+    },
+    {
+      "id": "RsfUriJTAvE",
+      "title": "Wochenschau 690: Tehran Conference (24.11.1943) | 8K HQ (4K ",
+      "views": 42,
+      "issues": [
+        "UNTRANSLATED_JA"
+      ]
+    },
+    {
+      "id": "zCU9meue9hw",
+      "title": "Times Square NBC Ball Drop (1953) | 8K HQ (4K UHD)",
+      "views": 38,
+      "issues": [
+        "LOW_LOC(5)"
+      ]
+    },
+    {
+      "id": "cCNm8nNHing",
+      "title": "Glenn Morris Only Film as Tarzan Upgrade Complete | Full Mov",
+      "views": 35,
+      "issues": [
+        "LOW_LOC(5)"
+      ]
+    },
+    {
+      "id": "cCNm8nNHing",
+      "title": "Glenn Morris Only Film as Tarzan Upgrade Complete | Full Mov",
+      "views": 35,
+      "issues": [
+        "LOW_LOC(5)"
+      ]
+    },
+    {
+      "id": "KaIC0B-xYBg",
+      "title": "Der 7. Sinn: Frauen am Steuer - Teil 1 (1970s) | 8K HQ (4K U",
+      "views": 34,
+      "issues": [
+        "LOW_LOC(1)"
+      ]
+    },
+    {
+      "id": "FQvtw2ira-o",
+      "title": "Times Square Vintage Compilation (1930s–1950s) | 8K HQ (4K U",
+      "views": 32,
+      "issues": [
+        "LOW_LOC(5)"
+      ]
+    },
+    {
+      "id": "2nT_DjkOWn8",
+      "title": "Pigs In A Polka (1943) | 8K HQ (4K UHD)",
+      "views": 31,
+      "issues": [
+        "LOW_LOC(5)"
+      ]
+    },
+    {
+      "id": "rV78L39ybOU",
+      "title": "My Japan (1945) | 8K HQ (4K UHD)",
+      "views": 29,
+      "issues": [
+        "LOW_LOC(5)"
+      ]
+    },
+    {
+      "id": "AyjJbgijx68",
+      "title": "Lucy Meets John Wayne (1966) | The Lucy Show S5E10 | 8K HQ (",
+      "views": 26,
+      "issues": [
+        "LOW_LOC(5)"
+      ]
+    },
+    {
+      "id": "9AgSJyMnxi8",
+      "title": "Atomic Bomb Newsreel (1946) | 8K HQ (4K UHD)",
+      "views": 26,
+      "issues": [
+        "LOW_LOC(5)"
+      ]
+    },
+    {
+      "id": "HyaZLqdMS9k",
+      "title": "Der 7. Sinn: Frauen am Steuer - Teil 3 (1970s) | 8K HQ (4K U",
+      "views": 23,
+      "issues": [
+        "LOW_LOC(1)"
+      ]
+    },
+    {
+      "id": "CSLfwklQq9s",
+      "title": "Marihuana (1936) | 8K HQ (4K UHD)",
+      "views": 22,
+      "issues": [
+        "LOW_LOC(5)"
+      ]
+    },
+    {
+      "id": "2CwXPhUDC7U",
+      "title": "New Year’s Eve 1951–1952 | Colorized Home Movies | 8K HQ (4K",
+      "views": 22,
+      "issues": [
+        "LOW_LOC(5)"
+      ]
+    },
+    {
+      "id": "mSKWu7zRtEM",
+      "title": "Alfred J. Kwak (E27) Verliebt | DE | 8K HQ (4K UHD)",
+      "views": 20,
+      "issues": [
+        "NO_CTA"
+      ]
+    },
+    {
+      "id": "MXE3TqsT2oE",
+      "title": "Old Mother Hubbard (1935) | ComiColor | 8K HQ (4K UHD)",
+      "views": 20,
+      "issues": [
+        "LOW_LOC(5)"
+      ]
+    },
+    {
+      "id": "UtVxs89CUPc",
+      "title": "Wonderful World (1959) | Full Movie | 8K HQ (4K UHD)",
+      "views": 19,
+      "issues": [
+        "LOW_LOC(5)"
+      ]
+    },
+    {
+      "id": "iTY7ncVupr0",
+      "title": "Alfred J. Kwak E14: Skrupellose Geschäfte | 8K HQ (4K UHD)",
+      "views": 18,
+      "issues": [
+        "NO_CTA"
+      ]
+    },
+    {
+      "id": "0lphM8tc95M",
+      "title": "Alfred J. Kwak (E12) Die geheimnisvolle Königin | 8K HQ (4K ",
+      "views": 17,
+      "issues": [
+        "NO_CTA"
+      ]
+    },
+    {
+      "id": "0lphM8tc95M",
+      "title": "Alfred J. Kwak (E12) Die geheimnisvolle Königin | 8K HQ (4K ",
+      "views": 17,
+      "issues": [
+        "NO_CTA"
+      ]
+    },
+    {
+      "id": "k0rYJmDH2kc",
+      "title": "Alfred J. Kwak (E13) Haltet den Dieb! | DE | 8K HQ (4K UHD)",
+      "views": 17,
+      "issues": [
+        "NO_CTA"
+      ]
+    },
+    {
+      "id": "rC7bAjq0tLY",
+      "title": "Alfred J. Kwak (E29) Die Burengänse | 8K HQ (4K UHD)",
+      "views": 16,
+      "issues": [
+        "NO_CTA"
+      ]
+    },
+    {
+      "id": "CL5jxw0L0M8",
+      "title": "Alfred J. Kwak (E08) Der Spion | DE | 8K HQ (4K UHD)",
+      "views": 16,
+      "issues": [
+        "NO_CTA"
+      ]
+    },
+    {
+      "id": "fi3RJjlUl5Q",
+      "title": "Alfred J. Kwak E13: Haltet den Dieb! | 8K HQ (4K UHD)",
+      "views": 15,
+      "issues": [
+        "NO_CTA"
+      ]
+    },
+    {
+      "id": "Qm3K0-XL46Q",
+      "title": "Kirby Abridged Collection | Funny Anime Parody | 8K HQ (4K U",
+      "views": 15,
+      "issues": [
+        "LOW_LOC(5)"
+      ]
+    },
+    {
+      "id": "DQwXGOvy2f8",
+      "title": "Alfred J. Kwak E12: Die geheimnisvolle Königin | 8K HQ (4K U",
+      "views": 14,
+      "issues": [
+        "NO_CTA"
+      ]
+    },
+    {
+      "id": "A8LWgWF5f5k",
+      "title": "The Hut-Sut Song (1940s) | Soundie | 8K HQ (4K UHD)",
+      "views": 14,
+      "issues": [
+        "NO_HASHTAGS"
+      ]
+    },
+    {
+      "id": "4VO2weDCfi0",
+      "title": "The Little Stranger (1936) | Fleischer Classic | 8K HQ (4K U",
+      "views": 14,
+      "issues": [
+        "LOW_LOC(5)"
+      ]
+    },
+    {
+      "id": "ezYIk8bReaE",
+      "title": "The Skeleton Dance (1929) | 8K HQ (4K UHD)",
+      "views": 14,
+      "issues": [
+        "LOW_LOC(5)"
+      ]
+    },
+    {
+      "id": "YbC2JynVCRA",
+      "title": "A Bill of Divorcement (1932) | Hepburn | Full Movie | 8K HQ ",
+      "views": 14,
+      "issues": [
+        "LOW_LOC(5)"
+      ]
+    },
+    {
+      "id": "qGzRqmiOcNw",
+      "title": "Alfred J. Kwak E38: Krach mit den Nachbarn | 8K HQ (4K UHD)",
+      "views": 13,
+      "issues": [
+        "NO_CTA"
+      ]
+    },
+    {
+      "id": "A2PusB4VNrQ",
+      "title": "Alfred J. Kwak (25): Der Kampf um Deichstadt | 8K HQ (4K UHD",
+      "views": 13,
+      "issues": [
+        "NO_CTA"
+      ]
+    },
+    {
+      "id": "sjwlBJlBRrY",
+      "title": "Alfred J. Kwak E16: : Die Reise zum Südpol | 8K HQ (4K UHD)",
+      "views": 12,
+      "issues": [
+        "NO_CTA"
+      ]
+    },
+    {
+      "id": "x7u-1DcabiE",
+      "title": "Alfred J. Kwak E17: Rettung aus dem All | 8K HQ (4K UHD)",
+      "views": 11,
+      "issues": [
+        "NO_CTA"
+      ]
+    },
+    {
+      "id": "xkYPbDSepCY",
+      "title": "Alfred J. Kwak E14: Skrupellose Geschäfte | 8K HQ (4K UHD)",
+      "views": 9,
+      "issues": [
+        "NO_CTA"
+      ]
+    },
+    {
+      "id": "D1WD7sS637k",
+      "title": "The Most Disturbing Soviet Experiment Ever Filmed | 8K HQ (4",
+      "views": 9,
+      "issues": [
+        "LOW_LOC(5)"
+      ]
+    },
+    {
+      "id": "Zb88QyQcUK4",
+      "title": "Alfred J. Kwak E13: Haltet den Dieb! | 8K HQ (4K UHD)",
+      "views": 8,
+      "issues": [
+        "NO_CTA"
+      ]
+    },
+    {
+      "id": "Zb88QyQcUK4",
+      "title": "Alfred J. Kwak E13: Haltet den Dieb! | 8K HQ (4K UHD)",
+      "views": 8,
+      "issues": [
+        "NO_CTA"
+      ]
+    },
+    {
+      "id": "t1uRzra4Kb0",
+      "title": "Alfred J. Kwak E50: Das Casino | 8K HQ (4K UHD)",
+      "views": 8,
+      "issues": [
+        "NO_CTA"
+      ]
+    },
+    {
+      "id": "ynPokHSSMss",
+      "title": "Livestream von remAIke_IT",
+      "views": 0,
+      "issues": [
+        "NO_QUALITY_TAG",
+        "LOW_LOC(1)",
+        "NO_TAGS",
+        "SHORT_DESC(0)",
+        "NO_WEBSITE",
+        "NO_HASHTAGS",
+        "NO_CTA"
+      ]
+    }
+  ]
+}

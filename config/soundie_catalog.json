@@ -1,0 +1,92 @@
+{
+  "_info": {
+    "description": "Soundies sind Musikvideos aus den 1940er Jahren für Musikbox-ähnliche Geräte",
+    "source": "Public Domain",
+    "format": "8K HQ Upscaled",
+    "updated": "2026-01-13",
+    "status": "TEMPLATE - Muss mit echten Video-IDs gefüllt werden"
+  },
+  "naming_convention": {
+    "wrong": "soundie heaven help a sailor on a night like thi 8K HQ",
+    "correct": "Soundie: Heaven Help a Sailor | 8K HQ | @remAIke_IT"
+  },
+  "seo_template": {
+    "title": "Soundie: [Song Title] | [Artist if known] | 8K HQ | @remAIke_IT",
+    "description": "🎵 [Song Title] - [Artist Name] 📅 Original aus den 1940er Jahren ═══════════════════════════════════════════════\n🎬 WAS SIND SOUNDIES?\n═══════════════════════════════════════════════ Soundies waren kurze Musikfilme (3-4 Minuten), die von 1940-1947 für spezielle Musikautomaten namens 'Panoram' produziert wurden. Diese Jukebox-ähnlichen Geräte standen in Bars, Restaurants und Nachtclubs in den USA. 🎹 GENRE: [Jazz/Swing/Big Band/Blues/etc.] #Soundie #VintageMusic #1940s #Jazz #Swing #ClassicMusic #PublicDomain #8K #remAIke ═══════════════════════════════════════════════\n📺 MEHR AUF DIESEM KANAL\n═══════════════════════════════════════════════ 🎵 Soundies Playlist: [PLAYLIST_LINK]\n🎬 Alle Videos: https://www.youtube.com/@remAIke_IT 👍 LIKE & SUBSCRIBE für mehr Vintage Music!",
+    "tags": [
+      "soundie",
+      "soundies",
+      "1940s",
+      "1940s music",
+      "vintage music",
+      "jazz",
+      "swing",
+      "big band",
+      "classic music",
+      "public domain",
+      "8K",
+      "4K UHD",
+      "AI upscaled",
+      "remastered",
+      "retro",
+      "nostalgia",
+      "panoram",
+      "jukebox",
+      "music video",
+      "remAIke"
+    ],
+    "category": "Music",
+    "hashtags_in_description": [
+      "#Soundie",
+      "#VintageMusic",
+      "#1940s"
+    ]
+  },
+  "known_soundies": {
+    "_note": "TODO: Diese Liste mit echten Video-IDs aus dem Channel füllen",
+    "drafts": [
+      {
+        "original_title": "soundie heaven help a sailor on a night like thi 8K HQ",
+        "video_id": "TODO",
+        "corrected_title": "Soundie: Heaven Help a Sailor on a Night Like This | 8K HQ | @remAIke_IT",
+        "status": "draft"
+      },
+      {
+        "original_title": "soundie havana madrid show 8K HQ",
+        "video_id": "TODO",
+        "corrected_title": "Soundie: Havana Madrid Show | 8K HQ | @remAIke_IT",
+        "status": "draft"
+      },
+      {
+        "original_title": "soundie got to be this or that 8K HQ",
+        "video_id": "TODO",
+        "corrected_title": "Soundie: Got to Be This or That | 8K HQ | @remAIke_IT",
+        "status": "draft"
+      },
+      {
+        "original_title": "soundie chime bells 8K HQ",
+        "video_id": "TODO",
+        "corrected_title": "Soundie: Chime Bells | 8K HQ | @remAIke_IT",
+        "status": "draft"
+      },
+      {
+        "original_title": "soundie once in a while 8K HQ",
+        "video_id": "TODO",
+        "corrected_title": "Soundie: Once in a While | 8K HQ | @remAIke_IT",
+        "status": "draft"
+      },
+      {
+        "original_title": "soundie lullaby of broadway 8K HQ",
+        "video_id": "TODO",
+        "corrected_title": "Soundie: Lullaby of Broadway | 8K HQ | @remAIke_IT",
+        "status": "draft"
+      }
+    ]
+  },
+  "playlist_plan": {
+    "name": "🎵 Soundies - Vintage Music Videos (1940s) | 8K Remastered",
+    "description": "Eine Sammlung von Soundies - den ersten Musikvideos aus den 1940er Jahren. Diese kurzen Musikfilme wurden für Panoram-Musikautomaten produziert und zeigen Jazz, Swing, Big Band und mehr. Alle Videos wurden auf 8K hochskaliert. #Soundie #VintageMusic #1940s #Jazz #Swing",
+    "visibility": "public",
+    "order": "chronological_by_upload"
+  }
+}

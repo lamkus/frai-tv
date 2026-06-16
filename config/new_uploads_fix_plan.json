@@ -1,0 +1,89 @@
+{
+  "date": "2026-02-20",
+  "videos": {
+    "2HZx5FumOo8": {
+      "type": "wochenschau",
+      "nr": "552",
+      "date": "02.04.1941",
+      "event": "Belgrade Coup",
+      "title": "Wochenschau 552: Belgrade Coup (02.04.1941) | 8K HQ (4K UHD)"
+    },
+    "Yhz7gsTVqNA": {
+      "type": "wochenschau",
+      "nr": "567",
+      "date": "16.07.1941",
+      "event": "Smolensk Pocket",
+      "title": "Wochenschau 567: Smolensk Pocket (16.07.1941) | 8K HQ (4K UHD)"
+    },
+    "suxhPHyaQHU": {
+      "type": "wochenschau",
+      "nr": "569",
+      "date": "30.07.1941",
+      "event": "Kiev Encirclement",
+      "title": "Wochenschau 569: Kiev Encirclement (30.07.1941) | 8K HQ (4K UHD)"
+    },
+    "6Mh7zjUCmHw": {
+      "type": "wochenschau",
+      "nr": "749",
+      "date": "10.01.1945",
+      "event": "Ardennes Fails",
+      "title": "Wochenschau 749: Ardennes Fails (10.01.1945) | 8K HQ (4K UHD)"
+    },
+    "mSKWu7zRtEM": {
+      "type": "alfred",
+      "ep": "E27",
+      "title": "Alfred J. Kwak (E27) Verliebt | DE | 8K HQ (4K UHD)"
+    }
+  },
+  "current": {
+    "2HZx5FumOo8": {
+      "title": "deutsche wochenschau nr552 1941 04 02 8min sls ARCHIVE PROTECTED",
+      "description": "",
+      "tags": [],
+      "categoryId": "27",
+      "defaultLanguage": "NONE"
+    },
+    "Yhz7gsTVqNA": {
+      "title": "deutsche wochenschau nr567 1941 07 16 36min sls ARCHIVE PROTECTED",
+      "description": "",
+      "tags": [],
+      "categoryId": "27",
+      "defaultLanguage": "NONE"
+    },
+    "suxhPHyaQHU": {
+      "title": "deutsche wochenschau nr569 1941 07 30 31min sls ARCHIVE PROTECTED",
+      "description": "",
+      "tags": [],
+      "categoryId": "27",
+      "defaultLanguage": "NONE"
+    },
+    "6Mh7zjUCmHw": {
+      "title": "deutsche wochenschau nr749 1945 01 10 10min sls ARCHIVE PROTECTED",
+      "description": "",
+      "tags": [],
+      "categoryId": "27",
+      "defaultLanguage": "NONE"
+    },
+    "mSKWu7zRtEM": {
+      "title": "Alfred J. Kwak (E27) Verliebt | DE | 8K HQ (4K UHD)",
+      "description": "Alfred J. Kwak (E27) Verliebt | Deutsch | 8K HQ (4K UHD)\n\n🎬 Alfred J. Kwak / Alfred Jodokus Quak — die beliebte Zeichentrickserie (1989).\nEpisode 27 v",
+      "tags": [
+        "1989",
+        "4K UHD",
+        "8K",
+        "Alfred J. Kwak",
+        "Alfred Jodokus Kwak",
+        "Alfred Quack",
+        "Deutsch",
+        "Herman van Veen",
+        "Verliebt",
+        "Zeichentrick",
+        "classic cartoon",
+        "remastered",
+        "restored"
+      ],
+      "categoryId": "1",
+      "defaultLanguage": "de"
+    }
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "_meta": {
+    "tool": "ChannelStream TV",
+    "version": "1.0.0",
+    "description": "remAIke TV — 24/7 Retro TV Station with time-based programming blocks",
+    "author": "remAIke.IT",
+    "created": "2026-02-19",
+    "concept": "Retro TV Sender: Morgens Cartoons, Mittags Trash/Vintage Music, Abends Serien/Filme, Nachts Dokus/Wochenschau"
+  },
+
+  "station": {
+    "name": "remAIke TV",
+    "tagline": "Classic Entertainment • Restored in 8K",
+    "channel_id": "UCVFv6Egpl0LDvigpFbQXNeQ",
+    "stream_title": "remAIke TV — 24/7 Classic Entertainment | Cartoons • Films • Newsreels | 8K Restored",
+    "stream_description": "📺 remAIke TV — Your 24/7 Retro TV Station\nClassic cartoons, vintage films, and historic documentaries — all AI-remastered in stunning 8K quality.\n\n🕐 PROGRAMM / SCHEDULE:\n06:00 - 12:00  🎨 Cartoon Morning (Betty Boop, Superman, Felix, Popeye, Looney Tunes)\n12:00 - 18:00  🎵 Vintage Afternoon (Soundies, Classic Films, Retro Specials)\n18:00 - 00:00  🎬 Prime Time (Alfred J. Kwak, Feature Films, Series)\n00:00 - 06:00  📜 Night Docs (Wochenschau, Documentaries, Silent Films)\n\n⚠️ Some content contains historical propaganda material shown for educational purposes only.\n\n🔔 SUBSCRIBE for more restored vintage content!\n🌐 www.remaike.IT\n📺 https://www.youtube.com/@remAIke_IT\n\n#remAIkeTV #ClassicCartoons #VintageFilm #8K #PublicDomain #RetroTV",
+    "category_id": "1",
+    "tags": [
+      "remAIke TV",
+      "24/7 stream",
+      "classic cartoons",
+      "vintage films",
+      "retro TV",
+      "8K restored",
+      "public domain",
+      "Betty Boop",
+      "Superman",
+      "Felix the Cat",
+      "Looney Tunes",
+      "Wochenschau",
+      "Soundies",
+      "Alfred J Kwak",
+      "remastered"
+    ],
+    "made_for_kids": false,
+    "timezone": "Europe/Berlin"
+  },
+
+  "schedule": {
+    "_note": "All times in station timezone (Europe/Berlin). Blocks loop their content until the next block starts.",
+    "blocks": [
+      {
+        "id": "cartoon_morning",
+        "name": "Cartoon Morning",
+        "name_de": "Cartoon Morgen",
+        "emoji": "🎨",
+        "start_time": "06:00",
+        "end_time": "12:00",
+        "description": "Classic cartoons from the golden age of animation",
+        "overlay_color": "#FF6B35",
+        "content_pools": [
+          {
+            "category": "betty_boop",
+            "label": "Betty Boop",
+            "weight": 25,
+            "source_patterns": ["*betty*boop*", "*boop*"],
+            "playlist_id": "PLwnVkReJfRUCWcb7CVl-5GK6gSG5VBz_M"
+          },
+          {
+            "category": "superman_fleischer",
+            "label": "Superman",
+            "weight": 15,
+            "source_patterns": ["*superman*fleischer*", "*superman*"],
+            "playlist_id": "PLwnVkReJfRUDigVUkE2GqqRBpFH_VzPbZ"
+          },
+          {
+            "category": "felix_cat",
+            "label": "Felix the Cat",
+            "weight": 15,
+            "source_patterns": ["*felix*cat*", "*felix*"],
+            "playlist_id": null
+          },
+          {
+            "category": "looney_tunes",
+            "label": "Looney Tunes",
+            "weight": 15,
+            "source_patterns": ["*looney*", "*merrie*melodies*", "*porky*", "*daffy*"],
+            "playlist_id": null
+          },
+          {
+            "category": "casper",
+            "label": "Casper",
+            "weight": 10,
+            "source_patterns": ["*casper*"],
+            "playlist_id": null
+          },
+          {
+            "category": "popeye",
+            "label": "Popeye",
+            "weight": 5,
+            "source_patterns": ["*popeye*"],
+            "playlist_id": null
+          },
+          {
+            "category": "silly_symphonies",
+            "label": "Silly Symphonies",
+            "weight": 5,
+            "source_patterns": ["*silly*symph*"],
+            "playlist_id": null
+          },
+          {
+            "category": "mel_o_toons",
+            "label": "Mel-O-Toons",
+            "weight": 5,
+            "source_patterns": ["*mel*o*toon*"],
+            "playlist_id": null
+          },
+          {
+            "category": "maulwurf",
+            "label": "Der kleine Maulwurf",
+            "weight": 5,
+            "source_patterns": ["*maulwurf*", "*krtek*"],
+            "playlist_id": null
+          }
+        ],
+        "play_mode": "weighted_shuffle",
+        "transition": "block_intro"
+      },
+      {
+        "id": "vintage_afternoon",
+        "name": "Vintage Afternoon",
+        "name_de": "Vintage Nachmittag",
+        "emoji": "🎵",
+        "start_time": "12:00",
+        "end_time": "18:00",
+        "description": "Vintage music videos, retro specials, and eclectic entertainment",
+        "overlay_color": "#9B59B6",
+        "content_pools": [
+          {
+            "category": "soundies",
+            "label": "Soundies (1940s Music)",
+            "weight": 35,
+            "source_patterns": ["*soundie*"],
+            "playlist_id": null
+          },
+          {
+            "category": "vintage_films",
+            "label": "Vintage Films & Trash",
+            "weight": 30,
+            "source_patterns": [
+              "*teaserama*",
+              "*reefer*",
+              "*plan*9*",
+              "*robot*monster*",
+              "*glen*glenda*"
+            ],
+            "playlist_id": null
+          },
+          {
+            "category": "gymkhana",
+            "label": "Ken Block Gymkhana",
+            "weight": 10,
+            "source_patterns": ["*gymkhana*", "*ken*block*"],
+            "playlist_id": null
+          },
+          {
+            "category": "silent_era",
+            "label": "Silent Films & Méliès",
+            "weight": 15,
+            "source_patterns": ["*melies*", "*méliès*", "*nosferatu*", "*Cabinet*Caligari*"],
+            "playlist_id": null
+          },
+          {
+            "category": "christmas",
+            "label": "Christmas Specials",
+            "weight": 10,
+            "source_patterns": ["*christmas*", "*xmas*", "*weihnacht*"],
+            "playlist_id": null,
+            "_note": "Only scheduled in December, otherwise redistributed"
+          }
+        ],
+        "play_mode": "weighted_shuffle",
+        "transition": "block_intro"
+      },
+      {
+        "id": "prime_time",
+        "name": "Prime Time",
+        "name_de": "Abendprogramm",
+        "emoji": "🎬",
+        "start_time": "18:00",
+        "end_time": "00:00",
+        "description": "Series episodes and feature-length films for the evening",
+        "overlay_color": "#E74C3C",
+        "content_pools": [
+          {
+            "category": "alfred_j_quack",
+            "label": "Alfred J. Kwak",
+            "weight": 35,
+            "source_patterns": ["*alfred*kwak*", "*alfred*quack*", "*alfred*j*"],
+            "playlist_id": "PLwnVkReJfRUAaQdUiVSfdwgd9Jls5Gcbi"
+          },
+          {
+            "category": "feature_films",
+            "label": "Classic Films",
+            "weight": 30,
+            "source_patterns": ["*charade*", "*metropolis*", "*hitchcock*", "*night*living*dead*"],
+            "playlist_id": null
+          },
+          {
+            "category": "bravestarr",
+            "label": "BraveStarr",
+            "weight": 15,
+            "source_patterns": ["*bravestarr*"],
+            "playlist_id": null
+          },
+          {
+            "category": "astro_boy",
+            "label": "Astro Boy",
+            "weight": 10,
+            "source_patterns": ["*astro*boy*"],
+            "playlist_id": null
+          },
+          {
+            "category": "documentaries",
+            "label": "Documentaries",
+            "weight": 10,
+            "source_patterns": ["*duck*cover*", "*pearl*harbor*"],
+            "playlist_id": null
+          }
+        ],
+        "play_mode": "sequential_then_shuffle",
+        "transition": "block_intro"
+      },
+      {
+        "id": "night_docs",
+        "name": "Night Docs",
+        "name_de": "Nachtprogramm",
+        "emoji": "📜",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "description": "Historical documentaries, newsreels, and silent films",
+        "overlay_color": "#2C3E50",
+        "content_pools": [
+          {
+            "category": "wochenschau",
+            "label": "Deutsche Wochenschau",
+            "weight": 60,
+            "source_patterns": ["*wochenschau*", "*deutsche*wochenschau*"],
+            "source_dirs": ["V:\\Wochenschau\\8K", "D:\\remaike.TV\\watch\\wochenschau"],
+            "playlist_id": null,
+            "play_mode_override": "chronological",
+            "requires_disclaimer": true,
+            "disclaimer_text": "HISTORICAL DOCUMENT · EDUCATIONAL PURPOSES"
+          },
+          {
+            "category": "documentaries_night",
+            "label": "Documentaries",
+            "weight": 25,
+            "source_patterns": ["*duck*cover*", "*pearl*harbor*", "*atomic*"],
+            "playlist_id": null
+          },
+          {
+            "category": "silent_night",
+            "label": "Silent Cinema",
+            "weight": 15,
+            "source_patterns": ["*melies*", "*nosferatu*", "*little*nemo*"],
+            "playlist_id": null
+          }
+        ],
+        "play_mode": "sequential_loop",
+        "transition": "block_intro"
+      }
+    ]
+  },
+
+  "content_sources": {
+    "_note": "Directories scanned for local video files. Priority order matters.",
+    "primary": ["V:\\OriginalSources\\Final\\nyx8kexportupscale", "V:\\OriginalSources\\Final"],
+    "fallback": ["V:\\OriginalSources\\Final\\sls\\0xupscale", "V:\\MediaArchive"],
+    "wochenschau": ["V:\\Wochenschau\\8K", "D:\\remaike.TV\\watch\\wochenschau"],
+    "file_extensions": [".mp4", ".mkv", ".avi", ".mov"]
+  },
+
+  "encoding": {
+    "resolution": "3840x2160",
+    "fps": 25,
+    "video_bitrate": "20000k",
+    "audio_bitrate": "192k",
+    "audio_sample_rate": 44100,
+    "codec_cpu": "libx264",
+    "codec_gpu": "h264_nvenc",
+    "preset_cpu": "medium",
+    "preset_gpu": "p5",
+    "pixel_format": "yuv420p",
+    "rtmp_url": "rtmp://a.rtmp.youtube.com/live2",
+    "max_keyframe_interval": 50,
+    "bufsize": "40000k",
+    "stream_key_env": "YOUTUBE_STREAM_KEY_REMAIKE",
+    "stream_key_file": "config/stream_key.txt"
+  },
+
+  "overlay": {
+    "station_bug": {
+      "enabled": true,
+      "text": "remAIke TV",
+      "position": "top_right",
+      "font_size": 28,
+      "font_color": "white@0.6",
+      "bg_color": "black@0.3",
+      "margin": 20
+    },
+    "bottom_bar": {
+      "enabled": true,
+      "height": 48,
+      "opacity": 0.75,
+      "show_block_name": true,
+      "show_current_title": true,
+      "show_clock": true,
+      "show_upcoming": true,
+      "clock_format": "%H:%M",
+      "font_size_title": 18,
+      "font_size_meta": 14,
+      "font_color": "#FFFFFF",
+      "meta_color": "#AAAAAA"
+    },
+    "block_intro": {
+      "enabled": true,
+      "duration_seconds": 8,
+      "show_schedule": true,
+      "bg_color": "black",
+      "title_size": 48,
+      "subtitle_size": 24,
+      "template": "{emoji} {block_name}\n{description}\n{start_time} — {end_time}"
+    },
+    "wochenschau_disclaimer": {
+      "enabled": true,
+      "text": "HISTORICAL DOCUMENT · EDUCATIONAL PURPOSES",
+      "font_size": 16,
+      "font_color": "#CCCCCC",
+      "position": "top_left",
+      "persistent": true
+    }
+  },
+
+  "transitions": {
+    "between_videos": {
+      "type": "fade_black",
+      "duration_seconds": 2
+    },
+    "between_blocks": {
+      "type": "block_intro_screen",
+      "duration_seconds": 8,
+      "show_coming_up": true
+    }
+  },
+
+  "system": {
+    "max_cpu_percent": 85,
+    "max_ram_percent": 90,
+    "health_check_interval_seconds": 30,
+    "auto_restart_on_crash": true,
+    "max_restart_attempts": 10,
+    "restart_cooldown_seconds": 30,
+    "log_file": "logs/channelstream_tv.log",
+    "state_file": "config/channelstream_tv_state.json",
+    "current_gpu": "GT 710 (NO NVENC — CPU only!)",
+    "target_gpu": "RTX 3090"
+  }
+}
