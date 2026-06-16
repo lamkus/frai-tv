@@ -76,3 +76,14 @@ pill_zoom.png
 *_sitemap_locs.txt
 render_corepop.py
 *.xlsx
+
+# --- Tool / IDE / browser caches (not source) ---
+.claude/
+.chrome_debug_profile/
+.codex/
+.copilot/
+.playwright/
+.temp_*.py
+.deploy.local.ps1
+.youtube_upload_cache.json
+.temp_*.txt
