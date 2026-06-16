@@ -1,0 +1,405 @@
+{
+  "_meta": {
+    "tool": "WochenschauKino",
+    "version": "1.0.0",
+    "description": "Retro-Kino-Erlebnis: Wochenschau + zeitgenössische Beiprogramme",
+    "author": "remAIke.IT",
+    "created": "2026-02-19",
+    "concept": "Wie im echten Kino der 1940er: Vorfilm (Cartoon/Soundie), dann Wochenschau, dann nächster Vorfilm..."
+  },
+
+  "stream": {
+    "title": "WochenschauKino — 1940s Cinema Experience | Newsreels + Cartoons + Soundies | 8K Restored",
+    "description_template": "📽️ WochenschauKino — Das Kinoerlebnis der 1940er Jahre\nOriginal-Wochenschauen der Kriegsjahre, eingebettet in das Beiprogramm der Ära:\nCartoons, Soundies (Musikbox-Videos) und Kurzfilme — chronologisch passend.\n\n🎬 FORMAT: Wie im echten Kino damals!\n  🎵 Soundie (Musik-Kurzfilm) → 📰 Wochenschau → 🎨 Cartoon → 📰 Wochenschau → ...\n\n⚠️ HISTORISCHES DOKUMENT / HISTORICAL DOCUMENT\nDieses Material zeigt Original-Propaganda-Wochenschauen des NS-Regimes.\nEs dient ausschließlich der historischen Dokumentation und Bildung.\n\n🔔 SUBSCRIBE for more restored vintage content!\n🌐 www.remaike.IT\n📺 https://www.youtube.com/@remAIke_IT\n\n#WochenschauKino #WWII #History #VintageCinema #1940s #8K #Soundie #BettyBoop #Superman",
+    "category_id": "27",
+    "tags": [
+      "WochenschauKino",
+      "Wochenschau",
+      "1940s cinema",
+      "vintage cinema",
+      "newsreel",
+      "Deutsche Wochenschau",
+      "WWII",
+      "World War II",
+      "Soundies",
+      "Betty Boop",
+      "Superman",
+      "Fleischer",
+      "Looney Tunes",
+      "vintage cartoon",
+      "8K restored",
+      "remastered",
+      "public domain",
+      "retro cinema",
+      "Beiprogramm",
+      "Vorfilm"
+    ],
+    "made_for_kids": false,
+    "default_language": "de"
+  },
+
+  "era_pools": [
+    {
+      "id": "felix_cat",
+      "label": "Felix the Cat",
+      "type": "cartoon",
+      "year_start": 1919,
+      "year_end": 1930,
+      "avg_duration_min": 7,
+      "source_patterns": ["*felix*cat*", "*felix*feline*"],
+      "note": "Pre-Wochenschau era — used as 'vintage Vorfilm' for earliest 1939 episodes"
+    },
+    {
+      "id": "silly_symphonies",
+      "label": "Silly Symphonies",
+      "type": "cartoon",
+      "year_start": 1929,
+      "year_end": 1939,
+      "avg_duration_min": 7,
+      "source_patterns": ["*silly*symph*", "*skeleton*dance*"]
+    },
+    {
+      "id": "betty_boop_early",
+      "label": "Betty Boop (Pre-Code)",
+      "type": "cartoon",
+      "year_start": 1930,
+      "year_end": 1935,
+      "avg_duration_min": 7,
+      "source_patterns": ["*betty*boop*", "*boop*"],
+      "year_filter_max": 1935,
+      "note": "Pre-Code era Betty Boop — matches early pre-war Wochenschau"
+    },
+    {
+      "id": "betty_boop_late",
+      "label": "Betty Boop (Post-Code)",
+      "type": "cartoon",
+      "year_start": 1935,
+      "year_end": 1939,
+      "avg_duration_min": 7,
+      "source_patterns": ["*betty*boop*", "*boop*"],
+      "year_filter_min": 1935,
+      "note": "Betty Boop series ended 1939 — perfect for early war Wochenschau"
+    },
+    {
+      "id": "fleischer_color",
+      "label": "Fleischer Color Classics",
+      "type": "cartoon",
+      "year_start": 1934,
+      "year_end": 1941,
+      "avg_duration_min": 7,
+      "source_patterns": [
+        "*fleischer*",
+        "*christmas*comes*",
+        "*little*lambkin*",
+        "*gabby*",
+        "*color*classic*"
+      ],
+      "exclude_patterns": ["*superman*", "*betty*", "*popeye*"]
+    },
+    {
+      "id": "comicolor",
+      "label": "ComiColor Cartoons",
+      "type": "cartoon",
+      "year_start": 1933,
+      "year_end": 1936,
+      "avg_duration_min": 8,
+      "source_patterns": [
+        "*comicolor*",
+        "*dick*whittington*",
+        "*balloon*land*",
+        "*simple*simon*",
+        "*old*mother*hubbard*"
+      ]
+    },
+    {
+      "id": "porky_pig",
+      "label": "Porky Pig / Looney Tunes",
+      "type": "cartoon",
+      "year_start": 1936,
+      "year_end": 1945,
+      "avg_duration_min": 7,
+      "source_patterns": ["*porky*", "*looney*tune*", "*merrie*melod*", "*daffy*", "*bugs*bunny*"],
+      "note": "Wartime Looney Tunes are PERFECT era match for 1940-1944 Wochenschau"
+    },
+    {
+      "id": "superman_fleischer",
+      "label": "Superman (Fleischer)",
+      "type": "cartoon",
+      "year_start": 1941,
+      "year_end": 1943,
+      "avg_duration_min": 10,
+      "source_patterns": ["*superman*fleischer*", "*superman*"],
+      "priority_boost": 2,
+      "note": "PREMIUM interstitial — 10min Superman cartoons perfectly match mid-war Wochenschau"
+    },
+    {
+      "id": "soundies",
+      "label": "Soundies (Jukebox Music)",
+      "type": "musical",
+      "year_start": 1940,
+      "year_end": 1946,
+      "avg_duration_min": 3,
+      "source_patterns": ["*soundie*"],
+      "priority_boost": 3,
+      "note": "BACKBONE of interstitials — 2-4min vintage music videos. Exactly what played between films in 1940s cinemas!"
+    },
+    {
+      "id": "wartime_shorts",
+      "label": "Wartime Shorts",
+      "type": "propaganda_cartoon",
+      "year_start": 1942,
+      "year_end": 1945,
+      "avg_duration_min": 7,
+      "source_patterns": ["*tokyo*jokio*", "*my*japan*", "*duck*cover*"],
+      "note": "American wartime propaganda cartoons — era-exact for later Wochenschau"
+    },
+    {
+      "id": "popeye",
+      "label": "Popeye",
+      "type": "cartoon",
+      "year_start": 1933,
+      "year_end": 1957,
+      "avg_duration_min": 7,
+      "source_patterns": ["*popeye*"]
+    },
+    {
+      "id": "casper",
+      "label": "Casper the Friendly Ghost",
+      "type": "cartoon",
+      "year_start": 1945,
+      "year_end": 1959,
+      "avg_duration_min": 7,
+      "source_patterns": ["*casper*"],
+      "note": "Only matches very late war / end-of-war Wochenschau (1945)"
+    },
+    {
+      "id": "mel_o_toons",
+      "label": "Mel-O-Toons",
+      "type": "cartoon",
+      "year_start": 1960,
+      "year_end": 1962,
+      "avg_duration_min": 7,
+      "source_patterns": ["*mel*o*toon*"],
+      "note": "Post-war — only as fallback"
+    },
+    {
+      "id": "silent_shorts",
+      "label": "Silent Film Shorts",
+      "type": "silent",
+      "year_start": 1895,
+      "year_end": 1925,
+      "avg_duration_min": 8,
+      "source_patterns": ["*melies*", "*méliès*", "*little*nemo*", "*krazy*kat*", "*boxing*cat*"],
+      "note": "Very early cinema — used as 'Filmgeschichte' novelty interstitials"
+    },
+    {
+      "id": "vintage_commercials",
+      "label": "Vintage Werbung (1930s-1950s)",
+      "type": "commercial",
+      "year_start": 1930,
+      "year_end": 1960,
+      "avg_duration_min": 1,
+      "source_patterns": [
+        "*commercial*",
+        "*lucky*strike*",
+        "*coca*cola*",
+        "*camel*cigarette*",
+        "*pepsi*",
+        "*kodak*",
+        "*univac*",
+        "*cheerios*",
+        "*war*bond*",
+        "*advertisement*",
+        "*lincoln*advert*",
+        "*ford*spot*",
+        "*television*commercial*",
+        "*cinema*advert*",
+        "*german*commercial*"
+      ],
+      "source_dirs": [
+        "V:\\Commercials\\Vintage",
+        "V:\\Commercials\\Vintage\\split",
+        "V:\\OriginalSources\\Commercials",
+        "V:\\OriginalSources\\MusicVideos"
+      ],
+      "priority_boost": 2,
+      "note": "Authentic vintage ads from Archive.org — Lucky Strike, Coca-Cola, War Bonds, Kodak, etc. Kurze Spots (30-90 Sek) als Werbeblock zwischen Wochenschau-Folgen wie im echten Kino!"
+    }
+  ],
+
+  "matching": {
+    "_note": "How to match interstitials to Wochenschau episodes by date",
+    "algorithm": "weighted_era_match",
+    "rules": {
+      "exact_year_weight": 10,
+      "adjacent_year_weight": 7,
+      "same_decade_weight": 4,
+      "any_era_weight": 1,
+      "max_year_distance": 15,
+      "variety_bonus": 3,
+      "category_repeat_penalty": 5,
+      "soundie_min_probability": 0.4,
+      "soundie_max_probability": 0.7,
+      "_note_soundies": "Between 40-70% of interstitial slots should be Soundies (like real 1940s cinema)"
+    },
+    "per_episode_interstitials": {
+      "min": 1,
+      "max": 3,
+      "default": 2,
+      "_note": "Each Wochenschau gets 1-3 interstitials. Default: 1 before + 1 after"
+    },
+    "preferred_types_by_era": {
+      "1939": [
+        "betty_boop_late",
+        "silly_symphonies",
+        "vintage_commercials",
+        "fleischer_color",
+        "comicolor"
+      ],
+      "1940": [
+        "vintage_commercials",
+        "betty_boop_late",
+        "soundies",
+        "fleischer_color",
+        "porky_pig"
+      ],
+      "1941": ["soundies", "vintage_commercials", "superman_fleischer", "porky_pig"],
+      "1942": [
+        "soundies",
+        "vintage_commercials",
+        "superman_fleischer",
+        "porky_pig",
+        "wartime_shorts"
+      ],
+      "1943": [
+        "soundies",
+        "vintage_commercials",
+        "superman_fleischer",
+        "wartime_shorts",
+        "porky_pig"
+      ],
+      "1944": ["soundies", "vintage_commercials", "porky_pig", "wartime_shorts"],
+      "1945": ["soundies", "vintage_commercials", "casper", "wartime_shorts"]
+    }
+  },
+
+  "program_format": {
+    "_note": "The 'Kino-Programm' sequence per Wochenschau episode",
+    "standard": {
+      "sequence": ["soundie_or_cartoon", "wochenschau", "cartoon_or_soundie"],
+      "total_block_min": 25,
+      "total_block_max": 45,
+      "_note": "Soundie (3min) + Wochenschau (20min) + Cartoon (7min) = ~30min block"
+    },
+    "extended": {
+      "sequence": ["soundie", "cartoon", "wochenschau", "soundie"],
+      "total_block_min": 35,
+      "total_block_max": 55,
+      "_note": "Used when Superman is available: Soundie + Superman + Wochenschau + Soundie"
+    },
+    "minimal": {
+      "sequence": ["soundie", "wochenschau"],
+      "total_block_min": 20,
+      "total_block_max": 35,
+      "_note": "Fallback when interstitial pool is thin"
+    },
+    "active_format": "standard"
+  },
+
+  "overlay": {
+    "station_bug": {
+      "enabled": true,
+      "text": "WochenschauKino",
+      "position": "top_right",
+      "font_size": 24,
+      "font_color": "white@0.5",
+      "bg_color": "black@0.3"
+    },
+    "wochenschau_disclaimer": {
+      "enabled": true,
+      "text": "HISTORICAL DOCUMENT · EDUCATIONAL PURPOSES",
+      "font_size": 16,
+      "font_color": "#CCCCCC",
+      "position": "top_left",
+      "persistent_during_wochenschau": true
+    },
+    "interstitial_label": {
+      "enabled": true,
+      "text_template": "🎬 VORFILM: {title} ({year})",
+      "font_size": 14,
+      "font_color": "#AAAAAA",
+      "position": "bottom_bar",
+      "show_during_interstitial": true,
+      "duration_seconds": 10
+    },
+    "kino_bottom_bar": {
+      "enabled": true,
+      "height": 44,
+      "opacity": 0.7,
+      "show_program_info": true,
+      "show_era": true,
+      "show_clock": true,
+      "era_format": "📅 {year} · {event}",
+      "font_size_title": 18,
+      "font_size_meta": 14,
+      "font_color": "#FFFFFF",
+      "meta_color": "#AAAAAA"
+    },
+    "transition_screen": {
+      "enabled": true,
+      "duration_seconds": 5,
+      "bg_color": "#0a0a14",
+      "show_next_info": true,
+      "text_template": "📽️ Und jetzt...\n{next_type}: {next_title}",
+      "font_size": 28,
+      "font_color": "#CCCCCC"
+    }
+  },
+
+  "encoding": {
+    "resolution": "3840x2160",
+    "fps": 25,
+    "video_bitrate": "20000k",
+    "audio_bitrate": "192k",
+    "audio_sample_rate": 44100,
+    "codec_cpu": "libx264",
+    "codec_gpu": "h264_nvenc",
+    "preset_cpu": "medium",
+    "preset_gpu": "p5",
+    "pixel_format": "yuv420p",
+    "rtmp_url": "rtmp://a.rtmp.youtube.com/live2",
+    "max_keyframe_interval": 50,
+    "bufsize": "40000k",
+    "stream_key_env": "YOUTUBE_STREAM_KEY_REMAIKE",
+    "stream_key_file": "config/stream_key.txt"
+  },
+
+  "content_sources": {
+    "primary": ["V:\\OriginalSources\\Final\\nyx8kexportupscale", "V:\\OriginalSources\\Final"],
+    "fallback": ["V:\\OriginalSources\\Final\\sls\\0xupscale", "V:\\MediaArchive"],
+    "wochenschau": ["V:\\Wochenschau\\8K", "D:\\remaike.TV\\watch\\wochenschau"],
+    "commercials": [
+      "V:\\Commercials\\Vintage",
+      "V:\\Commercials\\Vintage\\split",
+      "V:\\OriginalSources\\Commercials",
+      "V:\\OriginalSources\\MusicVideos"
+    ],
+    "file_extensions": [".mp4", ".mkv", ".avi", ".mov"]
+  },
+
+  "schedule": {
+    "mode": "chronological_kino",
+    "pause_between_items_seconds": 2,
+    "transition_screen_between": true,
+    "restart_on_error": true,
+    "restart_delay_seconds": 30
+  },
+
+  "system": {
+    "state_file": "config/wochenschau_kino_state.json",
+    "log_file": "logs/wochenschau_kino.log",
+    "max_cpu_percent": 85,
+    "auto_restart_on_crash": true,
+    "max_restart_attempts": 10
+  }
+}

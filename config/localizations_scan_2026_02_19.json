@@ -1,0 +1,345 @@
+{
+  "scan_date": "2026-02-19",
+  "total_scanned": 428,
+  "with_locs": 354,
+  "missing_locs": 28,
+  "quota_used": 18,
+  "videos": [
+    {
+      "id": "q1RBXjC1AbA",
+      "title": "Wochenschau 556: Athens Occupied (30.04.1941) | 8K HQ (4K UHD)",
+      "desc_preview": "⚠️ HISTORISCHES DOKUMENT — Dieses Video zeigt Original-Material der NS-Propaganda-Wochenschau. Es di",
+      "default_lang": "de",
+      "default_audio": "en",
+      "current_locs": [
+        "de"
+      ],
+      "has_de": true,
+      "has_en": false
+    },
+    {
+      "id": "CL5jxw0L0M8",
+      "title": "Alfred J. Kwak (E08) Der Spion | DE | 8K HQ (4K UHD)",
+      "desc_preview": "Alfred J. Kwak (E08) Der Spion | Deutsch | 8K HQ (4K UHD)  🎬 Alfred J. Kwak / Alfred Jodokus Quak — ",
+      "default_lang": "de",
+      "default_audio": "en",
+      "current_locs": [
+        "de"
+      ],
+      "has_de": true,
+      "has_en": false
+    },
+    {
+      "id": "k0rYJmDH2kc",
+      "title": "Alfred J. Kwak (E13) Haltet den Dieb! | DE | 8K HQ (4K UHD)",
+      "desc_preview": "Alfred J. Kwak (E13) Haltet den Dieb! | Deutsch | 8K HQ (4K UHD)  🎬 Alfred J. Kwak / Alfred Jodokus ",
+      "default_lang": "de",
+      "default_audio": "en",
+      "current_locs": [
+        "de"
+      ],
+      "has_de": true,
+      "has_en": false
+    },
+    {
+      "id": "yNbh1PBUTSA",
+      "title": "Wochenschau 555: Greece Victory (23.04.1941) | 8K HQ (4K UHD)",
+      "desc_preview": "⚠️ HISTORISCHES DOKUMENT — Dieses Video zeigt Original-Material der NS-Propaganda-Wochenschau. Es di",
+      "default_lang": "de",
+      "default_audio": "en",
+      "current_locs": [
+        "de"
+      ],
+      "has_de": true,
+      "has_en": false
+    },
+    {
+      "id": "OOBufXFyuvg",
+      "title": "Wochenschau 565: Eastern Advance (02.07.1941) | 8K HQ (4K UHD)",
+      "desc_preview": "⚠️ HISTORISCHES DOKUMENT — Dieses Video zeigt Original-Material der NS-Propaganda-Wochenschau. Es di",
+      "default_lang": "de",
+      "default_audio": "en",
+      "current_locs": [
+        "de"
+      ],
+      "has_de": true,
+      "has_en": false
+    },
+    {
+      "id": "qGzRqmiOcNw",
+      "title": "Alfred J. Kwak (E38) Krach mit den Nachbarn | DE | 8K HQ (4K UHD)",
+      "desc_preview": "🎬 Alfred J. Kwak (E38) Krach mit den Nachbarn | Widescreen 16:9 Classic animated series (1989), AI-r",
+      "default_lang": "de",
+      "default_audio": "en-US",
+      "current_locs": [
+        "de"
+      ],
+      "has_de": true,
+      "has_en": false
+    },
+    {
+      "id": "ea5LQn-BJQs",
+      "title": "Alfred J. Kwak (E11) Der Mensch ist los! | DE | 8K HQ (4K UHD)",
+      "desc_preview": "🎬 Alfred J. Kwak (E11) Der Mensch ist los! | Widescreen 16:9 Classic animated series (1989), AI-rema",
+      "default_lang": "de",
+      "default_audio": "en-US",
+      "current_locs": [
+        "de"
+      ],
+      "has_de": true,
+      "has_en": false
+    },
+    {
+      "id": "Y28BihR4fkk",
+      "title": "Alfred J. Kwak (E49) Der Regenbogen | DE | 8K HQ (4K UHD)",
+      "desc_preview": "🎬 Alfred J. Kwak (E49) Der Regenbogen | Widescreen 16:9 Classic animated series (1989), AI-remastere",
+      "default_lang": "de",
+      "default_audio": "en-US",
+      "current_locs": [
+        "de"
+      ],
+      "has_de": true,
+      "has_en": false
+    },
+    {
+      "id": "FjvUAUsQi8Q",
+      "title": "Alfred J. Kwak (E10) Der Geist in der Flasche | DE | 8K HQ (4K UHD)",
+      "desc_preview": "🎬 Alfred J. Kwak (E10) Der Geist in der Flasche | Widescreen 16:9 Classic animated series (1989), AI",
+      "default_lang": "de",
+      "default_audio": "en-US",
+      "current_locs": [
+        "de"
+      ],
+      "has_de": true,
+      "has_en": false
+    },
+    {
+      "id": "GpYO8Yel0WY",
+      "title": "Alfred J. Kwak (E36) Michael Duckson | DE | 8K HQ (4K UHD)",
+      "desc_preview": "🎬 Alfred J. Kwak (E36) Michael Duckson | Widescreen 16:9 Classic animated series (1989), AI-remaster",
+      "default_lang": "de",
+      "default_audio": "en-US",
+      "current_locs": [
+        "de"
+      ],
+      "has_de": true,
+      "has_en": false
+    },
+    {
+      "id": "Hto044hFaZ4",
+      "title": "Alfred J. Kwak (E01) Hurra, er ist da! | DE | 8K HQ (4K UHD)",
+      "desc_preview": "🎬 Alfred J. Kwak (E01) Hurra, er ist da! | Widescreen 16:9 Classic animated series (1989), AI-remast",
+      "default_lang": "de",
+      "default_audio": "en-US",
+      "current_locs": [
+        "de"
+      ],
+      "has_de": true,
+      "has_en": false
+    },
+    {
+      "id": "x7u-1DcabiE",
+      "title": "Alfred J. Kwak (E17) Rettung aus dem All | DE | 8K HQ (4K UHD)",
+      "desc_preview": "🎬 Alfred J. Kwak (E17) Rettung aus dem All | Widescreen 16:9 Classic animated series (1989), AI-rema",
+      "default_lang": "de",
+      "default_audio": "en-US",
+      "current_locs": [
+        "de"
+      ],
+      "has_de": true,
+      "has_en": false
+    },
+    {
+      "id": "4Nu91xa9_eY",
+      "title": "Alfred J. Kwak (E16) Die Reise zum Südpol | DE | 8K HQ (4K UHD)",
+      "desc_preview": "🎬 Alfred J. Kwak (E16) Die Reise zum Südpol | Widescreen 16:9 Classic animated series (1989), AI-rem",
+      "default_lang": "de",
+      "default_audio": "en-US",
+      "current_locs": [
+        "de"
+      ],
+      "has_de": true,
+      "has_en": false
+    },
+    {
+      "id": "I1Hqb1mGlzU",
+      "title": "Alfred J. Kwak (E18) Im ewigen Eis | DE | 8K HQ (4K UHD)",
+      "desc_preview": "🎬 Alfred J. Kwak (E18) Im ewigen Eis | Widescreen 16:9 Classic animated series (1989), AI-remastered",
+      "default_lang": "de",
+      "default_audio": "en-US",
+      "current_locs": [
+        "de"
+      ],
+      "has_de": true,
+      "has_en": false
+    },
+    {
+      "id": "KaIC0B-xYBg",
+      "title": "Der 7. Sinn: Frauen am Steuer - Teil 1 (1970s) | 8K HQ (4K UHD)",
+      "desc_preview": "🎬 Der 7. Sinn: Frauen am Steuer – Teil 1  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 👆 LIKE if you found thi",
+      "default_lang": "de",
+      "default_audio": "en-US",
+      "current_locs": [
+        "de"
+      ],
+      "has_de": true,
+      "has_en": false
+    },
+    {
+      "id": "HyaZLqdMS9k",
+      "title": "Der 7. Sinn: Frauen am Steuer - Teil 3 (1970s) | 8K HQ (4K UHD)",
+      "desc_preview": "🎬 Der 7. Sinn: Frauen am Steuer – Teil 3  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 👆 LIKE if you found thi",
+      "default_lang": "de",
+      "default_audio": "en-US",
+      "current_locs": [
+        "de"
+      ],
+      "has_de": true,
+      "has_en": false
+    },
+    {
+      "id": "OWT520VIjxI",
+      "title": "Skylab Space Station (1973) | NASA | 8K HQ (4K UHD)",
+      "desc_preview": "🚀 Skylab Space Station — America's first space station, launched in 1973. This documentary shows the",
+      "default_lang": "en",
+      "default_audio": "en-US",
+      "current_locs": [
+        "en"
+      ],
+      "has_de": false,
+      "has_en": true
+    },
+    {
+      "id": "DMV0tGHgfG0",
+      "title": "Krtek E24: Der Maulwurf und das Weihnachtsfest (1975) | 8K HQ (4K UHD)",
+      "desc_preview": "🎬 Classic Czech animation masterpiece, AI remastered in stunning 8K quality. Der kleine Maulwurf (Kr",
+      "default_lang": "de",
+      "default_audio": "en-US",
+      "current_locs": [
+        "de"
+      ],
+      "has_de": true,
+      "has_en": false
+    },
+    {
+      "id": "ySxErhBGbx0",
+      "title": "Apollo 11: Descent & Landing (1969) | NASA Archive | 8K HQ (4K UHD)",
+      "desc_preview": "🚀 Apollo 11 — Descent and landing footage from the first Moon landing, July 20, 1969. Archive footag",
+      "default_lang": "en",
+      "default_audio": "en-US",
+      "current_locs": [
+        "en"
+      ],
+      "has_de": false,
+      "has_en": true
+    },
+    {
+      "id": "fqIV8eZRJyE",
+      "title": "Krtek E42: Der Maulwurf und die Überschwemmung (1997) | 8K HQ (4K UHD)",
+      "desc_preview": "🎬 Classic Czech animation masterpiece, AI remastered in stunning 8K quality. Der kleine Maulwurf (Kr",
+      "default_lang": "de",
+      "default_audio": "en-US",
+      "current_locs": [
+        "de"
+      ],
+      "has_de": true,
+      "has_en": false
+    },
+    {
+      "id": "_SXNNnFHzqc",
+      "title": "Krtek E23: Der Maulwurf in der Wüste (1975) | 8K HQ (4K UHD)",
+      "desc_preview": "🎬 Classic Czech animation masterpiece, AI remastered in stunning 8K quality. Der kleine Maulwurf (Kr",
+      "default_lang": "de",
+      "default_audio": "en-US",
+      "current_locs": [
+        "de"
+      ],
+      "has_de": true,
+      "has_en": false
+    },
+    {
+      "id": "-Gz34LVx90U",
+      "title": "Skylab 2: Launch (1973) | NASA Archive | 8K HQ (4K UHD)",
+      "desc_preview": "🚀 Skylab 2 — First crewed mission to Skylab space station, launched May 25, 1973. Archive footage re",
+      "default_lang": "en",
+      "default_audio": "en-US",
+      "current_locs": [
+        "en"
+      ],
+      "has_de": false,
+      "has_en": true
+    },
+    {
+      "id": "p-98Kku-tB4",
+      "title": "Krtek E43: Der Maulwurf und der Schneemann (1997) | 8K HQ (4K UHD)",
+      "desc_preview": "🎬 Classic Czech animation masterpiece, AI remastered in stunning 8K quality. Der kleine Maulwurf (Kr",
+      "default_lang": "de",
+      "default_audio": "en-US",
+      "current_locs": [
+        "de"
+      ],
+      "has_de": true,
+      "has_en": false
+    },
+    {
+      "id": "MV82Fm6Ma4A",
+      "title": "Apollo 11 Moonwalk (1969) | NASA | Full Movie | 8K HQ (4K UHD)",
+      "desc_preview": "Complete restored NASA Apollo 11 moonwalk footage, AI remastered in stunning 8K quality. Over 3 hour",
+      "default_lang": "en",
+      "default_audio": "en",
+      "current_locs": [
+        "en"
+      ],
+      "has_de": false,
+      "has_en": true
+    },
+    {
+      "id": "W_VhuNn-5nY",
+      "title": "BraveStarr (4/65): Skuzz and Fuzz (1987) | 8K HQ (4K UHD)",
+      "desc_preview": "🤠 BraveStarr - Folge 4 von 65 | 8K Deutsch  📺 \"Skuzz and Fuzz\" - Original: September 17, 1987  ═════",
+      "default_lang": "de",
+      "default_audio": "en-US",
+      "current_locs": [
+        "de"
+      ],
+      "has_de": true,
+      "has_en": false
+    },
+    {
+      "id": "w5Yyyp0H6vo",
+      "title": "Alfred J. Kwak / Quack – Zeichentrickserie Trailer | 8K HQ (4K UHD)",
+      "desc_preview": "🇩🇪 8k Highend Alfred J. Kwak / Quack (Alfred Jodokus Quack) – Deutsche Zeichentrickserie (80er/90er)",
+      "default_lang": "de",
+      "default_audio": "en-US",
+      "current_locs": [
+        "de"
+      ],
+      "has_de": true,
+      "has_en": false
+    },
+    {
+      "id": "Ot4M_FexpnQ",
+      "title": "BraveStarr Intro | 8K HQ (4K UHD) | Deutsch",
+      "desc_preview": "🤠 BraveStarr - Komplette Serie in 8K | Folge Intro von 65  ═════════════════════════════════════════",
+      "default_lang": "de",
+      "default_audio": "en-US",
+      "current_locs": [
+        "de"
+      ],
+      "has_de": true,
+      "has_en": false
+    },
+    {
+      "id": "XU7yM4H5vrY",
+      "title": "BraveStarr: Das Musikfestival (1/65) | Deutsch | 8K HQ (4K UHD)",
+      "desc_preview": "🤠 BraveStarr - Komplette Serie in 8K | Folge 1 von 65  ═════════════════════════════════════════════",
+      "default_lang": "de",
+      "default_audio": "en-US",
+      "current_locs": [
+        "de"
+      ],
+      "has_de": true,
+      "has_en": false
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-02-08T01:27:35.171967",
+  "total_sources": 5,
+  "results": {
+    "downloaded": [
+      {
+        "nr": 549,
+        "size_mb": 496.7301826477051,
+        "format": "mp4",
+        "resolution": "1920x1080",
+        "source": "Indonesian subtitle upload (alifrafikkhan)"
+      },
+      {
+        "nr": 580,
+        "size_mb": 987.686297416687,
+        "format": "mp4",
+        "resolution": "1920x1080",
+        "source": "Indonesian subtitle upload (alifrafikkhan)"
+      },
+      {
+        "nr": 563,
+        "size_mb": 367.4563961029053,
+        "format": "webm",
+        "resolution": "1920x1440",
+        "source": "YouTube reupload (GermanWWIIArchive)"
+      },
+      {
+        "nr": 603,
+        "size_mb": 301.50420665740967,
+        "format": "webm",
+        "resolution": "1920x1080",
+        "source": "YouTube reupload (xxhistoryfootage)"
+      }
+    ],
+    "skipped": [],
+    "failed": [],
+    "excerpts": [
+      {
+        "nr": 587,
+        "size_mb": 49.928378105163574,
+        "duration_min": 10,
+        "note": "EXCERPT ONLY - 10 min, Moelders funeral + Antikominternpakt"
+      }
+    ]
+  },
+  "total_downloaded_mb": 2203.3,
+  "remaining_missing": [
+    460,
+    461,
+    462,
+    463,
+    464,
+    465,
+    466,
+    467,
+    469,
+    475,
+    476,
+    478,
+    479,
+    481,
+    484,
+    485,
+    486,
+    487,
+    489,
+    490,
+    494,
+    495,
+    498,
+    500,
+    501,
+    503,
+    535,
+    540,
+    541,
+    551,
+    558,
+    559,
+    560,
+    591,
+    597,
+    626,
+    636
+  ]
+}

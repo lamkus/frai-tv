@@ -1,0 +1,461 @@
+{
+  "date": "2026-02-17",
+  "total_checked": 379,
+  "issues_found": 37,
+  "fixable": [
+    {
+      "id": "SYY31eEbYiQ",
+      "title": "Der 7. Sinn: Frauen am Steuer (1970s) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored', 'remastered'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "21iqU9NKJL0",
+      "title": "The Skeleton Dance (1929) | Disney | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "v9gB3LUgoNA",
+      "title": "The Skeleton Dance: Rib Solo (1929) | Disney | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "YXV4LEIBHqc",
+      "title": "Wochenschau 505: Western Campaign (08.05.1940) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored', 'remastered'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "W1zYu-fTejs",
+      "title": "Wochenschau 491: Phoney War (31.01.1940) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored', 'remastered'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "3FstojEXJ5k",
+      "title": "Wochenschau 496: Winter War Ends (06.03.1940) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored', 'remastered'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "wjpCNxf5SsY",
+      "title": "Krtek E16: Der Maulwurf und die Streichhölzer (1974) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "n-_DEeOSKz0",
+      "title": "Wochenschau 504: Battle of Narvik (01.05.1940) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'remastered'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "UsppP3mPwHM",
+      "title": "Krtek E18: Der Maulwurf als Uhrmacher (1974) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "j4aBiGJcEY8",
+      "title": "Krtek E21: Der Maulwurf als Fotograf (1975) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "4_2qWUEje-c",
+      "title": "Clever & Smart: In geheimer Mission (2014) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored', 'remastered'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "ts5qtXqneq8",
+      "title": "Krtek E13: Der Maulwurf als Maler (1972) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "3GM123aC4bE",
+      "title": "Krtek E20: Der Maulwurf und das Hühnerei (1975) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "sp1AzW-_rV0",
+      "title": "Skylab 3: A Scientific Harvest (1974) | NASA | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored', 'remastered'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "ndAzCIUxo-c",
+      "title": "Skylab: Gyroscopes in Space | NASA | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored', 'remastered'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "hvJsq7z3sjg",
+      "title": "Die drei Mäuse-Musketiere (1992) | Full Movie | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'remastered'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "xG_2AhK-sVI",
+      "title": "Krtek E03: Der Maulwurf und die Rakete (1965) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "wtq09EZfO20",
+      "title": "Krtek E08: Der Maulwurf als Gärtner (1969) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "MlzpyJ6CyHw",
+      "title": "Krtek E63: Der Maulwurf und der kleine Frosch (2002) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "6MElwMSiT0E",
+      "title": "Krtek Clip: Der Maulwurf und der Frosch (1998) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "tMaYrApYlxc",
+      "title": "Krtek E60: Der Maulwurf und die Flöte (1999) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "EZxjMpAY9Wk",
+      "title": "Krtek E59: Der Maulwurf und die Quelle (1999) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "jeLWajro1As",
+      "title": "Wochenschau 480: Bürgerbräu Bomb (Nov 1939) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R7: 17 hashtags (max 5)"
+      ],
+      "needs_title_fix": false,
+      "needs_desc_fix": true,
+      "needs_tag_fix": false,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "bhnnR0WX_X0",
+      "title": "Boxing Cats (1894) | Edison | World's First Cat Video | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "TWodj8k8-zU",
+      "title": "Alfred J. Kwak (29/52): Die Burengänse | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'remastered'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "W_VhuNn-5nY",
+      "title": "BraveStarr (4/65): Skuzz and Fuzz (1987) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R5: Missing www.remaike.IT",
+        "R7: 7 hashtags (max 5)",
+        "R8: 16 tags (max 15)",
+        "R13: Missing tags: {'restored', 'remastered'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": true,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "LOTXPLYeRAc",
+      "title": "Getaway in Stockholm 2 (Full)   | | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "A8LWgWF5f5k",
+      "title": "The Hut-Sut Song (1940s) | Soundie | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'remastered'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "u5poUF6KQfA",
+      "title": "Porky Pig (45/159): Porky's Cafe (1942) | 8K HQ (4K UHD)",
+      "privacy": "private",
+      "issues": [
+        "R7: 10 hashtags (max 5)"
+      ],
+      "needs_title_fix": false,
+      "needs_desc_fix": true,
+      "needs_tag_fix": false,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "eX5cbYwNvnI",
+      "title": "Betty Boop (19/105): Betty Boop Limited (1932) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'remastered'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "3gzbxznJ_PM",
+      "title": "Popeye Movie Marathon | 4K Fleischer Studios | Full Movie | 8K HQ",
+      "privacy": "public",
+      "issues": [
+        "R1b: Has \"8K HQ\" but missing \"(4K UHD)\""
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": false,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "8lLtNb11NKU",
+      "title": "Metropolis (1927) | Fritz Lang | Sci-Fi Masterpiece | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "b4cqLlJ7t4M",
+      "title": "Phantom of the Opera (1925) | Lon Chaney | Silent | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "eF81rBeXbzk",
+      "title": "Hindenburg Disaster (1937) | Full Documentary | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "exukLdxugy8",
+      "title": "Häxan (1922) | Witchcraft Through the Ages | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "Nzi6aRKDoEs",
+      "title": "Nosferatu (1922) | F.W. Murnau | Silent Horror | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    },
+    {
+      "id": "tk3DHvp9CFs",
+      "title": "The Astronomer's Dream (1898) | Georges Méliès | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "issues": [
+        "R13: Missing tags: {'restored'}"
+      ],
+      "needs_title_fix": true,
+      "needs_desc_fix": false,
+      "needs_tag_fix": true,
+      "needs_cat_fix": null
+    }
+  ],
+  "issues_by_rule": {
+    "R13": 34,
+    "R7": 3,
+    "R5": 1,
+    "R8": 1,
+    "R1b": 1
+  }
+}

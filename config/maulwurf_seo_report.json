@@ -1,0 +1,80 @@
+{
+  "timestamp": "2026-02-09T23:31:30.001204+00:00",
+  "videos_updated": 12,
+  "languages": [
+    "de",
+    "en",
+    "cs",
+    "ja",
+    "zh",
+    "es",
+    "fr",
+    "ru",
+    "ko",
+    "pl"
+  ],
+  "quota_used": 612,
+  "errors": [],
+  "details": [
+    {
+      "video_id": "xG_2AhK-sVI",
+      "title": "Krtek E03: Der Maulwurf und die Rakete (1965) | 8K HQ",
+      "ep_num": 3
+    },
+    {
+      "video_id": "wtq09EZfO20",
+      "title": "Krtek E08: Der Maulwurf als Gärtner (1969) | 8K HQ",
+      "ep_num": 8
+    },
+    {
+      "video_id": "ts5qtXqneq8",
+      "title": "Krtek E13: Der Maulwurf als Maler (1972) | 8K HQ",
+      "ep_num": 13
+    },
+    {
+      "video_id": "wjpCNxf5SsY",
+      "title": "Krtek E16: Der Maulwurf und die Streichhölzer (1974) | 8K HQ",
+      "ep_num": 16
+    },
+    {
+      "video_id": "UsppP3mPwHM",
+      "title": "Krtek E18: Der Maulwurf als Uhrmacher (1974) | 8K HQ",
+      "ep_num": 18
+    },
+    {
+      "video_id": "3GM123aC4bE",
+      "title": "Krtek E20: Der Maulwurf und das Hühnerei (1975) | 8K HQ",
+      "ep_num": 20
+    },
+    {
+      "video_id": "j4aBiGJcEY8",
+      "title": "Krtek E21: Der Maulwurf als Fotograf (1975) | 8K HQ",
+      "ep_num": 21
+    },
+    {
+      "video_id": "6MElwMSiT0E",
+      "title": "Krtek Clip: Der Maulwurf und der Frosch (1998) | 8K HQ",
+      "ep_num": 45
+    },
+    {
+      "video_id": "MlzpyJ6CyHw",
+      "title": "Krtek E63: Der Maulwurf und der kleine Frosch (1998) | 8K HQ",
+      "ep_num": 63
+    },
+    {
+      "video_id": "EZxjMpAY9Wk",
+      "title": "Krtek E59: Der Maulwurf und die Quelle (1999) | 8K HQ",
+      "ep_num": 59
+    },
+    {
+      "video_id": "tMaYrApYlxc",
+      "title": "Krtek E60: Der Maulwurf und die Flöte (1999) | 8K HQ",
+      "ep_num": 60
+    },
+    {
+      "video_id": "gGYWs-xw1VM",
+      "title": "Krtek: Der Maulwurf im Urlaub – Best Of Mix | 8K HQ",
+      "ep_num": null
+    }
+  ]
+}

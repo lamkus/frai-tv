@@ -1,0 +1,9 @@
+{
+  "date": "2026-02-12",
+  "script": "fix_uploads_2026_02_12.py",
+  "existing_fixes": 6,
+  "new_maulwurf": 4,
+  "new_nasa": 4,
+  "quota_used": 1161,
+  "dry_run": false
+}

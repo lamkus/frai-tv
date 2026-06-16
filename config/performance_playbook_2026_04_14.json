@@ -1,0 +1,1157 @@
+{
+  "meta": {
+    "generated": "2026-04-14T08:30:59.528769+00:00",
+    "channel": "@remAIke_IT",
+    "total_videos_analyzed": 459,
+    "total_channel_views": 332012,
+    "analysis_date": "2026-04-14"
+  },
+  "global_averages": {
+    "avg_views_per_day": 4.86,
+    "median_views_per_day": 0.38,
+    "avg_engagement_rate": 0.01485,
+    "median_views": 34
+  },
+  "confirmed_rules": [
+    {
+      "rule": "Use '8K HQ (4K UHD)' format in title instead of '[8K]' bracket format",
+      "evidence": "Videos with '8K HQ (4K UHD)' format average 5.7 vpd vs 0.10 vpd for [8K] bracket format",
+      "impact": "[8K] bracket format gets -98% fewer views/day",
+      "action": "NEVER use [8K] in square brackets. Always use: 8K HQ (4K UHD)",
+      "confidence": "HIGH"
+    },
+    {
+      "rule": "Optimal title length is 50-70 characters",
+      "evidence": "Titles of 50-70 chars average 5.57 vpd (341 videos)",
+      "impact": "Titles in this range capture more search impressions and click-through",
+      "action": "Keep titles between 50-70 characters",
+      "confidence": "HIGH"
+    },
+    {
+      "rule": "Upload on Monday for maximum reach",
+      "evidence": "Monday uploads average 19.99 vpd vs Sunday at 1.38 vpd",
+      "impact": "Monday gets 1349% more views/day than Sunday",
+      "action": "Schedule uploads for Monday. Avoid Sunday",
+      "confidence": "MEDIUM - skewed by top performers landing on Monday"
+    },
+    {
+      "rule": "Category 1 (Film & Animation) vastly outperforms Category 27 (Education)",
+      "evidence": "Cat 1: 6.36 vpd (328 vids) vs Cat 27: 1.38 vpd (100 vids)",
+      "impact": "Film & Animation gets 361% more views/day",
+      "action": "Use Category 1 (Film & Animation) for all videos. Wochenschau as Cat 27 underperforms",
+      "confidence": "HIGH"
+    },
+    {
+      "rule": "Episode numbers (XX/YY) in titles boost views by ~23%",
+      "evidence": "Videos with episode numbers: 5.74 vpd vs without: 4.67 vpd",
+      "impact": "+23% views/day with episode numbers",
+      "action": "Always include episode format (e.g. '15/175') for series content",
+      "confidence": "MEDIUM"
+    },
+    {
+      "rule": "60+ minute full movies are the strongest content type",
+      "evidence": "60+ min videos average 15.97 vpd with 28 videos",
+      "impact": "Full-length movies dominate - they accumulate views over long periods",
+      "action": "Prioritize uploading full-length public domain films",
+      "confidence": "HIGH"
+    },
+    {
+      "rule": "Short-form 3-10 min is the second sweet spot",
+      "evidence": "3-5 min: 8.25 vpd, 5-10 min: 6.74 vpd",
+      "impact": "Short animated classics (Felix, Betty Boop, Superman cartoons) perform well",
+      "action": "Cartoon shorts should target 5-10 minute range",
+      "confidence": "HIGH"
+    },
+    {
+      "rule": "15-30 minute videos are the dead zone for this channel",
+      "evidence": "15-20 min: 1.89 vpd, 20-30 min: 1.14 vpd",
+      "impact": "Most Wochenschau episodes fall here and underperform",
+      "action": "Avoid 15-30 min unless it is a high-demand title. Consider cutting or combining",
+      "confidence": "HIGH"
+    },
+    {
+      "rule": "Full Movie tag in title boosts discovery",
+      "evidence": "'Full Movie' in title: 21.0 vpd (14 videos) vs channel average 4.9 vpd",
+      "impact": "+332% over channel average",
+      "action": "Add 'Full Movie' to titles of feature-length films",
+      "confidence": "HIGH"
+    },
+    {
+      "rule": "DUPE prefix kills videos completely",
+      "evidence": "All 6 DUPE-prefixed videos have 0 views",
+      "impact": "100% view loss",
+      "action": "Remove or rename all DUPE-prefixed videos immediately",
+      "confidence": "HIGH"
+    }
+  ],
+  "series_ranking": {
+    "by_views_per_day": [
+      {
+        "series": "Batman & Robin Meet Santa Claus (1966)",
+        "count": 2,
+        "avg_views_per_day": 22.43,
+        "avg_engagement_rate": 0.0116,
+        "avg_views": 2826.0,
+        "total_views": 5652,
+        "avg_completion_proxy": 0.01124
+      },
+      {
+        "series": "Felix the Cat (",
+        "count": 11,
+        "avg_views_per_day": 19.83,
+        "avg_engagement_rate": 0.00573,
+        "avg_views": 3476.0,
+        "total_views": 38238,
+        "avg_completion_proxy": 0.00483
+      },
+      {
+        "series": "Superman (",
+        "count": 10,
+        "avg_views_per_day": 15.19,
+        "avg_engagement_rate": 0.00389,
+        "avg_views": 2582.0,
+        "total_views": 25823,
+        "avg_completion_proxy": 0.00387
+      },
+      {
+        "series": "Coca-Cola Christmas Trucks (1995)",
+        "count": 2,
+        "avg_views_per_day": 5.66,
+        "avg_engagement_rate": 0.00752,
+        "avg_views": 713.0,
+        "total_views": 1426,
+        "avg_completion_proxy": 0.00752
+      },
+      {
+        "series": "Popeye (",
+        "count": 3,
+        "avg_views_per_day": 5.49,
+        "avg_engagement_rate": 0.00207,
+        "avg_views": 890.0,
+        "total_views": 2671,
+        "avg_completion_proxy": 0.00207
+      },
+      {
+        "series": "Betty Boop (",
+        "count": 33,
+        "avg_views_per_day": 1.78,
+        "avg_engagement_rate": 0.0108,
+        "avg_views": 295.0,
+        "total_views": 9751,
+        "avg_completion_proxy": 0.00702
+      },
+      {
+        "series": "The Skeleton Dance (1929)",
+        "count": 2,
+        "avg_views_per_day": 1.46,
+        "avg_engagement_rate": 0.08292,
+        "avg_views": 94.0,
+        "total_views": 188,
+        "avg_completion_proxy": 0.04721
+      },
+      {
+        "series": "Suzy Snowflake (1953)",
+        "count": 2,
+        "avg_views_per_day": 1.35,
+        "avg_engagement_rate": 0.01637,
+        "avg_views": 168.0,
+        "total_views": 336,
+        "avg_completion_proxy": 0.01637
+      },
+      {
+        "series": "Unknown",
+        "count": 13,
+        "avg_views_per_day": 0.79,
+        "avg_engagement_rate": 0.02541,
+        "avg_views": 22.0,
+        "total_views": 282,
+        "avg_completion_proxy": 0.02541
+      },
+      {
+        "series": "Wochenschau 513: Channel Islands (Jul 1940)",
+        "count": 2,
+        "avg_views_per_day": 0.79,
+        "avg_engagement_rate": 0.00458,
+        "avg_views": 54.0,
+        "total_views": 109,
+        "avg_completion_proxy": 0.00458
+      },
+      {
+        "series": "Marihuana (1936)",
+        "count": 2,
+        "avg_views_per_day": 0.69,
+        "avg_engagement_rate": 0.0,
+        "avg_views": 62.0,
+        "total_views": 123,
+        "avg_completion_proxy": 0.0
+      },
+      {
+        "series": "Wochenschau 496: Winter War Ends (06.03.1940)",
+        "count": 2,
+        "avg_views_per_day": 0.56,
+        "avg_engagement_rate": 0.0147,
+        "avg_views": 34.0,
+        "total_views": 69,
+        "avg_completion_proxy": 0.0147
+      },
+      {
+        "series": "Der 7. Sinn: Frauen am Steuer",
+        "count": 2,
+        "avg_views_per_day": 0.52,
+        "avg_engagement_rate": 0.02941,
+        "avg_views": 28.0,
+        "total_views": 57,
+        "avg_completion_proxy": 0.02941
+      },
+      {
+        "series": "Casper (",
+        "count": 6,
+        "avg_views_per_day": 0.42,
+        "avg_engagement_rate": 0.00616,
+        "avg_views": 50.0,
+        "total_views": 301,
+        "avg_completion_proxy": 0.00282
+      },
+      {
+        "series": "Alfred J. Kwak (E49) Der Regenbogen",
+        "count": 2,
+        "avg_views_per_day": 0.34,
+        "avg_engagement_rate": 0.08334,
+        "avg_views": 17.0,
+        "total_views": 34,
+        "avg_completion_proxy": 0.02778
+      }
+    ],
+    "best_engagement": [
+      {
+        "series": "Alfred J. Kwak (E49) Der Regenbogen",
+        "count": 2,
+        "avg_views_per_day": 0.34,
+        "avg_engagement_rate": 0.08334,
+        "avg_views": 17.0,
+        "total_views": 34,
+        "avg_completion_proxy": 0.02778
+      },
+      {
+        "series": "The Skeleton Dance (1929)",
+        "count": 2,
+        "avg_views_per_day": 1.46,
+        "avg_engagement_rate": 0.08292,
+        "avg_views": 94.0,
+        "total_views": 188,
+        "avg_completion_proxy": 0.04721
+      },
+      {
+        "series": "Alfred J. Kwak (",
+        "count": 2,
+        "avg_views_per_day": 0.18,
+        "avg_engagement_rate": 0.04546,
+        "avg_views": 17.0,
+        "total_views": 34,
+        "avg_completion_proxy": 0.04546
+      },
+      {
+        "series": "Der 7. Sinn: Frauen am Steuer",
+        "count": 2,
+        "avg_views_per_day": 0.52,
+        "avg_engagement_rate": 0.02941,
+        "avg_views": 28.0,
+        "total_views": 57,
+        "avg_completion_proxy": 0.02941
+      },
+      {
+        "series": "Unknown",
+        "count": 13,
+        "avg_views_per_day": 0.79,
+        "avg_engagement_rate": 0.02541,
+        "avg_views": 22.0,
+        "total_views": 282,
+        "avg_completion_proxy": 0.02541
+      },
+      {
+        "series": "Betty Boop",
+        "count": 18,
+        "avg_views_per_day": 0.06,
+        "avg_engagement_rate": 0.01705,
+        "avg_views": 6.0,
+        "total_views": 115,
+        "avg_completion_proxy": 0.00505
+      },
+      {
+        "series": "Suzy Snowflake (1953)",
+        "count": 2,
+        "avg_views_per_day": 1.35,
+        "avg_engagement_rate": 0.01637,
+        "avg_views": 168.0,
+        "total_views": 336,
+        "avg_completion_proxy": 0.01637
+      },
+      {
+        "series": "Wochenschau 496: Winter War Ends (06.03.1940)",
+        "count": 2,
+        "avg_views_per_day": 0.56,
+        "avg_engagement_rate": 0.0147,
+        "avg_views": 34.0,
+        "total_views": 69,
+        "avg_completion_proxy": 0.0147
+      },
+      {
+        "series": "Batman & Robin Meet Santa Claus (1966)",
+        "count": 2,
+        "avg_views_per_day": 22.43,
+        "avg_engagement_rate": 0.0116,
+        "avg_views": 2826.0,
+        "total_views": 5652,
+        "avg_completion_proxy": 0.01124
+      },
+      {
+        "series": "Betty Boop (",
+        "count": 33,
+        "avg_views_per_day": 1.78,
+        "avg_engagement_rate": 0.0108,
+        "avg_views": 295.0,
+        "total_views": 9751,
+        "avg_completion_proxy": 0.00702
+      }
+    ],
+    "growth_potential": [
+      {
+        "series": "Felix the Cat",
+        "reason": "11 videos, 19.83 avg vpd. High proven demand. Many more episodes available in public domain (175 total). Each new episode benefits from series momentum.",
+        "action": "Continue uploading Felix the Cat episodes. Use episode numbering consistently (XX/175)."
+      },
+      {
+        "series": "Superman (Fleischer Studios)",
+        "reason": "10 videos, strong vpd. Only 17 episodes exist. 7 remaining to upload.",
+        "action": "Complete the Superman series. Low effort, high return."
+      },
+      {
+        "series": "Betty Boop",
+        "reason": "33+18=51 videos. Moderate vpd but large catalog (105 episodes). Engagement rate is above average.",
+        "action": "Continue but switch from [8K] bracket format to '8K HQ (4K UHD)' title format for new uploads. Consider re-titling underperformers."
+      },
+      {
+        "series": "Alfred J. Kwak",
+        "reason": "Extremely high engagement rate (ER=0.08-0.18 on some episodes). Niche German audience loves it.",
+        "action": "Promote via Community Posts. Target German-speaking audience. Use German titles."
+      },
+      {
+        "series": "Full-Length Horror Classics",
+        "reason": "Nosferatu, White Zombie, Cabinet of Caligari all in top 30. Horror public domain films have massive search demand.",
+        "action": "Upload more PD horror: The Phantom of the Opera (1925), The Hunchback of Notre Dame (1923), The Man Who Laughs (1928)."
+      }
+    ]
+  },
+  "duration_analysis": {
+    "0-1 min": {
+      "count": 8,
+      "avg_vpd": 3.62,
+      "avg_er": 0.00591,
+      "avg_views": 292.0
+    },
+    "1-3 min": {
+      "count": 46,
+      "avg_vpd": 1.74,
+      "avg_er": 0.01535,
+      "avg_views": 203.0
+    },
+    "3-5 min": {
+      "count": 24,
+      "avg_vpd": 8.25,
+      "avg_er": 0.00484,
+      "avg_views": 1093.0
+    },
+    "5-10 min": {
+      "count": 155,
+      "avg_vpd": 6.74,
+      "avg_er": 0.01183,
+      "avg_views": 1134.0
+    },
+    "10-15 min": {
+      "count": 31,
+      "avg_vpd": 6.99,
+      "avg_er": 0.00657,
+      "avg_views": 852.0
+    },
+    "15-20 min": {
+      "count": 34,
+      "avg_vpd": 1.89,
+      "avg_er": 0.02486,
+      "avg_views": 124.0
+    },
+    "20-30 min": {
+      "count": 123,
+      "avg_vpd": 1.14,
+      "avg_er": 0.01976,
+      "avg_views": 120.0
+    },
+    "30-60 min": {
+      "count": 10,
+      "avg_vpd": 0.84,
+      "avg_er": 0.03542,
+      "avg_views": 70.0
+    },
+    "60+ min": {
+      "count": 28,
+      "avg_vpd": 15.97,
+      "avg_er": 0.00991,
+      "avg_views": 2580.0
+    }
+  },
+  "category_analysis": {
+    "1": {
+      "name": "Film & Animation",
+      "count": 328,
+      "avg_vpd": 6.36,
+      "avg_er": 0.01431,
+      "total_views": 322712,
+      "avg_views": 984.0
+    },
+    "27": {
+      "name": "Education",
+      "count": 100,
+      "avg_vpd": 1.38,
+      "avg_er": 0.0147,
+      "total_views": 8830,
+      "avg_views": 88.0
+    },
+    "24": {
+      "name": "Entertainment",
+      "count": 2,
+      "avg_vpd": 1.09,
+      "avg_er": 0.00532,
+      "total_views": 94,
+      "avg_views": 47.0
+    },
+    "10": {
+      "name": "Music",
+      "count": 28,
+      "avg_vpd": 0.15,
+      "avg_er": 0.0229,
+      "total_views": 371,
+      "avg_views": 13.0
+    },
+    "25": {
+      "name": "News",
+      "count": 1,
+      "avg_vpd": 0.05,
+      "avg_er": 0.0,
+      "total_views": 5,
+      "avg_views": 5.0
+    }
+  },
+  "day_of_week_analysis": {
+    "Monday": {
+      "count": 55,
+      "avg_vpd": 19.99,
+      "avg_er": 0.01299
+    },
+    "Tuesday": {
+      "count": 75,
+      "avg_vpd": 2.54,
+      "avg_er": 0.0181
+    },
+    "Wednesday": {
+      "count": 52,
+      "avg_vpd": 4.31,
+      "avg_er": 0.01722
+    },
+    "Thursday": {
+      "count": 69,
+      "avg_vpd": 2.92,
+      "avg_er": 0.00978
+    },
+    "Friday": {
+      "count": 86,
+      "avg_vpd": 3.06,
+      "avg_er": 0.01863
+    },
+    "Saturday": {
+      "count": 69,
+      "avg_vpd": 2.58,
+      "avg_er": 0.01184
+    },
+    "Sunday": {
+      "count": 53,
+      "avg_vpd": 1.38,
+      "avg_er": 0.01421
+    }
+  },
+  "title_length_analysis": {
+    "<30": {
+      "count": 5,
+      "avg_vpd": 0.62
+    },
+    "30-50": {
+      "count": 103,
+      "avg_vpd": 3.01
+    },
+    "50-70": {
+      "count": 341,
+      "avg_vpd": 5.57
+    },
+    "70-90": {
+      "count": 10,
+      "avg_vpd": 1.63
+    }
+  },
+  "genre_keyword_impact": {
+    "Horror": {
+      "count": 3,
+      "avg_vpd": 103.05,
+      "pct_vs_avg": 2022.2
+    },
+    "Comedy": {
+      "count": 1,
+      "avg_vpd": 24.8,
+      "pct_vs_avg": 410.7
+    },
+    "Silent": {
+      "count": 6,
+      "avg_vpd": 31.34,
+      "pct_vs_avg": 545.4
+    },
+    "Animation": {
+      "count": 2,
+      "avg_vpd": 12.2,
+      "pct_vs_avg": 151.2
+    },
+    "Classic": {
+      "count": 9,
+      "avg_vpd": 22.59,
+      "pct_vs_avg": 365.2
+    },
+    "Vintage": {
+      "count": 6,
+      "avg_vpd": 10.4,
+      "pct_vs_avg": 114.2
+    },
+    "Disney": {
+      "count": 3,
+      "avg_vpd": 141.44,
+      "pct_vs_avg": 2812.8
+    }
+  },
+  "decade_analysis": {
+    "1900s": {
+      "count": 5,
+      "avg_vpd": 8.58,
+      "avg_views": 1438.0
+    },
+    "1910s": {
+      "count": 8,
+      "avg_vpd": 15.5,
+      "avg_views": 2534.0
+    },
+    "1920s": {
+      "count": 27,
+      "avg_vpd": 30.71,
+      "avg_views": 5327.0
+    },
+    "1930s": {
+      "count": 78,
+      "avg_vpd": 3.48,
+      "avg_views": 583.0
+    },
+    "1940s": {
+      "count": 34,
+      "avg_vpd": 6.13,
+      "avg_views": 1000.0
+    },
+    "1950s": {
+      "count": 31,
+      "avg_vpd": 3.22,
+      "avg_views": 461.0
+    },
+    "1960s": {
+      "count": 13,
+      "avg_vpd": 16.55,
+      "avg_views": 2136.0
+    },
+    "1970s": {
+      "count": 11,
+      "avg_vpd": 1.61,
+      "avg_views": 99.0
+    },
+    "1980s": {
+      "count": 5,
+      "avg_vpd": 0.7,
+      "avg_views": 71.0
+    },
+    "1990s": {
+      "count": 9,
+      "avg_vpd": 3.31,
+      "avg_views": 294.0
+    }
+  },
+  "resolution_tag_impact": {
+    "bracket_8k_format": {
+      "count": 68,
+      "avg_vpd": 0.1,
+      "verdict": "AVOID - dramatically underperforms"
+    },
+    "8k_hq_format": {
+      "count": 376,
+      "avg_vpd": 5.86,
+      "verdict": "PREFERRED - part of the successful title format"
+    },
+    "no_resolution_tag": {
+      "count": 391,
+      "avg_vpd": 5.68
+    }
+  },
+  "top30_videos": [
+    {
+      "id": "TLdsnAi8bWg",
+      "title": "Silly Symphony: The Skeleton Dance (1929) | Disney | 8K HQ (4K UHD)",
+      "views": 73751,
+      "views_per_day": 419.04,
+      "engagement_rate": 0.00038,
+      "duration_min": 5.5,
+      "category_id": "1",
+      "series": "Silly Symphony: The Skeleton Dance (1929)",
+      "published": "2025-10-20T02:37:45Z",
+      "dow": "Monday"
+    },
+    {
+      "id": "d8Ak1R_eOlY",
+      "title": "White Zombie (1932) | Horror Classic | Full Movie | 8K HQ (4K UHD)",
+      "views": 32815,
+      "views_per_day": 187.51,
+      "engagement_rate": 0.00101,
+      "duration_min": 65.3,
+      "category_id": "1",
+      "series": "White Zombie (1932)",
+      "published": "2025-10-20T18:30:03Z",
+      "dow": "Monday"
+    },
+    {
+      "id": "fFanPpOArKs",
+      "title": "Felix the Cat (15/175): Felix at the Circus (1921) | 8K HQ (4K UHD)",
+      "views": 25097,
+      "views_per_day": 142.6,
+      "engagement_rate": 0.00243,
+      "duration_min": 5.3,
+      "category_id": "1",
+      "series": "Felix the Cat (",
+      "published": "2025-10-20T03:16:13Z",
+      "dow": "Monday"
+    },
+    {
+      "id": "6A2_RKWP2X4",
+      "title": "Superman (1/17): Superman (1941) | 8K HQ (4K UHD)",
+      "views": 20306,
+      "views_per_day": 118.06,
+      "engagement_rate": 0.00217,
+      "duration_min": 9.0,
+      "category_id": "1",
+      "series": "Superman (",
+      "published": "2025-10-24T01:53:40Z",
+      "dow": "Friday"
+    },
+    {
+      "id": "z8FqTSpp6Kg",
+      "title": "Dinner for One (1963) | 8K HQ (4K UHD)",
+      "views": 14308,
+      "views_per_day": 112.66,
+      "engagement_rate": 0.00084,
+      "duration_min": 11.1,
+      "category_id": "1",
+      "series": "Dinner for One (1963)",
+      "published": "2025-12-08T00:21:44Z",
+      "dow": "Monday"
+    },
+    {
+      "id": "5WVJHELSD7A",
+      "title": "The Cabinet of Dr. Caligari (1920) | Silent Horror | 8K HQ (4K UHD)",
+      "views": 16635,
+      "views_per_day": 96.16,
+      "engagement_rate": 0.00144,
+      "duration_min": 75.3,
+      "category_id": "1",
+      "series": "The Cabinet of Dr. Caligari (1920)",
+      "published": "2025-10-22T19:14:44Z",
+      "dow": "Wednesday"
+    },
+    {
+      "id": "90UleF637FA",
+      "title": "Ken Block - Gymkhana The First 1 - World First 8K 4K | 8K HQ (4K UHD)",
+      "views": 8687,
+      "views_per_day": 86.87,
+      "engagement_rate": 0.00035,
+      "duration_min": 4.5,
+      "category_id": "1",
+      "series": "Ken Block",
+      "published": "2026-01-03T18:56:18Z",
+      "dow": "Saturday"
+    },
+    {
+      "id": "PSdJJaxI4gM",
+      "title": "Charade (1953) | Vintage Mystery | Full Movie | 8K HQ (4K UHD)",
+      "views": 7728,
+      "views_per_day": 44.67,
+      "engagement_rate": 0.00207,
+      "duration_min": 81.7,
+      "category_id": "1",
+      "series": "Charade (1953)",
+      "published": "2025-10-23T00:23:00Z",
+      "dow": "Thursday"
+    },
+    {
+      "id": "yIQCHpjp4NE",
+      "title": "Batman & Robin Meet Santa Claus (1966) | 8K HQ (4K UHD)",
+      "views": 5576,
+      "views_per_day": 44.25,
+      "engagement_rate": 0.01004,
+      "duration_min": 1.0,
+      "category_id": "1",
+      "series": "Batman & Robin Meet Santa Claus (1966)",
+      "published": "2025-12-08T19:44:32Z",
+      "dow": "Monday"
+    },
+    {
+      "id": "NcfUWqlfSm0",
+      "title": "Getaway in Stockholm 1 – Porsche 911 | 8K HQ (4K UHD)",
+      "views": 4194,
+      "views_per_day": 41.94,
+      "engagement_rate": 0.00262,
+      "duration_min": 10.8,
+      "category_id": "1",
+      "series": "Getaway in Stockholm 1 – Porsche 911",
+      "published": "2026-01-03T11:02:56Z",
+      "dow": "Saturday"
+    },
+    {
+      "id": "EMnokZOLpzU",
+      "title": "The Grim Game (1919) | Houdini Silent Thriller | 8K HQ (4K UHD)",
+      "views": 6763,
+      "views_per_day": 39.32,
+      "engagement_rate": 0.00044,
+      "duration_min": 4.1,
+      "category_id": "1",
+      "series": "The Grim Game (1919)",
+      "published": "2025-10-23T18:41:10Z",
+      "dow": "Thursday"
+    },
+    {
+      "id": "tJMJlCQc0UE",
+      "title": "Betty Boop (11/105): Minnie the Moocher (1932) | 8K HQ (4K UHD)",
+      "views": 5437,
+      "views_per_day": 31.07,
+      "engagement_rate": 0.00681,
+      "duration_min": 7.8,
+      "category_id": "1",
+      "series": "Betty Boop (",
+      "published": "2025-10-20T19:21:31Z",
+      "dow": "Monday"
+    },
+    {
+      "id": "o33-c1riv4U",
+      "title": "Wochenschau 459: Pre-War Era (21.06.1939) | 8K HQ (4K UHD)",
+      "views": 1999,
+      "views_per_day": 27.38,
+      "engagement_rate": 0.0025,
+      "duration_min": 18.2,
+      "category_id": "27",
+      "series": "Wochenschau 459: Pre-War Era (21.06.1939)",
+      "published": "2026-01-30T14:30:52Z",
+      "dow": "Friday"
+    },
+    {
+      "id": "unzHtnrKeOU",
+      "title": "Superman (10/17): Japoteurs (1942) | 8K HQ (4K UHD)",
+      "views": 4379,
+      "views_per_day": 26.54,
+      "engagement_rate": 0.00183,
+      "duration_min": 9.1,
+      "category_id": "1",
+      "series": "Superman (",
+      "published": "2025-10-30T12:08:11Z",
+      "dow": "Thursday"
+    },
+    {
+      "id": "Nzi6aRKDoEs",
+      "title": "Nosferatu (1922) | F.W. Murnau | Silent Horror | 8K HQ (4K UHD)",
+      "views": 4101,
+      "views_per_day": 25.47,
+      "engagement_rate": 0.00317,
+      "duration_min": 94.3,
+      "category_id": "1",
+      "series": "Nosferatu (1922)",
+      "published": "2025-11-04T01:08:44Z",
+      "dow": "Tuesday"
+    },
+    {
+      "id": "_3Z1GTYFUAM",
+      "title": "Buster Keaton: Convict 13 (1920) | Silent Comedy | 8K HQ (4K UHD)",
+      "views": 4067,
+      "views_per_day": 24.8,
+      "engagement_rate": 0.00049,
+      "duration_min": 21.3,
+      "category_id": "1",
+      "series": "Buster Keaton: Convict 13 (1920)",
+      "published": "2025-10-31T21:38:19Z",
+      "dow": "Friday"
+    },
+    {
+      "id": "qZU5lVJMkoM",
+      "title": "Felix Minds the Kid (1922) | Felix the Cat | 8K HQ (4K UHD)",
+      "views": 4300,
+      "views_per_day": 24.57,
+      "engagement_rate": 0.00186,
+      "duration_min": 8.3,
+      "category_id": "1",
+      "series": "Felix Minds the Kid (1922)",
+      "published": "2025-10-20T19:19:12Z",
+      "dow": "Monday"
+    },
+    {
+      "id": "M0-tJK4H3lo",
+      "title": "Tokyo Jokio (1943) | Merrie Melodies WWII | 8K HQ (4K UHD)",
+      "views": 4101,
+      "views_per_day": 23.57,
+      "engagement_rate": 0.00098,
+      "duration_min": 6.8,
+      "category_id": "1",
+      "series": "Tokyo Jokio (1943)",
+      "published": "2025-10-21T13:02:02Z",
+      "dow": "Tuesday"
+    },
+    {
+      "id": "-623U3tgryM",
+      "title": "Mel-O-Toons: Peter and the Wolf (1960) | 8K HQ (4K UHD)",
+      "views": 4070,
+      "views_per_day": 23.26,
+      "engagement_rate": 0.00147,
+      "duration_min": 6.7,
+      "category_id": "1",
+      "series": "Mel-O-Toons: Peter and the Wolf (1960)",
+      "published": "2025-10-20T19:52:41Z",
+      "dow": "Monday"
+    },
+    {
+      "id": "LEM6FkBTDNs",
+      "title": "8K 20,000 Leagues Under the Sea (1916) | Full Movie | 8K HQ (4K UHD)",
+      "views": 3021,
+      "views_per_day": 23.06,
+      "engagement_rate": 0.00166,
+      "duration_min": 98.7,
+      "category_id": "1",
+      "series": "8K 20,000 Leagues Under the Sea (1916)",
+      "published": "2025-12-03T10:23:29Z",
+      "dow": "Wednesday"
+    },
+    {
+      "id": "3NagSoFaAwI",
+      "title": "Airship Destroyed (1909) | Early Sci-Fi | 8K HQ (4K UHD)",
+      "views": 3999,
+      "views_per_day": 22.85,
+      "engagement_rate": 0.002,
+      "duration_min": 6.7,
+      "category_id": "1",
+      "series": "Airship Destroyed (1909)",
+      "published": "2025-10-20T20:37:00Z",
+      "dow": "Monday"
+    },
+    {
+      "id": "pqrCPhUCpxE",
+      "title": "Voyage to the Planet of Prehistoric Women (1968) | 8K HQ (4K UHD)",
+      "views": 2893,
+      "views_per_day": 22.78,
+      "engagement_rate": 0.00104,
+      "duration_min": 79.6,
+      "category_id": "1",
+      "series": "Voyage to the Planet of Prehistoric Women (1968)",
+      "published": "2025-12-07T17:18:34Z",
+      "dow": "Sunday"
+    },
+    {
+      "id": "_aUNgDJoWoU",
+      "title": "Scarlet Street – Fritz Lang (1945) | Full Movie | 8K HQ (4K UHD)",
+      "views": 2483,
+      "views_per_day": 19.55,
+      "engagement_rate": 0.00121,
+      "duration_min": 101.5,
+      "category_id": "1",
+      "series": "Scarlet Street – Fritz Lang (1945)",
+      "published": "2025-12-08T00:12:26Z",
+      "dow": "Monday"
+    },
+    {
+      "id": "3UBF9ycZwJU",
+      "title": "The ORIGINAL Fast & Furious (1954) | 8K HQ (4K UHD)",
+      "views": 1760,
+      "views_per_day": 18.92,
+      "engagement_rate": 0.00057,
+      "duration_min": 0.5,
+      "category_id": "1",
+      "series": "The ORIGINAL Fast & Furious (1954)",
+      "published": "2026-01-11T02:21:59Z",
+      "dow": "Sunday"
+    },
+    {
+      "id": "gx6eICiEYLo",
+      "title": "Alfred J. Kwak (1): Hurra, er ist da! | 8K HQ (4K UHD)",
+      "views": 1891,
+      "views_per_day": 18.72,
+      "engagement_rate": 0.00529,
+      "duration_min": 22.3,
+      "category_id": "1",
+      "series": "Alfred J. Kwak (1): Hurra, er ist da!",
+      "published": "2026-01-02T11:22:30Z",
+      "dow": "Friday"
+    },
+    {
+      "id": "T8AnrW3H5i8",
+      "title": "Little Nemo (1911) | Winsor McCay Animation | 8K HQ (4K UHD)",
+      "views": 2908,
+      "views_per_day": 17.73,
+      "engagement_rate": 0.00138,
+      "duration_min": 10.3,
+      "category_id": "1",
+      "series": "Little Nemo (1911)",
+      "published": "2025-10-31T19:22:58Z",
+      "dow": "Friday"
+    },
+    {
+      "id": "j4r3bPPQza0",
+      "title": "Commodore 64 Vintage Computer Documentary | 8K HQ (4K UHD)",
+      "views": 2576,
+      "views_per_day": 15.06,
+      "engagement_rate": 0.00233,
+      "duration_min": 28.5,
+      "category_id": "1",
+      "series": "Commodore 64 Vintage Computer Documentary",
+      "published": "2025-10-24T14:23:20Z",
+      "dow": "Friday"
+    },
+    {
+      "id": "unbwEeI4bEE",
+      "title": "Popeye (180/231): Ancient Fistory (1953) | 8K HQ (4K UHD)",
+      "views": 2390,
+      "views_per_day": 14.31,
+      "engagement_rate": 0.00209,
+      "duration_min": 6.8,
+      "category_id": "1",
+      "series": "Popeye (",
+      "published": "2025-10-28T14:49:02Z",
+      "dow": "Tuesday"
+    },
+    {
+      "id": "WWdC0Rq4cQQ",
+      "title": "Krazy Kat: Keeping Up (1916) | 8K HQ (4K UHD)",
+      "views": 2424,
+      "views_per_day": 13.85,
+      "engagement_rate": 0.00536,
+      "duration_min": 7.0,
+      "category_id": "1",
+      "series": "Krazy Kat: Keeping Up (1916)",
+      "published": "2025-10-20T21:13:27Z",
+      "dow": "Monday"
+    },
+    {
+      "id": "tk3DHvp9CFs",
+      "title": "The Astronomer's Dream (1898) | Georges Méliès | 8K HQ (4K UHD)",
+      "views": 2400,
+      "views_per_day": 13.79,
+      "engagement_rate": 0.00292,
+      "duration_min": 3.1,
+      "category_id": "1",
+      "series": "The Astronomer's Dream (1898)",
+      "published": "2025-10-21T12:27:49Z",
+      "dow": "Tuesday"
+    }
+  ],
+  "top30_patterns": {
+    "avg_duration_min": 27.0,
+    "median_duration_min": 9.1,
+    "avg_title_length": 59.0,
+    "avg_tags": 14.0,
+    "pct_8k_hq_format": 100.0,
+    "pct_bracket_8k": 0.0,
+    "pct_episode_numbers": 17.0,
+    "dominant_category": "1 (Film & Animation)",
+    "best_upload_day": "Monday (11/30 top videos)",
+    "common_title_elements": [
+      "Year in parentheses e.g. (1929)",
+      "8K HQ (4K UHD) suffix",
+      "Genre descriptor (Horror, Silent, Comedy, Classic)",
+      "Full Movie for feature films",
+      "Character/series name first"
+    ]
+  },
+  "worst30_patterns": {
+    "avg_duration_min": 17.5,
+    "common_issues": [
+      "[8K] bracket format instead of '8K HQ (4K UHD)' - 30% of worst30",
+      "DUPE prefix - 6 of worst 30",
+      "Category 27 (Education) instead of Category 1 - 12 of worst 30",
+      "Music/Soundie category (Cat 10) - niche with no audience",
+      "Porky Pig and lesser-known Betty Boop episodes",
+      "Wochenschau without compelling title hooks",
+      "Missing year in title",
+      "No genre descriptors"
+    ]
+  },
+  "promotion_candidates": [
+    {
+      "id": "UHS1MqpTng8",
+      "title": "Alfred J. Kwak (E03) Hinter Gittern | DE | 8K HQ (4K UHD)",
+      "views": 16,
+      "engagement_rate": 0.1875,
+      "completion_proxy": 0.1875,
+      "reason": "High engagement + completion proxy but low absolute views - strong signal for promotion"
+    },
+    {
+      "id": "DO8dSN4aAB4",
+      "title": "Nuremberg Trials: Nazi Concentration Camps (1945) [8K]",
+      "views": 12,
+      "engagement_rate": 0.16667,
+      "completion_proxy": 0.16667,
+      "reason": "High engagement + completion proxy but low absolute views - strong signal for promotion"
+    },
+    {
+      "id": "mDSdzFc572Y",
+      "title": "What This Country Needs - Soundie (1940s) [8K]",
+      "views": 6,
+      "engagement_rate": 0.16667,
+      "completion_proxy": 0.16667,
+      "reason": "High engagement + completion proxy but low absolute views - strong signal for promotion"
+    },
+    {
+      "id": "-WW6MO7XkLo",
+      "title": "Balloon Land (1935) [8K]",
+      "views": 7,
+      "engagement_rate": 0.14286,
+      "completion_proxy": 0.14286,
+      "reason": "High engagement + completion proxy but low absolute views - strong signal for promotion"
+    },
+    {
+      "id": "LnNGWC0OJcE",
+      "title": "Betty Boop: The Trial (1934) [8K]",
+      "views": 11,
+      "engagement_rate": 0.18182,
+      "completion_proxy": 0.09091,
+      "reason": "High engagement + completion proxy but low absolute views - strong signal for promotion"
+    },
+    {
+      "id": "xGFY3lScQuA",
+      "title": "Alfred J. Kwak E11: Der Mensch ist los! | 8K HQ (4K UHD)",
+      "views": 17,
+      "engagement_rate": 0.11765,
+      "completion_proxy": 0.11765,
+      "reason": "High engagement + completion proxy but low absolute views - strong signal for promotion"
+    },
+    {
+      "id": "l_Qy2Kt1dKg",
+      "title": "Alfred J. Kwak (26): Der Schneemensch | 8K HQ (4K UHD)",
+      "views": 18,
+      "engagement_rate": 0.11111,
+      "completion_proxy": 0.11111,
+      "reason": "High engagement + completion proxy but low absolute views - strong signal for promotion"
+    },
+    {
+      "id": "D1WD7sS637k",
+      "title": "The Most Disturbing Soviet Experiment Ever Filmed | 8K HQ (4K UHD)",
+      "views": 9,
+      "engagement_rate": 0.11111,
+      "completion_proxy": 0.11111,
+      "reason": "High engagement + completion proxy but low absolute views - strong signal for promotion"
+    },
+    {
+      "id": "ezYIk8bReaE",
+      "title": "The Skeleton Dance (1929) | 8K HQ (4K UHD)",
+      "views": 14,
+      "engagement_rate": 0.14286,
+      "completion_proxy": 0.07143,
+      "reason": "High engagement + completion proxy but low absolute views - strong signal for promotion"
+    },
+    {
+      "id": "Y28BihR4fkk",
+      "title": "Alfred J. Kwak (E49) Der Regenbogen | DE | 8K HQ (4K UHD)",
+      "views": 18,
+      "engagement_rate": 0.16667,
+      "completion_proxy": 0.05556,
+      "reason": "High engagement + completion proxy but low absolute views - strong signal for promotion"
+    }
+  ],
+  "immediate_actions": [
+    {
+      "priority": 1,
+      "action": "Rename all DUPE videos or set to private - 6 videos with 0 views wasting catalog space",
+      "effort": "LOW",
+      "impact": "Cleans up channel, prevents confusion"
+    },
+    {
+      "priority": 2,
+      "action": "Re-title all [8K] bracket videos to use '8K HQ (4K UHD)' format - 68 videos affected",
+      "effort": "MEDIUM",
+      "impact": "Potentially +5600% views/day based on format comparison"
+    },
+    {
+      "priority": 3,
+      "action": "Move Wochenschau videos from Category 27 to Category 1 (Film & Animation)",
+      "effort": "LOW",
+      "impact": "+361% avg views/day based on category comparison"
+    },
+    {
+      "priority": 4,
+      "action": "Complete Superman series (7 remaining episodes)",
+      "effort": "MEDIUM",
+      "impact": "Series averages 15.19 vpd - proven winner"
+    },
+    {
+      "priority": 5,
+      "action": "Upload more Felix the Cat episodes using consistent numbering",
+      "effort": "MEDIUM",
+      "impact": "Series averages 19.83 vpd - highest performing series"
+    },
+    {
+      "priority": 6,
+      "action": "Create Community Posts promoting top 10 high-engagement underperformers",
+      "effort": "LOW",
+      "impact": "These videos have proven audience appeal but lack discovery"
+    },
+    {
+      "priority": 7,
+      "action": "Upload public domain horror feature films (Phantom of the Opera, Hunchback of Notre Dame)",
+      "effort": "HIGH",
+      "impact": "Horror classics dominate top 30 - White Zombie, Nosferatu, Cabinet of Caligari all 25+ vpd"
+    },
+    {
+      "priority": 8,
+      "action": "Add 'Full Movie' tag to all feature-length uploads",
+      "effort": "LOW",
+      "impact": "Full Movie tag averages 21.0 vpd vs channel avg 4.9"
+    },
+    {
+      "priority": 9,
+      "action": "Consider uploading Disney PD content (pre-1929) - Skeleton Dance at 419 vpd is #1",
+      "effort": "HIGH",
+      "impact": "Disney brand recognition drives massive organic search"
+    },
+    {
+      "priority": 10,
+      "action": "Promote Alfred J. Kwak episodes via German-language Community Posts",
+      "effort": "LOW",
+      "impact": "Extremely high engagement rates (8-18%) suggest devoted niche audience"
+    }
+  ],
+  "title_formula": {
+    "optimal_template": "[Character/Series Name] ([Episode X/Y]): [Episode Title] ([Year]) | [Genre] | [Full Movie if applicable] | 8K HQ (4K UHD)",
+    "examples": [
+      "Felix the Cat (16/175): Felix Saves the Day (1922) | Silent Animation | 8K HQ (4K UHD)",
+      "Nosferatu (1922) | F.W. Murnau | Silent Horror | Full Movie | 8K HQ (4K UHD)",
+      "Superman (11/17): The Mechanical Monsters (1941) | Fleischer | 8K HQ (4K UHD)"
+    ],
+    "rules": [
+      "50-70 characters ideal",
+      "Always include year in parentheses",
+      "Always end with '8K HQ (4K UHD)' - NEVER use [8K]",
+      "Add genre descriptor: Horror, Silent, Comedy, Classic, Animation",
+      "Use 'Full Movie' for feature-length films",
+      "Include episode numbering (X/Y) for series",
+      "Lead with recognizable character/series name"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-12-25T20:30:22.576698",
+  "mode": "dry-run",
+  "fixed": 3,
+  "skipped": 0,
+  "errors": 0,
+  "stats": {
+    "videos_fixed": 3
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "date": "2026-02-19T22:40:37.238453",
+  "mode": "APPLY",
+  "total": 28,
+  "updated": 27,
+  "dry_run": 0,
+  "errors": 1,
+  "quota_used": 1378,
+  "results": [
+    {
+      "id": "q1RBXjC1AbA",
+      "title": "Wochenschau 556: Athens Occupied (30.04.1941) | 8K HQ (4K UHD)",
+      "category": "wochenschau",
+      "added_lang": "en",
+      "new_title": "Wochenschau 556: Athens Occupied (30.04.1941) | 8K HQ (4K UHD)",
+      "status": "updated"
+    },
+    {
+      "id": "CL5jxw0L0M8",
+      "title": "Alfred J. Kwak (E08) Der Spion | DE | 8K HQ (4K UHD)",
+      "category": "alfred",
+      "added_lang": "en",
+      "new_title": "Alfred J. Kwak (E08) The Spy | EN | 8K HQ (4K UHD)",
+      "status": "updated"
+    },
+    {
+      "id": "k0rYJmDH2kc",
+      "title": "Alfred J. Kwak (E13) Haltet den Dieb! | DE | 8K HQ (4K UHD)",
+      "category": "alfred",
+      "added_lang": "en",
+      "new_title": "Alfred J. Kwak (E13) Stop the Thief! | EN | 8K HQ (4K UHD)",
+      "status": "updated"
+    },
+    {
+      "id": "yNbh1PBUTSA",
+      "title": "Wochenschau 555: Greece Victory (23.04.1941) | 8K HQ (4K UHD)",
+      "category": "wochenschau",
+      "added_lang": "en",
+      "new_title": "Wochenschau 555: Greece Victory (23.04.1941) | 8K HQ (4K UHD)",
+      "status": "updated"
+    },
+    {
+      "id": "OOBufXFyuvg",
+      "title": "Wochenschau 565: Eastern Advance (02.07.1941) | 8K HQ (4K UHD)",
+      "category": "wochenschau",
+      "added_lang": "en",
+      "new_title": "Wochenschau 565: Eastern Advance (02.07.1941) | 8K HQ (4K UHD)",
+      "status": "updated"
+    },
+    {
+      "id": "qGzRqmiOcNw",
+      "title": "Alfred J. Kwak (E38) Krach mit den Nachbarn | DE | 8K HQ (4K UHD)",
+      "category": "alfred",
+      "added_lang": "en",
+      "new_title": "Alfred J. Kwak (E38) Trouble with the Neighbours | EN | 8K HQ (4K UHD)",
+      "status": "updated"
+    },
+    {
+      "id": "ea5LQn-BJQs",
+      "title": "Alfred J. Kwak (E11) Der Mensch ist los! | DE | 8K HQ (4K UHD)",
+      "category": "alfred",
+      "added_lang": "en",
+      "new_title": "Alfred J. Kwak (E11) Humans Are on the Loose! | EN | 8K HQ (4K UHD)",
+      "status": "updated"
+    },
+    {
+      "id": "Y28BihR4fkk",
+      "title": "Alfred J. Kwak (E49) Der Regenbogen | DE | 8K HQ (4K UHD)",
+      "category": "alfred",
+      "added_lang": "en",
+      "new_title": "Alfred J. Kwak (E49) The Rainbow | EN | 8K HQ (4K UHD)",
+      "status": "updated"
+    },
+    {
+      "id": "FjvUAUsQi8Q",
+      "title": "Alfred J. Kwak (E10) Der Geist in der Flasche | DE | 8K HQ (4K UHD)",
+      "category": "alfred",
+      "added_lang": "en",
+      "new_title": "Alfred J. Kwak (E10) The Genie in the Bottle | EN | 8K HQ (4K UHD)",
+      "status": "updated"
+    },
+    {
+      "id": "GpYO8Yel0WY",
+      "title": "Alfred J. Kwak (E36) Michael Duckson | DE | 8K HQ (4K UHD)",
+      "category": "alfred",
+      "added_lang": "en",
+      "new_title": "Alfred J. Kwak (E36) Michael Duckson | EN | 8K HQ (4K UHD)",
+      "status": "updated"
+    },
+    {
+      "id": "Hto044hFaZ4",
+      "title": "Alfred J. Kwak (E01) Hurra, er ist da! | DE | 8K HQ (4K UHD)",
+      "category": "alfred",
+      "added_lang": "en",
+      "new_title": "Alfred J. Kwak (E01) Hello, I'm Alfred! | EN | 8K HQ (4K UHD)",
+      "status": "updated"
+    },
+    {
+      "id": "x7u-1DcabiE",
+      "title": "Alfred J. Kwak (E17) Rettung aus dem All | DE | 8K HQ (4K UHD)",
+      "category": "alfred",
+      "added_lang": "en",
+      "new_title": "Alfred J. Kwak (E17) Rescue from Outer Space | EN | 8K HQ (4K UHD)",
+      "status": "updated"
+    },
+    {
+      "id": "4Nu91xa9_eY",
+      "title": "Alfred J. Kwak (E16) Die Reise zum Südpol | DE | 8K HQ (4K UHD)",
+      "category": "alfred",
+      "added_lang": "en",
+      "new_title": "Alfred J. Kwak (E16) The Journey to the South Pole | EN | 8K HQ (4K UHD)",
+      "status": "updated"
+    },
+    {
+      "id": "I1Hqb1mGlzU",
+      "title": "Alfred J. Kwak (E18) Im ewigen Eis | DE | 8K HQ (4K UHD)",
+      "category": "alfred",
+      "added_lang": "en",
+      "new_title": "Alfred J. Kwak (E18) In the Eternal Ice | EN | 8K HQ (4K UHD)",
+      "status": "updated"
+    },
+    {
+      "id": "KaIC0B-xYBg",
+      "title": "Der 7. Sinn: Frauen am Steuer - Teil 1 (1970s) | 8K HQ (4K UHD)",
+      "category": "7sinn",
+      "added_lang": "en",
+      "new_title": "The 7th Sense: Women at the Wheel - Part 1 (1970s) | 8K HQ (4K UHD)",
+      "status": "updated"
+    },
+    {
+      "id": "HyaZLqdMS9k",
+      "title": "Der 7. Sinn: Frauen am Steuer - Teil 3 (1970s) | 8K HQ (4K UHD)",
+      "category": "7sinn",
+      "added_lang": "en",
+      "new_title": "The 7th Sense: Women at the Wheel - Part 3 (1970s) | 8K HQ (4K UHD)",
+      "status": "updated"
+    },
+    {
+      "id": "OWT520VIjxI",
+      "title": "Skylab Space Station (1973) | NASA | 8K HQ (4K UHD)",
+      "category": "nasa",
+      "added_lang": "de",
+      "new_title": "Skylab Raumstation (1973) | NASA | 8K HQ (4K UHD)",
+      "status": "updated"
+    },
+    {
+      "id": "DMV0tGHgfG0",
+      "title": "Krtek E24: Der Maulwurf und das Weihnachtsfest (1975) | 8K HQ (4K UHD)",
+      "category": "krtek",
+      "added_lang": "en",
+      "new_title": "Krtek 24: The Mole and the Christmas (1975) | 8K HQ (4K UHD)",
+      "status": "updated"
+    },
+    {
+      "id": "ySxErhBGbx0",
+      "title": "Apollo 11: Descent & Landing (1969) | NASA Archive | 8K HQ (4K UHD)",
+      "category": "nasa",
+      "added_lang": "de",
+      "new_title": "Apollo 11: Abstieg und Landung (1969) | NASA Archive | 8K HQ (4K UHD)",
+      "status": "update_error",
+      "error": "<HttpError 503 when requesting https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2Clocalizations&alt=json returned \"The service is currently unavailable.\". Details: \"[{'message': 'The service is currently unavailable.', 'domain': 'global', 'reason': 'backendError'}]\">"
+    },
+    {
+      "id": "fqIV8eZRJyE",
+      "title": "Krtek E42: Der Maulwurf und die Überschwemmung (1997) | 8K HQ (4K UHD)",
+      "category": "krtek",
+      "added_lang": "en",
+      "new_title": "Krtek 42: The Mole and the Flood (1997) | 8K HQ (4K UHD)",
+      "status": "updated"
+    },
+    {
+      "id": "_SXNNnFHzqc",
+      "title": "Krtek E23: Der Maulwurf in der Wüste (1975) | 8K HQ (4K UHD)",
+      "category": "krtek",
+      "added_lang": "en",
+      "new_title": "Krtek 23: The Mole in the Desert (1975) | 8K HQ (4K UHD)",
+      "status": "updated"
+    },
+    {
+      "id": "-Gz34LVx90U",
+      "title": "Skylab 2: Launch (1973) | NASA Archive | 8K HQ (4K UHD)",
+      "category": "nasa",
+      "added_lang": "de",
+      "new_title": "Skylab 2: Start (1973) | NASA Archive | 8K HQ (4K UHD)",
+      "status": "updated"
+    },
+    {
+      "id": "p-98Kku-tB4",
+      "title": "Krtek E43: Der Maulwurf und der Schneemann (1997) | 8K HQ (4K UHD)",
+      "category": "krtek",
+      "added_lang": "en",
+      "new_title": "Krtek 43: The Mole and the Snowman (1997) | 8K HQ (4K UHD)",
+      "status": "updated"
+    },
+    {
+      "id": "MV82Fm6Ma4A",
+      "title": "Apollo 11 Moonwalk (1969) | NASA | Full Movie | 8K HQ (4K UHD)",
+      "category": "nasa",
+      "added_lang": "de",
+      "new_title": "Apollo 11 Mondspaziergang (1969) | NASA | Full Movie | 8K HQ (4K UHD)",
+      "status": "updated"
+    },
+    {
+      "id": "W_VhuNn-5nY",
+      "title": "BraveStarr (4/65): Skuzz and Fuzz (1987) | 8K HQ (4K UHD)",
+      "category": "bravestarr",
+      "added_lang": "en",
+      "new_title": "BraveStarr (4/65): Skuzz and Fuzz (1987) | 8K HQ (4K UHD)",
+      "status": "updated"
+    },
+    {
+      "id": "w5Yyyp0H6vo",
+      "title": "Alfred J. Kwak / Quack – Zeichentrickserie Trailer | 8K HQ (4K UHD)",
+      "category": "alfred_trailer",
+      "added_lang": "en",
+      "new_title": "Alfred J. Kwak / Quack – Animated Series Trailer | 8K HQ (4K UHD)",
+      "status": "updated"
+    },
+    {
+      "id": "Ot4M_FexpnQ",
+      "title": "BraveStarr Intro | 8K HQ (4K UHD) | Deutsch",
+      "category": "bravestarr_intro",
+      "added_lang": "en",
+      "new_title": "BraveStarr Intro | 8K HQ (4K UHD) | English",
+      "status": "updated"
+    },
+    {
+      "id": "XU7yM4H5vrY",
+      "title": "BraveStarr: Das Musikfestival (1/65) | Deutsch | 8K HQ (4K UHD)",
+      "category": "bravestarr",
+      "added_lang": "en",
+      "new_title": "BraveStarr: New Texas Blues (1/65) | English | 8K HQ (4K UHD)",
+      "status": "updated"
+    }
+  ]
+}

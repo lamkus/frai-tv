@@ -1,0 +1,35 @@
+{
+  "blocked_episodes": [
+    {
+      "nr": 459,
+      "event": "Pre-War Europe (Jun 1939)",
+      "blocked_at": "2026-02-24T21:00:00",
+      "reason": "Videodaten entdeckt, die einer anderen Person gehören - Copyright-Warnung beim Abspielen",
+      "action": "Stream bekam Copyright-Warnung",
+      "status": "BLOCKED",
+      "notes": "Erste Episode in Playlist - sofort Copyright-Warnung bekommen. MUSS geskippt werden."
+    },
+    {
+      "nr": 513,
+      "event": "Channel Islands (Jul 1940)",
+      "blocked_at": "2026-02-24T~18:20:00",
+      "reason": "Videodaten entdeckt, die einer anderen Person gehören",
+      "action": "Stream wurde vorübergehend gesperrt",
+      "status": "BLOCKED",
+      "notes": "Block kam während Live-Rotation. Genaue Episode: Nr. 513 Channel Islands (war die Episode VOR Nr. 514 Berlin Parade). Stream war bei ~6:58h elapsed."
+    }
+  ],
+  "strike_log": [
+    {
+      "date": "2026-02-24",
+      "time": "~18:20",
+      "type": "copyright_block",
+      "episode_nr": 513,
+      "message": "Dein Stream wurde vorübergehend gesperrt, weil wir Videodaten entdeckt haben, die einer anderen Person gehören.",
+      "impact": "Stream unterbrochen während Peak Watchtime",
+      "resolution": "Stream wurde neu gestartet (FEHLER: hätte nicht restarten sollen, waren im Run)"
+    }
+  ],
+  "notes": "Bei zukünftigen Blocks: NUR NOTIEREN, NICHT RESTARTEN! Der Stream soll weiterlaufen.",
+  "last_updated": "2026-02-24T18:30:00"
+}

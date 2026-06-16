@@ -1,4 +1,5 @@
 import { mkdir, rm, writeFile } from 'node:fs/promises';
+import { readFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
@@ -81,6 +82,16 @@ const CAT_BLURB = {
 };
 const blurbFor = (cat) => CAT_BLURB[cat] || CAT_BLURB.other;
 
+// ── Research enrichment: real history + production location per series (SEO/GEO + AI citation) ──
+let SERIES_ENRICH = [];
+try {
+  SERIES_ENRICH = JSON.parse(readFileSync(resolve(__dirname, '../../../config/series_enrichment.json'), 'utf8'));
+} catch {
+  /* enrichment optional */
+}
+const CAT_TO_SERIES_IDX = { wochenschau: 0, betty_boop: 1, superman: 2, felix: 3, popeye: 4, casper: 5, soundies: 6, alfred: 7, maulwurf: 9 };
+const research = (cat) => SERIES_ENRICH[CAT_TO_SERIES_IDX[cat] ?? 8] || null;
+
 const stripYear = (title = '') =>
   // Avoid "(1940s) (1940)" doubling: if title already carries a year/parenthetical year, don't append.
   /\(\d{4}s?\)/.test(title);
@@ -125,6 +136,9 @@ function bodyProse(video, ev) {
       `Die Fassung wurde von remAIke.IT mit KI auf 8K (4K UHD) hochskaliert und restauriert — schärfer und klarer als die üblichen Online-Versionen. Kostenlos in voller Länge auf YouTube oder im Kontext der Reihe auf frai.tv.`
     );
   }
+  const r = research(video.cat);
+  if (r && r.history) paras.push(htmlEscape(r.history));
+  if (r && r.production_location) paras.push(`<em>Produktion / Production:</em> ${htmlEscape(r.production_location)}.`);
   return paras.map((p) => `      <p>${p}</p>`).join('\n');
 }
 

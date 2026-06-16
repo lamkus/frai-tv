@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "date": "2026-01-19",
+    "total": 18,
+    "success": 18,
+    "failed": 0
+  },
+  "updates": [
+    {
+      "success": true,
+      "video_id": "mReDNz-Exdk",
+      "artist": "Yvonne De Carlo",
+      "song": "Lamp of Memory",
+      "tags_added": 15
+    },
+    {
+      "success": true,
+      "video_id": "GerP7_evS9o",
+      "artist": "The Three Suns",
+      "song": "Beyond the Blue Horizon",
+      "tags_added": 15
+    },
+    {
+      "success": true,
+      "video_id": "OvBqUlzTunI",
+      "artist": "Thelma White & Her All-Girl Orchestra",
+      "song": "Hollywood Boogie",
+      "tags_added": 15
+    },
+    {
+      "success": true,
+      "video_id": "D-LL4VuR5Pg",
+      "artist": "The Mel-Tones",
+      "song": "Lullaby of Broadway",
+      "tags_added": 15
+    },
+    {
+      "success": true,
+      "video_id": "w82vzaGBqwE",
+      "artist": "The Three Canadian Capers",
+      "song": "A Little Robin Told Me So",
+      "tags_added": 15
+    },
+    {
+      "success": true,
+      "video_id": "6XVj6G3qNYY",
+      "artist": "Harry Day, Della & The June Taylor Girls",
+      "song": "Jiveroo",
+      "tags_added": 15
+    },
+    {
+      "success": true,
+      "video_id": "NAk0QvvaT7M",
+      "artist": "Lane Truesdale & The Kingsmen",
+      "song": "Who's Yehudi",
+      "tags_added": 15
+    },
+    {
+      "success": true,
+      "video_id": "340C9lsoyYk",
+      "artist": "Ginger Harmon",
+      "song": "Tica Ti Tica Ta",
+      "tags_added": 15
+    },
+    {
+      "success": true,
+      "video_id": "oA7XcqVM1Vo",
+      "artist": "Carolyn Marsh",
+      "song": "I Can't Give You Anything But Love",
+      "tags_added": 15
+    },
+    {
+      "success": true,
+      "video_id": "mDSdzFc572Y",
+      "artist": "The Singing Powers Models",
+      "song": "What This Country Needs",
+      "tags_added": 15
+    },
+    {
+      "success": true,
+      "video_id": "LJp-M01OI-8",
+      "artist": "Rosalie Allen",
+      "song": "Chime Bells",
+      "tags_added": 15
+    },
+    {
+      "success": true,
+      "video_id": "rprpMDyTWRI",
+      "artist": "Gai Moran & Danny Hocktor",
+      "song": "Zig Me Baby with a Gentle Zag",
+      "tags_added": 15
+    },
+    {
+      "success": true,
+      "video_id": "Z2SxppvCWvE",
+      "artist": "Ray Kinney",
+      "song": "Hawaiian Hula Song",
+      "tags_added": 15
+    },
+    {
+      "success": true,
+      "video_id": "2yGX3wy-4SQ",
+      "artist": "Maya",
+      "song": "Havana Madrid Show",
+      "tags_added": 15
+    },
+    {
+      "success": true,
+      "video_id": "hAs6lunYl-E",
+      "artist": "Billy Burt",
+      "song": "A Jazz Etude",
+      "tags_added": 15
+    },
+    {
+      "success": true,
+      "video_id": "DHogGPBbzRI",
+      "artist": "All-Girl Orchestra",
+      "song": "Sweet Sue (Just You)",
+      "tags_added": 15
+    },
+    {
+      "success": true,
+      "video_id": "A8LWgWF5f5k",
+      "artist": "The King's Men",
+      "song": "The Hut-Sut Song",
+      "tags_added": 15
+    },
+    {
+      "success": true,
+      "video_id": "HvwtRYp43eU",
+      "artist": "Unknown Female Vocalist",
+      "song": "Got to Be This or That",
+      "tags_added": 15
+    }
+  ]
+}

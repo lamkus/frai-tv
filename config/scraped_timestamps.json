@@ -1,0 +1,755 @@
+{
+  "timestamp": "2026-01-10T03:55:22.044Z",
+  "quotaUsed": 2522,
+  "found": [
+    {
+      "ourVideoId": "6A2_RKWP2X4",
+      "ourTitle": "Superman (1/17): Superman (1941) | 8K HQ | @remAIke_IT",
+      "source": {
+        "channelTitle": "FFF Best Ever | Full Family Films",
+        "videoId": "fjnupJIo0JQ",
+        "videoTitle": "THE COMPLETE ORIGINAL SUPERMAN TOONS - REMASTERED 4K HDR | Golden Age Fleisher Series"
+      },
+      "timestamps": [
+        {
+          "time": "00:30",
+          "label": "Superman (September 26, 1941) [4K HDR]"
+        },
+        {
+          "time": "10:01",
+          "label": "The Mechanical Monsters (November 28, 1941) [4K HDR]"
+        },
+        {
+          "time": "19:21",
+          "label": "Billion Dollar Limited (January 9, 1942) [4K HDR]"
+        },
+        {
+          "time": "26:59",
+          "label": "The Arctic Giant (February 27, 1942) [4K HDR]"
+        },
+        {
+          "time": "34:41",
+          "label": "The Bulleteers (March 27, 1942) [4K HDR]"
+        },
+        {
+          "time": "41:57",
+          "label": "The Magnetic Telescope (April 24, 1942) [4K HDR]"
+        },
+        {
+          "time": "48:50",
+          "label": "Electric Earthquake (May 15, 1942) [4K HDR]"
+        },
+        {
+          "time": "56:47",
+          "label": "Volcano (July 10, 1942) [4K HDR]"
+        },
+        {
+          "time": "01:03:58",
+          "label": "Terror on the Midway (August 30, 1942) [4K HDR]"
+        },
+        {
+          "time": "01:11:33",
+          "label": "Japoteurs (September 18, 1942) [4K HDR]"
+        },
+        {
+          "time": "01:19:54",
+          "label": "Showdown (October 16, 1942) [4K HDR]"
+        },
+        {
+          "time": "01:27:37",
+          "label": "Eleventh Hour (November 20, 1942) [4K HDR]"
+        },
+        {
+          "time": "01:35:42",
+          "label": "Destruction, Inc. (December 25, 1942) [4K HDR]"
+        },
+        {
+          "time": "01:43:37",
+          "label": "The Mummy Strikes (February 19, 1943) [4K HDR]"
+        },
+        {
+          "time": "01:50:46",
+          "label": "Jungle Drums (March 26, 1943) [4K HDR]"
+        },
+        {
+          "time": "01:58:53",
+          "label": "The Underground World (June 18, 1943) [4K HDR]"
+        },
+        {
+          "time": "02:06:28",
+          "label": "Secret Agent (July 30, 1943) [4K HDR]"
+        }
+      ]
+    },
+    {
+      "ourVideoId": "WGpVyRoQpF4",
+      "ourTitle": "The New Deal Show (1937) | Betty Boop | 8K HQ (4K UHD) | @re",
+      "source": {
+        "channelTitle": "Betty Boop in Color HD",
+        "channelId": "UCcEimaYEgRFXym732tGy9eA",
+        "videoId": "gaWN1tVZdqw",
+        "videoTitle": "Betty Boop MARATHON 😻 | (Betty Boop Cartoon) | 1936-1937 | 2,5 HOUR Marathon",
+        "viewCount": 780191
+      },
+      "timestamps": [
+        {
+          "time": "0:00",
+          "label": "Betty Boop - A Song A Day  (1936)"
+        },
+        {
+          "time": "6:56",
+          "label": "Betty Boop - Be Human (1936)"
+        },
+        {
+          "time": "13:19",
+          "label": "Betty Boop - Grampy's Indoor Outing (1936)"
+        },
+        {
+          "time": "19:22",
+          "label": "Betty Boop - Happy You and Merry Me  (1936)"
+        },
+        {
+          "time": "26:02",
+          "label": "Betty Boop - Training Pigeons (1936)"
+        },
+        {
+          "time": "32:29",
+          "label": "Betty Boop - We Did It  (1936)"
+        },
+        {
+          "time": "38:15",
+          "label": "Betty Boop - Betty Boop and Little Jimmy (1936)"
+        },
+        {
+          "time": "43:52",
+          "label": "Betty Boop and Pudgy - Not Now (1936)"
+        },
+        {
+          "time": "50:12",
+          "label": "Betty Boop and Pudgy - Making Friends (1936)"
+        },
+        {
+          "time": "57:03",
+          "label": "Betty Boop And The Little King (1936)"
+        },
+        {
+          "time": "1:03:12",
+          "label": "Betty Boop - More Pep (1936)"
+        },
+        {
+          "time": "1:08:45",
+          "label": "Betty Boop - You're Not Built That Way (1936)"
+        },
+        {
+          "time": "1:15:39",
+          "label": "Betty Boop - Whoops Im A Cowboy (1937)"
+        },
+        {
+          "time": "1:21:55",
+          "label": "Betty Boop - House Cleaning Blues (1937)"
+        },
+        {
+          "time": "1:28:06",
+          "label": "Betty Boop - Ding Dong Doggie  (1937)"
+        },
+        {
+          "time": "1:34:31",
+          "label": "Betty Boop - Pudgy Takes a Bow Wow (1937)"
+        },
+        {
+          "time": "1:40:44",
+          "label": "Betty Boop - The candid candidate (1937)"
+        },
+        {
+          "time": "1:46:43",
+          "label": "Betty Boop - The Hot Air Salesman (1937)"
+        },
+        {
+          "time": "1:52:14",
+          "label": "Betty Boop - The Impractical Joker (1937)"
+        },
+        {
+          "time": "1:58:26",
+          "label": "Betty Boop - Pudgy Picks A Fight (1937)"
+        },
+        {
+          "time": "2:05:23",
+          "label": "Betty Boop - Service with a Smile  (1937)"
+        },
+        {
+          "time": "2:12:27",
+          "label": "Betty Boop - The Foxy Hunter (1937)"
+        },
+        {
+          "time": "2:19:35",
+          "label": "Betty Boop - The New Deal Show (1937)"
+        },
+        {
+          "time": "2:26:14",
+          "label": "Betty Boop - Zula Hula (1937)"
+        }
+      ],
+      "searchQuery": "The New Deal Show (1937) | Betty Boop"
+    },
+    {
+      "ourVideoId": "zrsfdqdmU18",
+      "ourTitle": "The Swing School (1938) | Betty Boop | 8K HQ (4K UHD) | @rem",
+      "source": {
+        "channelTitle": "8thManDVD.com™ Cartoon Channel",
+        "channelId": "UCRL3LmQvt3G0d5UFnLPUKNA",
+        "videoId": "iTVaKNhIB0c",
+        "videoTitle": "The Biggest Betty Boop Compilation | Grampy, Talkartoons and more! | Mae Questel",
+        "viewCount": 2572293
+      },
+      "timestamps": [
+        {
+          "time": "0:00",
+          "label": "Dizzy Dishes (1930)"
+        },
+        {
+          "time": "6:23",
+          "label": "Boop-Oop-a-Doop (1932)"
+        },
+        {
+          "time": "14:49",
+          "label": "The Old Man of the Mountain (1933)"
+        },
+        {
+          "time": "21:41",
+          "label": "Parade of the Wooden Soldiers (1933)"
+        },
+        {
+          "time": "29:47",
+          "label": "She Wronged Him Right (1934)"
+        },
+        {
+          "time": "36:20",
+          "label": "Red Hot Mamma (1934)"
+        },
+        {
+          "time": "42:47",
+          "label": "Betty Boop's Rise to Fame (1934)"
+        },
+        {
+          "time": "51:35",
+          "label": "Poor Cinderella (1934) (Color)"
+        },
+        {
+          "time": "1:02:08",
+          "label": "There's Something About a Soldier (1934)"
+        },
+        {
+          "time": "1:08:50",
+          "label": "Keep in Style (1934)"
+        },
+        {
+          "time": "1:15:03",
+          "label": "When My Ship Comes In (1934)"
+        },
+        {
+          "time": "1:21:32",
+          "label": "Baby Be Good (1935)"
+        },
+        {
+          "time": "1:29:22",
+          "label": "Be Human (1936)"
+        },
+        {
+          "time": "1:35:42",
+          "label": "Not Now (1936)"
+        },
+        {
+          "time": "1:42:04",
+          "label": "We Did It (1936)"
+        },
+        {
+          "time": "1:47:58",
+          "label": "The Impractical Joker (1937)"
+        },
+        {
+          "time": "1:54:08",
+          "label": "The Foxy Hunter (1937)"
+        },
+        {
+          "time": "2:01:27",
+          "label": "Zula Hula (1937)"
+        },
+        {
+          "time": "2:08:03",
+          "label": "Riding the Rails (1938)"
+        },
+        {
+          "time": "2:14:09",
+          "label": "The Swing School (1938)"
+        },
+        {
+          "time": "2:20:45",
+          "label": "Pudgy the Watchman (1938)"
+        },
+        {
+          "time": "2:27:58",
+          "label": "Sally Swing (1938)"
+        }
+      ],
+      "searchQuery": "The Swing School (1938) | Betty Boop"
+    },
+    {
+      "ourVideoId": "NYwqBuab170",
+      "ourTitle": "The Foxy Hunter (1937) | Betty Boop | 8K HQ (4K UHD) | @remA",
+      "source": {
+        "channelTitle": "8thManDVD.com™ Cartoon Channel",
+        "channelId": "UCRL3LmQvt3G0d5UFnLPUKNA",
+        "videoId": "iTVaKNhIB0c",
+        "videoTitle": "The Biggest Betty Boop Compilation | Grampy, Talkartoons and more! | Mae Questel",
+        "viewCount": 2572293
+      },
+      "timestamps": [
+        {
+          "time": "0:00",
+          "label": "Dizzy Dishes (1930)"
+        },
+        {
+          "time": "6:23",
+          "label": "Boop-Oop-a-Doop (1932)"
+        },
+        {
+          "time": "14:49",
+          "label": "The Old Man of the Mountain (1933)"
+        },
+        {
+          "time": "21:41",
+          "label": "Parade of the Wooden Soldiers (1933)"
+        },
+        {
+          "time": "29:47",
+          "label": "She Wronged Him Right (1934)"
+        },
+        {
+          "time": "36:20",
+          "label": "Red Hot Mamma (1934)"
+        },
+        {
+          "time": "42:47",
+          "label": "Betty Boop's Rise to Fame (1934)"
+        },
+        {
+          "time": "51:35",
+          "label": "Poor Cinderella (1934) (Color)"
+        },
+        {
+          "time": "1:02:08",
+          "label": "There's Something About a Soldier (1934)"
+        },
+        {
+          "time": "1:08:50",
+          "label": "Keep in Style (1934)"
+        },
+        {
+          "time": "1:15:03",
+          "label": "When My Ship Comes In (1934)"
+        },
+        {
+          "time": "1:21:32",
+          "label": "Baby Be Good (1935)"
+        },
+        {
+          "time": "1:29:22",
+          "label": "Be Human (1936)"
+        },
+        {
+          "time": "1:35:42",
+          "label": "Not Now (1936)"
+        },
+        {
+          "time": "1:42:04",
+          "label": "We Did It (1936)"
+        },
+        {
+          "time": "1:47:58",
+          "label": "The Impractical Joker (1937)"
+        },
+        {
+          "time": "1:54:08",
+          "label": "The Foxy Hunter (1937)"
+        },
+        {
+          "time": "2:01:27",
+          "label": "Zula Hula (1937)"
+        },
+        {
+          "time": "2:08:03",
+          "label": "Riding the Rails (1938)"
+        },
+        {
+          "time": "2:14:09",
+          "label": "The Swing School (1938)"
+        },
+        {
+          "time": "2:20:45",
+          "label": "Pudgy the Watchman (1938)"
+        },
+        {
+          "time": "2:27:58",
+          "label": "Sally Swing (1938)"
+        }
+      ],
+      "searchQuery": "The Foxy Hunter (1937) | Betty Boop"
+    },
+    {
+      "ourVideoId": "XvuABgCE8NQ",
+      "ourTitle": "Betty Boop (27/105): Museum (1932) | 8K HQ (4K UHD) | Best O",
+      "source": {
+        "channelTitle": "Betty Boop in Color HD",
+        "channelId": "UCcEimaYEgRFXym732tGy9eA",
+        "videoId": "bAVpWvRbLBs",
+        "videoTitle": "Betty Boop MARATHON 🤩| (Betty Boop Cartoon) | 1932",
+        "viewCount": 77254
+      },
+      "timestamps": [
+        {
+          "time": "0:00",
+          "label": "Betty Boop - Boop Oop A Doop (1932)"
+        },
+        {
+          "time": "08:19",
+          "label": "Betty Boop - Ill Be Glad When Youre Dead You Rascal You  (1932)"
+        },
+        {
+          "time": "15:19",
+          "label": "Betty Boop - Minnie The Moocher  (1932)"
+        },
+        {
+          "time": "23:02",
+          "label": "Betty Boop - Stopping The Show  (1932)"
+        },
+        {
+          "time": "30:45",
+          "label": "Betty Boop for President (1932)"
+        },
+        {
+          "time": "37:03",
+          "label": "Betty Boop - Hunting we will go (1932)"
+        },
+        {
+          "time": "44:05",
+          "label": "Betty Boop - Any Rags (1932)"
+        },
+        {
+          "time": "49:55",
+          "label": "Screen Songs - Just One More Chance (1932)"
+        },
+        {
+          "time": "53:57",
+          "label": "Screen Songs - Oh! How I Hate to Get Up in the Morning (1932)"
+        },
+        {
+          "time": "1:01:17",
+          "label": "Screen Songs - Time on My Hands (1932)"
+        },
+        {
+          "time": "1:09:56",
+          "label": "Betty Boop - The Dancing Fool (1932)"
+        },
+        {
+          "time": "1:16:52",
+          "label": "Betty Boop - Wait Till The Sun Shines Nellie (1932)"
+        }
+      ],
+      "searchQuery": "Betty Boop Museum (1932) betty boop full cartoon"
+    },
+    {
+      "ourVideoId": "I8R0mmVKXm4",
+      "ourTitle": "Betty Boop (24/105): Ups and Downs (1932) | 8K HQ (4K UHD) |",
+      "source": {
+        "channelTitle": "ⳝⲟⲅυⲏя 𝓐𝓶𝓲 𝓞𝓷𝓾𝓴𝓲",
+        "channelId": "UCaRtvuWcdi-jDEeOILvo1Gw",
+        "videoId": "U2K6r3-bJfo",
+        "videoTitle": "Betty Boop but out of context NOT FOR KIDS (13+)",
+        "viewCount": 483
+      },
+      "timestamps": [
+        {
+          "time": "0:00",
+          "label": "Crazy Town (1932)"
+        },
+        {
+          "time": "0:06",
+          "label": "A Hounding We Will go (1932)"
+        },
+        {
+          "time": "0:13",
+          "label": "Barnacle Bill(1930)"
+        },
+        {
+          "time": "0:18",
+          "label": "Mysterious Mose (1930)"
+        },
+        {
+          "time": "0:25",
+          "label": "Bimbo’s Express (1931)"
+        },
+        {
+          "time": "0:40",
+          "label": "The Bum Bandit (1930)"
+        },
+        {
+          "time": "0:47",
+          "label": "Bimbo’s Express (1931)"
+        },
+        {
+          "time": "0:57",
+          "label": "Betty Boop Limited (1932)"
+        },
+        {
+          "time": "1:14",
+          "label": "Ups and Downs(1933)"
+        },
+        {
+          "time": "1:29",
+          "label": "Bimbo’s Express"
+        },
+        {
+          "time": "1:36",
+          "label": "Betty Boop M.D (1932)"
+        },
+        {
+          "time": "1:54",
+          "label": "Mask-A-Raid(1931)"
+        },
+        {
+          "time": "2:08",
+          "label": "Red Riding Hood (1931)"
+        },
+        {
+          "time": "2:31",
+          "label": "Silly Scandals (1931)"
+        },
+        {
+          "time": "2:42",
+          "label": "Minding The Baby (1931)"
+        },
+        {
+          "time": "2:57",
+          "label": "Barnacle Bill (1930)"
+        },
+        {
+          "time": "3:06",
+          "label": "Betty Boop Medical Doctor(AGAIN!)"
+        },
+        {
+          "time": "3:47",
+          "label": "Bimbo’s Express (1931) (AGAIN!)"
+        },
+        {
+          "time": "3:58",
+          "label": "Mask-A-Raid (1931)(AGAIN!)"
+        },
+        {
+          "time": "4:09",
+          "label": "Bimbo’s initiation (1931)"
+        },
+        {
+          "time": "4:17",
+          "label": "Mask-A-Raid (1931) (ÆĞÆËN!)"
+        },
+        {
+          "time": "4:43",
+          "label": "Minnie The Moocher (1932)"
+        },
+        {
+          "time": "4:49",
+          "label": "The Bum Bandit (1930)"
+        },
+        {
+          "time": "4:52",
+          "label": "Mysterious Mose (1930)(AGAIN!)"
+        },
+        {
+          "time": "4:59",
+          "label": "Barnacle Bill (1930) (Again!)"
+        },
+        {
+          "time": "5:06",
+          "label": "Bimbo’s Initiation (1931)(Again!)"
+        },
+        {
+          "time": "5:28",
+          "label": "The Bum Bandit (1930)(ÆĞÆËÏÑ)"
+        },
+        {
+          "time": "5:36",
+          "label": "Any Rags?(1932)"
+        },
+        {
+          "time": "5:44",
+          "label": "Crazy Town (1932)"
+        },
+        {
+          "time": "5:49",
+          "label": "Chess-Nuts(1932)"
+        },
+        {
+          "time": "5:54",
+          "label": "Crazy Town(1932) (AGAIN!)"
+        },
+        {
+          "time": "6:05",
+          "label": "Betty Boop Limited(1932)"
+        },
+        {
+          "time": "6:09",
+          "label": "Bamboo Isle (1933)"
+        },
+        {
+          "time": "6:29",
+          "label": "Betty Boop’s crazy inventions (1933)"
+        },
+        {
+          "time": "6:48",
+          "label": "Is My Palm Read(1933)"
+        },
+        {
+          "time": "7:04",
+          "label": "Snow White (1933)"
+        },
+        {
+          "time": "7:13",
+          "label": "The Old Man Of The Mountain (1932)"
+        }
+      ],
+      "searchQuery": "Betty Boop Ups and Downs (1932)"
+    },
+    {
+      "ourVideoId": "83CK1R2S1AY",
+      "ourTitle": "Betty Boop (79/105): Service with a Smile (1937) | 8K HQ | @",
+      "source": {
+        "channelTitle": "Betty Boop in Color HD",
+        "channelId": "UCcEimaYEgRFXym732tGy9eA",
+        "videoId": "gaWN1tVZdqw",
+        "videoTitle": "Betty Boop MARATHON 😻 | (Betty Boop Cartoon) | 1936-1937 | 2,5 HOUR Marathon",
+        "viewCount": 780191
+      },
+      "timestamps": [
+        {
+          "time": "0:00",
+          "label": "Betty Boop - A Song A Day  (1936)"
+        },
+        {
+          "time": "6:56",
+          "label": "Betty Boop - Be Human (1936)"
+        },
+        {
+          "time": "13:19",
+          "label": "Betty Boop - Grampy's Indoor Outing (1936)"
+        },
+        {
+          "time": "19:22",
+          "label": "Betty Boop - Happy You and Merry Me  (1936)"
+        },
+        {
+          "time": "26:02",
+          "label": "Betty Boop - Training Pigeons (1936)"
+        },
+        {
+          "time": "32:29",
+          "label": "Betty Boop - We Did It  (1936)"
+        },
+        {
+          "time": "38:15",
+          "label": "Betty Boop - Betty Boop and Little Jimmy (1936)"
+        },
+        {
+          "time": "43:52",
+          "label": "Betty Boop and Pudgy - Not Now (1936)"
+        },
+        {
+          "time": "50:12",
+          "label": "Betty Boop and Pudgy - Making Friends (1936)"
+        },
+        {
+          "time": "57:03",
+          "label": "Betty Boop And The Little King (1936)"
+        },
+        {
+          "time": "1:03:12",
+          "label": "Betty Boop - More Pep (1936)"
+        },
+        {
+          "time": "1:08:45",
+          "label": "Betty Boop - You're Not Built That Way (1936)"
+        },
+        {
+          "time": "1:15:39",
+          "label": "Betty Boop - Whoops Im A Cowboy (1937)"
+        },
+        {
+          "time": "1:21:55",
+          "label": "Betty Boop - House Cleaning Blues (1937)"
+        },
+        {
+          "time": "1:28:06",
+          "label": "Betty Boop - Ding Dong Doggie  (1937)"
+        },
+        {
+          "time": "1:34:31",
+          "label": "Betty Boop - Pudgy Takes a Bow Wow (1937)"
+        },
+        {
+          "time": "1:40:44",
+          "label": "Betty Boop - The candid candidate (1937)"
+        },
+        {
+          "time": "1:46:43",
+          "label": "Betty Boop - The Hot Air Salesman (1937)"
+        },
+        {
+          "time": "1:52:14",
+          "label": "Betty Boop - The Impractical Joker (1937)"
+        },
+        {
+          "time": "1:58:26",
+          "label": "Betty Boop - Pudgy Picks A Fight (1937)"
+        },
+        {
+          "time": "2:05:23",
+          "label": "Betty Boop - Service with a Smile  (1937)"
+        },
+        {
+          "time": "2:12:27",
+          "label": "Betty Boop - The Foxy Hunter (1937)"
+        },
+        {
+          "time": "2:19:35",
+          "label": "Betty Boop - The New Deal Show (1937)"
+        },
+        {
+          "time": "2:26:14",
+          "label": "Betty Boop - Zula Hula (1937)"
+        }
+      ],
+      "searchQuery": "Betty Boop Service with a Smile (1937)"
+    }
+  ],
+  "notFound": [
+    {
+      "id": "Fjb-aAUetX0",
+      "title": "8K Betty Page in Teaserama (1955) | HQ Restored Burlesque Ar",
+      "series": "betty_boop"
+    },
+    {
+      "id": "ihaeGBIJMAE",
+      "title": "The Old Man of the Mountain (1933) | Betty Boop | 8K HQ (4K ",
+      "series": "betty_boop"
+    },
+    {
+      "id": "IA6GAvGK32E",
+      "title": "The Betty Boop Limited (1932) | Betty Boop | 8K HQ (4K UHD) ",
+      "series": "betty_boop"
+    },
+    {
+      "id": "LJX_WL5ABAU",
+      "title": "Betty Boop (31/105): Penthouse (1933) | 8K HQ (4K UHD) | Bes",
+      "series": "betty_boop"
+    }
+  ]
+}

@@ -1,0 +1,735 @@
+{
+  "timestamp": "2026-02-10T09:50:38.446825",
+  "mode": "applied",
+  "total_videos": 366,
+  "clean": 277,
+  "needs_fix": 72,
+  "private": 17,
+  "issue_breakdown": {
+    "R7_too": 45,
+    "R9_wrong": 3,
+    "R3_title": 20,
+    "R12_low": 8,
+    "R5_no": 1
+  },
+  "fixed": [
+    {
+      "id": "h6rDmu7FBzo",
+      "title": "Bettie Page Dancing in 8K Will Leave You SPEECHLESS 🔥",
+      "issues": [
+        "R5_no_website",
+        "R7_too_many_hashtags_12",
+        "R12_low_i18n_1_langs"
+      ],
+      "fixes_applied": [
+        "add_links",
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "ZglrHGrG_oY",
+      "title": "Teaserama (1955) Short: Trudy Wayne | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_11",
+        "R12_low_i18n_1_langs"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "_9GLuLakxgw",
+      "title": "You've Never Seen 1955 Burlesque Look This Good Until Now #Shorts #8K",
+      "issues": [
+        "R7_too_many_hashtags_11",
+        "R12_low_i18n_1_langs"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "gVsamT781zU",
+      "title": "Teaserama (1955) Short: Chris La Chris | BLUR | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_11",
+        "R12_low_i18n_1_langs"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "yIQCHpjp4NE",
+      "title": "Batman & Robin Meet Santa Claus (1966) | 8K HQ",
+      "issues": [
+        "R3_title_too_long_83"
+      ],
+      "fixes_applied": [
+        "title"
+      ]
+    },
+    {
+      "id": "3gzbxznJ_PM",
+      "title": "Popeye Movie Marathon | 4K Fleischer Studios | 8K HQ",
+      "issues": [
+        "R3_title_too_long_84"
+      ],
+      "fixes_applied": [
+        "title"
+      ]
+    },
+    {
+      "id": "WSjkAZkPbKs",
+      "title": "Coca-Cola Christmas Trucks (1995) | EPIC | 8K HQ",
+      "issues": [
+        "R3_title_too_long_83"
+      ],
+      "fixes_applied": [
+        "title"
+      ]
+    },
+    {
+      "id": "o33-c1riv4U",
+      "title": "Wochenschau 459: Pre-War Era (Jun 1939) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "PzbAE96bG1Q",
+      "title": "Hawaiian Birds (1936) | Fleischer Color Classic | 8K HQ",
+      "issues": [
+        "R3_title_too_long_83"
+      ],
+      "fixes_applied": [
+        "title"
+      ]
+    },
+    {
+      "id": "EpzJcD6zkvs",
+      "title": "Suzy Snowflake (1953) | Christmas Classic | 8K HQ",
+      "issues": [
+        "R3_title_too_long_83"
+      ],
+      "fixes_applied": [
+        "title"
+      ]
+    },
+    {
+      "id": "U-WD47NSgAE",
+      "title": "Coca-Cola Christmas Trucks (1995) | 8K HQ",
+      "issues": [
+        "R3_title_too_long_83"
+      ],
+      "fixes_applied": [
+        "title"
+      ]
+    },
+    {
+      "id": "dGD2CeoZX68",
+      "title": "A Christmas Carol (1984) | George C. Scott | 8K HQ",
+      "issues": [
+        "R3_title_too_long_82"
+      ],
+      "fixes_applied": [
+        "title"
+      ]
+    },
+    {
+      "id": "bhnnR0WX_X0",
+      "title": "Boxing Cats (1894) | Edison | World's First Cat Video | 8K HQ",
+      "issues": [
+        "R9_wrong_category_28_should_be_1"
+      ],
+      "fixes_applied": [
+        "categoryId"
+      ]
+    },
+    {
+      "id": "iRzeiRoAsj4",
+      "title": "Wochenschau 477: Poland Occupied (Oct 1939) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "S31f7FuEvXw",
+      "title": "Wochenschau 522: Berlin Retaliation (Sep 1940) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "fNCZYqnK3Cc",
+      "title": "Wochenschau 523: London Blitz (Sep 1940) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "jGz1kC1Z69A",
+      "title": "Wochenschau 746: Ardennes Offensive (Dec 1944) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "tVD8197vAyE",
+      "title": "Wochenschau 573: Kiev Battle (Aug 1941) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "0sO7jVL43yQ",
+      "title": "Wochenschau 652: Kharkov III (Mar 1943) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "0sO7jVL43yQ",
+      "title": "Wochenschau 652: Kharkov III (Mar 1943) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "DLifkhU0q1w",
+      "title": "Wochenschau 488: Phoney War (Jan 1940) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "W-UcQleew8Y",
+      "title": "Wochenschau 721: Bagration Begins (Jun 1944) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "6wop-BU_XME",
+      "title": "Wochenschau 547: Africa Campaign (Feb 1941) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "N7WPQUjFJjA",
+      "title": "Wochenschau 482: Winter War Begins (Nov 1939) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "g8215791a7I",
+      "title": "Wochenschau 513: Channel Islands (Jul 1940) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "6K-MuUu6L44",
+      "title": "Wochenschau 720: V1 Attacks (Jun 1944) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "hvdNZy8AciI",
+      "title": "Casper: True Boo (1952) | 8K HQ",
+      "issues": [
+        "R3_title_too_long_78"
+      ],
+      "fixes_applied": [
+        "title"
+      ]
+    },
+    {
+      "id": "Qn7Nvx7eWz4",
+      "title": "Wochenschau 483: Winter War (Dec 1939) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "fC0MlizsAQQ",
+      "title": "Wochenschau 508: Dunkirk Pocket (May 1940) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "H_n_mS-eKps",
+      "title": "Wochenschau 754: Dresden Bombed (Feb 1945) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "2uHl4LYN8O8",
+      "title": "Wochenschau 509: Dunkirk Evacuation (Jun 1940) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "7st-GFEwdWQ",
+      "title": "Wochenschau 514: Berlin Parade (Jul 1940) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "1mVWh_B6_00",
+      "title": "Little Lambkins (1940) | Fleischer Color Classic | 8K HQ",
+      "issues": [
+        "R3_title_too_long_83"
+      ],
+      "fixes_applied": [
+        "title"
+      ]
+    },
+    {
+      "id": "s5d9cAM6REo",
+      "title": "Wochenschau 543: Africa Corps (Jan 1941) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "wEMKHQPopHY",
+      "title": "Wochenschau 550: Yugoslavia Crisis (Mar 1941) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "ZuD1fAyGiUw",
+      "title": "Wochenschau 548: Bulgaria Joins Axis (Mar 1941) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "w2UvksMOs3c",
+      "title": "Wochenschau 750: Vistula Offensive (Jan 1945) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "vkCoIJGAf3E",
+      "title": "Wochenschau 515: Battle of Britain (Jul 1940) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "7bqlAPsgzAQ",
+      "title": "Wochenschau 545: Africa Offensive (Feb 1941) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "Yj_QcM9Ce28",
+      "title": "Wochenschau 518: Channel Battles (Aug 1940) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "dYBzf5V1TjI",
+      "title": "Wochenschau 654: Tunisia Battles (Mar 1943) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "J3LWOLaxuCc",
+      "title": "Wochenschau 542: Tobruk Falls (Jan 1941) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "xblc6reUMr0",
+      "title": "Wochenschau 512: French Armistice (Jun 1940) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "6YLPpJLgVXk",
+      "title": "Wochenschau 751: Eastern Collapse (Jan 1945) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "iEEvt-s1XhQ",
+      "title": "Wochenschau 753: Yalta Conference (Feb 1945) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "MXE3TqsT2oE",
+      "title": "Old Mother Hubbard (1935) | ComiColor | 8K HQ",
+      "issues": [
+        "R3_title_too_long_83"
+      ],
+      "fixes_applied": [
+        "title"
+      ]
+    },
+    {
+      "id": "fVp_aVBZhak",
+      "title": "Gabby: King for a Day (1940) | Fleischer | 8K HQ",
+      "issues": [
+        "R3_title_too_long_83"
+      ],
+      "fixes_applied": [
+        "title"
+      ]
+    },
+    {
+      "id": "9AgSJyMnxi8",
+      "title": "Atomic Bomb Newsreel (1946) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "7yfdqylo9qs",
+      "title": "Wochenschau 519: Eagle Day (Aug 1940) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "3AtirtgrfUI",
+      "title": "Wochenschau 473: Fall of Warsaw (Sep 1939) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "lxrwknLmRl4",
+      "title": "Deleted Porky Pig Episode Restored to 8K | 8K HQ",
+      "issues": [
+        "R3_title_too_long_71"
+      ],
+      "fixes_applied": [
+        "title"
+      ]
+    },
+    {
+      "id": "a5VVGGHPlsg",
+      "title": "Wochenschau 502: Norway Invasion (Apr 1940) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "9muRRAleqdA",
+      "title": "Wochenschau 471: Poland Campaign (Sep 1939) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "bZkUPQHqyfg",
+      "title": "Wochenschau 722: Bagration (Jul 1944) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "eF81rBeXbzk",
+      "title": "Hindenburg Disaster (1937) | Full Documentary | 8K HQ",
+      "issues": [
+        "R9_wrong_category_1_should_be_27"
+      ],
+      "fixes_applied": [
+        "categoryId"
+      ]
+    },
+    {
+      "id": "4VO2weDCfi0",
+      "title": "The Little Stranger (1936) | Fleischer Classic | 8K HQ",
+      "issues": [
+        "R3_title_too_long_80"
+      ],
+      "fixes_applied": [
+        "title"
+      ]
+    },
+    {
+      "id": "eBzXzhNYppQ",
+      "title": "Wochenschau 544: Rommel Arrives (Feb 1941) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "t-VIxJaWE74",
+      "title": "Wochenschau 470: War Begins (Sep 1939) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "YbC2JynVCRA",
+      "title": "A Bill of Divorcement (1932) | Hepburn | 8K HQ",
+      "issues": [
+        "R3_title_too_long_83"
+      ],
+      "fixes_applied": [
+        "title"
+      ]
+    },
+    {
+      "id": "i2mRp5iMxoo",
+      "title": "Wochenschau 520: Battle Peak (Aug 1940) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "dAp7JFDhE3U",
+      "title": "Wochenschau 468: Nazi-Soviet Pact (Aug 1939) | 8K HQ (4K UHD)",
+      "issues": [
+        "R7_too_many_hashtags_17"
+      ],
+      "fixes_applied": [
+        "trim_hashtags"
+      ]
+    },
+    {
+      "id": "dCCl4JxrlF8",
+      "title": "Betty Boop: Minnie the Moocher (1932) | 8K HQ",
+      "issues": [
+        "R3_title_too_long_87"
+      ],
+      "fixes_applied": [
+        "title"
+      ]
+    },
+    {
+      "id": "Ucub3igzk2U",
+      "title": "Dick Whittington's Cat (1935) | ComiColor | 8K HQ",
+      "issues": [
+        "R3_title_too_long_83"
+      ],
+      "fixes_applied": [
+        "title"
+      ]
+    },
+    {
+      "id": "Zu_iBCd5NJc",
+      "title": "Biological Warfare: What You Should Know (1952) | 8K HQ",
+      "issues": [
+        "R3_title_too_long_83"
+      ],
+      "fixes_applied": [
+        "title"
+      ]
+    },
+    {
+      "id": "1yiNR69g0qA",
+      "title": "My Girl Loves a Sailor | Soundie | 8K HQ",
+      "issues": [
+        "R3_title_too_long_71"
+      ],
+      "fixes_applied": [
+        "title"
+      ]
+    },
+    {
+      "id": "xoCvBUIaqwg",
+      "title": "Betty Boop: Pudgy the Watchman (1938) | 8K HQ",
+      "issues": [
+        "R3_title_too_long_87"
+      ],
+      "fixes_applied": [
+        "title"
+      ]
+    },
+    {
+      "id": "zouf8VMUeCo",
+      "title": "Betty Boop: Out of the Inkwell (1938) | 8K HQ",
+      "issues": [
+        "R3_title_too_long_87"
+      ],
+      "fixes_applied": [
+        "title"
+      ]
+    },
+    {
+      "id": "wAkUnHRxwT8",
+      "title": "Livestream von remAIke_IT | 8K HQ (4K UHD)",
+      "issues": [
+        "R9_wrong_category_25_should_be_24"
+      ],
+      "fixes_applied": [
+        "categoryId"
+      ]
+    }
+  ],
+  "failed": [],
+  "skipped": [],
+  "manual_review": [
+    {
+      "id": "eX5cbYwNvnI",
+      "title": "Betty Boop (19/105): Betty Boop Limited (1932) | 8K HQ (4K UHD)",
+      "issues": [
+        "R12_low_i18n_1_langs"
+      ]
+    },
+    {
+      "id": "A8LWgWF5f5k",
+      "title": "The Hut-Sut Song (1940s) | Soundie | 8K HQ (4K UHD)",
+      "issues": [
+        "R12_low_i18n_1_langs"
+      ]
+    },
+    {
+      "id": "TWodj8k8-zU",
+      "title": "Alfred J. Kwak (29/52): Die Burengänse | 8K HQ (4K UHD)",
+      "issues": [
+        "R12_low_i18n_1_langs"
+      ]
+    },
+    {
+      "id": "D1WD7sS637k",
+      "title": "The Most Disturbing Soviet Experiment Ever Filmed | 8K HQ (4K UHD)",
+      "issues": [
+        "R12_low_i18n_1_langs"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "scan_date": "2026-03-31",
+  "public": 436,
+  "private": 20,
+  "total_views": 254863,
+  "no_loc": 30,
+  "few_tags": 2,
+  "many_tags": 5,
+  "short_desc": 1,
+  "no_deflang": 0,
+  "issues_count": 31,
+  "issues": [
+    {
+      "id": "3rB80OGKzrg",
+      "title": "Wochenschau 511: Paris Falls (19.06.1940) | 8K HQ (4K UHD)",
+      "views": 159,
+      "issues": [
+        "TAGS:20"
+      ],
+      "locs": 5,
+      "tags": 20,
+      "desc_len": 2089
+    },
+    {
+      "id": "PI1iAvZGlxo",
+      "title": "#1",
+      "views": 139,
+      "issues": [
+        "NO_LOC",
+        "TAGS:0",
+        "DESC:11"
+      ],
+      "locs": 1,
+      "tags": 0,
+      "desc_len": 11
+    },
+    {
+      "id": "57TykeHQYwU",
+      "title": 

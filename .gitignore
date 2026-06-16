@@ -51,3 +51,28 @@ task_*
 # IndexNow local helpers
 code/frontend/.indexnow-key
 code/frontend/indexnow-urls.json
+
+# --- Secrets / tokens (NEVER commit) ---
+config/youtube_oauth.json
+config/client_secret.json
+config/token.json
+config/token.pickle
+config/*oauth*
+config/*secret*
+config/*token*
+config/*credential*
+config/reauth_*.py
+
+# --- Browser profile / caches ---
+config/.playwright_profile/
+**/.playwright_profile/
+
+# --- Generated thumbnails / temp renders ---
+thumbnails_pilot/
+_*.png
+_*.html
+corepop_*.png
+pill_zoom.png
+*_sitemap_locs.txt
+render_corepop.py
+*.xlsx

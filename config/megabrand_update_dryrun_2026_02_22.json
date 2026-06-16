@@ -1,0 +1,91 @@
+{
+  "date": "2026-02-22T11:59:34.843942",
+  "mode": "dry_run",
+  "total": 10,
+  "success": 10,
+  "errors": 0,
+  "wochenschau_premium": 10,
+  "quota_used": 0,
+  "results": [
+    {
+      "id": "st3OhIheE_0",
+      "title": "Wochenschau 554: Belgrade Falls (16.04.1941) | 8K HQ (4K UHD)",
+      "category": "wochenschau",
+      "old_len": 758,
+      "new_len": 1164,
+      "status": "dry_run"
+    },
+    {
+      "id": "cBaedrKsyuE",
+      "title": "Wochenschau 553: Balkans Campaign (09.04.1941) | 8K HQ (4K UHD)",
+      "category": "wochenschau",
+      "old_len": 744,
+      "new_len": 1150,
+      "status": "dry_run"
+    },
+    {
+      "id": "tzqJDt8ASiE",
+      "title": "Wochenschau 752: Auschwitz Liberated (31.01.1945) | 8K HQ (4K UHD)",
+      "category": "wochenschau",
+      "old_len": 761,
+      "new_len": 1167,
+      "status": "dry_run"
+    },
+    {
+      "id": "A4XcS4mOvaU",
+      "title": "History WochenschauTV : Deutsche Wochenschau (1939-1945) | 4K HQ",
+      "category": "wochenschau",
+      "old_len": 1511,
+      "new_len": 1687,
+      "status": "dry_run"
+    },
+    {
+      "id": "Bf04muRRRh4",
+      "title": "History WochenschauTV : Deutsche Wochenschau (1939-1945) | 4K HQ",
+      "category": "wochenschau",
+      "old_len": 1511,
+      "new_len": 1687,
+      "status": "dry_run"
+    },
+    {
+      "id": "2HZx5FumOo8",
+      "title": "Wochenschau 552: Belgrade Coup (02.04.1941) | 8K HQ (4K UHD)",
+      "category": "wochenschau",
+      "old_len": 2166,
+      "new_len": 2350,
+      "status": "dry_run"
+    },
+    {
+      "id": "Yhz7gsTVqNA",
+      "title": "Wochenschau 567: Smolensk Pocket (16.07.1941) | 8K HQ (4K UHD)",
+      "category": "wochenschau",
+      "old_len": 2172,
+      "new_len": 2356,
+      "status": "dry_run"
+    },
+    {
+      "id": "6Mh7zjUCmHw",
+      "title": "Wochenschau 749: Ardennes Fails (10.01.1945) | 8K HQ (4K UHD)",
+      "category": "wochenschau",
+      "old_len": 2173,
+      "new_len": 2357,
+      "status": "dry_run"
+    },
+    {
+      "id": "suxhPHyaQHU",
+      "title": "Wochenschau 569: Kiev Encirclement (30.07.1941) | 8K HQ (4K UHD)",
+      "category": "wochenschau",
+      "old_len": 2190,
+      "new_len": 2374,
+      "status": "dry_run"
+    },
+    {
+      "id": "q1RBXjC1AbA",
+      "title": "Wochenschau 556: Athens Occupied (30.04.1941) | 8K HQ (4K UHD)",
+      "category": "wochenschau",
+      "old_len": 1079,
+      "new_len": 1259,
+      "status": "dry_run"
+    }
+  ]
+}

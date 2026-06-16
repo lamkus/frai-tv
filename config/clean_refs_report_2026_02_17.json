@@ -1,0 +1,293 @@
+{
+  "date": "2026-02-17T20:13:12.551313",
+  "mode": "applied",
+  "total": 31,
+  "success": 31,
+  "errors": 0,
+  "warnings": 0,
+  "quota_used": 1550,
+  "results": [
+    {
+      "id": "rqWucYVxqTA",
+      "title": "Alfred J. Kwak (E04) Im Brunnen gefangen | DE | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "NvwmtSLyCE4",
+      "title": "Alfred J. Kwak (E31) Die Bohrinsel | DE | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "I1Hqb1mGlzU",
+      "title": "Alfred J. Kwak (E18) Im ewigen Eis | DE | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "MlzpyJ6CyHw",
+      "title": "Krtek E63: Der Maulwurf und der kleine Frosch (2002) | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "UsppP3mPwHM",
+      "title": "Krtek E18: Der Maulwurf als Uhrmacher (1974) | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "KaIC0B-xYBg",
+      "title": "Der 7. Sinn: Frauen am Steuer - Teil 1 (1970s) | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned",
+        "TAGS: removed {'ard'}"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "SYY31eEbYiQ",
+      "title": "Der 7. Sinn: Frauen am Steuer (1970s) | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned",
+        "TAGS: removed {'wdr', 'ard'}"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "qGzRqmiOcNw",
+      "title": "Alfred J. Kwak (E38) Krach mit den Nachbarn | DE | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "ts5qtXqneq8",
+      "title": "Krtek E13: Der Maulwurf als Maler (1972) | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "oWZ5BmJVsxI",
+      "title": "Alfred J. Kwak (E20) Der Alptraum | DE | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "Hto044hFaZ4",
+      "title": "Alfred J. Kwak (E01) Hurra, er ist da! | DE | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "j4aBiGJcEY8",
+      "title": "Krtek E21: Der Maulwurf als Fotograf (1975) | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "FjvUAUsQi8Q",
+      "title": "Alfred J. Kwak (E10) Der Geist in der Flasche | DE | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "wjpCNxf5SsY",
+      "title": "Krtek E16: Der Maulwurf und die Streichhölzer (1974) | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "HyaZLqdMS9k",
+      "title": "Der 7. Sinn: Frauen am Steuer - Teil 3 (1970s) | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned",
+        "TAGS: removed {'ard'}"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "x7u-1DcabiE",
+      "title": "Alfred J. Kwak (E17) Rettung aus dem All | DE | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "ea5LQn-BJQs",
+      "title": "Alfred J. Kwak (E11) Der Mensch ist los! | DE | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "wtq09EZfO20",
+      "title": "Krtek E08: Der Maulwurf als Gärtner (1969) | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "8aeRL4PwSVI",
+      "title": "Alfred J. Kwak (E48) Eine Partie Golf | DE | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "UHS1MqpTng8",
+      "title": "Alfred J. Kwak (E03) Hinter Gittern | DE | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "EZxjMpAY9Wk",
+      "title": "Krtek E59: Der Maulwurf und die Quelle (1999) | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "ghhyzR9NSLE",
+      "title": "Alfred J. Kwak (E19) Rettet die Wale! | DE | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "3GM123aC4bE",
+      "title": "Krtek E20: Der Maulwurf und das Hühnerei (1975) | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "xG_2AhK-sVI",
+      "title": "Krtek E03: Der Maulwurf und die Rakete (1965) | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "Dg6eQNIY_Ys",
+      "title": "Alfred J. Kwak (E37) Die Entführung | DE | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "is5qVIkr6Vo",
+      "title": "Alfred J. Kwak (E02) Böse Überraschung | DE | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "GpYO8Yel0WY",
+      "title": "Alfred J. Kwak (E36) Michael Duckson | DE | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "4Nu91xa9_eY",
+      "title": "Alfred J. Kwak (E16) Die Reise zum Südpol | DE | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "Y28BihR4fkk",
+      "title": "Alfred J. Kwak (E49) Der Regenbogen | DE | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "6MElwMSiT0E",
+      "title": "Krtek Clip: Der Maulwurf und der Frosch (1998) | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    },
+    {
+      "id": "tMaYrApYlxc",
+      "title": "Krtek E60: Der Maulwurf und die Flöte (1999) | 8K HQ (4K UHD)",
+      "changes": [
+        "DESC: cleaned"
+      ],
+      "status": "success",
+      "remaining_refs": []
+    }
+  ]
+}

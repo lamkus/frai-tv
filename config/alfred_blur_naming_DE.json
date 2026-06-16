@@ -1,0 +1,573 @@
+{
+  "_info": {
+    "description": "YouTube-Titel für Alfred J. Kwak WIDESCREEN Blur-Rand Versionen (Deutsch)",
+    "format": "4:3 → 16:9 mit unscharfem Rand (Blur Border)",
+    "language": "DE",
+    "created": "2026-02-17",
+    "verified_source": "Wikipedia DE (Stand 08.02.2026) + Datei-Inventar V:\\MediaArchive\\Alfred\\",
+    "title_pattern": "Alfred J. Kwak (E{broadcast_nr}) {title} | DE | 8K HQ (4K UHD)",
+    "playlist_name": "Alfred J. Kwak | DE | Widescreen 16:9",
+    "numbering": "BROADCAST (Wikipedia/ZDF) — NICHT Datei-Nummern!",
+    "format_differentiator": "Widescreen/16:9 in Playlist-Name + Description, NICHT im Titel (zu lang)",
+    "notes": [
+      "BROADCAST-Nr ≠ File-Nr ab E35!",
+      "File-Nummern sind fortlaufend (ohne Lücken), Broadcast hat Lücken",
+      "Bestehende YouTube-Uploads (4:3) verwenden File-Nummern → FALSCH ab E35!",
+      "E50 'Das Casino' auf YouTube ist die EINZIGE korrekte Broadcast-Nummer",
+      "Kwak UND Quack in Tags + Description, nicht im Titel (Platz!)",
+      "KEIN @remAIke_IT im Titel (SEO-Regel)"
+    ]
+  },
+  "file_to_broadcast_mapping": {
+    "_comment": "Datei-Nr → Broadcast-Nr (nur wo sie abweichen, ab File 35)",
+    "35": 36,
+    "36": 37,
+    "37": 38,
+    "38": 40,
+    "39": 41,
+    "40": 42,
+    "41": 43,
+    "42": 44,
+    "43": 48,
+    "44": 49,
+    "45": 50,
+    "46": 51
+  },
+  "summary": {
+    "total_episodes": 52,
+    "enhanced_sls_files": 36,
+    "ready_for_blur": 36,
+    "raw_needs_topaz": 1,
+    "topaz_failed_temp": 4,
+    "no_file": 11,
+    "episodes_with_file": [
+      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 27, 28,
+      29, 31, 32, 36, 37, 38, 40, 41, 42, 43, 44, 48, 49, 50, 51
+    ],
+    "episodes_without_file": [22, 24, 30, 33, 34, 35, 39, 45, 46, 47, 52]
+  },
+  "episodes": [
+    {
+      "broadcast_nr": 1,
+      "file_nr": 1,
+      "title_de": "Hurra, er ist da!",
+      "youtube_title": "Alfred J. Kwak (E01) Hurra, er ist da! | DE | 8K HQ (4K UHD)",
+      "chars": 62,
+      "source_file": "01 - Hurra, er ist da!_sls.mov",
+      "status": "ready"
+    },
+    {
+      "broadcast_nr": 2,
+      "file_nr": 2,
+      "title_de": "Böse Überraschung",
+      "youtube_title": "Alfred J. Kwak (E02) Böse Überraschung | DE | 8K HQ (4K UHD)",
+      "chars": 62,
+      "source_file": "02 - Böse Überraschung_sls.mov",
+      "status": "ready"
+    },
+    {
+      "broadcast_nr": 3,
+      "file_nr": 3,
+      "title_de": "Hinter Gittern",
+      "youtube_title": "Alfred J. Kwak (E03) Hinter Gittern | DE | 8K HQ (4K UHD)",
+      "chars": 59,
+      "source_file": "03 - Hinter Gittern_sls.mov",
+      "status": "ready"
+    },
+    {
+      "broadcast_nr": 4,
+      "file_nr": 4,
+      "title_de": "Im Brunnen gefangen",
+      "youtube_title": "Alfred J. Kwak (E04) Im Brunnen gefangen | DE | 8K HQ (4K UHD)",
+      "chars": 64,
+      "source_file": "04 - Im Brunnen gefangen_sls.mov",
+      "status": "ready"
+    },
+    {
+      "broadcast_nr": 5,
+      "file_nr": 5,
+      "title_de": "In letzter Sekunde",
+      "youtube_title": "Alfred J. Kwak (E05) In letzter Sekunde | DE | 8K HQ (4K UHD)",
+      "chars": 63,
+      "source_file": "05 - In letzter Sekunde_sls.mov",
+      "status": "ready"
+    },
+    {
+      "broadcast_nr": 6,
+      "file_nr": 6,
+      "title_de": "Olympiade",
+      "youtube_title": "Alfred J. Kwak (E06) Olympiade | DE | 8K HQ (4K UHD)",
+      "chars": 54,
+      "source_file": "06 - Olympiade_sls.mov",
+      "status": "ready"
+    },
+    {
+      "broadcast_nr": 7,
+      "file_nr": 7,
+      "title_de": "Abenteuer auf hoher See",
+      "youtube_title": "Alfred J. Kwak (E07) Abenteuer auf hoher See | DE | 8K HQ (4K UHD)",
+      "chars": 68,
+      "source_file": "07 - Abenteuer auf hoher See_sls.mov",
+      "status": "ready"
+    },
+    {
+      "broadcast_nr": 8,
+      "file_nr": 8,
+      "title_de": "Der Spion",
+      "youtube_title": "Alfred J. Kwak (E08) Der Spion | DE | 8K HQ (4K UHD)",
+      "chars": 54,
+      "source_file": "08 - Der Spion_sls.mov",
+      "status": "ready"
+    },
+    {
+      "broadcast_nr": 9,
+      "file_nr": 9,
+      "title_de": "Ein gefährliches Geschenk",
+      "youtube_title": "Alfred J. Kwak (E09) Ein gefährliches Geschenk | DE | 8K HQ (4K UHD)",
+      "chars": 70,
+      "source_file": "09 - Ein gefährliches Geschenk_sls.mov",
+      "status": "ready"
+    },
+    {
+      "broadcast_nr": 10,
+      "file_nr": 10,
+      "title_de": "Der Geist in der Flasche",
+      "youtube_title": "Alfred J. Kwak (E10) Der Geist in der Flasche | DE | 8K HQ (4K UHD)",
+      "chars": 69,
+      "source_file": "10 - Der Geist in der Flasche_sls.mov",
+      "status": "ready"
+    },
+    {
+      "broadcast_nr": 11,
+      "file_nr": 11,
+      "title_de": "Der Mensch ist los!",
+      "youtube_title": "Alfred J. Kwak (E11) Der Mensch ist los! | DE | 8K HQ (4K UHD)",
+      "chars": 64,
+      "source_file": "11 - Der Mensch ist los!_sls.mov",
+      "status": "ready"
+    },
+    {
+      "broadcast_nr": 12,
+      "file_nr": 12,
+      "title_de": "Die geheimnisvolle Königin",
+      "youtube_title": "Alfred J. Kwak (E12) Die geheimnisvolle Königin | DE | 8K HQ (4K UHD)",
+      "chars": 71,
+      "source_file": "12 - Die geheimnisvolle Königin_sls.mov",
+      "status": "ready"
+    },
+    {
+      "broadcast_nr": 13,
+      "file_nr": 13,
+      "title_de": "Haltet den Dieb!",
+      "youtube_title": "Alfred J. Kwak (E13) Haltet den Dieb! | DE | 8K HQ (4K UHD)",
+      "chars": 61,
+      "source_file": "13 - Haltet den Dieb!_sls.mov",
+      "status": "ready"
+    },
+    {
+      "broadcast_nr": 14,
+      "file_nr": 14,
+      "title_de": "Skrupellose Geschäfte",
+      "youtube_title": "Alfred J. Kwak (E14) Skrupellose Geschäfte | DE | 8K HQ (4K UHD)",
+      "chars": 66,
+      "source_file": "14 - Skrupellose Geschäfte_sls.mov",
+      "status": "ready"
+    },
+    {
+      "broadcast_nr": 15,
+      "file_nr": 15,
+      "title_de": "Die Explosion",
+      "youtube_title": "Alfred J. Kwak (E15) Die Explosion | DE | 8K HQ (4K UHD)",
+      "chars": 58,
+      "source_file": "15 - Die Explosion_sls.mov",
+      "status": "ready"
+    },
+    {
+      "broadcast_nr": 16,
+      "file_nr": 16,
+      "title_de": "Die Reise zum Südpol",
+      "youtube_title": "Alfred J. Kwak (E16) Die Reise zum Südpol | DE | 8K HQ (4K UHD)",
+      "chars": 65,
+      "source_file": "16 - Die Reise zum Südpol_sls.mov",
+      "status": "ready"
+    },
+    {
+      "broadcast_nr": 17,
+      "file_nr": 17,
+      "title_de": "Rettung aus dem All",
+      "youtube_title": "Alfred J. Kwak (E17) Rettung aus dem All | DE | 8K HQ (4K UHD)",
+      "chars": 64,
+      "source_file": "17 - Rettung aus dem All_sls.mov",
+      "status": "ready"
+    },
+    {
+      "broadcast_nr": 18,
+      "file_nr": 18,
+      "title_de": "Im ewigen Eis",
+      "youtube_title": "Alfred J. Kwak (E18) Im ewigen Eis | DE | 8K HQ (4K UHD)",
+      "chars": 58,
+      "source_file": "18 - Im ewigen Eis_sls.mov",
+      "status": "ready"
+    },
+    {
+      "broadcast_nr": 19,
+      "file_nr": 19,
+      "title_de": "Rettet die Wale!",
+      "youtube_title": "Alfred J. Kwak (E19) Rettet die Wale! | DE | 8K HQ (4K UHD)",
+      "chars": 61,
+      "source_file": "19 - Rettet die Wale!_sls.mov",
+      "status": "ready"
+    },
+    {
+      "broadcast_nr": 20,
+      "file_nr": 20,
+      "title_de": "Der Alptraum",
+      "youtube_title": "Alfred J. Kwak (E20) Der Alptraum | DE | 8K HQ (4K UHD)",
+      "chars": 57,
+      "source_file": "20 - Der Alptraum_sls.mov",
+      "status": "ready"
+    },
+    {
+      "broadcast_nr": 21,
+      "file_nr": 21,
+      "title_de": "Wasser für die Wüste",
+      "youtube_title": "Alfred J. Kwak (E21) Wasser für die Wüste | DE | 8K HQ (4K UHD)",
+      "chars": 65,
+      "source_file": "21 - Wasser für die Wüste_228840316.mov",
+      "status": "raw_needs_topaz"
+    },
+    {
+      "broadcast_nr": 22,
+      "file_nr": null,
+      "title_de": "Kra an die Macht!",
+      "youtube_title": "Alfred J. Kwak (E22) Kra an die Macht! | DE | 8K HQ (4K UHD)",
+      "chars": 62,
+      "source_file": null,
+      "status": "no_file"
+    },
+    {
+      "broadcast_nr": 23,
+      "file_nr": 23,
+      "title_de": "Die Krähenpartei",
+      "youtube_title": "Alfred J. Kwak (E23) Die Krähenpartei | DE | 8K HQ (4K UHD)",
+      "chars": 61,
+      "source_file": "23 - Die Krähenpartei_441275575.mov.temp",
+      "status": "topaz_failed"
+    },
+    {
+      "broadcast_nr": 24,
+      "file_nr": null,
+      "title_de": "Flucht aus Deichstadt",
+      "youtube_title": "Alfred J. Kwak (E24) Flucht aus Deichstadt | DE | 8K HQ (4K UHD)",
+      "chars": 66,
+      "source_file": null,
+      "status": "no_file"
+    },
+    {
+      "broadcast_nr": 25,
+      "file_nr": 25,
+      "title_de": "Der Kampf um Deichstadt",
+      "youtube_title": "Alfred J. Kwak (E25) Der Kampf um Deichstadt | DE | 8K HQ (4K UHD)",
+      "chars": 68,
+      "source_file": "25 - Der Kampf um Deichstadt_sls.mov",
+      "status": "ready"
+    },
+    {
+      "broadcast_nr": 26,
+      "file_nr": 26,
+      "title_de": "Der Schneemensch",
+      "youtube_title": "Alfred J. Kwak (E26) Der Schneemensch | DE | 8K HQ (4K UHD)",
+      "chars": 61,
+      "source_file": "26 - Der Schneemensch_sls.mov",
+      "status": "ready"
+    },
+    {
+      "broadcast_nr": 27,
+      "file_nr": 27,
+      "title_de": "Verliebt",
+      "youtube_title": "Alfred J. Kwak (E27) Verliebt | DE | 8K HQ (4K UHD)",
+      "chars": 53,
+      "source_file": "27 - Verliebt_sls.mov",
+      "status": "ready"
+    },
+    {
+      "broadcast_nr": 28,
+      "file_nr": 28,
+      "title_de": "Ein Geschenk des Königs",
+      "youtube_title": "Alfred J. Kwak (E28) Ein Geschenk des Königs | DE | 8K HQ (4K UHD)",
+      "chars": 68,
+      "source_file": "28 - Ein Geschenk des Königs_982935613.mov.temp",
+      "status": "topaz_failed"
+    },
+    {
+      "broadcast_nr": 29,
+      "file_nr": 29,
+      "title_de": "Die Burengänse",
+      "youtube_title": "Alfred J. Kwak (E29) Die Burengänse | DE | 8K HQ (4K UHD)",
+      "chars": 59,
+      "source_file": "29 - Die Burengänse_sls.mov",
+      "status": "ready"
+    },
+    {
+      "broadcast_nr": 30,
+      "file_nr": null,
+      "title_de": "Im Urlaub",
+      "youtube_title": "Alfred J. Kwak (E30) Im Urlaub | DE | 8K HQ (4K UHD)",
+      "chars": 54,
+      "source_file": null,
+      "status": "no_file"
+    },
+    {
+      "broadcast_nr": 31,
+      "file_nr": 31,
+      "title_de": "Die Bohrinsel",
+      "youtube_title": "Alfred J. Kwak (E31) Die Bohrinsel | DE | 8K HQ (4K UHD)",
+      "chars": 58,
+      "source_file": "31 - Die Bohrinsel_sls.mov",
+      "status": "ready"
+    },
+    {
+      "broadcast_nr": 32,
+      "file_nr": 32,
+      "title_de": "Atlantis",
+      "youtube_title": "Alfred J. Kwak (E32) Atlantis | DE | 8K HQ (4K UHD)",
+      "chars": 53,
+      "source_file": "32 - Atlantis_sls.mov",
+      "status": "ready"
+    },
+    {
+      "broadcast_nr": 33,
+      "file_nr": null,
+      "title_de": "Cowboys und Indianer",
+      "youtube_title": "Alfred J. Kwak (E33) Cowboys und Indianer | DE | 8K HQ (4K UHD)",
+      "chars": 65,
+      "source_file": null,
+      "status": "no_file"
+    },
+    {
+      "broadcast_nr": 34,
+      "file_nr": null,
+      "title_de": "Der Schatz des Tut Kaz Kammon",
+      "youtube_title": "Alfred J. Kwak (E34) Der Schatz des Tut Kaz Kammon | DE | 8K HQ (4K UHD)",
+      "chars": 73,
+      "source_file": null,
+      "status": "no_file"
+    },
+    {
+      "broadcast_nr": 35,
+      "file_nr": null,
+      "title_de": "Die Schlange",
+      "youtube_title": "Alfred J. Kwak (E35) Die Schlange | DE | 8K HQ (4K UHD)",
+      "chars": 57,
+      "source_file": null,
+      "status": "no_file"
+    },
+    {
+      "broadcast_nr": 36,
+      "file_nr": 35,
+      "title_de": "Michael Duckson",
+      "youtube_title": "Alfred J. Kwak (E36) Michael Duckson | DE | 8K HQ (4K UHD)",
+      "chars": 60,
+      "source_file": "35 - Michael Duckson_sls.mov",
+      "status": "ready",
+      "note": "File Nr 35 ≠ Broadcast Nr 36! Bestehender YT-Upload falsch als E35."
+    },
+    {
+      "broadcast_nr": 37,
+      "file_nr": 36,
+      "title_de": "Die Entführung",
+      "youtube_title": "Alfred J. Kwak (E37) Die Entführung | DE | 8K HQ (4K UHD)",
+      "chars": 59,
+      "source_file": "36 - Die Entführung_sls.mov",
+      "status": "ready",
+      "note": "File Nr 36 ≠ Broadcast Nr 37! Bestehender YT-Upload falsch als E36."
+    },
+    {
+      "broadcast_nr": 38,
+      "file_nr": 37,
+      "title_de": "Krach mit den Nachbarn",
+      "youtube_title": "Alfred J. Kwak (E38) Krach mit den Nachbarn | DE | 8K HQ (4K UHD)",
+      "chars": 67,
+      "source_file": "37 - Krach mit den Nachbarn_sls.mov",
+      "status": "ready",
+      "note": "File Nr 37 ≠ Broadcast Nr 38!"
+    },
+    {
+      "broadcast_nr": 39,
+      "file_nr": null,
+      "title_de": "Die Hexe",
+      "youtube_title": "Alfred J. Kwak (E39) Die Hexe | DE | 8K HQ (4K UHD)",
+      "chars": 53,
+      "source_file": null,
+      "status": "no_file"
+    },
+    {
+      "broadcast_nr": 40,
+      "file_nr": 38,
+      "title_de": "Der Stausee",
+      "youtube_title": "Alfred J. Kwak (E40) Der Stausee | DE | 8K HQ (4K UHD)",
+      "chars": 56,
+      "source_file": "38 - Der Stausee_367742109.mov.temp",
+      "status": "topaz_failed",
+      "note": "File Nr 38 ≠ Broadcast Nr 40!"
+    },
+    {
+      "broadcast_nr": 41,
+      "file_nr": 39,
+      "title_de": "Der Vulkan",
+      "youtube_title": "Alfred J. Kwak (E41) Der Vulkan | DE | 8K HQ (4K UHD)",
+      "chars": 55,
+      "source_file": "39 - Der Vulkan_sls.mov",
+      "status": "ready",
+      "note": "File Nr 39 ≠ Broadcast Nr 41! Bestehender YT-Upload falsch als E39."
+    },
+    {
+      "broadcast_nr": 42,
+      "file_nr": 40,
+      "title_de": "Der Drache",
+      "youtube_title": "Alfred J. Kwak (E42) Der Drache | DE | 8K HQ (4K UHD)",
+      "chars": 55,
+      "source_file": "40 - Der Drache_sls.mov",
+      "status": "ready",
+      "note": "File Nr 40 ≠ Broadcast Nr 42! Bestehender YT-Upload falsch als E40."
+    },
+    {
+      "broadcast_nr": 43,
+      "file_nr": 41,
+      "title_de": "Ein Präsident für Groß-Wasserland",
+      "youtube_title": "Alfred J. Kwak (E43) Präsident für Groß-Wasserland | DE | 8K HQ (4K UHD)",
+      "chars": 74,
+      "source_file": "41 - Ein Präsident für Gross-Wasserland_sls.mov",
+      "status": "ready",
+      "note": "File Nr 41 ≠ Broadcast Nr 43! 'Ein' im Titel gekürzt wegen Zeichenlimit."
+    },
+    {
+      "broadcast_nr": 44,
+      "file_nr": 42,
+      "title_de": "Die Überschwemmung",
+      "youtube_title": "Alfred J. Kwak (E44) Die Überschwemmung | DE | 8K HQ (4K UHD)",
+      "chars": 63,
+      "source_file": "42 - Die Überschwemmung_sls.mov",
+      "status": "ready",
+      "note": "File Nr 42 ≠ Broadcast Nr 44! Bestehender YT-Upload falsch als E42."
+    },
+    {
+      "broadcast_nr": 45,
+      "file_nr": null,
+      "title_de": "Das Land von Zwei",
+      "youtube_title": "Alfred J. Kwak (E45) Das Land von Zwei | DE | 8K HQ (4K UHD)",
+      "chars": 62,
+      "source_file": null,
+      "status": "no_file"
+    },
+    {
+      "broadcast_nr": 46,
+      "file_nr": null,
+      "title_de": "Pierrot",
+      "youtube_title": "Alfred J. Kwak (E46) Pierrot | DE | 8K HQ (4K UHD)",
+      "chars": 52,
+      "source_file": null,
+      "status": "no_file"
+    },
+    {
+      "broadcast_nr": 47,
+      "file_nr": null,
+      "title_de": "Ende gut, alles gut!",
+      "youtube_title": "Alfred J. Kwak (E47) Ende gut, alles gut! | DE | 8K HQ (4K UHD)",
+      "chars": 65,
+      "source_file": null,
+      "status": "no_file"
+    },
+    {
+      "broadcast_nr": 48,
+      "file_nr": 43,
+      "title_de": "Eine Partie Golf",
+      "youtube_title": "Alfred J. Kwak (E48) Eine Partie Golf | DE | 8K HQ (4K UHD)",
+      "chars": 61,
+      "source_file": "43 - Eine Partie Golf_sls.mov",
+      "status": "ready",
+      "note": "File Nr 43 ≠ Broadcast Nr 48! Bestehender YT-Upload falsch als E43."
+    },
+    {
+      "broadcast_nr": 49,
+      "file_nr": 44,
+      "title_de": "Der Regenbogen",
+      "youtube_title": "Alfred J. Kwak (E49) Der Regenbogen | DE | 8K HQ (4K UHD)",
+      "chars": 59,
+      "source_file": "44 - Der Regenbogen_sls.mov",
+      "status": "ready",
+      "note": "File Nr 44 ≠ Broadcast Nr 49! Bestehender YT-Upload falsch als E44."
+    },
+    {
+      "broadcast_nr": 50,
+      "file_nr": 45,
+      "title_de": "Das Casino",
+      "youtube_title": "Alfred J. Kwak (E50) Das Casino | DE | 8K HQ (4K UHD)",
+      "chars": 55,
+      "source_file": "45 - Das Casino_sls.mov",
+      "status": "ready",
+      "note": "File Nr 45 ≠ Broadcast Nr 50! Bestehender YT-Upload korrekt als E50."
+    },
+    {
+      "broadcast_nr": 51,
+      "file_nr": 46,
+      "title_de": "Der Regenwald",
+      "youtube_title": "Alfred J. Kwak (E51) Der Regenwald | DE | 8K HQ (4K UHD)",
+      "chars": 58,
+      "source_file": "46 - Der Regenwald_78224850.mov.temp",
+      "status": "topaz_failed",
+      "note": "File Nr 46 ≠ Broadcast Nr 51!"
+    },
+    {
+      "broadcast_nr": 52,
+      "file_nr": null,
+      "title_de": "Und wenn sie nicht gestorben sind",
+      "youtube_title": "Alfred J. Kwak (E52) Und wenn sie nicht gestorben sind | DE | 8K HQ (4K UHD)",
+      "chars": 77,
+      "source_file": null,
+      "status": "no_file"
+    }
+  ],
+  "tags_de": [
+    "Alfred J. Kwak",
+    "Alfred Jodokus Quack",
+    "Alfred J. Quack",
+    "Alfred Jodocus Kwak",
+    "Alfred Kwak deutsch",
+    "Zeichentrickserie",
+    "Zeichentrick deutsch",
+    "classic cartoon",
+    "8K",
+    "4K UHD",
+    "remastered",
+    "restored",
+    "AI enhanced",
+    "upscaled",
+    "Herman van Veen",
+    "full episode",
+    "ganze Folge",
+    "80er",
+    "90er",
+    "Kinderserie",
+    "Kultserie",
+    "ZDF",
+    "Widescreen",
+    "16:9",
+    "Blur Border"
+  ],
+  "description_template_de": "🎬 Alfred J. Kwak / Quack (E{broadcast_nr}): {title_de}\n🇩🇪 Deutsche Fassung | Widescreen 16:9 mit Blur-Rand\nAI remastered in 8K Qualität (auch in 4K UHD verfügbar)\n\nDie Kultserie von Herman van Veen (1989) — Originaltitel: Alfred Jodocus Kwak\nErlebe die Abenteuer von Alfred, der fröhlichen Ente aus Groß-Wasserland!\n\n⏩ Widescreen-Version: Originalformat 4:3 im 16:9 Rahmen mit Blur-Rand.\nDie klassische 4:3 Version findest du auch auf diesem Kanal.\n\n🕐 CHAPTERS:\n0:00 Intro\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n👆 LIKE wenn es dir gefallen hat!\n💬 Schreib einen KOMMENTAR!\n🔔 ABONNIERE für mehr Zeichentrick-Klassiker!\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🌐 www.remaike.IT\n📺 https://www.youtube.com/@remAIke_IT\n\n#AlfredJKwak #Zeichentrick #8K #ClassicCartoon #Remastered",
+  "category_id": "1",
+  "made_for_kids": false,
+  "existing_youtube_numbering_errors": {
+    "_comment": "Diese bestehenden 4:3 Videos verwenden FALSCHE Episoden-Nummern (File-Nr statt Broadcast-Nr)!",
+    "E35_youtube_should_be_E36": "Michael Duckson",
+    "E36_youtube_should_be_E37": "Die Entführung",
+    "E39_youtube_should_be_E41": "Der Vulkan",
+    "E40_youtube_should_be_E42": "Der Drache",
+    "E41_youtube_should_be_E43": "Präsident für Groß-Wasserland",
+    "E42_youtube_should_be_E44": "Die Überschwemmung",
+    "E43_youtube_should_be_E48": "Eine Partie Golf",
+    "E44_youtube_should_be_E49": "Der Regenbogen",
+    "E50_is_correct": "Das Casino"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "scan_date": "2026-02-19",
+  "channel_stats": {
+    "viewCount": "247996",
+    "subscriberCount": "22100",
+    "hiddenSubscriberCount": false,
+    "videoCount": "381"
+  },
+  "public_videos": 382,
+  "quota_used": 19,
+  "issues": {
+    "hashtag_spam": [
+      {
+        "id": "wjpCNxf5SsY",
+        "title": "Maulwurf: Die Streichhölzer (1974) | 8K HQ (4K UHD)",
+        "hashtags": 6,
+        "tags": [
+          "#Maulwurf",
+          "#Krtek",
+          "#8K",
+          "#4K",
+          "#UHD",
+          "#Remastered"
+        ]
+      },
+      {
+        "id": "UsppP3mPwHM",
+        "title": "Maulwurf: Der Uhrmacher (1974) | 8K HQ (4K UHD)",
+        "hashtags": 6,
+        "tags": [
+          "#Maulwurf",
+          "#Krtek",
+          "#8K",
+          "#4K",
+          "#UHD",
+          "#Remastered"
+        ]
+      },
+      {
+        "id": "j4aBiGJcEY8",
+        "title": "Maulwurf: Der Fotograf (1975) | 8K HQ (4K UHD)",
+        "hashtags": 6,
+        "tags": [
+          "#Maulwurf",
+          "#Krtek",
+          "#8K",
+          "#4K",
+          "#UHD",
+          "#Remastered"
+        ]
+      },
+      {
+        "id": "ts5qtXqneq8",
+        "title": "Maulwurf: Der Maler (1972) | 8K HQ (4K UHD)",
+        "hashtags": 6,
+        "tags": [
+          "#Maulwurf",
+          "#Krtek",
+          "#8K",
+          "#4K",
+          "#UHD",
+          "#Remastered"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,430 @@
+{
+  "generated": "2026-01-03T11:01:14.911Z",
+  "totalMatched": 52,
+  "totalUnmatched": 1,
+  "totalNeedUpdate": 52,
+  "toUpdate": [
+    {
+      "id": "EMQSoqxYWEI",
+      "currentTitle": "Betty Boop (29/110): May Party (1933) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "epTitle": "May Party",
+      "correctEp": 34,
+      "year": 1933,
+      "newTitle": "Betty Boop (34/105): May Party (1933) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "XvuABgCE8NQ",
+      "currentTitle": "Betty Boop (49/110): Museum (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "epTitle": "Museum",
+      "correctEp": 27,
+      "year": 1932,
+      "newTitle": "Betty Boop (27/105): Museum (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "LJX_WL5ABAU",
+      "currentTitle": "Betty Boop (26/110): Penthouse (1933) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "epTitle": "Penthouse",
+      "correctEp": 31,
+      "year": 1933,
+      "newTitle": "Betty Boop (31/105): Penthouse (1933) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "VJZPCGZFfTA",
+      "currentTitle": "Betty Boop (19/110): Bamboo Isle (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "epTitle": "Bamboo Isle",
+      "correctEp": 23,
+      "year": 1932,
+      "newTitle": "Betty Boop (23/105): Bamboo Isle (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "I8R0mmVKXm4",
+      "currentTitle": "Betty Boop (20/110): Ups and Downs (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "epTitle": "Ups and Downs",
+      "correctEp": 24,
+      "year": 1932,
+      "newTitle": "Betty Boop (24/105): Ups and Downs (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "LnNGWC0OJcE",
+      "currentTitle": "Betty Boop (41/110): The Trial (1934) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "epTitle": "The Trial",
+      "correctEp": 46,
+      "year": 1934,
+      "newTitle": "Betty Boop (46/105): The Trial (1934) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "TpSJjvmyHGA",
+      "currentTitle": "Betty Boop (38/110): Rise to Fame (1934) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "epTitle": "Rise to Fame",
+      "correctEp": 45,
+      "year": 1934,
+      "newTitle": "Betty Boop (45/105): Rise to Fame (1934) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "flCgD7UH8HY",
+      "currentTitle": "Betty Boop (45/110): Prize Show (1934) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "epTitle": "Prize Show",
+      "correctEp": 50,
+      "year": 1934,
+      "newTitle": "Betty Boop (50/105): Prize Show (1934) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "AayVfUsXAEY",
+      "currentTitle": "Betty Boop (88/110): Sally Swing (1938) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "epTitle": "Sally Swing",
+      "correctEp": 97,
+      "year": 1938,
+      "newTitle": "Betty Boop (97/105): Sally Swing (1938) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "83CK1R2S1AY",
+      "currentTitle": "Betty Boop (77/110): Service with a Smile (1937) | 8K HQ | @remAIke_IT",
+      "epTitle": "Service with a Smile",
+      "correctEp": 79,
+      "year": 1937,
+      "newTitle": "Betty Boop (79/105): Service with a Smile (1937) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "nuuO-UewcoE",
+      "currentTitle": "Betty Boop (37/110): She Wronged Him Right (1934) | 8K HQ | @remAIke_IT",
+      "epTitle": "She Wronged Him Right",
+      "correctEp": 41,
+      "year": 1934,
+      "newTitle": "Betty Boop (41/105): She Wronged Him Right (1934) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "G_llq8tK_Fc",
+      "currentTitle": "Betty Boop (23/110): Snow White (1933) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "epTitle": "Snow White",
+      "correctEp": 32,
+      "year": 1933,
+      "newTitle": "Betty Boop (32/105): Snow White (1933) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "zogZ5nzJCTE",
+      "currentTitle": "Betty Boop (58/110): Stop That Noise (1935) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "epTitle": "Stop That Noise",
+      "correctEp": 55,
+      "year": 1935,
+      "newTitle": "Betty Boop (55/105): Stop That Noise (1935) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "gZFsTHvb2qE",
+      "currentTitle": "Betty Boop (15/110): You Rascal You (1932) ft. Louis Armstrong | 8K | @remAIke_IT",
+      "epTitle": "You Rascal You",
+      "correctEp": 26,
+      "year": 1932,
+      "newTitle": "Betty Boop (26/105): You Rascal You (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "k53INuDjfNU",
+      "currentTitle": "Betty Boop (36/110): Keep in Style (1934) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "epTitle": "Keep in Style",
+      "correctEp": 51,
+      "year": 1934,
+      "newTitle": "Betty Boop (51/105): Keep in Style (1934) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "U3JSBxrhBAs",
+      "currentTitle": "Betty Boop (87/110): Riding the Rails (1938) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "epTitle": "Riding the Rails",
+      "correctEp": 88,
+      "year": 1938,
+      "newTitle": "Betty Boop (88/105): Riding the Rails (1938) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "bQJamskWRvA",
+      "currentTitle": "Betty Boop (35/110): Red Hot Mamma (1934) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "epTitle": "Red Hot Mamma",
+      "correctEp": 42,
+      "year": 1934,
+      "newTitle": "Betty Boop (42/105): Red Hot Mamma (1934) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "xoCvBUIaqwg",
+      "currentTitle": "Betty Boop (86/110): Pudgy the Watchman (1938) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "epTitle": "Pudgy the Watchman",
+      "correctEp": 95,
+      "year": 1938,
+      "newTitle": "Betty Boop (95/105): Pudgy the Watchman (1938) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "QgNUV39Sg0o",
+      "currentTitle": "Betty Boop (47/110): Parade of Wooden Soldiers (1934) | 8K HQ | @remAIke_IT",
+      "epTitle": "Parade of Wooden Soldiers",
+      "correctEp": 40,
+      "year": 1933,
+      "newTitle": "Betty Boop (40/105): Parade of Wooden Soldiers (1933) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "X7w40xteJyw",
+      "currentTitle": "Betty Boop (25/110): Morning Noon and Night (1933) | 8K HQ | @remAIke_IT",
+      "epTitle": "Morning Noon and Night",
+      "correctEp": 38,
+      "year": 1933,
+      "newTitle": "Betty Boop (38/105): Morning Noon and Night (1933) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "zouf8VMUeCo",
+      "currentTitle": "Betty Boop (89/110): Out of the Inkwell (1938) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "epTitle": "Out of the Inkwell",
+      "correctEp": 91,
+      "year": 1938,
+      "newTitle": "Betty Boop (91/105): Out of the Inkwell (1938) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "zNAslcrOzu4",
+      "currentTitle": "Betty Boop (28/110): Birthday Party (1933) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "epTitle": "Birthday Party",
+      "correctEp": 33,
+      "year": 1933,
+      "newTitle": "Betty Boop (33/105): Birthday Party (1933) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "AvyVS5S52zY",
+      "currentTitle": "Betty Boop (18/110): Bizzy Bee (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "epTitle": "Bizzy Bee",
+      "correctEp": 21,
+      "year": 1932,
+      "newTitle": "Betty Boop (21/105): Bizzy Bee (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "jh_Kxe50lAY",
+      "currentTitle": "Betty Boop (44/110): Little Pal (1934) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "epTitle": "Little Pal",
+      "correctEp": 49,
+      "year": 1934,
+      "newTitle": "Betty Boop (49/105): Little Pal (1934) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "rWv1cA8lFUw",
+      "currentTitle": "Betty Boop (42/110): Life Guard (1934) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "epTitle": "Life Guard",
+      "correctEp": 47,
+      "year": 1934,
+      "newTitle": "Betty Boop (47/105): Life Guard (1934) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "Sk2IIXPV5ig",
+      "currentTitle": "Betty Boop (30/110): Big Boss (1933) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT",
+      "epTitle": "Big Boss",
+      "correctEp": 35,
+      "year": 1933,
+      "newTitle": "Betty Boop (35/105): Big Boss (1933) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "sEtFSMF3HbU",
+      "currentTitle": "Betty Boop (10/110): Any Little Girl That’S A Nice Little Girl (193... | 8K",
+      "epTitle": "Any Little Girl",
+      "correctEp": 4,
+      "year": 1931,
+      "newTitle": "Betty Boop (4/105): Any Little Girl (1931) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "cvUuj-GfEuo",
+      "currentTitle": "Ha! Ha! Ha! (1934) | Betty Boop",
+      "epTitle": "Ha! Ha! Ha!",
+      "correctEp": 43,
+      "year": 1934,
+      "newTitle": "Betty Boop (43/105): Ha! Ha! Ha! (1934) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "7W-_ArNKyKc",
+      "currentTitle": "Whoops, I’m a Cowboy (1937) | Betty Boop #",
+      "epTitle": "Whoops, I'm a Cowboy",
+      "correctEp": 77,
+      "year": 1937,
+      "newTitle": "Betty Boop (77/105): Whoops, I'm a Cowboy (1937) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "ig9_ZHkKfFA",
+      "currentTitle": "Training Pigeons (1936) | Betty Boop #46",
+      "epTitle": "Training Pigeons",
+      "correctEp": 68,
+      "year": 1936,
+      "newTitle": "Betty Boop (68/105): Training Pigeons (1936) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "PkU8BxTyp6E",
+      "currentTitle": "Betty Boop's Bizzy Bee (1932) | Betty Boop #21",
+      "epTitle": "Bizzy Bee",
+      "correctEp": 21,
+      "year": 1932,
+      "newTitle": "Betty Boop (21/105): Bizzy Bee (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "_Z9VTKGr25g",
+      "currentTitle": "Barnacle Bill (1930) | Betty Boop #2",
+      "epTitle": "Barnacle Bill",
+      "correctEp": 2,
+      "year": 1930,
+      "newTitle": "Betty Boop (2/105): Barnacle Bill (1930) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "qf3PyBbuhNE",
+      "currentTitle": "Stopping the Show (1932) | Betty Boop #20",
+      "epTitle": "Stopping the Show",
+      "correctEp": 20,
+      "year": 1932,
+      "newTitle": "Betty Boop (20/105): Stopping the Show (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "ttE5cijN2XM",
+      "currentTitle": "Betty Boop, M.D. (1932) | Betty Boop #22",
+      "epTitle": "M.D.",
+      "correctEp": 22,
+      "year": 1932,
+      "newTitle": "Betty Boop (22/105): M.D. (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "7wGSFU_MzcI",
+      "currentTitle": "The Dancing Fool (1932) | Betty Boop #13",
+      "epTitle": "The Dancing Fool",
+      "correctEp": 14,
+      "year": 1932,
+      "newTitle": "Betty Boop (14/105): The Dancing Fool (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "dbQvrn0tUhA",
+      "currentTitle": "Admission Free (1932) | Betty Boop #17",
+      "epTitle": "Admission Free",
+      "correctEp": 18,
+      "year": 1932,
+      "newTitle": "Betty Boop (18/105): Admission Free (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "ZJOXUwDX-mA",
+      "currentTitle": "Minding the Baby (1931) | Betty Boop #6",
+      "epTitle": "Minding the Baby",
+      "correctEp": 6,
+      "year": 1931,
+      "newTitle": "Betty Boop (6/105): Minding the Baby (1931) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "ztktLrgvxZ0",
+      "currentTitle": "A-Hunting We Will Go (1932) | Betty Boop #14",
+      "epTitle": "A-Hunting We Will Go",
+      "correctEp": 15,
+      "year": 1932,
+      "newTitle": "Betty Boop (15/105): A-Hunting We Will Go (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "eX5cbYwNvnI",
+      "currentTitle": "The Betty Boop Limited (1932) | Betty Boop #18",
+      "epTitle": "Betty Boop Limited",
+      "correctEp": 19,
+      "year": 1932,
+      "newTitle": "Betty Boop (19/105): Betty Boop Limited (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "_oZqwtQDg2c",
+      "currentTitle": "Any Rags (1932) | Betty Boop #8",
+      "epTitle": "Any Rags",
+      "correctEp": 9,
+      "year": 1932,
+      "newTitle": "Betty Boop (9/105): Any Rags (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "dCCl4JxrlF8",
+      "currentTitle": "Minnie the Moocher (1932) | Betty Boop #10",
+      "epTitle": "Minnie the Moocher",
+      "correctEp": 11,
+      "year": 1932,
+      "newTitle": "Betty Boop (11/105): Minnie the Moocher (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "tm43rHVnyd8",
+      "currentTitle": "Hide and Seek (1932) | Betty Boop #16",
+      "epTitle": "Hide and Seek",
+      "correctEp": 17,
+      "year": 1932,
+      "newTitle": "Betty Boop (17/105): Hide and Seek (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "UuRQfXMfddA",
+      "currentTitle": "Boop-Oop-A-Doop (1932) | Betty Boop #9",
+      "epTitle": "Boop-Oop-A-Doop",
+      "correctEp": 10,
+      "year": 1932,
+      "newTitle": "Betty Boop (10/105): Boop-Oop-A-Doop (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "bOUZUrBvaWM",
+      "currentTitle": "Crazy Town (1932) | Betty Boop #12",
+      "epTitle": "Crazy Town",
+      "correctEp": 13,
+      "year": 1932,
+      "newTitle": "Betty Boop (13/105): Crazy Town (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "E76BLn0YNE4",
+      "currentTitle": "Swim or Sink (1932) | Betty Boop #11",
+      "epTitle": "Swim or Sink",
+      "correctEp": 12,
+      "year": 1932,
+      "newTitle": "Betty Boop (12/105): Swim or Sink (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "k_4r2lMtcF4",
+      "currentTitle": "Minding the Baby (1931) | Betty Boop #6",
+      "epTitle": "Minding the Baby",
+      "correctEp": 6,
+      "year": 1931,
+      "newTitle": "Betty Boop (6/105): Minding the Baby (1931) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "h_4m9a7wqoc",
+      "currentTitle": "Dizzy Dishes (1930) | Betty Boop #1",
+      "epTitle": "Dizzy Dishes",
+      "correctEp": 1,
+      "year": 1930,
+      "newTitle": "Betty Boop (1/105): Dizzy Dishes (1930) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "fpa96bQkzwA",
+      "currentTitle": "Mask-A-Raid (1931) | Betty Boop #7",
+      "epTitle": "Mask-A-Raid",
+      "correctEp": 7,
+      "year": 1931,
+      "newTitle": "Betty Boop (7/105): Mask-A-Raid (1931) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "Falj-VXbzeo",
+      "currentTitle": "Chess-Nuts (1932) | Betty Boop #15",
+      "epTitle": "Chess-Nuts",
+      "correctEp": 16,
+      "year": 1932,
+      "newTitle": "Betty Boop (16/105): Chess-Nuts (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "dkxCgOivonc",
+      "currentTitle": "Betty Boop – More Pep (1936) | 8K  @reAImastered | Fleischer Studio...",
+      "epTitle": "More Pep",
+      "correctEp": 72,
+      "year": 1936,
+      "newTitle": "Betty Boop (72/105): More Pep (1936) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "-3UHQiZHPwY",
+      "currentTitle": "Betty Boop’s Ker-Choo (1932) | reAImastered 8 K Edition | reAImaste...",
+      "epTitle": "Ker-Choo",
+      "correctEp": 28,
+      "year": 1932,
+      "newTitle": "Betty Boop (28/105): Ker-Choo (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    },
+    {
+      "id": "tJMJlCQc0UE",
+      "currentTitle": "Betty Boop – Minnie the Moocher (1932) | reAImastered 8 K Edition |...",
+      "epTitle": "Minnie the Moocher",
+      "correctEp": 11,
+      "year": 1932,
+      "newTitle": "Betty Boop (11/105): Minnie the Moocher (1932) | 8K HQ (4K UHD) | Best Online Version | @remAIke_IT"
+    }
+  ],
+  "unmatched": [
+    {
+      "id": "nqynuh9a79c",
+      "title": "Bettyboopforpresident 629 | 8K"
+    }
+  ]
+}

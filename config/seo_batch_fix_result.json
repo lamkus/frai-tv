@@ -1,0 +1,118 @@
+{
+  "date": "2026-01-14",
+  "dry_run": false,
+  "total_needing_fix": 23,
+  "fixed": [
+    {
+      "id": "XU7yM4H5vrY",
+      "title": "8K Bravestarr - Das Musikfestival | Erste Folge (1/65) | Deutsch | 4K HQ | @remAIke_IT",
+      "fixes": [
+        "CTA"
+      ]
+    },
+    {
+      "id": "hOZQjNBV5R0",
+      "title": "Pagan Moon (1932) | 8K | @remAIke_IT",
+      "fixes": [
+        "Hashtags"
+      ]
+    },
+    {
+      "id": "MKSFnveRc7c",
+      "title": "Battling Bosko (1932) | 8K | @remAIke_IT",
+      "fixes": [
+        "Hashtags"
+      ]
+    },
+    {
+      "id": "PzbAE96bG1Q",
+      "title": "Hawaiian Birds (1936) | Fleischer Color Classic | 8K HQ (4K UHD) | ... | @remAIke_IT",
+      "fixes": [
+        "CTA",
+        "Hashtags"
+      ]
+    },
+    {
+      "id": "MXE3TqsT2oE",
+      "title": "Old Mother Hubbard (1935) | ComiColor | 8K HQ (4K UHD) | Best Onlin... | @remAIke_IT",
+      "fixes": [
+        "CTA",
+        "Hashtags"
+      ]
+    },
+    {
+      "id": "PySMbbpIAUM",
+      "title": "The Cigar Box (1905) | 8K HQ | @remAIke_IT",
+      "fixes": [
+        "CTA",
+        "Hashtags"
+      ]
+    },
+    {
+      "id": "IpWrF7DYyWU",
+      "title": "The Golden Beetle (1907) | 8K HQ | @remAIke_IT",
+      "fixes": [
+        "CTA",
+        "Hashtags"
+      ]
+    },
+    {
+      "id": "9dQKLUfKfgU",
+      "title": "Planet Outlaws (1953) | 8K HQ | @remAIke_IT",
+      "fixes": [
+        "CTA",
+        "Hashtags"
+      ]
+    },
+    {
+      "id": "d8Ak1R_eOlY",
+      "title": "White Zombie (1932) | @reAImastered 8 K Classic Halloween Edition |...",
+      "fixes": [
+        "CTA",
+        "Hashtags"
+      ]
+    },
+    {
+      "id": "w5Yyyp0H6vo",
+      "title": "🇩🇪 8k Alfred J. Kwak / Quack (Alfred Jodokus Quack) – Deutsche Zeichentrickserie 90s Intro 60s",
+      "fixes": [
+        "CTA"
+      ]
+    },
+    {
+      "id": "3UBF9ycZwJU",
+      "title": "You thought you´ve seen ALL Fast & Furious ?🏎️ (1954) #paulwalker #vindiesel #fastandfurious",
+      "fixes": [
+        "CTA"
+      ]
+    },
+    {
+      "id": "DO8dSN4aAB4",
+      "title": "Nazi Concentration Camps (1945)",
+      "fixes": [
+        "CTA"
+      ]
+    },
+    {
+      "id": "D1WD7sS637k",
+      "title": "Experiments in the Revival of Organisms (1940)",
+      "fixes": [
+        "CTA"
+      ]
+    },
+    {
+      "id": "wAkUnHRxwT8",
+      "title": "Livestream von remAIke_IT",
+      "fixes": [
+        "CTA",
+        "Hashtags"
+      ]
+    }
+  ],
+  "errors": [],
+  "breakdown": {
+    "cta_needed": 12,
+    "hashtags_needed": 11,
+    "title_8k_needed": 12
+  }
+}

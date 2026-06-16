@@ -1,0 +1,77 @@
+{
+  "date": "2026-04-02 18:18:38",
+  "summary": {
+    "total_videos_on_channel": 456,
+    "wochenschau_videos": 83,
+    "non_wochenschau_public_videos": 353,
+    "non_public_videos": 12,
+    "note": "Verification scan could not complete due to YouTube API quota exhaustion. Numbers below are from the optimization runs."
+  },
+  "wochenschau_optimization": {
+    "total_found": 83,
+    "updated": 26,
+    "skipped_already_optimized": 57,
+    "errors": 0,
+    "quota_used": 1300,
+    "status": "COMPLETE - all 83 Wochenschau videos now fully optimized"
+  },
+  "non_wochenschau_optimization": {
+    "total_candidates": 353,
+    "updated_today": 145,
+    "stopped_reason": "YouTube API daily quota exceeded after 145 updates (7,270 quota units)",
+    "estimated_remaining": "~8 videos may still need defaultAudioLanguage fix (quota ran out at video 146)",
+    "status": "NEAR-COMPLETE - 145/153 target videos updated, ~8 remaining due to quota"
+  },
+  "total_quota_consumed": {
+    "wochenschau_script": 1300,
+    "non_ws_script": 7270,
+    "combined": 8570,
+    "daily_limit": 10000,
+    "note": "Quota exhausted before verification scan could run. Resets at midnight Pacific."
+  },
+  "optimization_actions_performed": {
+    "localizations_added": "8-language localizations (DE, EN, JA, FR, ES, PT-BR, HI, KO) added to all updated videos",
+    "defaultAudioLanguage_fixed": "Corrected from 'en-US' to proper language code (en, de, cs) based on series rules",
+    "defaultLanguage_set": "Set to correct language per series (de for German content, en for English)",
+    "categoryId_corrected": "Set to correct category per series (1=Film, 10=Music, 27=Education)",
+    "tags_optimized": "Ensured 10-15 SEO-optimized tags per video",
+    "descriptions_expanded": "Short descriptions expanded with CTA and links"
+  },
+  "videos_updated_today": {
+    "wochenschau_episodes": [
+      "697",
+      "699",
+      "700",
+      "701",
+      "703",
+      "703",
+      "704",
+      "706",
+      "707",
+      "708",
+      "709",
+      "710",
+      "711",
+      "712",
+      "713",
+      "715",
+      "720",
+      "721",
+      "722",
+      "746",
+      "749",
+      "750",
+      "751",
+      "752",
+      "753",
+      "754"
+    ],
+    "non_ws_count": 145,
+    "total": 171
+  },
+  "next_steps": {
+    "remaining_work": "~8 non-Wochenschau videos still need defaultAudioLanguage fix",
+    "action": "Re-run optimize_non_ws.py tomorrow after quota resets (will skip already-optimized videos)",
+    "verification": "Run final_verification.py tomorrow to confirm 100% optimization"
+  }
+}

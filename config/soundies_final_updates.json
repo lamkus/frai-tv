@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "created": "2026-01-19",
+    "sources": [
+      "Wikipedia",
+      "Archive.org",
+      "Known Soundies databases"
+    ],
+    "total_videos": 21,
+    "high_confidence": 6,
+    "medium_confidence": 6,
+    "low_confidence": 2,
+    "unknown": 7
+  },
+  "updates": [
+    {
+      "id": "mReDNz-Exdk",
+      "song": "Lamp of Memory",
+      "artist": "Yvonne De Carlo",
+      "year": "1942",
+      "source": "Wikipedia + Archive.org",
+      "confidence": "HIGH",
+      "new_title": "Yvonne De Carlo: Lamp of Memory | Soundie (1942) | 8K HQ | @remAIke_IT",
+      "apply": true
+    },
+    {
+      "id": "GerP7_evS9o",
+      "song": "Beyond the Blue Horizon",
+      "artist": "The Three Suns",
+      "year": "1944",
+      "source": "Wikipedia + Archive.org",
+      "confidence": "HIGH",
+      "new_title": "The Three Suns: Beyond the Blue Horizon | Soundie (1944) | 8K HQ | @remAIke_IT",
+      "apply": true
+    },
+    {
+      "id": "OvBqUlzTunI",
+      "song": "Hollywood Boogie",
+      "artist": "Thelma White & Her All-Girl Orchestra",
+      "year": "1940s",
+      "source": "Archive.org",
+      "confidence": "HIGH",
+      "new_title": "Thelma White & Her All-Girl Orchestra: Hollywood Boogie | Soundie | 8K HQ | @remAIke_IT",
+      "apply": true
+    },
+    {
+      "id": "D-LL4VuR5Pg",
+      "song": "Lullaby of Broadway",
+      "artist": "The Mel-Tones",
+      "year": "1940s",
+      "source": "Archive.org",
+      "confidence": "HIGH",
+      "new_title": "The Mel-Tones: Lullaby of Broadway | Soundie | 8K HQ | @remAIke_IT",
+      "apply": true
+    },
+    {
+      "id": "w82vzaGBqwE",
+      "song": "A Little Robin Told Me So",
+      "artist": "The Three Canadian Capers",
+      "year": "1940s",
+      "source": "Archive.org",
+      "confidence": "HIGH",
+      "new_title": "The Three Canadian Capers: A Little Robin Told Me So | Soundie | 8K HQ | @remAIke_IT",
+      "apply": true
+    },
+    {
+      "id": "rprpMDyTWRI",
+      "song": "Zig Me Baby with a Gentle Zag",
+      "artist": "Gai Moran & Danny Hocktor",
+      "year": "1940s",
+      "source": "Archive.org",
+      "confidence": "MEDIUM",
+      "new_title": "Gai Moran & Danny Hocktor: Zig Me Baby with a Gentle Zag | Soundie | 8K HQ | @remAIke_IT",
+      "apply": true
+    },
+    {
+      "id": "Z2SxppvCWvE",
+      "song": "Hawaiian Hula Song",
+      "artist": "Ray Kinney",
+      "year": "1940s",
+      "source": "Archive.org (possible)",
+      "confidence": "MEDIUM",
+      "new_title": "Ray Kinney: Hawaiian Hula Song | Soundie | 8K HQ | @remAIke_IT",
+      "apply": true
+    },
+    {
+      "id": "2yGX3wy-4SQ",
+      "song": "Havana Madrid Show",
+      "artist": "Maya",
+      "year": "1940s",
+      "source": "Archive.org",
+      "confidence": "MEDIUM",
+      "new_title": "Maya: Havana Madrid Show | Soundie | 8K HQ | @remAIke_IT",
+      "apply": true
+    },
+    {
+      "id": "6XVj6G3qNYY",
+      "song": "Jiveroo",
+      "artist": "Harry Day, Della & The June Taylor Girls",
+      "year": "1940s",
+      "source": "Archive.org",
+      "confidence": "HIGH",
+      "new_title": "Harry Day, Della & The June Taylor Girls: Jiveroo | Soundie | 8K HQ | @remAIke_IT",
+      "apply": true
+    },
+    {
+      "id": "hAs6lunYl-E",
+      "song": "A Jazz Etude",
+      "artist": "Billy Burt",
+      "year": "1941",
+      "source": "Archive.org (danced by)",
+      "confidence": "MEDIUM",
+      "new_title": "Billy Burt: A Jazz Etude | Soundie (1941) | 8K HQ | @remAIke_IT",
+      "apply": true
+    },
+    {
+      "id": "ukmrI7DlXkc",
+      "song": "In a Shanty in Old Shanty Town",
+      "artist": "Johnny Long Orchestra",
+      "year": "1946",
+      "source": "Wikipedia (hit recording)",
+      "confidence": "LOW",
+      "new_title": "Johnny Long Orchestra: In a Shanty in Old Shanty Town | Soundie (1946) | 8K HQ | @remAIke_IT",
+      "apply": false
+    },
+    {
+      "id": "DHogGPBbzRI",
+      "song": "Sweet Sue (Just You)",
+      "artist": "All-Girl Orchestra",
+      "year": "1940s",
+      "source": "Archive.org",
+      "confidence": "MEDIUM",
+      "new_title": "All-Girl Orchestra: Sweet Sue (Just You) | Soundie | 8K HQ | @remAIke_IT",
+      "apply": true
+    },
+    {
+      "id": "hIsTWWP-YkQ",
+      "song": "Once in a While",
+      "artist": "Unknown Singer",
+      "year": "1940s",
+      "source": "Archive.org",
+      "confidence": "LOW",
+      "new_title": "Unknown Singer: Once in a While | Soundie | 8K HQ | @remAIke_IT",
+      "apply": false
+    },
+    {
+      "id": "A8LWgWF5f5k",
+      "song": "The Hut-Sut Song",
+      "artist": "The King's Men",
+      "year": "1941",
+      "source": "Wikipedia (film short)",
+      "confidence": "MEDIUM",
+      "new_title": "The King's Men: The Hut-Sut Song | Soundie (1941) | 8K HQ | @remAIke_IT",
+      "apply": true
+    },
+    {
+      "id": "oA7XcqVM1Vo",
+      "song": "I Can't Give You Anything But Love",
+      "artist": null,
+      "year": "1940s",
+      "source": "Archive.org (Female singer)",
+      "confidence": "UNKNOWN",
+      "new_title": "Soundie: I Can't Give You Anything But Love | 8K HQ | Vintage Music Film | @remAIke_IT",
+      "apply": false
+    },
+    {
+      "id": "mDSdzFc572Y",
+      "song": "What This Country Needs",
+      "artist": null,
+      "year": "1940s",
+      "source": "Archive.org",
+      "confidence": "UNKNOWN",
+      "new_title": "Soundie: What This Country Needs | 8K HQ | Vintage Music Film | @remAIke_IT",
+      "apply": false
+    },
+    {
+      "id": "1zKpqdriv70",
+      "song": "Ten Pretty Girls",
+      "artist": null,
+      "year": "1940s",
+      "source": "Archive.org (Radio vocalist)",
+      "confidence": "UNKNOWN",
+      "new_title": "Soundie: Ten Pretty Girls | 8K HQ | Vintage Music Film | @remAIke_IT",
+      "apply": false
+    },
+    {
+      "id": "NAk0QvvaT7M",
+      "song": "Who's Yehudi",
+      "artist": null,
+      "year": "1940s",
+      "source": "Not on Archive.org",
+      "confidence": "UNKNOWN",
+      "new_title": "Soundie: Who's Yehudi | 8K HQ | Vintage Music Film | @remAIke_IT",
+      "apply": false
+    },
+    {
+      "id": "LJp-M01OI-8",
+      "song": "Chime Bells",
+      "artist": null,
+      "year": "1940s",
+      "source": "Archive.org (Navy performer)",
+      "confidence": "UNKNOWN",
+      "new_title": "Soundie: Chime Bells | 8K HQ | Vintage Music Film | @remAIke_IT",
+      "apply": false
+    },
+    {
+      "id": "HvwtRYp43eU",
+      "song": "Got to Be This or That",
+      "artist": null,
+      "year": "1940s",
+      "source": "Archive.org (Jazz band)",
+      "confidence": "UNKNOWN",
+      "new_title": "Soundie: Got to Be This or That | 8K HQ | Vintage Music Film | @remAIke_IT",
+      "apply": false
+    },
+    {
+      "id": "340C9lsoyYk",
+      "song": "Tica Ti Tica Ta",
+      "artist": null,
+      "year": "1940s",
+      "source": "Archive.org",
+      "confidence": "UNKNOWN",
+      "new_title": "Soundie: Tica Ti Tica Ta | 8K HQ | Vintage Music Film | @remAIke_IT",
+      "apply": false
+    }
+  ]
+}

@@ -1,0 +1,572 @@
+{
+  "459": {
+    "number": 459,
+    "date": "1939-06-21",
+    "event": "Pre-War Era",
+    "location": {
+      "lat": 52.52,
+      "lng": 13.405,
+      "desc": "Berlin, Germany"
+    }
+  },
+  "468": {
+    "number": 468,
+    "date": "1939-08-23",
+    "event": "Nazi-Soviet Pact",
+    "location": {
+      "lat": 55.7558,
+      "lng": 37.6173,
+      "desc": "Moscow, Russia"
+    }
+  },
+  "470": {
+    "number": 470,
+    "date": "1939-09-06",
+    "event": "War Begins",
+    "location": {
+      "lat": 52.2297,
+      "lng": 21.0122,
+      "desc": "Warsaw, Poland"
+    }
+  },
+  "471": {
+    "number": 471,
+    "date": "1939-09-13",
+    "event": "Poland Campaign",
+    "location": {
+      "lat": 52.2297,
+      "lng": 21.0122,
+      "desc": "Poland"
+    }
+  },
+  "472": {
+    "number": 472,
+    "date": "1939-09-20",
+    "event": "Warsaw Encircled",
+    "location": {
+      "lat": 52.2297,
+      "lng": 21.0122,
+      "desc": "Warsaw, Poland"
+    }
+  },
+  "473": {
+    "number": 473,
+    "date": "1939-09-27",
+    "event": "Fall of Warsaw",
+    "location": {
+      "lat": 52.2297,
+      "lng": 21.0122,
+      "desc": "Warsaw, Poland"
+    }
+  },
+  "474": {
+    "number": 474,
+    "date": "1939-10-04",
+    "event": "Warsaw Victory",
+    "location": {
+      "lat": 52.2297,
+      "lng": 21.0122,
+      "desc": "Warsaw, Poland"
+    }
+  },
+  "477": {
+    "number": 477,
+    "date": "1939-10-25",
+    "event": "Poland Occupied",
+    "location": {
+      "lat": 52.2297,
+      "lng": 21.0122,
+      "desc": "Poland"
+    }
+  },
+  "480": {
+    "number": 480,
+    "date": "1939-11-15",
+    "event": "Bürgerbräu Bomb",
+    "location": {
+      "lat": 48.1351,
+      "lng": 11.582,
+      "desc": "Munich, Germany"
+    }
+  },
+  "482": {
+    "number": 482,
+    "date": "1939-11-29",
+    "event": "Winter War Begins",
+    "location": {
+      "lat": 60.1699,
+      "lng": 24.9384,
+      "desc": "Finland"
+    }
+  },
+  "483": {
+    "number": 483,
+    "date": "1939-12-06",
+    "event": "Winter War",
+    "location": {
+      "lat": 60.1699,
+      "lng": 24.9384,
+      "desc": "Helsinki, Finland"
+    }
+  },
+  "488": {
+    "number": 488,
+    "date": "1940-01-10",
+    "event": "Phoney War",
+    "location": {
+      "lat": 52.52,
+      "lng": 13.405,
+      "desc": "Germany"
+    }
+  },
+  "491": {
+    "number": 491,
+    "date": "1940-01-31",
+    "event": "Phoney War",
+    "location": {
+      "lat": 52.52,
+      "lng": 13.405,
+      "desc": "Germany"
+    }
+  },
+  "493": {
+    "number": 493,
+    "date": "1940-02-14",
+    "event": "Finland Front",
+    "location": {
+      "lat": 60.1699,
+      "lng": 24.9384,
+      "desc": "Finland"
+    }
+  },
+  "496": {
+    "number": 496,
+    "date": "1940-03-06",
+    "event": "Winter War Ends",
+    "location": {
+      "lat": 60.1699,
+      "lng": 24.9384,
+      "desc": "Finland"
+    }
+  },
+  "497": {
+    "number": 497,
+    "date": "1940-03-13",
+    "event": "Atlantic Naval War",
+    "location": {
+      "lat": 45.0,
+      "lng": -30.0,
+      "desc": "Atlantic Ocean"
+    }
+  },
+  "502": {
+    "number": 502,
+    "date": "1940-04-17",
+    "event": "Norway Invasion",
+    "location": {
+      "lat": 59.9139,
+      "lng": 10.7522,
+      "desc": "Oslo, Norway"
+    }
+  },
+  "504": {
+    "number": 504,
+    "date": "1940-05-01",
+    "event": "Battle of Narvik",
+    "location": {
+      "lat": 68.4385,
+      "lng": 17.4272,
+      "desc": "Narvik, Norway"
+    }
+  },
+  "505": {
+    "number": 505,
+    "date": "1940-05-08",
+    "event": "Western Campaign",
+    "location": {
+      "lat": 50.8503,
+      "lng": 4.3517,
+      "desc": "Belgium"
+    }
+  },
+  "506": {
+    "number": 506,
+    "date": "1940-05-15",
+    "event": "Rotterdam Blitz",
+    "location": {
+      "lat": 51.9244,
+      "lng": 4.4777,
+      "desc": "Rotterdam, Netherlands"
+    }
+  },
+  "507": {
+    "number": 507,
+    "date": "1940-05-22",
+    "event": "Sedan Advance",
+    "location": {
+      "lat": 49.7017,
+      "lng": 4.9403,
+      "desc": "Sedan, France"
+    }
+  },
+  "508": {
+    "number": 508,
+    "date": "1940-05-29",
+    "event": "Dunkirk Pocket",
+    "location": {
+      "lat": 51.0343,
+      "lng": 2.3768,
+      "desc": "Dunkirk, France"
+    }
+  },
+  "509": {
+    "number": 509,
+    "date": "1940-06-05",
+    "event": "Dunkirk Evacuation",
+    "location": {
+      "lat": 51.0343,
+      "lng": 2.3768,
+      "desc": "Dunkirk, France"
+    }
+  },
+  "510": {
+    "number": 510,
+    "date": "1940-06-12",
+    "event": "France Collapsing",
+    "location": {
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "desc": "France"
+    }
+  },
+  "511": {
+    "number": 511,
+    "date": "1940-06-19",
+    "event": "Paris Falls",
+    "location": {
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "desc": "Paris, France"
+    }
+  },
+  "512": {
+    "number": 512,
+    "date": "1940-06-26",
+    "event": "French Armistice",
+    "location": {
+      "lat": 49.4272,
+      "lng": 2.8322,
+      "desc": "Compiègne, France"
+    }
+  },
+  "513": {
+    "number": 513,
+    "date": "1940-07-03",
+    "event": "Channel Islands",
+    "location": {
+      "lat": 49.4657,
+      "lng": -2.5853,
+      "desc": "Channel Islands"
+    }
+  },
+  "514": {
+    "number": 514,
+    "date": "1940-07-10",
+    "event": "Berlin Parade",
+    "location": {
+      "lat": 52.52,
+      "lng": 13.405,
+      "desc": "Berlin, Germany"
+    }
+  },
+  "515": {
+    "number": 515,
+    "date": "1940-07-17",
+    "event": "Battle of Britain",
+    "location": {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "desc": "London, England"
+    }
+  },
+  "516": {
+    "number": 516,
+    "date": "1940-07-24",
+    "event": "Battle of Britain",
+    "location": {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "desc": "London, England"
+    }
+  },
+  "517": {
+    "number": 517,
+    "date": "1940-07-31",
+    "event": "Eagle Day Planning",
+    "location": {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "desc": "England"
+    }
+  },
+  "518": {
+    "number": 518,
+    "date": "1940-08-07",
+    "event": "Channel Battles",
+    "location": {
+      "lat": 50.9,
+      "lng": 1.4,
+      "desc": "English Channel"
+    }
+  },
+  "519": {
+    "number": 519,
+    "date": "1940-08-14",
+    "event": "Eagle Day",
+    "location": {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "desc": "England"
+    }
+  },
+  "520": {
+    "number": 520,
+    "date": "1940-08-21",
+    "event": "Battle Peak",
+    "location": {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "desc": "England"
+    }
+  },
+  "522": {
+    "number": 522,
+    "date": "1940-09-04",
+    "event": "Berlin Retaliation",
+    "location": {
+      "lat": 52.52,
+      "lng": 13.405,
+      "desc": "Berlin, Germany"
+    }
+  },
+  "523": {
+    "number": 523,
+    "date": "1940-09-11",
+    "event": "London Blitz",
+    "location": {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "desc": "London, England"
+    }
+  },
+  "542": {
+    "number": 542,
+    "date": "1941-01-22",
+    "event": "Tobruk Falls",
+    "location": {
+      "lat": 32.0833,
+      "lng": 23.95,
+      "desc": "Tobruk, Libya"
+    }
+  },
+  "543": {
+    "number": 543,
+    "date": "1941-01-29",
+    "event": "Africa Corps",
+    "location": {
+      "lat": 32.0853,
+      "lng": 20.0,
+      "desc": "North Africa"
+    }
+  },
+  "544": {
+    "number": 544,
+    "date": "1941-02-05",
+    "event": "Rommel Arrives",
+    "location": {
+      "lat": 32.0853,
+      "lng": 20.0,
+      "desc": "Tripoli, Libya"
+    }
+  },
+  "545": {
+    "number": 545,
+    "date": "1941-02-12",
+    "event": "Africa Offensive",
+    "location": {
+      "lat": 32.0853,
+      "lng": 20.0,
+      "desc": "North Africa"
+    }
+  },
+  "547": {
+    "number": 547,
+    "date": "1941-02-26",
+    "event": "Africa Campaign",
+    "location": {
+      "lat": 32.0853,
+      "lng": 20.0,
+      "desc": "North Africa"
+    }
+  },
+  "548": {
+    "number": 548,
+    "date": "1941-03-05",
+    "event": "Bulgaria Joins Axis",
+    "location": {
+      "lat": 42.6977,
+      "lng": 23.3219,
+      "desc": "Sofia, Bulgaria"
+    }
+  },
+  "550": {
+    "number": 550,
+    "date": "1941-03-19",
+    "event": "Yugoslavia Crisis",
+    "location": {
+      "lat": 44.7866,
+      "lng": 20.4489,
+      "desc": "Belgrade, Yugoslavia"
+    }
+  },
+  "553": {
+    "number": 553,
+    "date": "1941-04-09",
+    "event": "Balkans Campaign",
+    "location": {
+      "lat": 44.7866,
+      "lng": 20.4489,
+      "desc": "Balkans"
+    }
+  },
+  "573": {
+    "number": 573,
+    "date": "1941-08-27",
+    "event": "Kiev Battle",
+    "location": {
+      "lat": 50.4501,
+      "lng": 30.5234,
+      "desc": "Kyiv, Ukraine"
+    }
+  },
+  "652": {
+    "number": 652,
+    "date": "1943-03-03",
+    "event": "Kharkov III",
+    "location": {
+      "lat": 49.9935,
+      "lng": 36.2304,
+      "desc": "Kharkov, Ukraine"
+    }
+  },
+  "654": {
+    "number": 654,
+    "date": "1943-03-17",
+    "event": "Tunisia Battles",
+    "location": {
+      "lat": 36.8065,
+      "lng": 10.1815,
+      "desc": "Tunisia"
+    }
+  },
+  "687": {
+    "number": 687,
+    "date": "1943-11-03",
+    "event": "Kiev Battle",
+    "location": {
+      "lat": 50.4501,
+      "lng": 30.5234,
+      "desc": "Kyiv, Ukraine"
+    }
+  },
+  "718": {
+    "number": 718,
+    "date": "1944-06-07",
+    "event": "D-Day",
+    "location": {
+      "lat": 49.1829,
+      "lng": -0.3707,
+      "desc": "Normandy, France"
+    }
+  },
+  "720": {
+    "number": 720,
+    "date": "1944-06-21",
+    "event": "V1 Attacks",
+    "location": {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "desc": "London, England"
+    }
+  },
+  "721": {
+    "number": 721,
+    "date": "1944-06-28",
+    "event": "Bagration Begins",
+    "location": {
+      "lat": 53.9045,
+      "lng": 27.5615,
+      "desc": "Belarus"
+    }
+  },
+  "722": {
+    "number": 722,
+    "date": "1944-07-05",
+    "event": "Bagration",
+    "location": {
+      "lat": 53.9045,
+      "lng": 27.5615,
+      "desc": "Belarus"
+    }
+  },
+  "746": {
+    "number": 746,
+    "date": "1944-12-20",
+    "event": "Ardennes Offensive",
+    "location": {
+      "lat": 50.2,
+      "lng": 5.8,
+      "desc": "Ardennes, Belgium"
+    }
+  },
+  "750": {
+    "number": 750,
+    "date": "1945-01-17",
+    "event": "Vistula Offensive",
+    "location": {
+      "lat": 52.2297,
+      "lng": 21.0122,
+      "desc": "Poland"
+    }
+  },
+  "751": {
+    "number": 751,
+    "date": "1945-01-24",
+    "event": "Eastern Collapse",
+    "location": {
+      "lat": 52.52,
+      "lng": 13.405,
+      "desc": "Eastern Front"
+    }
+  },
+  "753": {
+    "number": 753,
+    "date": "1945-02-07",
+    "event": "Yalta Conference",
+    "location": {
+      "lat": 44.4952,
+      "lng": 34.1615,
+      "desc": "Yalta, Crimea"
+    }
+  },
+  "754": {
+    "number": 754,
+    "date": "1945-02-14",
+    "event": "Dresden Bombed",
+    "location": {
+      "lat": 51.0504,
+      "lng": 13.7373,
+      "desc": "Dresden, Germany"
+    }
+  }
+}

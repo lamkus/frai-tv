@@ -1,0 +1,362 @@
+{
+  "scan_date": "2026-02-28",
+  "total_channel_videos": 458,
+  "total_fetched": 454,
+  "needs_fix_count": 29,
+  "quota_reads": 10,
+  "videos": [
+    {
+      "videoId": "ghhyzR9NSLE",
+      "title": "Alfred J. Kwak (E19) Rettet die Wale! | DE | 8K HQ (4K UHD)",
+      "privacy": "private",
+      "category": "1",
+      "tags_count": 15,
+      "desc_preview": "Alfred J. Kwak (E19) Rettet die Wale! | Deutsch | 8K HQ (4K UHD)",
+      "reasons": [
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/ghhyzR9NSLE/edit"
+    },
+    {
+      "videoId": "oWZ5BmJVsxI",
+      "title": "Alfred J. Kwak (E20) Der Alptraum | DE | 8K HQ (4K UHD)",
+      "privacy": "private",
+      "category": "1",
+      "tags_count": 15,
+      "desc_preview": "Alfred J. Kwak (E20) Der Alptraum | Deutsch | 8K HQ (4K UHD)",
+      "reasons": [
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/oWZ5BmJVsxI/edit"
+    },
+    {
+      "videoId": "NvwmtSLyCE4",
+      "title": "Alfred J. Kwak (E31) Die Bohrinsel | DE | 8K HQ (4K UHD)",
+      "privacy": "private",
+      "category": "1",
+      "tags_count": 15,
+      "desc_preview": "Alfred J. Kwak (E31) Die Bohrinsel | Deutsch | 8K HQ (4K UHD)",
+      "reasons": [
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/NvwmtSLyCE4/edit"
+    },
+    {
+      "videoId": "Wmldi8lMuSU",
+      "title": "Apollo 11: Onboard Camera (1969) | NASA Archive | 8K HQ (4K UHD)",
+      "privacy": "private",
+      "category": "27",
+      "tags_count": 15,
+      "desc_preview": "🚀 Apollo 11 — Onboard camera footage from humanity's first Moon landing, July 19",
+      "reasons": [
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/Wmldi8lMuSU/edit"
+    },
+    {
+      "videoId": "HCj_w3pBxlc",
+      "title": "Blackmail (1929) | Hitchcock's First Talkie | 8K HQ (4K UHD)",
+      "privacy": "private",
+      "category": "1",
+      "tags_count": 15,
+      "desc_preview": "Blackmail (1929) – Erpressung",
+      "reasons": [
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/HCj_w3pBxlc/edit"
+    },
+    {
+      "videoId": "SV7o2XaYZyc",
+      "title": "DUPE - Wochenschau 509: Dunkirk Evacuation (Jun 1940) | 8K (4K UHD)",
+      "privacy": "private",
+      "category": "27",
+      "tags_count": 12,
+      "desc_preview": "🎬 WOCHENSCHAU 509 | 05.06.1940 | Dunkirk Evacuation",
+      "reasons": [
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/SV7o2XaYZyc/edit"
+    },
+    {
+      "videoId": "LjGFowS8qHI",
+      "title": "DUPE - Wochenschau 512: French Armistice (Jun 1940) | 8K (4K UHD)",
+      "privacy": "private",
+      "category": "27",
+      "tags_count": 12,
+      "desc_preview": "🎬 WOCHENSCHAU 512 | 26.06.1940 | French Armistice",
+      "reasons": [
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/LjGFowS8qHI/edit"
+    },
+    {
+      "videoId": "LCa6Klpi8ts",
+      "title": "DUPE - Wochenschau 518: Channel Battles (Aug 1940) | 8K (4K UHD)",
+      "privacy": "private",
+      "category": "27",
+      "tags_count": 12,
+      "desc_preview": "🎬 WOCHENSCHAU 518 | 07.08.1940 | Channel Battles",
+      "reasons": [
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/LCa6Klpi8ts/edit"
+    },
+    {
+      "videoId": "ULzsDOb2x3U",
+      "title": "DUPE - Wochenschau 519: Eagle Day (Aug 1940) | 8K (4K UHD)",
+      "privacy": "private",
+      "category": "27",
+      "tags_count": 12,
+      "desc_preview": "🎬 WOCHENSCHAU 519 | 14.08.1940 | Eagle Day",
+      "reasons": [
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/ULzsDOb2x3U/edit"
+    },
+    {
+      "videoId": "sGZg6lIHFh8",
+      "title": "DUPE - Wochenschau 520: Battle Peak (Aug 1940) | 8K (4K UHD)",
+      "privacy": "private",
+      "category": "27",
+      "tags_count": 12,
+      "desc_preview": "🎬 WOCHENSCHAU 520 | 21.08.1940 | Battle Peak",
+      "reasons": [
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/sGZg6lIHFh8/edit"
+    },
+    {
+      "videoId": "iFSHNS7kVgQ",
+      "title": "DUPE - Wochenschau 542: Tobruk Falls (Jan 1941) | 8K (4K UHD)",
+      "privacy": "private",
+      "category": "27",
+      "tags_count": 12,
+      "desc_preview": "🎬 WOCHENSCHAU 542 | 22.01.1941 | Tobruk Falls",
+      "reasons": [
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/iFSHNS7kVgQ/edit"
+    },
+    {
+      "videoId": "TQ3VQ66XNjg",
+      "title": "Familie Heinz Becker (S01E01) Der Dia-Abend (1992) | 8K HQ (4K UHD)",
+      "privacy": "private",
+      "category": "24",
+      "tags_count": 15,
+      "desc_preview": "🎬 Familie Heinz Becker — Kult-Sitcom mit Gerd Dudenhöffer, restauriert in 8K.",
+      "reasons": [
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/TQ3VQ66XNjg/edit"
+    },
+    {
+      "videoId": "U6CAhg95Izk",
+      "title": "Porky Pig (40/159): Porky's Bear Facts (1941) | 8K HQ (4K UHD)",
+      "privacy": "private",
+      "category": "1",
+      "tags_count": 15,
+      "desc_preview": "🇬🇧 In Porky's Bear Facts (1941), Porky tells tall tales about his encounters wit",
+      "reasons": [
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/U6CAhg95Izk/edit"
+    },
+    {
+      "videoId": "u5poUF6KQfA",
+      "title": "Porky Pig (45/159): Porky's Cafe (1942) | 8K HQ (4K UHD)",
+      "privacy": "private",
+      "category": "1",
+      "tags_count": 15,
+      "desc_preview": "🇬🇧 In Porky's Cafe (1942), Porky Pig runs a small diner where he must deal with ",
+      "reasons": [
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/u5poUF6KQfA/edit"
+    },
+    {
+      "videoId": "5_Rx2lmeRfw",
+      "title": "Porky Pig: Porky's Bear Facts (1941) | 8K HQ (4K UHD)",
+      "privacy": "private",
+      "category": "1",
+      "tags_count": 15,
+      "desc_preview": "🇬🇧 Porky's Bear Facts (1941) is a Looney Tunes adaptation of Aesop's fable 'The ",
+      "reasons": [
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/5_Rx2lmeRfw/edit"
+    },
+    {
+      "videoId": "TLdsnAi8bWg",
+      "title": "Silly Symphony: The Skeleton Dance (1929) | Disney | 8K HQ (4K UHD)",
+      "privacy": "private",
+      "category": "1",
+      "tags_count": 15,
+      "desc_preview": "Silly Symphony: The Skeleton Dance (1929)",
+      "reasons": [
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/TLdsnAi8bWg/edit"
+    },
+    {
+      "videoId": "CKLYjy30fIw",
+      "title": "Vimeo Clip Derives Test | 8K HQ (4K UHD)",
+      "privacy": "private",
+      "category": "1",
+      "tags_count": 11,
+      "desc_preview": "8K clip extracts for review and indexing.",
+      "reasons": [
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/CKLYjy30fIw/edit"
+    },
+    {
+      "videoId": "aKcgVrL3wvQ",
+      "title": "What This Country Needs (1930s) | Cartoon | 8K HQ (4K UHD)",
+      "privacy": "private",
+      "category": "1",
+      "tags_count": 15,
+      "desc_preview": "🎬 What This Country Needs (1930s) | Vintage Cartoon",
+      "reasons": [
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/aKcgVrL3wvQ/edit"
+    },
+    {
+      "videoId": "tG-_jHZAdFg",
+      "title": "Wochenschau 492: Altmark Incident (07.02.1940) | 8K HQ (4K UHD)",
+      "privacy": "private",
+      "category": "27",
+      "tags_count": 15,
+      "desc_preview": "⚠️ HISTORICAL DOCUMENT — This newsreel is original wartime propaganda, presented",
+      "reasons": [
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/tG-_jHZAdFg/edit"
+    },
+    {
+      "videoId": "yMXZOo8c6Gk",
+      "title": "Wochenschau 493: Finland Front (14.02.1940) | 8K HQ (4K UHD)",
+      "privacy": "private",
+      "category": "27",
+      "tags_count": 15,
+      "desc_preview": "⚠️ HISTORICAL DOCUMENT — This newsreel is original wartime propaganda, presented",
+      "reasons": [
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/yMXZOo8c6Gk/edit"
+    },
+    {
+      "videoId": "R9dz4YGCy5E",
+      "title": "Wochenschau 496: Winter War Ends (06.03.1940) | 8K HQ (4K UHD)",
+      "privacy": "private",
+      "category": "27",
+      "tags_count": 15,
+      "desc_preview": "HISTORICAL DOCUMENT - This newsreel is original wartime propaganda, presented fo",
+      "reasons": [
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/R9dz4YGCy5E/edit"
+    },
+    {
+      "videoId": "D_kLmNFlbZI",
+      "title": "Wochenschau 513: Channel Islands (Jul 1940) | 8K (4K UHD)",
+      "privacy": "private",
+      "category": "27",
+      "tags_count": 15,
+      "desc_preview": "🎬 WOCHENSCHAU 513 | 03.07.1940 | Channel Islands",
+      "reasons": [
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/D_kLmNFlbZI/edit"
+    },
+    {
+      "videoId": "1O8sVLS-zfI",
+      "title": "Wochenschau 524: Sea Lion Postponed (Sep 1940) | 8K (4K UHD)",
+      "privacy": "private",
+      "category": "27",
+      "tags_count": 15,
+      "desc_preview": "🎬 WOCHENSCHAU 524 | 18.09.1940 | Sea Lion Postponed",
+      "reasons": [
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/1O8sVLS-zfI/edit"
+    },
+    {
+      "videoId": "RsfUriJTAvE",
+      "title": "deutsche wochenschau nr690 1943 11 24 19min sls ARCHIVE PROTECTED",
+      "privacy": "private",
+      "category": "27",
+      "tags_count": 0,
+      "desc_preview": "",
+      "reasons": [
+        "bad_pattern: \\bsls\\b",
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/RsfUriJTAvE/edit"
+    },
+    {
+      "videoId": "T1pUCPyDrl4",
+      "title": "deutsche wochenschau nr692 1943 12 08 21min sls ARCHIVE PROTECTED",
+      "privacy": "private",
+      "category": "27",
+      "tags_count": 0,
+      "desc_preview": "",
+      "reasons": [
+        "bad_pattern: \\bsls\\b",
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/T1pUCPyDrl4/edit"
+    },
+    {
+      "videoId": "BMG-obvTut0",
+      "title": "deutsche wochenschau nr711 1944 04 19 19min sls ARCHIVE PROTECTED",
+      "privacy": "private",
+      "category": "27",
+      "tags_count": 0,
+      "desc_preview": "",
+      "reasons": [
+        "bad_pattern: \\bsls\\b",
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/BMG-obvTut0/edit"
+    },
+    {
+      "videoId": "P4iJuIBsxKw",
+      "title": "deutsche wochenschau nr712 1944 04 26 21min sls ARCHIVE PROTECTED",
+      "privacy": "private",
+      "category": "27",
+      "tags_count": 0,
+      "desc_preview": "",
+      "reasons": [
+        "bad_pattern: \\bsls\\b",
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/P4iJuIBsxKw/edit"
+    },
+    {
+      "videoId": "m36-1Q855iU",
+      "title": "deutsche wochenschau nr715 1944 05 17 19min sls ARCHIVE PROTECTED",
+      "privacy": "private",
+      "category": "27",
+      "tags_count": 0,
+      "desc_preview": "",
+      "reasons": [
+        "bad_pattern: \\bsls\\b",
+        "status: private"
+      ],
+      "studio_link": "https://studio.youtube.com/video/m36-1Q855iU/edit"
+    },
+    {
+      "videoId": "MGDT-j7K32s",
+      "title": "Superman (14/17): The Mummy Strikes (1943) | 8K HQ (4K UHD)",
+      "privacy": "public",
+      "category": "1",
+      "tags_count": 15,
+      "desc_preview": "🎬 Classic public domain footage, AI remastered in 8K HQ (4K UHD) with restored d",
+      "reasons": [
+        "contains_raw_marker"
+      ],
+      "studio_link": "https://studio.youtube.com/video/MGDT-j7K32s/edit"
+    }
+  ]
+}

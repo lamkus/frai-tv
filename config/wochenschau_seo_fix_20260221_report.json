@@ -1,0 +1,42 @@
+{
+  "date": "2026-02-21",
+  "mode": "APPLY",
+  "quota_used": 350,
+  "results": [
+    {
+      "id": "o33-c1riv4U",
+      "nr": "459",
+      "status": "updated"
+    },
+    {
+      "id": "dAp7JFDhE3U",
+      "nr": "468",
+      "status": "updated"
+    },
+    {
+      "id": "t-VIxJaWE74",
+      "nr": "470",
+      "status": "updated"
+    },
+    {
+      "id": "9muRRAleqdA",
+      "nr": "471",
+      "status": "updated"
+    },
+    {
+      "id": "3AtirtgrfUI",
+      "nr": "473",
+      "status": "updated"
+    },
+    {
+      "id": "w2UvksMOs3c",
+      "nr": "750",
+      "status": "updated"
+    },
+    {
+      "id": "6YLPpJLgVXk",
+      "nr": "751",
+      "status": "updated"
+    }
+  ]
+}

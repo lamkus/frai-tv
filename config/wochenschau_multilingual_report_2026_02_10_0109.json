@@ -1,0 +1,296 @@
+{
+  "timestamp": "2026-02-10T01:09:44.002652",
+  "mode": "DRY_RUN",
+  "updated": [
+    {
+      "id": "o33-c1riv4U",
+      "nr": "459",
+      "title": "Wochenschau 459: Pre-War Era (Jun 1939) | 8K HQ (4K UHD)",
+      "desc_length": 2893,
+      "mode": "dry_run"
+    },
+    {
+      "id": "dAp7JFDhE3U",
+      "nr": "468",
+      "title": "Wochenschau 468: Nazi-Soviet Pact (Aug 1939) | 8K HQ (4K UHD)",
+      "desc_length": 2982,
+      "mode": "dry_run"
+    },
+    {
+      "id": "t-VIxJaWE74",
+      "nr": "470",
+      "title": "Wochenschau 470: War Begins (Sep 1939) | 8K HQ (4K UHD)",
+      "desc_length": 2895,
+      "mode": "dry_run"
+    },
+    {
+      "id": "9muRRAleqdA",
+      "nr": "471",
+      "title": "Wochenschau 471: Poland Campaign (Sep 1939) | 8K HQ (4K UHD)",
+      "desc_length": 2916,
+      "mode": "dry_run"
+    },
+    {
+      "id": "3AtirtgrfUI",
+      "nr": "473",
+      "title": "Wochenschau 473: Fall of Warsaw (Sep 1939) | 8K HQ (4K UHD)",
+      "desc_length": 2928,
+      "mode": "dry_run"
+    },
+    {
+      "id": "iRzeiRoAsj4",
+      "nr": "477",
+      "title": "Wochenschau 477: Poland Occupied (Oct 1939) | 8K HQ (4K UHD)",
+      "desc_length": 2932,
+      "mode": "dry_run"
+    },
+    {
+      "id": "jeLWajro1As",
+      "nr": "480",
+      "title": "Wochenschau 480: Bürgerbräu Bomb (Nov 1939) | 8K HQ (4K UHD)",
+      "desc_length": 2965,
+      "mode": "dry_run"
+    },
+    {
+      "id": "N7WPQUjFJjA",
+      "nr": "482",
+      "title": "Wochenschau 482: Winter War Begins (Nov 1939) | 8K HQ (4K UHD)",
+      "desc_length": 2986,
+      "mode": "dry_run"
+    },
+    {
+      "id": "Qn7Nvx7eWz4",
+      "nr": "483",
+      "title": "Wochenschau 483: Winter War (Dec 1939) | 8K HQ (4K UHD)",
+      "desc_length": 2847,
+      "mode": "dry_run"
+    },
+    {
+      "id": "DLifkhU0q1w",
+      "nr": "488",
+      "title": "Wochenschau 488: Phoney War (Jan 1940) | 8K HQ (4K UHD)",
+      "desc_length": 2848,
+      "mode": "dry_run"
+    },
+    {
+      "id": "a5VVGGHPlsg",
+      "nr": "502",
+      "title": "Wochenschau 502: Norway Invasion (Apr 1940) | 8K HQ (4K UHD)",
+      "desc_length": 2948,
+      "mode": "dry_run"
+    },
+    {
+      "id": "fC0MlizsAQQ",
+      "nr": "508",
+      "title": "Wochenschau 508: Dunkirk Pocket (May 1940) | 8K HQ (4K UHD)",
+      "desc_length": 2959,
+      "mode": "dry_run"
+    },
+    {
+      "id": "2uHl4LYN8O8",
+      "nr": "509",
+      "title": "Wochenschau 509: Dunkirk Evacuation (Jun 1940) | 8K HQ (4K UHD)",
+      "desc_length": 3012,
+      "mode": "dry_run"
+    },
+    {
+      "id": "xblc6reUMr0",
+      "nr": "512",
+      "title": "Wochenschau 512: French Armistice (Jun 1940) | 8K HQ (4K UHD)",
+      "desc_length": 2991,
+      "mode": "dry_run"
+    },
+    {
+      "id": "g8215791a7I",
+      "nr": "513",
+      "title": "Wochenschau 513: Channel Islands (Jul 1940) | 8K HQ (4K UHD)",
+      "desc_length": 2956,
+      "mode": "dry_run"
+    },
+    {
+      "id": "7st-GFEwdWQ",
+      "nr": "514",
+      "title": "Wochenschau 514: Berlin Parade (Jul 1940) | 8K HQ (4K UHD)",
+      "desc_length": 2912,
+      "mode": "dry_run"
+    },
+    {
+      "id": "vkCoIJGAf3E",
+      "nr": "515",
+      "title": "Wochenschau 515: Battle of Britain (Jul 1940) | 8K HQ (4K UHD)",
+      "desc_length": 2993,
+      "mode": "dry_run"
+    },
+    {
+      "id": "Yj_QcM9Ce28",
+      "nr": "518",
+      "title": "Wochenschau 518: Channel Battles (Aug 1940) | 8K HQ (4K UHD)",
+      "desc_length": 2932,
+      "mode": "dry_run"
+    },
+    {
+      "id": "7yfdqylo9qs",
+      "nr": "519",
+      "title": "Wochenschau 519: Eagle Day (Aug 1940) | 8K HQ (4K UHD)",
+      "desc_length": 2846,
+      "mode": "dry_run"
+    },
+    {
+      "id": "i2mRp5iMxoo",
+      "nr": "520",
+      "title": "Wochenschau 520: Battle Peak (Aug 1940) | 8K HQ (4K UHD)",
+      "desc_length": 2896,
+      "mode": "dry_run"
+    },
+    {
+      "id": "S31f7FuEvXw",
+      "nr": "522",
+      "title": "Wochenschau 522: Berlin Retaliation (Sep 1940) | 8K HQ (4K UHD)",
+      "desc_length": 3006,
+      "mode": "dry_run"
+    },
+    {
+      "id": "fNCZYqnK3Cc",
+      "nr": "523",
+      "title": "Wochenschau 523: London Blitz (Sep 1940) | 8K HQ (4K UHD)",
+      "desc_length": 2901,
+      "mode": "dry_run"
+    },
+    {
+      "id": "J3LWOLaxuCc",
+      "nr": "542",
+      "title": "Wochenschau 542: Tobruk Falls (Jan 1941) | 8K HQ (4K UHD)",
+      "desc_length": 2905,
+      "mode": "dry_run"
+    },
+    {
+      "id": "s5d9cAM6REo",
+      "nr": "543",
+      "title": "Wochenschau 543: Africa Corps (Jan 1941) | 8K HQ (4K UHD)",
+      "desc_length": 2894,
+      "mode": "dry_run"
+    },
+    {
+      "id": "eBzXzhNYppQ",
+      "nr": "544",
+      "title": "Wochenschau 544: Rommel Arrives (Feb 1941) | 8K HQ (4K UHD)",
+      "desc_length": 2933,
+      "mode": "dry_run"
+    },
+    {
+      "id": "7bqlAPsgzAQ",
+      "nr": "545",
+      "title": "Wochenschau 545: Africa Offensive (Feb 1941) | 8K HQ (4K UHD)",
+      "desc_length": 2956,
+      "mode": "dry_run"
+    },
+    {
+      "id": "6wop-BU_XME",
+      "nr": "547",
+      "title": "Wochenschau 547: Africa Campaign (Feb 1941) | 8K HQ (4K UHD)",
+      "desc_length": 2932,
+      "mode": "dry_run"
+    },
+    {
+      "id": "ZuD1fAyGiUw",
+      "nr": "548",
+      "title": "Wochenschau 548: Bulgaria Joins Axis (Mar 1941) | 8K HQ (4K UHD)",
+      "desc_length": 3006,
+      "mode": "dry_run"
+    },
+    {
+      "id": "wEMKHQPopHY",
+      "nr": "550",
+      "title": "Wochenschau 550: Yugoslavia Crisis (Mar 1941) | 8K HQ (4K UHD)",
+      "desc_length": 2989,
+      "mode": "dry_run"
+    },
+    {
+      "id": "tVD8197vAyE",
+      "nr": "573",
+      "title": "Wochenschau 573: Kiev Battle (Aug 1941) | 8K HQ (4K UHD)",
+      "desc_length": 2886,
+      "mode": "dry_run"
+    },
+    {
+      "id": "0sO7jVL43yQ",
+      "nr": "652",
+      "title": "Wochenschau 652: Kharkov III (Mar 1943) | 8K HQ (4K UHD)",
+      "desc_length": 2875,
+      "mode": "dry_run"
+    },
+    {
+      "id": "dYBzf5V1TjI",
+      "nr": "654",
+      "title": "Wochenschau 654: Tunisia Battles (Mar 1943) | 8K HQ (4K UHD)",
+      "desc_length": 2916,
+      "mode": "dry_run"
+    },
+    {
+      "id": "6K-MuUu6L44",
+      "nr": "720",
+      "title": "Wochenschau 720: V1 Attacks (Jun 1944) | 8K HQ (4K UHD)",
+      "desc_length": 2878,
+      "mode": "dry_run"
+    },
+    {
+      "id": "W-UcQleew8Y",
+      "nr": "721",
+      "title": "Wochenschau 721: Bagration Begins (Jun 1944) | 8K HQ (4K UHD)",
+      "desc_length": 2968,
+      "mode": "dry_run"
+    },
+    {
+      "id": "bZkUPQHqyfg",
+      "nr": "722",
+      "title": "Wochenschau 722: Bagration (Jul 1944) | 8K HQ (4K UHD)",
+      "desc_length": 2873,
+      "mode": "dry_run"
+    },
+    {
+      "id": "jGz1kC1Z69A",
+      "nr": "746",
+      "title": "Wochenschau 746: Ardennes Offensive (Dec 1944) | 8K HQ (4K UHD)",
+      "desc_length": 3000,
+      "mode": "dry_run"
+    },
+    {
+      "id": "w2UvksMOs3c",
+      "nr": "750",
+      "title": "Wochenschau 750: Vistula Offensive (Jan 1945) | 8K HQ (4K UHD)",
+      "desc_length": 2996,
+      "mode": "dry_run"
+    },
+    {
+      "id": "6YLPpJLgVXk",
+      "nr": "751",
+      "title": "Wochenschau 751: Eastern Collapse (Jan 1945) | 8K HQ (4K UHD)",
+      "desc_length": 2957,
+      "mode": "dry_run"
+    },
+    {
+      "id": "iEEvt-s1XhQ",
+      "nr": "753",
+      "title": "Wochenschau 753: Yalta Conference (Feb 1945) | 8K HQ (4K UHD)",
+      "desc_length": 2960,
+      "mode": "dry_run"
+    },
+    {
+      "id": "H_n_mS-eKps",
+      "nr": "754",
+      "title": "Wochenschau 754: Dresden Bombed (Feb 1945) | 8K HQ (4K UHD)",
+      "desc_length": 2936,
+      "mode": "dry_run"
+    },
+    {
+      "id": "9AgSJyMnxi8",
+      "nr": "atomic",
+      "title": "Atomic Bomb Newsreel (1946) | 8K HQ (4K UHD)",
+      "desc_length": 2977,
+      "mode": "dry_run"
+    }
+  ],
+  "skipped": [],
+  "failed": [],
+  "quota_used": 41
+}

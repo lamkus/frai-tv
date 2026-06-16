@@ -1,0 +1,167 @@
+{
+  "_meta": {
+    "tool": "StreamPilot",
+    "version": "1.0.0",
+    "description": "On-Premise Multi-Channel YouTube Live Stream Manager",
+    "author": "remAIke.IT"
+  },
+
+  "system": {
+    "max_cpu_percent": 85,
+    "max_ram_percent": 90,
+    "ffmpeg_binary": "ffmpeg",
+    "ffprobe_binary": "ffprobe",
+    "health_check_interval_seconds": 30,
+    "auto_restart_on_crash": true,
+    "max_restart_attempts": 5,
+    "restart_cooldown_seconds": 60
+  },
+
+  "channels": {
+    "wochenschautv": {
+      "enabled": true,
+      "channel_name": "remAIke_IT",
+      "channel_id": "UCVFv6Egpl0LDvigpFbQXNeQ",
+      "stream_title": "WochenschauTV — Deutsche Wochenschau 24/7 | WWII Newsreel Marathon | 8K Restored",
+      "stream_key_env": "YOUTUBE_STREAM_KEY_REMAIKE",
+      "stream_key_file": "config/stream_key.txt",
+      "content_type": "episodic",
+      "content_config": "config/wochenschautv_config.json",
+      "episode_db": "config/wochenschau_complete_upload_database.json",
+      "source_dirs": [
+        "V:\\MediaArchive\\DeutscheWochenschau",
+        "V:\\TopazPipeline\\Input\\Wochenschau",
+        "V:\\OriginalSources\\German_Historical\\Wochenschau",
+        "V:\\OriginalSources\\German_Historical\\Wochenschau_Backup"
+      ],
+      "source_mapping": "config/wochenschau_source_mapping.json",
+      "_source_note": "Uses source_mapping.json for exact file paths. Only 8K files (>4GB) are stream-ready.",
+      "encoding": {
+        "resolution": "3840x2160",
+        "_note": "4K UHD max for YouTube Live. 8K source downscaled.",
+        "fps": 25,
+        "video_bitrate": "20000k",
+        "audio_bitrate": "192k",
+        "codec_cpu": "libx264",
+        "codec_gpu": "h264_nvenc",
+        "preset_cpu": "medium",
+        "preset_gpu": "p5"
+      },
+      "overlay": {
+        "style": "bottom_bar",
+        "bar_height": 44,
+        "bar_opacity": 0.75,
+        "show_timeline": true,
+        "show_episode_info": true,
+        "show_event_name": true,
+        "language": "en"
+      },
+      "schedule": {
+        "mode": "sequential_loop",
+        "pause_between_seconds": 10
+      }
+    },
+
+    "channelstream_tv": {
+      "enabled": true,
+      "channel_name": "remAIke_IT",
+      "channel_id": "UCVFv6Egpl0LDvigpFbQXNeQ",
+      "stream_title": "remAIke TV — 24/7 Classic Entertainment | Cartoons • Films • Newsreels | 8K Restored",
+      "stream_key_env": "YOUTUBE_STREAM_KEY_REMAIKE",
+      "stream_key_file": "config/stream_key.txt",
+      "content_type": "scheduled_blocks",
+      "content_config": "config/channelstream_tv_config.json",
+      "script": "scripts/youtube/channelstream_tv.py",
+      "source_dirs": [
+        "V:\\OriginalSources\\Final\\nyx8kexportupscale",
+        "V:\\OriginalSources\\Final",
+        "V:\\MediaArchive\\DeutscheWochenschau",
+        "V:\\TopazPipeline\\Input\\Wochenschau"
+      ],
+      "encoding": {
+        "resolution": "3840x2160",
+        "fps": 25,
+        "video_bitrate": "20000k",
+        "audio_bitrate": "192k",
+        "codec_cpu": "libx264",
+        "codec_gpu": "h264_nvenc",
+        "preset_cpu": "medium",
+        "preset_gpu": "p5"
+      },
+      "overlay": {
+        "style": "tv_station_hud",
+        "bar_height": 48,
+        "bar_opacity": 0.75,
+        "station_bug": true,
+        "language": "en"
+      },
+      "schedule": {
+        "mode": "time_blocks",
+        "blocks": 4,
+        "block_ids": ["cartoon_morning", "vintage_afternoon", "prime_time", "night_docs"]
+      }
+    },
+
+    "wochenschau_kino": {
+      "enabled": true,
+      "channel_name": "remAIke_IT",
+      "channel_id": "UCVFv6Egpl0LDvigpFbQXNeQ",
+      "stream_title": "WochenschauKino — 1940s Cinema Experience | Newsreels + Cartoons + Soundies | 8K Restored",
+      "stream_key_env": "YOUTUBE_STREAM_KEY_REMAIKE",
+      "stream_key_file": "config/stream_key.txt",
+      "content_type": "kino_program",
+      "content_config": "config/wochenschau_kino_config.json",
+      "script": "scripts/youtube/wochenschau_kino.py",
+      "source_dirs": [
+        "V:\\Wochenschau\\8K",
+        "V:\\OriginalSources\\Final\\nyx8kexportupscale",
+        "V:\\OriginalSources\\Final",
+        "V:\\MediaArchive"
+      ],
+      "encoding": {
+        "resolution": "3840x2160",
+        "fps": 25,
+        "video_bitrate": "20000k",
+        "audio_bitrate": "192k",
+        "codec_cpu": "libx264",
+        "codec_gpu": "h264_nvenc",
+        "preset_cpu": "medium",
+        "preset_gpu": "p5"
+      },
+      "overlay": {
+        "style": "kino_hud",
+        "bar_height": 44,
+        "bar_opacity": 0.7,
+        "show_era": true,
+        "show_war_progress": true,
+        "language": "en"
+      },
+      "schedule": {
+        "mode": "chronological_with_interstitials",
+        "interstitials_per_episode": 2,
+        "format": "standard"
+      }
+    }
+  },
+
+  "dashboard": {
+    "refresh_interval_seconds": 5,
+    "show_system_stats": true,
+    "show_stream_health": true,
+    "show_episode_info": true,
+    "log_file": "logs/streampilot.log"
+  },
+
+  "capacity": {
+    "_note": "Estimated concurrent 4K streams by hardware",
+    "cpu_only_4k_estimate": 1,
+    "cpu_only_1080p_estimate": 3,
+    "nvenc_4k_estimate": 3,
+    "nvenc_1080p_estimate": 8,
+    "current_gpu": "GT 710 (NO NVENC — CPU only!)",
+    "target_gpu": "RTX 3090 (NVENC 3x 4K or 8x 1080p)",
+    "youtube_live_max": "4K 2160p (8K not supported for livestreams)",
+    "bandwidth_per_4k_stream_mbps": 25,
+    "upload_required_mbps": "25 per stream + 20% headroom"
+  }
+}

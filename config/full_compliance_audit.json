@@ -1,0 +1,181 @@
+{
+  "total_videos": 332,
+  "total_issues": 71,
+  "summary": {
+    "no_8k_in_title": 0,
+    "handle_in_title": 0,
+    "title_too_long": 20,
+    "no_cta_in_desc": 0,
+    "no_website_in_desc": 0,
+    "no_channel_link_in_desc": 0,
+    "too_many_hashtags": 43,
+    "too_many_tags": 0,
+    "wrong_category": 8,
+    "raw_sls_in_title": 0,
+    "no_description": 0
+  },
+  "no_8k_in_title": [],
+  "wrong_category": [
+    {
+      "id": "sp1AzW-_rV0",
+      "title": "Skylab 3: A Scientific Harvest (1974) | NASA | 8K HQ",
+      "series": "nasa",
+      "actual": 27,
+      "expected": 1
+    },
+    {
+      "id": "ndAzCIUxo-c",
+      "title": "Skylab: Gyroscopes in Space | NASA | 8K HQ (4K UHD)",
+      "series": "nasa",
+      "actual": 27,
+      "expected": 1
+    },
+    {
+      "id": "bhnnR0WX_X0",
+      "title": "Boxing Cats (1894) | Edison | World's First Cat Video | 8K HQ",
+      "series": "other",
+      "actual": 28,
+      "expected": 1
+    },
+    {
+      "id": "NcfUWqlfSm0",
+      "title": "Getaway in Stockholm 1 – Porsche 911 | 8K HQ (4K UHD)",
+      "series": "other",
+      "actual": 2,
+      "expected": 1
+    },
+    {
+      "id": "wAkUnHRxwT8",
+      "title": "Livestream von remAIke_IT | 8K HQ (4K UHD)",
+      "series": "other",
+      "actual": 25,
+      "expected": 1
+    },
+    {
+      "id": "DO8dSN4aAB4",
+      "title": "Nuremberg Trials: Nazi Concentration Camps (1945) | 8K HQ (4K UHD)",
+      "series": "other",
+      "actual": 27,
+      "expected": 1
+    },
+    {
+      "id": "4vaim28zk50",
+      "title": "Nürnberger Nachfolgeprozesse (1947-49) | 8K HQ (4K UHD)",
+      "series": "other",
+      "actual": 27,
+      "expected": 1
+    },
+    {
+      "id": "eF81rBeXbzk",
+      "title": "Hindenburg Disaster (1937) | Full Documentary | 8K HQ",
+      "series": "wochenschau",
+      "actual": 1,
+      "expected": 27
+    }
+  ],
+  "too_many_tags": [],
+  "no_cta_videos": [],
+  "handle_in_title": [],
+  "title_too_long": [
+    {
+      "id": "dCCl4JxrlF8",
+      "title": "Betty Boop (11/105): Minnie the Moocher (1932) | Best Online Versio... | 8K HQ (4K UHD)",
+      "length": 87
+    },
+    {
+      "id": "zouf8VMUeCo",
+      "title": "Betty Boop (91/105): Out of the Inkwell (1938) | Best Online Versio... | 8K HQ (4K UHD)",
+      "length": 87
+    },
+    {
+      "id": "xoCvBUIaqwg",
+      "title": "Betty Boop (95/105): Pudgy the Watchman (1938) | Best Online Versio... | 8K HQ (4K UHD)",
+      "length": 87
+    },
+    {
+      "id": "hvdNZy8AciI",
+      "title": "Casper (15/55): True Boo | 1952 Animation in Crystal Clear 8K | 8K HQ (4K UHD)",
+      "length": 78
+    },
+    {
+      "id": "U-WD47NSgAE",
+      "title": "Coca‑Cola Christmas Trucks – Holidays Are Coming (1995)  | @rem... | 8K HQ (4K UHD)",
+      "length": 83
+    },
+    {
+      "id": "WSjkAZkPbKs",
+      "title": "EPIC Coca‑Cola Christmas Trucks – Holidays Are Coming (1995)  |... | 8K HQ (4K UHD)",
+      "length": 83
+    },
+    {
+      "id": "dGD2CeoZX68",
+      "title": "George C. Scott's Haunting Scrooge | A Christmas Carol 1984 in 8K | 8K HQ (4K UHD)",
+      "length": 82
+    },
+    {
+      "id": "yIQCHpjp4NE",
+      "title": "Merry Christmas from Batman & Robin Meet Santa Claus (1966)  | ... | 8K HQ (4K UHD)",
+      "length": 83
+    },
+    {
+      "id": "EpzJcD6zkvs",
+      "title": "Suzy Snowflake (1953)World First Winter / Christmas Short  | @r... | 8K HQ (4K UHD)",
+      "length": 83
+    },
+    {
+      "id": "lxrwknLmRl4",
+      "title": "This Deleted Porky Pig Episode Just Got Restored to 8K | 8K HQ (4K UHD)",
+      "length": 71
+    },
+    {
+      "id": "YbC2JynVCRA",
+      "title": "A Bill of Divorcement – Barrymore & Katharine Hepburn (1932)  |... | 8K HQ (4K UHD)",
+      "length": 83
+    },
+    {
+      "id": "Ucub3igzk2U",
+      "title": "Dick Whittington’s Cat (1935)  | Best Online Versio... | @remAI... | 8K HQ (4K UHD)",
+      "length": 83
+    },
+    {
+      "id": "MXE3TqsT2oE",
+      "title": "Old Mother Hubbard (1935) | ComiColor  | Best Onlin... | @remAI... | 8K HQ (4K UHD)",
+      "length": 83
+    },
+    {
+      "id": "Zu_iBCd5NJc",
+      "title": "What You Should Know About Biological Warfare (1952)  | @remAIk... | 8K HQ (4K UHD)",
+      "length": 83
+    },
+    {
+      "id": "1yiNR69g0qA",
+      "title": "Johnny Long Orchestr: My Girl Loves a Sailor | Soundie | 8K HQ (4K UHD)",
+      "length": 71
+    },
+    {
+      "id": "fVp_aVBZhak",
+      "title": "Gabby: King for a Day (1940) | Fleischer Cartoon  |... | @remAI... | 8K HQ (4K UHD)",
+      "length": 83
+    },
+    {
+      "id": "PzbAE96bG1Q",
+      "title": "Hawaiian Birds (1936) | Fleischer Color Classic  | ... | @remAI... | 8K HQ (4K UHD)",
+      "length": 83
+    },
+    {
+      "id": "1mVWh_B6_00",
+      "title": "Little Lambkins (1940) | Fleischer Color Classic  |... | @remAI... | 8K HQ (4K UHD)",
+      "length": 83
+    },
+    {
+      "id": "3gzbxznJ_PM",
+      "title": "Popeye Movie Marathon | 4K Best Quality EVER - Fleischer Studios  | | 8K HQ (4K UHD)",
+      "length": 84
+    },
+    {
+      "id": "4VO2weDCfi0",
+      "title": "The Little Stranger (1936) | Fleischer Color Classic  (4K UH... | 8K HQ (4K UHD)",
+      "length": 80
+    }
+  ]
+}

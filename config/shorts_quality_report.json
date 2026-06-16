@@ -1,0 +1,731 @@
+{
+  "analyzed_at": "1770586182.2834568",
+  "total_shorts": 24,
+  "avg_score": 70.625,
+  "strong": 8,
+  "decent": 7,
+  "weak": 4,
+  "poor": 5,
+  "shorts": [
+    {
+      "filename": "SHOWCASE_05_best_of_remaike.mp4",
+      "path": "D:\\remaike.TV\\output\\shorts\\showcase\\SHOWCASE_05_best_of_remaike.mp4",
+      "category": "showcase",
+      "duration": 25.541667,
+      "resolution": "1080x1920",
+      "has_audio": true,
+      "hook_score": 100,
+      "pacing_score": 100,
+      "audio_score": 100,
+      "motion_score": 15,
+      "duration_score": 100,
+      "scene_changes": 15,
+      "cuts_per_sec": 0.5872756856472994,
+      "loudness_lufs": -14.04,
+      "loudness_range": 22.0,
+      "avg_motion": -0.3262629647469817,
+      "first_frame_black": false,
+      "title_card_duration": 0.0,
+      "total_score": 87,
+      "verdict": "🟢 STRONG — Ready to upload, likely performs well",
+      "issues": [
+        "❌ VERY STATIC (-0% motion) — like watching a slideshow"
+      ],
+      "fixes": [
+        "Use footage with more action, add zoom/pan effects"
+      ]
+    },
+    {
+      "filename": "SHOWCASE_05_best_of_remaike.mp4",
+      "path": "D:\\remaike.TV\\output\\shorts\\showcase\\SHOWCASE_05_best_of_remaike.mp4",
+      "category": "showcase_v2",
+      "duration": 25.541667,
+      "resolution": "1080x1920",
+      "has_audio": true,
+      "hook_score": 100,
+      "pacing_score": 100,
+      "audio_score": 100,
+      "motion_score": 15,
+      "duration_score": 100,
+      "scene_changes": 15,
+      "cuts_per_sec": 0.5872756856472994,
+      "loudness_lufs": -14.04,
+      "loudness_range": 22.0,
+      "avg_motion": -0.3262629647469817,
+      "first_frame_black": false,
+      "title_card_duration": 0.0,
+      "total_score": 87,
+      "verdict": "🟢 STRONG — Ready to upload, likely performs well",
+      "issues": [
+        "❌ VERY STATIC (-0% motion) — like watching a slideshow"
+      ],
+      "fixes": [
+        "Use footage with more action, add zoom/pan effects"
+      ]
+    },
+    {
+      "filename": "SHOWCASE_01_impossible_upscale.mp4",
+      "path": "D:\\remaike.TV\\output\\shorts\\showcase\\SHOWCASE_01_impossible_upscale.mp4",
+      "category": "showcase",
+      "duration": 17.559,
+      "resolution": "1080x1920",
+      "has_audio": true,
+      "hook_score": 100,
+      "pacing_score": 100,
+      "audio_score": 100,
+      "motion_score": 15,
+      "duration_score": 95,
+      "scene_changes": 8,
+      "cuts_per_sec": 0.45560681132182923,
+      "loudness_lufs": -12.11,
+      "loudness_range": 3.2,
+      "avg_motion": -0.3758756193404933,
+      "first_frame_black": false,
+      "title_card_duration": 0.0,
+      "total_score": 86,
+      "verdict": "🟢 STRONG — Ready to upload, likely performs well",
+      "issues": [
+        "❌ VERY STATIC (-0% motion) — like watching a slideshow"
+      ],
+      "fixes": [
+        "Use footage with more action, add zoom/pan effects"
+      ]
+    },
+    {
+      "filename": "SHOWCASE_03_animation_restored.mp4",
+      "path": "D:\\remaike.TV\\output\\shorts\\showcase\\SHOWCASE_03_animation_restored.mp4",
+      "category": "showcase",
+      "duration": 19.569,
+      "resolution": "1080x1920",
+      "has_audio": true,
+      "hook_score": 100,
+      "pacing_score": 100,
+      "audio_score": 100,
+      "motion_score": 15,
+      "duration_score": 95,
+      "scene_changes": 10,
+      "cuts_per_sec": 0.5110123153968011,
+      "loudness_lufs": -14.1,
+      "loudness_range": 6.3,
+      "avg_motion": -0.2861668966222197,
+      "first_frame_black": false,
+      "title_card_duration": 0.0,
+      "total_score": 86,
+      "verdict": "🟢 STRONG — Ready to upload, likely performs well",
+      "issues": [
+        "❌ VERY STATIC (-0% motion) — like watching a slideshow"
+      ],
+      "fixes": [
+        "Use footage with more action, add zoom/pan effects"
+      ]
+    },
+    {
+      "filename": "SHOWCASE_04_history_in_8k.mp4",
+      "path": "D:\\remaike.TV\\output\\shorts\\showcase\\SHOWCASE_04_history_in_8k.mp4",
+      "category": "showcase",
+      "duration": 19.575,
+      "resolution": "1080x1920",
+      "has_audio": true,
+      "hook_score": 100,
+      "pacing_score": 100,
+      "audio_score": 100,
+      "motion_score": 15,
+      "duration_score": 95,
+      "scene_changes": 4,
+      "cuts_per_sec": 0.20434227330779056,
+      "loudness_lufs": -14.08,
+      "loudness_range": 22.0,
+      "avg_motion": -0.25542784163474774,
+      "first_frame_black": false,
+      "title_card_duration": 0.0,
+      "total_score": 86,
+      "verdict": "🟢 STRONG — Ready to upload, likely performs well",
+      "issues": [
+        "❌ VERY STATIC (-0% motion) — like watching a slideshow"
+      ],
+      "fixes": [
+        "Use footage with more action, add zoom/pan effects"
+      ]
+    },
+    {
+      "filename": "SHOWCASE_01_impossible_upscale.mp4",
+      "path": "D:\\remaike.TV\\output\\shorts\\showcase\\SHOWCASE_01_impossible_upscale.mp4",
+      "category": "showcase_v2",
+      "duration": 17.559,
+      "resolution": "1080x1920",
+      "has_audio": true,
+      "hook_score": 100,
+      "pacing_score": 100,
+      "audio_score": 100,
+      "motion_score": 15,
+      "duration_score": 95,
+      "scene_changes": 8,
+      "cuts_per_sec": 0.45560681132182923,
+      "loudness_lufs": -12.11,
+      "loudness_range": 3.2,
+      "avg_motion": -0.3758756193404933,
+      "first_frame_black": false,
+      "title_card_duration": 0.0,
+      "total_score": 86,
+      "verdict": "🟢 STRONG — Ready to upload, likely performs well",
+      "issues": [
+        "❌ VERY STATIC (-0% motion) — like watching a slideshow"
+      ],
+      "fixes": [
+        "Use footage with more action, add zoom/pan effects"
+      ]
+    },
+    {
+      "filename": "SHOWCASE_03_animation_restored.mp4",
+      "path": "D:\\remaike.TV\\output\\shorts\\showcase\\SHOWCASE_03_animation_restored.mp4",
+      "category": "showcase_v2",
+      "duration": 19.569,
+      "resolution": "1080x1920",
+      "has_audio": true,
+      "hook_score": 100,
+      "pacing_score": 100,
+      "audio_score": 100,
+      "motion_score": 15,
+      "duration_score": 95,
+      "scene_changes": 10,
+      "cuts_per_sec": 0.5110123153968011,
+      "loudness_lufs": -14.1,
+      "loudness_range": 6.3,
+      "avg_motion": -0.2861668966222197,
+      "first_frame_black": false,
+      "title_card_duration": 0.0,
+      "total_score": 86,
+      "verdict": "🟢 STRONG — Ready to upload, likely performs well",
+      "issues": [
+        "❌ VERY STATIC (-0% motion) — like watching a slideshow"
+      ],
+      "fixes": [
+        "Use footage with more action, add zoom/pan effects"
+      ]
+    },
+    {
+      "filename": "SHOWCASE_04_history_in_8k.mp4",
+      "path": "D:\\remaike.TV\\output\\shorts\\showcase\\SHOWCASE_04_history_in_8k.mp4",
+      "category": "showcase_v2",
+      "duration": 19.575,
+      "resolution": "1080x1920",
+      "has_audio": true,
+      "hook_score": 100,
+      "pacing_score": 100,
+      "audio_score": 100,
+      "motion_score": 15,
+      "duration_score": 95,
+      "scene_changes": 4,
+      "cuts_per_sec": 0.20434227330779056,
+      "loudness_lufs": -14.08,
+      "loudness_range": 22.0,
+      "avg_motion": -0.25542784163474774,
+      "first_frame_black": false,
+      "title_card_duration": 0.0,
+      "total_score": 86,
+      "verdict": "🟢 STRONG — Ready to upload, likely performs well",
+      "issues": [
+        "❌ VERY STATIC (-0% motion) — like watching a slideshow"
+      ],
+      "fixes": [
+        "Use footage with more action, add zoom/pan effects"
+      ]
+    },
+    {
+      "filename": "SHORT_superman_beam_IMPACT.mp4",
+      "path": "D:\\remaike.TV\\output\\shorts\\SHORT_superman_beam_IMPACT.mp4",
+      "category": "art",
+      "duration": 13.013013,
+      "resolution": "1080x1920",
+      "has_audio": true,
+      "hook_score": 100,
+      "pacing_score": 50,
+      "audio_score": 100,
+      "motion_score": 15,
+      "duration_score": 95,
+      "scene_changes": 2,
+      "cuts_per_sec": 0.153692307846,
+      "loudness_lufs": -14.01,
+      "loudness_range": 4.2,
+      "avg_motion": -25.515384740899982,
+      "first_frame_black": false,
+      "title_card_duration": 0.0,
+      "total_score": 76,
+      "verdict": "🟡 DECENT — Watchable but has fixable issues",
+      "issues": [
+        "⚠️ Slow pacing: 2 cuts, 0.15/sec",
+        "❌ VERY STATIC (-26% motion) — like watching a slideshow"
+      ],
+      "fixes": [
+        "Increase cut frequency — aim for a change every 2-3 seconds",
+        "Use footage with more action, add zoom/pan effects"
+      ]
+    },
+    {
+      "filename": "SHOWCASE_02_faces_reborn.mp4",
+      "path": "D:\\remaike.TV\\output\\shorts\\showcase\\SHOWCASE_02_faces_reborn.mp4",
+      "category": "showcase",
+      "duration": 19.584,
+      "resolution": "1080x1920",
+      "has_audio": true,
+      "hook_score": 100,
+      "pacing_score": 50,
+      "audio_score": 100,
+      "motion_score": 15,
+      "duration_score": 95,
+      "scene_changes": 3,
+      "cuts_per_sec": 0.15318627450980393,
+      "loudness_lufs": -13.41,
+      "loudness_range": 18.9,
+      "avg_motion": -0.20935457516340072,
+      "first_frame_black": false,
+      "title_card_duration": 0.0,
+      "total_score": 76,
+      "verdict": "🟡 DECENT — Watchable but has fixable issues",
+      "issues": [
+        "⚠️ Slow pacing: 3 cuts, 0.15/sec",
+        "❌ VERY STATIC (-0% motion) — like watching a slideshow"
+      ],
+      "fixes": [
+        "Increase cut frequency — aim for a change every 2-3 seconds",
+        "Use footage with more action, add zoom/pan effects"
+      ]
+    },
+    {
+      "filename": "SHOWCASE_02_faces_reborn.mp4",
+      "path": "D:\\remaike.TV\\output\\shorts\\showcase\\SHOWCASE_02_faces_reborn.mp4",
+      "category": "showcase_v2",
+      "duration": 19.584,
+      "resolution": "1080x1920",
+      "has_audio": true,
+      "hook_score": 100,
+      "pacing_score": 50,
+      "audio_score": 100,
+      "motion_score": 15,
+      "duration_score": 95,
+      "scene_changes": 3,
+      "cuts_per_sec": 0.15318627450980393,
+      "loudness_lufs": -13.41,
+      "loudness_range": 18.9,
+      "avg_motion": -0.20935457516340072,
+      "first_frame_black": false,
+      "title_card_duration": 0.0,
+      "total_score": 76,
+      "verdict": "🟡 DECENT — Watchable but has fixable issues",
+      "issues": [
+        "⚠️ Slow pacing: 3 cuts, 0.15/sec",
+        "❌ VERY STATIC (-0% motion) — like watching a slideshow"
+      ],
+      "fixes": [
+        "Increase cut frequency — aim for a change every 2-3 seconds",
+        "Use footage with more action, add zoom/pan effects"
+      ]
+    },
+    {
+      "filename": "SHORT_duck_cover_loop_HYPNO.mp4",
+      "path": "D:\\remaike.TV\\output\\shorts\\SHORT_duck_cover_loop_HYPNO.mp4",
+      "category": "art",
+      "duration": 13.013,
+      "resolution": "1080x1920",
+      "has_audio": true,
+      "hook_score": 100,
+      "pacing_score": 20,
+      "audio_score": 100,
+      "motion_score": 15,
+      "duration_score": 95,
+      "scene_changes": 1,
+      "cuts_per_sec": 0.07684623069238454,
+      "loudness_lufs": -14.02,
+      "loudness_range": 2.0,
+      "avg_motion": -25.515510130894747,
+      "first_frame_black": false,
+      "title_card_duration": 0.0,
+      "total_score": 70,
+      "verdict": "🟡 DECENT — Watchable but has fixable issues",
+      "issues": [
+        "❌ STATIC! Only 1 cuts in 13s — viewers will scroll",
+        "❌ VERY STATIC (-26% motion) — like watching a slideshow"
+      ],
+      "fixes": [
+        "Add more visual variety: cut between scenes, add transitions",
+        "Use footage with more action, add zoom/pan effects"
+      ]
+    },
+    {
+      "filename": "SHORT_frankenstein_face_IMPACT.mp4",
+      "path": "D:\\remaike.TV\\output\\shorts\\SHORT_frankenstein_face_IMPACT.mp4",
+      "category": "art",
+      "duration": 13.1,
+      "resolution": "1080x1920",
+      "has_audio": true,
+      "hook_score": 100,
+      "pacing_score": 20,
+      "audio_score": 100,
+      "motion_score": 15,
+      "duration_score": 95,
+      "scene_changes": 1,
+      "cuts_per_sec": 0.07633587786259542,
+      "loudness_lufs": -14.54,
+      "loudness_range": 4.5,
+      "avg_motion": -24.6819338422392,
+      "first_frame_black": false,
+      "title_card_duration": 0.0,
+      "total_score": 70,
+      "verdict": "🟡 DECENT — Watchable but has fixable issues",
+      "issues": [
+        "❌ STATIC! Only 1 cuts in 13s — viewers will scroll",
+        "❌ VERY STATIC (-25% motion) — like watching a slideshow"
+      ],
+      "fixes": [
+        "Add more visual variety: cut between scenes, add transitions",
+        "Use footage with more action, add zoom/pan effects"
+      ]
+    },
+    {
+      "filename": "SHORT_skeleton_rib_solo_IMPACT.mp4",
+      "path": "D:\\remaike.TV\\output\\shorts\\SHORT_skeleton_rib_solo_IMPACT.mp4",
+      "category": "art",
+      "duration": 13.1,
+      "resolution": "1080x1920",
+      "has_audio": true,
+      "hook_score": 100,
+      "pacing_score": 20,
+      "audio_score": 100,
+      "motion_score": 15,
+      "duration_score": 95,
+      "scene_changes": 0,
+      "cuts_per_sec": 0.0,
+      "loudness_lufs": -14.71,
+      "loudness_range": 6.8,
+      "avg_motion": 0.4452926208651342,
+      "first_frame_black": false,
+      "title_card_duration": 0.0,
+      "total_score": 70,
+      "verdict": "🟡 DECENT — Watchable but has fixable issues",
+      "issues": [
+        "❌ STATIC! Only 0 cuts in 13s — viewers will scroll",
+        "❌ VERY STATIC (0% motion) — like watching a slideshow"
+      ],
+      "fixes": [
+        "Add more visual variety: cut between scenes, add transitions",
+        "Use footage with more action, add zoom/pan effects"
+      ]
+    },
+    {
+      "filename": "SHORT_skeleton_xylophone_loop_HYPNO.mp4",
+      "path": "D:\\remaike.TV\\output\\shorts\\SHORT_skeleton_xylophone_loop_HYPNO.mp4",
+      "category": "art",
+      "duration": 13.1,
+      "resolution": "1080x1920",
+      "has_audio": true,
+      "hook_score": 100,
+      "pacing_score": 20,
+      "audio_score": 100,
+      "motion_score": 15,
+      "duration_score": 95,
+      "scene_changes": 1,
+      "cuts_per_sec": 0.07633587786259542,
+      "loudness_lufs": -15.09,
+      "loudness_range": 5.1,
+      "avg_motion": 0.12722646310431296,
+      "first_frame_black": false,
+      "title_card_duration": 0.0,
+      "total_score": 70,
+      "verdict": "🟡 DECENT — Watchable but has fixable issues",
+      "issues": [
+        "❌ STATIC! Only 1 cuts in 13s — viewers will scroll",
+        "❌ VERY STATIC (0% motion) — like watching a slideshow"
+      ],
+      "fixes": [
+        "Add more visual variety: cut between scenes, add transitions",
+        "Use footage with more action, add zoom/pan effects"
+      ]
+    },
+    {
+      "filename": "SHORT_frankenstein_creation_CINEMA.mp4",
+      "path": "D:\\remaike.TV\\output\\shorts\\SHORT_frankenstein_creation_CINEMA.mp4",
+      "category": "art",
+      "duration": 60.1,
+      "resolution": "1080x1920",
+      "has_audio": true,
+      "hook_score": 100,
+      "pacing_score": 20,
+      "audio_score": 100,
+      "motion_score": 15,
+      "duration_score": 60,
+      "scene_changes": 5,
+      "cuts_per_sec": 0.08319467554076539,
+      "loudness_lufs": -14.12,
+      "loudness_range": 7.2,
+      "avg_motion": -24.792013311148086,
+      "first_frame_black": false,
+      "title_card_duration": 0.0,
+      "total_score": 67,
+      "verdict": "🟠 WEAK — Needs work before uploading",
+      "issues": [
+        "❌ STATIC! Only 5 cuts in 60s — viewers will scroll",
+        "❌ VERY STATIC (-25% motion) — like watching a slideshow",
+        "⚠️ 60s — long for a Short, optimal is 13-60s"
+      ],
+      "fixes": [
+        "Add more visual variety: cut between scenes, add transitions",
+        "Use footage with more action, add zoom/pan effects",
+        "Consider trimming to 30-45s for better completion rate"
+      ]
+    },
+    {
+      "filename": "SHORT_skeleton_dance_full_CINEMA.mp4",
+      "path": "D:\\remaike.TV\\output\\shorts\\SHORT_skeleton_dance_full_CINEMA.mp4",
+      "category": "art",
+      "duration": 60.017583,
+      "resolution": "1080x1920",
+      "has_audio": true,
+      "hook_score": 100,
+      "pacing_score": 20,
+      "audio_score": 100,
+      "motion_score": 15,
+      "duration_score": 60,
+      "scene_changes": 0,
+      "cuts_per_sec": 0.0,
+      "loudness_lufs": -14.01,
+      "loudness_range": 4.4,
+      "avg_motion": 0.029296414685675565,
+      "first_frame_black": false,
+      "title_card_duration": 0.0,
+      "total_score": 67,
+      "verdict": "🟠 WEAK — Needs work before uploading",
+      "issues": [
+        "❌ STATIC! Only 0 cuts in 60s — viewers will scroll",
+        "❌ VERY STATIC (0% motion) — like watching a slideshow",
+        "⚠️ 60s — long for a Short, optimal is 13-60s"
+      ],
+      "fixes": [
+        "Add more visual variety: cut between scenes, add transitions",
+        "Use footage with more action, add zoom/pan effects",
+        "Consider trimming to 30-45s for better completion rate"
+      ]
+    },
+    {
+      "filename": "SHORT_superman_flying_CINEMA.mp4",
+      "path": "D:\\remaike.TV\\output\\shorts\\SHORT_superman_flying_CINEMA.mp4",
+      "category": "art",
+      "duration": 60.1,
+      "resolution": "1080x1920",
+      "has_audio": true,
+      "hook_score": 100,
+      "pacing_score": 20,
+      "audio_score": 100,
+      "motion_score": 15,
+      "duration_score": 60,
+      "scene_changes": 6,
+      "cuts_per_sec": 0.09983361064891846,
+      "loudness_lufs": -13.96,
+      "loudness_range": 2.7,
+      "avg_motion": -24.86134220743206,
+      "first_frame_black": false,
+      "title_card_duration": 0.0,
+      "total_score": 67,
+      "verdict": "🟠 WEAK — Needs work before uploading",
+      "issues": [
+        "❌ STATIC! Only 6 cuts in 60s — viewers will scroll",
+        "❌ VERY STATIC (-25% motion) — like watching a slideshow",
+        "⚠️ 60s — long for a Short, optimal is 13-60s"
+      ],
+      "fixes": [
+        "Add more visual variety: cut between scenes, add transitions",
+        "Use footage with more action, add zoom/pan effects",
+        "Consider trimming to 30-45s for better completion rate"
+      ]
+    },
+    {
+      "filename": "SHORT_betty_skeleton_army_IMPACT.mp4",
+      "path": "D:\\remaike.TV\\output\\shorts\\SHORT_betty_skeleton_army_IMPACT.mp4",
+      "category": "art",
+      "duration": 13.0,
+      "resolution": "1080x1920",
+      "has_audio": true,
+      "hook_score": 100,
+      "pacing_score": 100,
+      "audio_score": 5,
+      "motion_score": 15,
+      "duration_score": 95,
+      "scene_changes": 3,
+      "cuts_per_sec": 0.23076923076923078,
+      "loudness_lufs": -Infinity,
+      "loudness_range": 0.0,
+      "avg_motion": -25.0,
+      "first_frame_black": false,
+      "title_card_duration": 0.0,
+      "total_score": 63,
+      "verdict": "🟠 WEAK — Needs work before uploading",
+      "issues": [
+        "❌ PRACTICALLY SILENT (-inf LUFS) — might as well be muted",
+        "❌ VERY STATIC (-25% motion) — like watching a slideshow"
+      ],
+      "fixes": [
+        "Add music/SFX or boost audio gain significantly",
+        "Use footage with more action, add zoom/pan effects"
+      ]
+    },
+    {
+      "filename": "SHORT_atom_detonation_IMPACT.mp4",
+      "path": "D:\\remaike.TV\\output\\shorts\\SHORT_atom_detonation_IMPACT.mp4",
+      "category": "art",
+      "duration": 13.0,
+      "resolution": "1080x1920",
+      "has_audio": true,
+      "hook_score": 100,
+      "pacing_score": 20,
+      "audio_score": 5,
+      "motion_score": 15,
+      "duration_score": 95,
+      "scene_changes": 0,
+      "cuts_per_sec": 0.0,
+      "loudness_lufs": -Infinity,
+      "loudness_range": 0.0,
+      "avg_motion": -21.474358974358964,
+      "first_frame_black": false,
+      "title_card_duration": 0.0,
+      "total_score": 47,
+      "verdict": "🔴 POOR — Major issues, likely gets scrolled past",
+      "issues": [
+        "❌ STATIC! Only 0 cuts in 13s — viewers will scroll",
+        "❌ PRACTICALLY SILENT (-inf LUFS) — might as well be muted",
+        "❌ VERY STATIC (-21% motion) — like watching a slideshow"
+      ],
+      "fixes": [
+        "Add more visual variety: cut between scenes, add transitions",
+        "Add music/SFX or boost audio gain significantly",
+        "Use footage with more action, add zoom/pan effects"
+      ]
+    },
+    {
+      "filename": "SHORT_betty_rotoscope_loop_HYPNO.mp4",
+      "path": "D:\\remaike.TV\\output\\shorts\\SHORT_betty_rotoscope_loop_HYPNO.mp4",
+      "category": "art",
+      "duration": 13.0,
+      "resolution": "1080x1920",
+      "has_audio": true,
+      "hook_score": 100,
+      "pacing_score": 20,
+      "audio_score": 5,
+      "motion_score": 15,
+      "duration_score": 95,
+      "scene_changes": 1,
+      "cuts_per_sec": 0.07692307692307693,
+      "loudness_lufs": -Infinity,
+      "loudness_range": 0.0,
+      "avg_motion": -25.320512820512818,
+      "first_frame_black": false,
+      "title_card_duration": 0.0,
+      "total_score": 47,
+      "verdict": "🔴 POOR — Major issues, likely gets scrolled past",
+      "issues": [
+        "❌ STATIC! Only 1 cuts in 13s — viewers will scroll",
+        "❌ PRACTICALLY SILENT (-inf LUFS) — might as well be muted",
+        "❌ VERY STATIC (-25% motion) — like watching a slideshow"
+      ],
+      "fixes": [
+        "Add more visual variety: cut between scenes, add transitions",
+        "Add music/SFX or boost audio gain significantly",
+        "Use footage with more action, add zoom/pan effects"
+      ]
+    },
+    {
+      "filename": "SHORT_melies_moon_loop_HYPNO.mp4",
+      "path": "D:\\remaike.TV\\output\\shorts\\SHORT_melies_moon_loop_HYPNO.mp4",
+      "category": "art",
+      "duration": 13.013,
+      "resolution": "1080x1920",
+      "has_audio": true,
+      "hook_score": 100,
+      "pacing_score": 20,
+      "audio_score": 5,
+      "motion_score": 15,
+      "duration_score": 95,
+      "scene_changes": 1,
+      "cuts_per_sec": 0.07684623069238454,
+      "loudness_lufs": -Infinity,
+      "loudness_range": 0.0,
+      "avg_motion": -25.515510130894747,
+      "first_frame_black": false,
+      "title_card_duration": 0.0,
+      "total_score": 47,
+      "verdict": "🔴 POOR — Major issues, likely gets scrolled past",
+      "issues": [
+        "❌ STATIC! Only 1 cuts in 13s — viewers will scroll",
+        "❌ PRACTICALLY SILENT (-inf LUFS) — might as well be muted",
+        "❌ VERY STATIC (-26% motion) — like watching a slideshow"
+      ],
+      "fixes": [
+        "Add more visual variety: cut between scenes, add transitions",
+        "Add music/SFX or boost audio gain significantly",
+        "Use footage with more action, add zoom/pan effects"
+      ]
+    },
+    {
+      "filename": "SHORT_atom_mushroom_CINEMA.mp4",
+      "path": "D:\\remaike.TV\\output\\shorts\\SHORT_atom_mushroom_CINEMA.mp4",
+      "category": "art",
+      "duration": 60.0,
+      "resolution": "1080x1920",
+      "has_audio": true,
+      "hook_score": 100,
+      "pacing_score": 20,
+      "audio_score": 5,
+      "motion_score": 15,
+      "duration_score": 85,
+      "scene_changes": 3,
+      "cuts_per_sec": 0.05,
+      "loudness_lufs": -Infinity,
+      "loudness_range": 0.0,
+      "avg_motion": -20.972222222222214,
+      "first_frame_black": false,
+      "title_card_duration": 0.0,
+      "total_score": 46,
+      "verdict": "🔴 POOR — Major issues, likely gets scrolled past",
+      "issues": [
+        "❌ STATIC! Only 3 cuts in 60s — viewers will scroll",
+        "❌ PRACTICALLY SILENT (-inf LUFS) — might as well be muted",
+        "❌ VERY STATIC (-21% motion) — like watching a slideshow"
+      ],
+      "fixes": [
+        "Add more visual variety: cut between scenes, add transitions",
+        "Add music/SFX or boost audio gain significantly",
+        "Use footage with more action, add zoom/pan effects"
+      ]
+    },
+    {
+      "filename": "SHORT_betty_cab_calloway_CINEMA.mp4",
+      "path": "D:\\remaike.TV\\output\\shorts\\SHORT_betty_cab_calloway_CINEMA.mp4",
+      "category": "art",
+      "duration": 60.0,
+      "resolution": "1080x1920",
+      "has_audio": true,
+      "hook_score": 100,
+      "pacing_score": 20,
+      "audio_score": 5,
+      "motion_score": 15,
+      "duration_score": 85,
+      "scene_changes": 3,
+      "cuts_per_sec": 0.05,
+      "loudness_lufs": -Infinity,
+      "loudness_range": 0.0,
+      "avg_motion": -25.0,
+      "first_frame_black": false,
+      "title_card_duration": 0.0,
+      "total_score": 46,
+      "verdict": "🔴 POOR — Major issues, likely gets scrolled past",
+      "issues": [
+        "❌ STATIC! Only 3 cuts in 60s — viewers will scroll",
+        "❌ PRACTICALLY SILENT (-inf LUFS) — might as well be muted",
+        "❌ VERY STATIC (-25% motion) — like watching a slideshow"
+      ],
+      "fixes": [
+        "Add more visual variety: cut between scenes, add transitions",
+        "Add music/SFX or boost audio gain significantly",
+        "Use footage with more action, add zoom/pan effects"
+      ]
+    }
+  ]
+}

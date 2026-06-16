@@ -1,0 +1,746 @@
+{
+  "meta": {
+    "plan_name": "Grand Final Release - @remAIke_IT Channel Optimization",
+    "created": "2026-04-10T12:00:00+02:00",
+    "daily_quota_limit": 10000,
+    "total_days": 3,
+    "status": "PLANNING - NO API CALLS MADE"
+  },
+  "current_state": {
+    "total_videos_on_channel": 456,
+    "public_videos": 436,
+    "videos_in_master_db": 338,
+    "videos_not_in_master_db": 118,
+    "total_views": 254863,
+    "optimization_history": {
+      "march_31_wochenschau": {
+        "date": "2026-03-31",
+        "ws_updated": 47,
+        "note": "First Wochenschau optimization pass"
+      },
+      "april_1_non_ws": {
+        "date": "2026-04-01",
+        "non_ws_updated": 130,
+        "quota_used": 7270
+      },
+      "april_2_final": {
+        "date": "2026-04-02",
+        "ws_updated": 26,
+        "non_ws_updated": 145,
+        "total_quota": 8570,
+        "stopped_reason": "quota exhausted"
+      }
+    },
+    "remaining_work": {
+      "wochenschau_remaining": 3,
+      "wochenschau_ids": [
+        {
+          "id": "0sO7jVL43yQ",
+          "title": "Wochenschau 652: Kharkov III (Mar 1943)",
+          "views": 39,
+          "event_de": "Dritte Schlacht um Charkow",
+          "event_en": "Third Battle of Kharkov"
+        },
+        {
+          "id": "tVD8197vAyE",
+          "title": "Wochenschau 573: Kiev Battle (Aug 1941)",
+          "views": 36,
+          "event_de": "Schlacht um Kiew",
+          "event_en": "Battle of Kiev"
+        },
+        {
+          "id": "dYBzf5V1TjI",
+          "title": "Wochenschau 654: Tunisia Battles (Mar 1943)",
+          "views": 23,
+          "event_de": "Tunesienfeldzug",
+          "event_en": "Tunisia Campaign"
+        }
+      ],
+      "non_ws_remaining_total": 188,
+      "tier1_2000plus_views": {
+        "count": 27,
+        "total_views": 199069,
+        "top_videos": [
+          {
+            "views": 32809,
+            "title": "White Zombie (1932)",
+            "series": "other"
+          },
+          {
+            "views": 25045,
+            "title": "Felix at the Circus (1921)",
+            "series": "felix_the_cat"
+          },
+          {
+            "views": 20287,
+            "title": "Superman 1/17 (1941)",
+            "series": "superman"
+          },
+          {
+            "views": 16593,
+            "title": "Cabinet of Dr. Caligari (1920)",
+            "series": "other"
+          },
+          {
+            "views": 14158,
+            "title": "Dinner for One (1963)",
+            "series": "other"
+          },
+          {
+            "views": 8679,
+            "title": "Ken Block Gymkhana 1 (2008)",
+            "series": "ken_block"
+          },
+          {
+            "views": 7698,
+            "title": "Charade (1953)",
+            "series": "other"
+          },
+          {
+            "views": 6758,
+            "title": "The Grim Game - Houdini (1919)",
+            "series": "other"
+          },
+          {
+            "views": 5562,
+            "title": "Batman & Robin Meet Santa (1966)",
+            "series": "christmas"
+          },
+          {
+            "views": 5428,
+            "title": "Betty Boop: Minnie the Moocher (1932)",
+            "series": "betty_boop"
+          },
+          {
+            "views": 4379,
+            "title": "Superman 10/17: Japoteurs (1942)",
+            "series": "superman"
+          },
+          {
+            "views": 4284,
+            "title": "Felix Minds the Kid (1922)",
+            "series": "felix_the_cat"
+          },
+          {
+            "views": 4147,
+            "title": "Getaway in Stockholm 1",
+            "series": "ken_block"
+          },
+          {
+            "views": 4094,
+            "title": "Nosferatu (1922)",
+            "series": "other"
+          },
+          {
+            "views": 4086,
+            "title": "Tokyo Jokio (1943)",
+            "series": "looney_tunes"
+          },
+          {
+            "views": 4054,
+            "title": "Buster Keaton: Convict 13 (1920)",
+            "series": "buster_keaton"
+          },
+          {
+            "views": 4041,
+            "title": "Mel-O-Toons: Peter and the Wolf",
+            "series": "other"
+          },
+          {
+            "views": 3998,
+            "title": "Airship Destroyed (1909)",
+            "series": "other"
+          },
+          {
+            "views": 3019,
+            "title": "20,000 Leagues Under the Sea (1916)",
+            "series": "other"
+          },
+          {
+            "views": 2892,
+            "title": "Voyage to Prehistoric Women (1968)",
+            "series": "other"
+          },
+          {
+            "views": 2872,
+            "title": "Little Nemo (1911)",
+            "series": "other"
+          },
+          {
+            "views": 2573,
+            "title": "Commodore 64 Documentary",
+            "series": "other"
+          },
+          {
+            "views": 2476,
+            "title": "Scarlet Street - Fritz Lang (1945)",
+            "series": "film_noir"
+          },
+          {
+            "views": 2388,
+            "title": "Krazy Kat: Keeping Up (1916)",
+            "series": "other"
+          },
+          {
+            "views": 2384,
+            "title": "Popeye: Ancient Fistory (1953)",
+            "series": "popeye"
+          },
+          {
+            "views": 2234,
+            "title": "Popeye Movie Marathon",
+            "series": "popeye"
+          },
+          {
+            "views": 2131,
+            "title": "Frankenstein (1910)",
+            "series": "other"
+          }
+        ]
+      },
+      "tier2_500_to_1999_views": {
+        "count": 24,
+        "total_views": 31783
+      },
+      "tier3_under_500_views": {
+        "count": 137,
+        "total_views": 5791
+      },
+      "playlist_issues": {
+        "videos_not_in_any_playlist": 14,
+        "complete_archive_missing": 113,
+        "test_playlist_to_delete": "PL3d2Tsr13ihMNasR7X7TQ9gaVcY89Q56Z"
+      },
+      "estimated_from_quota_exhaustion": 8,
+      "newer_uploads_not_in_master_db": 118,
+      "note": "118 newer uploads may have been partially handled by April runs. Verification scan needed."
+    }
+  },
+  "quota_costs_reference": {
+    "videos_list_GET": "1 unit per call (max 50 videos/call)",
+    "videos_update_PUT": "50 units per call (1 video per call)",
+    "search_list": "100 units per call - NOT NEEDED (all IDs known)",
+    "channels_update": "50 units per call",
+    "playlists_insert": "50 units per call",
+    "playlists_update": "50 units per call",
+    "playlistItems_insert": "50 units per call"
+  },
+  "priority_ranking": {
+    "methodology": "Videos ranked by: (1) current views for maximum viewer impact, (2) series importance (Wochenschau = flagship educational), (3) trending/anniversary potential",
+    "P0_flagship_wochenschau": {
+      "count": 3,
+      "reason": "Flagship series. WWII anniversary dates drive organic traffic. Educational content benefits most from proper multi-language localizations.",
+      "trending_note": "April 2026 = 81st anniversary of many 1945 events (Berlin, VE Day)"
+    },
+    "P1_high_impact": {
+      "count": 27,
+      "total_views": 199069,
+      "reason": "Highest view counts = most eyeballs benefiting from proper localizations. White Zombie alone has 32.8K views."
+    },
+    "P2_medium_impact": {
+      "count": 24,
+      "total_views": 31783,
+      "reason": "Steady viewership, good long-tail SEO potential"
+    },
+    "P3_long_tail": {
+      "count": 137,
+      "total_views": 5791,
+      "reason": "Channel completeness. Every video properly optimized for AI-discovery and international audiences."
+    },
+    "trending_potential": [
+      "Wochenschau: April 1945 anniversary dates (Berlin, VE Day, Holocaust liberation)",
+      "Nosferatu (4,094 views): evergreen horror search interest",
+      "Superman series: DC/superhero content always trending",
+      "Felix the Cat: retro animation nostalgia trend on YT",
+      "Ken Block: automotive community, Gymkhana still searched",
+      "Dinner for One: massive German NYE tradition, but year-round interest"
+    ]
+  },
+  "day_1": {
+    "date": "2026-04-10 (Today)",
+    "theme": "Flagship Wochenschau + All High/Medium Impact Videos + First Long-Tail Batch",
+    "task_order": [
+      {
+        "step": 1,
+        "task": "VERIFICATION SCAN",
+        "description": "Fetch current metadata for all 436 public videos to determine true remaining work after April 1-2 optimization runs",
+        "api_calls": {
+          "videos_list_GET": {
+            "calls": 9,
+            "quota_each": 1,
+            "total": 9,
+            "note": "ceil(436/50) = 9 calls"
+          }
+        },
+        "quota": 9
+      },
+      {
+        "step": 2,
+        "task": "FIX 3 REMAINING WOCHENSCHAU",
+        "description": "Apply PROPER historically accurate translations in 8 languages (DE, EN, JA, FR, ES, PT-BR, HI, KO). Event names must use period-correct terminology.",
+        "translation_rules": {
+          "general": "Never machine-translate military operation names or historical place names",
+          "examples": {
+            "Kharkov": "Use Charkow (DE), Kharkov (EN/FR/ES/PT), not modern Kharkiv in WWII context",
+            "Operation_names": "Keep original German: Unternehmen Barbarossa, Fall Blau, etc.",
+            "Japanese": "Use proper kanji: Third Battle of Kharkov = 第三次ハリコフ攻防戦",
+            "Korean": "Use proper hangul for historical battles"
+          }
+        },
+        "videos": [
+          {
+            "id": "0sO7jVL43yQ",
+            "ep": 652,
+            "event": "Kharkov III"
+          },
+          {
+            "id": "tVD8197vAyE",
+            "ep": 573,
+            "event": "Kiev Battle"
+          },
+          {
+            "id": "dYBzf5V1TjI",
+            "ep": 654,
+            "event": "Tunisia Battles"
+          }
+        ],
+        "api_calls": {
+          "videos_update_PUT": {
+            "calls": 3,
+            "quota_each": 50,
+            "total": 150
+          }
+        },
+        "quota": 150
+      },
+      {
+        "step": 3,
+        "task": "FIX 27 TIER-1 VIDEOS (2000+ views each)",
+        "description": "Apply title corrections and 8-language localizations from video_master_db_v3.json. These 27 videos represent 199,069 combined views - maximum viewer impact.",
+        "api_calls": {
+          "videos_update_PUT": {
+            "calls": 27,
+            "quota_each": 50,
+            "total": 1350
+          }
+        },
+        "quota": 1350
+      },
+      {
+        "step": 4,
+        "task": "FIX 24 TIER-2 VIDEOS (500-1999 views each)",
+        "description": "Apply corrections to mid-tier videos. Combined 31,783 views.",
+        "api_calls": {
+          "videos_update_PUT": {
+            "calls": 24,
+            "quota_each": 50,
+            "total": 1200
+          }
+        },
+        "quota": 1200
+      },
+      {
+        "step": 5,
+        "task": "FIX TIER-3 BATCH 1 (~80 videos, <500 views)",
+        "description": "Start working through 137 remaining low-view videos. Process as many as quota allows.",
+        "api_calls": {
+          "videos_update_PUT": {
+            "calls": 80,
+            "quota_each": 50,
+            "total": 4000
+          }
+        },
+        "quota": 4000
+      }
+    ],
+    "quota_summary": {
+      "verification_scan": 9,
+      "wochenschau_3_videos": 150,
+      "tier1_27_videos": 1350,
+      "tier2_24_videos": 1200,
+      "tier3_batch1_80_videos": 4000,
+      "subtotal": 6709,
+      "error_retry_buffer_15pct": 1006,
+      "TOTAL_PLANNED": 7715,
+      "remaining_from_limit": 2285,
+      "DAILY_LIMIT": 10000
+    },
+    "search_list_calls": 0,
+    "videos_list_calls": 9,
+    "videos_update_calls": 134,
+    "total_video_operations": 134,
+    "expected_outcome": "ALL Wochenschau complete. ALL high-impact (2000+) and medium-impact (500+) videos fixed. ~80 long-tail started."
+  },
+  "day_2": {
+    "date": "2026-04-11",
+    "theme": "Complete Long-Tail + Newer Uploads + Playlist Organization",
+    "task_order": [
+      {
+        "step": 1,
+        "task": "FIX REMAINING TIER-3 VIDEOS (~57 remaining)",
+        "description": "Complete all remaining long-tail videos from master DB",
+        "api_calls": {
+          "videos_update_PUT": {
+            "calls": 57,
+            "quota_each": 50,
+            "total": 2850
+          }
+        },
+        "quota": 2850
+      },
+      {
+        "step": 2,
+        "task": "SCAN 118 NEWER UPLOADS",
+        "description": "Fetch metadata for videos uploaded after Feb 8 not in master DB. Identify remaining optimization needs.",
+        "api_calls": {
+          "videos_list_GET": {
+            "calls": 3,
+            "quota_each": 1,
+            "total": 3,
+            "note": "ceil(118/50) = 3 calls"
+          }
+        },
+        "quota": 3
+      },
+      {
+        "step": 3,
+        "task": "FIX NEWER UPLOADS (~25 estimated needing updates)",
+        "description": "Many of the 118 were handled in April runs, but ~25 may still need fixes. Actual count depends on scan.",
+        "api_calls": {
+          "videos_update_PUT": {
+            "calls": 25,
+            "quota_each": 50,
+            "total": 1250
+          }
+        },
+        "quota": 1250
+      },
+      {
+        "step": 4,
+        "task": "ADD 14 ORPHAN VIDEOS TO PLAYLISTS",
+        "description": "14 public videos are NOT_IN_ANY_PLAYLIST. Assign each to appropriate series playlist.",
+        "orphan_assignments": [
+          {
+            "series": "ken_block",
+            "count": 3,
+            "playlists": "Ken Block collection"
+          },
+          {
+            "series": "krtek",
+            "count": 2,
+            "playlists": "Der kleine Maulwurf"
+          },
+          {
+            "series": "wochenschau",
+            "count": 5,
+            "playlists": "Deutsche Wochenschau"
+          },
+          {
+            "series": "nasa",
+            "count": 2,
+            "playlists": "NASA collection"
+          },
+          {
+            "series": "other",
+            "count": 2,
+            "playlists": "appropriate thematic playlist"
+          }
+        ],
+        "api_calls": {
+          "playlistItems_insert": {
+            "calls": 14,
+            "quota_each": 50,
+            "total": 700
+          }
+        },
+        "quota": 700
+      },
+      {
+        "step": 5,
+        "task": "ARCHIVE PLAYLIST - ADD TOP 20 MISSING VIDEOS",
+        "description": "Complete Archive has 323/436 videos. Full update costs 5,650 quota (too much). Add top 20 by views today.",
+        "api_calls": {
+          "playlistItems_insert": {
+            "calls": 20,
+            "quota_each": 50,
+            "total": 1000
+          }
+        },
+        "quota": 1000,
+        "note": "Full archive update (113 videos = 5,650 quota) split across Day 2 and Day 3"
+      },
+      {
+        "step": 6,
+        "task": "CREATE/UPDATE PLAYLISTS",
+        "description": "Create any missing series playlists. Delete test playlist. Update key playlist descriptions for SEO.",
+        "api_calls": {
+          "playlists_insert": {
+            "calls": 2,
+            "quota_each": 50,
+            "total": 100
+          },
+          "playlists_update": {
+            "calls": 3,
+            "quota_each": 50,
+            "total": 150
+          }
+        },
+        "quota": 250
+      }
+    ],
+    "quota_summary": {
+      "tier3_batch2_57_videos": 2850,
+      "newer_uploads_scan": 3,
+      "newer_uploads_fix_25": 1250,
+      "playlist_orphans_14": 700,
+      "archive_playlist_top20": 1000,
+      "playlist_create_update": 250,
+      "subtotal": 6053,
+      "error_retry_buffer_15pct": 908,
+      "TOTAL_PLANNED": 6961,
+      "remaining_from_limit": 3039,
+      "DAILY_LIMIT": 10000
+    },
+    "search_list_calls": 0,
+    "videos_list_calls": 3,
+    "videos_update_calls": 82,
+    "playlistItems_insert_calls": 34,
+    "total_operations": 119,
+    "expected_outcome": "All master DB videos done. Newer uploads scanned/fixed. Playlist gaps addressed. 20 archive additions."
+  },
+  "day_3": {
+    "date": "2026-04-12",
+    "theme": "Verification + Translation Quality + Channel Polish + Final Report",
+    "task_order": [
+      {
+        "step": 1,
+        "task": "FULL VERIFICATION SCAN",
+        "description": "Complete metadata scan of all 436+ public videos. Verify: 8+ localizations, correct defaultAudioLanguage, correct category, 10-15 tags, description with CTA.",
+        "api_calls": {
+          "videos_list_GET": {
+            "calls": 9,
+            "quota_each": 1,
+            "total": 9
+          }
+        },
+        "quota": 9
+      },
+      {
+        "step": 2,
+        "task": "FIX REMAINING ISSUES (up to 30 videos)",
+        "description": "Address any videos verification reveals still have problems",
+        "api_calls": {
+          "videos_update_PUT": {
+            "calls": 30,
+            "quota_each": 50,
+            "total": 1500
+          }
+        },
+        "quota": 1500
+      },
+      {
+        "step": 3,
+        "task": "TRANSLATION QUALITY PASS (up to 20 videos)",
+        "description": "Review and fix localizations with BAD translations. Known issues: event names incorrectly translated, historical place names modernized.",
+        "known_issues": [
+          "Historical place names must use period-correct terms (Kharkov not Kharkiv for WWII)",
+          "Military operation names should NOT be translated (Unternehmen Barbarossa stays)",
+          "Japanese localizations need proper kanji for WWII battles and events",
+          "Korean localizations need historically accurate hangul",
+          "Hindi localizations should use standard Devanagari transliterations",
+          "French/Spanish/Portuguese should use accepted historical terminology"
+        ],
+        "api_calls": {
+          "videos_update_PUT": {
+            "calls": 20,
+            "quota_each": 50,
+            "total": 1000
+          }
+        },
+        "quota": 1000
+      },
+      {
+        "step": 4,
+        "task": "CHANNEL DESCRIPTION UPDATE",
+        "description": "Update channel about section: highlight 8K restoration, 456+ videos, multi-language support, educational content.",
+        "api_calls": {
+          "channels_update": {
+            "calls": 1,
+            "quota_each": 50,
+            "total": 50
+          }
+        },
+        "quota": 50
+      },
+      {
+        "step": 5,
+        "task": "CONTINUE ARCHIVE PLAYLIST (40 more additions)",
+        "description": "Continue adding missing videos to Complete Archive playlist",
+        "api_calls": {
+          "playlistItems_insert": {
+            "calls": 40,
+            "quota_each": 50,
+            "total": 2000
+          }
+        },
+        "quota": 2000
+      },
+      {
+        "step": 6,
+        "task": "UPDATE KEY PLAYLIST DESCRIPTIONS",
+        "description": "Update SEO descriptions for top 5 playlists. Delete test playlist.",
+        "api_calls": {
+          "playlists_update": {
+            "calls": 5,
+            "quota_each": 50,
+            "total": 250
+          }
+        },
+        "quota": 250
+      },
+      {
+        "step": 7,
+        "task": "FINAL VERIFICATION + REPORT",
+        "description": "Run final scan and generate completion report with before/after metrics",
+        "api_calls": {
+          "videos_list_GET": {
+            "calls": 9,
+            "quota_each": 1,
+            "total": 9
+          }
+        },
+        "quota": 9
+      }
+    ],
+    "quota_summary": {
+      "verification_scan": 9,
+      "remaining_fixes_30": 1500,
+      "translation_quality_20": 1000,
+      "channel_update": 50,
+      "archive_playlist_40": 2000,
+      "playlist_updates_5": 250,
+      "final_scan": 9,
+      "subtotal": 4818,
+      "error_retry_buffer_15pct": 723,
+      "TOTAL_PLANNED": 5541,
+      "remaining_from_limit": 4459,
+      "DAILY_LIMIT": 10000
+    },
+    "search_list_calls": 0,
+    "videos_list_calls": 18,
+    "videos_update_calls": 50,
+    "playlistItems_insert_calls": 40,
+    "channels_update_calls": 1,
+    "playlists_update_calls": 5,
+    "total_operations": 114,
+    "expected_outcome": "100% optimization verified. Translation quality checked. Channel polished. Final report generated."
+  },
+  "three_day_totals": {
+    "api_calls_breakdown": {
+      "search_list": {
+        "calls": 0,
+        "quota": 0,
+        "note": "NOT NEEDED - all IDs known from master DB + scans. Saves massive quota."
+      },
+      "videos_list_GET": {
+        "calls": 30,
+        "quota": 30
+      },
+      "videos_update_PUT": {
+        "calls": 266,
+        "quota": 13300
+      },
+      "channels_update": {
+        "calls": 1,
+        "quota": 50
+      },
+      "playlists_insert": {
+        "calls": 2,
+        "quota": 100
+      },
+      "playlists_update": {
+        "calls": 8,
+        "quota": 400
+      },
+      "playlistItems_insert": {
+        "calls": 74,
+        "quota": 3700
+      },
+      "TOTAL_API_CALLS": 381,
+      "TOTAL_QUOTA_USED": 17580
+    },
+    "quota_per_day": {
+      "day_1": {
+        "planned": 7715,
+        "buffer": 1006,
+        "total": 7715,
+        "limit": 10000,
+        "headroom": 2285
+      },
+      "day_2": {
+        "planned": 6053,
+        "buffer": 908,
+        "total": 6961,
+        "limit": 10000,
+        "headroom": 3039
+      },
+      "day_3": {
+        "planned": 4818,
+        "buffer": 723,
+        "total": 5541,
+        "limit": 10000,
+        "headroom": 4459
+      },
+      "three_day_planned": 18579,
+      "three_day_buffer": 2637,
+      "three_day_total": 20217,
+      "three_day_available": 30000,
+      "overall_headroom": 9783
+    },
+    "completion_targets": {
+      "all_436_public_videos_optimized": "100%",
+      "all_videos_8_language_localizations": "100% (DE, EN, JA, FR, ES, PT-BR, HI, KO)",
+      "all_defaultAudioLanguage_correct": "100%",
+      "all_categoryId_correct": "100%",
+      "all_videos_10_15_tags": "100%",
+      "all_descriptions_have_CTA": "100%",
+      "wochenschau_complete": "100% (all 83 episodes)",
+      "videos_in_playlists": "95%+ (archive playlist partially updated due to quota cost)",
+      "channel_description_updated": true,
+      "bad_translations_fixed": "All known issues addressed",
+      "final_verification_report": true
+    },
+    "remaining_after_day3": {
+      "archive_playlist": "~53 videos still missing from Complete Archive (deferred - 2,650 quota needed)",
+      "note": "Can be done on Day 4 with minimal quota usage, or incrementally as new videos are uploaded"
+    }
+  },
+  "risk_mitigation": {
+    "quota_exhaustion": {
+      "risk": "Medium",
+      "mitigation": "15% buffer per day. Day 1 is heaviest but still under 8K. If rate-limited, shift Tier 3 to Day 2.",
+      "fallback": "Day 3 has 4,459 headroom to absorb overflow from Day 1 or Day 2"
+    },
+    "api_errors": {
+      "risk": "Low-Medium",
+      "mitigation": "Retry once with exponential backoff. Log all failures for Day 3 cleanup pass.",
+      "common_errors": [
+        "concurrent_modification",
+        "rate_limit_exceeded",
+        "invalid_localization_format"
+      ]
+    },
+    "newer_uploads_unknown_count": {
+      "risk": "Low",
+      "mitigation": "Day 1 verification scan reveals actual numbers. Day 2 budget is conservative (25 fixes) with 3,039 headroom."
+    },
+    "translation_quality": {
+      "risk": "Medium",
+      "mitigation": "Day 3 dedicated quality pass. Use video_master_db_v3.json ideal values where available. Manual review for historical content."
+    },
+    "playlist_archive_quota_cost": {
+      "risk": "Known limitation",
+      "mitigation": "113 missing = 5,650 quota. Split: 20 on Day 2 + 40 on Day 3 = 60 done. Remaining 53 deferred to Day 4."
+    }
+  }
+}

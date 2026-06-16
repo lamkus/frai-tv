@@ -1,0 +1,474 @@
+{
+  "timestamp": "2026-01-30T17:22:03.313374",
+  "updated": [
+    {
+      "nr": "477",
+      "id": "iRzeiRoAsj4",
+      "reason": "title_different",
+      "changes": {
+        "title": {
+          "old": "Wochenschau 477: Poland Occupied (11.10.1939) | 8K | @remAIke_IT",
+          "new": "Wochenschau 477: Poland Occupied (Oct 1939) | 8K"
+        },
+        "desc_length": {
+          "old": 974,
+          "new": 2410
+        },
+        "tags_count": {
+          "old": 16,
+          "new": 13
+        }
+      }
+    },
+    {
+      "nr": "480",
+      "id": "jeLWajro1As",
+      "reason": "title_different",
+      "changes": {
+        "title": {
+          "old": "Wochenschau 480: Bürgerbräukeller Bomb (08.11.1939) | 8K | @remAIke_IT",
+          "new": "Wochenschau 480: Bürgerbräu Bomb (Nov 1939) | 8K"
+        },
+        "desc_length": {
+          "old": 1361,
+          "new": 2434
+        },
+        "tags_count": {
+          "old": 15,
+          "new": 13
+        }
+      }
+    },
+    {
+      "nr": "482",
+      "id": "N7WPQUjFJjA",
+      "reason": "title_different",
+      "changes": {
+        "title": {
+          "old": "Wochenschau 482: Winter War Begins (30.11.1939) | 8K | @remAIke_IT",
+          "new": "Wochenschau 482: Winter War Begins (Nov 1939) | 8K"
+        },
+        "desc_length": {
+          "old": 976,
+          "new": 2439
+        },
+        "tags_count": {
+          "old": 16,
+          "new": 13
+        }
+      }
+    },
+    {
+      "nr": "508",
+      "id": "fC0MlizsAQQ",
+      "reason": "title_different",
+      "changes": {
+        "title": {
+          "old": "Wochenschau 508: Dunkirk Pocket (29.05.1940) | 8K | @remAIke_IT",
+          "new": "Wochenschau 508: Dunkirk Pocket (May 1940) | 8K"
+        },
+        "desc_length": {
+          "old": 973,
+          "new": 2440
+        },
+        "tags_count": {
+          "old": 16,
+          "new": 13
+        }
+      }
+    },
+    {
+      "nr": "509",
+      "id": "2uHl4LYN8O8",
+      "reason": "title_different",
+      "changes": {
+        "title": {
+          "old": "Wochenschau 509: Dunkirk Evacuation (05.06.1940) | 8K | @remAIke_IT",
+          "new": "Wochenschau 509: Dunkirk Evacuation (Jun 1940) | 8K"
+        },
+        "desc_length": {
+          "old": 1303,
+          "new": 2444
+        },
+        "tags_count": {
+          "old": 15,
+          "new": 13
+        }
+      }
+    },
+    {
+      "nr": "511",
+      "id": "3rB80OGKzrg",
+      "reason": "title_different",
+      "changes": {
+        "title": {
+          "old": "Wochenschau 511: Paris Falls (14.06.1940) | 8K | @remAIke_IT",
+          "new": "Wochenschau 511: Paris Falls (Jun 1940) | 8K"
+        },
+        "desc_length": {
+          "old": 970,
+          "new": 1981
+        },
+        "tags_count": {
+          "old": 16,
+          "new": 13
+        }
+      }
+    },
+    {
+      "nr": "512",
+      "id": "xblc6reUMr0",
+      "reason": "title_different",
+      "changes": {
+        "title": {
+          "old": "Wochenschau 512: French Armistice (22.06.1940) | 8K | @remAIke_IT",
+          "new": "Wochenschau 512: French Armistice (Jun 1940) | 8K"
+        },
+        "desc_length": {
+          "old": 1272,
+          "new": 2008
+        },
+        "tags_count": {
+          "old": 15,
+          "new": 13
+        }
+      }
+    },
+    {
+      "nr": "513",
+      "id": "D_kLmNFlbZI",
+      "reason": "title_different",
+      "changes": {
+        "title": {
+          "old": "Wochenschau 513: Channel Islands (01.07.1940) | 8K | @remAIke_IT",
+          "new": "Wochenschau 513: Channel Islands (Jul 1940) | 8K"
+        },
+        "desc_length": {
+          "old": 974,
+          "new": 1986
+        },
+        "tags_count": {
+          "old": 16,
+          "new": 13
+        }
+      }
+    },
+    {
+      "nr": "516",
+      "id": "T-EsdXGhqog",
+      "reason": "title_different",
+      "changes": {
+        "title": {
+          "old": "Wochenschau 516: Battle of Britain (24.07.1940) | 8K | @remAIke_IT",
+          "new": "Wochenschau 516: Battle of Britain (Jul 1940) | 8K"
+        },
+        "desc_length": {
+          "old": 976,
+          "new": 1991
+        },
+        "tags_count": {
+          "old": 16,
+          "new": 15
+        }
+      }
+    },
+    {
+      "nr": "522",
+      "id": "S31f7FuEvXw",
+      "reason": "title_different",
+      "changes": {
+        "title": {
+          "old": "Wochenschau 522: Berlin Raid (14.09.1940) | 8K | @remAIke_IT",
+          "new": "Wochenschau 522: Berlin Retaliation (Sep 1940) | 8K"
+        },
+        "desc_length": {
+          "old": 970,
+          "new": 2000
+        },
+        "tags_count": {
+          "old": 16,
+          "new": 13
+        }
+      }
+    },
+    {
+      "nr": "523",
+      "id": "fNCZYqnK3Cc",
+      "reason": "title_different",
+      "changes": {
+        "title": {
+          "old": "Deutsche Wochenschau 523: Bombardierung Londons | 8K",
+          "new": "Wochenschau 523: London Blitz (Sep 1940) | 8K"
+        },
+        "desc_length": {
+          "old": 1257,
+          "new": 1968
+        },
+        "tags_count": {
+          "old": 13,
+          "new": 13
+        }
+      }
+    },
+    {
+      "nr": "524",
+      "id": "1O8sVLS-zfI",
+      "reason": "title_different",
+      "changes": {
+        "title": {
+          "old": "Wochenschau 524: Sea Lion Cancelled (28.09.1940) | 8K | @remAIke_IT",
+          "new": "Wochenschau 524: Sea Lion Postponed (Sep 1940) | 8K"
+        },
+        "desc_length": {
+          "old": 1252,
+          "new": 1996
+        },
+        "tags_count": {
+          "old": 15,
+          "new": 13
+        }
+      }
+    },
+    {
+      "nr": "652",
+      "id": "0sO7jVL43yQ",
+      "reason": "title_different",
+      "changes": {
+        "title": {
+          "old": "Wochenschau 652: Kharkov Retaken (17.03.1943) | 8K | @remAIke_IT",
+          "new": "Wochenschau 652: Kharkov III (Mar 1943) | 8K"
+        },
+        "desc_length": {
+          "old": 974,
+          "new": 1952
+        },
+        "tags_count": {
+          "old": 16,
+          "new": 13
+        }
+      }
+    },
+    {
+      "nr": "652",
+      "id": "0sO7jVL43yQ",
+      "reason": "title_different",
+      "changes": {
+        "title": {
+          "old": "Wochenschau 652: Kharkov Retaken (17.03.1943) | 8K | @remAIke_IT",
+          "new": "Wochenschau 652: Kharkov III (Mar 1943) | 8K"
+        },
+        "desc_length": {
+          "old": 974,
+          "new": 1952
+        },
+        "tags_count": {
+          "old": 16,
+          "new": 13
+        }
+      }
+    },
+    {
+      "nr": "654",
+      "id": "dYBzf5V1TjI",
+      "reason": "title_different",
+      "changes": {
+        "title": {
+          "old": "Wochenschau 654: Tunisia Battles (01.04.1943) | 8K | @remAIke_IT",
+          "new": "Wochenschau 654: Tunisia Battles (Mar 1943) | 8K"
+        },
+        "desc_length": {
+          "old": 1276,
+          "new": 1955
+        },
+        "tags_count": {
+          "old": 15,
+          "new": 13
+        }
+      }
+    },
+    {
+      "nr": "720",
+      "id": "6K-MuUu6L44",
+      "reason": "title_different",
+      "changes": {
+        "title": {
+          "old": "Wochenschau 720: V1 Flying Bombs (22.06.1944) | 8K | @remAIke_IT",
+          "new": "Wochenschau 720: V1 Attacks (Jun 1944) | 8K"
+        },
+        "desc_length": {
+          "old": 1246,
+          "new": 1969
+        },
+        "tags_count": {
+          "old": 15,
+          "new": 13
+        }
+      }
+    },
+    {
+      "nr": "721",
+      "id": "W-UcQleew8Y",
+      "reason": "title_different",
+      "changes": {
+        "title": {
+          "old": "Wochenschau 721: Bagration Begins (29.06.1944) | 8K | @remAIke_IT",
+          "new": "Wochenschau 721: Bagration Begins (Jun 1944) | 8K"
+        },
+        "desc_length": {
+          "old": 1276,
+          "new": 1995
+        },
+        "tags_count": {
+          "old": 15,
+          "new": 13
+        }
+      }
+    },
+    {
+      "nr": "722",
+      "id": "bZkUPQHqyfg",
+      "reason": "title_different",
+      "changes": {
+        "title": {
+          "old": "Wochenschau 722: Bagration (06.07.1944) | 8K | @remAIke_IT",
+          "new": "Wochenschau 722: Bagration (Jul 1944) | 8K"
+        },
+        "desc_length": {
+          "old": 1197,
+          "new": 1976
+        },
+        "tags_count": {
+          "old": 13,
+          "new": 13
+        }
+      }
+    },
+    {
+      "nr": "746",
+      "id": "jGz1kC1Z69A",
+      "reason": "title_different",
+      "changes": {
+        "title": {
+          "old": "Wochenschau 746: Battle of Bulge (21.12.1944) | 8K | @remAIke_IT",
+          "new": "Wochenschau 746: Ardennes Offensive (Dec 1944) | 8K"
+        },
+        "desc_length": {
+          "old": 1270,
+          "new": 1993
+        },
+        "tags_count": {
+          "old": 15,
+          "new": 13
+        }
+      }
+    },
+    {
+      "nr": "750",
+      "id": "w2UvksMOs3c",
+      "reason": "title_different",
+      "changes": {
+        "title": {
+          "old": "Wochenschau 750: Vistula Offensive (18.01.1945) | 8K | @remAIke_IT",
+          "new": "Wochenschau 750: Vistula Offensive (Jan 1945) | 8K"
+        },
+        "desc_length": {
+          "old": 1205,
+          "new": 1997
+        },
+        "tags_count": {
+          "old": 15,
+          "new": 13
+        }
+      }
+    },
+    {
+      "nr": "751",
+      "id": "6YLPpJLgVXk",
+      "reason": "title_different",
+      "changes": {
+        "title": {
+          "old": "Wochenschau 751: Eastern Collapse (25.01.1945) | 8K | @remAIke_IT",
+          "new": "Wochenschau 751: Eastern Collapse (Jan 1945) | 8K"
+        },
+        "desc_length": {
+          "old": 1235,
+          "new": 1985
+        },
+        "tags_count": {
+          "old": 15,
+          "new": 13
+        }
+      }
+    },
+    {
+      "nr": "753",
+      "id": "iEEvt-s1XhQ",
+      "reason": "title_different",
+      "changes": {
+        "title": {
+          "old": "Wochenschau 753: Yalta Conference (08.02.1945) | 8K | @remAIke_IT",
+          "new": "Wochenschau 753: Yalta Conference (Feb 1945) | 8K"
+        },
+        "desc_length": {
+          "old": 1221,
+          "new": 1980
+        },
+        "tags_count": {
+          "old": 14,
+          "new": 13
+        }
+      }
+    },
+    {
+      "nr": "754",
+      "id": "H_n_mS-eKps",
+      "reason": "title_different",
+      "changes": {
+        "title": {
+          "old": "Wochenschau 754: Dresden Bombed (15.02.1945) | 8K | @remAIke_IT",
+          "new": "Wochenschau 754: Dresden Bombed (Feb 1945) | 8K"
+        },
+        "desc_length": {
+          "old": 1236,
+          "new": 1978
+        },
+        "tags_count": {
+          "old": 15,
+          "new": 13
+        }
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "nr": "459",
+      "id": "o33-c1riv4U"
+    },
+    {
+      "nr": "468",
+      "id": "dAp7JFDhE3U"
+    },
+    {
+      "nr": "470",
+      "id": "t-VIxJaWE74"
+    },
+    {
+      "nr": "471",
+      "id": "9muRRAleqdA"
+    },
+    {
+      "nr": "473",
+      "id": "3AtirtgrfUI"
+    },
+    {
+      "nr": "483",
+      "id": "Qn7Nvx7eWz4"
+    },
+    {
+      "nr": "488",
+      "id": "DLifkhU0q1w"
+    }
+  ],
+  "failed": [],
+  "no_seo": []
+}

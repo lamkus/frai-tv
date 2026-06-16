@@ -1,0 +1,287 @@
+{
+  "_info": "Rich English historical context for HUD v3 overlay. Hand-crafted from German historical_note data.",
+  "_version": "3.0",
+  "_date": "2026-02-21",
+  "episodes": {
+    "459": {
+      "era": "PRE-WAR EUROPE",
+      "title": "Pre-War Era",
+      "context": "Final peacetime newsreel before the outbreak of war. Europe teeters on the brink as diplomatic tensions reach breaking point.",
+      "exact_date": "June 21, 1939",
+      "location": "Berlin, Germany"
+    },
+    "468": {
+      "era": "ROAD TO WAR",
+      "title": "Nazi-Soviet Pact",
+      "context": "Molotov-Ribbentrop Pact signed August 23, 1939. Secret protocol divides Eastern Europe between Germany and the Soviet Union.",
+      "exact_date": "August 23, 1939",
+      "location": "Moscow, Russia"
+    },
+    "470": {
+      "era": "INVASION OF POLAND",
+      "title": "War Begins",
+      "context": "FIRST WARTIME NEWSREEL EVER PRODUCED. Germany invades Poland on September 1, 1939. World War II begins.",
+      "exact_date": "September 1, 1939",
+      "location": "Warsaw, Poland"
+    },
+    "471": {
+      "era": "INVASION OF POLAND",
+      "title": "Poland Campaign",
+      "context": "Blitzkrieg — a new form of lightning warfare sweeps through Poland. Mechanized divisions stun the world with their speed.",
+      "exact_date": "September 13, 1939",
+      "location": "Poland"
+    },
+    "473": {
+      "era": "INVASION OF POLAND",
+      "title": "Fall of Warsaw",
+      "context": "Warsaw surrenders after weeks of relentless siege and bombardment. September 27, 1939 — Poland's capital falls.",
+      "exact_date": "September 27, 1939",
+      "location": "Warsaw, Poland"
+    },
+    "477": {
+      "era": "OCCUPIED POLAND",
+      "title": "Poland Occupied",
+      "context": "The General Government is established over occupied Poland. Millions placed under German military administration.",
+      "exact_date": "October 25, 1939",
+      "location": "Poland"
+    },
+    "480": {
+      "era": "ASSASSINATION ATTEMPT",
+      "title": "Bürgerbräu Bomb",
+      "context": "Georg Elser's lone assassination attempt on Hitler. November 8, 1939 — bomb detonates 13 minutes after Hitler leaves the beer hall.",
+      "exact_date": "November 8, 1939",
+      "location": "Munich, Germany"
+    },
+    "482": {
+      "era": "THE WINTER WAR",
+      "title": "Winter War Begins",
+      "context": "Soviet Union invades Finland on November 30, 1939. The Winter War begins — tiny Finland faces the Red Army alone.",
+      "exact_date": "November 30, 1939",
+      "location": "Finland"
+    },
+    "483": {
+      "era": "THE WINTER WAR",
+      "title": "Finnish Resistance",
+      "context": "Outnumbered Finnish forces hold their ground against the Red Army. The world watches in awe as Finland fights back.",
+      "exact_date": "December 6, 1939",
+      "location": "Finland"
+    },
+    "488": {
+      "era": "THE PHONEY WAR",
+      "title": "Phoney War",
+      "context": "The Western Front remains eerily quiet. Troops face each other across the Maginot Line while nations prepare for total war.",
+      "exact_date": "January 10, 1940",
+      "location": "Germany"
+    },
+    "502": {
+      "era": "SCANDINAVIA INVADED",
+      "title": "Norway Invasion",
+      "context": "Operation Weserübung — Germany invades Denmark and Norway simultaneously. April 9, 1940 — Scandinavia drawn into the war.",
+      "exact_date": "April 9, 1940",
+      "location": "Oslo, Norway"
+    },
+    "508": {
+      "era": "FALL OF FRANCE",
+      "title": "Dunkirk Pocket",
+      "context": "400,000 Allied soldiers trapped at Dunkirk. May 26 to June 4, 1940 — the greatest military evacuation in history begins.",
+      "exact_date": "May 26, 1940",
+      "location": "Dunkirk, France"
+    },
+    "509": {
+      "era": "FALL OF FRANCE",
+      "title": "Dunkirk Evacuation",
+      "context": "Operation Dynamo. 340,000 Allied soldiers evacuated across the English Channel by a flotilla of warships and civilian boats.",
+      "exact_date": "June 4, 1940",
+      "location": "Dunkirk, France"
+    },
+    "512": {
+      "era": "FALL OF FRANCE",
+      "title": "French Armistice",
+      "context": "Armistice signed at Compiègne, June 22, 1940. France falls in just six weeks. Hitler's revenge for the 1918 surrender.",
+      "exact_date": "June 22, 1940",
+      "location": "Compiègne, France"
+    },
+    "513": {
+      "era": "FORTRESS EUROPE",
+      "title": "Channel Islands",
+      "context": "British Channel Islands occupied — the only British home territory under German control for the entire war.",
+      "exact_date": "July 3, 1940",
+      "location": "Channel Islands"
+    },
+    "514": {
+      "era": "FORTRESS EUROPE",
+      "title": "Berlin Victory Parade",
+      "context": "Wehrmacht victory parade through Berlin. The German capital celebrates the fall of France with military pageantry.",
+      "exact_date": "July 10, 1940",
+      "location": "Berlin, Germany"
+    },
+    "515": {
+      "era": "BATTLE OF BRITAIN",
+      "title": "Battle of Britain",
+      "context": "The Battle of Britain begins July 10, 1940. Luftwaffe vs. RAF - the first major all-air military campaign in history.",
+      "exact_date": "July 10, 1940",
+      "location": "London, England"
+    },
+    "518": {
+      "era": "BATTLE OF BRITAIN",
+      "title": "Channel Battles",
+      "context": "Aerial dogfights rage over the English Channel. Luftwaffe convoy attacks intensify as the air war escalates.",
+      "exact_date": "August 7, 1940",
+      "location": "English Channel"
+    },
+    "519": {
+      "era": "BATTLE OF BRITAIN",
+      "title": "Eagle Day",
+      "context": "Adlertag — Eagle Day, August 13, 1940. Massive Luftwaffe assault targets RAF airfields and radar stations across southern England.",
+      "exact_date": "August 13, 1940",
+      "location": "England"
+    },
+    "520": {
+      "era": "BATTLE OF BRITAIN",
+      "title": "Battle at its Peak",
+      "context": "The Battle of Britain reaches its climax. RAF Fighter Command is stretched to breaking point — the fate of Britain hangs in the balance.",
+      "exact_date": "August 21, 1940",
+      "location": "London, England"
+    },
+    "523": {
+      "era": "THE LONDON BLITZ",
+      "title": "London Blitz",
+      "context": "The Blitz begins September 7, 1940. Luftwaffe shifts from attacking airfields to bombing London — 57 consecutive nights of terror.",
+      "exact_date": "September 7, 1940",
+      "location": "London, England"
+    },
+    "542": {
+      "era": "NORTH AFRICA",
+      "title": "Tobruk Falls",
+      "context": "British forces capture Tobruk on January 22, 1941. Italian garrison surrenders — the desert war shifts momentum.",
+      "exact_date": "January 22, 1941",
+      "location": "Tobruk, Libya"
+    },
+    "543": {
+      "era": "NORTH AFRICA",
+      "title": "Afrika Korps",
+      "context": "Erwin Rommel dispatched to North Africa. The legendary Afrika Korps is formed to rescue Italy's crumbling desert campaign.",
+      "exact_date": "January 29, 1941",
+      "location": "North Africa"
+    },
+    "544": {
+      "era": "NORTH AFRICA",
+      "title": "Rommel Arrives",
+      "context": "Rommel lands in Tripoli, February 12, 1941. The Desert Fox begins his legendary campaign across the Sahara.",
+      "exact_date": "February 12, 1941",
+      "location": "Tripoli, Libya"
+    },
+    "545": {
+      "era": "NORTH AFRICA",
+      "title": "Africa Offensive",
+      "context": "German counteroffensive begins in North Africa. Rommel pushes the British back across Libya with bold armored thrusts.",
+      "exact_date": "February 12, 1941",
+      "location": "North Africa"
+    },
+    "547": {
+      "era": "NORTH AFRICA",
+      "title": "Africa Campaign",
+      "context": "Rommel drives British forces eastward. The Afrika Korps recaptures Cyrenaica in a stunning desert reversal.",
+      "exact_date": "February 26, 1941",
+      "location": "North Africa"
+    },
+    "548": {
+      "era": "AXIS EXPANSION",
+      "title": "Bulgaria Joins Axis",
+      "context": "Bulgaria joins the Axis powers on March 1, 1941. Wehrmacht troops enter Bulgarian territory — the Balkans become the next front.",
+      "exact_date": "March 1, 1941",
+      "location": "Sofia, Bulgaria"
+    },
+    "550": {
+      "era": "BALKANS CRISIS",
+      "title": "Yugoslavia Crisis",
+      "context": "Yugoslavia joins the Axis on March 25, 1941. A military coup follows two days later — setting the stage for German invasion.",
+      "exact_date": "March 25, 1941",
+      "location": "Belgrade, Yugoslavia"
+    },
+    "573": {
+      "era": "OPERATION BARBAROSSA",
+      "title": "Battle of Kiev",
+      "context": "Largest encirclement battle in military history. 665,000 Soviet soldiers captured — an entire army group destroyed at Kiev.",
+      "exact_date": "August 27, 1941",
+      "location": "Kyiv, Ukraine"
+    },
+    "751": {
+      "era": "THE FINAL COLLAPSE",
+      "title": "Eastern Front Collapses",
+      "context": "The Eastern Front disintegrates. Soviet forces advance relentlessly westward — nothing can stop the Red Army's march toward Berlin.",
+      "exact_date": "January 24, 1945",
+      "location": "Poland"
+    },
+    "753": {
+      "era": "ENDGAME",
+      "title": "Yalta Conference",
+      "context": "Yalta Conference, February 4-11, 1945. Roosevelt, Churchill and Stalin meet to divide post-war Europe among the victors.",
+      "exact_date": "February 4, 1945",
+      "location": "Yalta, Crimea"
+    },
+    "754": {
+      "era": "ENDGAME",
+      "title": "Dresden Bombed",
+      "context": "Allied firebombing of Dresden, February 13-15, 1945. One of the most devastating aerial bombardments of the entire war.",
+      "exact_date": "February 13, 1945",
+      "location": "Dresden, Germany"
+    },
+    "522": {
+      "era": "BATTLE OF BRITAIN",
+      "title": "Berlin Retaliation",
+      "context": "RAF retaliates with bombing raids on Berlin, August 25-26, 1940. Hitler orders the Blitz on London in response — a fateful strategic mistake.",
+      "exact_date": "September 4, 1940",
+      "location": "Berlin, Germany"
+    },
+    "652": {
+      "era": "EASTERN FRONT",
+      "title": "Third Battle of Kharkov",
+      "context": "Third Battle of Kharkov, February-March 1943. Manstein's bold counteroffensive recaptures the city — last major German victory in the East.",
+      "exact_date": "March 3, 1943",
+      "location": "Kharkov, Ukraine"
+    },
+    "654": {
+      "era": "NORTH AFRICA ENDGAME",
+      "title": "Tunisia Battles",
+      "context": "Fierce battles rage across Tunisia. Allied forces close in on the Afrika Korps from both east and west — the desert war nears its end.",
+      "exact_date": "March 17, 1943",
+      "location": "Tunisia"
+    },
+    "720": {
+      "era": "VENGEANCE WEAPONS",
+      "title": "V-1 Flying Bombs",
+      "context": "V-1 flying bombs terrorize London from June 13, 1944. Hitler's 'Vergeltungswaffe' — vengeance weapon — strikes from across the Channel.",
+      "exact_date": "June 21, 1944",
+      "location": "London, England"
+    },
+    "721": {
+      "era": "OPERATION BAGRATION",
+      "title": "Bagration Begins",
+      "context": "Operation Bagration launched June 22, 1944. The largest Soviet offensive of the war — three years to the day after Barbarossa began.",
+      "exact_date": "June 28, 1944",
+      "location": "Belarus"
+    },
+    "722": {
+      "era": "OPERATION BAGRATION",
+      "title": "Army Group Center Destroyed",
+      "context": "Army Group Center annihilated. 28 of 34 divisions destroyed — the greatest German military catastrophe of the war. 300,000 soldiers lost.",
+      "exact_date": "July 5, 1944",
+      "location": "Minsk, Belarus"
+    },
+    "746": {
+      "era": "LAST OFFENSIVE",
+      "title": "Battle of the Bulge",
+      "context": "Ardennes Offensive — Hitler's last gamble. 250,000 German troops launch a surprise attack through the Belgian forests. December 16, 1944.",
+      "exact_date": "December 20, 1944",
+      "location": "Ardennes, Belgium"
+    },
+    "750": {
+      "era": "THE FINAL COLLAPSE",
+      "title": "Vistula-Oder Offensive",
+      "context": "Vistula-Oder Offensive begins January 12, 1945. 2.2 million Soviet soldiers smash through German lines — the road to Berlin is open.",
+      "exact_date": "January 17, 1945",
+      "location": "Vistula River, Poland"
+    }
+  }
+}

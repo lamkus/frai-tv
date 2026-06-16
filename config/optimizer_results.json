@@ -1,0 +1,72 @@
+{
+  "playlists_created": [
+    {
+      "series": "alfred_jodokus_quack",
+      "playlist_id": "PL3d2Tsr13ihO4514Eao7ttTv6PRKtEReL",
+      "videos": 9
+    },
+    {
+      "series": "superman",
+      "playlist_id": "PL3d2Tsr13ihNGGfilho9PHb3gqsOrhksr",
+      "videos": 10
+    },
+    {
+      "series": "casper",
+      "playlist_id": "PL3d2Tsr13ihNlMyu7m1gUrorwDsPL0Szf",
+      "videos": 9
+    },
+    {
+      "series": "porky_pig",
+      "playlist_id": "PL3d2Tsr13ihNXcCH2-a7VZUyJS-Do8Sn0",
+      "videos": 9
+    },
+    {
+      "series": "popeye",
+      "playlist_id": "PL3d2Tsr13ihMGVG70VrIyLTfZVnNnpggj",
+      "videos": 4
+    },
+    {
+      "series": "looney_tunes",
+      "playlist_id": "PL3d2Tsr13ihN5gZXFcC8gjn9I3yQG_eYR",
+      "videos": 3
+    },
+    {
+      "series": "color_classics",
+      "playlist_id": "PL3d2Tsr13ihN-FoO36o1nSSYAfsat2TLJ",
+      "videos": 3
+    },
+    {
+      "series": "astro_boy",
+      "playlist_id": "PL3d2Tsr13ihM6nRQlwMj5Jzj6D2KXv2Ye",
+      "videos": 2
+    },
+    {
+      "series": "chaplin",
+      "playlist_id": "PL3d2Tsr13ihMbymGDXF3mmYk6SkYS73Fp",
+      "videos": 2
+    },
+    {
+      "series": "buster_keaton",
+      "playlist_id": "PL3d2Tsr13ihNwE41FHYamleI0gf5yY2k2",
+      "videos": 2
+    },
+    {
+      "series": "ferdy",
+      "playlist_id": "PL3d2Tsr13ihNaaFVT5SIuZcWyeLj9VoF6",
+      "videos": 1
+    },
+    {
+      "series": "bosko",
+      "playlist_id": "PL3d2Tsr13ihPNyK9Ssvh4yVVGA7_sfsEL",
+      "videos": 1
+    }
+  ],
+  "videos_added": 55,
+  "categories_fixed": 15,
+  "tags_added": 44,
+  "errors": [
+    "Playlist krazy_kat: <HttpError 429 when requesting https://youtube.googleapis.com/youtube/v3/playlists?part=snippet%2Cstatus&alt=json returned \"Resource has been exhausted (e.g. check quota).\". Details: \"[{'domain': 'youtube.api.v3.PlaylistInsertResponse.Error', 'reason': 'RATE_LIMIT_EXCEEDED'}]\">"
+  ],
+  "quota_exceeded": false,
+  "timestamp": "2026-01-05T14:42:21.507701"
+}

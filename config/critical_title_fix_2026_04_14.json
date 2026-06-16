@@ -1,0 +1,1862 @@
+{
+  "timestamp": "2026-04-14T08:35:17.255130+00:00",
+  "summary": {
+    "total_planned": 174,
+    "task1_revert_8k": 68,
+    "task2_fix_category": 92,
+    "task3_add_full_movie": 17,
+    "quota_estimated": 8700,
+    "success": 156,
+    "errors": 18,
+    "quota_used": 7800
+  },
+  "results": [
+    {
+      "video_id": "xkYPbDSepCY",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Alfred J. Kwak E14: Skrupellose Geschäfte [8K]",
+      "new_title": "Alfred J. Kwak E14: Skrupellose Geschäfte | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "t1uRzra4Kb0",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Alfred J. Kwak E50: Das Casino [8K]",
+      "new_title": "Alfred J. Kwak E50: Das Casino | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "rC7bAjq0tLY",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Alfred J. Kwak (E29) Die Burengänse [8K]",
+      "new_title": "Alfred J. Kwak (E29) Die Burengänse | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "0lphM8tc95M",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Alfred J. Kwak (E12) Die geheimnisvolle Königin [8K]",
+      "new_title": "Alfred J. Kwak (E12) Die geheimnisvolle Königin | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "Zb88QyQcUK4",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Alfred J. Kwak E13: Haltet den Dieb! [8K]",
+      "new_title": "Alfred J. Kwak E13: Haltet den Dieb! | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "qGzRqmiOcNw",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Alfred J. Kwak E38: Krach mit den Nachbarn [8K]",
+      "new_title": "Alfred J. Kwak E38: Krach mit den Nachbarn | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "x7u-1DcabiE",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Alfred J. Kwak E17: Rettung aus dem All [8K]",
+      "new_title": "Alfred J. Kwak E17: Rettung aus dem All | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "HGg-g6SwrrQ",
+      "tasks": [
+        "revert_8k_title",
+        "add_full_movie"
+      ],
+      "old_title": "Reefer Madness (1936) | Cult Propaganda Classic [8K]",
+      "new_title": "Reefer Madness (1936) | Cult Propaganda Classic | Full Movie | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "PbIzH1DnEoc",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "The Escorts & Betty - Radio... - Soundie (1940s) [8K]",
+      "new_title": "The Escorts & Betty - Radio... - Soundie (1940s) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "Cryvvt7dAUQ",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Unknown Artist: I Can't Give You Anything [8K]",
+      "new_title": "Unknown Artist: I Can't Give You Anything | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "1E5ABxiwl70",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Unknown Artist: Polka Song [8K]",
+      "new_title": "Unknown Artist: Polka Song | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "I2GfnKIxmAg",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Yvonne Marthay: Performance [8K]",
+      "new_title": "Yvonne Marthay: Performance | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "lIq8j6MVKdg",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Scarlett Knight: Performance [8K]",
+      "new_title": "Scarlett Knight: Performance | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "4vaim28zk50",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Nürnberger Nachfolgeprozesse (1947-49) [8K]",
+      "new_title": "Nürnberger Nachfolgeprozesse (1947-49) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "W_VhuNn-5nY",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "BraveStarr (4/65): Skuzz and Fuzz (1987) [8K]",
+      "new_title": "BraveStarr (4/65): Skuzz and Fuzz (1987) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "iTY7ncVupr0",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Alfred J. Kwak E14: Skrupellose Geschäfte [8K]",
+      "new_title": "Alfred J. Kwak E14: Skrupellose Geschäfte | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "DQwXGOvy2f8",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Alfred J. Kwak E12: Die geheimnisvolle Königin [8K]",
+      "new_title": "Alfred J. Kwak E12: Die geheimnisvolle Königin | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "fi3RJjlUl5Q",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Alfred J. Kwak E13: Haltet den Dieb! [8K]",
+      "new_title": "Alfred J. Kwak E13: Haltet den Dieb! | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "ks63_kmFz7I",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Alfred J. Kwak (8): Der Spion [8K]",
+      "new_title": "Alfred J. Kwak (8): Der Spion | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "2yGX3wy-4SQ",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Havana Madrid Show (1940s) | Soundie [8K]",
+      "new_title": "Havana Madrid Show (1940s) | Soundie | 8K HQ (4K UHD)",
+      "old_category": "10",
+      "new_category": "10",
+      "status": "success"
+    },
+    {
+      "video_id": "HvwtRYp43eU",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Got to Be This or That - Soundie (1940s) [8K]",
+      "new_title": "Got to Be This or That - Soundie (1940s) | 8K HQ (4K UHD)",
+      "old_category": "10",
+      "new_category": "10",
+      "status": "success"
+    },
+    {
+      "video_id": "LJp-M01OI-8",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Chime Bells - Soundie (1940s) [8K]",
+      "new_title": "Chime Bells - Soundie (1940s) | 8K HQ (4K UHD)",
+      "old_category": "10",
+      "new_category": "10",
+      "status": "success"
+    },
+    {
+      "video_id": "D-LL4VuR5Pg",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Lullaby of Broadway - Soundie (1940s) [8K]",
+      "new_title": "Lullaby of Broadway - Soundie (1940s) | 8K HQ (4K UHD)",
+      "old_category": "10",
+      "new_category": "10",
+      "status": "success"
+    },
+    {
+      "video_id": "ukmrI7DlXkc",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "In a Shanty in Old Shanty Town - Soundie (1940s) [8K]",
+      "new_title": "In a Shanty in Old Shanty Town - Soundie (1940s) | 8K HQ (4K UHD)",
+      "old_category": "10",
+      "new_category": "10",
+      "status": "success"
+    },
+    {
+      "video_id": "OvBqUlzTunI",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Hollywood Boogie - Soundie (1940s) [8K]",
+      "new_title": "Hollywood Boogie - Soundie (1940s) | 8K HQ (4K UHD)",
+      "old_category": "10",
+      "new_category": "10",
+      "status": "success"
+    },
+    {
+      "video_id": "mDSdzFc572Y",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "What This Country Needs - Soundie (1940s) [8K]",
+      "new_title": "What This Country Needs - Soundie (1940s) | 8K HQ (4K UHD)",
+      "old_category": "10",
+      "new_category": "10",
+      "status": "success"
+    },
+    {
+      "video_id": "hAs6lunYl-E",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "A Jazz Etude - Soundie (1940s) [8K]",
+      "new_title": "A Jazz Etude - Soundie (1940s) | 8K HQ (4K UHD)",
+      "old_category": "10",
+      "new_category": "10",
+      "status": "success"
+    },
+    {
+      "video_id": "1zKpqdriv70",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Ten Pretty Girls - Soundie (1940s) [8K]",
+      "new_title": "Ten Pretty Girls - Soundie (1940s) | 8K HQ (4K UHD)",
+      "old_category": "10",
+      "new_category": "10",
+      "status": "success"
+    },
+    {
+      "video_id": "Z2SxppvCWvE",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Hawaiian Hula Song (1940s) | Soundie [8K]",
+      "new_title": "Hawaiian Hula Song (1940s) | Soundie | 8K HQ (4K UHD)",
+      "old_category": "10",
+      "new_category": "10",
+      "status": "success"
+    },
+    {
+      "video_id": "rprpMDyTWRI",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Zig Me Baby with a Gentle Zag - Soundie (1940s) [8K]",
+      "new_title": "Zig Me Baby with a Gentle Zag - Soundie (1940s) | 8K HQ (4K UHD)",
+      "old_category": "10",
+      "new_category": "10",
+      "status": "success"
+    },
+    {
+      "video_id": "NAk0QvvaT7M",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Whos Yehudi - Soundie (1940s) [8K]",
+      "new_title": "Whos Yehudi - Soundie (1940s) | 8K HQ (4K UHD)",
+      "old_category": "10",
+      "new_category": "10",
+      "status": "success"
+    },
+    {
+      "video_id": "w82vzaGBqwE",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "A Little Robin Told Me So - Soundie (1940s) [8K]",
+      "new_title": "A Little Robin Told Me So - Soundie (1940s) | 8K HQ (4K UHD)",
+      "old_category": "10",
+      "new_category": "10",
+      "status": "success"
+    },
+    {
+      "video_id": "GerP7_evS9o",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Beyond the Blue Horizon - Soundie (1940s) [8K]",
+      "new_title": "Beyond the Blue Horizon - Soundie (1940s) | 8K HQ (4K UHD)",
+      "old_category": "10",
+      "new_category": "10",
+      "status": "success"
+    },
+    {
+      "video_id": "A2PusB4VNrQ",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Alfred J. Kwak (25): Der Kampf um Deichstadt [8K]",
+      "new_title": "Alfred J. Kwak (25): Der Kampf um Deichstadt | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "zrsfdqdmU18",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Betty Boop: The Swing School (1938) [8K]",
+      "new_title": "Betty Boop: The Swing School (1938) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "sjwlBJlBRrY",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Alfred J. Kwak E16: : Die Reise zum Südpol [8K]",
+      "new_title": "Alfred J. Kwak E16: : Die Reise zum Südpol | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "fKdS-UJ4W0w",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Molly Moo-Cow: The Grocery Boy (1953) [8K]",
+      "new_title": "Molly Moo-Cow: The Grocery Boy (1953) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "_84z5LH1xbU",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Word to the Wives (1955) | Vintage Educational [8K]",
+      "new_title": "Word to the Wives (1955) | Vintage Educational | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "zouf8VMUeCo",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Betty Boop: Out of the Inkwell (1938) [8K]",
+      "new_title": "Betty Boop: Out of the Inkwell (1938) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "X7w40xteJyw",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Betty Boop: Morning Noon and Night (1933) [8K]",
+      "new_title": "Betty Boop: Morning Noon and Night (1933) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "QgNUV39Sg0o",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Betty Boop: Parade of Wooden Soldiers (1933) [8K]",
+      "new_title": "Betty Boop: Parade of Wooden Soldiers (1933) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "U3JSBxrhBAs",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Betty Boop: Riding the Rails (1938) [8K]",
+      "new_title": "Betty Boop: Riding the Rails (1938) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "k53INuDjfNU",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Betty Boop: Keep in Style (1934) [8K]",
+      "new_title": "Betty Boop: Keep in Style (1934) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "gZFsTHvb2qE",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Betty Boop: You Rascal You (1932) [8K]",
+      "new_title": "Betty Boop: You Rascal You (1932) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "zogZ5nzJCTE",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Betty Boop: Stop That Noise (1935) [8K]",
+      "new_title": "Betty Boop: Stop That Noise (1935) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "83CK1R2S1AY",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Betty Boop: Service with a Smile (1937) [8K]",
+      "new_title": "Betty Boop: Service with a Smile (1937) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "AayVfUsXAEY",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Betty Boop: Sally Swing (1938) [8K]",
+      "new_title": "Betty Boop: Sally Swing (1938) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "qOWjENMOyLo",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Design for Dreaming (1956) | GM Motorama [8K]",
+      "new_title": "Design for Dreaming (1956) | GM Motorama | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "VJZPCGZFfTA",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Betty Boop (23/105): Bamboo Isle (1932) [8K]",
+      "new_title": "Betty Boop (23/105): Bamboo Isle (1932) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "LnNGWC0OJcE",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Betty Boop: The Trial (1934) [8K]",
+      "new_title": "Betty Boop: The Trial (1934) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "flCgD7UH8HY",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Betty Boop: Prize Show (1934) [8K]",
+      "new_title": "Betty Boop: Prize Show (1934) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "LJX_WL5ABAU",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Betty Boop: Penthouse (1933) [8K]",
+      "new_title": "Betty Boop: Penthouse (1933) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "rWv1cA8lFUw",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Betty Boop: Life Guard (1934) [8K]",
+      "new_title": "Betty Boop: Life Guard (1934) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "AvyVS5S52zY",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Betty Boop: Bizzy Bee (1932) [8K]",
+      "new_title": "Betty Boop: Bizzy Bee (1932) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "zNAslcrOzu4",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Betty Boop: Birthday Party (1933) [8K]",
+      "new_title": "Betty Boop: Birthday Party (1933) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "Sk2IIXPV5ig",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Betty Boop: Big Boss (1933) [8K]",
+      "new_title": "Betty Boop: Big Boss (1933) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "EZxg1D958mo",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "A Corny Concerto (1943) [8K]",
+      "new_title": "A Corny Concerto (1943) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "0ol3EMS2NMA",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Porky Pig Can't Win Against This | 1941 Classic [8K]",
+      "new_title": "Porky Pig Can't Win Against This | 1941 Classic | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "1qMv827zxW0",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Ain't Nature Grand (1931) [8K]",
+      "new_title": "Ain't Nature Grand (1931) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "hOZQjNBV5R0",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Pagan Moon (1932) [8K]",
+      "new_title": "Pagan Moon (1932) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "Ucub3igzk2U",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Dick Whittington's Cat (1935) | ComiColor [8K]",
+      "new_title": "Dick Whittington's Cat (1935) | ComiColor | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "ig9_ZHkKfFA",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Betty Boop: Training Pigeons (1936) [8K]",
+      "new_title": "Betty Boop: Training Pigeons (1936) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "9dQKLUfKfgU",
+      "tasks": [
+        "revert_8k_title",
+        "add_full_movie"
+      ],
+      "old_title": "Planet Outlaws (1953) [8K]",
+      "new_title": "Planet Outlaws (1953) | Full Movie | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "k_4r2lMtcF4",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Betty Boop (6/105): Minding the Baby (1931) [8K]",
+      "new_title": "Betty Boop (6/105): Minding the Baby (1931) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "-WW6MO7XkLo",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Balloon Land (1935) [8K]",
+      "new_title": "Balloon Land (1935) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "EasEhYlorqQ",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Pearl Harbor Documentary (1942) [8K]",
+      "new_title": "Pearl Harbor Documentary (1942) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "Zu_iBCd5NJc",
+      "tasks": [
+        "revert_8k_title"
+      ],
+      "old_title": "Biological Warfare: What You Should Know (1952) [8K]",
+      "new_title": "Biological Warfare: What You Should Know (1952) | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "DO8dSN4aAB4",
+      "tasks": [
+        "revert_8k_title",
+        "add_full_movie"
+      ],
+      "old_title": "Nuremberg Trials: Nazi Concentration Camps (1945) [8K]",
+      "new_title": "Nuremberg Trials: Nazi Concentration Camps (1945) | Full Movie | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "LpM0ybqqL90",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "deutsche wochenschau nr698 1944 01 19 19min sls 8K HQ",
+      "new_title": "deutsche wochenschau nr698 1944 01 19 19min sls 8K HQ",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "10eYnX7MjGY",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "deutsche wochenschau nr696 1944",
+      "new_title": "deutsche wochenschau nr696 1944",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "6ukT4ElA_UA",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "deutsche wochenschau nr694 1943",
+      "new_title": "deutsche wochenschau nr694 1943",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "iql1XOHf0t0",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 474: Fall of Warsaw (04.10.1939) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 474: Fall of Warsaw (04.10.1939) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "o7-VFXC9xDg",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 713: Sevastopol Falls (03.05.1944) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 713: Sevastopol Falls (03.05.1944) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "T1pUCPyDrl4",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 692: Eastern Retreats (08.12.1943) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 692: Eastern Retreats (08.12.1943) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "RsfUriJTAvE",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 690: Tehran Conference (24.11.1943) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 690: Tehran Conference (24.11.1943) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "P4iJuIBsxKw",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 712: Atlantic Wall (26.04.1944) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 712: Atlantic Wall (26.04.1944) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "m36-1Q855iU",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 715: Cassino Falls (17.05.1944) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 715: Cassino Falls (17.05.1944) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "BMG-obvTut0",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 711: Invasion Expected (19.04.1944) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 711: Invasion Expected (19.04.1944) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "Lqk_6Rp9YLw",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 710: Crimea Evacuation (12.04.1944) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 710: Crimea Evacuation (12.04.1944) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "XYH4X8I4L-8",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 708: Eastern Front Offensive (29.03.1944) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 708: Eastern Front Offensive (29.03.1944) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "jRYN8RQVHj4",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 709: Crimea Battles (05.04.1944) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 709: Crimea Battles (05.04.1944) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "xZ8hbztqcQI",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 707: Crimea Campaign (22.03.1944) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 707: Crimea Campaign (22.03.1944) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "WAKX3d__J8E",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 701: Battle of Monte Cassino (09.02.1944) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 701: Battle of Monte Cassino (09.02.1944) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "f6iafERcG6M",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 703: German Industry & Home Front (23.02.1944) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 703: German Industry & Home Front (23.02.1944) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "FU9uhmbyyas",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 706: Hungary Under Occupation (15.03.1944) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 706: Hungary Under Occupation (15.03.1944) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "NKjPNR8t_Yk",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 705: Cassino III (08.03.1944) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 705: Cassino III (08.03.1944) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "CgrWBr68rng",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 699: Anzio Landing (26.01.1944) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 699: Anzio Landing (26.01.1944) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "ULW1rl24JLM",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 703: Big Week (23.02.1944) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 703: Big Week (23.02.1944) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "a-mad6-VBuU",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 704: Air Supremacy Lost (01.03.1944) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 704: Air Supremacy Lost (01.03.1944) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "WyDmmQuHV5Y",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 700: Korsun Pocket (02.02.1944) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 700: Korsun Pocket (02.02.1944) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "UJRbjGwCptI",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 697: Leningrad Relief (12.01.1944) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 697: Leningrad Relief (12.01.1944) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "tzqJDt8ASiE",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 752: Auschwitz Liberated (31.01.1945) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 752: Auschwitz Liberated (31.01.1945) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "cBaedrKsyuE",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 553: Balkans Campaign (09.04.1941) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 553: Balkans Campaign (09.04.1941) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "st3OhIheE_0",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 554: Belgrade Falls (16.04.1941) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 554: Belgrade Falls (16.04.1941) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "2HZx5FumOo8",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 552: Belgrade Coup (02.04.1941) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 552: Belgrade Coup (02.04.1941) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "suxhPHyaQHU",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 569: Kiev Encirclement (30.07.1941) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 569: Kiev Encirclement (30.07.1941) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "6Mh7zjUCmHw",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 749: Ardennes Fails (10.01.1945) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 749: Ardennes Fails (10.01.1945) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "Yhz7gsTVqNA",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 567: Smolensk Pocket (16.07.1941) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 567: Smolensk Pocket (16.07.1941) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "OOBufXFyuvg",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 565: Eastern Advance (02.07.1941) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 565: Eastern Advance (02.07.1941) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "yNbh1PBUTSA",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 555: Greece Victory (23.04.1941) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 555: Greece Victory (23.04.1941) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "q1RBXjC1AbA",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 556: Athens Occupied (30.04.1941) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 556: Athens Occupied (30.04.1941) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "Ima7UohPE4Y",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 606: Baedeker Raids (15.04.1942) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 606: Baedeker Raids (15.04.1942) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "pFCidUe6JV4",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 605: Lubeck Bombed (08.04.1942) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 605: Lubeck Bombed (08.04.1942) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "R9dz4YGCy5E",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 496: Winter War Ends (06.03.1940) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 496: Winter War Ends (06.03.1940) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "tG-_jHZAdFg",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 492: Altmark Incident (07.02.1940) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 492: Altmark Incident (07.02.1940) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "yMXZOo8c6Gk",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 493: Finland Front (14.02.1940) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 493: Finland Front (14.02.1940) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "YXV4LEIBHqc",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 505: Western Campaign (08.05.1940) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 505: Western Campaign (08.05.1940) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "3FstojEXJ5k",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 496: Winter War Ends (06.03.1940) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 496: Winter War Ends (06.03.1940) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "n-_DEeOSKz0",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 504: Battle of Narvik (01.05.1940) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 504: Battle of Narvik (01.05.1940) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "W1zYu-fTejs",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 491: Phoney War (31.01.1940) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 491: Phoney War (31.01.1940) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "vkCoIJGAf3E",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 515: Battle of Britain (Jul 1940) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 515: Battle of Britain (Jul 1940) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "7st-GFEwdWQ",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 514: Berlin Parade (Jul 1940) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 514: Berlin Parade (Jul 1940) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "g8215791a7I",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 513: Channel Islands (Jul 1940) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 513: Channel Islands (Jul 1940) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "SV7o2XaYZyc",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "DUPE - Wochenschau 509: Dunkirk Evacuation (Jun 1940) | 8K (4K UHD)",
+      "new_title": "DUPE - Wochenschau 509: Dunkirk Evacuation (Jun 1940) | 8K (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "LCa6Klpi8ts",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "DUPE - Wochenschau 518: Channel Battles (Aug 1940) | 8K (4K UHD)",
+      "new_title": "DUPE - Wochenschau 518: Channel Battles (Aug 1940) | 8K (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "ULzsDOb2x3U",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "DUPE - Wochenschau 519: Eagle Day (Aug 1940) | 8K (4K UHD)",
+      "new_title": "DUPE - Wochenschau 519: Eagle Day (Aug 1940) | 8K (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "iFSHNS7kVgQ",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "DUPE - Wochenschau 542: Tobruk Falls (Jan 1941) | 8K (4K UHD)",
+      "new_title": "DUPE - Wochenschau 542: Tobruk Falls (Jan 1941) | 8K (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "sGZg6lIHFh8",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "DUPE - Wochenschau 520: Battle Peak (Aug 1940) | 8K (4K UHD)",
+      "new_title": "DUPE - Wochenschau 520: Battle Peak (Aug 1940) | 8K (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "LjGFowS8qHI",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "DUPE - Wochenschau 512: French Armistice (Jun 1940) | 8K (4K UHD)",
+      "new_title": "DUPE - Wochenschau 512: French Armistice (Jun 1940) | 8K (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "tVD8197vAyE",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 573: Kiev Battle (Aug 1941) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 573: Kiev Battle (Aug 1941) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "6wop-BU_XME",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 547: Africa Campaign (Feb 1941) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 547: Africa Campaign (Feb 1941) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "ZuD1fAyGiUw",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 548: Bulgaria Joins Axis (Mar 1941) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 548: Bulgaria Joins Axis (Mar 1941) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "wEMKHQPopHY",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 550: Yugoslavia Crisis (Mar 1941) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 550: Yugoslavia Crisis (Mar 1941) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "7bqlAPsgzAQ",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 545: Africa Offensive (Feb 1941) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 545: Africa Offensive (Feb 1941) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "eBzXzhNYppQ",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 544: Rommel Arrives (Feb 1941) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 544: Rommel Arrives (Feb 1941) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "s5d9cAM6REo",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 543: Africa Corps (Jan 1941) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 543: Africa Corps (Jan 1941) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "7yfdqylo9qs",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 519: Eagle Day (Aug 1940) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 519: Eagle Day (Aug 1940) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "i2mRp5iMxoo",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 520: Battle Peak (Aug 1940) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 520: Battle Peak (Aug 1940) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "J3LWOLaxuCc",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 542: Tobruk Falls (Jan 1941) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 542: Tobruk Falls (Jan 1941) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "Yj_QcM9Ce28",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 518: Channel Battles (Aug 1940) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 518: Channel Battles (Aug 1940) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "a5VVGGHPlsg",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 502: Norway Invasion (Apr 1940) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 502: Norway Invasion (Apr 1940) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "dAp7JFDhE3U",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 468: Nazi-Soviet Pact (23.08.1939) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 468: Nazi-Soviet Pact (23.08.1939) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "o33-c1riv4U",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 459: Pre-War Era (21.06.1939) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 459: Pre-War Era (21.06.1939) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "3AtirtgrfUI",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 473: Fall of Warsaw (27.09.1939) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 473: Fall of Warsaw (27.09.1939) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "9muRRAleqdA",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 471: Poland Campaign (13.09.1939) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 471: Poland Campaign (13.09.1939) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "t-VIxJaWE74",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 470: War Begins (06.09.1939) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 470: War Begins (06.09.1939) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "DLifkhU0q1w",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 488: Phoney War (Jan 1940) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 488: Phoney War (Jan 1940) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "D_kLmNFlbZI",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 513: Channel Islands (Jul 1940) | 8K (4K UHD)",
+      "new_title": "Wochenschau 513: Channel Islands (Jul 1940) | 8K (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "1O8sVLS-zfI",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 524: Sea Lion Postponed (Sep 1940) | 8K (4K UHD)",
+      "new_title": "Wochenschau 524: Sea Lion Postponed (Sep 1940) | 8K (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "Qn7Nvx7eWz4",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 483: Winter War (Dec 1939) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 483: Winter War (Dec 1939) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "fNCZYqnK3Cc",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 523: London Blitz (Sep 1940) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 523: London Blitz (Sep 1940) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "xblc6reUMr0",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 512: French Armistice (Jun 1940) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 512: French Armistice (Jun 1940) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "jeLWajro1As",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 480: Bürgerbräu Bomb (Nov 1939) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 480: Bürgerbräu Bomb (Nov 1939) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "2uHl4LYN8O8",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 509: Dunkirk Evacuation (Jun 1940) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 509: Dunkirk Evacuation (Jun 1940) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "iRzeiRoAsj4",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 477: Poland Occupied (Oct 1939) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 477: Poland Occupied (Oct 1939) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "fC0MlizsAQQ",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 508: Dunkirk Pocket (May 1940) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 508: Dunkirk Pocket (May 1940) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "N7WPQUjFJjA",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 482: Winter War Begins (Nov 1939) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 482: Winter War Begins (Nov 1939) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "S31f7FuEvXw",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 522: Berlin Retaliation (Sep 1940) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 522: Berlin Retaliation (Sep 1940) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "6K-MuUu6L44",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 720: V1 Attacks (Jun 1944) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 720: V1 Attacks (Jun 1944) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "jGz1kC1Z69A",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 746: Ardennes Offensive (Dec 1944) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 746: Ardennes Offensive (Dec 1944) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "dYBzf5V1TjI",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 654: Tunisia Battles (Mar 1943) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 654: Tunisia Battles (Mar 1943) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "W-UcQleew8Y",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 721: Bagration Begins (Jun 1944) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 721: Bagration Begins (Jun 1944) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "0sO7jVL43yQ",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 652: Kharkov III (Mar 1943) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 652: Kharkov III (Mar 1943) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "bZkUPQHqyfg",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 722: Bagration (Jul 1944) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 722: Bagration (Jul 1944) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "H_n_mS-eKps",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "old_title": "Wochenschau 754: Dresden Bombed (Feb 1945) | 8K HQ (4K UHD)",
+      "new_title": "Wochenschau 754: Dresden Bombed (Feb 1945) | 8K HQ (4K UHD)",
+      "old_category": "27",
+      "new_category": "1",
+      "status": "success"
+    },
+    {
+      "video_id": "4_2qWUEje-c",
+      "tasks": [
+        "add_full_movie"
+      ],
+      "old_title": "Clever & Smart: In geheimer Mission  | 8K HQ (4K UHD)",
+      "new_title": "Clever & Smart: In geheimer Mission | Full Movie | 8K HQ (4K UHD)",
+      "old_category": "1",
+      "new_category": "1",
+      "status": "success"
+    }
+  ],
+  "errors": [
+    {
+      "video_id": "iEEvt-s1XhQ",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "error": "{'error': 'HTTP 403', 'detail': '{\\n  \"error\": {\\n    \"code\": 403,\\n    \"message\": \"The request cannot be completed because you have exceeded your \\\\u003ca href=\\\\\"/youtube/v3/getting-started#quota\\\\\"\\\\u003equota\\\\u003c/a\\\\u003e.\",\\n    \"errors\": [\\n      {\\n        \"message\": \"The request cannot be completed because you have exceeded your \\\\u003ca href=\\\\\"/youtube/v3/getting-started#quota\\\\\"\\\\u003equota\\\\u003c/a\\\\u003e.\",\\n        \"domain\": \"youtube.quota\",\\n        \"reason\": \"quotaExceeded\"\\n      }\\n    ]\\n  }\\n}\\n'}"
+    },
+    {
+      "video_id": "w2UvksMOs3c",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "error": "{'error': 'HTTP 403', 'detail': '{\\n  \"error\": {\\n    \"code\": 403,\\n    \"message\": \"The request cannot be completed because you have exceeded your \\\\u003ca href=\\\\\"/youtube/v3/getting-started#quota\\\\\"\\\\u003equota\\\\u003c/a\\\\u003e.\",\\n    \"errors\": [\\n      {\\n        \"message\": \"The request cannot be completed because you have exceeded your \\\\u003ca href=\\\\\"/youtube/v3/getting-started#quota\\\\\"\\\\u003equota\\\\u003c/a\\\\u003e.\",\\n        \"domain\": \"youtube.quota\",\\n        \"reason\": \"quotaExceeded\"\\n      }\\n    ]\\n  }\\n}\\n'}"
+    },
+    {
+      "video_id": "6YLPpJLgVXk",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "error": "{'error': 'HTTP 403', 'detail': '{\\n  \"error\": {\\n    \"code\": 403,\\n    \"message\": \"The request cannot be completed because you have exceeded your \\\\u003ca href=\\\\\"/youtube/v3/getting-started#quota\\\\\"\\\\u003equota\\\\u003c/a\\\\u003e.\",\\n    \"errors\": [\\n      {\\n        \"message\": \"The request cannot be completed because you have exceeded your \\\\u003ca href=\\\\\"/youtube/v3/getting-started#quota\\\\\"\\\\u003equota\\\\u003c/a\\\\u003e.\",\\n        \"domain\": \"youtube.quota\",\\n        \"reason\": \"quotaExceeded\"\\n      }\\n    ]\\n  }\\n}\\n'}"
+    },
+    {
+      "video_id": "T-EsdXGhqog",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "video_id": "3rB80OGKzrg",
+      "tasks": [
+        "fix_wochenschau_category"
+      ],
+      "error": "{'error': 'HTTP 403', 'detail': '{\\n  \"error\": {\\n    \"code\": 403,\\n    \"message\": \"The request cannot be completed because you have exceeded your \\\\u003ca href=\\\\\"/youtube/v3/getting-started#quota\\\\\"\\\\u003equota\\\\u003c/a\\\\u003e.\",\\n    \"errors\": [\\n      {\\n        \"message\": \"The request cannot be completed because you have exceeded your \\\\u003ca href=\\\\\"/youtube/v3/getting-started#quota\\\\\"\\\\u003equota\\\\u003c/a\\\\u003e.\",\\n        \"domain\": \"youtube.quota\",\\n        \"reason\": \"quotaExceeded\"\\n      }\\n    ]\\n  }\\n}\\n'}"
+    },
+    {
+      "video_id": "jPzc1XtrMds",
+      "tasks": [
+        "add_full_movie"
+      ],
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "video_id": "70Ni30lbXRc",
+      "tasks": [
+        "add_full_movie"
+      ],
+      "error": "{'error': 'HTTP 403', 'detail': '{\\n  \"error\": {\\n    \"code\": 403,\\n    \"message\": \"The request cannot be completed because you have exceeded your \\\\u003ca href=\\\\\"/youtube/v3/getting-started#quota\\\\\"\\\\u003equota\\\\u003c/a\\\\u003e.\",\\n    \"errors\": [\\n      {\\n        \"message\": \"The request cannot be completed because you have exceeded your \\\\u003ca href=\\\\\"/youtube/v3/getting-started#quota\\\\\"\\\\u003equota\\\\u003c/a\\\\u003e.\",\\n        \"domain\": \"youtube.quota\",\\n        \"reason\": \"quotaExceeded\"\\n      }\\n    ]\\n  }\\n}\\n'}"
+    },
+    {
+      "video_id": "HCj_w3pBxlc",
+      "tasks": [
+        "add_full_movie"
+      ],
+      "error": "{'error': 'HTTP 403', 'detail': '{\\n  \"error\": {\\n    \"code\": 403,\\n    \"message\": \"The request cannot be completed because you have exceeded your \\\\u003ca href=\\\\\"/youtube/v3/getting-started#quota\\\\\"\\\\u003equota\\\\u003c/a\\\\u003e.\",\\n    \"errors\": [\\n      {\\n        \"message\": \"The request cannot be completed because you have exceeded your \\\\u003ca href=\\\\\"/youtube/v3/getting-started#quota\\\\\"\\\\u003equota\\\\u003c/a\\\\u003e.\",\\n        \"domain\": \"youtube.quota\",\\n        \"reason\": \"quotaExceeded\"\\n      }\\n    ]\\n  }\\n}\\n'}"
+    },
+    {
+      "video_id": "V9zhjG_6cHU",
+      "tasks": [
+        "add_full_movie"
+      ],
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "video_id": "q_Mgt80t5JA",
+      "tasks": [
+        "add_full_movie"
+      ],
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "video_id": "cCNm8nNHing",
+      "tasks": [
+        "add_full_movie"
+      ],
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "video_id": "8lLtNb11NKU",
+      "tasks": [
+        "add_full_movie"
+      ],
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "video_id": "b4cqLlJ7t4M",
+      "tasks": [
+        "add_full_movie"
+      ],
+      "error": "{'error': 'HTTP 403', 'detail': '{\\n  \"error\": {\\n    \"code\": 403,\\n    \"message\": \"The request cannot be completed because you have exceeded your \\\\u003ca href=\\\\\"/youtube/v3/getting-started#quota\\\\\"\\\\u003equota\\\\u003c/a\\\\u003e.\",\\n    \"errors\": [\\n      {\\n        \"message\": \"The request cannot be completed because you have exceeded your \\\\u003ca href=\\\\\"/youtube/v3/getting-started#quota\\\\\"\\\\u003equota\\\\u003c/a\\\\u003e.\",\\n        \"domain\": \"youtube.quota\",\\n        \"reason\": \"quotaExceeded\"\\n      }\\n    ]\\n  }\\n}\\n'}"
+    },
+    {
+      "video_id": "pqrCPhUCpxE",
+      "tasks": [
+        "add_full_movie"
+      ],
+      "error": "{'error': 'HTTP 403', 'detail': '{\\n  \"error\": {\\n    \"code\": 403,\\n    \"message\": \"The request cannot be completed because you have exceeded your \\\\u003ca href=\\\\\"/youtube/v3/getting-started#quota\\\\\"\\\\u003equota\\\\u003c/a\\\\u003e.\",\\n    \"errors\": [\\n      {\\n        \"message\": \"The request cannot be completed because you have exceeded your \\\\u003ca href=\\\\\"/youtube/v3/getting-started#quota\\\\\"\\\\u003equota\\\\u003c/a\\\\u003e.\",\\n        \"domain\": \"youtube.quota\",\\n        \"reason\": \"quotaExceeded\"\\n      }\\n    ]\\n  }\\n}\\n'}"
+    },
+    {
+      "video_id": "dGD2CeoZX68",
+      "tasks": [
+        "add_full_movie"
+      ],
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "video_id": "exukLdxugy8",
+      "tasks": [
+        "add_full_movie"
+      ],
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "video_id": "Nzi6aRKDoEs",
+      "tasks": [
+        "add_full_movie"
+      ],
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "video_id": "5WVJHELSD7A",
+      "tasks": [
+        "add_full_movie"
+      ],
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ]
+}

@@ -1,0 +1,636 @@
+{
+  "timestamp": "2026-03-31T01:16:04.000417",
+  "total_scanned": 125,
+  "total_with_issues": 62,
+  "fixes_applied": [
+    {
+      "id": "5Bj9cvKO3P8",
+      "title": "Asterix der Gallier (1967) | 🇩🇪 German | Full Movie | 8K HQ (4K UHD)",
+      "series": "other",
+      "views": 155,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "gGYWs-xw1VM",
+      "title": "Krtek: Der Maulwurf im Urlaub – Best Of Mix | 8K HQ (4K UHD)",
+      "series": "krtek",
+      "views": 153,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "dGD2CeoZX68",
+      "title": "A Christmas Carol (1984) | George C. Scott | 8K HQ (4K UHD)",
+      "series": "christmas",
+      "views": 149,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "jPzc1XtrMds",
+      "title": "Asterix – Sieg über Cäsar (1985) | 🇩🇪 German | 8K HQ (4K UHD)",
+      "series": "other",
+      "views": 148,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "EZxjMpAY9Wk",
+      "title": "Krtek E59: Der Maulwurf und die Quelle (1999) | 8K HQ (4K UHD)",
+      "series": "krtek",
+      "views": 144,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "ts5qtXqneq8",
+      "title": "Maulwurf: Der Maler (1972) | 8K HQ (4K UHD)",
+      "series": "krtek",
+      "views": 137,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "0sO7jVL43yQ",
+      "title": "Wochenschau 652: Kharkov III (Mar 1943) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 131,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "fNCZYqnK3Cc",
+      "title": "Wochenschau 523: London Blitz (Sep 1940) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 123,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "TidsN4s9v1w",
+      "title": "Casper (29/55): Bull Fright (1955) | 8K HQ (4K UHD)",
+      "series": "casper",
+      "views": 121,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "9muRRAleqdA",
+      "title": "Wochenschau 471: Poland Campaign (13.09.1939) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 120,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "ICzD6hNya9c",
+      "title": "Felix the Cat: Felix Gets His Revenge (1922) | 8K HQ (4K UHD)",
+      "series": "felix_the_cat",
+      "views": 118,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "YHlhhiAfxEA",
+      "title": "Rare 1955 Burlesque Footage | Icons You've Never Seen | 8K (4K UHD)",
+      "series": "teaserama",
+      "views": 115,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "7st-GFEwdWQ",
+      "title": "Wochenschau 514: Berlin Parade (Jul 1940) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 114,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "f8ZGvwk0k-o",
+      "title": "Santa’s Surprise (1947) | 8K HQ (4K UHD)",
+      "series": "other",
+      "views": 106,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "_SXNNnFHzqc",
+      "title": "Krtek E23: Der Maulwurf in der Wüste (1975) | 8K HQ (4K UHD)",
+      "series": "krtek",
+      "views": 102,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "Ge-mC5q6lXw",
+      "title": "Duck and Cover (1951) | 8K HQ (4K UHD)",
+      "series": "other",
+      "views": 93,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "wtq09EZfO20",
+      "title": "Krtek E08: Der Maulwurf als Gärtner (1969) | 8K HQ (4K UHD)",
+      "series": "krtek",
+      "views": 92,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "MV82Fm6Ma4A",
+      "title": "Apollo 11 Moonwalk (1969) | NASA | Full Movie | 8K HQ (4K UHD)",
+      "series": "nasa",
+      "views": 89,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "2Ua5qHZ5QDw",
+      "title": "Golden Gate (1940) San Francisco | 8K HQ (4K UHD)",
+      "series": "other",
+      "views": 87,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "H_n_mS-eKps",
+      "title": "Wochenschau 754: Dresden Bombed (Feb 1945) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 87,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "tVD8197vAyE",
+      "title": "Wochenschau 573: Kiev Battle (Aug 1941) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 87,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "2uHl4LYN8O8",
+      "title": "Wochenschau 509: Dunkirk Evacuation (Jun 1940) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 86,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "g8215791a7I",
+      "title": "Wochenschau 513: Channel Islands (Jul 1940) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 86,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "MlzpyJ6CyHw",
+      "title": "Krtek E63: Der Maulwurf und der kleine Frosch (2002) | 8K HQ (4K UHD)",
+      "series": "krtek",
+      "views": 85,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "w17Gyr4r5A8",
+      "title": "Der kleene Punker | Ganzer Film | 8K HQ (4K UHD)",
+      "series": "der_kleene_punker",
+      "views": 83,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "SYY31eEbYiQ",
+      "title": "Der 7. Sinn: Frauen am Steuer (1970s) | 8K HQ (4K UHD)",
+      "series": "der_7_sinn",
+      "views": 80,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "fqIV8eZRJyE",
+      "title": "Krtek E42: Der Maulwurf und die Überschwemmung (1997) | 8K HQ (4K UHD)",
+      "series": "krtek",
+      "views": 80,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "8vH0m4Af1Hk",
+      "title": "Alfred J. Kwak (E06) Olympiade | DE | 8K HQ (4K UHD)",
+      "series": "alfred_j_kwak",
+      "views": 78,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "o7-VFXC9xDg",
+      "title": "Wochenschau 713: Sevastopol Falls (03.05.1944) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 77,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "gux5NyjkqxE",
+      "title": "Batman & Robin Meet Santa Claus (1966) | 8K HQ (4K UHD)",
+      "series": "other",
+      "views": 76,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "Hto044hFaZ4",
+      "title": "Alfred J. Kwak (E01) Hurra, er ist da! | DE | 8K HQ (4K UHD)",
+      "series": "alfred_j_kwak",
+      "views": 76,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "YXV4LEIBHqc",
+      "title": "Wochenschau 505: Western Campaign (08.05.1940) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 74,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "wjpCNxf5SsY",
+      "title": "Maulwurf: Die Streichhölzer (1974) | 8K HQ (4K UHD)",
+      "series": "krtek",
+      "views": 74,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "Qn7Nvx7eWz4",
+      "title": "Wochenschau 483: Winter War (Dec 1939) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 74,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "xzZ9yB5lJ9s",
+      "title": "Ferdy: Die Rettung Bambini | Deutsch | 8K HQ (4K UHD)",
+      "series": "other",
+      "views": 73,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "Ima7UohPE4Y",
+      "title": "Wochenschau 606: Baedeker Raids (15.04.1942) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 73,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "DMV0tGHgfG0",
+      "title": "Krtek E24: Der Maulwurf und das Weihnachtsfest (1975) | 8K HQ (4K UHD)",
+      "series": "krtek",
+      "views": 71,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "3AtirtgrfUI",
+      "title": "Wochenschau 473: Fall of Warsaw (27.09.1939) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 71,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "fC0MlizsAQQ",
+      "title": "Wochenschau 508: Dunkirk Pocket (May 1940) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 70,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "DLifkhU0q1w",
+      "title": "Wochenschau 488: Phoney War (Jan 1940) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 69,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "UsppP3mPwHM",
+      "title": "Maulwurf: Der Uhrmacher (1974) | 8K HQ (4K UHD)",
+      "series": "krtek",
+      "views": 68,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "j4aBiGJcEY8",
+      "title": "Maulwurf: Der Fotograf (1975) | 8K HQ (4K UHD)",
+      "series": "krtek",
+      "views": 68,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "6K-MuUu6L44",
+      "title": "Wochenschau 720: V1 Attacks (Jun 1944) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 68,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "jRYN8RQVHj4",
+      "title": "Wochenschau 709: Crimea Battles (05.04.1944) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 68,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "Z4nwcfOqOOw",
+      "title": "Suzy Snowflake (1953) | 8K HQ (4K UHD)",
+      "series": "other",
+      "views": 66,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "s5d9cAM6REo",
+      "title": "Wochenschau 543: Africa Corps (Jan 1941) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 66,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "pFCidUe6JV4",
+      "title": "Wochenschau 605: Lubeck Bombed (08.04.1942) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 65,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "wEMKHQPopHY",
+      "title": "Wochenschau 550: Yugoslavia Crisis (Mar 1941) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 64,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "iql1XOHf0t0",
+      "title": "Wochenschau 474: Fall of Warsaw (04.10.1939) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 64,
+      "changes": [
+        "added 8 localizations",
+        "tags: 0 -> 13"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "q1RBXjC1AbA",
+      "title": "Wochenschau 556: Athens Occupied (30.04.1941) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 63,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "6wop-BU_XME",
+      "title": "Wochenschau 547: Africa Campaign (Feb 1941) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 63,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "dYBzf5V1TjI",
+      "title": "Wochenschau 654: Tunisia Battles (Mar 1943) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 62,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "jeLWajro1As",
+      "title": "Wochenschau 480: Bürgerbräu Bomb (Nov 1939) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 61,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "cBaedrKsyuE",
+      "title": "Wochenschau 553: Balkans Campaign (09.04.1941) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 61,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "Aq1OfWdwV-Q",
+      "title": "Superman (7/17): Electric Earthquake (1942) | 8K HQ (4K UHD)",
+      "series": "superman",
+      "views": 59,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "a5VVGGHPlsg",
+      "title": "Wochenschau 502: Norway Invasion (Apr 1940) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 58,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "-GPnP21sbB0",
+      "title": "Casper (13/55): Spunky Skunky (1952) | 8K HQ (4K UHD)",
+      "series": "casper",
+      "views": 56,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "suxhPHyaQHU",
+      "title": "Wochenschau 569: Kiev Encirclement (30.07.1941) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 56,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "W-UcQleew8Y",
+      "title": "Wochenschau 721: Bagration Begins (Jun 1944) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 54,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "Yj_QcM9Ce28",
+      "title": "Wochenschau 518: Channel Battles (Aug 1940) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 54,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "3FstojEXJ5k",
+      "title": "Wochenschau 496: Winter War Ends (06.03.1940) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 52,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    },
+    {
+      "id": "P4iJuIBsxKw",
+      "title": "Wochenschau 712: Atlantic Wall (26.04.1944) | 8K HQ (4K UHD)",
+      "series": "wochenschau",
+      "views": 51,
+      "changes": [
+        "added 8 localizations"
+      ],
+      "status": "success"
+    }
+  ],
+  "errors": [],
+  "quota_used": 3650,
+  "skipped": [],
+  "total_updated": 73,
+  "total_errors": 0,
+  "total_skipped": 0,
+  "note": "First run (before encoding fix) successfully updated 11 additional videos. Total unique videos fixed: ~73",
+  "first_run_count": 11
+}
