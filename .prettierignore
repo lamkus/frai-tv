@@ -1,0 +1,2 @@
+# Jinja2 templates — Prettier mangles {% if x == y %} into {% if x="" ="y" %}
+tools/channel_manager/templates/**
