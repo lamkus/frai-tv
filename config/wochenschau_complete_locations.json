@@ -1,3026 +1,3026 @@
 {
-  "459": {
-    "number": 459,
-    "date": "1939-06-21",
-    "event_en": "Pre-War Era",
-    "event_de": "Vorkriegszeit",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Berlin, Germany"
-    },
-    "historical_note": "Letzte Friedens-Wochenschau vor dem Krieg"
-  },
-  "468": {
-    "number": 468,
-    "date": "1939-08-23",
-    "event_en": "Nazi-Soviet Pact",
-    "event_de": "Hitler-Stalin-Pakt",
-    "location": {
-      "lat": 55.7558,
-      "lng": 37.6173,
-      "desc": "Moscow, Russia"
-    },
-    "historical_note": "Deutsch-Sowjetischer Nichtangriffspakt (23.08.1939)"
-  },
-  "470": {
-    "number": 470,
-    "date": "1939-09-06",
-    "event_en": "War Begins",
-    "event_de": "Kriegsausbruch",
-    "location": {
-      "lat": 52.2297,
-      "lng": 21.0122,
-      "desc": "Warsaw, Poland"
-    },
-    "historical_note": "ERSTE KRIEGSWOCHENSCHAU! Überfall auf Polen (01.09.1939)"
-  },
-  "471": {
-    "number": 471,
-    "date": "1939-09-13",
-    "event_en": "Poland Campaign",
-    "event_de": "Polenfeldzug",
-    "location": {
-      "lat": 52.2297,
-      "lng": 21.0122,
-      "desc": "Poland"
-    },
-    "historical_note": "Blitzkrieg in Polen"
-  },
-  "472": {
-    "number": 472,
-    "date": "1939-09-20",
-    "event_en": "Warsaw Encircled",
-    "event_de": "Warschau eingekesselt",
-    "location": {
-      "lat": 52.2297,
-      "lng": 21.0122,
-      "desc": "Warsaw, Poland"
-    },
-    "historical_note": "Einschließung Warschaus"
-  },
-  "473": {
-    "number": 473,
-    "date": "1939-09-27",
-    "event_en": "Fall of Warsaw",
-    "event_de": "Fall Warschau",
-    "location": {
-      "lat": 52.2297,
-      "lng": 21.0122,
-      "desc": "Warsaw, Poland"
-    },
-    "historical_note": "Kapitulation Warschaus (27.09.1939)"
-  },
-  "474": {
-    "number": 474,
-    "date": "1939-10-04",
-    "event_en": "Warsaw Victory",
-    "event_de": "Siegesparade Warschau",
-    "location": {
-      "lat": 52.2297,
-      "lng": 21.0122,
-      "desc": "Warsaw, Poland"
-    },
-    "historical_note": "Hitler-Parade in Warschau (05.10.1939)"
-  },
-  "477": {
-    "number": 477,
-    "date": "1939-10-25",
-    "event_en": "Poland Occupied",
-    "event_de": "Besatzung Polen",
-    "location": {
-      "lat": 52.2297,
-      "lng": 21.0122,
-      "desc": "Poland"
-    },
-    "historical_note": "Generalgouvernement errichtet"
-  },
-  "480": {
-    "number": 480,
-    "date": "1939-11-15",
-    "event_en": "Bürgerbräu Bomb",
-    "event_de": "Bürgerbräu-Attentat",
-    "location": {
-      "lat": 48.1351,
-      "lng": 11.582,
-      "desc": "Munich, Germany"
-    },
-    "historical_note": "Georg Elsers Attentat auf Hitler (08.11.1939)"
-  },
-  "482": {
-    "number": 482,
-    "date": "1939-11-29",
-    "event_en": "Winter War Begins",
-    "event_de": "Winterkrieg beginnt",
-    "location": {
-      "lat": 60.1699,
-      "lng": 24.9384,
-      "desc": "Finland"
-    },
-    "historical_note": "Sowjetischer Angriff auf Finnland (30.11.1939)"
-  },
-  "483": {
-    "number": 483,
-    "date": "1939-12-06",
-    "event_en": "Winter War",
-    "event_de": "Winterkrieg",
-    "location": {
-      "lat": 60.1699,
-      "lng": 24.9384,
-      "desc": "Finland"
-    },
-    "historical_note": "Finnischer Widerstand"
-  },
-  "488": {
-    "number": 488,
-    "date": "1940-01-10",
-    "event_en": "Phoney War",
-    "event_de": "Sitzkrieg",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Germany"
-    },
-    "historical_note": "Ruhephase an der Westfront"
-  },
-  "491": {
-    "number": 491,
-    "date": "1940-01-31",
-    "event_en": "Phoney War",
-    "event_de": "Sitzkrieg",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Germany"
-    },
-    "historical_note": "Winterfront"
-  },
-  "492": {
-    "number": 492,
-    "date": "1940-02-07",
-    "event_en": "Altmark Incident",
-    "event_de": "Altmark-Affäre",
-    "location": {
-      "lat": 58.969,
-      "lng": 5.7331,
-      "desc": "Jøssingfjord, Norway"
-    },
-    "historical_note": "Britischer Übergriff in norwegischen Gewässern (16.02.1940)"
-  },
-  "493": {
-    "number": 493,
-    "date": "1940-02-14",
-    "event_en": "Finland Front",
-    "event_de": "Winterkrieg Finnland",
-    "location": {
-      "lat": 60.1699,
-      "lng": 24.9384,
-      "desc": "Finland"
-    },
-    "historical_note": "Finnland kämpft gegen UdSSR"
-  },
-  "496": {
-    "number": 496,
-    "date": "1940-03-06",
-    "event_en": "Winter War Ends",
-    "event_de": "Winterkrieg endet",
-    "location": {
-      "lat": 60.1699,
-      "lng": 24.9384,
-      "desc": "Helsinki, Finland"
-    },
-    "historical_note": "Frieden von Moskau (12.03.1940)"
-  },
-  "497": {
-    "number": 497,
-    "date": "1940-03-13",
-    "event_en": "Atlantic Naval War",
-    "event_de": "Seekrieg Atlantik",
-    "location": {
-      "lat": 45.0,
-      "lng": -30.0,
-      "desc": "Atlantic Ocean"
-    },
-    "historical_note": "U-Boot-Krieg intensiviert sich"
-  },
-  "499": {
-    "number": 499,
-    "date": "1940-03-27",
-    "event_en": "War Preparations",
-    "event_de": "Kriegsvorbereitung",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Berlin, Germany"
-    },
-    "historical_note": "Planung Weserübung"
-  },
-  "502": {
-    "number": 502,
-    "date": "1940-04-17",
-    "event_en": "Norway Invasion",
-    "event_de": "Norwegen Invasion",
-    "location": {
-      "lat": 59.9139,
-      "lng": 10.7522,
-      "desc": "Oslo, Norway"
-    },
-    "historical_note": "Unternehmen Weserübung (09.04.1940)"
-  },
-  "504": {
-    "number": 504,
-    "date": "1940-05-01",
-    "event_en": "Battle of Narvik",
-    "event_de": "Kampf um Narvik",
-    "location": {
-      "lat": 68.4385,
-      "lng": 17.4272,
-      "desc": "Narvik, Norway"
-    },
-    "historical_note": "Seeschlacht bei Narvik"
-  },
-  "505": {
-    "number": 505,
-    "date": "1940-05-08",
-    "event_en": "Western Campaign",
-    "event_de": "Westfeldzug beginnt",
-    "location": {
-      "lat": 50.8503,
-      "lng": 4.3517,
-      "desc": "Belgium"
-    },
-    "historical_note": "Fall Gelb startet (10.05.1940)"
-  },
-  "506": {
-    "number": 506,
-    "date": "1940-05-15",
-    "event_en": "Rotterdam Blitz",
-    "event_de": "Rotterdam bombardiert",
-    "location": {
-      "lat": 51.9244,
-      "lng": 4.4777,
-      "desc": "Rotterdam, Netherlands"
-    },
-    "historical_note": "Luftangriff Rotterdam (14.05.1940)"
-  },
-  "507": {
-    "number": 507,
-    "date": "1940-05-22",
-    "event_en": "Sedan Advance",
-    "event_de": "Durchbruch Sedan",
-    "location": {
-      "lat": 49.7017,
-      "lng": 4.9403,
-      "desc": "Sedan, France"
-    },
-    "historical_note": "Panzerdurchbruch bei Sedan (13.-15.05.1940)"
-  },
-  "508": {
-    "number": 508,
-    "date": "1940-05-29",
-    "event_en": "Dunkirk Pocket",
-    "event_de": "Dünkirchen Kessel",
-    "location": {
-      "lat": 51.0343,
-      "lng": 2.3768,
-      "desc": "Dunkirk, France"
-    },
-    "historical_note": "Alliierte eingekesselt bei Dünkirchen (26.05.-04.06.1940)"
-  },
-  "509": {
-    "number": 509,
-    "date": "1940-06-05",
-    "event_en": "Dunkirk Evacuation",
-    "event_de": "Dünkirchen Evakuierung",
-    "location": {
-      "lat": 51.0343,
-      "lng": 2.3768,
-      "desc": "Dunkirk, France"
-    },
-    "historical_note": "Operation Dynamo, 340.000 Soldaten evakuiert"
-  },
-  "510": {
-    "number": 510,
-    "date": "1940-06-12",
-    "event_en": "France Collapsing",
-    "event_de": "Frankreich Zusammenbruch",
-    "location": {
-      "lat": 48.8566,
-      "lng": 2.3522,
-      "desc": "France"
-    },
-    "historical_note": "Fall Rot, Vorstoß nach Paris"
-  },
-  "511": {
-    "number": 511,
-    "date": "1940-06-19",
-    "event_en": "Paris Falls",
-    "event_de": "Paris fällt",
-    "location": {
-      "lat": 48.8566,
-      "lng": 2.3522,
-      "desc": "Paris, France"
-    },
-    "historical_note": "ERSTE EINHEITS-WOCHENSCHAU! Paris besetzt (14.06.1940)"
-  },
-  "512": {
-    "number": 512,
-    "date": "1940-06-26",
-    "event_en": "French Armistice",
-    "event_de": "Waffenstillstand Frankreich",
-    "location": {
-      "lat": 49.4272,
-      "lng": 2.8322,
-      "desc": "Compiègne, France"
-    },
-    "historical_note": "Waffenstillstand Compiègne (22.06.1940)"
-  },
-  "513": {
-    "number": 513,
-    "date": "1940-07-03",
-    "event_en": "Channel Islands",
-    "event_de": "Kanalinseln besetzt",
-    "location": {
-      "lat": 49.4657,
-      "lng": -2.5853,
-      "desc": "Channel Islands"
-    },
-    "historical_note": "Besetzung der britischen Kanalinseln"
-  },
-  "514": {
-    "number": 514,
-    "date": "1940-07-10",
-    "event_en": "Berlin Parade",
-    "event_de": "Siegesparade Berlin",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Berlin, Germany"
-    },
-    "historical_note": "Triumphzug in Berlin"
-  },
-  "515": {
-    "number": 515,
-    "date": "1940-07-17",
-    "event_en": "Battle of Britain",
-    "event_de": "Luftschlacht beginnt",
-    "location": {
-      "lat": 51.5074,
-      "lng": -0.1278,
-      "desc": "London, England"
-    },
-    "historical_note": "Beginn Luftschlacht um England (10.07.1940)"
-  },
-  "516": {
-    "number": 516,
-    "date": "1940-07-24",
-    "event_en": "Battle of Britain",
-    "event_de": "Luftschlacht England",
-    "location": {
-      "lat": 51.5074,
-      "lng": -0.1278,
-      "desc": "London, England"
-    },
-    "historical_note": "Luftangriffe auf britische Konvois"
-  },
-  "517": {
-    "number": 517,
-    "date": "1940-07-31",
-    "event_en": "Eagle Day Planning",
-    "event_de": "Adlertag Planung",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Berlin, Germany"
-    },
-    "historical_note": "Vorbereitung Adlerangriff"
-  },
-  "518": {
-    "number": 518,
-    "date": "1940-08-07",
-    "event_en": "Channel Battles",
-    "event_de": "Kanalkampf",
-    "location": {
-      "lat": 50.9,
-      "lng": 1.4,
-      "desc": "English Channel"
-    },
-    "historical_note": "Luftkämpfe über dem Ärmelkanal"
-  },
-  "519": {
-    "number": 519,
-    "date": "1940-08-14",
-    "event_en": "Eagle Day",
-    "event_de": "Adlertag",
-    "location": {
-      "lat": 51.5074,
-      "lng": -0.1278,
-      "desc": "England"
-    },
-    "historical_note": "Adlertag 13.08.1940, Großangriff auf RAF"
-  },
-  "520": {
-    "number": 520,
-    "date": "1940-08-21",
-    "event_en": "Battle Peak",
-    "event_de": "Luftschlacht Höhepunkt",
-    "location": {
-      "lat": 51.5074,
-      "lng": -0.1278,
-      "desc": "London, England"
-    },
-    "historical_note": "Höhepunkt der Luftschlacht"
-  },
-  "521": {
-    "number": 521,
-    "date": "1940-08-28",
-    "event_en": "London Bombed",
-    "event_de": "London Bombardiert",
-    "location": {
-      "lat": 51.5074,
-      "lng": -0.1278,
-      "desc": "London, England"
-    },
-    "historical_note": "Erste Bomben auf London (24./25.08.1940)"
-  },
-  "522": {
-    "number": 522,
-    "date": "1940-09-04",
-    "event_en": "Berlin Retaliation",
-    "event_de": "Berlin Vergeltung",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Berlin, Germany"
-    },
-    "historical_note": "Britische Vergeltung auf Berlin (25./26.08.1940)"
-  },
-  "523": {
-    "number": 523,
-    "date": "1940-09-11",
-    "event_en": "London Blitz",
-    "event_de": "Blitz auf London",
-    "location": {
-      "lat": 51.5074,
-      "lng": -0.1278,
-      "desc": "London, England"
-    },
-    "historical_note": "Beginn des Blitz (07.09.1940)"
-  },
-  "524": {
-    "number": 524,
-    "date": "1940-09-18",
-    "event_en": "Sea Lion Postponed",
-    "event_de": "Seelöwe verschoben",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Berlin, Germany"
-    },
-    "historical_note": "Invasion Englands verschoben (17.09.1940)"
-  },
-  "525": {
-    "number": 525,
-    "date": "1940-09-25",
-    "event_en": "Tripartite Pact",
-    "event_de": "Dreimächtepakt",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Berlin, Germany"
-    },
-    "historical_note": "Achse Berlin-Rom-Tokio (27.09.1940)"
-  },
-  "526": {
-    "number": 526,
-    "date": "1940-10-02",
-    "event_en": "U-Boat Victories",
-    "event_de": "U-Boot Erfolge",
-    "location": {
-      "lat": 54.3233,
-      "lng": 10.1228,
-      "desc": "Kiel, Germany"
-    },
-    "historical_note": "Glückliche Zeit der U-Boote"
-  },
-  "527": {
-    "number": 527,
-    "date": "1940-10-09",
-    "event_en": "Sea Lion Cancelled",
-    "event_de": "Seelöwe abgesagt",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Berlin, Germany"
-    },
-    "historical_note": "Invasion England endgültig verschoben (12.10.1940)"
-  },
-  "528": {
-    "number": 528,
-    "date": "1940-10-16",
-    "event_en": "Blitz Continues",
-    "event_de": "Blitz Fortsetzung",
-    "location": {
-      "lat": 51.5074,
-      "lng": -0.1278,
-      "desc": "London, England"
-    },
-    "historical_note": "Nachtangriffe auf London"
-  },
-  "529": {
-    "number": 529,
-    "date": "1940-10-23",
-    "event_en": "Hendaye Meeting",
-    "event_de": "Hendaye Treffen",
-    "location": {
-      "lat": 43.3619,
-      "lng": -1.774,
-      "desc": "Hendaye, France"
-    },
-    "historical_note": "Hitler trifft Franco (23.10.1940)"
-  },
-  "530": {
-    "number": 530,
-    "date": "1940-10-30",
-    "event_en": "Greece War",
-    "event_de": "Griechenland Krieg",
-    "location": {
-      "lat": 37.9838,
-      "lng": 23.7275,
-      "desc": "Greece"
-    },
-    "historical_note": "Italien greift Griechenland an (28.10.1940)"
-  },
-  "531": {
-    "number": 531,
-    "date": "1940-11-06",
-    "event_en": "Coventry Raid",
-    "event_de": "Coventry Angriff",
-    "location": {
-      "lat": 52.4068,
-      "lng": -1.5197,
-      "desc": "Coventry, England"
-    },
-    "historical_note": "Vorbereitung Coventry-Angriff"
-  },
-  "532": {
-    "number": 532,
-    "date": "1940-11-13",
-    "event_en": "Molotov in Berlin",
-    "event_de": "Molotow Berlin",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Berlin, Germany"
-    },
-    "historical_note": "Molotow-Besuch in Berlin (12.-13.11.1940)"
-  },
-  "533": {
-    "number": 533,
-    "date": "1940-11-20",
-    "event_en": "Coventry Destroyed",
-    "event_de": "Coventry zerstört",
-    "location": {
-      "lat": 52.4068,
-      "lng": -1.5197,
-      "desc": "Coventry, England"
-    },
-    "historical_note": "Luftangriff auf Coventry (14.11.1940)"
-  },
-  "534": {
-    "number": 534,
-    "date": "1940-11-27",
-    "event_en": "Hungary Joins Axis",
-    "event_de": "Ungarn Dreimächtepakt",
-    "location": {
-      "lat": 47.4979,
-      "lng": 19.0402,
-      "desc": "Budapest, Hungary"
-    },
-    "historical_note": "Ungarn tritt Achse bei (20.11.1940)"
-  },
-  "536": {
-    "number": 536,
-    "date": "1940-12-11",
-    "event_en": "Greek Disaster",
-    "event_de": "Griechenland Debakel",
-    "location": {
-      "lat": 37.9838,
-      "lng": 23.7275,
-      "desc": "Greece"
-    },
-    "historical_note": "Italienische Niederlage in Griechenland"
-  },
-  "537": {
-    "number": 537,
-    "date": "1940-12-18",
-    "event_en": "Barbarossa Order",
-    "event_de": "Barbarossa Befehl",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Berlin, Germany"
-    },
-    "historical_note": "Weisung Nr. 21 Barbarossa (18.12.1940)"
-  },
-  "538": {
-    "number": 538,
-    "date": "1940-12-25",
-    "event_en": "Christmas 1940",
-    "event_de": "Weihnachten 1940",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Germany"
-    },
-    "historical_note": "Kriegsweihnachten an der Front"
-  },
-  "539": {
-    "number": 539,
-    "date": "1941-01-01",
-    "event_en": "New Year 1941",
-    "event_de": "Neujahr 1941",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Berlin, Germany"
-    },
-    "historical_note": "Jahreswechsel im Krieg"
-  },
-  "542": {
-    "number": 542,
-    "date": "1941-01-22",
-    "event_en": "Tobruk Falls",
-    "event_de": "Tobruk fällt",
-    "location": {
-      "lat": 32.0833,
-      "lng": 23.95,
-      "desc": "Tobruk, Libya"
-    },
-    "historical_note": "Britische Eroberung von Tobruk (22.01.1941)"
-  },
-  "543": {
-    "number": 543,
-    "date": "1941-01-29",
-    "event_en": "Africa Corps",
-    "event_de": "Afrika Korps",
-    "location": {
-      "lat": 32.0853,
-      "lng": 20.0,
-      "desc": "North Africa"
-    },
-    "historical_note": "Rommel wird nach Afrika geschickt"
-  },
-  "544": {
-    "number": 544,
-    "date": "1941-02-05",
-    "event_en": "Rommel Arrives",
-    "event_de": "Rommel Ankunft",
-    "location": {
-      "lat": 32.9,
-      "lng": 13.18,
-      "desc": "Tripoli, Libya"
-    },
-    "historical_note": "Rommel landet in Tripolis (12.02.1941)"
-  },
-  "545": {
-    "number": 545,
-    "date": "1941-02-12",
-    "event_en": "Africa Offensive",
-    "event_de": "Afrika Offensive",
-    "location": {
-      "lat": 32.0853,
-      "lng": 20.0,
-      "desc": "North Africa"
-    },
-    "historical_note": "Beginn deutscher Gegenoffensive"
-  },
-  "546": {
-    "number": 546,
-    "date": "1941-02-19",
-    "event_en": "North Africa",
-    "event_de": "Nordafrika",
-    "location": {
-      "lat": 32.0853,
-      "lng": 20.0,
-      "desc": "North Africa"
-    },
-    "historical_note": "Kämpfe in der Cyrenaika"
-  },
-  "547": {
-    "number": 547,
-    "date": "1941-02-26",
-    "event_en": "Africa Campaign",
-    "event_de": "Afrikafeldzug",
-    "location": {
-      "lat": 32.0853,
-      "lng": 20.0,
-      "desc": "North Africa"
-    },
-    "historical_note": "Rommel drängt Briten zurück"
-  },
-  "548": {
-    "number": 548,
-    "date": "1941-03-05",
-    "event_en": "Bulgaria Joins Axis",
-    "event_de": "Bulgarien Achse",
-    "location": {
-      "lat": 42.6977,
-      "lng": 23.3219,
-      "desc": "Sofia, Bulgaria"
-    },
-    "historical_note": "Bulgarien tritt Achse bei (01.03.1941)"
-  },
-  "549": {
-    "number": 549,
-    "date": "1941-03-12",
-    "event_en": "Lend-Lease Act",
-    "event_de": "Leih-Pacht Gesetz",
-    "location": {
-      "lat": 38.9072,
-      "lng": -77.0369,
-      "desc": "Washington D.C., USA"
-    },
-    "historical_note": "US Lend-Lease Gesetz (11.03.1941)"
-  },
-  "550": {
-    "number": 550,
-    "date": "1941-03-19",
-    "event_en": "Yugoslavia Crisis",
-    "event_de": "Jugoslawien Krise",
-    "location": {
-      "lat": 44.7866,
-      "lng": 20.4489,
-      "desc": "Belgrade, Yugoslavia"
-    },
-    "historical_note": "Jugoslawien tritt Achse bei (25.03.1941)"
-  },
-  "552": {
-    "number": 552,
-    "date": "1941-04-02",
-    "event_en": "Belgrade Coup",
-    "event_de": "Belgrad Putsch",
-    "location": {
-      "lat": 44.7866,
-      "lng": 20.4489,
-      "desc": "Belgrade, Yugoslavia"
-    },
-    "historical_note": "Putsch gegen Achsenbeitritt (27.03.1941)"
-  },
-  "553": {
-    "number": 553,
-    "date": "1941-04-09",
-    "event_en": "Balkans Campaign",
-    "event_de": "Balkanfeldzug",
-    "location": {
-      "lat": 42.0,
-      "lng": 22.0,
-      "desc": "Balkans"
-    },
-    "historical_note": "Angriff auf Jugoslawien + Griechenland (06.04.1941)"
-  },
-  "554": {
-    "number": 554,
-    "date": "1941-04-16",
-    "event_en": "Belgrade Falls",
-    "event_de": "Belgrad gefallen",
-    "location": {
-      "lat": 44.7866,
-      "lng": 20.4489,
-      "desc": "Belgrade, Yugoslavia"
-    },
-    "historical_note": "Kapitulation Jugoslawiens (17.04.1941)"
-  },
-  "555": {
-    "number": 555,
-    "date": "1941-04-23",
-    "event_en": "Greece Victory",
-    "event_de": "Griechenland Sieg",
-    "location": {
-      "lat": 37.9838,
-      "lng": 23.7275,
-      "desc": "Athens, Greece"
-    },
-    "historical_note": "Griechische Kapitulation (23.04.1941)"
-  },
-  "556": {
-    "number": 556,
-    "date": "1941-04-30",
-    "event_en": "Athens Occupied",
-    "event_de": "Athen besetzt",
-    "location": {
-      "lat": 37.9838,
-      "lng": 23.7275,
-      "desc": "Athens, Greece"
-    },
-    "historical_note": "Wehrmacht in Athen (27.04.1941)"
-  },
-  "557": {
-    "number": 557,
-    "date": "1941-05-07",
-    "event_en": "Bismarck Sails",
-    "event_de": "Bismarck ausgelaufen",
-    "location": {
-      "lat": 54.37,
-      "lng": 10.13,
-      "desc": "Kiel, Germany"
-    },
-    "historical_note": "Bismarck beginnt Operation Rheinübung"
-  },
-  "561": {
-    "number": 561,
-    "date": "1941-06-04",
-    "event_en": "Crete Captured",
-    "event_de": "Kreta erobert",
-    "location": {
-      "lat": 35.2401,
-      "lng": 24.8093,
-      "desc": "Crete, Greece"
-    },
-    "historical_note": "Luftlandeschlacht um Kreta (20.05.-01.06.1941)"
-  },
-  "562": {
-    "number": 562,
-    "date": "1941-06-11",
-    "event_en": "Bismarck Sunk",
-    "event_de": "Bismarck versenkt",
-    "location": {
-      "lat": 48.1,
-      "lng": -16.2,
-      "desc": "Atlantic Ocean"
-    },
-    "historical_note": "Untergang der Bismarck (27.05.1941)"
-  },
-  "564": {
-    "number": 564,
-    "date": "1941-06-25",
-    "event_en": "Operation Barbarossa",
-    "event_de": "Barbarossa",
-    "location": {
-      "lat": 55.7558,
-      "lng": 37.6173,
-      "desc": "Soviet Union"
-    },
-    "historical_note": "GRÖSSTE INVASION DER GESCHICHTE! (22.06.1941)"
-  },
-  "565": {
-    "number": 565,
-    "date": "1941-07-02",
-    "event_en": "Eastern Advance",
-    "event_de": "Ostfront Vormarsch",
-    "location": {
-      "lat": 55.0,
-      "lng": 30.0,
-      "desc": "Eastern Front"
-    },
-    "historical_note": "Schneller Vormarsch in die UdSSR"
-  },
-  "566": {
-    "number": 566,
-    "date": "1941-07-09",
-    "event_en": "Minsk Falls",
-    "event_de": "Minsk gefallen",
-    "location": {
-      "lat": 53.9045,
-      "lng": 27.5615,
-      "desc": "Minsk, Belarus"
-    },
-    "historical_note": "Kesselschlacht bei Minsk (28.06.-09.07.1941)"
-  },
-  "567": {
-    "number": 567,
-    "date": "1941-07-16",
-    "event_en": "Smolensk Pocket",
-    "event_de": "Smolensk Kessel",
-    "location": {
-      "lat": 54.7826,
-      "lng": 32.0453,
-      "desc": "Smolensk, Russia"
-    },
-    "historical_note": "Schlacht um Smolensk beginnt (10.07.1941)"
-  },
-  "568": {
-    "number": 568,
-    "date": "1941-07-23",
-    "event_en": "Eastern Summer",
-    "event_de": "Ostfront Sommer",
-    "location": {
-      "lat": 55.0,
-      "lng": 30.0,
-      "desc": "Eastern Front"
-    },
-    "historical_note": "Vormarsch auf drei Achsen"
-  },
-  "569": {
-    "number": 569,
-    "date": "1941-07-30",
-    "event_en": "Kiev Encirclement",
-    "event_de": "Kiew Einkreisung",
-    "location": {
-      "lat": 50.4501,
-      "lng": 30.5234,
-      "desc": "Kyiv, Ukraine"
-    },
-    "historical_note": "Beginn der Kiew-Operation"
-  },
-  "570": {
-    "number": 570,
-    "date": "1941-08-06",
-    "event_en": "Smolensk Falls",
-    "event_de": "Smolensk gefallen",
-    "location": {
-      "lat": 54.7826,
-      "lng": 32.0453,
-      "desc": "Smolensk, Russia"
-    },
-    "historical_note": "Fall von Smolensk (05.08.1941)"
-  },
-  "571": {
-    "number": 571,
-    "date": "1941-08-13",
-    "event_en": "Atlantic Charter",
-    "event_de": "Atlantik Charta",
-    "location": {
-      "lat": 47.5615,
-      "lng": -52.7126,
-      "desc": "Newfoundland, Canada"
-    },
-    "historical_note": "Roosevelt und Churchill treffen sich (14.08.1941)"
-  },
-  "572": {
-    "number": 572,
-    "date": "1941-08-20",
-    "event_en": "Leningrad Siege",
-    "event_de": "Leningrad Belagerung",
-    "location": {
-      "lat": 59.9343,
-      "lng": 30.3351,
-      "desc": "Leningrad, Russia"
-    },
-    "historical_note": "Einschließung Leningrads beginnt"
-  },
-  "573": {
-    "number": 573,
-    "date": "1941-08-27",
-    "event_en": "Kiev Battle",
-    "event_de": "Kiew Schlacht",
-    "location": {
-      "lat": 50.4501,
-      "lng": 30.5234,
-      "desc": "Kyiv, Ukraine"
-    },
-    "historical_note": "Größte Kesselschlacht der Geschichte"
-  },
-  "574": {
-    "number": 574,
-    "date": "1941-09-03",
-    "event_en": "Leningrad Encircled",
-    "event_de": "Leningrad eingeschlossen",
-    "location": {
-      "lat": 59.9343,
-      "lng": 30.3351,
-      "desc": "Leningrad, Russia"
-    },
-    "historical_note": "Belagerung Leningrads beginnt (08.09.1941)"
-  },
-  "575": {
-    "number": 575,
-    "date": "1941-09-10",
-    "event_en": "900 Days Leningrad",
-    "event_de": "900 Tage Leningrad",
-    "location": {
-      "lat": 59.9343,
-      "lng": 30.3351,
-      "desc": "Leningrad (St. Petersburg), Russia"
-    },
-    "historical_note": "Beginn der 872-Tage-Blockade"
-  },
-  "576": {
-    "number": 576,
-    "date": "1941-09-17",
-    "event_en": "Kiev Encirclement",
-    "event_de": "Kiew Kessel",
-    "location": {
-      "lat": 50.4501,
-      "lng": 30.5234,
-      "desc": "Kyiv, Ukraine"
-    },
-    "historical_note": "Kiew eingekesselt"
-  },
-  "577": {
-    "number": 577,
-    "date": "1941-09-24",
-    "event_en": "Kiev Surrender",
-    "event_de": "Kiew Kapitulation",
-    "location": {
-      "lat": 50.4501,
-      "lng": 30.5234,
-      "desc": "Kyiv, Ukraine"
-    },
-    "historical_note": "Fall von Kiew (26.09.1941), 665.000 Gefangene"
-  },
-  "578": {
-    "number": 578,
-    "date": "1941-10-01",
-    "event_en": "Typhoon Begins",
-    "event_de": "Taifun beginnt",
-    "location": {
-      "lat": 55.7558,
-      "lng": 37.6173,
-      "desc": "Moscow, Russia"
-    },
-    "historical_note": "Operation Taifun - Angriff auf Moskau (02.10.1941)"
-  },
-  "579": {
-    "number": 579,
-    "date": "1941-10-08",
-    "event_en": "Vyazma Pocket",
-    "event_de": "Wjasma Kessel",
-    "location": {
-      "lat": 55.2106,
-      "lng": 34.2816,
-      "desc": "Vyazma, Russia"
-    },
-    "historical_note": "Doppelschlacht bei Wjasma und Brjansk"
-  },
-  "581": {
-    "number": 581,
-    "date": "1941-10-22",
-    "event_en": "Moscow Advance",
-    "event_de": "Vormarsch Moskau",
-    "location": {
-      "lat": 55.7558,
-      "lng": 37.6173,
-      "desc": "Moscow, Russia"
-    },
-    "historical_note": "Wehrmacht 100km vor Moskau"
-  },
-  "582": {
-    "number": 582,
-    "date": "1941-10-29",
-    "event_en": "Autumn Mud",
-    "event_de": "Herbstschlammperiode",
-    "location": {
-      "lat": 55.7558,
-      "lng": 37.6173,
-      "desc": "Eastern Front, Russia"
-    },
-    "historical_note": "Rasputiza stoppt Vormarsch"
-  },
-  "583": {
-    "number": 583,
-    "date": "1941-11-05",
-    "event_en": "Moscow in Danger",
-    "event_de": "Moskau in Gefahr",
-    "location": {
-      "lat": 55.7558,
-      "lng": 37.6173,
-      "desc": "Moscow, Russia"
-    },
-    "historical_note": "Evakuierung Moskaus angeordnet"
-  },
-  "584": {
-    "number": 584,
-    "date": "1941-11-12",
-    "event_en": "Frost Hits",
-    "event_de": "Frost Einbruch",
-    "location": {
-      "lat": 55.7558,
-      "lng": 37.6173,
-      "desc": "Moscow, Russia"
-    },
-    "historical_note": "Erster starker Frost an der Ostfront"
-  },
-  "585": {
-    "number": 585,
-    "date": "1941-11-19",
-    "event_en": "Tikhvin Falls",
-    "event_de": "Tikhvin gefallen",
-    "location": {
-      "lat": 59.6433,
-      "lng": 33.5309,
-      "desc": "Tikhvin, Russia"
-    },
-    "historical_note": "Eroberung von Tichwin (08.11.1941)"
-  },
-  "586": {
-    "number": 586,
-    "date": "1941-11-26",
-    "event_en": "Rostov Captured",
-    "event_de": "Rostow erobert",
-    "location": {
-      "lat": 47.2357,
-      "lng": 39.7015,
-      "desc": "Rostov-on-Don, Russia"
-    },
-    "historical_note": "Einnahme von Rostow am Don (21.11.1941)"
-  },
-  "588": {
-    "number": 588,
-    "date": "1941-12-10",
-    "event_en": "Pearl Harbor",
-    "event_de": "Pearl Harbor",
-    "location": {
-      "lat": 21.3647,
-      "lng": -157.9507,
-      "desc": "Pearl Harbor, Hawaii"
-    },
-    "historical_note": "Japanischer Angriff auf Pearl Harbor (07.12.1941)"
-  },
-  "589": {
-    "number": 589,
-    "date": "1941-12-17",
-    "event_en": "Moscow Counterattack",
-    "event_de": "Moskau Gegenoffensive",
-    "location": {
-      "lat": 55.7558,
-      "lng": 37.6173,
-      "desc": "Moscow, Russia"
-    },
-    "historical_note": "Sowjetische Gegenoffensive vor Moskau (05.12.1941)"
-  },
-  "590": {
-    "number": 590,
-    "date": "1941-12-24",
-    "event_en": "US Enters War",
-    "event_de": "Kriegserklärung USA",
-    "location": {
-      "lat": 38.9072,
-      "lng": -77.0369,
-      "desc": "Washington D.C., USA"
-    },
-    "historical_note": "Deutschland erklärt USA den Krieg (11.12.1941)"
-  },
-  "592": {
-    "number": 592,
-    "date": "1942-01-07",
-    "event_en": "Winter Crisis",
-    "event_de": "Winterkrise",
-    "location": {
-      "lat": 55.7558,
-      "lng": 37.6173,
-      "desc": "Moscow, Russia"
-    },
-    "historical_note": "Wehrmacht wird vor Moskau zurückgeschlagen"
-  },
-  "593": {
-    "number": 593,
-    "date": "1942-01-14",
-    "event_en": "Wannsee Conference",
-    "event_de": "Wannsee Konferenz",
-    "location": {
-      "lat": 52.4293,
-      "lng": 13.1658,
-      "desc": "Berlin-Wannsee, Germany"
-    },
-    "historical_note": "Wannsee-Konferenz (20.01.1942)"
-  },
-  "594": {
-    "number": 594,
-    "date": "1942-01-21",
-    "event_en": "Rommel Offensive",
-    "event_de": "Rommel Offensive",
-    "location": {
-      "lat": 32.0853,
-      "lng": 20.0,
-      "desc": "North Africa"
-    },
-    "historical_note": "Rommel startet Gegenoffensive in Afrika"
-  },
-  "595": {
-    "number": 595,
-    "date": "1942-01-28",
-    "event_en": "Demyansk Pocket",
-    "event_de": "Demjansk Kessel",
-    "location": {
-      "lat": 57.6378,
-      "lng": 32.4661,
-      "desc": "Demyansk, Russia"
-    },
-    "historical_note": "Einschließung bei Demjansk"
-  },
-  "596": {
-    "number": 596,
-    "date": "1942-02-04",
-    "event_en": "Singapore Battle",
-    "event_de": "Singapur Schlacht",
-    "location": {
-      "lat": 1.3521,
-      "lng": 103.8198,
-      "desc": "Singapore"
-    },
-    "historical_note": "Japan greift Singapur an"
-  },
-  "598": {
-    "number": 598,
-    "date": "1942-02-18",
-    "event_en": "Singapore Falls",
-    "event_de": "Singapur gefallen",
-    "location": {
-      "lat": 1.3521,
-      "lng": 103.8198,
-      "desc": "Singapore"
-    },
-    "historical_note": "Fall von Singapur (15.02.1942)"
-  },
-  "599": {
-    "number": 599,
-    "date": "1942-02-25",
-    "event_en": "Cerberus Success",
-    "event_de": "Cerberus Erfolg",
-    "location": {
-      "lat": 50.9,
-      "lng": 1.4,
-      "desc": "English Channel"
-    },
-    "historical_note": "Kanaldurchbruch (11.-13.02.1942)"
-  },
-  "600": {
-    "number": 600,
-    "date": "1942-03-04",
-    "event_en": "East Front Holds",
-    "event_de": "Ostfront Stabilisiert",
-    "location": {
-      "lat": 55.0,
-      "lng": 30.0,
-      "desc": "Eastern Front"
-    },
-    "historical_note": "Winterkrise überstanden"
-  },
-  "601": {
-    "number": 601,
-    "date": "1942-03-11",
-    "event_en": "Tobruk Battles",
-    "event_de": "Tobruk Kämpfe",
-    "location": {
-      "lat": 32.0833,
-      "lng": 23.95,
-      "desc": "Tobruk, Libya"
-    },
-    "historical_note": "Stellungskampf in Nordafrika"
-  },
-  "602": {
-    "number": 602,
-    "date": "1942-03-18",
-    "event_en": "U-Boat War",
-    "event_de": "U-Boot Krieg",
-    "location": {
-      "lat": 45.0,
-      "lng": -30.0,
-      "desc": "Atlantic Ocean"
-    },
-    "historical_note": "Zweite glückliche Zeit der U-Boote"
-  },
-  "604": {
-    "number": 604,
-    "date": "1942-04-01",
-    "event_en": "Bombs on Germany",
-    "event_de": "Bomben auf Deutschland",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Germany"
-    },
-    "historical_note": "Erste große RAF-Angriffe auf Deutschland"
-  },
-  "605": {
-    "number": 605,
-    "date": "1942-04-08",
-    "event_en": "Lubeck Bombed",
-    "event_de": "Lübeck bombardiert",
-    "location": {
-      "lat": 53.8655,
-      "lng": 10.6866,
-      "desc": "Lübeck, Germany"
-    },
-    "historical_note": "Luftangriff auf Lübeck (28./29.03.1942)"
-  },
-  "606": {
-    "number": 606,
-    "date": "1942-04-15",
-    "event_en": "Baedeker Raids",
-    "event_de": "Baedeker Angriffe",
-    "location": {
-      "lat": 52.6269,
-      "lng": 1.2993,
-      "desc": "Norwich, England"
-    },
-    "historical_note": "Deutsche Vergeltungsangriffe auf historische Städte"
-  },
-  "607": {
-    "number": 607,
-    "date": "1942-04-22",
-    "event_en": "Spring Offensive",
-    "event_de": "Frühjahrsoffensive",
-    "location": {
-      "lat": 48.708,
-      "lng": 44.5133,
-      "desc": "Southern Russia"
-    },
-    "historical_note": "Planungen für Sommeroffensive 1942"
-  },
-  "608": {
-    "number": 608,
-    "date": "1942-04-29",
-    "event_en": "Hitler Speech",
-    "event_de": "Hitler Rede",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Berlin, Germany"
-    },
-    "historical_note": "Hitler-Rede zum Geburtstag"
-  },
-  "609": {
-    "number": 609,
-    "date": "1942-05-06",
-    "event_en": "Kharkov Offensive",
-    "event_de": "Charkow Offensive",
-    "location": {
-      "lat": 49.9935,
-      "lng": 36.2304,
-      "desc": "Kharkov, Ukraine"
-    },
-    "historical_note": "Sowjetische Offensive bei Charkow"
-  },
-  "610": {
-    "number": 610,
-    "date": "1942-05-13",
-    "event_en": "Kharkov Pocket",
-    "event_de": "Charkow Kessel",
-    "location": {
-      "lat": 49.9935,
-      "lng": 36.2304,
-      "desc": "Kharkov, Ukraine"
-    },
-    "historical_note": "Einschließung sowjetischer Truppen"
-  },
-  "611": {
-    "number": 611,
-    "date": "1942-05-20",
-    "event_en": "Kharkov Victory",
-    "event_de": "Charkow Sieg",
-    "location": {
-      "lat": 49.9935,
-      "lng": 36.2304,
-      "desc": "Kharkov, Ukraine"
-    },
-    "historical_note": "Vernichtung des Kessels"
-  },
-  "612": {
-    "number": 612,
-    "date": "1942-05-27",
-    "event_en": "Heydrich Killed",
-    "event_de": "Heydrich Attentat",
-    "location": {
-      "lat": 50.0755,
-      "lng": 14.4378,
-      "desc": "Prague, Czechoslovakia"
-    },
-    "historical_note": "Attentat auf Heydrich (27.05.1942)"
-  },
-  "613": {
-    "number": 613,
-    "date": "1942-06-03",
-    "event_en": "1000 Bombers Cologne",
-    "event_de": "1000 Bomber Köln",
-    "location": {
-      "lat": 50.9375,
-      "lng": 6.9603,
-      "desc": "Cologne, Germany"
-    },
-    "historical_note": "Erste 1000-Bomber-Angriff auf Köln (30./31.05.1942)"
-  },
-  "614": {
-    "number": 614,
-    "date": "1942-06-10",
-    "event_en": "Heydrich Death",
-    "event_de": "Heydrich Tod",
-    "location": {
-      "lat": 50.0755,
-      "lng": 14.4378,
-      "desc": "Prague, Czechoslovakia"
-    },
-    "historical_note": "Tod Heydrichs (04.06.1942), Lidice-Massaker"
-  },
-  "615": {
-    "number": 615,
-    "date": "1942-06-17",
-    "event_en": "Midway Battle",
-    "event_de": "Midway Schlacht",
-    "location": {
-      "lat": 28.2072,
-      "lng": -177.3735,
-      "desc": "Midway Atoll, Pacific"
-    },
-    "historical_note": "Japan verliert bei Midway (04.-07.06.1942)"
-  },
-  "616": {
-    "number": 616,
-    "date": "1942-06-24",
-    "event_en": "Tobruk Captured",
-    "event_de": "Tobruk Eroberung",
-    "location": {
-      "lat": 32.0833,
-      "lng": 23.95,
-      "desc": "Tobruk, Libya"
-    },
-    "historical_note": "Rommel erobert Tobruk (21.06.1942)"
-  },
-  "617": {
-    "number": 617,
-    "date": "1942-07-01",
-    "event_en": "Rommel in Egypt",
-    "event_de": "Rommel in Ägypten",
-    "location": {
-      "lat": 30.8333,
-      "lng": 28.95,
-      "desc": "El Alamein, Egypt"
-    },
-    "historical_note": "Afrika Korps dringt nach Ägypten vor"
-  },
-  "618": {
-    "number": 618,
-    "date": "1942-07-08",
-    "event_en": "Case Blue",
-    "event_de": "Fall Blau",
-    "location": {
-      "lat": 48.708,
-      "lng": 44.5133,
-      "desc": "Southern Russia"
-    },
-    "historical_note": "Deutsche Sommeroffensive beginnt (28.06.1942)"
-  },
-  "619": {
-    "number": 619,
-    "date": "1942-07-15",
-    "event_en": "El Alamein",
-    "event_de": "El Alamein",
-    "location": {
-      "lat": 30.8333,
-      "lng": 28.95,
-      "desc": "El Alamein, Egypt"
-    },
-    "historical_note": "Erste Schlacht von El Alamein"
-  },
-  "620": {
-    "number": 620,
-    "date": "1942-07-22",
-    "event_en": "Caucasus Advance",
-    "event_de": "Vormarsch Kaukasus",
-    "location": {
-      "lat": 43.2567,
-      "lng": 42.4348,
-      "desc": "Caucasus Mountains"
-    },
-    "historical_note": "Vormarsch in Richtung Kaukasus"
-  },
-  "621": {
-    "number": 621,
-    "date": "1942-07-29",
-    "event_en": "Rostov Falls Again",
-    "event_de": "Rostow II gefallen",
-    "location": {
-      "lat": 47.2357,
-      "lng": 39.7015,
-      "desc": "Rostov-on-Don, Russia"
-    },
-    "historical_note": "Zweite Eroberung von Rostow (24.07.1942)"
-  },
-  "622": {
-    "number": 622,
-    "date": "1942-08-05",
-    "event_en": "Stalingrad Advance",
-    "event_de": "Stalingrad Vormarsch",
-    "location": {
-      "lat": 48.708,
-      "lng": 44.5133,
-      "desc": "Stalingrad, Russia"
-    },
-    "historical_note": "Vormarsch auf Stalingrad"
-  },
-  "623": {
-    "number": 623,
-    "date": "1942-08-12",
-    "event_en": "Churchill-Stalin",
-    "event_de": "Churchill Stalin Treffen",
-    "location": {
-      "lat": 55.7558,
-      "lng": 37.6173,
-      "desc": "Moscow, Russia"
-    },
-    "historical_note": "Churchill trifft Stalin in Moskau (12.-16.08.1942)"
-  },
-  "624": {
-    "number": 624,
-    "date": "1942-08-19",
-    "event_en": "Dieppe Raid",
-    "event_de": "Dieppe Raid",
-    "location": {
-      "lat": 49.9242,
-      "lng": 1.08,
-      "desc": "Dieppe, France"
-    },
-    "historical_note": "Gescheiterter alliierter Landungsversuch (19.08.1942)"
-  },
-  "625": {
-    "number": 625,
-    "date": "1942-08-26",
-    "event_en": "Stalingrad Reached",
-    "event_de": "Stalingrad erreicht",
-    "location": {
-      "lat": 48.708,
-      "lng": 44.5133,
-      "desc": "Stalingrad, Russia"
-    },
-    "historical_note": "Deutsche erreichen Stalingrad (23.08.1942)"
-  },
-  "627": {
-    "number": 627,
-    "date": "1942-09-09",
-    "event_en": "Stalingrad Streets",
-    "event_de": "Stalingrad Straßenkampf",
-    "location": {
-      "lat": 48.708,
-      "lng": 44.5133,
-      "desc": "Stalingrad, Russia"
-    },
-    "historical_note": "Beginn der Straßenkämpfe in Stalingrad"
-  },
-  "628": {
-    "number": 628,
-    "date": "1942-09-16",
-    "event_en": "Stalingrad Hill",
-    "event_de": "Stalingrad Mamajew",
-    "location": {
-      "lat": 48.708,
-      "lng": 44.5133,
-      "desc": "Stalingrad, Russia"
-    },
-    "historical_note": "Kampf um Mamajew-Kurgan"
-  },
-  "629": {
-    "number": 629,
-    "date": "1942-09-23",
-    "event_en": "Stalingrad Factories",
-    "event_de": "Stalingrad Fabriken",
-    "location": {
-      "lat": 48.708,
-      "lng": 44.5133,
-      "desc": "Stalingrad, Russia"
-    },
-    "historical_note": "Kämpfe um Traktorenwerk"
-  },
-  "630": {
-    "number": 630,
-    "date": "1942-09-30",
-    "event_en": "Caucasus Elbrus",
-    "event_de": "Kaukasus Elbruss",
-    "location": {
-      "lat": 43.3499,
-      "lng": 42.4453,
-      "desc": "Mount Elbrus, Caucasus"
-    },
-    "historical_note": "Fahne auf dem Elbrus gehisst (21.08.1942)"
-  },
-  "631": {
-    "number": 631,
-    "date": "1942-10-07",
-    "event_en": "Factory Battle",
-    "event_de": "Stalingrad Fabrikkampf",
-    "location": {
-      "lat": 48.708,
-      "lng": 44.5133,
-      "desc": "Stalingrad, Russia"
-    },
-    "historical_note": "Kampf um Rote Oktober Fabrik"
-  },
-  "632": {
-    "number": 632,
-    "date": "1942-10-14",
-    "event_en": "Stalingrad Peak",
-    "event_de": "Stalingrad Höhepunkt",
-    "location": {
-      "lat": 48.708,
-      "lng": 44.5133,
-      "desc": "Stalingrad, Russia"
-    },
-    "historical_note": "Höhepunkt der deutschen Offensive"
-  },
-  "633": {
-    "number": 633,
-    "date": "1942-10-21",
-    "event_en": "El Alamein II",
-    "event_de": "El Alamein II",
-    "location": {
-      "lat": 30.8333,
-      "lng": 28.95,
-      "desc": "El Alamein, Egypt"
-    },
-    "historical_note": "Vorbereitung britische Offensive"
-  },
-  "634": {
-    "number": 634,
-    "date": "1942-10-28",
-    "event_en": "El Alamein Defeat",
-    "event_de": "El Alamein Niederlage",
-    "location": {
-      "lat": 30.8333,
-      "lng": 28.95,
-      "desc": "El Alamein, Egypt"
-    },
-    "historical_note": "Montgomery startet Offensive (23.10.1942)"
-  },
-  "635": {
-    "number": 635,
-    "date": "1942-11-04",
-    "event_en": "Africa Retreat",
-    "event_de": "Afrika Rückzug",
-    "location": {
-      "lat": 32.0853,
-      "lng": 20.0,
-      "desc": "North Africa"
-    },
-    "historical_note": "Rommel beginnt Rückzug"
-  },
-  "637": {
-    "number": 637,
-    "date": "1942-11-18",
-    "event_en": "Torch Landing",
-    "event_de": "Torch Landung",
-    "location": {
-      "lat": 36.8065,
-      "lng": 10.1815,
-      "desc": "North Africa"
-    },
-    "historical_note": "Alliierte Landung in Nordafrika (08.11.1942)"
-  },
-  "638": {
-    "number": 638,
-    "date": "1942-11-25",
-    "event_en": "Stalingrad Encircled",
-    "event_de": "Stalingrad Einkessel",
-    "location": {
-      "lat": 48.708,
-      "lng": 44.5133,
-      "desc": "Stalingrad, Russia"
-    },
-    "historical_note": "Operation Uranus - 6. Armee eingekesselt (19.-23.11.1942)"
-  },
-  "639": {
-    "number": 639,
-    "date": "1942-12-02",
-    "event_en": "Stalingrad Pocket",
-    "event_de": "Stalingrad Kessel",
-    "location": {
-      "lat": 48.708,
-      "lng": 44.5133,
-      "desc": "Stalingrad, Russia"
-    },
-    "historical_note": "300.000 Mann eingeschlossen"
-  },
-  "640": {
-    "number": 640,
-    "date": "1942-12-09",
-    "event_en": "Winter Storm",
-    "event_de": "Wintergewitter",
-    "location": {
-      "lat": 48.708,
-      "lng": 44.5133,
-      "desc": "Stalingrad, Russia"
-    },
-    "historical_note": "Entsatzversuch beginnt (12.12.1942)"
-  },
-  "641": {
-    "number": 641,
-    "date": "1942-12-16",
-    "event_en": "Winter Storm Fails",
-    "event_de": "Wintergewitter scheitert",
-    "location": {
-      "lat": 48.708,
-      "lng": 44.5133,
-      "desc": "Stalingrad, Russia"
-    },
-    "historical_note": "Entsatz erreicht 6. Armee nicht"
-  },
-  "642": {
-    "number": 642,
-    "date": "1942-12-23",
-    "event_en": "Christmas Stalingrad",
-    "event_de": "Weihnachten Stalingrad",
-    "location": {
-      "lat": 48.708,
-      "lng": 44.5133,
-      "desc": "Stalingrad, Russia"
-    },
-    "historical_note": "Verzweifelte Lage im Kessel"
-  },
-  "644": {
-    "number": 644,
-    "date": "1943-01-06",
-    "event_en": "Stalingrad Agony",
-    "event_de": "Stalingrad Agonie",
-    "location": {
-      "lat": 48.708,
-      "lng": 44.5133,
-      "desc": "Stalingrad, Russia"
-    },
-    "historical_note": "Hungerkrise im Kessel"
-  },
-  "645": {
-    "number": 645,
-    "date": "1943-01-13",
-    "event_en": "Ring Operation",
-    "event_de": "Ring Operation",
-    "location": {
-      "lat": 48.708,
-      "lng": 44.5133,
-      "desc": "Stalingrad, Russia"
-    },
-    "historical_note": "Sowjetische Schlussoffensive beginnt (10.01.1943)"
-  },
-  "647": {
-    "number": 647,
-    "date": "1943-01-27",
-    "event_en": "Casablanca Summit",
-    "event_de": "Casablanca Konferenz",
-    "location": {
-      "lat": 33.5731,
-      "lng": -7.5898,
-      "desc": "Casablanca, Morocco"
-    },
-    "historical_note": "Roosevelt + Churchill fordern bedingungslose Kapitulation"
-  },
-  "648": {
-    "number": 648,
-    "date": "1943-02-03",
-    "event_en": "Stalingrad Surrender",
-    "event_de": "Stalingrad Kapitulation",
-    "location": {
-      "lat": 48.708,
-      "lng": 44.5133,
-      "desc": "Stalingrad, Russia"
-    },
-    "historical_note": "WENDEPUNKT DES KRIEGES! Kapitulation (02.02.1943)"
-  },
-  "649": {
-    "number": 649,
-    "date": "1943-02-10",
-    "event_en": "After Stalingrad",
-    "event_de": "Nach Stalingrad",
-    "location": {
-      "lat": 48.708,
-      "lng": 44.5133,
-      "desc": "Stalingrad (Volgograd), Russia"
-    },
-    "historical_note": "Reaktion auf Stalingrad-Niederlage"
-  },
-  "650": {
-    "number": 650,
-    "date": "1943-02-17",
-    "event_en": "Total War",
-    "event_de": "Totaler Krieg",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Berlin, Germany"
-    },
-    "historical_note": "Goebbels Sportpalastrede (18.02.1943)"
-  },
-  "651": {
-    "number": 651,
-    "date": "1943-02-24",
-    "event_en": "Kharkov Recaptured",
-    "event_de": "Charkow Rückeroberung",
-    "location": {
-      "lat": 49.9935,
-      "lng": 36.2304,
-      "desc": "Kharkov, Ukraine"
-    },
-    "historical_note": "Mansteins Gegenoffensive"
-  },
-  "652": {
-    "number": 652,
-    "date": "1943-03-03",
-    "event_en": "Kharkov III",
-    "event_de": "Charkow III",
-    "location": {
-      "lat": 49.9935,
-      "lng": 36.2304,
-      "desc": "Kharkov, Ukraine"
-    },
-    "historical_note": "Dritte Schlacht um Charkow"
-  },
-  "653": {
-    "number": 653,
-    "date": "1943-03-10",
-    "event_en": "Kharkov Victory",
-    "event_de": "Charkow Sieg",
-    "location": {
-      "lat": 49.9935,
-      "lng": 36.2304,
-      "desc": "Kharkov, Ukraine"
-    },
-    "historical_note": "Rückeroberung Charkows (14.03.1943)"
-  },
-  "654": {
-    "number": 654,
-    "date": "1943-03-17",
-    "event_en": "Tunisia Battles",
-    "event_de": "Tunis Kämpfe",
-    "location": {
-      "lat": 36.8065,
-      "lng": 10.1815,
-      "desc": "Tunisia"
-    },
-    "historical_note": "Kämpfe in Tunesien"
-  },
-  "655": {
-    "number": 655,
-    "date": "1943-03-24",
-    "event_en": "Africa Retreat",
-    "event_de": "Afrika Rückzug",
-    "location": {
-      "lat": 32.0853,
-      "lng": 20.0,
-      "desc": "North Africa"
-    },
-    "historical_note": "Rückzug auf Tunis"
-  },
-  "656": {
-    "number": 656,
-    "date": "1943-03-31",
-    "event_en": "Eastern Situation",
-    "event_de": "Ostfront Lage",
-    "location": {
-      "lat": 55.0,
-      "lng": 30.0,
-      "desc": "Eastern Front"
-    },
-    "historical_note": "Frontbegradigung"
-  },
-  "657": {
-    "number": 657,
-    "date": "1943-04-07",
-    "event_en": "Katyn Discovery",
-    "event_de": "Katyn Entdeckung",
-    "location": {
-      "lat": 54.7756,
-      "lng": 31.7919,
-      "desc": "Katyn, Russia"
-    },
-    "historical_note": "Entdeckung des Katyn-Massakers (13.04.1943)"
-  },
-  "658": {
-    "number": 658,
-    "date": "1943-04-14",
-    "event_en": "Katyn Propaganda",
-    "event_de": "Katyn Propaganda",
-    "location": {
-      "lat": 54.7756,
-      "lng": 31.7919,
-      "desc": "Katyn, Russia"
-    },
-    "historical_note": "Propaganda über Katyn"
-  },
-  "659": {
-    "number": 659,
-    "date": "1943-04-21",
-    "event_en": "Tunisia Final",
-    "event_de": "Tunis Endkampf",
-    "location": {
-      "lat": 36.8065,
-      "lng": 10.1815,
-      "desc": "Tunisia"
-    },
-    "historical_note": "Letzte Kämpfe in Afrika"
-  },
-  "660": {
-    "number": 660,
-    "date": "1943-04-28",
-    "event_en": "Dambuster Raid",
-    "event_de": "Dambuster Raid",
-    "location": {
-      "lat": 51.4,
-      "lng": 8.3,
-      "desc": "Möhne Dam, Germany"
-    },
-    "historical_note": "Angriff auf Möhne- und Edertalsperre geplant"
-  },
-  "661": {
-    "number": 661,
-    "date": "1943-05-05",
-    "event_en": "Africa Defeat",
-    "event_de": "Afrika Niederlage",
-    "location": {
-      "lat": 36.8065,
-      "lng": 10.1815,
-      "desc": "Tunis, Tunisia"
-    },
-    "historical_note": "Ende in Nordafrika naht"
-  },
-  "662": {
-    "number": 662,
-    "date": "1943-05-12",
-    "event_en": "Africa Surrender",
-    "event_de": "Afrika Kapitulation",
-    "location": {
-      "lat": 36.8065,
-      "lng": 10.1815,
-      "desc": "Tunis, Tunisia"
-    },
-    "historical_note": "Kapitulation in Tunis (13.05.1943)"
-  },
-  "663": {
-    "number": 663,
-    "date": "1943-05-19",
-    "event_en": "Dambuster Attack",
-    "event_de": "Dambuster Angriff",
-    "location": {
-      "lat": 51.4,
-      "lng": 8.3,
-      "desc": "Möhne Dam, Germany"
-    },
-    "historical_note": "Operation Chastise (17.05.1943)"
-  },
-  "665": {
-    "number": 665,
-    "date": "1943-06-02",
-    "event_en": "Ruhr Bombing",
-    "event_de": "Ruhrgebiet Bomben",
-    "location": {
-      "lat": 51.4556,
-      "lng": 7.0116,
-      "desc": "Essen, Germany"
-    },
-    "historical_note": "Battle of the Ruhr"
-  },
-  "666": {
-    "number": 666,
-    "date": "1943-06-09",
-    "event_en": "Citadel Planning",
-    "event_de": "Zitadelle Planung",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Berlin, Germany"
-    },
-    "historical_note": "Vorbereitung Operation Zitadelle"
-  },
-  "667": {
-    "number": 667,
-    "date": "1943-06-16",
-    "event_en": "Sicily Preparation",
-    "event_de": "Sizilien Vorbereitung",
-    "location": {
-      "lat": 37.5994,
-      "lng": 14.0154,
-      "desc": "Sicily, Italy"
-    },
-    "historical_note": "Alliierte planen Sizilien-Invasion"
-  },
-  "668": {
-    "number": 668,
-    "date": "1943-06-23",
-    "event_en": "Kursk Buildup",
-    "event_de": "Kursk Aufmarsch",
-    "location": {
-      "lat": 51.7373,
-      "lng": 36.1874,
-      "desc": "Kursk, Russia"
-    },
-    "historical_note": "Truppenkonzentration bei Kursk"
-  },
-  "669": {
-    "number": 669,
-    "date": "1943-06-30",
-    "event_en": "Hamburg Bombing",
-    "event_de": "Hamburg Bomben",
-    "location": {
-      "lat": 53.5511,
-      "lng": 9.9937,
-      "desc": "Hamburg, Germany"
-    },
-    "historical_note": "Vorbereitung Operation Gomorrha"
-  },
-  "670": {
-    "number": 670,
-    "date": "1943-07-07",
-    "event_en": "Kursk Battle",
-    "event_de": "Kursk Schlacht",
-    "location": {
-      "lat": 51.7373,
-      "lng": 36.1874,
-      "desc": "Kursk, Russia"
-    },
-    "historical_note": "GRÖSSTE PANZERSCHLACHT! Operation Zitadelle (05.07.1943)"
-  },
-  "671": {
-    "number": 671,
-    "date": "1943-07-14",
-    "event_en": "Sicily Invasion",
-    "event_de": "Sizilien Invasion",
-    "location": {
-      "lat": 37.5994,
-      "lng": 14.0154,
-      "desc": "Sicily, Italy"
-    },
-    "historical_note": "Alliierte landen auf Sizilien (10.07.1943)"
-  },
-  "672": {
-    "number": 672,
-    "date": "1943-07-21",
-    "event_en": "Kursk Cancelled",
-    "event_de": "Kursk Abbruch",
-    "location": {
-      "lat": 51.7373,
-      "lng": 36.1874,
-      "desc": "Kursk, Russia"
-    },
-    "historical_note": "Zitadelle wird abgebrochen"
-  },
-  "673": {
-    "number": 673,
-    "date": "1943-07-28",
-    "event_en": "Hamburg Firestorm",
-    "event_de": "Hamburg Feuersturm",
-    "location": {
-      "lat": 53.5511,
-      "lng": 9.9937,
-      "desc": "Hamburg, Germany"
-    },
-    "historical_note": "Operation Gomorrha (24.07.-03.08.1943)"
-  },
-  "674": {
-    "number": 674,
-    "date": "1943-08-04",
-    "event_en": "Mussolini Falls",
-    "event_de": "Mussolini Sturz",
-    "location": {
-      "lat": 41.9028,
-      "lng": 12.4964,
-      "desc": "Rome, Italy"
-    },
-    "historical_note": "Sturz Mussolinis (25.07.1943)"
-  },
-  "675": {
-    "number": 675,
-    "date": "1943-08-11",
-    "event_en": "Sicily Retreat",
-    "event_de": "Sizilien Rückzug",
-    "location": {
-      "lat": 37.5994,
-      "lng": 14.0154,
-      "desc": "Sicily, Italy"
-    },
-    "historical_note": "Evakuierung aus Sizilien"
-  },
-  "676": {
-    "number": 676,
-    "date": "1943-08-18",
-    "event_en": "Sicily Lost",
-    "event_de": "Sizilien verloren",
-    "location": {
-      "lat": 37.5994,
-      "lng": 14.0154,
-      "desc": "Sicily, Italy"
-    },
-    "historical_note": "Räumung Siziliens abgeschlossen (17.08.1943)"
-  },
-  "677": {
-    "number": 677,
-    "date": "1943-08-25",
-    "event_en": "Soviet Counter",
-    "event_de": "Sowjet Gegenoffensive",
-    "location": {
-      "lat": 55.7558,
-      "lng": 37.6173,
-      "desc": "Moscow, Russia"
-    },
-    "historical_note": "Sowjetische Sommeroffensive beginnt"
-  },
-  "679": {
-    "number": 679,
-    "date": "1943-09-08",
-    "event_en": "Italy Surrenders",
-    "event_de": "Italien Kapitulation",
-    "location": {
-      "lat": 41.9028,
-      "lng": 12.4964,
-      "desc": "Rome, Italy"
-    },
-    "historical_note": "Waffenstillstand mit Italien (08.09.1943)"
-  },
-  "680": {
-    "number": 680,
-    "date": "1943-09-15",
-    "event_en": "Mussolini Rescue",
-    "event_de": "Mussolini Befreiung",
-    "location": {
-      "lat": 42.4605,
-      "lng": 13.5628,
-      "desc": "Gran Sasso, Italy"
-    },
-    "historical_note": "Gran Sasso Raid - Befreiung Mussolinis (12.09.1943)"
-  },
-  "681": {
-    "number": 681,
-    "date": "1943-09-22",
-    "event_en": "Salerno Landing",
-    "event_de": "Salerno Landung",
-    "location": {
-      "lat": 40.6824,
-      "lng": 14.7681,
-      "desc": "Salerno, Italy"
-    },
-    "historical_note": "Alliierte landen bei Salerno (09.09.1943)"
-  },
-  "682": {
-    "number": 682,
-    "date": "1943-09-29",
-    "event_en": "Italy Front",
-    "event_de": "Italien Front",
-    "location": {
-      "lat": 41.9028,
-      "lng": 12.4964,
-      "desc": "Italy"
-    },
-    "historical_note": "Kämpfe in Süditalien"
-  },
-  "683": {
-    "number": 683,
-    "date": "1943-10-06",
-    "event_en": "Smolensk Freed",
-    "event_de": "Smolensk befreit",
-    "location": {
-      "lat": 54.7826,
-      "lng": 32.0453,
-      "desc": "Smolensk, Russia"
-    },
-    "historical_note": "Sowjets befreien Smolensk (25.09.1943)"
-  },
-  "684": {
-    "number": 684,
-    "date": "1943-10-13",
-    "event_en": "Dnepr Battles",
-    "event_de": "Dnepr Kämpfe",
-    "location": {
-      "lat": 50.4501,
-      "lng": 30.5234,
-      "desc": "Dnieper River, Ukraine"
-    },
-    "historical_note": "Schlacht um den Dnepr"
-  },
-  "685": {
-    "number": 685,
-    "date": "1943-10-20",
-    "event_en": "Kiev Advance",
-    "event_de": "Kiew Vormarsch",
-    "location": {
-      "lat": 50.4501,
-      "lng": 30.5234,
-      "desc": "Kyiv, Ukraine"
-    },
-    "historical_note": "Sowjets nähern sich Kiew"
-  },
-  "686": {
-    "number": 686,
-    "date": "1943-10-27",
-    "event_en": "Gustav Line",
-    "event_de": "Gustav Linie",
-    "location": {
-      "lat": 41.4905,
-      "lng": 13.8134,
-      "desc": "Monte Cassino, Italy"
-    },
-    "historical_note": "Deutsche errichten Gustav-Linie"
-  },
-  "687": {
-    "number": 687,
-    "date": "1943-11-03",
-    "event_en": "Kiev Battle",
-    "event_de": "Kiew Schlacht",
-    "location": {
-      "lat": 50.4501,
-      "lng": 30.5234,
-      "desc": "Kyiv, Ukraine"
-    },
-    "historical_note": "Kampf um Kiew"
-  },
-  "688": {
-    "number": 688,
-    "date": "1943-11-10",
-    "event_en": "Kiev Liberated",
-    "event_de": "Kiew befreit",
-    "location": {
-      "lat": 50.4501,
-      "lng": 30.5234,
-      "desc": "Kyiv, Ukraine"
-    },
-    "historical_note": "Befreiung Kiews (06.11.1943)"
-  },
-  "689": {
-    "number": 689,
-    "date": "1943-11-17",
-    "event_en": "Berlin Bombed",
-    "event_de": "Berlin Bomben",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Berlin, Germany"
-    },
-    "historical_note": "Battle of Berlin beginnt (18.11.1943)"
-  },
-  "690": {
-    "number": 690,
-    "date": "1943-11-24",
-    "event_en": "Tehran Conference",
-    "event_de": "Teheran Konferenz",
-    "location": {
-      "lat": 35.6892,
-      "lng": 51.389,
-      "desc": "Tehran, Iran"
-    },
-    "historical_note": "Konferenz von Teheran (28.11.-01.12.1943)"
-  },
-  "691": {
-    "number": 691,
-    "date": "1943-12-01",
-    "event_en": "Winter Battles",
-    "event_de": "Winterkämpfe",
-    "location": {
-      "lat": 55.0,
-      "lng": 30.0,
-      "desc": "Eastern Front"
-    },
-    "historical_note": "Winterkämpfe an der Ostfront"
-  },
-  "692": {
-    "number": 692,
-    "date": "1943-12-08",
-    "event_en": "Eastern Retreats",
-    "event_de": "Ostfront Rückzüge",
-    "location": {
-      "lat": 55.0,
-      "lng": 30.0,
-      "desc": "Eastern Front"
-    },
-    "historical_note": "Rückzugskämpfe im Osten"
-  },
-  "693": {
-    "number": 693,
-    "date": "1943-12-15",
-    "event_en": "Monte Cassino",
-    "event_de": "Monte Cassino",
-    "location": {
-      "lat": 41.4905,
-      "lng": 13.8134,
-      "desc": "Monte Cassino, Italy"
-    },
-    "historical_note": "Kämpfe um Monte Cassino beginnen"
-  },
-  "694": {
-    "number": 694,
-    "date": "1943-12-22",
-    "event_en": "Christmas 1943",
-    "event_de": "Weihnachten 1943",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Germany"
-    },
-    "historical_note": "Viertes Kriegsweihnachten"
-  },
-  "695": {
-    "number": 695,
-    "date": "1943-12-29",
-    "event_en": "Leningrad Prep",
-    "event_de": "Leningrad Vorbereitung",
-    "location": {
-      "lat": 59.9343,
-      "lng": 30.3351,
-      "desc": "Leningrad, Russia"
-    },
-    "historical_note": "Vorbereitung der Leningrad-Offensive"
-  },
-  "696": {
-    "number": 696,
-    "date": "1944-01-05",
-    "event_en": "New Year 1944",
-    "event_de": "Neujahr 1944",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Berlin, Germany"
-    },
-    "historical_note": "Fünftes Kriegsjahr beginnt"
-  },
-  "697": {
-    "number": 697,
-    "date": "1944-01-12",
-    "event_en": "Leningrad Relief",
-    "event_de": "Leningrad Entsetzen",
-    "location": {
-      "lat": 59.9343,
-      "lng": 30.3351,
-      "desc": "Leningrad, Russia"
-    },
-    "historical_note": "Offensive zur Befreiung Leningrads"
-  },
-  "698": {
-    "number": 698,
-    "date": "1944-01-19",
-    "event_en": "Leningrad Freed",
-    "event_de": "Leningrad befreit",
-    "location": {
-      "lat": 59.9343,
-      "lng": 30.3351,
-      "desc": "Leningrad, Russia"
-    },
-    "historical_note": "Ende der Blockade (27.01.1944)"
-  },
-  "699": {
-    "number": 699,
-    "date": "1944-01-26",
-    "event_en": "Anzio Landing",
-    "event_de": "Anzio Landung",
-    "location": {
-      "lat": 41.4475,
-      "lng": 12.6323,
-      "desc": "Anzio, Italy"
-    },
-    "historical_note": "Alliierte landen bei Anzio (22.01.1944)"
-  },
-  "700": {
-    "number": 700,
-    "date": "1944-02-02",
-    "event_en": "Korsun Pocket",
-    "event_de": "Tscherkassy Kessel",
-    "location": {
-      "lat": 49.1786,
-      "lng": 31.2513,
-      "desc": "Korsun, Ukraine"
-    },
-    "historical_note": "Kesselschlacht bei Tscherkassy"
-  },
-  "701": {
-    "number": 701,
-    "date": "1944-02-09",
-    "event_en": "Monte Cassino II",
-    "event_de": "Monte Cassino II",
-    "location": {
-      "lat": 41.4905,
-      "lng": 13.8134,
-      "desc": "Monte Cassino, Italy"
-    },
-    "historical_note": "Zweite Schlacht um Monte Cassino"
-  },
-  "702": {
-    "number": 702,
-    "date": "1944-02-16",
-    "event_en": "Cassino Bombed",
-    "event_de": "Cassino Bombardiert",
-    "location": {
-      "lat": 41.4905,
-      "lng": 13.8134,
-      "desc": "Monte Cassino, Italy"
-    },
-    "historical_note": "Bombardierung des Klosters (15.02.1944)"
-  },
-  "703": {
-    "number": 703,
-    "date": "1944-02-23",
-    "event_en": "Big Week",
-    "event_de": "Big Week",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Germany"
-    },
-    "historical_note": "Alliierte Luftoffensive gegen Luftwaffe"
-  },
-  "704": {
-    "number": 704,
-    "date": "1944-03-01",
-    "event_en": "Air Supremacy Lost",
-    "event_de": "Luftherrschaft verloren",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Germany"
-    },
-    "historical_note": "Allierte gewinnen Lufthoheit"
-  },
-  "705": {
-    "number": 705,
-    "date": "1944-03-08",
-    "event_en": "Cassino III",
-    "event_de": "Cassino III",
-    "location": {
-      "lat": 41.4905,
-      "lng": 13.8134,
-      "desc": "Monte Cassino, Italy"
-    },
-    "historical_note": "Dritte Schlacht um Monte Cassino"
-  },
-  "706": {
-    "number": 706,
-    "date": "1944-03-15",
-    "event_en": "Hungary Occupied",
-    "event_de": "Ungarn besetzt",
-    "location": {
-      "lat": 47.4979,
-      "lng": 19.0402,
-      "desc": "Budapest, Hungary"
-    },
-    "historical_note": "Operation Margarethe - Besetzung Ungarns (19.03.1944)"
-  },
-  "707": {
-    "number": 707,
-    "date": "1944-03-22",
-    "event_en": "Crimea Defense",
-    "event_de": "Krim Verteidigung",
-    "location": {
-      "lat": 44.9521,
-      "lng": 34.1024,
-      "desc": "Crimea"
-    },
-    "historical_note": "Kämpfe auf der Krim"
-  },
-  "708": {
-    "number": 708,
-    "date": "1944-03-29",
-    "event_en": "Eastern Spring",
-    "event_de": "Ostfront Frühjahr",
-    "location": {
-      "lat": 55.0,
-      "lng": 30.0,
-      "desc": "Eastern Front"
-    },
-    "historical_note": "Frühjahrsoffensiven im Osten"
-  },
-  "709": {
-    "number": 709,
-    "date": "1944-04-05",
-    "event_en": "Crimea Evacuation",
-    "event_de": "Krim Evakuierung",
-    "location": {
-      "lat": 44.9521,
-      "lng": 34.1024,
-      "desc": "Crimea"
-    },
-    "historical_note": "Rückzug von der Krim"
-  },
-  "710": {
-    "number": 710,
-    "date": "1944-04-12",
-    "event_en": "Crimea Lost",
-    "event_de": "Krim verloren",
-    "location": {
-      "lat": 44.9521,
-      "lng": 34.1024,
-      "desc": "Crimea"
-    },
-    "historical_note": "Sowjets erobern Krim zurück"
-  },
-  "711": {
-    "number": 711,
-    "date": "1944-04-19",
-    "event_en": "Invasion Expected",
-    "event_de": "Invasion Erwartet",
-    "location": {
-      "lat": 49.1829,
-      "lng": -0.3707,
-      "desc": "Normandy, France"
-    },
-    "historical_note": "Vorbereitung auf alliierte Invasion"
-  },
-  "712": {
-    "number": 712,
-    "date": "1944-04-26",
-    "event_en": "Atlantic Wall",
-    "event_de": "Atlantikwall",
-    "location": {
-      "lat": 49.1829,
-      "lng": -0.3707,
-      "desc": "Normandy, France"
-    },
-    "historical_note": "Ausbau des Atlantikwalls"
-  },
-  "713": {
-    "number": 713,
-    "date": "1944-05-03",
-    "event_en": "Sevastopol Falls",
-    "event_de": "Sewastopol gefallen",
-    "location": {
-      "lat": 44.6167,
-      "lng": 33.5254,
-      "desc": "Sevastopol, Crimea"
-    },
-    "historical_note": "Verlust von Sewastopol"
-  },
-  "714": {
-    "number": 714,
-    "date": "1944-05-10",
-    "event_en": "Cassino Final",
-    "event_de": "Cassino Finale",
-    "location": {
-      "lat": 41.4905,
-      "lng": 13.8134,
-      "desc": "Monte Cassino, Italy"
-    },
-    "historical_note": "Vierte Schlacht um Monte Cassino"
-  },
-  "715": {
-    "number": 715,
-    "date": "1944-05-17",
-    "event_en": "Cassino Falls",
-    "event_de": "Cassino gefallen",
-    "location": {
-      "lat": 41.4905,
-      "lng": 13.8134,
-      "desc": "Monte Cassino, Italy"
-    },
-    "historical_note": "Fall von Monte Cassino (18.05.1944)"
-  },
-  "716": {
-    "number": 716,
-    "date": "1944-05-24",
-    "event_en": "Rome Offensive",
-    "event_de": "Rom Offensive",
-    "location": {
-      "lat": 41.9028,
-      "lng": 12.4964,
-      "desc": "Rome, Italy"
-    },
-    "historical_note": "Vormarsch auf Rom"
-  },
-  "717": {
-    "number": 717,
-    "date": "1944-05-31",
-    "event_en": "Italy Retreat",
-    "event_de": "Italien Rückzug",
-    "location": {
-      "lat": 41.9028,
-      "lng": 12.4964,
-      "desc": "Italy"
-    },
-    "historical_note": "Rückzug in Italien"
-  },
-  "718": {
-    "number": 718,
-    "date": "1944-06-07",
-    "event_en": "D-Day",
-    "event_de": "D-Day",
-    "location": {
-      "lat": 49.3385,
-      "lng": -0.8638,
-      "desc": "Omaha Beach, Normandy"
-    },
-    "historical_note": "ALLIIERTE INVASION NORMANDIE (06.06.1944)"
-  },
-  "719": {
-    "number": 719,
-    "date": "1944-06-14",
-    "event_en": "Rome Falls",
-    "event_de": "Rom gefallen",
-    "location": {
-      "lat": 41.9028,
-      "lng": 12.4964,
-      "desc": "Rome, Italy"
-    },
-    "historical_note": "Fall von Rom (04.06.1944)"
-  },
-  "720": {
-    "number": 720,
-    "date": "1944-06-21",
-    "event_en": "V1 Attacks",
-    "event_de": "V1 Angriffe",
-    "location": {
-      "lat": 51.5074,
-      "lng": -0.1278,
-      "desc": "London, England"
-    },
-    "historical_note": "V1-Angriffe auf London beginnen (13.06.1944)"
-  },
-  "721": {
-    "number": 721,
-    "date": "1944-06-28",
-    "event_en": "Bagration Begins",
-    "event_de": "Bagration beginnt",
-    "location": {
-      "lat": 53.9045,
-      "lng": 27.5615,
-      "desc": "Belarus"
-    },
-    "historical_note": "Operation Bagration - Katastrophe (22.06.1944)"
-  },
-  "722": {
-    "number": 722,
-    "date": "1944-07-05",
-    "event_en": "Bagration",
-    "event_de": "Bagration Durchbruch",
-    "location": {
-      "lat": 53.9045,
-      "lng": 27.5615,
-      "desc": "Minsk, Belarus"
-    },
-    "historical_note": "Zusammenbruch der Heeresgruppe Mitte"
-  },
-  "723": {
-    "number": 723,
-    "date": "1944-07-12",
-    "event_en": "Minsk Liberated",
-    "event_de": "Minsk befreit",
-    "location": {
-      "lat": 53.9045,
-      "lng": 27.5615,
-      "desc": "Minsk, Belarus"
-    },
-    "historical_note": "Befreiung Minsks (03.07.1944)"
-  },
-  "724": {
-    "number": 724,
-    "date": "1944-07-19",
-    "event_en": "July 20 Plot",
-    "event_de": "20. Juli Attentat",
-    "location": {
-      "lat": 54.0833,
-      "lng": 21.1167,
-      "desc": "Wolf's Lair, East Prussia"
-    },
-    "historical_note": "STAUFFENBERG-ATTENTAT (20.07.1944)"
-  },
-  "725": {
-    "number": 725,
-    "date": "1944-07-26",
-    "event_en": "Warsaw Uprising",
-    "event_de": "Warschauer Aufstand",
-    "location": {
-      "lat": 52.2297,
-      "lng": 21.0122,
-      "desc": "Warsaw, Poland"
-    },
-    "historical_note": "Warschauer Aufstand beginnt (01.08.1944)"
-  },
-  "726": {
-    "number": 726,
-    "date": "1944-08-02",
-    "event_en": "Paris Threatened",
-    "event_de": "Paris bedroht",
-    "location": {
-      "lat": 48.8566,
-      "lng": 2.3522,
-      "desc": "Paris, France"
-    },
-    "historical_note": "Alliierte nähern sich Paris"
-  },
-  "727": {
-    "number": 727,
-    "date": "1944-08-09",
-    "event_en": "Falaise Pocket",
-    "event_de": "Falaise Kessel",
-    "location": {
-      "lat": 48.8955,
-      "lng": -0.1944,
-      "desc": "Falaise, France"
-    },
-    "historical_note": "Einschließung bei Falaise"
-  },
-  "728": {
-    "number": 728,
-    "date": "1944-08-16",
-    "event_en": "Paris Liberated",
-    "event_de": "Paris befreit",
-    "location": {
-      "lat": 48.8566,
-      "lng": 2.3522,
-      "desc": "Paris, France"
-    },
-    "historical_note": "Befreiung von Paris (25.08.1944)"
-  },
-  "729": {
-    "number": 729,
-    "date": "1944-08-23",
-    "event_en": "Romania Surrenders",
-    "event_de": "Rumänien Kapitulation",
-    "location": {
-      "lat": 44.4268,
-      "lng": 26.1025,
-      "desc": "Bucharest, Romania"
-    },
-    "historical_note": "Rumänien wechselt die Seiten (23.08.1944)"
-  },
-  "730": {
-    "number": 730,
-    "date": "1944-08-30",
-    "event_en": "France Retreat",
-    "event_de": "Rückzug Frankreich",
-    "location": {
-      "lat": 48.8566,
-      "lng": 2.3522,
-      "desc": "France"
-    },
-    "historical_note": "Allgemeiner Rückzug aus Frankreich"
-  },
-  "731": {
-    "number": 731,
-    "date": "1944-09-06",
-    "event_en": "Finland Surrenders",
-    "event_de": "Finnland Kapitulation",
-    "location": {
-      "lat": 60.1699,
-      "lng": 24.9384,
-      "desc": "Helsinki, Finland"
-    },
-    "historical_note": "Waffenstillstand mit Finnland (04.09.1944)"
-  },
-  "732": {
-    "number": 732,
-    "date": "1944-09-13",
-    "event_en": "Reich Border",
-    "event_de": "Reichsgrenze erreicht",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Germany"
-    },
-    "historical_note": "Alliierte erreichen deutsche Grenze"
-  },
-  "733": {
-    "number": 733,
-    "date": "1944-09-20",
-    "event_en": "Market Garden",
-    "event_de": "Market Garden",
-    "location": {
-      "lat": 51.9851,
-      "lng": 5.8987,
-      "desc": "Arnhem, Netherlands"
-    },
-    "historical_note": "Operation Market Garden (17.-25.09.1944)"
-  },
-  "734": {
-    "number": 734,
-    "date": "1944-09-27",
-    "event_en": "Arnhem Victory",
-    "event_de": "Arnheim Sieg",
-    "location": {
-      "lat": 51.9851,
-      "lng": 5.8987,
-      "desc": "Arnhem, Netherlands"
-    },
-    "historical_note": "Deutsche Abwehrerfolg bei Arnheim"
-  },
-  "735": {
-    "number": 735,
-    "date": "1944-10-04",
-    "event_en": "Aachen Battle",
-    "event_de": "Aachen Kampf",
-    "location": {
-      "lat": 50.7753,
-      "lng": 6.0839,
-      "desc": "Aachen, Germany"
-    },
-    "historical_note": "Schlacht um Aachen"
-  },
-  "736": {
-    "number": 736,
-    "date": "1944-10-11",
-    "event_en": "Aachen Falls",
-    "event_de": "Aachen gefallen",
-    "location": {
-      "lat": 50.7753,
-      "lng": 6.0839,
-      "desc": "Aachen, Germany"
-    },
-    "historical_note": "Fall von Aachen (21.10.1944)"
-  },
-  "737": {
-    "number": 737,
-    "date": "1944-10-18",
-    "event_en": "Volkssturm",
-    "event_de": "Volkssturm",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Germany"
-    },
-    "historical_note": "Aufstellung des Volkssturms (18.10.1944)"
-  },
-  "738": {
-    "number": 738,
-    "date": "1944-10-25",
-    "event_en": "East Prussia",
-    "event_de": "Ostpreußen Invasion",
-    "location": {
-      "lat": 54.352,
-      "lng": 18.6466,
-      "desc": "East Prussia"
-    },
-    "historical_note": "Sowjets in Ostpreußen"
-  },
-  "739": {
-    "number": 739,
-    "date": "1944-11-01",
-    "event_en": "East Prussia Defense",
-    "event_de": "Ostpreußen Verteidigung",
-    "location": {
-      "lat": 54.352,
-      "lng": 18.6466,
-      "desc": "East Prussia"
-    },
-    "historical_note": "Kämpfe in Ostpreußen"
-  },
-  "740": {
-    "number": 740,
-    "date": "1944-11-08",
-    "event_en": "V2 Attacks",
-    "event_de": "V2 Angriffe",
-    "location": {
-      "lat": 51.5074,
-      "lng": -0.1278,
-      "desc": "London, England"
-    },
-    "historical_note": "V2-Angriffe auf London und Antwerpen"
-  },
-  "741": {
-    "number": 741,
-    "date": "1944-11-15",
-    "event_en": "Budapest Encircled",
-    "event_de": "Budapest eingekesselt",
-    "location": {
-      "lat": 47.4979,
-      "lng": 19.0402,
-      "desc": "Budapest, Hungary"
-    },
-    "historical_note": "Einschließung von Budapest beginnt"
-  },
-  "742": {
-    "number": 742,
-    "date": "1944-11-22",
-    "event_en": "Strasbourg Liberated",
-    "event_de": "Straßburg befreit",
-    "location": {
-      "lat": 48.5734,
-      "lng": 7.7521,
-      "desc": "Strasbourg, France"
-    },
-    "historical_note": "Befreiung von Straßburg (23.11.1944)"
-  },
-  "743": {
-    "number": 743,
-    "date": "1944-11-29",
-    "event_en": "Ardennes Planning",
-    "event_de": "Ardennen Planung",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Berlin, Germany"
-    },
-    "historical_note": "Vorbereitung Ardennenoffensive"
-  },
-  "744": {
-    "number": 744,
-    "date": "1944-12-06",
-    "event_en": "Last Offensive",
-    "event_de": "Letzte Offensive",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Germany"
-    },
-    "historical_note": "Planung Wacht am Rhein"
-  },
-  "745": {
-    "number": 745,
-    "date": "1944-12-13",
-    "event_en": "Ardennes Ready",
-    "event_de": "Ardennen Bereit",
-    "location": {
-      "lat": 50.2,
-      "lng": 5.8,
-      "desc": "Ardennes, Belgium"
-    },
-    "historical_note": "Aufmarsch für Ardennenoffensive"
-  },
-  "746": {
-    "number": 746,
-    "date": "1944-12-20",
-    "event_en": "Ardennes Offensive",
-    "event_de": "Ardennen Offensive",
-    "location": {
-      "lat": 50.2,
-      "lng": 5.8,
-      "desc": "Ardennes, Belgium"
-    },
-    "historical_note": "LETZTE DEUTSCHE OFFENSIVE (16.12.1944)"
-  },
-  "747": {
-    "number": 747,
-    "date": "1944-12-27",
-    "event_en": "Ardennes Peak",
-    "event_de": "Ardennen Höhepunkt",
-    "location": {
-      "lat": 50.0833,
-      "lng": 5.7833,
-      "desc": "Bastogne, Belgium"
-    },
-    "historical_note": "Höhepunkt der Ardennenoffensive"
-  },
-  "748": {
-    "number": 748,
-    "date": "1945-01-03",
-    "event_en": "Northwind Offensive",
-    "event_de": "Nordwind Offensive",
-    "location": {
-      "lat": 48.8,
-      "lng": 7.8,
-      "desc": "Alsace, France"
-    },
-    "historical_note": "Operation Nordwind im Elsass"
-  },
-  "749": {
-    "number": 749,
-    "date": "1945-01-10",
-    "event_en": "Ardennes Fails",
-    "event_de": "Ardennen scheitert",
-    "location": {
-      "lat": 50.2,
-      "lng": 5.8,
-      "desc": "Ardennes, Belgium"
-    },
-    "historical_note": "Rückzug aus den Ardennen"
-  },
-  "750": {
-    "number": 750,
-    "date": "1945-01-17",
-    "event_en": "Vistula Offensive",
-    "event_de": "Weichsel Offensive",
-    "location": {
-      "lat": 52.2297,
-      "lng": 21.0122,
-      "desc": "Vistula River, Poland"
-    },
-    "historical_note": "Weichsel-Oder-Operation beginnt (12.01.1945)"
-  },
-  "751": {
-    "number": 751,
-    "date": "1945-01-24",
-    "event_en": "Eastern Collapse",
-    "event_de": "Ostfront Zusammenbruch",
-    "location": {
-      "lat": 52.2297,
-      "lng": 21.0122,
-      "desc": "Poland"
-    },
-    "historical_note": "Zusammenbruch der Ostfront"
-  },
-  "752": {
-    "number": 752,
-    "date": "1945-01-31",
-    "event_en": "Auschwitz Liberated",
-    "event_de": "Auschwitz befreit",
-    "location": {
-      "lat": 50.0343,
-      "lng": 19.1783,
-      "desc": "Auschwitz, Poland"
-    },
-    "historical_note": "Befreiung von Auschwitz (27.01.1945)"
-  },
-  "753": {
-    "number": 753,
-    "date": "1945-02-07",
-    "event_en": "Yalta Conference",
-    "event_de": "Jalta Konferenz",
-    "location": {
-      "lat": 44.4952,
-      "lng": 34.1615,
-      "desc": "Yalta, Crimea"
-    },
-    "historical_note": "Konferenz von Jalta (04.-11.02.1945)"
-  },
-  "754": {
-    "number": 754,
-    "date": "1945-02-14",
-    "event_en": "Dresden Bombed",
-    "event_de": "Dresden Bomben",
-    "location": {
-      "lat": 51.0504,
-      "lng": 13.7373,
-      "desc": "Dresden, Germany"
-    },
-    "historical_note": "Bombardierung Dresdens (13.-15.02.1945)"
-  },
-  "755": {
-    "number": 755,
-    "date": "1945-02-21",
-    "event_en": "Final Newsreel",
-    "event_de": "Letzte Wochenschau",
-    "location": {
-      "lat": 52.52,
-      "lng": 13.405,
-      "desc": "Berlin, Germany"
-    },
-    "historical_note": "LETZTE WOCHENSCHAU - Hitlers letzter Auftritt"
-  }
+ "459": {
+  "number": 459,
+  "date": "1939-06-21",
+  "event_en": "Fleet manoeuvres & Goebbels in Danzig",
+  "event_de": "Flottenmanöver & Danzig",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Deutsche Bucht / Nordsee (Marine)"
+  },
+  "historical_note": "Deutsche Kriegsmarine-Manöver und Flottengeschichte (Scapa Flow) - Goebbels-Rede bei NS-Kundgebung im Stadttheater Danzig - Indianapolis-500-Rennen und Großdeutschlandfahrt - Fußball-Endspiel Schalke 04 gegen Admira Wien (9:0)"
+ },
+ "468": {
+  "number": 468,
+  "date": "1939-08-23",
+  "event_en": "Danzig crisis & German-Soviet Pact",
+  "event_de": "Danzig-Krise & Hitler-Stalin-Pakt",
+  "location": {
+   "lat": 55.7558,
+   "lng": 37.6173,
+   "desc": "Danzig / Ostpreußen"
+  },
+  "historical_note": "Marine-HJ-Donaufahrt mit 60 Booten von Passau nach Budapest - italienische Großmanöver in Turin - propagandistischer Rückblick auf Versailles, Abtrennung Ostpreußens und Status Danzigs - Westerplatte und Ausbau Gdingens - Meldung über deuts"
+ },
+ "470": {
+  "number": 470,
+  "date": "1939-09-07",
+  "event_en": "Invasion of Poland",
+  "event_de": "Überfall auf Polen",
+  "location": {
+   "lat": 52.2297,
+   "lng": 21.0122,
+   "desc": "Polen (Westerplatte, Grenzgebiet)"
+  },
+  "historical_note": "Propagandistische Darstellung angeblicher polnischer Übergriffe (Beerdigung Joseph Wessel, Flucht der Volksdeutschen, zerstörte Höfe) - deutsche Truppen überschreiten die polnische Grenze - schneller Vormarsch, Luftwaffe-Luftüberlegenheit u"
+ },
+ "471": {
+  "number": 471,
+  "date": "1939-09-14",
+  "event_en": "Poland campaign & Göring speech",
+  "event_de": "Polenfeldzug & Göring-Rede",
+  "location": {
+   "lat": 52.2297,
+   "lng": 21.0122,
+   "desc": "Polen (u.a. Bromberg)"
+  },
+  "historical_note": "Generalfeldmarschall Göring spricht vor Arbeitern der Berliner Rheinmetall-Borsig-Werke - deutscher Vormarsch in Polen - propagandistische Darstellung des Bromberg-Vorfalls, polnische Kriegsgefangene in Lagern - Hitler bei der Truppe"
+ },
+ "472": {
+  "number": 472,
+  "date": "1939-09-20",
+  "event_en": "Warsaw Encircled",
+  "event_de": "Warschau eingekesselt",
+  "location": {
+   "lat": 52.2297,
+   "lng": 21.0122,
+   "desc": "Warsaw, Poland"
+  },
+  "historical_note": "Einschließung Warschaus"
+ },
+ "473": {
+  "number": 473,
+  "date": "1939-09-27",
+  "event_en": "End of Poland campaign & Hitler in Danzig",
+  "event_de": "Ende Polenfeldzug & Hitler in Danzig",
+  "location": {
+   "lat": 52.2297,
+   "lng": 21.0122,
+   "desc": "Polen"
+  },
+  "historical_note": "Dritte Woche des Polenfeldzugs: Luftwaffe, Infanterie und Panzer verfolgen weichende polnische Truppen - ausländische Militärattachés beobachten den Vormarsch - Demarkationslinien-Verhandlungen bei Brest-Litowsk - Ende des Feldzugs nach 18 "
+ },
+ "474": {
+  "number": 474,
+  "date": "1939-10-04",
+  "event_en": "Fall of Warsaw & home front",
+  "event_de": "Fall Warschau & Heimatfront",
+  "location": {
+   "lat": 52.2297,
+   "lng": 21.0122,
+   "desc": "Warschau"
+  },
+  "historical_note": "Staatsbegräbnis für Generaloberst Frhr. von Fritsch (bei Warschau gefallen) - Kapitulation Warschaus am 27. September - Jugendeinsatz an der Heimatfront (Feuerwehr, Feldarbeit, Zootiere in der Landwirtschaft) - BDM besucht Verwundete - Vers"
+ },
+ "477": {
+  "number": 477,
+  "date": "1939-10-25",
+  "event_en": "Nordic states conference & Panama neutrality",
+  "event_de": "Stockholm-Konferenz & Panama",
+  "location": {
+   "lat": 52.2297,
+   "lng": 21.0122,
+   "desc": "Stockholm/Skandinavien (Diplomatie)"
+  },
+  "historical_note": "Konferenz der nordischen Staaten in Stockholm zu Abwehrmassnahmen gegen die englische Blockade - Einstimmige Neutralitaetserklaerung der amerikanischen Republiken in Panama - Wiederaufbau der Industrieanlagen in Oberschlesien - NSV-Hilfswer"
+ },
+ "480": {
+  "number": 480,
+  "date": "1939-11-14",
+  "event_en": "Munich Buergerbraeukeller bombing memorial",
+  "event_de": "Buergerbraeukeller-Attentat",
+  "location": {
+   "lat": 48.1351,
+   "lng": 11.582,
+   "desc": "Muenchen (Heimatfront/Politik)"
+  },
+  "historical_note": "Trauerfeier nach dem Bombenanschlag im Muenchener Buergerbraeukeller vom 8. November 1939 mit Hitler und Hess - Unruhen in Indien gegen die britische Herrschaft - Wiederaufnahme der Industrieproduktion im besetzten Polen - Meldehunde und Br"
+ },
+ "482": {
+  "number": 482,
+  "date": "1939-11-29",
+  "event_en": "Baltic-German resettlement to Posen",
+  "event_de": "Baltendeutsche 'Heim ins Reich'",
+  "location": {
+   "lat": 60.1699,
+   "lng": 24.9384,
+   "desc": "Posen/Ostgebiete (Umsiedlung)"
+  },
+  "historical_note": "Umsiedlung der Baltendeutschen/Volksdeutschen ('Heim ins Reich'), Ankunft in Posen, Betreuung durch Rotes Kreuz und NSV - Vormilitaerische Ausbildung der Hitlerjugend und Uebung eines Gebirgsjaeger-Regiments - Anerkennung der Westwall-Arbei"
+ },
+ "483": {
+  "number": 483,
+  "date": "1939-12-06",
+  "event_en": "Kriegsmarine naval operations & U-boat returns",
+  "event_de": "Kriegsmarine & U-Boote",
+  "location": {
+   "lat": 60.1699,
+   "lng": 24.9384,
+   "desc": "Nordsee/Atlantik (Seekrieg)"
+  },
+  "historical_note": "Kriegsmarine: Minensuche, Kontrolle von Handelsschiffen, Aufbringung feindlicher Schiffe und Rueckkehr erfolgreicher U-Boote mit gekaperten Schiffen - Vereidigung von 4.000 Freiwilligen des Roten Kreuzes im Berliner Sportpalast - Westwall-A"
+ },
+ "488": {
+  "number": 488,
+  "date": "1940-01-10",
+  "event_en": "Recruit oath in Posen & armaments industry",
+  "event_de": "Rekrutenvereidigung Posen & Ruestung",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Posen (Militaer/Ostgebiete)"
+  },
+  "historical_note": "Erste Rekrutenvereidigung in Posen seit Kriegsbeginn und Infanterie-Ausbildung - Ruestungs- und Munitionsindustrie in Tag- und Nachtbetrieb - Englands Rueckschlaege in Uebersee unter japanischem Druck - Skispringen in Garmisch-Partenkirchen"
+ },
+ "491": {
+  "number": 491,
+  "date": "1940-01-31",
+  "event_en": "Synthetic-fuel plant & severe winter in Holland",
+  "event_de": "Hydrierwerk & Eiswinter Holland",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Norddeutschland (Kriegswirtschaft/Treibstoff)"
+  },
+  "historical_note": "Bau eines grossen Hydrierwerks in Norddeutschland zur Unabhaengigkeit von Benzinimporten - Strenger Winter in Holland: Eisbrecher halten Schifffahrtswege frei, eingeschlossene Inselbewohner werden per Flugzeug versorgt - Frontsoldaten sehen"
+ },
+ "492": {
+  "number": 492,
+  "date": "1940-02-07",
+  "event_en": "Garmisch winter sports & Hitler Sportpalast speech",
+  "event_de": "Garmisch & Hitler-Rede",
+  "location": {
+   "lat": 58.969,
+   "lng": 5.7331,
+   "desc": "Heimatfront / Reich"
+  },
+  "historical_note": "Deutsche Kampfwoche fuer Wintersport in Garmisch-Partenkirchen - Hitler-Rede am 30. Januar im Berliner Sportpalast - Schlussbericht: Luftwaffe gegen Englands Seeverkehr"
+ },
+ "493": {
+  "number": 493,
+  "date": "1940-02-14",
+  "event_en": "Westwall workers & frozen Rhine winter, Western Front air defense",
+  "event_de": "Westwall & Eiswinter",
+  "location": {
+   "lat": 60.1699,
+   "lng": 24.9384,
+   "desc": "Heimatfront / Reich"
+  },
+  "historical_note": "Heimatfront im strengen Winter: Genesungsheim fuer Westwall-Arbeiter (Dr. Todt) auf der Plassenburg, Winterhilfswerk-Lotterie, zugefrorener Rhein - Flugzeugproduktion - Westfront: Luftabwehr gegen feindliche Bomber und Minenraeumen/U-Boot-A"
+ },
+ "496": {
+  "number": 496,
+  "date": "1940-03-06",
+  "event_en": "Sumner Welles diplomatic mission & Leipzig fair",
+  "event_de": "Welles-Mission & Leipzig",
+  "location": {
+   "lat": 60.1699,
+   "lng": 24.9384,
+   "desc": "Diplomatie / Reich"
+  },
+  "historical_note": "US-Unterstaatssekretaer Sumner Welles auf Friedensmission - Treffen mit Mussolini in Italien, dann mit Hitler in Berlin - Goebbels eroeffnet erste Kriegs-Leipziger Messe - U-Boot kehrt von Feindfahrt zurueck, Doenitz verleiht Auszeichnungen"
+ },
+ "497": {
+  "number": 497,
+  "date": "1940-03-13",
+  "event_en": "Atlantic Naval War",
+  "event_de": "Seekrieg Atlantik",
+  "location": {
+   "lat": 45.0,
+   "lng": -30.0,
+   "desc": "Atlantic Ocean"
+  },
+  "historical_note": "U-Boot-Krieg intensiviert sich"
+ },
+ "499": {
+  "number": 499,
+  "date": "1940-03-27",
+  "event_en": "War Preparations",
+  "event_de": "Kriegsvorbereitung",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Berlin, Germany"
+  },
+  "historical_note": "Planung Weserübung"
+ },
+ "502": {
+  "number": 502,
+  "date": "1940-04-17",
+  "event_en": "Operation Weseruebung: Denmark & Norway landings",
+  "event_de": "Daenemark & Norwegen",
+  "location": {
+   "lat": 59.9139,
+   "lng": 10.7522,
+   "desc": "Daenemark"
+  },
+  "historical_note": "Unternehmen Weseruebung: deutsche Landung in Daenemark (Kopenhagen), Entladen von Waffen und Nachschub - Landungen und Kaempfe in Norwegen (Oslo, Bergen), Sicherung von Flugplaetzen und Haefen trotz britischer Minensperren"
+ },
+ "504": {
+  "number": 504,
+  "date": "1940-05-03",
+  "event_en": "Norway campaign & Ribbentrop statement",
+  "event_de": "Norwegen & Ribbentrop",
+  "location": {
+   "lat": 68.4385,
+   "lng": 17.4272,
+   "desc": "Norwegen"
+  },
+  "historical_note": "Norwegen-Feldzug: Truppenbewegungen, Niederschlagung von Widerstand, Flugabwehr - Regierungserklaerung von Aussenminister von Ribbentrop - Wehrmachts-Uebungen an der Westfront"
+ },
+ "505": {
+  "number": 505,
+  "date": "1940-05-08",
+  "event_en": "May Day at Krupp (Hess) & Norway campaign",
+  "event_de": "1. Mai Krupp & Norwegen",
+  "location": {
+   "lat": 50.8503,
+   "lng": 4.3517,
+   "desc": "Heimatfront / Ruestung"
+  },
+  "historical_note": "1. Mai / Tag der Arbeit bei Krupp in Essen mit Rudolf Hess, Ruestungsproduktion (Schrott/Kupfer, Kohlelieferungen nach Italien) - Norwegen-Feldzug, Gefangennahme britischer Soldaten - Westfront: Artillerie und franzoesische Gefangene, Lufta"
+ },
+ "506": {
+  "number": 506,
+  "date": "1940-05-15",
+  "event_en": "Rotterdam Blitz",
+  "event_de": "Rotterdam bombardiert",
+  "location": {
+   "lat": 51.9244,
+   "lng": 4.4777,
+   "desc": "Rotterdam, Netherlands"
+  },
+  "historical_note": "Luftangriff Rotterdam (14.05.1940)"
+ },
+ "507": {
+  "number": 507,
+  "date": "1940-05-22",
+  "event_en": "Sedan Advance",
+  "event_de": "Durchbruch Sedan",
+  "location": {
+   "lat": 49.7017,
+   "lng": 4.9403,
+   "desc": "Sedan, France"
+  },
+  "historical_note": "Panzerdurchbruch bei Sedan (13.-15.05.1940)"
+ },
+ "508": {
+  "number": 508,
+  "date": "1940-05-30",
+  "event_en": "Narvik & Western Campaign",
+  "event_de": "Narvik & Westfeldzug",
+  "location": {
+   "lat": 51.0343,
+   "lng": 2.3768,
+   "desc": "Norwegen (Narvik)"
+  },
+  "historical_note": "Nordfront: Stellungskampf bei Narvik in Norwegen - Westfront: Einnahme von Antwerpen, Löwen und Brüssel, deutscher Vorstoß zur Kanalküste"
+ },
+ "509": {
+  "number": 509,
+  "date": "1940-06-07",
+  "event_en": "Dunkirk & Belgian Capitulation",
+  "event_de": "Dünkirchen & Belgien-Kapitulation",
+  "location": {
+   "lat": 51.0343,
+   "lng": 2.3768,
+   "desc": "Flandern/Belgien"
+  },
+  "historical_note": "Folgen der belgischen Kapitulation (28.05.1940) - britisch-französische Evakuierung bei Dünkirchen und der Kessel von Flandern"
+ },
+ "510": {
+  "number": 510,
+  "date": "1940-06-12",
+  "event_en": "France Collapsing",
+  "event_de": "Frankreich Zusammenbruch",
+  "location": {
+   "lat": 48.8566,
+   "lng": 2.3522,
+   "desc": "France"
+  },
+  "historical_note": "Fall Rot, Vorstoß nach Paris"
+ },
+ "511": {
+  "number": 511,
+  "date": "1940-06-20",
+  "event_en": "Somme Advance & Versailles",
+  "event_de": "Somme-Vorstoß & Versailles",
+  "location": {
+   "lat": 48.8566,
+   "lng": 2.3522,
+   "desc": "Frankreich/Somme"
+  },
+  "historical_note": "Westfeldzug: Luftwaffenangriff auf Le Havre und englisch-französische Transportflotte - Infanterievorstoß über die Somme bei Amiens - Hissen der Hakenkreuzflagge in Versailles und am Eiffelturm, Vormarsch auf Verdun"
+ },
+ "512": {
+  "number": 512,
+  "date": "1940-06-27",
+  "event_en": "Armistice of Compiègne",
+  "event_de": "Waffenstillstand von Compiègne",
+  "location": {
+   "lat": 49.4272,
+   "lng": 2.8322,
+   "desc": "Elsass-Lothringen"
+  },
+  "historical_note": "Abschluss des Westfeldzugs: Rückeroberung von Straßburg, Metz und Verdun - Hitler-Mussolini-Treffen in München - deutsche Truppenparade in Paris - Waffenstillstand im Wald von Compiègne (22.06.1940)"
+ },
+ "513": {
+  "number": 513,
+  "date": "1940-07-03",
+  "event_en": "Post-France Victory & Air War vs England",
+  "event_de": "Nach Frankreichsieg & Luftkrieg England",
+  "location": {
+   "lat": 49.4657,
+   "lng": -2.5853,
+   "desc": "Besetztes Frankreich"
+  },
+  "historical_note": "Rückblick auf den Frankreichfeldzug: Wiederaufbau in Belgien/Frankreich/Niederlande, Kriegsgefangene - erste Truppentransporte nach Paris - britische Luftangriffe auf West-/Norddeutschland und beginnender Luftkrieg gegen England"
+ },
+ "514": {
+  "number": 514,
+  "date": "1940-07-10",
+  "event_en": "Hitler in France & Captured Weapons",
+  "event_de": "Hitler in Frankreich & Beutewaffen",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Frankreich/Westfront"
+  },
+  "historical_note": "Der Führer an der Westfront / in Frankreich, Maginot-Linie - Unterzeichnung des Schlussdokuments der deutsch-französischen Waffenstillstandskommission in Wiesbaden - in Frankreich erbeutete Waffen (Flugzeuge, Geschütze, Panzer) - Hitlers Rü"
+ },
+ "515": {
+  "number": 515,
+  "date": "1940-07-18",
+  "event_en": "Ciano in Munich & North Africa",
+  "event_de": "Ciano in München & Nordafrika",
+  "location": {
+   "lat": 51.5074,
+   "lng": -0.1278,
+   "desc": "Achsen-Diplomatie (München)"
+  },
+  "historical_note": "Ciano in Berlin und München (7.-10.7.1940), Treffen Ribbentrop/Ciano/Teleki/Csáki in München (10.7.) - Britische Truppen in Nordafrika - Frankreich unter deutscher Besatzung; Verwundetenversorgung; U-Boot-Krieg"
+ },
+ "516": {
+  "number": 516,
+  "date": "1940-07-22",
+  "event_en": "Reichstag speech & Alpine front",
+  "event_de": "Reichstagsrede & Alpenfront",
+  "location": {
+   "lat": 51.5074,
+   "lng": -0.1278,
+   "desc": "Westalpenfront (Italien/Frankreich)"
+  },
+  "historical_note": "Italienischer Vormarsch im französischen Alpengebiet - Italienische Truppen in Somaliland und Abessinien - Reichstagssitzung am 19.7.1940 mit Rede Hitlers - Einzug deutscher Truppen in Berlin nach dem Frankreich-Feldzug"
+ },
+ "517": {
+  "number": 517,
+  "date": "1940-07-31",
+  "event_en": "Eagle Day Planning",
+  "event_de": "Adlertag Planung",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Berlin, Germany"
+  },
+  "historical_note": "Vorbereitung Adlerangriff"
+ },
+ "518": {
+  "number": 518,
+  "date": "1940-08-07",
+  "event_en": "Channel Islands & air war Hamburg",
+  "event_de": "Kanalinseln & Luftkrieg Hamburg",
+  "location": {
+   "lat": 50.9,
+   "lng": 1.4,
+   "desc": "Kanalinseln (Guernsey/Jersey)"
+  },
+  "historical_note": "Krieg im Kanalgebiet: Besetzung der Inseln Guernsey und Jersey - Britische Luftangriffe auf Hamburg - Kriegshilfswerk des Deutschen Roten Kreuzes; Zirkus Hagenbeck; Kunstausstellung München; Panzerherstellung; Besetzung Frankreichs"
+ },
+ "519": {
+  "number": 519,
+  "date": "1940-08-16",
+  "event_en": "Channel war & Saar repatriation",
+  "event_de": "Kanalkrieg & Saar-Rückführung",
+  "location": {
+   "lat": 51.5074,
+   "lng": -0.1278,
+   "desc": "Nordsee/Kanalgebiet (Seekrieg)"
+  },
+  "historical_note": "Krieg in der Nordsee und im Kanalgebiet (Kreuzer/Zerstörer-Verbände, Stuka-Angriffe, Schnellboote) - Rückführung der evakuierten saarländischen Bevölkerung - Gebirgsmotorsportschule des NSKK / Marine-HJ; Erzabbau in Leoben; Hitler in Essen;"
+ },
+ "520": {
+  "number": 520,
+  "date": "1940-08-23",
+  "event_en": "Field Marshals & British Somaliland",
+  "event_de": "Feldmarschälle & Brit.-Somaliland",
+  "location": {
+   "lat": 51.5074,
+   "lng": -0.1278,
+   "desc": "Berlin (Feldmarschall-Ernennungen)"
+  },
+  "historical_note": "Ernennung Görings, Keitels u.a. zu Generalfeldmarschällen (Überreichung der Marschallstäbe durch Hitler) - Räumung von Britisch-Somaliland durch die Engländer - 28. Deutsche Ostmesse Königsberg; Studienkommission der Wehrmacht in Italien; K"
+ },
+ "521": {
+  "number": 521,
+  "date": "1940-08-28",
+  "event_en": "London Bombed",
+  "event_de": "London Bombardiert",
+  "location": {
+   "lat": 51.5074,
+   "lng": -0.1278,
+   "desc": "London, England"
+  },
+  "historical_note": "Erste Bomben auf London (24./25.08.1940)"
+ },
+ "522": {
+  "number": 522,
+  "date": "1940-09-04",
+  "event_en": "Vienna Award & air war",
+  "event_de": "Wiener Schiedsspruch & Luftkrieg",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Wien (Schiedsspruch/Diplomatie)"
+  },
+  "historical_note": "Konferenz in Wien am 30.8.1940 (Ribbentrop, Ciano, Teleki, Manoilescu) - Zweiter Wiener Schiedsspruch - Deutsche Luftangriffe auf Plymouth und Birmingham; britische Luftangriffe auf Weimar und Berlin - Leipziger Herbstmesse; Kohlenbergbau; "
+ },
+ "523": {
+  "number": 523,
+  "date": "1940-09-12",
+  "event_en": "Battle of Britain & German export industry",
+  "event_de": "Luftschlacht um England",
+  "location": {
+   "lat": 51.5074,
+   "lng": -0.1278,
+   "desc": "England/Luftkrieg"
+  },
+  "historical_note": "Deutsche Luftangriffe gegen England (Luftschlacht um England) mit Bombenflugzeugen - Eroeffnung der Wiener Technischen Herbstmesse und deutsche Industrie/Exportwirtschaft - italienische Luftwaffe in Libyen - Minenraeumen an der franzoesisch"
+ },
+ "524": {
+  "number": 524,
+  "date": "1940-09-18",
+  "event_en": "Battle of Britain - air raids on London and Berlin",
+  "event_de": "Luftkrieg London & Berlin",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "England/Luftkrieg"
+  },
+  "historical_note": "Luftschlacht um England: deutsche Jagd- und Bomberangriffe auf London (militaerische und zivile Ziele) sowie britische Bombenangriffe auf Berlin - U-Boot-Kommandant Lemp mit Auszeichnung nach Versenkung von elf Schiffen (50.000 BRT) - Kuest"
+ },
+ "525": {
+  "number": 525,
+  "date": "1940-09-25",
+  "event_en": "Tripartite Pact",
+  "event_de": "Dreimächtepakt",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Berlin, Germany"
+  },
+  "historical_note": "Achse Berlin-Rom-Tokio (27.09.1940)"
+ },
+ "526": {
+  "number": 526,
+  "date": "1940-10-02",
+  "event_en": "U-Boat Victories",
+  "event_de": "U-Boot Erfolge",
+  "location": {
+   "lat": 54.3233,
+   "lng": 10.1228,
+   "desc": "Kiel, Germany"
+  },
+  "historical_note": "Glückliche Zeit der U-Boote"
+ },
+ "527": {
+  "number": 527,
+  "date": "1940-10-09",
+  "event_en": "Sea Lion Cancelled",
+  "event_de": "Seelöwe abgesagt",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Berlin, Germany"
+  },
+  "historical_note": "Invasion England endgültig verschoben (12.10.1940)"
+ },
+ "528": {
+  "number": 528,
+  "date": "1940-10-16",
+  "event_en": "Blitz Continues",
+  "event_de": "Blitz Fortsetzung",
+  "location": {
+   "lat": 51.5074,
+   "lng": -0.1278,
+   "desc": "London, England"
+  },
+  "historical_note": "Nachtangriffe auf London"
+ },
+ "529": {
+  "number": 529,
+  "date": "1940-10-23",
+  "event_en": "Hendaye Meeting",
+  "event_de": "Hendaye Treffen",
+  "location": {
+   "lat": 43.3619,
+   "lng": -1.774,
+   "desc": "Hendaye, France"
+  },
+  "historical_note": "Hitler trifft Franco (23.10.1940)"
+ },
+ "530": {
+  "number": 530,
+  "date": "1940-10-30",
+  "event_en": "Greece War",
+  "event_de": "Griechenland Krieg",
+  "location": {
+   "lat": 37.9838,
+   "lng": 23.7275,
+   "desc": "Greece"
+  },
+  "historical_note": "Italien greift Griechenland an (28.10.1940)"
+ },
+ "531": {
+  "number": 531,
+  "date": "1940-11-06",
+  "event_en": "Coventry Raid",
+  "event_de": "Coventry Angriff",
+  "location": {
+   "lat": 52.4068,
+   "lng": -1.5197,
+   "desc": "Coventry, England"
+  },
+  "historical_note": "Vorbereitung Coventry-Angriff"
+ },
+ "532": {
+  "number": 532,
+  "date": "1940-11-13",
+  "event_en": "Molotov in Berlin",
+  "event_de": "Molotow Berlin",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Berlin, Germany"
+  },
+  "historical_note": "Molotow-Besuch in Berlin (12.-13.11.1940)"
+ },
+ "533": {
+  "number": 533,
+  "date": "1940-11-20",
+  "event_en": "Coventry Destroyed",
+  "event_de": "Coventry zerstört",
+  "location": {
+   "lat": 52.4068,
+   "lng": -1.5197,
+   "desc": "Coventry, England"
+  },
+  "historical_note": "Luftangriff auf Coventry (14.11.1940)"
+ },
+ "534": {
+  "number": 534,
+  "date": "1940-11-27",
+  "event_en": "Hungary Joins Axis",
+  "event_de": "Ungarn Dreimächtepakt",
+  "location": {
+   "lat": 47.4979,
+   "lng": 19.0402,
+   "desc": "Budapest, Hungary"
+  },
+  "historical_note": "Ungarn tritt Achse bei (20.11.1940)"
+ },
+ "536": {
+  "number": 536,
+  "date": "1940-12-11",
+  "event_en": "Greek Disaster",
+  "event_de": "Griechenland Debakel",
+  "location": {
+   "lat": 37.9838,
+   "lng": 23.7275,
+   "desc": "Greece"
+  },
+  "historical_note": "Italienische Niederlage in Griechenland"
+ },
+ "537": {
+  "number": 537,
+  "date": "1940-12-18",
+  "event_en": "Barbarossa Order",
+  "event_de": "Barbarossa Befehl",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Berlin, Germany"
+  },
+  "historical_note": "Weisung Nr. 21 Barbarossa (18.12.1940)"
+ },
+ "538": {
+  "number": 538,
+  "date": "1940-12-25",
+  "event_en": "Christmas 1940",
+  "event_de": "Weihnachten 1940",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Germany"
+  },
+  "historical_note": "Kriegsweihnachten an der Front"
+ },
+ "539": {
+  "number": 539,
+  "date": "1941-01-01",
+  "event_en": "New Year 1941",
+  "event_de": "Neujahr 1941",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Berlin, Germany"
+  },
+  "historical_note": "Jahreswechsel im Krieg"
+ },
+ "542": {
+  "number": 542,
+  "date": "1941-01-22",
+  "event_en": "Japan 2600-year imperial jubilee & Goering's birthday",
+  "event_de": "Japan 2600-Jahrfeier & Goering",
+  "location": {
+   "lat": 32.0833,
+   "lng": 23.95,
+   "desc": "Japan/Diplomatie"
+  },
+  "historical_note": "Feierlichkeiten zum 2.600-jaehrigen Bestehen des japanischen Kaiserhauses in Tokio - 48. Geburtstag des Reichsmarschalls Hermann Goering - Unterzeichnung eines deutsch-sowjetischen Grenzabkommens in Moskau - Lofoten-Fischerei unter Wehrmach"
+ },
+ "543": {
+  "number": 543,
+  "date": "1941-01-29",
+  "event_en": "Yamashita samurai sword & U-boat war",
+  "event_de": "Yamashita-Schwert & U-Boot-Krieg",
+  "location": {
+   "lat": 32.0853,
+   "lng": 20.0,
+   "desc": "Japan/Diplomatie"
+  },
+  "historical_note": "Japanischer General Yamashita ueberreicht Generalfeldmarschall von Brauchitsch ein Samuraischwert - Marine-/U-Boot-Operationen gegen feindliche Geleitzuege und Angriffe auf Malta - Aufbauhilfe fuer volksdeutsche Bauern im Generalgouvernemen"
+ },
+ "544": {
+  "number": 544,
+  "date": "1941-02-05",
+  "event_en": "Hitler's Sportpalast speech (8th anniversary)",
+  "event_de": "Hitler-Rede Sportpalast",
+  "location": {
+   "lat": 32.9,
+   "lng": 13.18,
+   "desc": "Heimatfront/Politik"
+  },
+  "historical_note": "Rede Hitlers im Berliner Sportpalast zum 8. Jahrestag der Machtergreifung (30.01.1941) - Staatstrauerfeier fuer den verstorbenen Reichsjustizminister Dr. Guertner in der Neuen Reichskanzlei - Empfang ungarischer und japanischer Militaers du"
+ },
+ "545": {
+  "number": 545,
+  "date": "1941-02-12",
+  "event_en": "Luftwaffe in North Africa & Japanese ambassador Kurusu",
+  "event_de": "Luftwaffe Nordafrika & Kurusu",
+  "location": {
+   "lat": 32.0853,
+   "lng": 20.0,
+   "desc": "Nordafrika/Luftkrieg"
+  },
+  "historical_note": "Luftwaffen-Einsaetze gegen britische Stellungen in Nordafrika - Empfang des scheidenden japanischen Botschafters Kurusu durch Hitler - Trauerfeier fuer den ungarischen Aussenminister Graf Csaky in Budapest - Besuch von Reichsjugendfuehrer A"
+ },
+ "546": {
+  "number": 546,
+  "date": "1941-02-19",
+  "event_en": "North Africa",
+  "event_de": "Nordafrika",
+  "location": {
+   "lat": 32.0853,
+   "lng": 20.0,
+   "desc": "North Africa"
+  },
+  "historical_note": "Kämpfe in der Cyrenaika"
+ },
+ "547": {
+  "number": 547,
+  "date": "1941-02-26",
+  "event_en": "Atlantic raider & Sicily airbase",
+  "event_de": "Atlantik-Hilfskreuzer & Sizilien",
+  "location": {
+   "lat": 32.0853,
+   "lng": 20.0,
+   "desc": "Atlantik (Seekrieg)"
+  },
+  "historical_note": "Staatsakt in Muenchen fuer Botschafter Kriebel - Treffen Mussolini-Franco, Empfang des japanischen Botschafters Oshima - Max Schmeling meldet sich freiwillig zu den Fallschirmjaegern - Fliegerhorst auf Sizilien, Flug nach Afrika - deutscher"
+ },
+ "548": {
+  "number": 548,
+  "date": "1941-03-05",
+  "event_en": "Bulgaria entry & Tripartite Pact",
+  "event_de": "Bulgarien-Einmarsch & Dreimaechtepakt",
+  "location": {
+   "lat": 42.6977,
+   "lng": 23.3219,
+   "desc": "Suedosteuropa/Bulgarien"
+  },
+  "historical_note": "Parteigruendungsfeier im Muenchner Hofbraeuhaus mit Hitler-Rede - japanischer Botschafter Oshima ueberreicht Beglaubigungsschreiben - Beitritt Bulgariens zum Dreimaechtepakt, Empfang im Schloss Belvedere - deutsche Pioniere schlagen Bruecke"
+ },
+ "549": {
+  "number": 549,
+  "date": "1941-03-12",
+  "event_en": "Lend-Lease Act",
+  "event_de": "Leih-Pacht Gesetz",
+  "location": {
+   "lat": 38.9072,
+   "lng": -77.0369,
+   "desc": "Washington D.C., USA"
+  },
+  "historical_note": "US Lend-Lease Gesetz (11.03.1941)"
+ },
+ "550": {
+  "number": 550,
+  "date": "1941-03-19",
+  "event_en": "Heroes' Memorial Day & Bulgaria",
+  "event_de": "Heldengedenktag & Bulgarien-Einmarsch",
+  "location": {
+   "lat": 44.7866,
+   "lng": 20.4489,
+   "desc": "Heimat/Heldengedenktag"
+  },
+  "historical_note": "Heldengedenktag in Berlin mit Hitler-Ansprache und Wehrmachtsparade - Feiern in Wien/Linz zur Rueckkehr der Ostmark mit Reden von Goebbels und Hitler - deutsche Truppen marschieren in Bulgarien ein - Rueckkehr eines U-Boots und Auszeichnung"
+ },
+ "552": {
+  "number": 552,
+  "date": "1941-04-02",
+  "event_en": "Prague parade & Afrikakorps",
+  "event_de": "Prager Parade & Afrikakorps",
+  "location": {
+   "lat": 44.7866,
+   "lng": 20.4489,
+   "desc": "Protektorat/Prag"
+  },
+  "historical_note": "Wehrmachtsparade in Prag zum 2. Jahrestag des Protektorats Boehmen und Maehren, slowakische Staatsfeier in Bratislava - Ankunft volksdeutscher Umsiedler aus Bessarabien und Jugoslawien an der Donau in Wien - Nachschubtransporte und neue Pan"
+ },
+ "553": {
+  "number": 553,
+  "date": "1941-04-09",
+  "event_en": "Balkan Campaign & Afrika Korps",
+  "event_de": "Balkanfeldzug & Afrikakorps",
+  "location": {
+   "lat": 42.0,
+   "lng": 22.0,
+   "desc": "Balkans (Yugoslavia/Greece)"
+  },
+  "historical_note": "Beginn des Balkanfeldzugs: Einmarsch in Jugoslawien (deutsche Panzer ueberschreiten die Grenze, serbische Gefangene, Luftangriffe) - Verlesung der Note an Jugoslawien und Griechenland im Auswaertigen Amt durch Goebbels - Afrikakorps in Nord"
+ },
+ "554": {
+  "number": 554,
+  "date": "1941-04-16",
+  "event_en": "Fall of Belgrade & Benghazi",
+  "event_de": "Belgrad-Fall & Bengasi",
+  "location": {
+   "lat": 44.7866,
+   "lng": 20.4489,
+   "desc": "Balkan/Jugoslawien"
+  },
+  "historical_note": "Vormarsch in Nordafrika: Agheila und Bengasi - Kriegsschauplatz Jugoslawien: Eroberung von Maribor, Nisch und Belgrad - Griechenland: Angriff und Durchbruch durch die Metaxas-Linie, Saloniki"
+ },
+ "555": {
+  "number": 555,
+  "date": "1941-04-23",
+  "event_en": "Capture of Belgrade & Hitler's 52nd birthday",
+  "event_de": "Belgrad & Hitlers Geburtstag",
+  "location": {
+   "lat": 37.9838,
+   "lng": 23.7275,
+   "desc": "Balkan (Jugoslawien)"
+  },
+  "historical_note": "Feier zu Hitlers 52. Geburtstag (20.04.1941) im Führerhauptquartier - Balkanfeldzug in Jugoslawien: Einmarsch in Zagreb, Panzervormarsch und Einnahme von Belgrad mit Gefangenen - Nordafrika bei Tobruk - Griechenlandfeldzug: Waffenstillstand"
+ },
+ "556": {
+  "number": 556,
+  "date": "1941-04-30",
+  "event_en": "North Africa (Rommel) & fall of Athens",
+  "event_de": "Nordafrika & Athen",
+  "location": {
+   "lat": 37.9838,
+   "lng": 23.7275,
+   "desc": "Nordafrika"
+  },
+  "historical_note": "Nordafrika: Nachschub für deutsche Soldaten, Rommel mit Truppen und britischen Gefangenen bei Sollum - Empfang von König Boris (Bulgarien), Ciano und Reichsverweser Horthy bei Hitler - Balkanfeldzug: Eisernes Tor an der Donau, Einmarsch in "
+ },
+ "557": {
+  "number": 557,
+  "date": "1941-05-07",
+  "event_en": "Bismarck Sails",
+  "event_de": "Bismarck ausgelaufen",
+  "location": {
+   "lat": 54.37,
+   "lng": 10.13,
+   "desc": "Kiel, Germany"
+  },
+  "historical_note": "Bismarck beginnt Operation Rheinübung"
+ },
+ "561": {
+  "number": 561,
+  "date": "1941-06-04",
+  "event_en": "Crete Captured",
+  "event_de": "Kreta erobert",
+  "location": {
+   "lat": 35.2401,
+   "lng": 24.8093,
+   "desc": "Crete, Greece"
+  },
+  "historical_note": "Luftlandeschlacht um Kreta (20.05.-01.06.1941)"
+ },
+ "562": {
+  "number": 562,
+  "date": "1941-06-11",
+  "event_en": "Bismarck Sunk",
+  "event_de": "Bismarck versenkt",
+  "location": {
+   "lat": 48.1,
+   "lng": -16.2,
+   "desc": "Atlantic Ocean"
+  },
+  "historical_note": "Untergang der Bismarck (27.05.1941)"
+ },
+ "564": {
+  "number": 564,
+  "date": "1941-06-25",
+  "event_en": "Operation Barbarossa",
+  "event_de": "Barbarossa",
+  "location": {
+   "lat": 55.7558,
+   "lng": 37.6173,
+   "desc": "Soviet Union"
+  },
+  "historical_note": "GRÖSSTE INVASION DER GESCHICHTE! (22.06.1941)"
+ },
+ "565": {
+  "number": 565,
+  "date": "1941-07-02",
+  "event_en": "Operation Barbarossa: Brest-Litovsk citadel & Lithuania",
+  "event_de": "Barbarossa: Brest-Litowsk",
+  "location": {
+   "lat": 55.0,
+   "lng": 30.0,
+   "desc": "Ostfront (Litauen)"
+  },
+  "historical_note": "Beginn des Russlandfeldzugs (Unternehmen Barbarossa): Rückblende auf sowjetische Angriffe gegen Finnland 1939 - Einmarsch deutscher Soldaten an der finnisch-russischen Grenze und in Litauen - Artilleriefeuer auf befestigte Bunkerlinie, Stur"
+ },
+ "566": {
+  "number": 566,
+  "date": "1941-07-09",
+  "event_en": "Minsk Falls",
+  "event_de": "Minsk gefallen",
+  "location": {
+   "lat": 53.9045,
+   "lng": 27.5615,
+   "desc": "Minsk, Belarus"
+  },
+  "historical_note": "Kesselschlacht bei Minsk (28.06.-09.07.1941)"
+ },
+ "567": {
+  "number": 567,
+  "date": "1941-07-16",
+  "event_en": "Bialystok-Minsk double battle & capture of Riga",
+  "event_de": "Bialystok-Minsk & Riga",
+  "location": {
+   "lat": 54.7826,
+   "lng": 32.0453,
+   "desc": "Ostfront (Bialystok-Minsk)"
+  },
+  "historical_note": "Ostfront: europäische Freiwillige zum Kampf gegen den Bolschewismus (Norwegen, Dänemark, Holland, Spanien u.a.) - Abschluss der Doppelschlacht von Bialystok-Minsk mit rund 325.000 Gefangenen, Zerstörung von Minsk - Vormarsch auf Kiew in der"
+ },
+ "568": {
+  "number": 568,
+  "date": "1941-07-23",
+  "event_en": "Eastern Summer",
+  "event_de": "Ostfront Sommer",
+  "location": {
+   "lat": 55.0,
+   "lng": 30.0,
+   "desc": "Eastern Front"
+  },
+  "historical_note": "Vormarsch auf drei Achsen"
+ },
+ "569": {
+  "number": 569,
+  "date": "1941-07-30",
+  "event_en": "First air raid on Moscow & Dnieper crossing",
+  "event_de": "Erster Luftangriff auf Moskau",
+  "location": {
+   "lat": 50.4501,
+   "lng": 30.5234,
+   "desc": "Ostfront (Moskau/Luftkrieg)"
+  },
+  "historical_note": "Ostfront: Göring empfängt Ritterkreuzträger und den kroatischen Marschall Kvaternik im Führerhauptquartier - deutsche Zerstörer greifen sowjetische Einheiten in der Barentssee an - Kämpfe im finnisch-sowjetischen Abschnitt bei Salla - Vorma"
+ },
+ "570": {
+  "number": 570,
+  "date": "1941-08-06",
+  "event_en": "Smolensk Falls",
+  "event_de": "Smolensk gefallen",
+  "location": {
+   "lat": 54.7826,
+   "lng": 32.0453,
+   "desc": "Smolensk, Russia"
+  },
+  "historical_note": "Fall von Smolensk (05.08.1941)"
+ },
+ "571": {
+  "number": 571,
+  "date": "1941-08-13",
+  "event_en": "Atlantic Charter",
+  "event_de": "Atlantik Charta",
+  "location": {
+   "lat": 47.5615,
+   "lng": -52.7126,
+   "desc": "Newfoundland, Canada"
+  },
+  "historical_note": "Roosevelt und Churchill treffen sich (14.08.1941)"
+ },
+ "572": {
+  "number": 572,
+  "date": "1941-08-20",
+  "event_en": "Leningrad Siege",
+  "event_de": "Leningrad Belagerung",
+  "location": {
+   "lat": 59.9343,
+   "lng": 30.3351,
+   "desc": "Leningrad, Russia"
+  },
+  "historical_note": "Einschließung Leningrads beginnt"
+ },
+ "573": {
+  "number": 573,
+  "date": "1941-08-27",
+  "event_en": "Capture of Novgorod & battle of Gomel",
+  "event_de": "Nowgorod & Gomel",
+  "location": {
+   "lat": 50.4501,
+   "lng": 30.5234,
+   "desc": "Ostfront (Nowgorod/Nord)"
+  },
+  "historical_note": "Ostfront: Luftangriffe auf Murmansk und den Stalin-Kanal, Vorstöße am Ladogasee - Besuch des Führers an der Ostfront - rumänischer Vormarsch auf Odessa, deutscher Vorstoß auf Nikolajew - Kämpfe um Gomel mit rund 90.000 Gefangenen - Vormarsc"
+ },
+ "574": {
+  "number": 574,
+  "date": "1941-09-03",
+  "event_en": "Leningrad Encircled",
+  "event_de": "Leningrad eingeschlossen",
+  "location": {
+   "lat": 59.9343,
+   "lng": 30.3351,
+   "desc": "Leningrad, Russia"
+  },
+  "historical_note": "Belagerung Leningrads beginnt (08.09.1941)"
+ },
+ "575": {
+  "number": 575,
+  "date": "1941-09-10",
+  "event_en": "900 Days Leningrad",
+  "event_de": "900 Tage Leningrad",
+  "location": {
+   "lat": 59.9343,
+   "lng": 30.3351,
+   "desc": "Leningrad (St. Petersburg), Russia"
+  },
+  "historical_note": "Beginn der 872-Tage-Blockade"
+ },
+ "576": {
+  "number": 576,
+  "date": "1941-09-17",
+  "event_en": "Kiev Encirclement",
+  "event_de": "Kiew Kessel",
+  "location": {
+   "lat": 50.4501,
+   "lng": 30.5234,
+   "desc": "Kyiv, Ukraine"
+  },
+  "historical_note": "Kiew eingekesselt"
+ },
+ "577": {
+  "number": 577,
+  "date": "1941-09-24",
+  "event_en": "Kiev Surrender",
+  "event_de": "Kiew Kapitulation",
+  "location": {
+   "lat": 50.4501,
+   "lng": 30.5234,
+   "desc": "Kyiv, Ukraine"
+  },
+  "historical_note": "Fall von Kiew (26.09.1941), 665.000 Gefangene"
+ },
+ "578": {
+  "number": 578,
+  "date": "1941-10-01",
+  "event_en": "Typhoon Begins",
+  "event_de": "Taifun beginnt",
+  "location": {
+   "lat": 55.7558,
+   "lng": 37.6173,
+   "desc": "Moscow, Russia"
+  },
+  "historical_note": "Operation Taifun - Angriff auf Moskau (02.10.1941)"
+ },
+ "579": {
+  "number": 579,
+  "date": "1941-10-08",
+  "event_en": "Vyazma Pocket",
+  "event_de": "Wjasma Kessel",
+  "location": {
+   "lat": 55.2106,
+   "lng": 34.2816,
+   "desc": "Vyazma, Russia"
+  },
+  "historical_note": "Doppelschlacht bei Wjasma und Brjansk"
+ },
+ "581": {
+  "number": 581,
+  "date": "1941-10-22",
+  "event_en": "Moscow Advance",
+  "event_de": "Vormarsch Moskau",
+  "location": {
+   "lat": 55.7558,
+   "lng": 37.6173,
+   "desc": "Moscow, Russia"
+  },
+  "historical_note": "Wehrmacht 100km vor Moskau"
+ },
+ "582": {
+  "number": 582,
+  "date": "1941-10-29",
+  "event_en": "Autumn Mud",
+  "event_de": "Herbstschlammperiode",
+  "location": {
+   "lat": 55.7558,
+   "lng": 37.6173,
+   "desc": "Eastern Front, Russia"
+  },
+  "historical_note": "Rasputiza stoppt Vormarsch"
+ },
+ "583": {
+  "number": 583,
+  "date": "1941-11-05",
+  "event_en": "Moscow in Danger",
+  "event_de": "Moskau in Gefahr",
+  "location": {
+   "lat": 55.7558,
+   "lng": 37.6173,
+   "desc": "Moscow, Russia"
+  },
+  "historical_note": "Evakuierung Moskaus angeordnet"
+ },
+ "584": {
+  "number": 584,
+  "date": "1941-11-12",
+  "event_en": "Frost Hits",
+  "event_de": "Frost Einbruch",
+  "location": {
+   "lat": 55.7558,
+   "lng": 37.6173,
+   "desc": "Moscow, Russia"
+  },
+  "historical_note": "Erster starker Frost an der Ostfront"
+ },
+ "585": {
+  "number": 585,
+  "date": "1941-11-19",
+  "event_en": "Tikhvin Falls",
+  "event_de": "Tikhvin gefallen",
+  "location": {
+   "lat": 59.6433,
+   "lng": 33.5309,
+   "desc": "Tikhvin, Russia"
+  },
+  "historical_note": "Eroberung von Tichwin (08.11.1941)"
+ },
+ "586": {
+  "number": 586,
+  "date": "1941-11-26",
+  "event_en": "Rostov Captured",
+  "event_de": "Rostow erobert",
+  "location": {
+   "lat": 47.2357,
+   "lng": 39.7015,
+   "desc": "Rostov-on-Don, Russia"
+  },
+  "historical_note": "Einnahme von Rostow am Don (21.11.1941)"
+ },
+ "588": {
+  "number": 588,
+  "date": "1941-12-10",
+  "event_en": "Pearl Harbor",
+  "event_de": "Pearl Harbor",
+  "location": {
+   "lat": 21.3647,
+   "lng": -157.9507,
+   "desc": "Pearl Harbor, Hawaii"
+  },
+  "historical_note": "Japanischer Angriff auf Pearl Harbor (07.12.1941)"
+ },
+ "589": {
+  "number": 589,
+  "date": "1941-12-17",
+  "event_en": "Moscow Counterattack",
+  "event_de": "Moskau Gegenoffensive",
+  "location": {
+   "lat": 55.7558,
+   "lng": 37.6173,
+   "desc": "Moscow, Russia"
+  },
+  "historical_note": "Sowjetische Gegenoffensive vor Moskau (05.12.1941)"
+ },
+ "590": {
+  "number": 590,
+  "date": "1941-12-24",
+  "event_en": "US Enters War",
+  "event_de": "Kriegserklärung USA",
+  "location": {
+   "lat": 38.9072,
+   "lng": -77.0369,
+   "desc": "Washington D.C., USA"
+  },
+  "historical_note": "Deutschland erklärt USA den Krieg (11.12.1941)"
+ },
+ "592": {
+  "number": 592,
+  "date": "1942-01-07",
+  "event_en": "Winter Crisis",
+  "event_de": "Winterkrise",
+  "location": {
+   "lat": 55.7558,
+   "lng": 37.6173,
+   "desc": "Moscow, Russia"
+  },
+  "historical_note": "Wehrmacht wird vor Moskau zurückgeschlagen"
+ },
+ "593": {
+  "number": 593,
+  "date": "1942-01-14",
+  "event_en": "Eastern Front Leningrad & North Africa",
+  "event_de": "Ostfront Leningrad & Nordafrika",
+  "location": {
+   "lat": 52.4293,
+   "lng": 13.1658,
+   "desc": "Ostfront (Leningrad/Moskau)"
+  },
+  "historical_note": "Ostfront-Operationen bei Leningrad und im Mittelabschnitt bei Moskau (Jasnaja Poljana) - Nordafrika-Feldzug mit Rommel, deutsch-italienische Panzer und Luftkampf - Heimatfront-Segmente: Tabak/Zigaretten-Statistik, Winterhilfe und Kleidersam"
+ },
+ "594": {
+  "number": 594,
+  "date": "1942-01-21",
+  "event_en": "Yevpatoria & Sevastopol",
+  "event_de": "Jewpatoria & Sewastopol",
+  "location": {
+   "lat": 32.0853,
+   "lng": 20.0,
+   "desc": "Ostfront (Krim/Sewastopol/Leningrad)"
+  },
+  "historical_note": "Strassenkampf in Jewpatoria (Krim) mit gefangenen Rotarmisten und Kampf bei Leningrad - Stuka-Angriffe und Artillerie gegen die Festung Sewastopol - Ribbentrop-Besuch in Ungarn sowie Winterausruestung/Kleidersammlung (ueber 67 Mio. Stueck) "
+ },
+ "595": {
+  "number": 595,
+  "date": "1942-01-28",
+  "event_en": "Tripartite military convention & Crimea",
+  "event_de": "Dreimaechtepakt-Militaerabkommen & Krim",
+  "location": {
+   "lat": 57.6378,
+   "lng": 32.4661,
+   "desc": "Diplomatie (Dreimaechtepakt)"
+  },
+  "historical_note": "Unterzeichnung des Militaerabkommens zwischen Deutschland, Italien und Japan (18.01.1942) mit Keitel in Berlin - Staatsbegraebnis fuer Generalfeldmarschall von Reichenau - Winterkampf bei Leningrad und Strassenkampf in Jewpatoria/Krim - Nor"
+ },
+ "596": {
+  "number": 596,
+  "date": "1942-02-04",
+  "event_en": "Hitler Sportpalast speech & Sevastopol/Feodosia",
+  "event_de": "Hitler im Sportpalast & Sewastopol/Feodossija",
+  "location": {
+   "lat": 1.3521,
+   "lng": 103.8198,
+   "desc": "Heimatfront/Politik (Sportpalast)"
+  },
+  "historical_note": "Hitler-Rede im Berliner Sportpalast zum 9. Jahrestag der Machtuebernahme - Kampfhandlungen bei Sewastopol und Feodossija auf der Krim - U-Boot-Erfolge gegen US-Handelsschiffe im Atlantik und Nordafrika (Befoerderung Rommels, Bengasi)"
+ },
+ "598": {
+  "number": 598,
+  "date": "1942-02-19",
+  "event_en": "Fritz Todt memorial & North Africa",
+  "event_de": "Trauer um Fritz Todt & Nordafrika",
+  "location": {
+   "lat": 1.3521,
+   "lng": 103.8198,
+   "desc": "Politik/Staatsakt (Todt)"
+  },
+  "historical_note": "Staatsakt/Trauerfeier fuer Reichsminister Fritz Todt (toedlicher Flugzeugabsturz am 08.02.1942) - Nordafrika-Feldzug mit Rommel - kroatische Marinesoldaten in deutschem Dienst und Kampfhandlungen im Aermelkanal sowie Ski-Einsaetze an der Os"
+ },
+ "599": {
+  "number": 599,
+  "date": "1942-02-25",
+  "event_en": "Cerberus Success",
+  "event_de": "Cerberus Erfolg",
+  "location": {
+   "lat": 50.9,
+   "lng": 1.4,
+   "desc": "English Channel"
+  },
+  "historical_note": "Kanaldurchbruch (11.-13.02.1942)"
+ },
+ "600": {
+  "number": 600,
+  "date": "1942-03-04",
+  "event_en": "East Front Holds",
+  "event_de": "Ostfront Stabilisiert",
+  "location": {
+   "lat": 55.0,
+   "lng": 30.0,
+   "desc": "Eastern Front"
+  },
+  "historical_note": "Winterkrise überstanden"
+ },
+ "601": {
+  "number": 601,
+  "date": "1942-03-11",
+  "event_en": "Tobruk Battles",
+  "event_de": "Tobruk Kämpfe",
+  "location": {
+   "lat": 32.0833,
+   "lng": 23.95,
+   "desc": "Tobruk, Libya"
+  },
+  "historical_note": "Stellungskampf in Nordafrika"
+ },
+ "602": {
+  "number": 602,
+  "date": "1942-03-18",
+  "event_en": "U-Boat War",
+  "event_de": "U-Boot Krieg",
+  "location": {
+   "lat": 45.0,
+   "lng": -30.0,
+   "desc": "Atlantic Ocean"
+  },
+  "historical_note": "Zweite glückliche Zeit der U-Boote"
+ },
+ "604": {
+  "number": 604,
+  "date": "1942-04-01",
+  "event_en": "Bombs on Germany",
+  "event_de": "Bomben auf Deutschland",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Germany"
+  },
+  "historical_note": "Erste große RAF-Angriffe auf Deutschland"
+ },
+ "605": {
+  "number": 605,
+  "date": "1942-04-08",
+  "event_en": "Bombing of Lübeck & St Nazaire raid",
+  "event_de": "Bombardierung Lübecks & St. Nazaire",
+  "location": {
+   "lat": 53.8655,
+   "lng": 10.6866,
+   "desc": "Luftkrieg/Heimat (Luebeck)"
+  },
+  "historical_note": "Folgen des britischen Bombenangriffs auf Luebeck (29.03.1942) - zerstoerter Dom, historische Altstadt, Hilfsaktionen - abgewehrter britischer Kommandounternehmen-/Landungsversuch bei St. Nazaire mit Gefangenen - Heinkel-He-111-Flugzeugferti"
+ },
+ "606": {
+  "number": 606,
+  "date": "1942-04-15",
+  "event_en": "North Africa & Crimea (Kerch)",
+  "event_de": "Nordafrika & Krim (Kertsch)",
+  "location": {
+   "lat": 52.6269,
+   "lng": 1.2993,
+   "desc": "North Africa"
+  },
+  "historical_note": "Nordafrika: Geleitzug nach Tripolis, Panzergefechte und Artilleriefeuer an der Cyrenaika-Front - Krim: deutsche und rumaenische Truppen, Kampfhandlungen auf der Halbinsel Kertsch - Ostfront: Luftkampf und Vorstoesse im mittleren Frontabschn"
+ },
+ "607": {
+  "number": 607,
+  "date": "1942-04-22",
+  "event_en": "Spring Offensive",
+  "event_de": "Frühjahrsoffensive",
+  "location": {
+   "lat": 48.708,
+   "lng": 44.5133,
+   "desc": "Southern Russia"
+  },
+  "historical_note": "Planungen für Sommeroffensive 1942"
+ },
+ "608": {
+  "number": 608,
+  "date": "1942-04-29",
+  "event_en": "Hitler Speech",
+  "event_de": "Hitler Rede",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Berlin, Germany"
+  },
+  "historical_note": "Hitler-Rede zum Geburtstag"
+ },
+ "609": {
+  "number": 609,
+  "date": "1942-05-06",
+  "event_en": "Kharkov Offensive",
+  "event_de": "Charkow Offensive",
+  "location": {
+   "lat": 49.9935,
+   "lng": 36.2304,
+   "desc": "Kharkov, Ukraine"
+  },
+  "historical_note": "Sowjetische Offensive bei Charkow"
+ },
+ "610": {
+  "number": 610,
+  "date": "1942-05-13",
+  "event_en": "Kharkov Pocket",
+  "event_de": "Charkow Kessel",
+  "location": {
+   "lat": 49.9935,
+   "lng": 36.2304,
+   "desc": "Kharkov, Ukraine"
+  },
+  "historical_note": "Einschließung sowjetischer Truppen"
+ },
+ "611": {
+  "number": 611,
+  "date": "1942-05-20",
+  "event_en": "Kharkov Victory",
+  "event_de": "Charkow Sieg",
+  "location": {
+   "lat": 49.9935,
+   "lng": 36.2304,
+   "desc": "Kharkov, Ukraine"
+  },
+  "historical_note": "Vernichtung des Kessels"
+ },
+ "612": {
+  "number": 612,
+  "date": "1942-05-27",
+  "event_en": "Heydrich Killed",
+  "event_de": "Heydrich Attentat",
+  "location": {
+   "lat": 50.0755,
+   "lng": 14.4378,
+   "desc": "Prague, Czechoslovakia"
+  },
+  "historical_note": "Attentat auf Heydrich (27.05.1942)"
+ },
+ "613": {
+  "number": 613,
+  "date": "1942-06-03",
+  "event_en": "1000 Bombers Cologne",
+  "event_de": "1000 Bomber Köln",
+  "location": {
+   "lat": 50.9375,
+   "lng": 6.9603,
+   "desc": "Cologne, Germany"
+  },
+  "historical_note": "Erste 1000-Bomber-Angriff auf Köln (30./31.05.1942)"
+ },
+ "614": {
+  "number": 614,
+  "date": "1942-06-10",
+  "event_en": "Heydrich Death",
+  "event_de": "Heydrich Tod",
+  "location": {
+   "lat": 50.0755,
+   "lng": 14.4378,
+   "desc": "Prague, Czechoslovakia"
+  },
+  "historical_note": "Tod Heydrichs (04.06.1942), Lidice-Massaker"
+ },
+ "615": {
+  "number": 615,
+  "date": "1942-06-18",
+  "event_en": "Fortress Sevastopol & North Africa",
+  "event_de": "Festung Sewastopol & Nordafrika",
+  "location": {
+   "lat": 28.2072,
+   "lng": -177.3735,
+   "desc": "Eastern Front (Crimea/Sevastopol)"
+  },
+  "historical_note": "Ostfront: ausfuehrliche Berichterstattung ueber den Angriff auf die Festung Sewastopol mit Artillerie und Sturzkampffliegern - Nordafrika: Kaempfe bei Bir Hacheim, Rommel mit italienischen Befehlshabern, Jagdflieger Marseille (87 Abschuesse"
+ },
+ "616": {
+  "number": 616,
+  "date": "1942-06-24",
+  "event_en": "Tobruk Captured",
+  "event_de": "Tobruk Eroberung",
+  "location": {
+   "lat": 32.0833,
+   "lng": 23.95,
+   "desc": "Tobruk, Libya"
+  },
+  "historical_note": "Rommel erobert Tobruk (21.06.1942)"
+ },
+ "617": {
+  "number": 617,
+  "date": "1942-07-01",
+  "event_en": "Rommel in Egypt",
+  "event_de": "Rommel in Ägypten",
+  "location": {
+   "lat": 30.8333,
+   "lng": 28.95,
+   "desc": "El Alamein, Egypt"
+  },
+  "historical_note": "Afrika Korps dringt nach Ägypten vor"
+ },
+ "618": {
+  "number": 618,
+  "date": "1942-07-08",
+  "event_en": "Case Blue",
+  "event_de": "Fall Blau",
+  "location": {
+   "lat": 48.708,
+   "lng": 44.5133,
+   "desc": "Southern Russia"
+  },
+  "historical_note": "Deutsche Sommeroffensive beginnt (28.06.1942)"
+ },
+ "619": {
+  "number": 619,
+  "date": "1942-07-15",
+  "event_en": "El Alamein",
+  "event_de": "El Alamein",
+  "location": {
+   "lat": 30.8333,
+   "lng": 28.95,
+   "desc": "El Alamein, Egypt"
+  },
+  "historical_note": "Erste Schlacht von El Alamein"
+ },
+ "620": {
+  "number": 620,
+  "date": "1942-07-22",
+  "event_en": "Caucasus Advance",
+  "event_de": "Vormarsch Kaukasus",
+  "location": {
+   "lat": 43.2567,
+   "lng": 42.4348,
+   "desc": "Caucasus Mountains"
+  },
+  "historical_note": "Vormarsch in Richtung Kaukasus"
+ },
+ "621": {
+  "number": 621,
+  "date": "1942-07-29",
+  "event_en": "Rostov Falls Again",
+  "event_de": "Rostow II gefallen",
+  "location": {
+   "lat": 47.2357,
+   "lng": 39.7015,
+   "desc": "Rostov-on-Don, Russia"
+  },
+  "historical_note": "Zweite Eroberung von Rostow (24.07.1942)"
+ },
+ "622": {
+  "number": 622,
+  "date": "1942-08-05",
+  "event_en": "Stalingrad Advance",
+  "event_de": "Stalingrad Vormarsch",
+  "location": {
+   "lat": 48.708,
+   "lng": 44.5133,
+   "desc": "Stalingrad, Russia"
+  },
+  "historical_note": "Vormarsch auf Stalingrad"
+ },
+ "623": {
+  "number": 623,
+  "date": "1942-08-12",
+  "event_en": "Churchill-Stalin",
+  "event_de": "Churchill Stalin Treffen",
+  "location": {
+   "lat": 55.7558,
+   "lng": 37.6173,
+   "desc": "Moscow, Russia"
+  },
+  "historical_note": "Churchill trifft Stalin in Moskau (12.-16.08.1942)"
+ },
+ "624": {
+  "number": 624,
+  "date": "1942-08-19",
+  "event_en": "Dieppe Raid",
+  "event_de": "Dieppe Raid",
+  "location": {
+   "lat": 49.9242,
+   "lng": 1.08,
+   "desc": "Dieppe, France"
+  },
+  "historical_note": "Gescheiterter alliierter Landungsversuch (19.08.1942)"
+ },
+ "625": {
+  "number": 625,
+  "date": "1942-08-26",
+  "event_en": "Stalingrad Reached",
+  "event_de": "Stalingrad erreicht",
+  "location": {
+   "lat": 48.708,
+   "lng": 44.5133,
+   "desc": "Stalingrad, Russia"
+  },
+  "historical_note": "Deutsche erreichen Stalingrad (23.08.1942)"
+ },
+ "627": {
+  "number": 627,
+  "date": "1942-09-09",
+  "event_en": "Stalingrad Streets",
+  "event_de": "Stalingrad Straßenkampf",
+  "location": {
+   "lat": 48.708,
+   "lng": 44.5133,
+   "desc": "Stalingrad, Russia"
+  },
+  "historical_note": "Beginn der Straßenkämpfe in Stalingrad"
+ },
+ "628": {
+  "number": 628,
+  "date": "1942-09-16",
+  "event_en": "Stalingrad Hill",
+  "event_de": "Stalingrad Mamajew",
+  "location": {
+   "lat": 48.708,
+   "lng": 44.5133,
+   "desc": "Stalingrad, Russia"
+  },
+  "historical_note": "Kampf um Mamajew-Kurgan"
+ },
+ "629": {
+  "number": 629,
+  "date": "1942-09-23",
+  "event_en": "Stalingrad Factories",
+  "event_de": "Stalingrad Fabriken",
+  "location": {
+   "lat": 48.708,
+   "lng": 44.5133,
+   "desc": "Stalingrad, Russia"
+  },
+  "historical_note": "Kämpfe um Traktorenwerk"
+ },
+ "630": {
+  "number": 630,
+  "date": "1942-09-30",
+  "event_en": "Caucasus Elbrus",
+  "event_de": "Kaukasus Elbruss",
+  "location": {
+   "lat": 43.3499,
+   "lng": 42.4453,
+   "desc": "Mount Elbrus, Caucasus"
+  },
+  "historical_note": "Fahne auf dem Elbrus gehisst (21.08.1942)"
+ },
+ "631": {
+  "number": 631,
+  "date": "1942-10-07",
+  "event_en": "Factory Battle",
+  "event_de": "Stalingrad Fabrikkampf",
+  "location": {
+   "lat": 48.708,
+   "lng": 44.5133,
+   "desc": "Stalingrad, Russia"
+  },
+  "historical_note": "Kampf um Rote Oktober Fabrik"
+ },
+ "632": {
+  "number": 632,
+  "date": "1942-10-14",
+  "event_en": "Stalingrad Peak",
+  "event_de": "Stalingrad Höhepunkt",
+  "location": {
+   "lat": 48.708,
+   "lng": 44.5133,
+   "desc": "Stalingrad, Russia"
+  },
+  "historical_note": "Höhepunkt der deutschen Offensive"
+ },
+ "633": {
+  "number": 633,
+  "date": "1942-10-21",
+  "event_en": "El Alamein II",
+  "event_de": "El Alamein II",
+  "location": {
+   "lat": 30.8333,
+   "lng": 28.95,
+   "desc": "El Alamein, Egypt"
+  },
+  "historical_note": "Vorbereitung britische Offensive"
+ },
+ "634": {
+  "number": 634,
+  "date": "1942-10-28",
+  "event_en": "El Alamein Defeat",
+  "event_de": "El Alamein Niederlage",
+  "location": {
+   "lat": 30.8333,
+   "lng": 28.95,
+   "desc": "El Alamein, Egypt"
+  },
+  "historical_note": "Montgomery startet Offensive (23.10.1942)"
+ },
+ "635": {
+  "number": 635,
+  "date": "1942-11-04",
+  "event_en": "Africa Retreat",
+  "event_de": "Afrika Rückzug",
+  "location": {
+   "lat": 32.0853,
+   "lng": 20.0,
+   "desc": "North Africa"
+  },
+  "historical_note": "Rommel beginnt Rückzug"
+ },
+ "637": {
+  "number": 637,
+  "date": "1942-11-18",
+  "event_en": "Torch Landing",
+  "event_de": "Torch Landung",
+  "location": {
+   "lat": 36.8065,
+   "lng": 10.1815,
+   "desc": "North Africa"
+  },
+  "historical_note": "Alliierte Landung in Nordafrika (08.11.1942)"
+ },
+ "638": {
+  "number": 638,
+  "date": "1942-11-25",
+  "event_en": "Stalingrad Encircled",
+  "event_de": "Stalingrad Einkessel",
+  "location": {
+   "lat": 48.708,
+   "lng": 44.5133,
+   "desc": "Stalingrad, Russia"
+  },
+  "historical_note": "Operation Uranus - 6. Armee eingekesselt (19.-23.11.1942)"
+ },
+ "639": {
+  "number": 639,
+  "date": "1942-12-02",
+  "event_en": "Southern France (Toulon) & Tunisia",
+  "event_de": "Suedfrankreich (Toulon) & Tunesien",
+  "location": {
+   "lat": 48.708,
+   "lng": 44.5133,
+   "desc": "Southern France"
+  },
+  "historical_note": "Westen: Besetzung Suedfrankreichs, Grenadiere marschieren auf Marseille, Besetzung der Festung Toulon - Mittelmeer: deutsch-italienischer Geleitzug von Sizilien nach Tunesien mit Verstaerkungen - Marine: U-Boot-Schule und Ordensverleihung d"
+ },
+ "640": {
+  "number": 640,
+  "date": "1942-12-09",
+  "event_en": "Winter Storm",
+  "event_de": "Wintergewitter",
+  "location": {
+   "lat": 48.708,
+   "lng": 44.5133,
+   "desc": "Stalingrad, Russia"
+  },
+  "historical_note": "Entsatzversuch beginnt (12.12.1942)"
+ },
+ "641": {
+  "number": 641,
+  "date": "1942-12-16",
+  "event_en": "Winter Storm Fails",
+  "event_de": "Wintergewitter scheitert",
+  "location": {
+   "lat": 48.708,
+   "lng": 44.5133,
+   "desc": "Stalingrad, Russia"
+  },
+  "historical_note": "Entsatz erreicht 6. Armee nicht"
+ },
+ "642": {
+  "number": 642,
+  "date": "1942-12-23",
+  "event_en": "Christmas Stalingrad",
+  "event_de": "Weihnachten Stalingrad",
+  "location": {
+   "lat": 48.708,
+   "lng": 44.5133,
+   "desc": "Stalingrad, Russia"
+  },
+  "historical_note": "Verzweifelte Lage im Kessel"
+ },
+ "644": {
+  "number": 644,
+  "date": "1943-01-06",
+  "event_en": "Stalingrad Agony",
+  "event_de": "Stalingrad Agonie",
+  "location": {
+   "lat": 48.708,
+   "lng": 44.5133,
+   "desc": "Stalingrad, Russia"
+  },
+  "historical_note": "Hungerkrise im Kessel"
+ },
+ "645": {
+  "number": 645,
+  "date": "1943-01-13",
+  "event_en": "Ring Operation",
+  "event_de": "Ring Operation",
+  "location": {
+   "lat": 48.708,
+   "lng": 44.5133,
+   "desc": "Stalingrad, Russia"
+  },
+  "historical_note": "Sowjetische Schlussoffensive beginnt (10.01.1943)"
+ },
+ "647": {
+  "number": 647,
+  "date": "1943-01-27",
+  "event_en": "Casablanca Summit",
+  "event_de": "Casablanca Konferenz",
+  "location": {
+   "lat": 33.5731,
+   "lng": -7.5898,
+   "desc": "Casablanca, Morocco"
+  },
+  "historical_note": "Roosevelt + Churchill fordern bedingungslose Kapitulation"
+ },
+ "648": {
+  "number": 648,
+  "date": "1943-02-03",
+  "event_en": "Stalingrad Surrender",
+  "event_de": "Stalingrad Kapitulation",
+  "location": {
+   "lat": 48.708,
+   "lng": 44.5133,
+   "desc": "Stalingrad, Russia"
+  },
+  "historical_note": "WENDEPUNKT DES KRIEGES! Kapitulation (02.02.1943)"
+ },
+ "649": {
+  "number": 649,
+  "date": "1943-02-10",
+  "event_en": "After Stalingrad",
+  "event_de": "Nach Stalingrad",
+  "location": {
+   "lat": 48.708,
+   "lng": 44.5133,
+   "desc": "Stalingrad (Volgograd), Russia"
+  },
+  "historical_note": "Reaktion auf Stalingrad-Niederlage"
+ },
+ "650": {
+  "number": 650,
+  "date": "1943-02-17",
+  "event_en": "Total War",
+  "event_de": "Totaler Krieg",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Berlin, Germany"
+  },
+  "historical_note": "Goebbels Sportpalastrede (18.02.1943)"
+ },
+ "651": {
+  "number": 651,
+  "date": "1943-02-24",
+  "event_en": "Kharkov Recaptured",
+  "event_de": "Charkow Rückeroberung",
+  "location": {
+   "lat": 49.9935,
+   "lng": 36.2304,
+   "desc": "Kharkov, Ukraine"
+  },
+  "historical_note": "Mansteins Gegenoffensive"
+ },
+ "652": {
+  "number": 652,
+  "date": "1943-03-03",
+  "event_en": "Tunisia & Dnieper-Donets (Leibstandarte)",
+  "event_de": "Tunesien & Dnjepr-Donez (Leibstandarte)",
+  "location": {
+   "lat": 49.9935,
+   "lng": 36.2304,
+   "desc": "Tunisia"
+  },
+  "historical_note": "Tunesien: Kaempfe an der tunesischen Front, Beschuss feindlicher Bunkerlinien, gemeldete Beute (235 Panzer) und rund 4000 britische und amerikanische Gefangene - Ostfront: Abwehr- und Gegenangriff zwischen Dnjepr und Donez durch Waffen-SS ("
+ },
+ "653": {
+  "number": 653,
+  "date": "1943-03-10",
+  "event_en": "Kharkov Victory",
+  "event_de": "Charkow Sieg",
+  "location": {
+   "lat": 49.9935,
+   "lng": 36.2304,
+   "desc": "Kharkov, Ukraine"
+  },
+  "historical_note": "Rückeroberung Charkows (14.03.1943)"
+ },
+ "654": {
+  "number": 654,
+  "date": "1943-03-17",
+  "event_en": "Dnieper-Donets (Kharkov) & Atlantic Wall",
+  "event_de": "Dnjepr-Donez (Charkow) & Atlantikwall",
+  "location": {
+   "lat": 36.8065,
+   "lng": 10.1815,
+   "desc": "Eastern Front (Dnieper-Donets/Kharkov)"
+  },
+  "historical_note": "Ostfront: Winterkampf zwischen Dnjepr und Donez (Umfeld der Rueckeroberung Charkows), gemeldete 773 zerstoerte/erbeutete sowjetische Panzer in den ersten 10 Maerztagen, Kampf suedlich des Ladogasees, Partisanenbekaempfung - Westen: Ausbau d"
+ },
+ "655": {
+  "number": 655,
+  "date": "1943-03-24",
+  "event_en": "Africa Retreat",
+  "event_de": "Afrika Rückzug",
+  "location": {
+   "lat": 32.0853,
+   "lng": 20.0,
+   "desc": "North Africa"
+  },
+  "historical_note": "Rückzug auf Tunis"
+ },
+ "656": {
+  "number": 656,
+  "date": "1943-03-31",
+  "event_en": "Eastern Situation",
+  "event_de": "Ostfront Lage",
+  "location": {
+   "lat": 55.0,
+   "lng": 30.0,
+   "desc": "Eastern Front"
+  },
+  "historical_note": "Frontbegradigung"
+ },
+ "657": {
+  "number": 657,
+  "date": "1943-04-07",
+  "event_en": "Katyn Discovery",
+  "event_de": "Katyn Entdeckung",
+  "location": {
+   "lat": 54.7756,
+   "lng": 31.7919,
+   "desc": "Katyn, Russia"
+  },
+  "historical_note": "Entdeckung des Katyn-Massakers (13.04.1943)"
+ },
+ "658": {
+  "number": 658,
+  "date": "1943-04-14",
+  "event_en": "Katyn Propaganda",
+  "event_de": "Katyn Propaganda",
+  "location": {
+   "lat": 54.7756,
+   "lng": 31.7919,
+   "desc": "Katyn, Russia"
+  },
+  "historical_note": "Propaganda über Katyn"
+ },
+ "659": {
+  "number": 659,
+  "date": "1943-04-21",
+  "event_en": "Tunisia Final",
+  "event_de": "Tunis Endkampf",
+  "location": {
+   "lat": 36.8065,
+   "lng": 10.1815,
+   "desc": "Tunisia"
+  },
+  "historical_note": "Letzte Kämpfe in Afrika"
+ },
+ "660": {
+  "number": 660,
+  "date": "1943-04-28",
+  "event_en": "Dambuster Raid",
+  "event_de": "Dambuster Raid",
+  "location": {
+   "lat": 51.4,
+   "lng": 8.3,
+   "desc": "Möhne Dam, Germany"
+  },
+  "historical_note": "Angriff auf Möhne- und Edertalsperre geplant"
+ },
+ "661": {
+  "number": 661,
+  "date": "1943-05-05",
+  "event_en": "Africa Defeat",
+  "event_de": "Afrika Niederlage",
+  "location": {
+   "lat": 36.8065,
+   "lng": 10.1815,
+   "desc": "Tunis, Tunisia"
+  },
+  "historical_note": "Ende in Nordafrika naht"
+ },
+ "662": {
+  "number": 662,
+  "date": "1943-05-12",
+  "event_en": "Africa Surrender",
+  "event_de": "Afrika Kapitulation",
+  "location": {
+   "lat": 36.8065,
+   "lng": 10.1815,
+   "desc": "Tunis, Tunisia"
+  },
+  "historical_note": "Kapitulation in Tunis (13.05.1943)"
+ },
+ "663": {
+  "number": 663,
+  "date": "1943-05-19",
+  "event_en": "Dambuster Attack",
+  "event_de": "Dambuster Angriff",
+  "location": {
+   "lat": 51.4,
+   "lng": 8.3,
+   "desc": "Möhne Dam, Germany"
+  },
+  "historical_note": "Operation Chastise (17.05.1943)"
+ },
+ "665": {
+  "number": 665,
+  "date": "1943-06-02",
+  "event_en": "Ruhr Bombing",
+  "event_de": "Ruhrgebiet Bomben",
+  "location": {
+   "lat": 51.4556,
+   "lng": 7.0116,
+   "desc": "Essen, Germany"
+  },
+  "historical_note": "Battle of the Ruhr"
+ },
+ "666": {
+  "number": 666,
+  "date": "1943-06-09",
+  "event_en": "Citadel Planning",
+  "event_de": "Zitadelle Planung",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Berlin, Germany"
+  },
+  "historical_note": "Vorbereitung Operation Zitadelle"
+ },
+ "667": {
+  "number": 667,
+  "date": "1943-06-16",
+  "event_en": "Sicily Preparation",
+  "event_de": "Sizilien Vorbereitung",
+  "location": {
+   "lat": 37.5994,
+   "lng": 14.0154,
+   "desc": "Sicily, Italy"
+  },
+  "historical_note": "Alliierte planen Sizilien-Invasion"
+ },
+ "668": {
+  "number": 668,
+  "date": "1943-06-23",
+  "event_en": "Kursk Buildup",
+  "event_de": "Kursk Aufmarsch",
+  "location": {
+   "lat": 51.7373,
+   "lng": 36.1874,
+   "desc": "Kursk, Russia"
+  },
+  "historical_note": "Truppenkonzentration bei Kursk"
+ },
+ "669": {
+  "number": 669,
+  "date": "1943-06-30",
+  "event_en": "Hamburg Bombing",
+  "event_de": "Hamburg Bomben",
+  "location": {
+   "lat": 53.5511,
+   "lng": 9.9937,
+   "desc": "Hamburg, Germany"
+  },
+  "historical_note": "Vorbereitung Operation Gomorrha"
+ },
+ "670": {
+  "number": 670,
+  "date": "1943-07-07",
+  "event_en": "Kursk Battle",
+  "event_de": "Kursk Schlacht",
+  "location": {
+   "lat": 51.7373,
+   "lng": 36.1874,
+   "desc": "Kursk, Russia"
+  },
+  "historical_note": "GRÖSSTE PANZERSCHLACHT! Operation Zitadelle (05.07.1943)"
+ },
+ "671": {
+  "number": 671,
+  "date": "1943-07-14",
+  "event_en": "Sicily Invasion",
+  "event_de": "Sizilien Invasion",
+  "location": {
+   "lat": 37.5994,
+   "lng": 14.0154,
+   "desc": "Sicily, Italy"
+  },
+  "historical_note": "Alliierte landen auf Sizilien (10.07.1943)"
+ },
+ "672": {
+  "number": 672,
+  "date": "1943-07-21",
+  "event_en": "Kursk Cancelled",
+  "event_de": "Kursk Abbruch",
+  "location": {
+   "lat": 51.7373,
+   "lng": 36.1874,
+   "desc": "Kursk, Russia"
+  },
+  "historical_note": "Zitadelle wird abgebrochen"
+ },
+ "673": {
+  "number": 673,
+  "date": "1943-07-28",
+  "event_en": "Hamburg Firestorm",
+  "event_de": "Hamburg Feuersturm",
+  "location": {
+   "lat": 53.5511,
+   "lng": 9.9937,
+   "desc": "Hamburg, Germany"
+  },
+  "historical_note": "Operation Gomorrha (24.07.-03.08.1943)"
+ },
+ "674": {
+  "number": 674,
+  "date": "1943-08-04",
+  "event_en": "Mussolini Falls",
+  "event_de": "Mussolini Sturz",
+  "location": {
+   "lat": 41.9028,
+   "lng": 12.4964,
+   "desc": "Rome, Italy"
+  },
+  "historical_note": "Sturz Mussolinis (25.07.1943)"
+ },
+ "675": {
+  "number": 675,
+  "date": "1943-08-11",
+  "event_en": "Sicily Retreat",
+  "event_de": "Sizilien Rückzug",
+  "location": {
+   "lat": 37.5994,
+   "lng": 14.0154,
+   "desc": "Sicily, Italy"
+  },
+  "historical_note": "Evakuierung aus Sizilien"
+ },
+ "676": {
+  "number": 676,
+  "date": "1943-08-18",
+  "event_en": "Sicily Lost",
+  "event_de": "Sizilien verloren",
+  "location": {
+   "lat": 37.5994,
+   "lng": 14.0154,
+   "desc": "Sicily, Italy"
+  },
+  "historical_note": "Räumung Siziliens abgeschlossen (17.08.1943)"
+ },
+ "677": {
+  "number": 677,
+  "date": "1943-08-25",
+  "event_en": "Soviet Counter",
+  "event_de": "Sowjet Gegenoffensive",
+  "location": {
+   "lat": 55.7558,
+   "lng": 37.6173,
+   "desc": "Moscow, Russia"
+  },
+  "historical_note": "Sowjetische Sommeroffensive beginnt"
+ },
+ "679": {
+  "number": 679,
+  "date": "1943-09-08",
+  "event_en": "Italy Surrenders",
+  "event_de": "Italien Kapitulation",
+  "location": {
+   "lat": 41.9028,
+   "lng": 12.4964,
+   "desc": "Rome, Italy"
+  },
+  "historical_note": "Waffenstillstand mit Italien (08.09.1943)"
+ },
+ "680": {
+  "number": 680,
+  "date": "1943-09-15",
+  "event_en": "Mussolini Rescue",
+  "event_de": "Mussolini Befreiung",
+  "location": {
+   "lat": 42.4605,
+   "lng": 13.5628,
+   "desc": "Gran Sasso, Italy"
+  },
+  "historical_note": "Gran Sasso Raid - Befreiung Mussolinis (12.09.1943)"
+ },
+ "681": {
+  "number": 681,
+  "date": "1943-09-22",
+  "event_en": "Salerno Landing",
+  "event_de": "Salerno Landung",
+  "location": {
+   "lat": 40.6824,
+   "lng": 14.7681,
+   "desc": "Salerno, Italy"
+  },
+  "historical_note": "Alliierte landen bei Salerno (09.09.1943)"
+ },
+ "682": {
+  "number": 682,
+  "date": "1943-09-29",
+  "event_en": "Italy Front",
+  "event_de": "Italien Front",
+  "location": {
+   "lat": 41.9028,
+   "lng": 12.4964,
+   "desc": "Italy"
+  },
+  "historical_note": "Kämpfe in Süditalien"
+ },
+ "683": {
+  "number": 683,
+  "date": "1943-10-06",
+  "event_en": "Smolensk Freed",
+  "event_de": "Smolensk befreit",
+  "location": {
+   "lat": 54.7826,
+   "lng": 32.0453,
+   "desc": "Smolensk, Russia"
+  },
+  "historical_note": "Sowjets befreien Smolensk (25.09.1943)"
+ },
+ "684": {
+  "number": 684,
+  "date": "1943-10-13",
+  "event_en": "Dnepr Battles",
+  "event_de": "Dnepr Kämpfe",
+  "location": {
+   "lat": 50.4501,
+   "lng": 30.5234,
+   "desc": "Dnieper River, Ukraine"
+  },
+  "historical_note": "Schlacht um den Dnepr"
+ },
+ "685": {
+  "number": 685,
+  "date": "1943-10-20",
+  "event_en": "Kiev Advance",
+  "event_de": "Kiew Vormarsch",
+  "location": {
+   "lat": 50.4501,
+   "lng": 30.5234,
+   "desc": "Kyiv, Ukraine"
+  },
+  "historical_note": "Sowjets nähern sich Kiew"
+ },
+ "686": {
+  "number": 686,
+  "date": "1943-10-27",
+  "event_en": "Gustav Line",
+  "event_de": "Gustav Linie",
+  "location": {
+   "lat": 41.4905,
+   "lng": 13.8134,
+   "desc": "Monte Cassino, Italy"
+  },
+  "historical_note": "Deutsche errichten Gustav-Linie"
+ },
+ "687": {
+  "number": 687,
+  "date": "1943-11-03",
+  "event_en": "Kiev Battle",
+  "event_de": "Kiew Schlacht",
+  "location": {
+   "lat": 50.4501,
+   "lng": 30.5234,
+   "desc": "Kyiv, Ukraine"
+  },
+  "historical_note": "Kampf um Kiew"
+ },
+ "688": {
+  "number": 688,
+  "date": "1943-11-10",
+  "event_en": "Kiev Liberated",
+  "event_de": "Kiew befreit",
+  "location": {
+   "lat": 50.4501,
+   "lng": 30.5234,
+   "desc": "Kyiv, Ukraine"
+  },
+  "historical_note": "Befreiung Kiews (06.11.1943)"
+ },
+ "689": {
+  "number": 689,
+  "date": "1943-11-17",
+  "event_en": "Berlin Bombed",
+  "event_de": "Berlin Bomben",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Berlin, Germany"
+  },
+  "historical_note": "Battle of Berlin beginnt (18.11.1943)"
+ },
+ "690": {
+  "number": 690,
+  "date": "1943-11-24",
+  "event_en": "Krivoy Rog & Lapland Front (Dietl)",
+  "event_de": "Kriwoi Rog & Lapplandfront (Dietl)",
+  "location": {
+   "lat": 35.6892,
+   "lng": 51.389,
+   "desc": "Eastern Front (Krivoy Rog)"
+  },
+  "historical_note": "Ostfront: Kampfhandlungen bei Kriwoi Rog mit Sturzkampfflieger-Angriffen - Lapplandfront: General Dietl besichtigt die Stellungen, Ritterkreuzverleihung - Atlantikwall: japanischer Botschafter General Oshima besichtigt die Kuestenbefestigun"
+ },
+ "691": {
+  "number": 691,
+  "date": "1943-12-01",
+  "event_en": "Winter Battles",
+  "event_de": "Winterkämpfe",
+  "location": {
+   "lat": 55.0,
+   "lng": 30.0,
+   "desc": "Eastern Front"
+  },
+  "historical_note": "Winterkämpfe an der Ostfront"
+ },
+ "692": {
+  "number": 692,
+  "date": "1943-12-08",
+  "event_en": "Berlin air raid & Dnieper front",
+  "event_de": "Luftkrieg Berlin & Dnjepr",
+  "location": {
+   "lat": 55.0,
+   "lng": 30.0,
+   "desc": "Heimatfront/Berlin"
+  },
+  "historical_note": "Goebbels und Wehrmacht beim Wiederherstellen Berlins nach britisch-amerikanischem Luftangriff, Hilfe fuer Bombengeschaedigte - Abwehrkaempfe an der Ostfront mit Panzervorstoessen am Dnjepr und Stuka-Angriffen bei Newel - Himmler besucht neu"
+ },
+ "693": {
+  "number": 693,
+  "date": "1943-12-15",
+  "event_en": "Monte Cassino",
+  "event_de": "Monte Cassino",
+  "location": {
+   "lat": 41.4905,
+   "lng": 13.8134,
+   "desc": "Monte Cassino, Italy"
+  },
+  "historical_note": "Kämpfe um Monte Cassino beginnen"
+ },
+ "694": {
+  "number": 694,
+  "date": "1943-12-22",
+  "event_en": "Christmas 1943",
+  "event_de": "Weihnachten 1943",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Germany"
+  },
+  "historical_note": "Viertes Kriegsweihnachten"
+ },
+ "695": {
+  "number": 695,
+  "date": "1943-12-29",
+  "event_en": "Leningrad Prep",
+  "event_de": "Leningrad Vorbereitung",
+  "location": {
+   "lat": 59.9343,
+   "lng": 30.3351,
+   "desc": "Leningrad, Russia"
+  },
+  "historical_note": "Vorbereitung der Leningrad-Offensive"
+ },
+ "696": {
+  "number": 696,
+  "date": "1944-01-05",
+  "event_en": "New Year 1944",
+  "event_de": "Neujahr 1944",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Berlin, Germany"
+  },
+  "historical_note": "Fünftes Kriegsjahr beginnt"
+ },
+ "697": {
+  "number": 697,
+  "date": "1944-01-12",
+  "event_en": "Kirovograd & U-boat Indian Ocean",
+  "event_de": "Kirowograd & U-Boot Indik",
+  "location": {
+   "lat": 59.9343,
+   "lng": 30.3351,
+   "desc": "Ostfront (Kirowograd/Leningrad)"
+  },
+  "historical_note": "Abwehrkaempfe an der Ostfront gegen die sowjetische Winteroffensive bei Kirowograd, Einsatz von Feldhaubitzen, Kaempfe im Raum Leningrad - Eichenlaubtraeger Korvettenkapitaen Gysae auf Feindfahrt mit U-Boot im Indischen Ozean, Versorgung du"
+ },
+ "698": {
+  "number": 698,
+  "date": "1944-01-20",
+  "event_en": "Nikopol bridgehead & air defence",
+  "event_de": "Nikopol & Luftabwehr",
+  "location": {
+   "lat": 59.9343,
+   "lng": 30.3351,
+   "desc": "Ostfront (Nikopol)"
+  },
+  "historical_note": "Nachschub am Nikopol-Brueckenkopf und Abwehr sowjetischer Angriffe an der Ostfront - Abwehr des amerikanischen Bombenangriffs vom 11. Januar mit Flak, Jaegern und Zerstoerern, Verhoer abgeschossener US-Flugzeugbesatzungen - Generalmajor Ada"
+ },
+ "699": {
+  "number": 699,
+  "date": "1944-01-26",
+  "event_en": "Eastern Front self-propelled guns",
+  "event_de": "Ostfront-Sturmgeschuetze",
+  "location": {
+   "lat": 41.4475,
+   "lng": 12.6323,
+   "desc": "Ostfront"
+  },
+  "historical_note": "Deutsche Selbstfahrlafetten (Hornisse und Wespe) im Einsatz an der Ostfront im Schnee, Eroeffnung des Feuers, bei Nacht brennende russische Doerfer und Rueckeroberung von Ortschaften - Bilanzkommentar zu sowjetischen Verlusten 13.12.1943 bi"
+ },
+ "700": {
+  "number": 700,
+  "date": "1944-02-02",
+  "event_en": "Halle signals school & tank workshop",
+  "event_de": "Nachrichtenschule Halle & Panzerwerkstatt",
+  "location": {
+   "lat": 49.1786,
+   "lng": 31.2513,
+   "desc": "Heimat/Ausbildung (Halle)"
+  },
+  "historical_note": "Ausbildung an der Nachrichtenschule in Halle (Sachsen), Funk-, Fernschreib- und Morseunterricht, u.a. mit einem finnischen Leutnant - Panzer-Instandsetzung im Schnee an der Ostfront, ausgezeichnete Tiger-Besatzung (Ritterkreuz fuer 89 abges"
+ },
+ "701": {
+  "number": 701,
+  "date": "1944-02-09",
+  "event_en": "Lufthansa anniversary & Monte Cassino",
+  "event_de": "Lufthansa-Jubilaeum & Monte Cassino",
+  "location": {
+   "lat": 41.4905,
+   "lng": 13.8134,
+   "desc": "Heimat/Luftfahrt"
+  },
+  "historical_note": "25-jaehriges Jubilaeum der Lufthansa mit Rueckblick auf deutsche Verkehrsflugzeuge - Italienfront: Bombardierung von Monte Cassino, deutsche Stellungen, Aufklaerungsgefecht mit US-Truppen und Gefangenenverhoer - Staatsbegraebnis fuer Genera"
+ },
+ "702": {
+  "number": 702,
+  "date": "1944-02-16",
+  "event_en": "Cassino Bombed",
+  "event_de": "Cassino Bombardiert",
+  "location": {
+   "lat": 41.4905,
+   "lng": 13.8134,
+   "desc": "Monte Cassino, Italy"
+  },
+  "historical_note": "Bombardierung des Klosters (15.02.1944)"
+ },
+ "703": {
+  "number": 703,
+  "date": "1944-02-23",
+  "event_en": "Monte Cassino & Crimea (Kerch)",
+  "event_de": "Monte Cassino & Krim (Kertsch)",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Suedfront (Italien/Monte Cassino)"
+  },
+  "historical_note": "Zerstoerung des Klosters Monte Cassino und der Abt auf dem Weg nach Rom, zerstoertes Castel Gandolfo - Gegenstoss einer deutschen Panzerdivision im Kampfraum Kirowograd - Abwehrkaempfe um den feindlichen Brueckenkopf bei Kertsch auf der Kri"
+ },
+ "704": {
+  "number": 704,
+  "date": "1944-03-01",
+  "event_en": "Anzio/Nettuno & Estonia",
+  "event_de": "Nettuno/Anzio & Estland",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Suedfront (Italien/Anzio-Nettuno)"
+  },
+  "historical_note": "Kaempfe gegen den alliierten Landekopf bei Anzio/Nettuno in Sueditalien, deutsche 8,8-cm-Flak und Gefangennahme alliierter Soldaten und Material (von IWM bestaetigt) - estnische Mobilmachung/Kriegsfreiwillige im Baltikum - Hitler empfaengt "
+ },
+ "705": {
+  "number": 705,
+  "date": "1944-03-08",
+  "event_en": "Narva Front & Nettuno",
+  "event_de": "Narwa-Front & Nettuno",
+  "location": {
+   "lat": 41.4905,
+   "lng": 13.8134,
+   "desc": "Ostfront (Narwa)"
+  },
+  "historical_note": "Planmaessige Absetzbewegung an der Ostfront bei Narwa und Kampf gegen die nachdraengenden Sowjets - Bekaempfung des amerikanischen Landekopfes bei Nettuno an der Suedfront mit schwersten Eisenbahngeschuetzen - Rommel besichtigt die Befestig"
+ },
+ "706": {
+  "number": 706,
+  "date": "1944-03-15",
+  "event_en": "Heroes' Memorial Day & Eastern Front/Italy",
+  "event_de": "Heldengedenktag & Ostfront/Italien",
+  "location": {
+   "lat": 47.4979,
+   "lng": 19.0402,
+   "desc": "Heimat/Deutschland (Berlin)"
+  },
+  "historical_note": "Heldengedenktag-Feier in Berlin mit Kranzniederlegung und Ehrenformation - politische Schulung (NSDAP), versehrte Soldaten beim Sport - Bau von Bergbunkern/Luftschutz, RAD beim Skieinsatz - Gefechtsaufnahmen von der Ostfront (Sowjetunion) u"
+ },
+ "707": {
+  "number": 707,
+  "date": "1944-03-22",
+  "event_en": "Narva Front & Reich Air Defense",
+  "event_de": "Narwa-Front & Reichsluftverteidigung",
+  "location": {
+   "lat": 44.9521,
+   "lng": 34.1024,
+   "desc": "Ostfront (Narwa)"
+  },
+  "historical_note": "Kaempfe an der Narwa-Front und Nachschub fuer die Ostfront, Einsatz des 'Goliath'-Zwergpanzers (ferngelenkter Sprengtraeger) - Abwehr eines anglo-amerikanischen Bomberverbandes durch deutsche Jaeger und Zerstoerer, Vorbereitungen der Reichs"
+ },
+ "708": {
+  "number": 708,
+  "date": "1944-03-29",
+  "event_en": "Cassino & Entry into Budapest",
+  "event_de": "Cassino & Einmarsch Budapest",
+  "location": {
+   "lat": 55.0,
+   "lng": 30.0,
+   "desc": "Suedfront (Italien/Cassino)"
+  },
+  "historical_note": "Kaempfe bei Cassino an der Suedfront mit Einsatz von Werfern und Bildern des anglo-amerikanischen Gegners; Goebbels empfaengt Offiziere und Soldaten der schweren Kaempfe um Cassino - Ankunft/Einmarsch deutscher Truppen in Budapest (Ungarn) "
+ },
+ "709": {
+  "number": 709,
+  "date": "1944-04-05",
+  "event_en": "Southern Eastern Front & Southern Italy",
+  "event_de": "Sudfront Ostfront & Suditalien",
+  "location": {
+   "lat": 44.9521,
+   "lng": 34.1024,
+   "desc": "Ostfront (Suedabschnitt)"
+  },
+  "historical_note": "65. Geburtstag des Bildhauers Prof. Richard Scheibe, Radsportfest in Singen, Kinderlandverschickungsheim - Uebernahme von Hitlerjungen in den RAD, Hochgebirgsschule der Waffen-SS in den Alpen - Absetzbewegungen am Suedabschnitt der Ostfront"
+ },
+ "710": {
+  "number": 710,
+  "date": "1944-04-12",
+  "event_en": "Nettuno/Anzio & Narva",
+  "event_de": "Nettuno/Anzio & Narva",
+  "location": {
+   "lat": 44.9521,
+   "lng": 34.1024,
+   "desc": "Italienfront (Nettuno/Anzio)"
+  },
+  "historical_note": "Zivile/kulturelle Beitraege (65. Geburtstag eines Schriftstellers, kroatisches Tanzensemble in Wien, Munitionsfertigung) - Italienfront bei Nettuno: Oberst Heinrich Trettner verleiht Eiserne Kreuze, Flakabwehr und Fernartillerie bei Anzio -"
+ },
+ "711": {
+  "number": 711,
+  "date": "1944-04-19",
+  "event_en": "Cassino & Kowel",
+  "event_de": "Cassino & Kowel",
+  "location": {
+   "lat": 49.1829,
+   "lng": -0.3707,
+   "desc": "Cassino (Italien)"
+  },
+  "historical_note": "75-jaehriger Dirigent Prof. Fitzner, Eroeffnung der Galopprennsaison in Berlin, Goebbels-Aufsatz aus 'Das Reich' im Rundfunk, Kriegsberufswettkampf der Jugend im Bergbau - Raum Cassino: Artilleriekampf und Panzerabwehr deutscher Fallschirmj"
+ },
+ "712": {
+  "number": 712,
+  "date": "1944-04-26",
+  "event_en": "Hitler's birthday celebration & Eastern Front",
+  "event_de": "Fuehrer-Geburtstag & Ostfront",
+  "location": {
+   "lat": 49.1829,
+   "lng": -0.3707,
+   "desc": "Reichsgebiet (NS-Feier)"
+  },
+  "historical_note": "Reichsfeier der NSDAP am Vorabend von Hitlers Geburtstag, Rede von Reichsminister Goebbels, Glueckwuensche von Reichsmarschall und Generaelen - Absetzbewegungen an der Ostfront, Einsatz von Tiger-Panzern und Artillerie - Abwehr feindlicher "
+ },
+ "713": {
+  "number": 713,
+  "date": "1944-05-03",
+  "event_en": "Stanislau & Western invasion preparations",
+  "event_de": "Stanislau & Invasionsvorbereitung West",
+  "location": {
+   "lat": 44.6167,
+   "lng": 33.5254,
+   "desc": "Ostfront (Stanislau)"
+  },
+  "historical_note": "Trauerfeier fuer Gauleiter Adolf Wagner in Muenchen, Beisetzung Generaloberst Hube, Einzug der SS-Sturmbrigade 'Wallonien', Fussballwettkampf Muenchen-Berlin - Ostfront im Raum Stanislau: Vorstoss deutscher und ungarischer Truppen - Westen:"
+ },
+ "714": {
+  "number": 714,
+  "date": "1944-05-10",
+  "event_en": "Cassino Final",
+  "event_de": "Cassino Finale",
+  "location": {
+   "lat": 41.4905,
+   "lng": 13.8134,
+   "desc": "Monte Cassino, Italy"
+  },
+  "historical_note": "Vierte Schlacht um Monte Cassino"
+ },
+ "715": {
+  "number": 715,
+  "date": "1944-05-17",
+  "event_en": "Evacuation of Crimea/Sevastopol",
+  "event_de": "Raeumung der Krim/Sewastopol",
+  "location": {
+   "lat": 41.4905,
+   "lng": 13.8134,
+   "desc": "Krim/Sewastopol (Ostfront)"
+  },
+  "historical_note": "Transport von Rohstoffen und Lebensmitteln, Einfuehrung der Postleitzahl, Streiks in USA/England - Generalfeldmarschall Rundstedt (OB West) bei Lagebesprechung und Rommel bei Inspektion der Kanalkueste - Rueckzug deutscher und rumaenischer "
+ },
+ "716": {
+  "number": 716,
+  "date": "1944-05-24",
+  "event_en": "Rome Offensive",
+  "event_de": "Rom Offensive",
+  "location": {
+   "lat": 41.9028,
+   "lng": 12.4964,
+   "desc": "Rome, Italy"
+  },
+  "historical_note": "Vormarsch auf Rom"
+ },
+ "717": {
+  "number": 717,
+  "date": "1944-05-31",
+  "event_en": "Italy Retreat",
+  "event_de": "Italien Rückzug",
+  "location": {
+   "lat": 41.9028,
+   "lng": 12.4964,
+   "desc": "Italy"
+  },
+  "historical_note": "Rückzug in Italien"
+ },
+ "718": {
+  "number": 718,
+  "date": "1944-06-07",
+  "event_en": "D-Day",
+  "event_de": "D-Day",
+  "location": {
+   "lat": 49.3385,
+   "lng": -0.8638,
+   "desc": "Omaha Beach, Normandy"
+  },
+  "historical_note": "ALLIIERTE INVASION NORMANDIE (06.06.1944)"
+ },
+ "719": {
+  "number": 719,
+  "date": "1944-06-14",
+  "event_en": "Rome Falls",
+  "event_de": "Rom gefallen",
+  "location": {
+   "lat": 41.9028,
+   "lng": 12.4964,
+   "desc": "Rome, Italy"
+  },
+  "historical_note": "Fall von Rom (04.06.1944)"
+ },
+ "720": {
+  "number": 720,
+  "date": "1944-06-21",
+  "event_en": "Normandy & SS Hitler Youth",
+  "event_de": "Normandie & SS Hitlerjugend",
+  "location": {
+   "lat": 51.5074,
+   "lng": -0.1278,
+   "desc": "Westfront/Normandie"
+  },
+  "historical_note": "Abwehr feindlicher Einheiten in Nordfrankreich nach der alliierten Invasion - Auszeichnung der tapfersten Kaempfer der SS-Division 'Hitlerjugend'"
+ },
+ "721": {
+  "number": 721,
+  "date": "1944-06-28",
+  "event_en": "Eastern Front & Invasion Front",
+  "event_de": "Ostfront & Invasionsfront",
+  "location": {
+   "lat": 53.9045,
+   "lng": 27.5615,
+   "desc": "Ostfront"
+  },
+  "historical_note": "Stukaangriffe und deutscher Panzervorstoss an der Ostfront, Abwehr von Sowjetfliegern - Invasionsfront in der Normandie: Kaempfe um Saint-Lo, Heldentod des Brigadefuehrers Witt, Flak-Helferinnen und Lazarettschiff 'Erlangen' im Hintergrund"
+ },
+ "722": {
+  "number": 722,
+  "date": "1944-07-05",
+  "event_en": "Dietl Funeral & Cherbourg",
+  "event_de": "Dietl-Trauerfeier & Cherbourg",
+  "location": {
+   "lat": 53.9045,
+   "lng": 27.5615,
+   "desc": "Heimat/Reich (Trauerfeier)"
+  },
+  "historical_note": "Trauerfeier fuer den toedlich verunglueckten Generaloberst Eduard Dietl mit Nachruf Hitlers - Abwehr britisch-amerikanischer Schiffseinheiten bei Cherbourg und Schlacht bei Bayeux an der Invasionsfront; Rede Leon Degrelles in Berlin"
+ },
+ "723": {
+  "number": 723,
+  "date": "1944-07-12",
+  "event_en": "Minsk Liberated",
+  "event_de": "Minsk befreit",
+  "location": {
+   "lat": 53.9045,
+   "lng": 27.5615,
+   "desc": "Minsk, Belarus"
+  },
+  "historical_note": "Befreiung Minsks (03.07.1944)"
+ },
+ "724": {
+  "number": 724,
+  "date": "1944-07-19",
+  "event_en": "July 20 Plot",
+  "event_de": "20. Juli Attentat",
+  "location": {
+   "lat": 54.0833,
+   "lng": 21.1167,
+   "desc": "Wolf's Lair, East Prussia"
+  },
+  "historical_note": "STAUFFENBERG-ATTENTAT (20.07.1944)"
+ },
+ "725": {
+  "number": 725,
+  "date": "1944-07-26",
+  "event_en": "Warsaw Uprising",
+  "event_de": "Warschauer Aufstand",
+  "location": {
+   "lat": 52.2297,
+   "lng": 21.0122,
+   "desc": "Warsaw, Poland"
+  },
+  "historical_note": "Warschauer Aufstand beginnt (01.08.1944)"
+ },
+ "726": {
+  "number": 726,
+  "date": "1944-08-02",
+  "event_en": "Paris Threatened",
+  "event_de": "Paris bedroht",
+  "location": {
+   "lat": 48.8566,
+   "lng": 2.3522,
+   "desc": "Paris, France"
+  },
+  "historical_note": "Alliierte nähern sich Paris"
+ },
+ "727": {
+  "number": 727,
+  "date": "1944-08-09",
+  "event_en": "Falaise Pocket",
+  "event_de": "Falaise Kessel",
+  "location": {
+   "lat": 48.8955,
+   "lng": -0.1944,
+   "desc": "Falaise, France"
+  },
+  "historical_note": "Einschließung bei Falaise"
+ },
+ "728": {
+  "number": 728,
+  "date": "1944-08-16",
+  "event_en": "Paris Liberated",
+  "event_de": "Paris befreit",
+  "location": {
+   "lat": 48.8566,
+   "lng": 2.3522,
+   "desc": "Paris, France"
+  },
+  "historical_note": "Befreiung von Paris (25.08.1944)"
+ },
+ "729": {
+  "number": 729,
+  "date": "1944-08-23",
+  "event_en": "Romania Surrenders",
+  "event_de": "Rumänien Kapitulation",
+  "location": {
+   "lat": 44.4268,
+   "lng": 26.1025,
+   "desc": "Bucharest, Romania"
+  },
+  "historical_note": "Rumänien wechselt die Seiten (23.08.1944)"
+ },
+ "730": {
+  "number": 730,
+  "date": "1944-08-30",
+  "event_en": "France Retreat",
+  "event_de": "Rückzug Frankreich",
+  "location": {
+   "lat": 48.8566,
+   "lng": 2.3522,
+   "desc": "France"
+  },
+  "historical_note": "Allgemeiner Rückzug aus Frankreich"
+ },
+ "731": {
+  "number": 731,
+  "date": "1944-09-06",
+  "event_en": "Finland Surrenders",
+  "event_de": "Finnland Kapitulation",
+  "location": {
+   "lat": 60.1699,
+   "lng": 24.9384,
+   "desc": "Helsinki, Finland"
+  },
+  "historical_note": "Waffenstillstand mit Finnland (04.09.1944)"
+ },
+ "732": {
+  "number": 732,
+  "date": "1944-09-13",
+  "event_en": "Reich Border",
+  "event_de": "Reichsgrenze erreicht",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Germany"
+  },
+  "historical_note": "Alliierte erreichen deutsche Grenze"
+ },
+ "733": {
+  "number": 733,
+  "date": "1944-09-20",
+  "event_en": "Market Garden",
+  "event_de": "Market Garden",
+  "location": {
+   "lat": 51.9851,
+   "lng": 5.8987,
+   "desc": "Arnhem, Netherlands"
+  },
+  "historical_note": "Operation Market Garden (17.-25.09.1944)"
+ },
+ "734": {
+  "number": 734,
+  "date": "1944-09-27",
+  "event_en": "Arnhem Victory",
+  "event_de": "Arnheim Sieg",
+  "location": {
+   "lat": 51.9851,
+   "lng": 5.8987,
+   "desc": "Arnhem, Netherlands"
+  },
+  "historical_note": "Deutsche Abwehrerfolg bei Arnheim"
+ },
+ "735": {
+  "number": 735,
+  "date": "1944-10-04",
+  "event_en": "Aachen Battle",
+  "event_de": "Aachen Kampf",
+  "location": {
+   "lat": 50.7753,
+   "lng": 6.0839,
+   "desc": "Aachen, Germany"
+  },
+  "historical_note": "Schlacht um Aachen"
+ },
+ "736": {
+  "number": 736,
+  "date": "1944-10-11",
+  "event_en": "Aachen Falls",
+  "event_de": "Aachen gefallen",
+  "location": {
+   "lat": 50.7753,
+   "lng": 6.0839,
+   "desc": "Aachen, Germany"
+  },
+  "historical_note": "Fall von Aachen (21.10.1944)"
+ },
+ "737": {
+  "number": 737,
+  "date": "1944-10-18",
+  "event_en": "Volkssturm",
+  "event_de": "Volkssturm",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Germany"
+  },
+  "historical_note": "Aufstellung des Volkssturms (18.10.1944)"
+ },
+ "738": {
+  "number": 738,
+  "date": "1944-10-25",
+  "event_en": "East Prussia",
+  "event_de": "Ostpreußen Invasion",
+  "location": {
+   "lat": 54.352,
+   "lng": 18.6466,
+   "desc": "East Prussia"
+  },
+  "historical_note": "Sowjets in Ostpreußen"
+ },
+ "739": {
+  "number": 739,
+  "date": "1944-11-01",
+  "event_en": "East Prussia Defense",
+  "event_de": "Ostpreußen Verteidigung",
+  "location": {
+   "lat": 54.352,
+   "lng": 18.6466,
+   "desc": "East Prussia"
+  },
+  "historical_note": "Kämpfe in Ostpreußen"
+ },
+ "740": {
+  "number": 740,
+  "date": "1944-11-08",
+  "event_en": "V2 Attacks",
+  "event_de": "V2 Angriffe",
+  "location": {
+   "lat": 51.5074,
+   "lng": -0.1278,
+   "desc": "London, England"
+  },
+  "historical_note": "V2-Angriffe auf London und Antwerpen"
+ },
+ "741": {
+  "number": 741,
+  "date": "1944-11-15",
+  "event_en": "Budapest Encircled",
+  "event_de": "Budapest eingekesselt",
+  "location": {
+   "lat": 47.4979,
+   "lng": 19.0402,
+   "desc": "Budapest, Hungary"
+  },
+  "historical_note": "Einschließung von Budapest beginnt"
+ },
+ "742": {
+  "number": 742,
+  "date": "1944-11-22",
+  "event_en": "Strasbourg Liberated",
+  "event_de": "Straßburg befreit",
+  "location": {
+   "lat": 48.5734,
+   "lng": 7.7521,
+   "desc": "Strasbourg, France"
+  },
+  "historical_note": "Befreiung von Straßburg (23.11.1944)"
+ },
+ "743": {
+  "number": 743,
+  "date": "1944-11-29",
+  "event_en": "Ardennes Planning",
+  "event_de": "Ardennen Planung",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Berlin, Germany"
+  },
+  "historical_note": "Vorbereitung Ardennenoffensive"
+ },
+ "744": {
+  "number": 744,
+  "date": "1944-12-06",
+  "event_en": "Last Offensive",
+  "event_de": "Letzte Offensive",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Germany"
+  },
+  "historical_note": "Planung Wacht am Rhein"
+ },
+ "745": {
+  "number": 745,
+  "date": "1944-12-13",
+  "event_en": "Ardennes Ready",
+  "event_de": "Ardennen Bereit",
+  "location": {
+   "lat": 50.2,
+   "lng": 5.8,
+   "desc": "Ardennes, Belgium"
+  },
+  "historical_note": "Aufmarsch für Ardennenoffensive"
+ },
+ "746": {
+  "number": 746,
+  "date": "1944-12-21",
+  "event_en": "Courland & Western Front Roermond",
+  "event_de": "Kurland & Westfront Roermond",
+  "location": {
+   "lat": 50.2,
+   "lng": 5.8,
+   "desc": "Ostfront/Kurland"
+  },
+  "historical_note": "Kaempfe an der Kurland-Front mit Einsatz des MG-42 - Grossangriff der Amerikaner und Briten an der Westfront bei Roermond, Einsatz von Sturmpanzern und Nebelwerfern; Rede von Reichsminister Goebbels in einer westdeutschen Stadt"
+ },
+ "747": {
+  "number": 747,
+  "date": "1944-12-27",
+  "event_en": "Ardennes Peak",
+  "event_de": "Ardennen Höhepunkt",
+  "location": {
+   "lat": 50.0833,
+   "lng": 5.7833,
+   "desc": "Bastogne, Belgium"
+  },
+  "historical_note": "Höhepunkt der Ardennenoffensive"
+ },
+ "748": {
+  "number": 748,
+  "date": "1945-01-03",
+  "event_en": "Northwind Offensive",
+  "event_de": "Nordwind Offensive",
+  "location": {
+   "lat": 48.8,
+   "lng": 7.8,
+   "desc": "Alsace, France"
+  },
+  "historical_note": "Operation Nordwind im Elsass"
+ },
+ "749": {
+  "number": 749,
+  "date": "1945-01-18",
+  "event_en": "Southeast Front & V-2 vs England",
+  "event_de": "Suedostfront & V2 gegen England",
+  "location": {
+   "lat": 50.2,
+   "lng": 5.8,
+   "desc": "Suedostfront/Balkan"
+  },
+  "historical_note": "Spenden fuer neu aufgestellte Volksgrenadierdivisionen und Volkssturm - Kaempfe an der Suedostfront - erste Aufnahmen der Vergeltungswaffe V2 im Flug nach England; Geleitzugfahrt mit Abwehr feindlicher Bomber"
+ },
+ "750": {
+  "number": 750,
+  "date": "1945-01-25",
+  "event_en": "Ardennes Offensive & Soviet Offensive",
+  "event_de": "Ardennenoffensive & Sowjet-Grossoffensive",
+  "location": {
+   "lat": 52.2297,
+   "lng": 21.0122,
+   "desc": "Westfront (Ardennen)"
+  },
+  "historical_note": "Ardennenoffensive an der Westfront - sowjetische Grossoffensive vom 13. Januar 1945 mit deutschem Gegenstoss von Panzerkraeften und Schlachtfliegern; Ausbildung von Volkssturmmaennern und deutsche Sprengboote im Einsatz"
+ },
+ "751": {
+  "number": 751,
+  "date": "1945-02-10",
+  "event_en": "East Prussia & Budapest",
+  "event_de": "Ostpreußen & Budapest",
+  "location": {
+   "lat": 52.2297,
+   "lng": 21.0122,
+   "desc": "Ostfront / Ostpreußen"
+  },
+  "historical_note": "Abwehr der Sowjet-Offensive in Ostpreußen - Verteidigung Budapests und Panzerkämpfe am Plattensee (Rückeroberung Stuhlweißenburg) - Rückkehr Schwerverwundeter, Volkssturm-Einsatz und Flüchtlinge aus dem Osten"
+ },
+ "752": {
+  "number": 752,
+  "date": "1945-02-17",
+  "event_en": "Oder Front & Fortress Breslau",
+  "event_de": "Oderfront & Festung Breslau",
+  "location": {
+   "lat": 50.0343,
+   "lng": 19.1783,
+   "desc": "Oderfront / Schlesien"
+  },
+  "historical_note": "Verteidigung von Breslau, Gauleiter Hanke inspiziert Befestigungen - Kämpfe an der Oder, Sprengung der Oderübergänge und Gefechte bei Frankfurt/Küstrin - Abwehrkämpfe zwischen Niederrhein und Maas, Volksopfer (Wollspende) für Wehrmacht und "
+ },
+ "753": {
+  "number": 753,
+  "date": "1945-03-05",
+  "event_en": "Silesia & Roer Western Front",
+  "event_de": "Schlesien & Roer-Westfront",
+  "location": {
+   "lat": 44.4952,
+   "lng": 34.1615,
+   "desc": "Schlesien / Ostfront"
+  },
+  "historical_note": "Kämpfe in Schlesien und Panzerabwehr gegen sowjetische Verbände - Gefechte an der Roer und bei Jülich an der Westfront - Volkssturm baut Berliner Verteidigungsanlagen; Ehrungen Sven Hedin (80.) und Reichsarbeitsführer Hierl"
+ },
+ "754": {
+  "number": 754,
+  "date": "1945-03-16",
+  "event_en": "Courland & Lauban-Görlitz",
+  "event_de": "Kurland & Lauban-Görlitz",
+  "location": {
+   "lat": 51.0504,
+   "lng": 13.7373,
+   "desc": "Kurland"
+  },
+  "historical_note": "Fünfte sowjetische Großoffensive gegen den Kurland-Brückenkopf, Verwundetentransport und Flucht der Bevölkerung aus dem Osten - Kämpfe um Görlitz und Rückeroberung von Lauban (6. März), Rede von Dr. Goebbels in Görlitz - Abwehrkämpfe an der"
+ },
+ "755": {
+  "number": 755,
+  "date": "1945-02-21",
+  "event_en": "Final Newsreel",
+  "event_de": "Letzte Wochenschau",
+  "location": {
+   "lat": 52.52,
+   "lng": 13.405,
+   "desc": "Berlin, Germany"
+  },
+  "historical_note": "LETZTE WOCHENSCHAU - Hitlers letzter Auftritt"
+ }
 }

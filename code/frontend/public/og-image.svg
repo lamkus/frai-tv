@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0e1a"/>
+      <stop offset="50%" stop-color="#141922"/>
+      <stop offset="100%" stop-color="#0a0e1a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a88642"/>
+      <stop offset="50%" stop-color="#c9a962"/>
+      <stop offset="100%" stop-color="#a88642"/>
+    </linearGradient>
+    <linearGradient id="textGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e0c882"/>
+      <stop offset="100%" stop-color="#c9a962"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <!-- Subtle film grain texture -->
+  <rect width="1200" height="630" fill="url(#bg)" opacity="0.95"/>
+  
+  <!-- Gold accent line top -->
+  <rect x="100" y="80" width="1000" height="2" fill="url(#gold)" opacity="0.6"/>
+  
+  <!-- FRAI.TV Logo -->
+  <text x="600" y="220" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="96" font-weight="900" fill="url(#textGold)" filter="url(#glow)" letter-spacing="8">FRAI.TV</text>
+  
+  <!-- Tagline -->
+  <text x="600" y="290" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="28" fill="#c9a962" letter-spacing="6" opacity="0.9">VINTAGE CINEMA · REMASTERED IN 8K</text>
+  
+  <!-- Divider -->
+  <rect x="450" y="320" width="300" height="1" fill="url(#gold)" opacity="0.4"/>
+  
+  <!-- Stats -->
+  <text x="300" y="400" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">363+</text>
+  <text x="300" y="435" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="rgba(255,255,255,0.6)" letter-spacing="3">VIDEOS</text>
+  
+  <text x="600" y="400" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">22.2K</text>
+  <text x="600" y="435" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="rgba(255,255,255,0.6)" letter-spacing="3">SUBSCRIBERS</text>
+  
+  <text x="900" y="400" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">8K HQ</text>
+  <text x="900" y="435" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="rgba(255,255,255,0.6)" letter-spacing="3">QUALITY</text>
+  
+  <!-- Website -->
+  <text x="600" y="530" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="rgba(255,255,255,0.5)" letter-spacing="4">WWW.REMAIKE.IT</text>
+  
+  <!-- Gold accent line bottom -->
+  <rect x="100" y="550" width="1000" height="2" fill="url(#gold)" opacity="0.6"/>
+</svg>

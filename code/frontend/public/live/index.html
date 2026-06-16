@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CommunityTV — Live Stream Dashboard | frai.tv</title>
+  <meta name="description" content="Interaktives Live-Stream-Dashboard mit Voting, Chat, Queue und Reactions. Second-Screen fuer YouTube Live Streams von remAIke_IT." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://frai.tv/live" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://frai.tv/live" />
+  <meta property="og:title" content="CommunityTV — Live Stream Dashboard | frai.tv" />
+  <meta property="og:description" content="Interaktives Live-Stream-Dashboard mit Voting, Chat, Queue und Reactions. Second-Screen fuer YouTube Live Streams von remAIke_IT." />
+  <meta property="og:image" content="https://i.ytimg.com/vi/FG-vqRH5Cg4/maxresdefault.jpg" />
+  <meta property="og:site_name" content="frai.tv" />
+  <meta property="og:locale" content="de_DE" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="CommunityTV — Live Stream Dashboard | frai.tv" />
+  <meta name="twitter:description" content="Interaktives Live-Stream-Dashboard mit Voting, Chat, Queue und Reactions. Second-Screen fuer YouTube Live Streams von remAIke_IT." />
+  <meta name="twitter:image" content="https://i.ytimg.com/vi/FG-vqRH5Cg4/maxresdefault.jpg" />
+
+  <!-- Theme -->
+  <meta name="theme-color" content="#0a0a0c" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://i.ytimg.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"CommunityTV — Live Stream Dashboard","description":"Interactive live stream dashboard for frai.tv community. Voting, chat, queue management.","url":"https://frai.tv/live","provider":{"@id":"https://frai.tv/#organization"}}</script>
+
+  <style>
+    body { font-family: Inter, system-ui, sans-serif; margin: 0; background: #0f1117; color: #e5e7eb; }
+    .seo-content { max-width: 900px; margin: 0 auto; padding: 40px 24px; }
+    .seo-content h1 { font-size: 2rem; margin-bottom: 16px; }
+    .seo-content h2 { font-size: 1.4rem; margin-top: 24px; color: #c9a962; }
+    .seo-content a { color: #c9a962; }
+    .seo-content ul { padding-left: 20px; }
+    .seo-content li { margin-bottom: 4px; }
+    .seo-content p { line-height: 1.6; opacity: 0.85; }
+    /* Hide SEO content when JS loads the SPA */
+    .js-loaded .seo-content { display: none; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <div class="seo-content">
+    <h1>CommunityTV — Live Stream Dashboard</h1>
+<p>Interaktives Live-Stream-Dashboard fuer die frai.tv Community. Voting, Chat, Queue und Reactions in Echtzeit.</p>
+<p><a href="https://www.youtube.com/@remAIke_IT">Zum YouTube Live Stream</a></p>
+
+    <nav>
+      <p>
+        <a href="/">Startseite</a> |
+        <a href="/timeline">Timeline</a> |
+        <a href="/live">CommunityTV</a> |
+        <a href="/impressum">Impressum</a> |
+        <a href="/datenschutz">Datenschutz</a>
+      </p>
+      <p style="margin-top:16px;font-size:13px;opacity:0.6;">
+        <a href="https://www.youtube.com/@remAIke_IT">YouTube @remAIke_IT</a> |
+        <a href="https://www.remaike.IT">remAIke.IT</a>
+      </p>
+    </nav>
+  </div>
+  <script>
+    // Load SPA bundle if JS is enabled — the SPA takes over rendering
+    (function() {
+      var s = document.querySelector('.seo-content');
+      if (s) s.style.display = 'none';
+      // Find and load the main JS bundle
+      fetch('/').then(function(r) { return r.text(); }).then(function(html) {
+        var m = html.match(/src="(\/assets\/index-[^"]+\.js)"/);
+        if (m) {
+          var script = document.createElement('script');
+          script.type = 'module';
+          script.src = m[1];
+          document.head.appendChild(script);
+          // Also load the CSS
+          var cssMatch = html.match(/href="(\/assets\/index-[^"]+\.css)"/);
+          if (cssMatch) {
+            var link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = cssMatch[1];
+            document.head.appendChild(link);
+          }
+        }
+      }).catch(function() {
+        // If fetch fails, show the static content
+        if (s) s.style.display = '';
+      });
+    })();
+  </script>
+</body>
+</html>
