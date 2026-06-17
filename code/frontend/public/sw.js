@@ -1,8 +1,8 @@
 // frai.tv Service Worker
-// Version: 1.0.1
+// Version: 1.0.2 (cache bump: purge stale app-shell after metadata sync)
 // Enables PWA installability and offline functionality
 
-const CACHE_NAME = 'fraitv-cache-v2';
+const CACHE_NAME = 'fraitv-cache-v3';
 const OFFLINE_URL = '/offline.html';
 
 // Assets to cache on install (App Shell)
