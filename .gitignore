@@ -87,3 +87,4 @@ render_corepop.py
 .deploy.local.ps1
 .youtube_upload_cache.json
 .temp_*.txt
+scripts/youtube/_*.js
